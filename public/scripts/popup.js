@@ -11,7 +11,7 @@ export function showRidingPreview(map, ridingName, lngLat) {
 
     currentRidingName = ridingName;
 
-    fetch('/public/ridingData.json')
+    fetch('/ridingData.json')
         .then(response => {
             if (!response.ok) throw new Error(`ridingData fetch failed: ${response.status}`);
             return response.json();
