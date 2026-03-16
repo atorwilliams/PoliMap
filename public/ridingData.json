@@ -1,0 +1,794 @@
+{
+  "parties": {
+    "United Conservative Caucus": { "color": "#003DA5" },
+  "NDP": { "color": "#F37021" },
+  "Non-partisan": { "color": "#D3D3D3" },
+  "Independent": { "color": "#808080" },
+  "Progressive Tory Party": { "color": "#FFD700" }
+  },
+  "ridings": {
+    "Calgary-Glenmore": {
+      "name": "Calgary-Glenmore",
+      "mla": {
+        "name": "Ms Nagwan Al-Guneid",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0984.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0984&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Cross": {
+      "name": "Calgary-Cross",
+      "mla": {
+        "name": "Honourable Mickey Amery, ECA, KC",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0913.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0913&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-West Henday": {
+      "name": "Edmonton-West Henday",
+      "mla": {
+        "name": "Member Brooks Arcand-Paul",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0955.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0955&legl=31&from=mla_home"
+      }
+    },
+    "Fort Saskatchewan-Vegreville": {
+      "name": "Fort Saskatchewan-Vegreville",
+      "mla": {
+        "name": "Honourable Jackie Armstrong-Homeniuk, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0914.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0914&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Acadia": {
+      "name": "Calgary-Acadia",
+      "mla": {
+        "name": "Member Diana Batten",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0983.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0983&legl=31&from=mla_home"
+      }
+    },
+    "Drayton Valley-Devon": {
+      "name": "Drayton Valley-Devon",
+      "mla": {
+        "name": "Honourable Andrew Boitchenko, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0973.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0973&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Falconridge": {
+      "name": "Calgary-Falconridge",
+      "mla": {
+        "name": "Member Parmeet Singh Boparai",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0956.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0956&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Lougheed": {
+      "name": "Calgary-Lougheed",
+      "mla": {
+        "name": "Mr. Eric Bouchard",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0974.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0974&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-North East": {
+      "name": "Calgary-North East",
+      "mla": {
+        "name": "Member Gurinder Brar",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0957.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0957&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Ellerslie": {
+      "name": "Edmonton-Ellerslie",
+      "mla": {
+        "name": "Mr. Gurtej Singh Brar",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0988.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0988&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Rutherford": {
+      "name": "Edmonton-Rutherford",
+      "mla": {
+        "name": "Member Jodi Calahoo Stonehouse",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0958.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0958&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Buffalo": {
+      "name": "Calgary-Buffalo",
+      "mla": {
+        "name": "Honourable Joe Ceci, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0838.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0838&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Beddington": {
+      "name": "Calgary-Beddington",
+      "mla": {
+        "name": "Ms Amanda Chapman",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0959.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0959&legl=31&from=mla_home"
+      }
+    },
+    "Bonnyville-Cold Lake-St. Paul": {
+      "name": "Bonnyville-Cold Lake-St. Paul",
+      "mla": {
+        "name": "Mr. Scott Cyr",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0886.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0886&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-McClung": {
+      "name": "Edmonton-McClung",
+      "mla": {
+        "name": "Mr. Lorne Dach",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0842.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0842&legl=31&from=mla_home"
+      }
+    },
+    "Chestermere-Strathmore": {
+      "name": "Chestermere-Strathmore",
+      "mla": {
+        "name": "Ms Chantelle de Jonge",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0975.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0975&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Meadows": {
+      "name": "Edmonton-Meadows",
+      "mla": {
+        "name": "Mr. Jasvir Deol",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0909.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0909&legl=31&from=mla_home"
+      }
+    },
+    "Innisfail-Sylvan Lake": {
+      "name": "Innisfail-Sylvan Lake",
+      "mla": {
+        "name": "Honourable Devin Dreeshen, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0908.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0908&legl=31&from=mla_home"
+      }
+    },
+    "Grande Prairie": {
+      "name": "Grande Prairie",
+      "mla": {
+        "name": "Mr. Nolan Dyck",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0976.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0976&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-North West": {
+      "name": "Edmonton-North West",
+      "mla": {
+        "name": "Honourable David Eggen, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0757.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0757&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Foothills": {
+      "name": "Calgary-Foothills",
+      "mla": {
+        "name": "Member Court Ellingson",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0960.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0960&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-West": {
+      "name": "Calgary-West",
+      "mla": {
+        "name": "Honourable Mike Ellis, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0832.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0832&legl=31&from=mla_home"
+      }
+    },
+    "Banff-Kananaskis": {
+      "name": "Banff-Kananaskis",
+      "mla": {
+        "name": "Member Sarah Elmeligi",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0961.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0961&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Currie": {
+      "name": "Calgary-Currie",
+      "mla": {
+        "name": "Member Janet Eremenko",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0962.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0962&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Peigan": {
+      "name": "Calgary-Peigan",
+      "mla": {
+        "name": "Honourable Tanya Fir, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0916.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0916&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Mountain View": {
+      "name": "Calgary-Mountain View",
+      "mla": {
+        "name": "Honourable Kathleen Ganley, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0846.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0846&legl=31&from=mla_home"
+      }
+    },
+    "Lac Ste. Anne-Parkland": {
+      "name": "Lac Ste. Anne-Parkland",
+      "mla": {
+        "name": "Mr. Shane Getson",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0917.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0917&legl=31&from=mla_home"
+      }
+    },
+    "Strathcona-Sherwood Park": {
+      "name": "Strathcona-Sherwood Park",
+      "mla": {
+        "name": "Honourable Nate Glubish, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0919.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0919&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Castle Downs": {
+      "name": "Edmonton-Castle Downs",
+      "mla": {
+        "name": "Ms. Nicole Goehring",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0847.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0847&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Mill Woods": {
+      "name": "Edmonton-Mill Woods",
+      "mla": {
+        "name": "Honourable Christina Gray, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0848.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0848&legl=31&from=mla_home"
+      }
+    },
+    "Airdrie-Cochrane": {
+      "name": "Airdrie-Cochrane",
+      "mla": {
+        "name": "Honourable Pete Guthrie, ECA",
+        "party": "Progressive Tory Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0920.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0920&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Decore": {
+      "name": "Edmonton-Decore",
+      "mla": {
+        "name": "Mr. Sharif Haji",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0963.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0963&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Edgemont": {
+      "name": "Calgary-Edgemont",
+      "mla": {
+        "name": "Ms Julia Hayter",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0964.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0964&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Glenora": {
+      "name": "Edmonton-Glenora",
+      "mla": {
+        "name": "Honourable Sarah Hoffman, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0850.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0850&legl=31&from=mla_home"
+      }
+    },
+    "Drumheller-Stettler": {
+      "name": "Drumheller-Stettler",
+      "mla": {
+        "name": "Honourable Nate Horner, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0921.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0921&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-South": {
+      "name": "Edmonton-South",
+      "mla": {
+        "name": "Member Rhiannon Hoyle",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0965.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0965&legl=31&from=mla_home"
+      }
+    },
+    "Taber-Warner": {
+      "name": "Taber-Warner",
+      "mla": {
+        "name": "Honourable Grant Hunter, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0889.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0889&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-South West": {
+      "name": "Edmonton-South West",
+      "mla": {
+        "name": "Mr. Nathan Ip",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0966.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0966&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Highlands-Norwood": {
+      "name": "Edmonton-Highlands-Norwood",
+      "mla": {
+        "name": "Member Janis Irwin",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0910.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0910&legl=31&from=mla_home"
+      }
+    },
+    "Fort McMurray-Lac La Biche": {
+      "name": "Fort McMurray-Lac La Biche",
+      "mla": {
+        "name": "Honourable Brian Jean, ECA, KC",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0882.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0882&legl=31&from=mla_home"
+      }
+    },
+    "Lacombe-Ponoka": {
+      "name": "Lacombe-Ponoka",
+      "mla": {
+        "name": "Mrs. Jennifer Johnson",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0972.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0972&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-South East": {
+      "name": "Calgary-South East",
+      "mla": {
+        "name": "Honourable Matt Jones, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0923.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0923&legl=31&from=mla_home"
+      }
+    },
+    "Sherwood Park": {
+      "name": "Sherwood Park",
+      "mla": {
+        "name": "Mr. Kyle Kasawski",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0967.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0967&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Elbow": {
+      "name": "Calgary-Elbow",
+      "mla": {
+        "name": "Member Samir Kayande",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0968.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0968&legl=31&from=mla_home"
+      }
+    },
+    "Red Deer-North": {
+      "name": "Red Deer-North",
+      "mla": {
+        "name": "Honourable Adriana LaGrange, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0924.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0924&legl=31&from=mla_home"
+      }
+    },
+    "Central Peace-Notley": {
+      "name": "Central Peace-Notley",
+      "mla": {
+        "name": "Honourable Todd Loewen, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0890.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0890&legl=31&from=mla_home"
+      }
+    },
+    "West Yellowhead": {
+      "name": "West Yellowhead",
+      "mla": {
+        "name": "Honourable Martin Long, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0925.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0925&legl=31&from=mla_home"
+      }
+    },
+    "Camrose": {
+      "name": "Camrose",
+      "mla": {
+        "name": "Ms. Jackie Lovely",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0926.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0926&legl=31&from=mla_home"
+      }
+    },
+    "Leduc-Beaumont": {
+      "name": "Leduc-Beaumont",
+      "mla": {
+        "name": "Mr. Brandon Lunty",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0977.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0977&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Fish Creek": {
+      "name": "Calgary-Fish Creek",
+      "mla": {
+        "name": "Honourable Myles McDougall, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0978.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0978&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Hays": {
+      "name": "Calgary-Hays",
+      "mla": {
+        "name": "Honourable Ric McIver, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0808.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0808&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Varsity": {
+      "name": "Calgary-Varsity",
+      "mla": {
+        "name": "Dr. Luanne Metz",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0969.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0969&legl=31&from=mla_home"
+      }
+    },
+    "Lethbridge-West": {
+      "name": "Lethbridge-West",
+      "mla": {
+        "name": "Member Rob Miyashiro",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0985.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0985&legl=31&from=mla_home"
+      }
+    },
+    "Morinville-St. Albert": {
+      "name": "Morinville-St. Albert",
+      "mla": {
+        "name": "Honourable Dale Nally, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0929.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0929&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Strathcona": {
+      "name": "Edmonton-Strathcona",
+      "mla": {
+        "name": "Mr. Naheed K. Nenshi",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0987.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0987&legl=31&from=mla_home"
+      }
+    },
+    "Lethbridge-East": {
+      "name": "Lethbridge-East",
+      "mla": {
+        "name": "Honourable Nathan Neudorf, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0930.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0930&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Bow": {
+      "name": "Calgary-Bow",
+      "mla": {
+        "name": "Honourable Demetrios Nicolaides, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0931.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0931&legl=31&from=mla_home"
+      }
+    },
+    "Rimbey-Rocky Mountain House-Sundre": {
+      "name": "Rimbey-Rocky Mountain House-Sundre",
+      "mla": {
+        "name": "Honourable Jason Nixon, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0892.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0892&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Whitemud": {
+      "name": "Edmonton-Whitemud",
+      "mla": {
+        "name": "Ms. Rakhi Pancholi",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0911.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0911&legl=31&from=mla_home"
+      }
+    },
+    "Livingstone-Macleod": {
+      "name": "Livingstone-Macleod",
+      "mla": {
+        "name": "Mrs. Chelsae Petrovic",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0979.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0979&legl=31&from=mla_home"
+      }
+    },
+    "Airdrie-East": {
+      "name": "Airdrie-East",
+      "mla": {
+        "name": "Ms Angela Pitt",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0894.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0894&legl=31&from=mla_home"
+      }
+    },
+    "St. Albert": {
+      "name": "St. Albert",
+      "mla": {
+        "name": "Ms. Marie Renaud",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0869.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0869&legl=31&from=mla_home"
+      }
+    },
+    "Vermilion-Lloydminster-Wainwright": {
+      "name": "Vermilion-Lloydminster-Wainwright",
+      "mla": {
+        "name": "Mr. Garth Rowswell",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0937.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0937&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Bhullar-McCall": {
+      "name": "Calgary-Bhullar-McCall",
+      "mla": {
+        "name": "Honourable Irfan Sabir, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0871.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0871&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-North West": {
+      "name": "Calgary-North West",
+      "mla": {
+        "name": "Honourable Rajan Sawhney, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0940.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0940&legl=31&from=mla_home"
+      }
+    },
+    "Olds-Didsbury-Three Hills": {
+      "name": "Olds-Didsbury-Three Hills",
+      "mla": {
+        "name": "Mrs. Tara Sawyer",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0986.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0986&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Gold Bar": {
+      "name": "Edmonton-Gold Bar",
+      "mla": {
+        "name": "Honourable Marlin Schmidt, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0872.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0872&legl=31&from=mla_home"
+      }
+    },
+    "Cardston-Siksika": {
+      "name": "Cardston-Siksika",
+      "mla": {
+        "name": "Honourable Joseph Schow, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0941.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0941&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Shaw": {
+      "name": "Calgary-Shaw",
+      "mla": {
+        "name": "Honourable Rebecca Schulz, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0942.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0942&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-City Centre": {
+      "name": "Edmonton-City Centre",
+      "mla": {
+        "name": "Mr. David Shepherd",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0874.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0874&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Riverview": {
+      "name": "Edmonton-Riverview",
+      "mla": {
+        "name": "Honourable Lori Sigurdson, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0875.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0875&legl=31&from=mla_home"
+      }
+    },
+    "Highwood": {
+      "name": "Highwood",
+      "mla": {
+        "name": "Honourable R.J. Sigurdson, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0945.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0945&legl=31&from=mla_home"
+      }
+    },
+    "Lesser Slave Lake": {
+      "name": "Lesser Slave Lake",
+      "mla": {
+        "name": "Mr. Scott Sinclair",
+        "party": "IND",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0980.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0980&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-East": {
+      "name": "Calgary-East",
+      "mla": {
+        "name": "Mr. Peter Singh",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0946.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0946&legl=31&from=mla_home"
+      }
+    },
+    "Brooks-Medicine Hat": {
+      "name": "Brooks-Medicine Hat",
+      "mla": {
+        "name": "Honourable Premier Danielle Smith, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0814.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0814&legl=31&from=mla_home"
+      }
+    },
+    "Red Deer-South": {
+      "name": "Red Deer-South",
+      "mla": {
+        "name": "Mr. Jason Stephan",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0947.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0947&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Manning": {
+      "name": "Edmonton-Manning",
+      "mla": {
+        "name": "Ms. Heather Sweet",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0877.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0877&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-Klein": {
+      "name": "Calgary-Klein",
+      "mla": {
+        "name": "Member Lizette Tejada",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0970.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0970&legl=31&from=mla_home"
+      }
+    },
+    "Spruce Grove-Stony Plain": {
+      "name": "Spruce Grove-Stony Plain",
+      "mla": {
+        "name": "Honourable Searle Turton, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0950.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0950&legl=31&from=mla_home"
+      }
+    },
+    "Athabasca-Barrhead-Westlock": {
+      "name": "Athabasca-Barrhead-Westlock",
+      "mla": {
+        "name": "Mr. Glenn van Dijken",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0898.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0898&legl=31&from=mla_home"
+      }
+    },
+    "Grande Prairie-Wapiti": {
+      "name": "Grande Prairie-Wapiti",
+      "mla": {
+        "name": "Mr. Ron Wiebe",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0981.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0981&legl=31&from=mla_home"
+      }
+    },
+    "Peace River": {
+      "name": "Peace River",
+      "mla": {
+        "name": "Honourable Dan Williams, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0952.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0952&legl=31&from=mla_home"
+      }
+    },
+    "Maskwacis-Wetaskiwin": {
+      "name": "Maskwacis-Wetaskiwin",
+      "mla": {
+        "name": "Honourable Rick Wilson, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0953.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0953&legl=31&from=mla_home"
+      }
+    },
+    "Cypress-Medicine Hat": {
+      "name": "Cypress-Medicine Hat",
+      "mla": {
+        "name": "Mr. Justin Wright",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0982.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0982&legl=31&from=mla_home"
+      }
+    },
+    "Edmonton-Beverly-Clareview": {
+      "name": "Edmonton-Beverly-Clareview",
+      "mla": {
+        "name": "Ms Peggy Wright",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0971.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0971&legl=31&from=mla_home"
+      }
+    },
+    "Fort McMurray-Wood Buffalo": {
+      "name": "Fort McMurray-Wood Buffalo",
+      "mla": {
+        "name": "Mr. Tany Yao",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0899.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0899&legl=31&from=mla_home"
+      }
+    },
+    "Calgary-North": {
+      "name": "Calgary-North",
+      "mla": {
+        "name": "Honourable Muhammad Yaseen, ECA",
+        "party": "United Conservative Caucus",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0954.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0954&legl=31&from=mla_home"
+      }
+    }
+  }
+}

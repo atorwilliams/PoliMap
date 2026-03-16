@@ -1,0 +1,149 @@
+/* Your existing styles (popup stuff) - keep these */
+html, body, #map {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hover-tooltip {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    padding: 0;
+    max-width: 300px;
+    pointer-events: none;
+    font-family: Arial, sans-serif;
+}
+
+.preview-popup {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding: 0;
+    min-width: 320px;
+    max-width: 90vw;
+    pointer-events: none;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.full-popup {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    padding: 15px;
+    max-width: 450px;
+    font-family: Arial, sans-serif;
+}
+
+/* NEW: Sidebar styles */
+#sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 280px;
+    background: #f8f9fa;
+    border-right: 1px solid #ddd;
+    z-index: 1000;
+    overflow-y: auto;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar-header {
+    padding: 20px 20px 10px;
+    background: #003DA5;
+    color: white;
+    text-align: center;
+}
+
+.sidebar-header h2 {
+    margin: 0;
+    font-size: 1.6em;
+}
+
+.sidebar-header p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    opacity: 0.9;
+}
+
+.level-switcher {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.level-switcher button {
+    width: 100%;
+    padding: 14px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.level-switcher button.active {
+    background: #003DA5;
+    color: white;
+}
+
+.level-switcher button:not(.active) {
+    background: #e9ecef;
+    color: #333;
+}
+
+.level-switcher button:hover {
+    opacity: 0.9;
+}
+
+.sidebar-content {
+    padding: 20px;
+    /* Space for future legend, toggles, etc. */
+}
+
+/* Make map fill the remaining space */
+#map {
+    margin-left: 280px;
+    width: calc(100% - 280px);
+}
+
+/* Mobile: collapse sidebar or make it full-width if needed */
+@media (max-width: 768px) {
+    #sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+    #map {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+#layer-control {
+    min-width: 180px;
+}
+
+.layer-btn {
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background 0.2s;
+}
+
+.layer-btn.active {
+    background: #003DA5 !important;
+    color: white !important;
+}
+
+.layer-btn:hover {
+    background: #e0e0e0;
+}
