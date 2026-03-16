@@ -3,7 +3,7 @@ let ridingDataCache = null;
 export async function loadRidingData() {
     if (ridingDataCache) return ridingDataCache;
 
-    const response = await fetch('/public/ridingData.json');
+    const response = await fetch('/ridingData.json');
     if (!response.ok) throw new Error(`ridingData.json fetch failed: ${response.status}`);
     ridingDataCache = await response.json();
     console.log('[DATA] Loaded ridingData with', Object.keys(ridingDataCache.ridings || {}).length, 'ridings');
