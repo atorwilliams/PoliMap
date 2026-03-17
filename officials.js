@@ -1,32 +1,4 @@
-const officials = [
-    {
-        name: "Danielle Smith",
-        position: "Premier of Alberta",
-        party: "UCP",
-        level: "provincial",
-        lat: 53.5461,
-        lng: -113.4938,
-        bio: "Leader of the United Conservative Party."
-    },
-    {
-        name: "Amarjeet Sohi",
-        position: "Mayor of Edmonton",
-        party: "Non-partisan",
-        level: "municipal-edmonton",
-        lat: 53.5444,
-        lng: -113.4909,
-        bio: "Mayor of Edmonton."
-    },
-    {
-        name: "Rachel Notley",
-        position: "MLA for Edmonton-Strathcona, Opposition Leader",
-        party: "NDP",
-        level: "municipal-edmonton",
-        lat: 53.5204,
-        lng: -113.4975,
-        bio: "Former Premier, current NDP leader."
-    }
-];
+
 
 let currentMarkers = [];
 
