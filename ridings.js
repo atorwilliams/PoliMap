@@ -10,7 +10,7 @@ export async function initRidings(map) {
     });
 
     try {
-        const geoResponse = await fetch('/alberta-ed-ridings-wgs84.geojson');
+        const geoResponse = await fetch('/json/alberta-ed-ridings-wgs84.geojson');
         if (!geoResponse.ok) throw new Error(`GeoJSON fetch failed: ${geoResponse.status}`);
         let geojson = await geoResponse.json();
 

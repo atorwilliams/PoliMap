@@ -10,8 +10,8 @@ function showRidingPreview(map, ridingName, lngLat, level = 'provincial') {
     }
 
     const dataUrl = level === 'federal' 
-        ? '/federal-riding-data.json'
-        : '/ridingData.json';
+        ? '/json/federal-riding-data.json'
+        : '/json/ridingData.json';
 
     console.log(`[PREVIEW] Fetching ${dataUrl}`);
 
@@ -108,8 +108,8 @@ function showRidingSidebar(map, ridingName, level = 'provincial') {
     }
 
     const dataUrl = level === 'federal' 
-        ? '/federal-riding-data.json'
-        : '/ridingData.json';
+        ? '/json/federal-riding-data.json'
+        : '/json/ridingData.json';
 
     fetch(dataUrl)
         .then(r => r.json())

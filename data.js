@@ -3,7 +3,7 @@ let ridingDataCache = null;
 export async function loadRidingData() {
     if (ridingDataCache) return ridingDataCache;
 
-    const response = await fetch('/ridingData.json');
+    const response = await fetch('/json/ridingData.json');
     if (!response.ok) throw new Error(`ridingData.json fetch failed: ${response.status}`);
     ridingDataCache = await response.json();
     console.log('[DATA] Loaded ridingData with', Object.keys(ridingDataCache.ridings || {}).length, 'ridings');
@@ -32,7 +32,7 @@ export async function loadFederalRidingData() {
     if (federalRidingDataCache) return federalRidingDataCache;
 
     try {
-        const response = await fetch('/public/federal-riding-data.json');
+        const response = await fetch('/json/federal-riding-data.json');
         if (!response.ok) {
             throw new Error(`HTTP ${response.status} – ${response.statusText}`);
         }

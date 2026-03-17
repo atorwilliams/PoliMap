@@ -7,7 +7,7 @@ export async function initFederalRidings(map) {
     });
 
     try {
-        const geoResponse = await fetch('/federal-ridings-wgs84.geojson');  // your cleaned file
+        const geoResponse = await fetch('/json/federal-ridings-wgs84.geojson');  // your cleaned file
         if (!geoResponse.ok) throw new Error(`Federal GeoJSON fetch failed: ${geoResponse.status}`);
         const geojson = await geoResponse.json();
 
