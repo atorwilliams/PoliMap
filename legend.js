@@ -3,17 +3,11 @@ import { loadFederalRidingData } from './data.js';
 import { showPartySidebar } from './popup.js';
 
 export function initLegend(map, getActiveLayer) {
-  console.log('[LEGEND] Initializing');
-
   const legend = document.getElementById('legend');
-  if (!legend) return;
+  if (!legend) return null;
 
   const refresh = () => updateLegend(map, getActiveLayer());
-  refresh();  // initial call
-
-  legend.addEventListener('click', () => {
-    console.log('[LEGEND] Legend clicked');
-  });
+  refresh();
 
   return refresh;
 }
@@ -22,18 +16,14 @@ export async function updateLegend(map, activeLayer) {
   const legendParties = document.getElementById('legend-parties');
   if (!legendParties) return;
 
-  // CRITICAL: Always clear first to prevent double/triple appends during rapid calls
   legendParties.innerHTML = '';
 
   let data;
-  let level = activeLayer;
-
-  if (level === 'provincial') {
+  if (activeLayer === 'provincial') {
     data = await loadRidingData();
-  } else if (level === 'federal') {
+  } else if (activeLayer === 'federal') {
     data = await loadFederalRidingData();
   } else {
-    console.warn('[LEGEND] Unknown active layer:', activeLayer);
     return;
   }
 
@@ -49,15 +39,18 @@ export async function updateLegend(map, activeLayer) {
   });
 
   Object.entries(ridings).forEach(([ridingName, riding]) => {
-    const official = level === 'federal' ? riding.mp : riding.mla;
+    const official = activeLayer === 'federal' ? riding.mp : riding.mla;
     if (official && official.party) {
       const partyKey = official.party;
       if (partyMembers[partyKey]) {
         partyMembers[partyKey].members.push({
           name: official.name,
+          party: official.party,
           riding: ridingName,
           photo: official.photo || '',
-          profileUrl: official.profileUrl || '#'
+          heroPhoto: official.heroPhoto || official.photo || '',
+          profileUrl: official.profileUrl || '#',
+          contact: official.contact || {}  // include full contact
         });
       }
     }
@@ -77,7 +70,7 @@ export async function updateLegend(map, activeLayer) {
     `;
 
     swatch.addEventListener('click', () => {
-      showPartySidebar(map, partyKey, info.members, level);
+      showPartySidebar(map, partyKey, info.members, activeLayer);
     });
 
     swatch.addEventListener('mouseenter', () => swatch.style.background = 'rgba(255,255,255,0.12)');

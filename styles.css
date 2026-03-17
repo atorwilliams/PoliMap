@@ -14,7 +14,7 @@ html, body, #map {
 }
 
 /* ================================================
-   Popups & tooltips (unchanged)
+   Popups & tooltips
    ================================================ */
 .hover-tooltip {
     background: white;
@@ -37,100 +37,6 @@ html, body, #map {
     pointer-events: none;
     font-family: Arial, sans-serif;
     line-height: 1.5;
-}
-
-.full-popup {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
-    padding: 15px;
-    max-width: 450px;
-    font-family: Arial, sans-serif;
-}
-
-/* ================================================
-   Old sidebar styles – kept for possible future use
-   ================================================ */
-#sidebar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 280px;
-    background: #f8f9fa;
-    border-right: 1px solid #ddd;
-    z-index: 1000;
-    overflow-y: auto;
-    font-family: Arial, sans-serif;
-    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
-}
-
-.sidebar-header {
-    padding: 20px 20px 10px;
-    background: #003DA5;
-    color: white;
-    text-align: center;
-}
-
-.sidebar-header h2 {
-    margin: 0;
-    font-size: 1.6em;
-}
-
-.sidebar-header p {
-    margin: 5px 0 0;
-    font-size: 0.9em;
-    opacity: 0.9;
-}
-
-.level-switcher {
-    padding: 15px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.level-switcher button {
-    width: 100%;
-    padding: 14px;
-    font-size: 1.1em;
-    font-weight: bold;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.level-switcher button.active {
-    background: #003DA5;
-    color: white;
-}
-
-.level-switcher button:not(.active) {
-    background: #e9ecef;
-    color: #333;
-}
-
-.level-switcher button:hover {
-    opacity: 0.9;
-}
-
-.sidebar-content {
-    padding: 20px;
-}
-
-@media (max-width: 768px) {
-    #sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-        border-right: none;
-        border-bottom: 1px solid #ddd;
-    }
-    #map {
-        margin-left: 0;
-        width: 100%;
-    }
 }
 
 /* ================================================
@@ -161,37 +67,47 @@ html, body, #map {
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
-/* Layers control – near bottom */
-.layers-control {
-    bottom: 20px;
-}
-
-/* Legend control – positioned higher so it sits above layers */
+/* Legend */
 .legend-control {
-    bottom: 140px;          /* Adjust this number if you want more/less space */
+    bottom: 140px;
     max-height: 60vh;
     overflow-y: auto;
 }
 
 #legend-parties {
     padding: 8px 12px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards; /* exactly 0.5 seconds, smooth */
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(12px); } /* more noticeable slide */
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Legend cards – NO shadow default, subtle on hover */
 #legend-parties > div {
     display: flex;
     align-items: center;
     margin: 6px 0;
-    padding: 6px;
+    padding: 6px 10px;
     border-radius: 6px;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: all 0.25s ease;
+    background: transparent;
+    box-shadow: none; /* zero shadow by default */
 }
 
 #legend-parties > div:hover {
     background: rgba(255,255,255,0.12);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12); /* subtle, toned-down hover shadow */
 }
 
-/* Layers button styles */
+/* Layers */
+.layers-control {
+    bottom: 20px;
+}
+
 .layer-btn {
     display: block;
     width: 100%;
@@ -221,7 +137,219 @@ html, body, #map {
     background: #d32f2f;
 }
 
-/* Mobile – center both controls, stack them vertically */
+/* Party list sidebar (legend click) – white background */
+.party-sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 420px;
+    background: #ffffff;
+    color: #111111;
+    z-index: 1100;
+    box-shadow: -6px 0 24px rgba(0,0,0,0.25);
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.party-sidebar.open {
+    transform: translateX(0);
+}
+
+.party-sidebar #sidebar-close-btn {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 2.4em;
+    color: #555;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.party-sidebar #sidebar-close-btn:hover {
+    color: #000;
+}
+
+.party-sidebar .sidebar-content {
+    padding: 60px 24px 24px;
+}
+
+.party-sidebar .members-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Cards: wider feel, shorter height */
+.party-sidebar .member-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08); /* tiny default shadow */
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+    cursor: pointer;
+    width: 100%;
+}
+
+.party-sidebar .member-card:hover {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15); /* stronger on hover */
+    transform: translateY(-4px);
+}
+
+.party-sidebar .card-image {
+    height: 144px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.party-sidebar .party-stripe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+}
+
+.party-sidebar .card-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.75) 40%, transparent 100%);
+}
+
+.party-sidebar .card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    color: white;
+    z-index: 3;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+}
+
+.party-sidebar .card-text h4 {
+    margin: 0 0 4px;
+    font-size: 1.15em;
+    font-weight: 700;
+}
+
+.party-sidebar .card-text p {
+    margin: 0;
+    font-size: 0.95em;
+}
+
+/* Solo member detail sidebar */
+.member-detail-sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 420px;
+    background: white;
+    z-index: 1200;
+    box-shadow: -8px 0 40px rgba(0,0,0,0.4);
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform 0.45s cubic-bezier(0.32, 0.72, 0, 1);
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.member-detail-sidebar.open {
+    transform: translateX(0);
+}
+
+.member-detail-sidebar .sidebar-header {
+    padding: 20px 24px;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.member-detail-sidebar .sidebar-header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #222;
+}
+
+.member-detail-sidebar #sidebar-close-btn {
+    background: none;
+    border: none;
+    font-size: 2.4em;
+    color: #666;
+    cursor: pointer;
+}
+
+.member-detail-sidebar .hero-image {
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.member-detail-sidebar .party-stripe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 8px;
+    z-index: 2;
+}
+
+.member-detail-sidebar .image-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent 60%, rgba(0,0,0,0.65) 100%);
+}
+
+.member-detail-sidebar .member-info {
+    padding: 28px 24px;
+    background: white;
+}
+
+.member-detail-sidebar .member-info h3 {
+    margin: 0 0 8px;
+    font-size: 1.65em;
+    color: #111;
+}
+
+.member-detail-sidebar .riding {
+    color: #555;
+    font-size: 1.05em;
+    margin-bottom: 24px;
+}
+
+.member-detail-sidebar .contact-details {
+    display: grid;
+    gap: 18px;
+}
+
+.member-detail-sidebar .contact-item strong {
+    display: block;
+    font-size: 0.95em;
+    color: #444;
+    margin-bottom: 3px;
+}
+
+.member-detail-sidebar .contact-item a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.member-detail-sidebar .external-profile {
+    display: block;
+    margin-top: 16px;
+    color: #003DA5;
+    font-weight: 600;
+}
+
+/* Mobile adjustments */
 @media (max-width: 768px) {
     .map-control {
         left: 50%;
@@ -229,10 +357,35 @@ html, body, #map {
         width: 90%;
         max-width: 320px;
     }
+    .legend-control {
+        bottom: 140px;
+    }
     .layers-control {
         bottom: 16px;
     }
-    .legend-control {
-        bottom: 140px;   /* same relative offset as desktop */
+    .party-sidebar {
+        width: 100%;
+        height: 85vh;
+        top: auto;
+        bottom: 0;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        transform: translateY(100%);
+        box-shadow: 0 -6px 24px rgba(0,0,0,0.25);
+    }
+    .party-sidebar.open {
+        transform: translateY(0);
+    }
+    .member-detail-sidebar {
+        width: 100%;
+        height: 92vh;
+        top: auto;
+        bottom: 0;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transform: translateY(100%);
+    }
+    .member-detail-sidebar.open {
+        transform: translateY(0);
     }
 }

@@ -6,7 +6,6 @@ import { applyRidingColours } from './colouring.js';
 import { applyFederalRidingColours } from './federalColouring.js';
 import { initLegend, updateLegend } from './legend.js';
 
-// Layer definitions
 const layers = {
   provincial: {
     name: 'Provincial (MLAs)',
@@ -28,15 +27,6 @@ const layers = {
 
 let activeLayer = 'provincial';
 
-// Simple debounce helper (fires at most once every 300ms)
-function debounce(fn, delay = 300) {
-  let timeout;
-  return function (...args) {
-    clearTimeout(timeout);
-    timeout = setTimeout(() => fn(...args), delay);
-  };
-}
-
 document.addEventListener('DOMContentLoaded', async () => {
   const map = new maplibregl.Map({
     container: 'map',
@@ -50,96 +40,79 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   await new Promise(resolve => map.on('load', resolve));
 
-  // Initialize all layers
   for (const key in layers) {
-    const layer = layers[key];
-    await layer.init(map);
+    await layers[key].init(map);
   }
 
-  // Set initial visibility — only active layer visible
   for (const key in layers) {
     const visible = (key === activeLayer);
     layers[key].visible = visible;
     toggleLayerVisibility(map, key, visible);
   }
 
-  // Apply zoom-based visibility to starting active layer
   if (layers[activeLayer]?.updateVisibility) {
     layers[activeLayer].updateVisibility(map);
   }
 
-  // Apply colours for starting layer
   if (activeLayer === 'provincial') {
-    applyRidingColours(map).catch(err => console.error('[INIT] Provincial colouring failed:', err));
+    applyRidingColours(map);
   } else if (activeLayer === 'federal') {
-    applyFederalRidingColours(map).catch(err => console.error('[INIT] Federal colouring failed:', err));
+    applyFederalRidingColours(map);
   }
 
-  // Initialize interactions
   initInteractions(map);
   initFederalInteractions(map);
 
-  // Initialize legend (pass function to get current activeLayer)
-  const refreshLegend = initLegend(map, () => activeLayer);
+  // Delay legend init until map is fully stable (prevents double initial refresh)
+  setTimeout(() => {
+    const refreshLegend = initLegend(map, () => activeLayer);
+    refreshLegend(); // one clean initial call
 
-  // Debounced version for zoom/move events
-  const debouncedRefresh = debounce(refreshLegend, 350);
+    // Debounced for zoom/move
+    const debouncedRefresh = debounce(refreshLegend, 300);
+    map.on('zoom', debouncedRefresh);
+    map.on('moveend', debouncedRefresh);
 
-  // Update visibility + legend on zoom/move — only for active layer
-  map.on('zoom', () => {
-    if (layers[activeLayer]?.updateVisibility) {
-      layers[activeLayer].updateVisibility(map);
-    }
-    debouncedRefresh();
-  });
+    // Layer switch (immediate refresh)
+    const layerButtons = document.querySelectorAll('.layer-btn');
+    layerButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const layerKey = btn.dataset.layer;
+        if (!layers[layerKey]) return;
 
-  map.on('moveend', () => {
-    if (layers[activeLayer]?.updateVisibility) {
-      layers[activeLayer].updateVisibility(map);
-    }
-    debouncedRefresh();
-  });
+        layerButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeLayer = layerKey;
 
-  // Layer toggle buttons
-  const layerButtons = document.querySelectorAll('.layer-btn');
-  layerButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const layerKey = btn.dataset.layer;
-      if (!layers[layerKey]) return;
+        for (const key in layers) {
+          const visible = (key === activeLayer);
+          layers[key].visible = visible;
+          toggleLayerVisibility(map, key, visible);
+        }
 
-      // Update UI
-      layerButtons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      activeLayer = layerKey;
+        if (layers[activeLayer]?.updateVisibility) {
+          layers[activeLayer].updateVisibility(map);
+        }
 
-      // Enforce exclusivity
-      for (const key in layers) {
-        const visible = (key === activeLayer);
-        layers[key].visible = visible;
-        toggleLayerVisibility(map, key, visible);
-      }
+        if (activeLayer === 'provincial') {
+          applyRidingColours(map);
+        } else if (activeLayer === 'federal') {
+          applyFederalRidingColours(map);
+        }
 
-      // Apply zoom visibility to new active layer
-      if (layers[activeLayer]?.updateVisibility) {
-        layers[activeLayer].updateVisibility(map);
-      }
-
-      // Refresh colours
-      if (activeLayer === 'provincial') {
-        applyRidingColours(map)
-          .then(() => console.log('[SWITCH] Provincial colours refreshed'))
-          .catch(err => console.error('[SWITCH] Provincial colouring failed:', err));
-      } else if (activeLayer === 'federal') {
-        applyFederalRidingColours(map)
-          .then(() => console.log('[SWITCH] Federal colours refreshed'))
-          .catch(err => console.error('[SWITCH] Federal colouring failed:', err));
-      }
-
-      // Immediate legend refresh on layer switch (no debounce needed here)
-      refreshLegend();
+        refreshLegend();
+      });
     });
-  });
+  }, 500); // 500ms delay — enough to skip early zoom/move events
 });
+
+function debounce(fn, delay = 300) {
+  let timeout;
+  return function (...args) {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => fn(...args), delay);
+  };
+}
 
 function toggleLayerVisibility(map, layerKey, visible) {
   const layer = layers[layerKey];

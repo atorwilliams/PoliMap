@@ -12,8 +12,28 @@
       "mla": {
         "name": "Ms Nagwan Al-Guneid",
         "party": "NDP",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t51.82787-15/569118722_18029187911726891_8086524585006395504_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=13d280&_nc_ohc=-73L-sts3PIQ7kNvwFnDIY5&_nc_oc=AdkfaJrpYs28SOmHEKtauGBF9k_xiIJIDBo79q5olo0qYc_emBBMkee92C9Ms1z8j_Y&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=uDlAX6gtdSHEUCiBPx81hw&_nc_ss=8&oh=00_AfxkzD8W6WjvxXRotoddGQ6LknxcNa-mj5kTyL4F_n7flQ&oe=69BF5FA9",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0984&legl=31&from=mla_home",
         "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0984.jpg",
-        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0984&legl=31&from=mla_home"
+        "contact":{
+          "email": "calgary.glenmore@assembly.ab.ca",
+          "tollFree":"",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-216-5421",
+          "constituencyOffice": "5th Floor Queen Elizabeth II 9820 107 St NW, Edmonton , Alberta T5K 1E7",
+          "website": "https://www.albertandpcaucus.ca/your-mlas/contact-id/10061",
+          "social":{
+            "facebook":"https://www.facebook.com/NagwanYYC/",
+            "twitter":"",
+            "instagram":"",
+            "linkedin":"",
+            "youtube":"",
+            "tiktok":"",
+            "BlueSky":""
+          }
+
+        }
       }
     },
     "Calgary-Cross": {
@@ -22,7 +42,27 @@
         "name": "Honourable Mickey Amery, ECA, KC",
         "party": "United Conservative Party",
         "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0913.jpg",
-        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0913&legl=31&from=mla_home"
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0913&legl=31&from=mla_home",
+        "heroPhoto": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2023/08/20230322DB031-scaled.jpg",
+        "contact":{
+          "email": "Calgary.Cross@assembly.ab.ca",
+          "tollFree":"1-888-465-2660",
+          "fax": "",
+          "officeHours": "",
+          "phone": " +1 403-248-4487",
+          "constituencyOffice": "920 36 St NE #201, Calgary, AB T2A 6L8, Canada",
+          "website": "https://unitedconservativecaucus.ca/mickey-amery/",
+          "social":{
+            "facebook":"https://www.facebook.com/MickeyAmeryCalgaryCross#",
+            "twitter":"https://x.com/mickeyamery",
+            "instagram":"https://www.instagram.com/abmickeyamery/",
+            "linkedin":"",
+            "youtube":"",
+            "tiktok":"",
+            "BlueSky":""
+          }
+
+        }
       }
     },
     "Edmonton-West Henday": {
@@ -40,7 +80,27 @@
         "name": "Honourable Jackie Armstrong-Homeniuk, ECA",
         "party": "United Conservative Party",
         "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0914.jpg",
-        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0914&legl=31&from=mla_home"
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0914&legl=31&from=mla_home",
+        "heroPhoto": "https://pbs.twimg.com/media/GrGhUNnWAAEs_-y.jpg",
+        "contact":{
+          "email": "FortSaskatchewan.Vegreville@assembly.ab.ca",
+          "tollFree":"",
+          "fax": "",
+          "officeHours": "9am - 4:30pm Monday to Friday",
+          "phone": "780.632.6840",
+          "constituencyOffice": "9940 99 Ave, Fort Saskatchewan, AB T8L 4G8, Canada",
+          "website": "https://www.jackie-armstrong-homeniuk.com/",
+          "social":{
+            "facebook":"",
+            "twitter":"https://www.instagram.com/jackiearmstronghomeniuk.mla/",
+            "instagram":"",
+            "linkedin":"",
+            "youtube":"",
+            "tiktok":"",
+            "BlueSky":""
+          }
+
+        }
       }
     },
     "Calgary-Acadia": {
@@ -58,7 +118,27 @@
         "name": "Honourable Andrew Boitchenko, ECA",
         "party": "United Conservative Party",
         "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0973.jpg",
-        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0973&legl=31&from=mla_home"
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0973&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservative.ca/wp-content/uploads/elementor/thumbs/MLA-Boitchenko-r5vbosmles4hsvtqwxyf556fqw80fdp7s6yci51ibk.jpg",
+        "contact":{
+          "email": "draytonvalley.devon@assembly.ab.ca",
+          "tollFree":"1-866-488-0919",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-542-3355",
+          "constituencyOffice": "5136B - 52 Avenue Box 272 Drayton Valley, AB   T7A 1S5",
+          "website": "",
+          "social":{
+            "facebook":"https://www.facebook.com/ABoitchenko/",
+            "twitter":"",
+            "instagram":"https://www.instagram.com/boitchenkoandrew/",
+            "linkedin":"",
+            "youtube":"",
+            "tiktok":"",
+            "BlueSky":""
+          }
+
+        }
       }
     },
     "Calgary-Falconridge": {
@@ -76,7 +156,27 @@
         "name": "Mr. Eric Bouchard",
         "party": "United Conservative Party",
         "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0974.jpg",
-        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0974&legl=31&from=mla_home"
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0974&legl=31&from=mla_home",
+        "heroPhoto": "https://pbs.twimg.com/media/GTHX1WmWAAADUA6?format=jpg&name=large",
+        "contact":{
+          "email": "Calgary.Lougheed@assembly.ab.ca",
+          "tollFree":"",
+          "fax": "403.251.5453",
+          "officeHours": "",
+          "phone": "403-238-1212",
+          "constituencyOffice": "230 Eversyde Blvd SW #2105, Calgary, AB T2Y 0J4, Canada",
+          "website": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/constituencies/constituency?rnumber=16",
+          "social":{
+            "facebook":"https://www.facebook.com/ericbouchardmla/",
+            "twitter":"https://x.com/EricBouchardAB",
+            "instagram":"https://www.instagram.com/ericbouchardmla/",
+            "linkedin":"",
+            "youtube":"",
+            "tiktok":"",
+            "BlueSky":""
+          }
+
+        }
       }
     },
     "Calgary-North East": {
@@ -130,7 +230,27 @@
         "name": "Mr. Scott Cyr",
         "party": "United Conservative Party",
         "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0886.jpg",
-        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0886&legl=31&from=mla_home"
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0886&legl=31&from=mla_home",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/lakelandtoday/images/lakelandtoday/scottcyrgrandopening.jpg",
+        "contact":{
+          "email": "",
+          "tollFree":"",
+          "fax": "",
+          "officeHours": "",
+          "phone": "+1 780-826-5658",
+          "constituencyOffice": "",
+          "website": "",
+          "social":{
+            "facebook":"https://www.facebook.com/ElectScottCyr/",
+            "twitter":"https://x.com/scottjcyr",
+            "instagram":"",
+            "linkedin":"https://www.linkedin.com/in/scott-cyr-28459474/",
+            "youtube":"",
+            "tiktok":"",
+            "BlueSky":""
+          }
+
+        }
       }
     },
     "Edmonton-McClung": {
