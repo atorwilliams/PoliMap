@@ -28,6 +28,15 @@ const layers = {
 
 let activeLayer = 'provincial';
 
+// Simple debounce helper (fires at most once every 300ms)
+function debounce(fn, delay = 300) {
+  let timeout;
+  return function (...args) {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => fn(...args), delay);
+  };
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
   const map = new maplibregl.Map({
     container: 'map',
@@ -73,22 +82,22 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Initialize legend (pass function to get current activeLayer)
   const refreshLegend = initLegend(map, () => activeLayer);
 
-  // Uncomment when ready for markers
-  // initOfficials(map);
+  // Debounced version for zoom/move events
+  const debouncedRefresh = debounce(refreshLegend, 350);
 
   // Update visibility + legend on zoom/move — only for active layer
   map.on('zoom', () => {
     if (layers[activeLayer]?.updateVisibility) {
       layers[activeLayer].updateVisibility(map);
     }
-    refreshLegend();
+    debouncedRefresh();
   });
 
   map.on('moveend', () => {
     if (layers[activeLayer]?.updateVisibility) {
       layers[activeLayer].updateVisibility(map);
     }
-    refreshLegend();
+    debouncedRefresh();
   });
 
   // Layer toggle buttons
@@ -126,7 +135,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           .catch(err => console.error('[SWITCH] Federal colouring failed:', err));
       }
 
-      // Refresh legend
+      // Immediate legend refresh on layer switch (no debounce needed here)
       refreshLegend();
     });
   });

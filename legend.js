@@ -22,6 +22,7 @@ export async function updateLegend(map, activeLayer) {
   const legendParties = document.getElementById('legend-parties');
   if (!legendParties) return;
 
+  // CRITICAL: Always clear first to prevent double/triple appends during rapid calls
   legendParties.innerHTML = '';
 
   let data;
@@ -79,7 +80,7 @@ export async function updateLegend(map, activeLayer) {
       showPartySidebar(map, partyKey, info.members, level);
     });
 
-    swatch.addEventListener('mouseenter', () => swatch.style.background = '#f0f0f0');
+    swatch.addEventListener('mouseenter', () => swatch.style.background = 'rgba(255,255,255,0.12)');
     swatch.addEventListener('mouseleave', () => swatch.style.background = 'transparent');
 
     legendParties.appendChild(swatch);

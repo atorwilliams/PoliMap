@@ -1,4 +1,6 @@
-/* Your existing styles (popup stuff) - keep these */
+/* ================================================
+   Core map & layout
+   ================================================ */
 html, body, #map {
     height: 100%;
     width: 100%;
@@ -6,6 +8,14 @@ html, body, #map {
     padding: 0;
 }
 
+#map {
+    margin-left: 0;
+    width: 100%;
+}
+
+/* ================================================
+   Popups & tooltips (unchanged)
+   ================================================ */
 .hover-tooltip {
     background: white;
     border: 1px solid #ccc;
@@ -38,7 +48,9 @@ html, body, #map {
     font-family: Arial, sans-serif;
 }
 
-/* NEW: Sidebar styles */
+/* ================================================
+   Old sidebar styles – kept for possible future use
+   ================================================ */
 #sidebar {
     position: fixed;
     left: 0;
@@ -105,16 +117,8 @@ html, body, #map {
 
 .sidebar-content {
     padding: 20px;
-    /* Space for future legend, toggles, etc. */
 }
 
-/* Make map fill the remaining space */
-#map {
-    margin-left: 280px;
-    width: calc(100% - 280px);
-}
-
-/* Mobile: collapse sidebar or make it full-width if needed */
 @media (max-width: 768px) {
     #sidebar {
         width: 100%;
@@ -129,21 +133,106 @@ html, body, #map {
     }
 }
 
-#layer-control {
+/* ================================================
+   Floating map controls – dark glass style
+   ================================================ */
+.map-control {
+    position: absolute;
+    left: 20px;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.68);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+    border: 1px solid rgba(255,255,255,0.12);
+    font-family: Arial, sans-serif;
     min-width: 180px;
+    color: white;
 }
 
-.layer-btn {
+.control-header {
+    padding: 8px 14px 6px;
+    color: #ddd;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Layers control – near bottom */
+.layers-control {
+    bottom: 20px;
+}
+
+/* Legend control – positioned higher so it sits above layers */
+.legend-control {
+    bottom: 140px;          /* Adjust this number if you want more/less space */
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+#legend-parties {
+    padding: 8px 12px;
+}
+
+#legend-parties > div {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+    padding: 6px;
+    border-radius: 6px;
     cursor: pointer;
-    font-size: 0.95em;
     transition: background 0.2s;
 }
 
-.layer-btn.active {
-    background: #003DA5 !important;
-    color: white !important;
+#legend-parties > div:hover {
+    background: rgba(255,255,255,0.12);
+}
+
+/* Layers button styles */
+.layer-btn {
+    display: block;
+    width: 100%;
+    padding: 12px 18px;
+    margin: 0;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.18s ease;
+    text-align: center;
 }
 
 .layer-btn:hover {
-    background: #e0e0e0;
+    background: rgba(255,255,255,0.12);
+}
+
+.layer-btn.active {
+    background: #003DA5;
+    color: white;
+    font-weight: 600;
+}
+
+.layer-btn[data-layer="federal"].active {
+    background: #d32f2f;
+}
+
+/* Mobile – center both controls, stack them vertically */
+@media (max-width: 768px) {
+    .map-control {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        max-width: 320px;
+    }
+    .layers-control {
+        bottom: 16px;
+    }
+    .legend-control {
+        bottom: 140px;   /* same relative offset as desktop */
+    }
 }

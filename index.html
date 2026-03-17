@@ -10,15 +10,20 @@
 </head>
 <body>
     <div id="map"></div>
-<div id="layer-control" style="position:absolute; top:20px; left:20px; z-index:1000; background:white; padding:12px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.2);">
-    <h3 style="margin:0 0 10px; font-size:1.1em;">Layers</h3>
-    <button class="layer-btn active" data-layer="provincial" style="display:block; width:100%; margin:4px 0; padding:8px; background:#003DA5; color:white; border:none; border-radius:4px;">Provincial (MLAs)</button>
-    <button class="layer-btn" data-layer="federal" style="display:block; width:100%; margin:4px 0; padding:8px; background:#FF6B6B; color:white; border:none; border-radius:4px;">Federal (MPs)</button>
-</div>
-<div id="legend" style="position:absolute; bottom:20px; right:20px; z-index:1000; background:white; padding:12px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.2); cursor:pointer; min-width:180px;">
-  <h3 style="margin:0 0 10px; font-size:1.1em;">Legend – Click party to see members</h3>
-  <div id="legend-parties"></div>
-</div>
+
+    <!-- Legend – positioned higher so it sits above layers -->
+    <div id="legend" class="map-control legend-control">
+        <div class="control-header">Legend</div>
+        <div id="legend-parties"></div>
+    </div>
+
+    <!-- Layers control – stays near the bottom -->
+    <div id="layer-toggle" class="map-control layers-control">
+        <div class="control-header">Layers</div>
+        <button class="layer-btn active" data-layer="provincial">Provincial (MLAs)</button>
+        <button class="layer-btn" data-layer="federal">Federal (MPs)</button>
+    </div>
+
     <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.js"></script>
     <script type="module" src="main.js"></script>
