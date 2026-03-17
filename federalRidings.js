@@ -60,7 +60,7 @@ export async function initFederalRidings(map) {
 
 export function updateFederalVisibility(map) {
     const zoom = map.getZoom();
-    const visible = zoom >= 5.0;
+    const visible = zoom >= 5.3;
 
     ['federal-fill', 'federal-outline', 'federal-highlight'].forEach(id => {
         if (map.getLayer(id)) {

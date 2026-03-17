@@ -90,7 +90,7 @@ export async function initRidings(map) {
 
 export function updateRidingVisibility(map) {
     const zoom = map.getZoom();
-    const visible = zoom >= 6.2;
+    const visible = zoom >= 5.3;
 
     ['ed-fill', 'ed-outline'].forEach(id => {
         if (map.getLayer(id)) {
