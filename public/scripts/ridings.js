@@ -10,7 +10,7 @@ export async function initRidings(map) {
     });
 
     try {
-        const geoResponse = await fetch('/alberta-ed-ridings-wgs84.geojson');
+        const geoResponse = await fetch('/public/alberta-ed-ridings-wgs84.geojson');
         if (!geoResponse.ok) throw new Error(`GeoJSON fetch failed: ${geoResponse.status}`);
         let geojson = await geoResponse.json();
 
@@ -49,8 +49,9 @@ export async function initRidings(map) {
             'id': 'ed-fill',
             'type': 'fill',
             'source': 'ed-source',
+            'layout': { 'visibility': 'none' },
             'paint': {
-                'fill-color': '#D3D3D3',  // default gray, colouring.js will update this
+                'fill-color': '#D3D3D3',
                 'fill-opacity': 0.35,
                 'fill-outline-color': '#666666'
             }
@@ -60,6 +61,7 @@ export async function initRidings(map) {
             'id': 'ed-outline',
             'type': 'line',
             'source': 'ed-source',
+            'layout': { 'visibility': 'none' },
             'paint': {
                 'line-color': '#666666',
                 'line-width': 1.2
@@ -79,9 +81,8 @@ export async function initRidings(map) {
             'filter': ['==', ['get', 'EDName2017'], '']
         });
 
-        console.log('[RIDINGS] Lines and boundaries added');
+        console.log('[RIDINGS] Provincial layers added (initially hidden)');
 
-        updateRidingVisibility(map);
     } catch (err) {
         console.error('[RIDINGS] Error:', err);
     }
@@ -91,11 +92,11 @@ export function updateRidingVisibility(map) {
     const zoom = map.getZoom();
     const visible = zoom >= 6.2;
 
-    if (map.getLayer('ed-fill') && map.getLayer('ed-outline')) {
-        map.setLayoutProperty('ed-fill', 'visibility', visible ? 'visible' : 'none');
-        map.setLayoutProperty('ed-outline', 'visibility', visible ? 'visible' : 'none');
-        console.log('[ZOOM] Ridings visibility:', visible ? 'shown' : 'hidden', '(zoom:', zoom.toFixed(1), ')');
-    } else {
-        console.log('[ZOOM] Skipping – layers not ready yet');
-    }
+    ['ed-fill', 'ed-outline'].forEach(id => {
+        if (map.getLayer(id)) {
+            map.setLayoutProperty(id, 'visibility', visible ? 'visible' : 'none');
+        }
+    });
+
+    console.log('[ZOOM] Provincial visibility set to:', visible ? 'visible' : 'hidden', `(zoom: ${zoom.toFixed(1)})`);
 }

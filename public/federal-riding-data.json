@@ -1,0 +1,344 @@
+{
+  "parties": {
+    "Conservative": { "color": "#003DA5" },
+    "Liberal": { "color": "#FF0000" },
+    "NDP": { "color": "#F37021" },
+    "Independent": { "color": "#808080" },
+    "Progressive Tory Party": { "color": "#FFD700" }
+  },
+  "ridings": {
+    "Airdrie—Cochrane": {
+      "name": "Airdrie—Cochrane",
+      "mp": {
+        "name": "Blake Richards",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/RichardsBlake_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/blake-richards(35918)"
+      }
+    },
+    "Battle River—Crowfoot": {
+      "name": "Battle River—Crowfoot",
+      "mp": {
+        "name": "The Honourable Pierre Poilievre",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/PoilievrePierre_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/pierre-poilievre(25524)"
+      }
+    },
+    "Bow River": {
+      "name": "Bow River",
+      "mp": {
+        "name": "David Bexte",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BexteDavid_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/david-bexte(123372)"
+      }
+    },
+    "Calgary Centre": {
+      "name": "Calgary Centre",
+      "mp": {
+        "name": "Greg McLean",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/McLeanGreg_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/greg-mclean(105418)"
+      }
+    },
+    "Calgary Confederation": {
+      "name": "Calgary Confederation",
+      "mp": {
+        "name": "Corey Hogan",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/HoganCorey_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/corey-hogan(123382)"
+      }
+    },
+    "Calgary Crowfoot": {
+      "name": "Calgary Crowfoot",
+      "mp": {
+        "name": "Pat Kelly",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/KellyPat_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/pat-kelly(59176)"
+      }
+    },
+    "Calgary East": {
+      "name": "Calgary East",
+      "mp": {
+        "name": "Jasraj Singh Hallan",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/HallanJasrajSingh_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/jasraj-singh-hallan(105413)"
+      }
+    },
+    "Calgary Heritage": {
+      "name": "Calgary Heritage",
+      "mp": {
+        "name": "Shuvaloy Majumdar",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/MajumdarShuvaloy_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/shuvaloy-majumdar(113936)"
+      }
+    },
+    "Calgary McKnight": {
+      "name": "Calgary McKnight",
+      "mp": {
+        "name": "Dalwinder Gill",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/GillDalwinder_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/dalwinder-gill(123401)"
+      }
+    },
+    "Calgary Midnapore": {
+      "name": "Calgary Midnapore",
+      "mp": {
+        "name": "Stephanie Kusie",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/KusieStephanie_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/stephanie-kusie(96332)"
+      }
+    },
+    "Calgary Nose Hill": {
+      "name": "Calgary Nose Hill",
+      "mp": {
+        "name": "The Honourable Michelle Rempel Garner",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/RempelGarnerMichelle_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/michelle-rempel-garner(89343)"
+      }
+    },
+    "Calgary Shepard": {
+      "name": "Calgary Shepard",
+      "mp": {
+        "name": "Tom Kmiec",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/KmiecTom_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/tom-kmiec(89350)"
+      }
+    },
+    "Calgary Signal Hill": {
+      "name": "Calgary Signal Hill",
+      "mp": {
+        "name": "David McKenzie",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/McKenzieDavid_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/david-mckenzie(123415)"
+      }
+    },
+    "Calgary Skyview": {
+      "name": "Calgary Skyview",
+      "mp": {
+        "name": "Amanpreet S. Gill",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GillAmanpreet_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/amanpreet-s-gill(123418)"
+      }
+    },
+    "Edmonton Centre": {
+      "name": "Edmonton Centre",
+      "mp": {
+        "name": "The Honourable Eleanor Olszewski",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/OlszewskiEleanor_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/eleanor-olszewski(89171)"
+      }
+    },
+    "Edmonton Gateway": {
+      "name": "Edmonton Gateway",
+      "mp": {
+        "name": "The Honourable Tim Uppal",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/UppalTim_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/tim-uppal(89469)"
+      }
+    },
+    "Edmonton Griesbach": {
+      "name": "Edmonton Griesbach",
+      "mp": {
+        "name": "Kerry Diotte",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DiotteKerry_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/kerry-diotte(89150)"
+      }
+    },
+    "Edmonton Manning": {
+      "name": "Edmonton Manning",
+      "mp": {
+        "name": "Ziad Aboultaif",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/AboultaifZiad_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/ziad-aboultaif(89468)"
+      }
+    },
+    "Edmonton Northwest": {
+      "name": "Edmonton Northwest",
+      "mp": {
+        "name": "Billy Morin",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MorinWilliam_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/billy-morin(123447)"
+      }
+    },
+    "Edmonton Riverbend": {
+      "name": "Edmonton Riverbend",
+      "mp": {
+        "name": "Matt Jeneroux",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/JenerouxMatt_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/matt-jeneroux(89470)"
+      }
+    },
+    "Edmonton Southeast": {
+      "name": "Edmonton Southeast",
+      "mp": {
+        "name": "Jagsharan Singh Mahal",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MahalJagsharanSingh_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/jagsharan-singh-mahal(123455)"
+      }
+    },
+    "Edmonton Strathcona": {
+      "name": "Edmonton Strathcona",
+      "mp": {
+        "name": "Heather McPherson",
+        "party": "NDP",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/McPhersonHeather_NDP.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/heather-mcpherson(105472)"
+      }
+    },
+    "Edmonton West": {
+      "name": "Edmonton West",
+      "mp": {
+        "name": "Kelly McCauley",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/McCauleyKelly_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/kelly-mccauley(89472)"
+      }
+    },
+    "Foothills": {
+      "name": "Foothills",
+      "mp": {
+        "name": "John Barlow",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/BarlowJohn_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/john-barlow(86261)"
+      }
+    },
+    "Fort McMurray—Cold Lake": {
+      "name": "Fort McMurray—Cold Lake",
+      "mp": {
+        "name": "Laila Goodridge",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/GoodridgeLaila_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/laila-goodridge(111636)"
+      }
+    },
+    "Grande Prairie": {
+      "name": "Grande Prairie",
+      "mp": {
+        "name": "Chris Warkentin",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/WarkentinChris_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/chris-warkentin(35671)"
+      }
+    },
+    "Lakeland": {
+      "name": "Lakeland",
+      "mp": {
+        "name": "Shannon Stubbs",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/StubbsShannon_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/shannon-stubbs(89477)"
+      }
+    },
+    "Lethbridge": {
+      "name": "Lethbridge",
+      "mp": {
+        "name": "Rachael Thomas",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/ThomasRachael_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/rachael-thomas(89478)"
+      }
+    },
+    "Leduc—Wetaskiwin": {
+      "name": "Leduc—Wetaskiwin",
+      "mp": {
+        "name": "The Honourable Mike Lake",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LakeMike_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/mike-lake(35857)"
+      }
+    },
+    "Medicine Hat—Cardston—Warner": {
+      "name": "Medicine Hat—Cardston—Warner",
+      "mp": {
+        "name": "Glen Motz",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/MotzGlen_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/glen-motz(96334)"
+      }
+    },
+    "Parkland": {
+      "name": "Parkland",
+      "mp": {
+        "name": "Dane Lloyd",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/LloydDane_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/dane-lloyd(98838)"
+      }
+    },
+    "Ponoka—Didsbury": {
+      "name": "Ponoka—Didsbury",
+      "mp": {
+        "name": "Blaine Calkins",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/CalkinsBlaine_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/blaine-calkins(35897)"
+      }
+    },
+    "Peace River—Westlock": {
+      "name": "Peace River—Westlock",
+      "mp": {
+        "name": "Arnold Viersen",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/ViersenArnold_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/arnold-viersen(89480)"
+      }
+    },
+    "Red Deer": {
+      "name": "Red Deer",
+      "mp": {
+        "name": "Burton Baileys",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BaileyBurton_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/burton-bailey(123500)"
+      }
+    },
+    "Sherwood Park—Fort Saskatchewan": {
+      "name": "Sherwood Park—Fort Saskatchewan",
+      "mp": {
+        "name": "Garnett Genuis",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/GenuisGarnett_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/garnett-genuis(89483)"
+      }
+    },
+    "St. Albert—Sturgeon River": {
+      "name": "St. Albert—Sturgeon River",
+      "mp": {
+        "name": "Michael Cooper",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/CooperMichael_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/michael-cooper(89484)"
+      }
+    },
+    "Yellowhead": {
+      "name": "Yellowhead",
+      "mp": {
+        "name": "William Stevenson",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/StevensonWilliam_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/william-stevenson(123513)"
+      }
+    }
+  }
+}

@@ -1,57 +1,49 @@
 let currentPopup = null;
-let currentRidingName = null;
+let currentSidebar = null;
 
-export function showRidingPreview(map, ridingName, lngLat) {
-    console.log('[PREVIEW] Showing preview for riding:', ridingName);
+function showRidingPreview(map, ridingName, lngLat, level = 'provincial') {
+    console.log(`[PREVIEW] Opening for "${ridingName}" (${level})`);
 
     if (currentPopup) {
         currentPopup.remove();
         currentPopup = null;
     }
 
-    currentRidingName = ridingName;
+    const dataUrl = level === 'federal' 
+        ? '/public/federal-riding-data.json'
+        : '/public/ridingData.json';
 
-    fetch('/ridingData.json')
-        .then(response => {
-            if (!response.ok) throw new Error(`ridingData fetch failed: ${response.status}`);
-            return response.json();
+    console.log(`[PREVIEW] Fetching ${dataUrl}`);
+
+    fetch(dataUrl)
+        .then(r => {
+            console.log(`[PREVIEW] Fetch status: ${r.status}`);
+            if (!r.ok) throw new Error(`Fetch failed ${r.status}`);
+            return r.json();
         })
         .then(data => {
-            console.log('[PREVIEW] ridingData loaded');
-
-            // New lookup: data.ridings[ridingName]
             const ridingData = data.ridings?.[ridingName];
-
-            if (!ridingData || !ridingData.mla) {
-                console.warn('[PREVIEW] No MLA data for:', ridingName);
-                currentPopup = new maplibregl.Popup({
-                    closeButton: true,
-                    closeOnClick: true,
-                    offset: 10,
-                    className: 'preview-popup'
-                })
-                    .setLngLat(lngLat)
-                    .setHTML(`<h4>${ridingName}</h4><p>No data available</p>`)
-                    .addTo(map);
+            if (!ridingData) {
+                console.warn(`[PREVIEW] No data for "${ridingName}"`);
                 return;
             }
 
-            const mla = ridingData.mla;
-            const photo = mla.photo || '';
-            const name = mla.name || 'Unknown';
-            const party = mla.party || '';
-            const role = mla.role || 'MLA';
+            const official = level === 'federal' ? ridingData.mp : ridingData.mla;
+            const role = level === 'federal' ? 'MP' : 'MLA';
+            const party = official?.party || 'N/A';
+            const photo = official?.photo || '';
+            const name = official?.name || 'Unknown';
+            const profileUrl = official?.profileUrl || '#';
 
             const partyColor = data.parties?.[party]?.color || '#E0E0E0';
             const bgColor = `${partyColor}22`;
 
-            let html = `
-                <div style="text-align:center; padding:12px 16px; background:${bgColor}; border-radius:8px;">
-                    ${photo ? `<img src="${photo}" style="width:110px; height:110px; border-radius:50%; object-fit:cover; margin-bottom:10px;">` : ''}
+            const html = `
+                <div style="text-align:center; padding:16px; background:${bgColor}; border-radius:8px;">
+                    ${photo ? `<img src="${photo}" style="width:120px;height:120px;border-radius:50%;object-fit:cover;margin-bottom:12px;border:2px solid #eee;">` : ''}
                     <h3 style="margin:8px 0 4px;">${name}</h3>
-                    <p style="margin:0; color:#555; font-size:0.95em;">${role} · ${party}</p>
-
-                    <button id="show-more-btn" style="margin-top:16px; padding:8px 18px; background:#003DA5; color:white; border:none; border-radius:6px; font-weight:bold; cursor:pointer;">
+                    <p style="margin:0; color:#555;">${role} · ${party}</p>
+                    <button id="show-more-btn" style="margin-top:16px; padding:10px 24px; background:#003DA5; color:white; border:none; border-radius:6px; font-weight:bold; cursor:pointer;">
                         Show more →
                     </button>
                 </div>
@@ -59,7 +51,7 @@ export function showRidingPreview(map, ridingName, lngLat) {
 
             currentPopup = new maplibregl.Popup({
                 closeButton: true,
-                closeOnClick: false,
+                closeOnClick: false,          // ← crucial: allow button clicks
                 offset: 15,
                 className: 'preview-popup'
             })
@@ -67,80 +59,119 @@ export function showRidingPreview(map, ridingName, lngLat) {
                 .setHTML(html)
                 .addTo(map);
 
-            setTimeout(() => {
+            console.log('[PREVIEW] Popup added to map');
+
+            // More reliable listener attachment
+            const attachListener = () => {
                 const btn = document.getElementById('show-more-btn');
                 if (btn) {
-                    btn.addEventListener('click', () => {
+                    console.log('[PREVIEW] Button found – attaching listener');
+                    btn.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        console.log('[PREVIEW] Show more clicked – opening sidebar');
+                        showRidingSidebar(map, ridingName, level);
                         currentPopup.remove();
-                        currentPopup = null;
-                        showRidingSidebar(ridingName, data);
                     });
+                    return true;
                 }
-            }, 100);
+                return false;
+            };
 
-            currentPopup.on('close', () => {
-                hideRidingSidebar();
-            });
+            // Try immediately + retry twice
+            if (!attachListener()) {
+                setTimeout(() => {
+                    if (!attachListener()) {
+                        setTimeout(attachListener, 800);
+                    }
+                }, 400);
+            }
         })
-        .catch(err => {
-            console.error('[PREVIEW] Error:', err);
-        });
+        .catch(err => console.error('[PREVIEW] Error:', err));
 }
 
-function showRidingSidebar(ridingName, data) {
-    const ridingData = data.ridings?.[ridingName];
-    if (!ridingData || !ridingData.mla) return;
-
-    const mla = ridingData.mla;
-    const partyColor = data.parties?.[mla.party]?.color || '#E0E0E0';
-    const bgColor = `${partyColor}22`;
-
-    let html = `
-        <div id="sidebar-content" style="position:relative; padding:24px 20px; height:100%; box-sizing:border-box;">
-            <button id="sidebar-close-btn" style="position:absolute; top:12px; right:16px; background:none; border:none; font-size:28px; cursor:pointer; color:#555;">×</button>
-
-            <h2 style="margin:0 0 20px; font-size:1.6em;">${ridingName}</h2>
-
-            <div class="official-card" style="text-align:center; margin-bottom:30px; padding:16px; border-radius:8px; background:${bgColor}; cursor:pointer; transition: all 0.2s ease; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                ${mla.photo ? `<img src="${mla.photo}" style="width:140px; height:140px; border-radius:50%; object-fit:cover; margin-bottom:12px; border:2px solid #eee;">` : ''}
-                <h3 style="margin:8px 0 4px;">${mla.name || 'Unknown MLA'}</h3>
-                <p style="margin:0; color:#444; font-size:1.05em;">MLA – ${mla.party || 'N/A'}</p>
-            </div>
-        </div>
-    `;
+function showRidingSidebar(map, ridingName, level = 'provincial') {
+    console.log(`[SIDEBAR] Opening for "${ridingName}" (${level})`);
 
     let sidebar = document.getElementById('riding-sidebar');
     if (!sidebar) {
+        console.log('[SIDEBAR] Creating sidebar');
         sidebar = document.createElement('div');
         sidebar.id = 'riding-sidebar';
-        sidebar.style.position = 'fixed';
-        sidebar.style.top = '0';
-        sidebar.style.right = '0';
-        sidebar.style.width = '380px';
-        sidebar.style.height = '100%';
-        sidebar.style.background = 'white';
-        sidebar.style.boxShadow = '-6px 0 20px rgba(0,0,0,0.25)';
-        sidebar.style.overflowY = 'auto';
-        sidebar.style.zIndex = '1001';
-        sidebar.style.transform = 'translateX(100%)';
-        sidebar.style.transition = 'transform 0.3s ease';
+        sidebar.style.cssText = `
+            position:fixed; top:0; right:0; width:400px; height:100%;
+            background:white; box-shadow:-12px 0 40px rgba(0,0,0,0.35);
+            overflow-y:auto; z-index:1003; transform:translateX(100%);
+            transition:transform 0.4s ease;
+        `;
         document.body.appendChild(sidebar);
     }
 
-    sidebar.innerHTML = html;
-    sidebar.style.transform = 'translateX(0)';
+    const dataUrl = level === 'federal' 
+        ? '/public/federal-riding-data.json'
+        : '/public/ridingData.json';
 
-    setTimeout(() => {
-        const closeBtn = document.getElementById('sidebar-close-btn');
-        if (closeBtn) {
-            closeBtn.addEventListener('click', hideRidingSidebar);
-        }
-    }, 100);
+    fetch(dataUrl)
+        .then(r => r.json())
+        .then(data => {
+            const ridingData = data.ridings?.[ridingName];
+            if (!ridingData) {
+                sidebar.innerHTML = '<p style="padding:20px;">No data available</p>';
+                sidebar.style.transform = 'translateX(0)';
+                return;
+            }
+
+            const official = level === 'federal' ? ridingData.mp : ridingData.mla;
+            const role = level === 'federal' ? 'MP' : 'MLA';
+            const party = official?.party || 'N/A';
+            const photo = official?.photo || '';
+            const name = official?.name || 'Unknown';
+            const profileUrl = official?.profileUrl || '#';
+
+            const partyColor = data.parties?.[party]?.color || '#ccc';
+            const bgColor = `${partyColor}22`;
+
+            sidebar.innerHTML = `
+                <div style="padding:24px; font-family:Arial,sans-serif;">
+                    <button id="sidebar-close-btn" style="position:absolute;top:16px;right:20px;font-size:36px;background:none;border:none;cursor:pointer;color:#777;">×</button>
+                    <h2 style="margin:0 0 20px;">${ridingName}</h2>
+                    <div style="text-align:center;padding:20px;background:${bgColor};border-radius:10px;">
+                        ${photo ? `<img src="${photo}" style="width:160px;height:160px;border-radius:50%;object-fit:cover;margin-bottom:16px;border:3px solid #eee;">` : ''}
+                        <h3 style="margin:0 0 8px;font-size:1.6em;">${name}</h3>
+                        <p style="margin:0 0 16px;font-size:1.1em;">${role} – ${party}</p>
+                        ${profileUrl !== '#' ? `<a href="${profileUrl}" target="_blank" style="display:inline-block;padding:10px 20px;background:#003DA5;color:white;text-decoration:none;border-radius:6px;font-weight:bold;">View full profile →</a>` : ''}
+                    </div>
+                </div>
+            `;
+
+            console.log('[SIDEBAR] Content set – sliding in');
+            sidebar.style.transform = 'translateX(0)';
+
+            setTimeout(() => {
+                const closeBtn = document.getElementById('sidebar-close-btn');
+                if (closeBtn) {
+                    closeBtn.addEventListener('click', () => {
+                        console.log('[SIDEBAR] Close clicked');
+                        sidebar.style.transform = 'translateX(100%)';
+                    });
+                }
+            }, 200);
+        })
+        .catch(err => {
+            console.error('[SIDEBAR] Fetch error:', err);
+            sidebar.innerHTML = '<p style="padding:20px;color:red;">Error loading data</p>';
+            sidebar.style.transform = 'translateX(0)';
+        });
 }
 
-export function hideRidingSidebar() {
+function hideRidingSidebar() {
     const sidebar = document.getElementById('riding-sidebar');
     if (sidebar) {
         sidebar.style.transform = 'translateX(100%)';
     }
 }
+export {
+  showRidingPreview,
+  showRidingSidebar,
+  hideRidingSidebar
+};

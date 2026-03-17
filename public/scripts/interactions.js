@@ -39,7 +39,7 @@ export function initInteractions(map) {
         map.setPaintProperty('ed-highlight', 'fill-outline-color', '#000000');
         map.setLayoutProperty('ed-highlight', 'visibility', 'visible');
 
-        currentPopup = showRidingPreview(map, ridingName, e.lngLat);
+        currentPopup = showRidingPreview(map, ridingName, e.lngLat, 'provincial');
 
         currentPopup.on('close', () => {
             map.setLayoutProperty('ed-highlight', 'visibility', 'none');
