@@ -1,10 +1,10 @@
-import { initOfficials, updateOfficials } from './officials.js';
 import { initRidings, updateRidingVisibility } from './ridings.js';
 import { initInteractions } from './interactions.js';
 import { initFederalRidings, updateFederalVisibility } from './federalRidings.js';
 import { initFederalInteractions } from './federalInteractions.js';
 import { applyRidingColours } from './colouring.js';
 import { applyFederalRidingColours } from './federalColouring.js';
+import { initLegend, updateLegend } from './legend.js';
 
 // Layer definitions
 const layers = {
@@ -47,47 +47,48 @@ document.addEventListener('DOMContentLoaded', async () => {
     await layer.init(map);
   }
 
-  // Set initial visibility – only active layer visible
+  // Set initial visibility — only active layer visible
   for (const key in layers) {
     const visible = (key === activeLayer);
     layers[key].visible = visible;
     toggleLayerVisibility(map, key, visible);
   }
 
-  // Apply zoom logic to starting active layer
+  // Apply zoom-based visibility to starting active layer
   if (layers[activeLayer]?.updateVisibility) {
     layers[activeLayer].updateVisibility(map);
   }
 
   // Apply colours for starting layer
-if (activeLayer === 'provincial') {
-    applyRidingColours(map)
-        .then(() => console.log('[SWITCH] Provincial colours done'))
-        .catch(err => console.error('[SWITCH] Provincial fail:', err));
-} else if (activeLayer === 'federal') {
-    console.log('[SWITCH] Attempting federal colours...');
-    applyFederalRidingColours(map)
-        .then(() => console.log('[SWITCH] Federal colours done'))
-        .catch(err => console.error('[SWITCH] Federal colouring failed:', err.message || err));
-}
+  if (activeLayer === 'provincial') {
+    applyRidingColours(map).catch(err => console.error('[INIT] Provincial colouring failed:', err));
+  } else if (activeLayer === 'federal') {
+    applyFederalRidingColours(map).catch(err => console.error('[INIT] Federal colouring failed:', err));
+  }
 
-  // Initialize interaction handlers
+  // Initialize interactions
   initInteractions(map);
   initFederalInteractions(map);
 
-  // initOfficials(map);  // ← uncomment when you want markers back
+  // Initialize legend (pass function to get current activeLayer)
+  const refreshLegend = initLegend(map, () => activeLayer);
 
-  // Update only the active layer on zoom/move
+  // Uncomment when ready for markers
+  // initOfficials(map);
+
+  // Update visibility + legend on zoom/move — only for active layer
   map.on('zoom', () => {
     if (layers[activeLayer]?.updateVisibility) {
       layers[activeLayer].updateVisibility(map);
     }
+    refreshLegend();
   });
 
   map.on('moveend', () => {
     if (layers[activeLayer]?.updateVisibility) {
       layers[activeLayer].updateVisibility(map);
     }
+    refreshLegend();
   });
 
   // Layer toggle buttons
@@ -114,7 +115,7 @@ if (activeLayer === 'provincial') {
         layers[activeLayer].updateVisibility(map);
       }
 
-      // Apply colours when switching
+      // Refresh colours
       if (activeLayer === 'provincial') {
         applyRidingColours(map)
           .then(() => console.log('[SWITCH] Provincial colours refreshed'))
@@ -124,6 +125,9 @@ if (activeLayer === 'provincial') {
           .then(() => console.log('[SWITCH] Federal colours refreshed'))
           .catch(err => console.error('[SWITCH] Federal colouring failed:', err));
       }
+
+      // Refresh legend
+      refreshLegend();
     });
   });
 });
