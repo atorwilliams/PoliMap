@@ -109,14 +109,33 @@ function showPartySidebar(map, partyKey, members, level) {
     sidebar.id = 'party-sidebar';
     sidebar.className = 'party-sidebar';
 
+    console.log(`[PartySidebar] Opening for ${partyKey} — ${members.length} members received`);
+
     const html = `
         <button id="sidebar-close-btn">×</button>
         <div class="sidebar-content members-list">
-            ${members.map(member => {
+            ${members.map((member, index) => {
                 const hero = member.heroPhoto || member.photo || 'https://via.placeholder.com/500x300?text=Photo';
+                
+                const offsetX = member.heroPhotoOffsetX ?? 50;
+                const offsetY = member.heroPhotoOffsetY ?? 50;
+
+                // ← Logging: check if offsets exist and what their values are
+                console.log(`[Card ${index}] ${member.name || 'Unnamed'} — heroPhoto: ${hero}`);
+                console.log(`[Card ${index}] OffsetX: ${offsetX} (from ${member.heroPhotoOffsetX !== undefined ? 'JSON' : 'default'})`);
+                console.log(`[Card ${index}] OffsetY: ${offsetY} (from ${member.heroPhotoOffsetY !== undefined ? 'JSON' : 'default'})`);
+
+                const styleString = `
+                    background-image: url('${hero}');
+                    background-position: ${offsetX}% ${offsetY}%;
+                `;
+
+                // ← Logging: see the exact style string that will be applied
+                console.log(`[Card ${index}] Generated style: ${styleString.trim()}`);
+
                 return `
                     <div class="member-card" data-member='${JSON.stringify(member)}'>
-                        <div class="card-image" style="background-image: url('${hero}');">
+                        <div class="card-image" style="${styleString}">
                             <div class="party-stripe" style="background: ${getPartyColor(partyKey, level)};"></div>
                             <div class="card-overlay"></div>
                         </div>

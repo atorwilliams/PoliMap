@@ -1,10 +1,20 @@
 {
   "parties": {
-    "Conservative": { "color": "#003DA5" },
-    "Liberal": { "color": "#FF0000" },
-    "NDP": { "color": "#F37021" },
-    "Independent": { "color": "#808080" },
-    "Progressive Tory Party": { "color": "#FFD700" }
+    "Conservative": {
+      "color": "#003DA5"
+    },
+    "Liberal": {
+      "color": "#FF0000"
+    },
+    "NDP": {
+      "color": "#F37021"
+    },
+    "Independent": {
+      "color": "#808080"
+    },
+    "Progressive Tory Party": {
+      "color": "#FFD700"
+    }
   },
   "ridings": {
     "Airdrie—Cochrane": {
@@ -13,7 +23,28 @@
         "name": "Blake Richards",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/RichardsBlake_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/blake-richards(59235)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/blake-richards(59235)",
+        "heroPhoto": "https://images.squarespace-cdn.com/content/v1/64c94ddc569a6827726233e8/9fadcd62-3590-40a9-bd63-3752053bc197/HOC-2019-1121-NV-04-12+%281%29.jpg",
+        "contact": {
+          "email": "blake@blakerichards.ca",
+          "tollFree": "1-800-667-0410",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-948-5103",
+          "constituencyOffice": "16-620 1st avenue NW Airdrie, Alberta T4B 2R3",
+          "website": "https://www.blakerichards.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/blakerichards.ca/",
+            "twitter": "https://x.com/BlakeRichardsMP",
+            "instagram": "https://www.instagram.com/blakerichards.ca/",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/@blakerichardsmp",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 80,
+        "heroPhotoOffsetY": 30
       }
     },
     "Battle River—Crowfoot": {
@@ -22,7 +53,28 @@
         "name": "The Honourable Pierre Poilievre",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/PoilievrePierre_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/pierre-poilievre(25524)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/pierre-poilievre(25524)",
+        "heroPhoto": "https://www.hilltimes.com/wp-content/uploads/2025/11/568A0058_58-e1762789636856.jpg",
+        "contact": {
+          "email": "pierre.poilievre@parl.gc.ca",
+          "tollFree": "",
+          "fax": "780-608-4603 / 613-947-4611",
+          "officeHours": "",
+          "phone": "780-608-4600 / 613-947-4608",
+          "constituencyOffice": "4945 50th street (Main office) Camrose, Alberta T4V 1P9",
+          "website": "https://pierremp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/PierrePoilievreMP/",
+            "twitter": "https://x.com/PierrePoilievre",
+            "instagram": "https://www.instagram.com/pierrepoilievremp/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
       }
     },
     "Bow River": {
@@ -31,7 +83,28 @@
         "name": "David Bexte",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BexteDavid_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/david-bexte(123372)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/david-bexte(123372)",
+        "heroPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ7D5CtPahw6Itv7jNTgdvBUmXDF6jX9_LMSPlx768_JPlM9JN41fcIzoaTrKlY0z8imzxulPNTvIULRcytfCsNtZEayzoxZVjPXkX4g&s=10",
+        "contact": {
+          "email": "david.bexte@parl.gc.ca",
+          "tollFree": "1-844-241-0020",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-361-2980",
+          "constituencyOffice": "225D Wheatland Trail Strathmore, Alberta T1P 1T5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "https://x.com/davidbexte",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 900,
+        "heroPhotoOffsetY": 20
       }
     },
     "Calgary Centre": {
@@ -40,7 +113,28 @@
         "name": "Greg McLean",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/McLeanGreg_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/greg-mclean(105623)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/greg-mclean(105623)",
+        "heroPhoto": "https://gregmcleanmp.ca/wp-content/uploads/sites/51/2025/06/2025-0522-NV-13-020web-1024x683.jpg",
+        "contact": {
+          "email": "",
+          "tollFree": "",
+          "fax": "403-245-3468",
+          "officeHours": "",
+          "phone": "403-244-1880",
+          "constituencyOffice": "Mount Royal Place, Suite 445 1414 ‒ 8 Street SW Calgary, Alberta T2R 1J6",
+          "website": "https://gregmcleanmp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/GregMcLeanYYC/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/gregmcleanyyc/",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/@GregMcLeanYYC",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
       }
     },
     "Calgary Confederation": {
@@ -49,7 +143,28 @@
         "name": "Corey Hogan",
         "party": "Liberal",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/HoganCorey_Lib.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/corey-hogan(123382)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/corey-hogan(123382)",
+        "heroPhoto": "https://www.coreyhoganmp.ca/image/687411823e79ba8b18b91bd6/2880/chargebw",
+        "contact": {
+          "email": "corey.hogan@parl.gc.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "Monday: 9am - 5pm  Tuesday: 9am - 5pm  Wednesday: 11am - 7pm  Thursday: 11am - 7pm  Friday: 9am - 5pm",
+          "phone": "403-410-2121",
+          "constituencyOffice": "1717 - 10 Street NW,  Suite #207  Calgary, Alberta",
+          "website": "https://www.coreyhogan.ca/",
+          "social": {
+            "facebook": "",
+            "twitter": "https://x.com/coreyhoganyyc?lang=en",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/coreyhogan/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": "https://bsky.app/profile/coreyhogan.ca"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
       }
     },
     "Calgary Crowfoot": {
@@ -58,7 +173,28 @@
         "name": "Pat Kelly",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/KellyPat_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/pat-kelly(89130)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/pat-kelly(89130)",
+        "heroPhoto": "https://patkellymp.ca/wp-content/uploads/2025/07/SACA-Breakfast-1024x707.jpg",
+        "contact": {
+          "email": "pat.kelly@parl.gc.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-282-7980",
+          "constituencyOffice": "",
+          "website": "https://patkellymp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/PatKellyMP/",
+            "twitter": "https://twitter.com/patkelly_mp",
+            "instagram": "https://www.instagram.com/patkelly.crr/",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/@patkelly746",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
       }
     },
     "Calgary East": {
@@ -67,7 +203,28 @@
         "name": "Jasraj Singh Hallan",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/HallanJasrajSingh_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/jasraj-hallan(105630)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/jasraj-hallan(105630)",
+        "heroPhoto": "https://www.theglobeandmail.com/resizer/v2/KK3IW63WJRDPXG2ON2JCT7C6KY.JPG?auth=48b8f35240e6bc9caea394a1184c1d51909ce73e301cb61d4dd794dd1de26c6e&width=600&quality=80",
+        "contact": {
+          "email": "JasrajSingh.Hallan@parl.gc.ca",
+          "tollFree": "",
+          "fax": "403-207-3035",
+          "officeHours": "",
+          "phone": "403-207-3030",
+          "constituencyOffice": "220-2912 Memorial drive SE Calgary, Alberta T2A 6R1",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/jasrajshallan/",
+            "twitter": "https://x.com/jasrajshallan",
+            "instagram": "https://www.instagram.com/jasrajshallan/?hl=en",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/@JasrajSHallan",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
       }
     },
     "Calgary Heritage": {
@@ -76,7 +233,28 @@
         "name": "Shuvaloy Majumdar",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/MajumdarShuvaloy_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/shuvaloy-majumdar(116022)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/shuvaloy-majumdar(116022)",
+        "heroPhoto": "https://macdonaldlaurier.ca/wp-content/uploads/2022/06/FTH7UclXEAA4nbu.jpg",
+        "contact": {
+          "email": "shuvaloy.majumdar@parl.gc.ca",
+          "tollFree": "",
+          "fax": "403-253-8203",
+          "officeHours": "",
+          "phone": "403-253-7990",
+          "constituencyOffice": "940-10201 Southport road SW Calgary, Alberta T2W 4X9",
+          "website": "https://www.shuvmajumdarmp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/shuvmajumdar/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/shuvaloymajumdar/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
       }
     },
     "Calgary McKnight": {
@@ -85,7 +263,28 @@
         "name": "Dalwinder Gill",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GillDalwinder_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/dalwinder-gill(123401)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/dalwinder-gill(123401)",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/481234325_9877869272246072_1023408898287115233_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=x311GjxjY8cQ7kNvwGlIxcJ&_nc_oc=Adna4J4Pmrf-zJ7_Qe2eiHL7JV1fTo_Hw8tnBbojP6defMeaZ8yS8vSvaQmJK0UlFFQ&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=WHBf7nunbxaa7LeCit0cNw&_nc_ss=8&oh=00_AfyWggavT5eHKcE15NR7TMowYqPJu-agq0v3ioNI660Rlg&oe=69C057B5",
+        "contact": {
+          "email": "dalwinder.gill@parl.gc.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-668-5355",
+          "constituencyOffice": "101-7 Westwinds Crescent NE Calgary, Alberta T3J 5H2",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/DalGillYYC/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/dalgillyyc/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
       }
     },
     "Calgary Midnapore": {
@@ -94,7 +293,28 @@
         "name": "Stephanie Kusie",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/KusieStephanie_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/stephanie-kusie(96367)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/stephanie-kusie(96367)",
+        "heroPhoto": "https://stephaniekusiemp.ca/wp-content/uploads/sites/34/2024/03/HOC-2024-0227-BT-02-010-web-1024x620.jpg",
+        "contact": {
+          "email": "Stephanie.Kusie.C1@parl.gc.ca",
+          "tollFree": "",
+          "fax": "403-225-3504",
+          "officeHours": "",
+          "phone": "403-225-3480",
+          "constituencyOffice": "204-279 Midpark Way SE Calgary, Alberta T2X 1M2",
+          "website": "https://www.stephaniekusie.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/stephaniekusiepolitician/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/stephaniekusie/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
       }
     },
     "Calgary Nose Hill": {
@@ -103,7 +323,28 @@
         "name": "The Honourable Michelle Rempel Garner",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/RempelGarnerMichelle_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/michelle-rempel-garner(71902)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/michelle-rempel-garner(71902)",
+        "heroPhoto": "https://www.theglobeandmail.com/resizer/v2/AIHSVCPDRRE3LB2HIW6C6WXQ2U.jpg?auth=4b739035520e96d68ca874095ae5693ae9d45503c8f7d58c520a2d7bb6451cc3&width=600&quality=80",
+        "contact": {
+          "email": "",
+          "tollFree": "",
+          "fax": "403-230-4368",
+          "officeHours": "",
+          "phone": "403-216-7777",
+          "constituencyOffice": "111-70 Country Hills Landing NW Calgary, Alberta T3K 2L2",
+          "website": "https://mprempel.ca/",
+          "social": {
+            "facebook": "",
+            "twitter": "https://x.com/MichelleRempel",
+            "instagram": "https://www.instagram.com/michellerempel/",
+            "linkedin": "https://www.linkedin.com/in/michellerempelgarner/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 10
       }
     },
     "Calgary Shepard": {
@@ -112,7 +353,28 @@
         "name": "Tom Kmiec",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/KmiecTom_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/tom-kmiec(89136)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/tom-kmiec(89136)",
+        "heroPhoto": "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2022/02/Tom_Kmiec.jpg",
+        "contact": {
+          "email": "tom.kmiec@parl.gc.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-974-1285",
+          "constituencyOffice": "",
+          "website": "https://tomkmiecmp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/TomKmiec/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/tomkmiec/?hl=en",
+            "linkedin": "https://www.linkedin.com/in/tomkmiec/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 15
       }
     },
     "Calgary Signal Hill": {
@@ -121,7 +383,28 @@
         "name": "David McKenzie",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/McKenzieDavid_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/david-mckenzie(123415)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/david-mckenzie(123415)",
+        "heroPhoto": "https://nationalmagazine.ca/MediaGallery/NM/NationalMagazine/Covers/2024/MckenzieDavid-769x468.png?ext=.png",
+        "contact": {
+          "email": "david.mckenzie@parl.gc.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-695-0570",
+          "constituencyOffice": "2216-8561 8A Avenue SW  Calgary, Alberta, T3H 0V5",
+          "website": "https://davidmckenziemp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/DMcKenzieCPC/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/dmckenziecpc/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
       }
     },
     "Calgary Skyview": {
@@ -130,7 +413,28 @@
         "name": "Amanpreet S. Gill",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GillAmanpreet_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/amanpreet-s-gill(123418)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/amanpreet-s-gill(123418)",
+        "heroPhoto": "https://votemate.org/usrimg/prefill/8084.jpeg",
+        "contact": {
+          "email": "amanpreetsingh.gill@parl.gc.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-355-8500",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/amanpreetsgillmp/",
+            "twitter": "https://x.com/AmanpreetSGill",
+            "instagram": "https://www.instagram.com/amanpreetsgillmp/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
       }
     },
     "Edmonton Centre": {
@@ -139,7 +443,28 @@
         "name": "The Honourable Eleanor Olszewski",
         "party": "Liberal",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/OlszewskiEleanor_Lib.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/eleanor-olszewski(89171)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/eleanor-olszewski(89171)",
+        "heroPhoto": "https://www.hilltimes.com/wp-content/uploads/2025/06/6L8A8199_3-1-e1749062426147.jpg",
+        "contact": {
+          "email": "eleanor.olszewski@parl.gc.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "9am - 4:30pm Monday to Friday",
+          "phone": "780-633-4944",
+          "constituencyOffice": "Unit 104, 12220 Stony Plain Rd Edmonton, Alberta T5N 3Y4",
+          "website": "https://eleanorolszewski.libparl.ca/",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
       }
     },
     "Edmonton Gateway": {
@@ -148,7 +473,28 @@
         "name": "The Honourable Tim Uppal",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/UppalTim_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/tim-uppal(89469)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/tim-uppal(89469)",
+        "heroPhoto": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2015/01/tim-uppal.jpg",
+        "contact": {
+          "email": "Tim.Uppal@parl.gc.ca",
+          "tollFree": "",
+          "fax": "780-497-3511",
+          "officeHours": "",
+          "phone": "780-497-3524",
+          "constituencyOffice": "9225 28th avenue Edmonton, Alberta T6N 1N1",
+          "website": "https://timuppal.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/TimSUppal/",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/hon-tim-singh-uppal-pc-mba-187a3a111/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
       }
     },
     "Edmonton Griesbach": {
@@ -157,7 +503,28 @@
         "name": "Kerry Diotte",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DiotteKerry_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/kerry-diotte(89150)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/kerry-diotte(89150)",
+        "heroPhoto": "https://images.squarespace-cdn.com/content/v1/6829ebacb8755d4b44826ac5/5d03cccc-aede-4392-b94d-dd1576bf1153/HOC-2026-0205-CD-009+-+headshot+one.jpg",
+        "contact": {
+          "email": "kerry.diotte@parl.gc.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "",
+          "constituencyOffice": "#102, 10212 127 Ave NW  Edmonton, AB  Canada T5E 0B9",
+          "website": "https://www.kerrydiotte.com/",
+          "social": {
+            "facebook": "https://www.facebook.com/kerry.diotte/",
+            "twitter": "https://x.com/KerryDiotte",
+            "instagram": "https://www.instagram.com/kerrydiotte/?hl=en",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
       }
     },
     "Edmonton Manning": {
@@ -166,7 +533,28 @@
         "name": "Ziad Aboultaif",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/AboultaifZiad_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/ziad-aboultaif(89156)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/ziad-aboultaif(89156)",
+        "heroPhoto": "https://ziadaboultaif.ca/wp-content/uploads/sites/45/2022/05/Ziad-hoc-1024x683.jpg",
+        "contact": {
+          "email": "Ziad.Aboultaif.C1@parl.gc.ca",
+          "tollFree": "",
+          "fax": "780-822-1544",
+          "officeHours": "Monday: 8:00 AM – 4:00 PM Tuesday: 8:00 AM – 4:00 PM Wednesday: 8:00 AM – 4:00 PM Thursday: 8:00 AM – 4:00 PM Friday: 8:00 AM – 12:00 PM",
+          "phone": "780-822-1540",
+          "constituencyOffice": "5515 – 130 Ave Edmonton, AB T5A 1B7",
+          "website": "https://ziadaboultaif.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/mpziad/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/aboultaifziad/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
       }
     },
     "Edmonton Northwest": {
@@ -175,7 +563,28 @@
         "name": "Billy Morin",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MorinWilliam_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/billy-morin(123447)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/billy-morin(123447)",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/543094571_122180538284343830_4063749220448341432_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=cfR1PHIs12oQ7kNvwElPNTF&_nc_oc=Adkt8fao9lLNuv33i7kta7SFSxMmXaJmVoKRNKHTFA3o7j6ACNCrvUrnKNMWvNW6p4Q&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=1TsE1bQojBYV19Y86gyGBg&_nc_ss=8&oh=00_AfzcTXL1yFBhHxUxXYLP_K2CzoiptHPjUxhaKWzMVQULvw&oe=69C03CDB",
+        "contact": {
+          "email": "billy.morin@parl.gc.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-634-7499",
+          "constituencyOffice": "211-551 Mistatim Way NW Edmonton, Alberta T6V 0M9",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/billy.morin.mp/",
+            "twitter": "https://x.com/billymorinECN",
+            "instagram": "https://www.instagram.com/billymorinofficial/?hl=en",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 40
       }
     },
     "Edmonton Riverbend": {
@@ -184,7 +593,28 @@
         "name": "Matt Jeneroux",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/JenerouxMatt_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/matt-jeneroux(89167)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/matt-jeneroux(89167)",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/245314902_285604910057510_247135266860113718_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=i9kCrKS9EBAQ7kNvwEBufJT&_nc_oc=AdkjusffAH2X4OshofLJ1aH-ybOElcy-ZHJFKx0uHLzgVTPlhPb9_zzIprcYMwkvFeE&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=IWOncKeOUOWaeEORpMsFfQ&_nc_ss=8&oh=00_AfzjznhlYlkRh-PYQXT0-1EVx9law6VbunwFrl-X5lr5FQ&oe=69C03E7C",
+        "contact": {
+          "email": "matt.jeneroux@parl.gc.ca",
+          "tollFree": "",
+          "fax": "780-495-4485",
+          "officeHours": "",
+          "phone": "780-495-4351",
+          "constituencyOffice": "316-14127 23 Avenue NW Edmonton, Alberta T6R 0G4",
+          "website": "http://mattjeneroux.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/mattjeneroux/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/mattjeneroux/",
+            "linkedin": "https://www.linkedin.com/in/matt-jeneroux-49a78713/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
       }
     },
     "Edmonton Southeast": {
@@ -193,7 +623,28 @@
         "name": "Jagsharan Singh Mahal",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MahalJagsharanSingh_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/jagsharan-singh-mahal(123455)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/jagsharan-singh-mahal(123455)",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/500022350_122127761690798003_8082566720262671185_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=2a1932&_nc_ohc=H7DtgqqDBoUQ7kNvwFP-imE&_nc_oc=AdmQJAcHkOPxFF6chvfs5nB9HhWpF70y7tnzxdHRxzHHmsC33Q5RkXJsKGe9zzf1BEc&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=7tCqG8wjMvFQYXPBYREu8w&_nc_ss=8&oh=00_Afz-8Z-K3mN2HOAGBKwFjRVK6HSasD3m3RjH669u-sFfgw&oe=69C04D1B",
+        "contact": {
+          "email": "jagsharansingh.mahal@parl.gc.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-634-7447",
+          "constituencyOffice": "200-6203 28 Ave NW Edmonton, Alberta T6L 6K3",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/p/Jagsharan-Singh-Mahal-61573940113318/",
+            "twitter": "https://x.com/Jagsharan_Mahal",
+            "instagram": "https://www.instagram.com/jagsharanmahal/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
       }
     },
     "Edmonton Strathcona": {
@@ -202,7 +653,28 @@
         "name": "Heather McPherson",
         "party": "NDP",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/McPhersonHeather_NDP.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/heather-mcpherson(105689)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/heather-mcpherson(105689)",
+        "heroPhoto": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/3/eb/3eba049c-7a78-5d67-bc69-184935c03b12/673bb3f5859d5.image.jpg?resize=786%2C500",
+        "contact": {
+          "email": "contact@heathermcpherson.ca",
+          "tollFree": "",
+          "fax": "780-495-8403",
+          "officeHours": "",
+          "phone": "780-495-8404",
+          "constituencyOffice": "10045 81 avenue NW Edmonton, Alberta T6E 1W7",
+          "website": "https://www.heathermcpherson.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/HeatherMcPhersonNDPNPD/",
+            "twitter": "https://x.com/HMcPhersonNDP",
+            "instagram": "https://www.instagram.com/heathermacnow/?hl=en",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": "https://bsky.app/profile/heathermcpherson.bsky.social"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 25
       }
     },
     "Edmonton West": {
@@ -211,7 +683,28 @@
         "name": "Kelly McCauley",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/McCauleyKelly_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/kelly-mccauley(89179)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/kelly-mccauley(89179)",
+        "heroPhoto": "https://www.hilltimes.com/wp-content/uploads/2019/07/6L8A6455.t5bb665df.m800.xzbsgzX5e-1.jpg.webp",
+        "contact": {
+          "email": "kelly.mccauley@parl.gc.ca",
+          "tollFree": "",
+          "fax": "780-392-2519",
+          "officeHours": "",
+          "phone": "780-392-2515",
+          "constituencyOffice": "104-10471 178 street Edmonton, Alberta T5S 1R5",
+          "website": "http://kellymccauley.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/KellyMcCauleyMP/",
+            "twitter": "https://x.com/KellyMcCauleyMP",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/kjmccauley/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 10
       }
     },
     "Foothills": {
@@ -220,7 +713,28 @@
         "name": "John Barlow",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/BarlowJohn_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/john-barlow(86261)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/john-barlow(86261)",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/okotokstoday/2025-images/250416/barlow-foothills-election-2025.jpg;w=960",
+        "contact": {
+          "email": "john.barlow@parl.gc.ca",
+          "tollFree": "1-866-636-9437",
+          "fax": "403-603-3669",
+          "officeHours": "",
+          "phone": "403-603-3665",
+          "constituencyOffice": "109 – 4th Avenue SW High River, Alberta T1V 1M5",
+          "website": "https://johnbarlowmp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/johnbarlowmp/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/johnbarlowmp/",
+            "linkedin": "https://www.linkedin.com/in/john-barlow-14003743/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
       }
     },
     "Fort McMurray—Cold Lake": {
@@ -229,7 +743,28 @@
         "name": "Laila Goodridge",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/GoodridgeLaila_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/laila-goodridge(110918)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/laila-goodridge(110918)",
+        "heroPhoto": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2021/08/img_9551-fm.jpg",
+        "contact": {
+          "email": "",
+          "tollFree": "",
+          "fax": "780-743-2287",
+          "officeHours": "",
+          "phone": "780-743-2201",
+          "constituencyOffice": "222-8520 Manning Avenue Fort McMurray, Alberta T9H 5G2",
+          "website": "http://lailagoodridgemp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/VoteLaila/",
+            "twitter": "https://x.com/LailaGoodridge?lang=en",
+            "instagram": "https://www.instagram.com/laila.goodridge/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
       }
     },
     "Grande Prairie": {
@@ -238,7 +773,28 @@
         "name": "Chris Warkentin",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/WarkentinChris_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/chris-warkentin(35886)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/chris-warkentin(35886)",
+        "heroPhoto": "https://globalnews.ca/wp-content/uploads/2017/03/091008951-e1490405169955.jpg?quality=65&strip=all",
+        "contact": {
+          "email": "chris.warkentin@parl.gc.ca",
+          "tollFree": "",
+          "fax": "780-538-9257",
+          "officeHours": "",
+          "phone": "780-538-1677",
+          "constituencyOffice": "201-10625 West Side drive Grande Prairie, Alberta T8V 8E6",
+          "website": "http://www.chriswarkentin.com",
+          "social": {
+            "facebook": "https://www.facebook.com/chriswarkentin/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/chriswarkentinmp/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
       }
     },
     "Lakeland": {
@@ -247,7 +803,28 @@
         "name": "Shannon Stubbs",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/StubbsShannon_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/shannon-stubbs(89198)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/shannon-stubbs(89198)",
+        "heroPhoto": "https://canadastrongandfree.network/wp-content/uploads/elementor/thumbs/Shannon-Stubbs-MP-CSFN-Headshot-qklapeztm3vvb0otondbfh2wukdzh38hluz84exvlw.png",
+        "contact": {
+          "email": "shannon.stubbs@parl.gc.ca",
+          "tollFree": "",
+          "fax": "780-657-7079",
+          "officeHours": "",
+          "phone": "780-657-7075",
+          "constituencyOffice": "5009 50 street Two Hills, Alberta T0B 4K0",
+          "website": "https://www.shannonstubbs.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/ShannonLakeland/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/shannonstubbsmp/?hl=en",
+            "linkedin": "https://www.linkedin.com/in/shannonlstubbs/",
+            "youtube": "https://www.youtube.com/@shannonstubbsmp",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
       }
     },
     "Lethbridge": {
@@ -256,7 +833,28 @@
         "name": "Rachael Thomas",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/ThomasRachael_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/rachael-thomas(89200)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/rachael-thomas(89200)",
+        "heroPhoto": "https://static.wixstatic.com/media/21cf46_6b2113584d134a89ac1e5824bb453c1d~mv2.jpg/v1/fill/w_980,h_626,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/21cf46_6b2113584d134a89ac1e5824bb453c1d~mv2.jpg",
+        "contact": {
+          "email": "rachael.thomas@parl.gc.ca",
+          "tollFree": "",
+          "fax": "403-380-4026",
+          "officeHours": "",
+          "phone": "403-320-0070",
+          "constituencyOffice": "255 8th street South Lethbridge, Alberta T1J 4Y1",
+          "website": "https://www.rachaelthomas.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/RachaelThomasAB/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/rachaelthomas.ab/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 35
       }
     },
     "Leduc—Wetaskiwin": {
@@ -265,7 +863,28 @@
         "name": "The Honourable Mike Lake",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LakeMike_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/mike-lake(35857)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/mike-lake(35857)",
+        "heroPhoto": "https://macautism.ca/wp-content/uploads/2024/04/Offord-twt-Mike-Lake-2-1024x768.jpg",
+        "contact": {
+          "email": "Mike.Lake@parl.gc.ca",
+          "tollFree": "1-866-488-0919",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-495-2149",
+          "constituencyOffice": "101, 4710 – 50 Street Leduc, Alberta T9E 6W2",
+          "website": "https://mikelake.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/MikeLakeMP/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/mikelakemp/",
+            "linkedin": "https://www.linkedin.com/in/mikelakemp/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
       }
     },
     "Medicine Hat—Cardston—Warner": {
@@ -274,7 +893,28 @@
         "name": "Glen Motz",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/MotzGlen_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/glen-motz(94305)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/glen-motz(94305)",
+        "heroPhoto": "https://media-cdn.socastsrm.com/wordpress/wp-content/blogs.dir/2323/files/2025/05/motz-png.jpeg",
+        "contact": {
+          "email": "Glen.Motz@parl.gc.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-528-4698",
+          "constituencyOffice": "Suite 306, 2810-13th Avenue SE Medicine Hat, Alberta T1A 3P9",
+          "website": "https://glenmotzmp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/GlenMotz/",
+            "twitter": "https://x.com/GlenMotz",
+            "instagram": "https://www.instagram.com/glenmotz/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
       }
     },
     "Parkland": {
@@ -283,7 +923,28 @@
         "name": "Dane Lloyd",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/LloydDane_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/dane-lloyd(98079)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/dane-lloyd(98079)",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/stalberttoday/import//2017/10/byelectionDR011.jpg;w=582",
+        "contact": {
+          "email": "dane.lloyd@parl.gc.ca",
+          "tollFree": "",
+          "fax": "(780) 823-2055",
+          "officeHours": "",
+          "phone": "(780) 823-2050",
+          "constituencyOffice": "#102-4807 44 Avenue, Stony Plain, AB T7X 1V5",
+          "website": "https://danelloyd.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/DaneLloydCPC/",
+            "twitter": "https://x.com/danelloydmp",
+            "instagram": "https://www.instagram.com/danelloydcpc/",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/channel/UCQpCRvUGwDKXUi6l9Ht0SNg",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
       }
     },
     "Ponoka—Didsbury": {
@@ -292,7 +953,28 @@
         "name": "Blaine Calkins",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/CalkinsBlaine_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/blaine-calkins(35897)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/blaine-calkins(35897)",
+        "heroPhoto": "https://d1oe736akv80pz.cloudfront.net/content/lacombeonline/images/stories/news/2019/10_october/2019-10-09-LAC-BlaineCalkinsHS.jpg",
+        "contact": {
+          "email": "blaine.calkins@parl.gc.ca",
+          "tollFree": "",
+          "fax": "587-621-0029",
+          "officeHours": "",
+          "phone": "587-621-0020",
+          "constituencyOffice": "201-5025 Parkwood road Blackfalds, Alberta T0M 0J0",
+          "website": "http://blainecalkinsmp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/BlaineCalkins/",
+            "twitter": "https://x.com/BlaineFCalkins",
+            "instagram": "https://www.instagram.com/blainecalkins/",
+            "linkedin": "https://www.linkedin.com/in/blainecalkins/",
+            "youtube": "https://www.youtube.com/@blainecalkinsmp",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 10
       }
     },
     "Peace River—Westlock": {
@@ -301,16 +983,58 @@
         "name": "Arnold Viersen",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/ViersenArnold_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/arnold-viersen(89211)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/arnold-viersen(89211)",
+        "heroPhoto": "https://globalnews.ca/wp-content/uploads/2024/06/20240605120652-b75b61b2ab4d6284ef8aa270d8fe8f57e1a699743029aca4895b06bfa16484e1_0d95e0.jpg?quality=65&strip=all",
+        "contact": {
+          "email": "arnold.viersen@parl.gc.ca",
+          "tollFree": "1-800-667-8450",
+          "fax": "780-305-0343",
+          "officeHours": "",
+          "phone": "780-305-0340",
+          "constituencyOffice": "5124 – 50th Street, Box 4458 Barrhead, Alberta T7N 1A3",
+          "website": "https://mparnold.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/mparnoldviersen/",
+            "twitter": "https://x.com/ArnoldViersen",
+            "instagram": "https://www.instagram.com/arnoldviersen/",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/@arnoldviersen3180",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 15
       }
     },
     "Red Deer": {
       "name": "Red Deer",
       "mp": {
-        "name": "Burton Baileys",
+        "name": "Burton Bailey",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BaileyBurton_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/burton-bailey(123500)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/burton-bailey(123500)",
+        "heroPhoto": "https://d2ksr9467jthww.cloudfront.net/20251231001244/991fb18b-221f-42fc-b7f5-3eac302cbf64.jpg",
+        "contact": {
+          "email": "burton.bailey@parl.gc.ca",
+          "tollFree": "1-866-211-0959",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-698-9300",
+          "constituencyOffice": "100A-4315 55th avenue Red Deer, Alberta T4N 4N7",
+          "website": "https://burtonbaileymp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/BurtonBaileyRD/",
+            "twitter": "https://x.com/BurtonBaileyRD",
+            "instagram": "https://www.instagram.com/burtonbaileyrd/",
+            "linkedin": "https://www.linkedin.com/in/burton-bailey/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
       }
     },
     "Sherwood Park—Fort Saskatchewan": {
@@ -319,7 +1043,28 @@
         "name": "Garnett Genuis",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/GenuisGarnett_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/garnett-genuis(89226)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/garnett-genuis(89226)",
+        "heroPhoto": "https://i.cbc.ca/ais/e98c8126-45cb-44ec-9865-b2deee734dac,1727390274485/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C521%2C7682%2C4321%29%3BResize%3D1180",
+        "contact": {
+          "email": "garnett.genuis@parl.gc.ca",
+          "tollFree": "",
+          "fax": "780-449-1471",
+          "officeHours": "8:30 a.m. – 4:30 p.m. Tuesday – Friday Closed from 12-1 for lunch",
+          "phone": "780-467-4944",
+          "constituencyOffice": "214-2018 Sherwood drive Sherwood Park, Alberta T8A 5V3",
+          "website": "http://www.garnettgenuismp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/MPGenuis/",
+            "twitter": "https://x.com/GarnettGenuis?lang=en",
+            "instagram": "https://www.instagram.com/garnettgenuismp/",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/@garnettgenuismp",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 0
       }
     },
     "St. Albert—Sturgeon River": {
@@ -328,7 +1073,28 @@
         "name": "Michael Cooper",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/CooperMichael_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/michael-cooper(89219)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/michael-cooper(89219)",
+        "heroPhoto": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2024/02/CP167168074.jpg",
+        "contact": {
+          "email": "michael.cooper@parl.gc.ca",
+          "tollFree": "",
+          "fax": "780-460-1246",
+          "officeHours": "",
+          "phone": "780-459-0809",
+          "constituencyOffice": "20 Perron Street Suite 220 (Main Office) St Albert, AB T8N 1E4",
+          "website": "https://michaelcoopermp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/MichaelCooperMP/",
+            "twitter": "https://x.com/MichaelCooperMP",
+            "instagram": "https://www.instagram.com/michaelcoopermp/",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/c/michaelcoopermp",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 12
       }
     },
     "Yellowhead": {
@@ -337,7 +1103,28 @@
         "name": "William Stevenson",
         "party": "Conservative",
         "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/StevensonWilliam_CPC.jpg",
-        "profileUrl": "https://www.ourcommons.ca/members/en/william-stevenson(123513)"
+        "profileUrl": "https://www.ourcommons.ca/members/en/william-stevenson(123513)",
+        "heroPhoto": "https://static.wixstatic.com/media/78a524_a05bc005dfe64d838ef8b3b96b46b8f6~mv2.png/v1/fill/w_2500,h_1406,al_c/78a524_a05bc005dfe64d838ef8b3b96b46b8f6~mv2.png",
+        "contact": {
+          "email": "william.stevenson@parl.gc.ca",
+          "tollFree": "1-800-268-7117",
+          "fax": "",
+          "officeHours": "Monday-Friday: 9 AM - 4 PM",
+          "phone": "780-670-4242",
+          "constituencyOffice": "211 - 55 Street, Edson, AB T7E 1L5",
+          "website": "https://www.williamstevenson.ca/",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/william-stevenson-1b597a45/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 25
       }
     }
   }

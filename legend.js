@@ -7,8 +7,6 @@ export function initLegend(map, getActiveLayer) {
   if (!legend) return null;
 
   const refresh = () => updateLegend(map, getActiveLayer());
-  refresh();
-
   return refresh;
 }
 
@@ -50,7 +48,10 @@ export async function updateLegend(map, activeLayer) {
           photo: official.photo || '',
           heroPhoto: official.heroPhoto || official.photo || '',
           profileUrl: official.profileUrl || '#',
-          contact: official.contact || {}  // include full contact
+          contact: official.contact || {},
+          // ← These two lines were missing — now added
+          heroPhotoOffsetX: official.heroPhotoOffsetX ?? 50,
+          heroPhotoOffsetY: official.heroPhotoOffsetY ?? 50
         });
       }
     }
