@@ -40,10 +40,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   await new Promise(resolve => map.on('load', resolve));
 
+  // Initialize all layers
   for (const key in layers) {
     await layers[key].init(map);
   }
 
+  // Set initial visibility
   for (const key in layers) {
     const visible = (key === activeLayer);
     layers[key].visible = visible;
@@ -54,26 +56,28 @@ document.addEventListener('DOMContentLoaded', async () => {
     layers[activeLayer].updateVisibility(map);
   }
 
+  // Apply initial colours
   if (activeLayer === 'provincial') {
     applyRidingColours(map);
   } else if (activeLayer === 'federal') {
     applyFederalRidingColours(map);
   }
 
+  // Initialize interactions
   initInteractions(map);
   initFederalInteractions(map);
 
-  // Delay legend init until map is fully stable (prevents double initial refresh)
+  // Initialize legend with delay for stability
   setTimeout(() => {
     const refreshLegend = initLegend(map, () => activeLayer);
-    refreshLegend(); // one clean initial call
+    refreshLegend(); // Initial render
 
-    // Debounced for zoom/move
+    // Debounced refresh on zoom/move
     const debouncedRefresh = debounce(refreshLegend, 300);
     map.on('zoom', debouncedRefresh);
     map.on('moveend', debouncedRefresh);
 
-    // Layer switch (immediate refresh)
+    // Layer switching
     const layerButtons = document.querySelectorAll('.layer-btn');
     layerButtons.forEach(btn => {
       btn.addEventListener('click', () => {
@@ -84,6 +88,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         btn.classList.add('active');
         activeLayer = layerKey;
 
+        // Close any open party sidebar
+        if (window.currentSidebar) {
+          window.currentSidebar.remove();
+          window.currentSidebar = null;
+        }
+
+        // Update visibility and colours
         for (const key in layers) {
           const visible = (key === activeLayer);
           layers[key].visible = visible;
@@ -100,10 +111,11 @@ document.addEventListener('DOMContentLoaded', async () => {
           applyFederalRidingColours(map);
         }
 
+        // Refresh legend for new layer
         refreshLegend();
       });
     });
-  }, 500); // 500ms delay — enough to skip early zoom/move events
+  }, 500);
 });
 
 function debounce(fn, delay = 300) {

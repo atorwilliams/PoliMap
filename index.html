@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Polimap – Alberta Political Tool</title>
-
+<link rel="stylesheet" href="https://cdn.simpleicons.org/simpleicons.css">
     <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+   <header class="top-banner">
+  <div class="banner-container">
+    <div class="logo">
+      <h1>PoliMap</h1>
+      <span>Alberta Political Mapping</span>
+    </div>
+
+    <nav class="main-nav">
+      <button class="nav-btn active" data-action="map">Map View</button>
+      <button class="nav-btn" data-action="about">About</button>
+      <button class="nav-btn" data-action="forum">Discussion Forum</button>
+      <button class="nav-btn" data-action="separatist">Separatist Info</button>
+      <button class="nav-btn" data-action="gov">Alberta Government</button>
+      <button class="nav-btn" data-action="contribute">Contribute</button>
+      <button class="nav-btn" data-action="donate">Donate</button>
+    </nav>
+  </div>
+</header>
     <div id="map"></div>
 
     <!-- Legend -->
@@ -24,8 +42,12 @@
         <button class="layer-btn" data-layer="federal">Federal (MPs)</button>
     </div>
 
+</div>
     <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.js"></script>
+    <!-- <script type="module" src="utils.js"></script> -->
     <script type="module" src="main.js"></script>
+    <div id="about-overlay" class="about-overlay">
+
 </body>
 </html>

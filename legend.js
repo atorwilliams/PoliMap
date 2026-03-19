@@ -49,7 +49,6 @@ export async function updateLegend(map, activeLayer) {
           heroPhoto: official.heroPhoto || official.photo || '',
           profileUrl: official.profileUrl || '#',
           contact: official.contact || {},
-          // ← These two lines were missing — now added
           heroPhotoOffsetX: official.heroPhotoOffsetX ?? 50,
           heroPhotoOffsetY: official.heroPhotoOffsetY ?? 50
         });

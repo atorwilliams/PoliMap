@@ -2,441 +2,679 @@
    Core map & layout
    ================================================ */
 html, body, #map {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #map {
-    margin-left: 0;
-    width: 100%;
+  width: 100%;
+  margin-top: 56px; /* pushed down by banner height */
 }
 
 /* ================================================
    Popups & tooltips
    ================================================ */
 .hover-tooltip {
-    background: white;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-    padding: 0;
-    max-width: 300px;
-    pointer-events: none;
-    font-family: Arial, sans-serif;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  padding: 0;
+  max-width: 300px;
+  pointer-events: none;
+  font-family: Arial, sans-serif;
 }
 
 .preview-popup {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-    padding: 0;
-    min-width: 320px;
-    max-width: 90vw;
-    pointer-events: none;
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  padding: 0;
+  min-width: 320px;
+  max-width: 90vw;
+  pointer-events: none;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
 }
 
 /* ================================================
    Floating map controls – dark glass style
    ================================================ */
 .map-control {
-    position: absolute;
-    left: 20px;
-    z-index: 1000;
-    background: rgba(0, 0, 0, 0.68);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.35);
-    border: 1px solid rgba(255,255,255,0.12);
-    font-family: Arial, sans-serif;
-    min-width: 180px;
-    color: white;
+  position: absolute;
+  left: 20px;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.68);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.12);
+  font-family: Arial, sans-serif;
+  min-width: 180px;
+  color: white;
 }
 
 .control-header {
-    padding: 8px 14px 6px;
-    color: #ddd;
-    font-size: 0.9em;
-    font-weight: 600;
-    text-align: center;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 8px 14px 6px;
+  color: #ddd;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 /* Legend */
 .legend-control {
-    bottom: 140px;
-    max-height: 60vh;
-    overflow-y: auto;
+  bottom: 140px;
+  max-height: 60vh;
+  overflow-y: auto;
 }
 
 #legend-parties {
-    padding: 8px 12px;
-    opacity: 0;
-    animation: fadeIn 0.5s ease-out forwards; /* exactly 0.5 seconds, smooth */
+  padding: 8px 12px;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out forwards;
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(12px); } /* more noticeable slide */
-    to   { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-/* Legend cards – NO shadow default, subtle on hover */
+/* Legend swatches */
 #legend-parties > div {
-    display: flex;
-    align-items: center;
-    margin: 6px 0;
-    padding: 6px 10px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.25s ease;
-    background: transparent;
-    box-shadow: none; /* zero shadow by default */
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  background: transparent;
+  box-shadow: none;
 }
 
 #legend-parties > div:hover {
-    background: rgba(255,255,255,0.12);
-    box-shadow: 0 3px 8px rgba(0,0,0,0.12); /* subtle, toned-down hover shadow */
+  background: rgba(255,255,255,0.12);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
 }
 
 /* Layers */
 .layers-control {
-    bottom: 20px;
+  bottom: 20px;
+  z-index: 1200 !important; /* always above sidebars */
 }
 
 .layer-btn {
-    display: block;
-    width: 100%;
-    padding: 12px 18px;
-    margin: 0;
-    border: none;
-    background: transparent;
-    color: white;
-    font-size: 1em;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.18s ease;
-    text-align: center;
+  display: block;
+  width: 100%;
+  padding: 12px 18px;
+  margin: 0;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  text-align: center;
 }
 
 .layer-btn:hover {
-    background: rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.12);
 }
 
 .layer-btn.active {
-    background: #003DA5;
-    color: white;
-    font-weight: 600;
+  background: #003DA5;
+  color: white;
+  font-weight: 600;
 }
 
 .layer-btn[data-layer="federal"].active {
-    background: #d32f2f;
+  background: #d32f2f;
 }
 
-/* Party list sidebar (legend click) – white background */
+/* ================================================
+   Top banner
+   ================================================ */
+.top-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2000;
+  background: #000000;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+.banner-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.logo span {
+  font-size: 0.85em;
+  opacity: 0.7;
+  display: block;
+  margin-top: 2px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  padding: 8px 14px;
+  font-size: 0.95em;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+  background: rgba(255,255,255,0.08);
+}
+
+.nav-btn.active {
+  background: rgba(255,255,255,0.12);
+  font-weight: 600;
+}
+
+/* ================================================
+   Party sidebar (legend click) – dark + transparent
+   ================================================ */
 .party-sidebar {
-    position: fixed;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 420px;
-    background: #ffffff;
-    color: #111111;
-    z-index: 1100;
-    box-shadow: -6px 0 24px rgba(0,0,0,0.25);
-    overflow-y: auto;
-    transform: translateX(100%);
-    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: fixed;
+  right: 0;
+  top: 60px;
+  bottom: 0;
+  width: 420px;
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #ffffff;
+  z-index: 1100;
+  box-shadow: -6px 0 24px rgba(0,0,0,0.5);
+  overflow-y: auto;
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  border-left: 1px solid rgba(255,255,255,0.08);
 }
 
 .party-sidebar.open {
-    transform: translateX(0);
+  transform: translateX(0);
 }
 
 .party-sidebar #sidebar-close-btn {
-    position: absolute;
-    top: 16px;
-    right: 20px;
-    background: none;
-    border: none;
-    font-size: 2.4em;
-    color: #555;
-    cursor: pointer;
-    z-index: 10;
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 2.4em;
+  color: #ffffff;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 10;
+  padding: 8px;
 }
 
 .party-sidebar #sidebar-close-btn:hover {
-    color: #000;
+  opacity: 1;
 }
 
 .party-sidebar .sidebar-content {
-    padding: 60px 24px 24px;
+  padding: 60px 24px 24px;
 }
 
 .party-sidebar .members-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-/* Cards: wider feel, shorter height */
 .party-sidebar .member-card {
-    background: #ffffff;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08); /* tiny default shadow */
-    transition: box-shadow 0.25s ease, transform 0.25s ease;
-    cursor: pointer;
-    width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.3);
+  transition: all 0.25s ease;
+  cursor: pointer;
+  width: 100%;
 }
 
 .party-sidebar .member-card:hover {
-    box-shadow: 0 6px 16px rgba(0,0,0,0.15); /* stronger on hover */
-    transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  transform: translateY(-4px);
 }
 
 .party-sidebar .card-image {
-    height: 144px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;          /* fallback if no inline style */
-    position: relative;
+  height: 144px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: var(--offset-x, 50%) var(--offset-y, 50%);
+  position: relative;
 }
 
 .party-sidebar .party-stripe {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 7px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 7px;
 }
 
 .party-sidebar .card-overlay {
-    position: absolute;
-    inset: 0;
-    
-}
-
-.party-sidebar .card-text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 16px;
-    color: white;
-    z-index: 3;
-    text-shadow: 0 1px 4px rgba(0,0,0,0.8);
-}
-
-.party-sidebar .card-text h4 {
-    margin: 0 0 4px;
-    font-size: 1.15em;
-    font-weight: 700;
-}
-
-.party-sidebar .card-text p {
-    margin: 0;
-    font-size: 0.95em;
-}
-
-/* Solo member detail sidebar */
-.member-detail-sidebar {
-    position: fixed;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 420px;
-    background: white;
-    z-index: 1200;
-    box-shadow: -8px 0 40px rgba(0,0,0,0.4);
-    overflow-y: auto;
-    transform: translateX(100%);
-    transition: transform 0.45s cubic-bezier(0.32, 0.72, 0, 1);
-    border-top-left-radius: 16px;
-    border-bottom-left-radius: 16px;
-}
-
-.member-detail-sidebar.open {
-    transform: translateX(0);
-}
-
-.member-detail-sidebar .sidebar-header {
-    padding: 20px 24px;
-    background: #f8f9fa;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #eee;
-}
-
-.member-detail-sidebar .sidebar-header h2 {
-    margin: 0;
-    font-size: 1.5em;
-    color: #222;
-}
-
-.member-detail-sidebar #sidebar-close-btn {
-    background: none;
-    border: none;
-    font-size: 2.4em;
-    color: #666;
-    cursor: pointer;
-}
-
-.member-detail-sidebar .hero-image {
-    height: 380px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.member-detail-sidebar .party-stripe {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 8px;
-    z-index: 2;
-}
-
-.member-detail-sidebar .image-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to bottom, transparent 60%, rgba(0,0,0,0.65) 100%);
-}
-
-.member-detail-sidebar .member-info {
-    padding: 28px 24px;
-    background: white;
-}
-
-.member-detail-sidebar .member-info h3 {
-    margin: 0 0 8px;
-    font-size: 1.65em;
-    color: #111;
-}
-
-.member-detail-sidebar .riding {
-    color: #555;
-    font-size: 1.05em;
-    margin-bottom: 24px;
-}
-
-.member-detail-sidebar .contact-details {
-    display: grid;
-    gap: 18px;
-}
-
-.member-detail-sidebar .contact-item strong {
-    display: block;
-    font-size: 0.95em;
-    color: #444;
-    margin-bottom: 3px;
-}
-
-.member-detail-sidebar .contact-item a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-.member-detail-sidebar .external-profile {
-    display: block;
-    margin-top: 16px;
-    color: #003DA5;
-    font-weight: 600;
-}
-
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
-    .map-control {
-        left: 50%;
-        transform: translateX(-50%);
-        width: 90%;
-        max-width: 320px;
-    }
-    .legend-control {
-        bottom: 140px;
-    }
-    .layers-control {
-        bottom: 16px;
-    }
-    .party-sidebar {
-        width: 100%;
-        height: 85vh;
-        top: auto;
-        bottom: 0;
-        border-top-left-radius: 16px;
-        border-top-right-radius: 16px;
-        transform: translateY(100%);
-        box-shadow: 0 -6px 24px rgba(0,0,0,0.25);
-    }
-    .party-sidebar.open {
-        transform: translateY(0);
-    }
-    .member-detail-sidebar {
-        width: 100%;
-        height: 92vh;
-        top: auto;
-        bottom: 0;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        transform: translateY(100%);
-    }
-    .member-detail-sidebar.open {
-        transform: translateY(0);
-    }
-}
-
-.party-sidebar .card-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        to top,
-        rgba(0,0,0,0.92) 0%,     /* almost black at bottom */
-        rgba(0,0,0,0.75) 30%,
-        rgba(0,0,0,0.35) 60%,
-        transparent 100%
-    );
-    opacity: 0;
-    transition: opacity 0.35s ease;
-    pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 40%, transparent 100%);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
 }
 
 .party-sidebar .member-card:hover .card-overlay {
-    opacity: 1 !important;
+  opacity: 1;
 }
 
 .party-sidebar .card-text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 16px 16px 24px;          /* a bit more bottom padding */
-    color: white;
-    z-index: 3;
-    opacity: 0;
-    transform: translateY(12px);
-    transition: opacity 0.35s ease, transform 0.35s ease;
-    pointer-events: none;
-    text-shadow: 
-        0 1px 4px rgba(0,0,0,0.95),
-        0 2px 8px rgba(0,0,0,0.75),
-        0 3px 12px rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px 16px 24px;
+  color: white;
+  z-index: 3;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  pointer-events: none;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.95),
+               0 2px 8px rgba(0,0,0,0.75),
+               0 3px 12px rgba(0,0,0,0.5);
 }
 
 .party-sidebar .member-card:hover .card-text {
-    opacity: 1;
-    transform: translateY(0);
-}
-/* Extra safety: reset any broken visibility on legend / controls */
-#legend-parties,
-.layer-btn {
-    pointer-events: auto !important;
-    opacity: 1 !important;
+  opacity: 1;
+  transform: translateY(0);
 }
 
+.party-sidebar .card-text h4 {
+  margin: 0 0 4px;
+  font-size: 1.15em;
+  font-weight: 700;
+}
+
+.party-sidebar .card-text p {
+  margin: 0;
+  font-size: 0.95em;
+}
+
+/* ================================================
+   Member detail sidebar – dark theme to match party sidebar
+   ================================================ */
+.member-detail-sidebar {
+  position: fixed;
+  right: 0;
+  top: 60px;
+  bottom: 0;
+  width: 420px;
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #ffffff;
+  z-index: 1200;
+  box-shadow: -8px 0 40px rgba(0,0,0,0.35);
+  overflow-y: auto;
+  transform: translateX(100%);
+  transition: transform 0.45s cubic-bezier(0.32, 0.72, 0, 1);
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.member-detail-sidebar.open {
+  transform: translateX(0);
+}
+
+/* Close button */
+.member-detail-sidebar #sidebar-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 2.4em;
+  color: #ffffff;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 10;
+  padding: 8px;
+}
+
+.member-detail-sidebar #sidebar-close-btn:hover {
+  opacity: 1;
+}
+
+/* Hero section */
+.member-detail-sidebar .hero-image {
+  height: 380px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.member-detail-sidebar .party-stripe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 8px;
+  z-index: 2;
+}
+
+.member-detail-sidebar .image-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 60%, rgba(0,0,0,0.65) 100%);
+}
+
+/* Main content area */
+.member-detail-sidebar .member-info {
+  padding: 32px 28px;
+  background: transparent;
+  color: #ffffff;
+}
+
+/* Headings & text */
+.member-detail-sidebar .member-info h3 {
+  margin: 0 0 8px;
+  font-size: 1.75em;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.member-detail-sidebar .riding {
+  color: #cccccc;
+  font-size: 1.1em;
+  margin-bottom: 32px;
+}
+
+/* Contact cards – light/transparent on dark bg */
+.member-detail-sidebar .contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.member-detail-sidebar .contact-item {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 18px 20px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  transition: all 0.2s ease;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.member-detail-sidebar .contact-item:hover {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  transform: translateY(-2px);
+}
+
+.member-detail-sidebar .contact-item strong {
+  display: block;
+  font-size: 0.95em;
+  color: #dddddd;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.member-detail-sidebar .contact-item p,
+.member-detail-sidebar .contact-item a {
+  margin: 0;
+  font-size: 1.05em;
+  color: #ffffff;
+  line-height: 1.4;
+}
+
+.member-detail-sidebar .contact-item a {
+  color: #4dabf7;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.member-detail-sidebar .contact-item a:hover {
+  color: #63b3ed;
+  text-decoration: underline;
+}
+
+/* Social icons – black icons on light cards (better contrast) */
+.member-detail-sidebar .social-links {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.member-detail-sidebar .social-links img {
+  transition: transform 0.2s ease;
+}
+
+.member-detail-sidebar .social-links a:hover img {
+  transform: scale(1.15);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .map-control {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 320px;
+  }
+  .legend-control {
+    bottom: 140px;
+  }
+  .layers-control {
+    bottom: 16px;
+  }
+  .party-sidebar,
+  .member-detail-sidebar {
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    transform: translateY(100%);
+    box-shadow: 0 -6px 24px rgba(0,0,0,0.25);
+  }
+  .party-sidebar.open,
+  .member-detail-sidebar.open {
+    transform: translateY(0);
+  }
+  .party-sidebar .sidebar-content,
+  .member-detail-sidebar .member-info {
+    padding: 50px 16px 16px;
+  }
+}
+
+/* Top banner */
+.top-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2000;
+  background: #000000;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+.banner-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.logo span {
+  font-size: 0.85em;
+  opacity: 0.7;
+  display: block;
+  margin-top: 2px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  padding: 8px 14px;
+  font-size: 0.95em;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+  background: rgba(255,255,255,0.08);
+}
+
+.nav-btn.active {
+  background: rgba(255,255,255,0.12);
+  font-weight: 600;
+}
+/* About overlay */
+.about-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  backdrop-filter: blur(8px);
+  z-index: 3000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.about-overlay[style*="display: flex"] {
+  display: flex !important;
+}
+
+.about-content {
+  background: #111;
+  color: white;
+  max-width: 800px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.7);
+  position: relative;
+}
+
+.about-content h1 {
+  margin: 0 0 24px;
+  font-size: 2.2em;
+}
+
+.about-content h2 {
+  margin: 32px 0 12px;
+  font-size: 1.5em;
+  color: #ddd;
+}
+
+.about-content p {
+  line-height: 1.6;
+  margin: 12px 0;
+}
+
+.about-content blockquote {
+  margin: 24px 0;
+  padding: 16px 24px;
+  border-left: 4px solid #003DA5;
+  background: rgba(255,255,255,0.05);
+  font-style: italic;
+}
+
+.about-content ul {
+  list-style: disc;
+  margin: 16px 0 16px 24px;
+}
+
+.about-content a {
+  color: #4dabf7;
+  text-decoration: none;
+}
+
+.about-content a:hover {
+  text-decoration: underline;
+}
+
+#about-close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 2.2em;
+  color: #aaa;
+  cursor: pointer;
+  padding: 8px;
+}
+
+#about-close:hover {
+  color: white;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .about-content {
+    padding: 24px;
+  }
+}

@@ -11,12 +11,10 @@ export async function applyRidingColours(map) {
 
     const source = map.getSource('ed-source');
     if (!source || !source._data || !source._data.features) {
-        console.warn('[COLOUR] ed-source not ready yet');
         return;
     }
 
     const features = source._data.features;
-    console.log('[COLOUR] Building match from', features.length, 'GeoJSON features');
 
     const usedRidingNames = new Set();
     features.forEach(feature => {
@@ -34,8 +32,6 @@ export async function applyRidingColours(map) {
     if (map.getLayer('ed-fill')) {
         map.setPaintProperty('ed-fill', 'fill-color', colorMatch);
         map.triggerRepaint(); // force visual update
-        console.log('[COLOUR] Colours applied using exact GeoJSON names');
-    } else {
-        console.warn('[COLOUR] ed-fill layer not found');
+        
     }
 }
