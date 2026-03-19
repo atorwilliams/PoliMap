@@ -33,42 +33,18 @@ export const BIAS_CONFIG = {
 };
 
 // ── CORS Proxy ────────────────────────────────────────────────────────────────
-// Tries two proxies in order. Each has a 7s timeout.
-//   1. allorigins.win  – returns JSON-wrapped content
-//   2. corsproxy.io    – returns raw content directly
+// Routes through our own Vercel serverless function (/api/proxy),
+// which fetches the feed server-side and adds CORS headers.
 async function fetchRaw(url) {
-  const tryProxy = async (proxyUrl, unwrap) => {
-    const ctrl = new AbortController();
-    const t = setTimeout(() => ctrl.abort(), 7000);
-    try {
-      const res = await fetch(proxyUrl, { signal: ctrl.signal });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const text = await unwrap(res);
-      if (!text || text.trimStart().startsWith('<html') || text.trimStart().startsWith('<!')) {
-        throw new Error('Got HTML instead of RSS');
-      }
-      // Validate XML here so a bad response falls through to the next proxy
-      const xml = new DOMParser().parseFromString(text, 'text/xml');
-      if (xml.querySelector('parsererror')) throw new Error('Invalid XML from proxy');
-      return text;
-    } finally {
-      clearTimeout(t);
-    }
-  };
-
-  // Proxy 1: allorigins.win
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), 8000);
   try {
-    return await tryProxy(
-      `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
-      r => r.json().then(d => d.contents)
-    );
-  } catch (_) {}
-
-  // Proxy 2: corsproxy.io
-  return tryProxy(
-    `https://corsproxy.io/?${encodeURIComponent(url)}`,
-    r => r.text()
-  );
+    const res = await fetch(`/api/proxy?url=${encodeURIComponent(url)}`, { signal: ctrl.signal });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.text();
+  } finally {
+    clearTimeout(t);
+  }
 }
 
 // ── Cache ─────────────────────────────────────────────────────────────────────
