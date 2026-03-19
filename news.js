@@ -10,16 +10,13 @@
 //   { url: 'https://www.cbc.ca/cmlink/rss-canada-calgary', name: 'CBC Calgary', bias: 'centre-left' },
 
 export const RSS_FEEDS = [
-  {url:'https://globalnews.ca/edmonton/feed/', name: 'Global News Edmonton', bias: 'centre'},
-  {url:'https://albertapolitics.ca/feed/', name: 'Alberta Politics', bias: 'left'},
-  {url: 'https://daveberta.ca/feed/', name: 'Daveberta', bias: 'centre-left'},
-  {url: 'https://thenarwhal.ca/feed/', name: 'The Narwhal', bias: 'left'},
-  {url: 'https://globalnews.ca/calgary/feed/', name: 'Global News Calgary', bias: 'centre'},
-  {url: 'https://calgaryherald.com/feed', name: 'Calgary Herald', bias: 'centre-right'},
-  {url: 'https://edmontonjournal.com/feed', name: 'Edmonton Journal', bias: 'centre-right'},
-  {url: 'https://www.westernstandard.news/feed/', name: 'Western Standard', bias: 'right'},
-  {url: 'https://edmontonsun.com/feed/', name: 'Edmonton Sun', bias: 'right'},
+  { url: 'https://albertapolitics.ca/feed/',         name: 'Alberta Politics',   bias: 'left'         },
+  { url: 'https://daveberta.ca/feed/',               name: 'Daveberta',          bias: 'centre-left'  },
+  { url: 'https://thenarwhal.ca/feed/',              name: 'The Narwhal',        bias: 'left'         },
+  { url: 'https://www.westernstandard.news/feed/',   name: 'Western Standard',   bias: 'right'        },
 
+  // Corporate media (Global News, Calgary Herald, Edmonton Journal, Edmonton Sun)
+  // block automated requests — removed to avoid 403 errors.
   // { url: '', name: '', bias: '' },
 ];
 
@@ -33,18 +30,41 @@ export const BIAS_CONFIG = {
 };
 
 // ── CORS Proxy ────────────────────────────────────────────────────────────────
-// Routes through our own Vercel serverless function (/api/proxy),
-// which fetches the feed server-side and adds CORS headers.
+// Tries two public CORS proxies in order. Each has a 7s timeout.
+//   1. allorigins.win  – returns JSON-wrapped content
+//   2. corsproxy.io    – returns raw content directly
 async function fetchRaw(url) {
-  const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), 8000);
+  const tryProxy = async (proxyUrl, unwrap) => {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 7000);
+    try {
+      const res = await fetch(proxyUrl, { signal: ctrl.signal });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const text = await unwrap(res);
+      if (!text || text.trimStart().startsWith('<html') || text.trimStart().startsWith('<!')) {
+        throw new Error('Got HTML instead of RSS');
+      }
+      const xml = new DOMParser().parseFromString(text, 'text/xml');
+      if (xml.querySelector('parsererror')) throw new Error('Invalid XML from proxy');
+      return text;
+    } finally {
+      clearTimeout(t);
+    }
+  };
+
+  // Proxy 1: allorigins.win
   try {
-    const res = await fetch(`/api/proxy?url=${encodeURIComponent(url)}`, { signal: ctrl.signal });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.text();
-  } finally {
-    clearTimeout(t);
-  }
+    return await tryProxy(
+      `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
+      r => r.json().then(d => d.contents)
+    );
+  } catch (_) {}
+
+  // Proxy 2: corsproxy.io
+  return tryProxy(
+    `https://corsproxy.io/?${encodeURIComponent(url)}`,
+    r => r.text()
+  );
 }
 
 // ── Cache ─────────────────────────────────────────────────────────────────────
