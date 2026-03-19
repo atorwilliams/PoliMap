@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alberta News – PoliMap</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="news.css">
+</head>
+<body>
+
+  <header class="top-banner">
+    <div class="banner-container">
+      <div class="logo">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </div>
+      <nav class="main-nav">
+        <button class="nav-btn" data-action="map">Map View</button>
+        <button class="nav-btn" data-action="about">About</button>
+        <button class="nav-btn" data-action="forum">Discussion Forum</button>
+        <button class="nav-btn" data-action="separatist">Separatist Info</button>
+        <button class="nav-btn active" data-action="news">News</button>
+        <button class="nav-btn" data-action="gov">Alberta Government</button>
+        <button class="nav-btn" data-action="contribute">Contribute</button>
+        <button class="nav-btn" data-action="donate">Donate</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <section class="page-hero">
+      <h1>Alberta News</h1>
+      <p>Live headlines from Alberta-focused outlets, filtered by political lean. Feeds are curated — bias labels are editorial judgements, not endorsements.</p>
+    </section>
+
+    <div class="news-filter-bar">
+      <button class="news-filter-btn active" data-bias="all">All</button>
+      <button class="news-filter-btn" data-bias="left">Left</button>
+      <button class="news-filter-btn" data-bias="centre-left">Centre-Left</button>
+      <button class="news-filter-btn" data-bias="centre">Centre</button>
+      <button class="news-filter-btn" data-bias="centre-right">Centre-Right</button>
+      <button class="news-filter-btn" data-bias="right">Right</button>
+    </div>
+
+    <div id="news-status"></div>
+    <div id="news-grid" class="news-grid"></div>
+
+  </main>
+
+  <script type="module" src="utils.js"></script>
+  <script type="module">
+    import { loadArticles, renderArticles, showLoading, showError, showUnconfigured, RSS_FEEDS } from './news.js';
+
+    let allArticles = [];
+
+    async function init() {
+      if (RSS_FEEDS.length === 0) {
+        showUnconfigured();
+        return;
+      }
+
+      showLoading();
+      try {
+        allArticles = await loadArticles();
+        renderArticles(allArticles);
+      } catch (err) {
+        showError('Failed to load news feeds. Please try again later.');
+        console.error('[News]', err);
+      }
+    }
+
+    // Bias filter buttons
+    document.querySelectorAll('.news-filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.news-filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderArticles(allArticles, btn.dataset.bias);
+      });
+    });
+
+    init();
+  </script>
+
+</body>
+</html>

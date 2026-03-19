@@ -1,4 +1,4 @@
-import { loadRidingData, getPartyColor } from './data.js';
+import { loadRidingData, getPartyColor, isIndependentRiding } from './data.js';
 
 export async function applyRidingColours(map) {
     await loadRidingData();  // ensure data is loaded
@@ -22,16 +22,27 @@ export async function applyRidingColours(map) {
         if (name) usedRidingNames.add(name);
     });
 
+    const independentRidings = [];
+
     usedRidingNames.forEach(ridingName => {
         const color = getPartyColor(ridingName);
         colorMatch.push(ridingName, color);
+        if (isIndependentRiding(ridingName)) {
+            independentRidings.push(ridingName);
+        }
     });
 
     colorMatch.push('#D3D3D3'); // fallback
 
     if (map.getLayer('ed-fill')) {
         map.setPaintProperty('ed-fill', 'fill-color', colorMatch);
-        map.triggerRepaint(); // force visual update
-        
+        map.triggerRepaint();
+    }
+
+    if (map.getLayer('ed-fill-independent')) {
+        const filter = independentRidings.length > 0
+            ? ['in', ['get', 'EDName2017'], ['literal', independentRidings]]
+            : ['==', ['get', 'EDName2017'], ''];
+        map.setFilter('ed-fill-independent', filter);
     }
 }

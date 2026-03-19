@@ -23,6 +23,14 @@ export function getPartyColor(ridingName) {
   return ridingDataCache.parties?.[partyKey]?.color || '#D3D3D3';
 }
 
+export function isIndependentRiding(ridingName) {
+  if (!ridingDataCache) return false;
+  const entry = ridingDataCache.ridings?.[ridingName];
+  if (!entry?.mla) return false;
+  const partyKey = entry.mla.party;
+  return !partyKey || !ridingDataCache.parties?.[partyKey]?.color;
+}
+
 let federalRidingDataCache = null;
 
 export async function loadFederalRidingData() {

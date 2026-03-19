@@ -13,7 +13,7 @@ const layers = {
     updateVisibility: updateRidingVisibility,
     visible: true,
     zoomThreshold: 6.2,
-    layers: ['ed-fill', 'ed-outline', 'ed-highlight']
+    layers: ['ed-fill', 'ed-fill-independent', 'ed-outline', 'ed-highlight']
   },
   federal: {
     name: 'Federal (MPs)',

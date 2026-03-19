@@ -1,3 +1,40 @@
+import { loadArticles, RSS_FEEDS } from './news.js';
+
+// ── News matching ─────────────────────────────────────────────────────────────
+async function getMemberNews(member, ridingName) {
+  if (!RSS_FEEDS.length) return [];
+  let articles;
+  try { articles = await loadArticles(); } catch (_) { return []; }
+
+  // Build keywords: full name, last name (if distinctive), riding name
+  const nameParts = (member.name || '').split(' ');
+  const lastName  = nameParts[nameParts.length - 1];
+  const keywords  = [
+    member.name.toLowerCase(),
+    ...(lastName.length > 4 ? [lastName.toLowerCase()] : []),
+    ridingName.toLowerCase(),
+    ridingName.toLowerCase().replace(/-/g, ' '),
+  ];
+
+  return articles
+    .filter(a => {
+      const text = `${a.title} ${a.description}`.toLowerCase();
+      return keywords.some(kw => kw.length > 3 && text.includes(kw));
+    })
+    .slice(0, 3);
+}
+
+function renderMemberNews(articles) {
+  if (!articles.length) {
+    return `<p class="member-news-empty">No recent news found.</p>`;
+  }
+  return articles.map(a => `
+    <a href="${a.link}" target="_blank" rel="noopener noreferrer" class="member-news-item">
+      <span class="member-news-title">${a.title}</span>
+      <span class="member-news-meta">${a.source} · ${a.pubDate ? new Date(a.pubDate).toLocaleDateString('en-CA', { month: 'short', day: 'numeric' }) : ''}</span>
+    </a>`).join('');
+}
+
 // Global sidebar reference (accessible from main.js)
 let currentSidebar = null;
 window.currentSidebar = currentSidebar; // expose globally
@@ -200,6 +237,13 @@ function showMemberDetailSidebar(member, ridingName, level) {
           <a href="${member.profileUrl}" target="_blank" class="external-profile">View full legislative profile →</a>
         </div>` : ''}
       </div>
+
+      ${buildSocialLinks(contact.social)}
+
+      <div class="member-news-section">
+        <h4 class="member-news-heading">Recent News</h4>
+        <div id="member-news-results"><p class="member-news-loading">Loading…</p></div>
+      </div>
     </div>
   `;
 
@@ -214,6 +258,37 @@ function showMemberDetailSidebar(member, ridingName, level) {
   setTimeout(() => sidebar.classList.add('open'), 10);
 
   window.currentSidebar = sidebar;
+
+  // Async: fetch and inject relevant news
+  getMemberNews(member, ridingName).then(articles => {
+    const el = document.getElementById('member-news-results');
+    if (el) el.innerHTML = renderMemberNews(articles);
+  });
+}
+
+function buildSocialLinks(social) {
+  if (!social) return '';
+
+  const platforms = [
+    { key: 'facebook',  icon: 'facebook'  },
+    { key: 'twitter',   icon: 'x'         },
+    { key: 'instagram', icon: 'instagram' },
+    { key: 'linkedin',  icon: null        },
+    { key: 'youtube',   icon: 'youtube'   },
+    { key: 'tiktok',    icon: 'tiktok'    },
+    { key: 'BlueSky',   icon: 'bluesky'   },
+  ];
+
+  const links = platforms
+    .filter(({ key }) => social[key])
+    .map(({ key, icon }) => icon === null
+      ? `<a href="${social[key]}" target="_blank" rel="noopener noreferrer" class="social-text-link">LinkedIn&#174;</a>`
+      : `<a href="${social[key]}" target="_blank" rel="noopener noreferrer" aria-label="${icon}" class="social-icon-link">
+          <img src="https://cdn.simpleicons.org/${icon}/ffffff" alt="${icon}" width="20" height="20">
+        </a>`)
+    .join('');
+
+  return links ? `<div class="social-links">${links}</div>` : '';
 }
 
 function getPartyColor(partyKey, level) {

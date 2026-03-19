@@ -1,5 +1,34 @@
+function addCrosshatchPattern(map) {
+  const size = 14;
+  const half = size / 2;
+  const canvas = document.createElement('canvas');
+  canvas.width = size;
+  canvas.height = size;
+  const ctx = canvas.getContext('2d');
+
+  ctx.clearRect(0, 0, size, size);
+  ctx.strokeStyle = 'rgba(30, 30, 30, 1)';
+  ctx.lineWidth = 1.5;
+  ctx.lineCap = 'square';
+
+  ctx.beginPath();
+  // \ diagonals (main + two wrapped edge segments)
+  ctx.moveTo(0, 0);    ctx.lineTo(size, size);
+  ctx.moveTo(half, 0); ctx.lineTo(size, half);
+  ctx.moveTo(0, half); ctx.lineTo(half, size);
+  // / diagonals (main + two wrapped edge segments)
+  ctx.moveTo(size, 0); ctx.lineTo(0, size);
+  ctx.moveTo(half, 0); ctx.lineTo(0, half);
+  ctx.moveTo(size, half); ctx.lineTo(half, size);
+  ctx.stroke();
+
+  map.addImage('hatch-independent', ctx.getImageData(0, 0, size, size));
+}
+
 export async function initRidings(map) {
   proj4.defs('EPSG:3401', '+proj=tmerc +lat_0=0 +lon_0=-115 +k=0.9992 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m +no_defs');
+
+  addCrosshatchPattern(map);
 
   map.addSource('ed-source', {
     type: 'geojson',
@@ -53,6 +82,18 @@ export async function initRidings(map) {
     });
 
     map.addLayer({
+      id: 'ed-fill-independent',
+      type: 'fill',
+      source: 'ed-source',
+      layout: { visibility: 'none' },
+      paint: {
+        'fill-pattern': 'hatch-independent',
+        'fill-opacity': 0.5
+      },
+      filter: ['==', ['get', 'EDName2017'], '']
+    });
+
+    map.addLayer({
       id: 'ed-outline',
       type: 'line',
       source: 'ed-source',
@@ -85,7 +126,7 @@ export function updateRidingVisibility(map) {
   const zoom = map.getZoom();
   const visible = zoom >= 5.3;
 
-  ['ed-fill', 'ed-outline'].forEach(id => {
+  ['ed-fill', 'ed-fill-independent', 'ed-outline'].forEach(id => {
     if (map.getLayer(id)) {
       map.setLayoutProperty(id, 'visibility', visible ? 'visible' : 'none');
     }
