@@ -1,3 +1,13 @@
+import { pointInFeature } from './data.js';
+
+let provincialGeoJSON = null;
+
+export function findProvincialRidingAt(lng, lat) {
+  if (!provincialGeoJSON) return null;
+  const found = provincialGeoJSON.features.find(f => pointInFeature(lng, lat, f));
+  return found?.properties?.EDName2017 || null;
+}
+
 function addCrosshatchPattern(map) {
   const size = 14;
   const half = size / 2;
@@ -66,6 +76,7 @@ export async function initRidings(map) {
     }
 
     geojson = reprojectGeoJSON(geojson);
+    provincialGeoJSON = geojson;
 
     map.getSource('ed-source').setData(geojson);
 
@@ -117,6 +128,49 @@ export async function initRidings(map) {
       filter: ['==', ['get', 'EDName2017'], '']
     });
 
+    // Urban filter: ridings that contain "Calgary" or "Edmonton" in name
+    const urbanFilter = ['any',
+      ['>=', ['index-of', 'Calgary',  ['get', 'EDName2017']], 0],
+      ['>=', ['index-of', 'Edmonton', ['get', 'EDName2017']], 0]
+    ];
+    const ruralFilter = ['!', urbanFilter];
+
+    const labelLayout = {
+      'text-field': ['get', 'EDName2017'],
+      'text-size': ['interpolate', ['linear'], ['zoom'], 6, 10, 11, 15],
+      'text-font': ['Noto Sans Regular'],
+      'text-max-width': 8,
+      'text-anchor': 'center',
+      'symbol-placement': 'point'
+    };
+    const labelPaint = {
+      'text-color': '#111111',
+      'text-halo-color': 'rgba(255,255,255,0.9)',
+      'text-halo-width': 2
+    };
+
+    // Rural/large ridings — visible from zoom 6
+    map.addLayer({
+      id: 'ed-label-rural',
+      type: 'symbol',
+      source: 'ed-source',
+      minzoom: 6,
+      filter: ruralFilter,
+      layout: { visibility: 'none', ...labelLayout },
+      paint: labelPaint
+    });
+
+    // Calgary/Edmonton dense ridings — only visible when zoomed in
+    map.addLayer({
+      id: 'ed-label-urban',
+      type: 'symbol',
+      source: 'ed-source',
+      minzoom: 9,
+      filter: urbanFilter,
+      layout: { visibility: 'none', ...labelLayout },
+      paint: labelPaint
+    });
+
   } catch (err) {
     // Silent error handling – no console output in production
   }
@@ -126,7 +180,7 @@ export function updateRidingVisibility(map) {
   const zoom = map.getZoom();
   const visible = zoom >= 5.3;
 
-  ['ed-fill', 'ed-fill-independent', 'ed-outline'].forEach(id => {
+  ['ed-fill', 'ed-fill-independent', 'ed-outline', 'ed-label-rural', 'ed-label-urban'].forEach(id => {
     if (map.getLayer(id)) {
       map.setLayoutProperty(id, 'visibility', visible ? 'visible' : 'none');
     }

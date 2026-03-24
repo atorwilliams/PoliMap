@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alberta Judiciary – PoliMap</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="institutional.css">
+</head>
+<body>
+
+  <header class="top-banner">
+    <div class="banner-container">
+      <div class="logo">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </div>
+      <nav class="main-nav">
+        <button class="nav-btn" data-action="map">Map View</button>
+        <button class="nav-btn" data-action="about">About</button>
+        <button class="nav-btn" data-action="separatist">Separatist Info</button>
+        <button class="nav-btn active" data-action="judiciary">Alberta Judiciary</button>
+        <button class="nav-btn" data-action="rcmp">Alberta RCMP</button>
+        <button class="nav-btn" data-action="news">News</button>
+        <button class="nav-btn" data-action="gov">Alberta Government</button>
+        <button class="nav-btn" data-action="contribute">Contribute</button>
+        <button class="nav-btn" data-action="donate">Donate</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <section class="page-hero">
+      <h1>Alberta Judiciary</h1>
+      <p>Appointed judges across Alberta's court hierarchy — including appointment dates, known leanings, and notable rulings.</p>
+    </section>
+
+    <nav class="sub-nav">
+      <button class="sub-nav-btn active" data-tab="cj">Court of Justice</button>
+      <button class="sub-nav-btn" data-tab="kb">King's Bench</button>
+      <button class="sub-nav-btn" data-tab="ca">Court of Appeal</button>
+      <button class="sub-nav-btn" data-tab="scc">Supreme Court</button>
+    </nav>
+
+    <!-- Court of Justice -->
+    <div id="tab-cj" class="tab-panel">
+      <div class="court-header">
+        <h2>Court of Justice</h2>
+        <div class="court-meta">
+          <span class="court-meta-item"><strong>Founded:</strong> 1907 (renamed from Provincial Court in 2024)</span>
+          <span class="court-meta-item"><strong>Appointing Authority:</strong> Lieutenant Governor in Council (Alberta Cabinet)</span>
+          <span class="court-meta-item"><strong>Judges:</strong> ~136 province-wide</span>
+        </div>
+        <p class="court-desc">Handles the vast majority of cases in Alberta — summary criminal offences, family law, civil claims under $100,000, youth justice, and traffic matters. Judges are recommended by a provincial judicial appointments committee and appointed by the Alberta Cabinet. No jury trials at this level. The court sits in communities across the province, making it the most accessible point of entry into the justice system for most Albertans.</p>
+      </div>
+      <div class="profile-grid" id="grid-cj"></div>
+      <div class="coming-soon"><h2>Profiles coming soon</h2><p>Judge data is being compiled.</p></div>
+    </div>
+
+    <!-- Court of King's Bench -->
+    <div id="tab-kb" class="tab-panel" style="display:none">
+      <div class="court-header">
+        <h2>Court of King's Bench</h2>
+        <div class="court-meta">
+          <span class="court-meta-item"><strong>Founded:</strong> 1907</span>
+          <span class="court-meta-item"><strong>Appointing Authority:</strong> Federal Governor in Council on recommendation of the Commissioner for Federal Judicial Affairs</span>
+          <span class="court-meta-item"><strong>Judges:</strong> ~75</span>
+        </div>
+        <p class="court-desc">Alberta's superior trial court. Presides over serious criminal matters (including jury trials), major civil litigation, divorce proceedings, and appeals from the Court of Justice. Because judges are federally appointed, their selection reflects the priorities of the federal government in power at the time of appointment — a distinction with significant political implications in a province with persistent federal-provincial tensions. Decisions are binding on the Court of Justice.</p>
+      </div>
+      <div class="profile-grid" id="grid-kb"></div>
+      <div class="coming-soon"><h2>Profiles coming soon</h2><p>Judge data is being compiled.</p></div>
+    </div>
+
+    <!-- Court of Appeal -->
+    <div id="tab-ca" class="tab-panel" style="display:none">
+      <div class="court-header">
+        <h2>Court of Appeal</h2>
+        <div class="court-meta">
+          <span class="court-meta-item"><strong>Founded:</strong> 1921</span>
+          <span class="court-meta-item"><strong>Appointing Authority:</strong> Federal Governor in Council on recommendation of the Commissioner for Federal Judicial Affairs</span>
+          <span class="court-meta-item"><strong>Judges:</strong> ~15</span>
+        </div>
+        <p class="court-desc">The highest court in Alberta. Hears appeals from the Court of King's Bench and select administrative tribunals. Cases are typically decided by three-judge panels; significant matters may be heard by five. All federally appointed. Decisions are binding on every lower court in Alberta and carry persuasive weight in other provinces. Appeals beyond this court go to the Supreme Court of Canada by leave only.</p>
+      </div>
+      <div class="profile-grid" id="grid-ca"></div>
+      <div class="coming-soon"><h2>Profiles coming soon</h2><p>Judge data is being compiled.</p></div>
+    </div>
+
+    <!-- Supreme Court of Canada -->
+    <div id="tab-scc" class="tab-panel" style="display:none">
+      <div class="court-header">
+        <h2>Supreme Court of Canada</h2>
+        <div class="court-meta">
+          <span class="court-meta-item"><strong>Founded:</strong> 1875</span>
+          <span class="court-meta-item"><strong>Appointing Authority:</strong> Prime Minister (no formal vetting process — sole discretion of the Prime Minister)</span>
+          <span class="court-meta-item"><strong>Justices:</strong> 9 nationally</span>
+        </div>
+        <p class="court-desc">Canada's final court of appeal. Decisions are binding on every court in the country. Justices are appointed directly by the Prime Minister with no parliamentary confirmation process — one of the most unchecked appointments in Canadian government. This page highlights justices with Alberta connections and landmark cases that originated from Alberta. The court's rulings on resource rights, Indigenous law, and the Charter have had outsized effects on Alberta specifically.</p>
+      </div>
+      <div class="profile-grid" id="grid-scc"></div>
+      <div class="coming-soon"><h2>Profiles coming soon</h2><p>Judge data is being compiled.</p></div>
+    </div>
+
+  </main>
+
+  <div id="wip-notice">
+    <p>This section is under active development. Judge profiles, appointment data, and notable cases are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+
+  <script type="module" src="utils.js"></script>
+  <script type="module" src="judiciary.js"></script>
+  <script>
+    const subNavBtns = document.querySelectorAll('.sub-nav-btn');
+    const tabPanels  = document.querySelectorAll('.tab-panel');
+
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+
+    subNavBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        subNavBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const target = btn.dataset.tab;
+        tabPanels.forEach(panel => {
+          panel.style.display = panel.id === `tab-${target}` ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>

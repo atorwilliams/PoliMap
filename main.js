@@ -5,6 +5,10 @@ import { initFederalInteractions } from './federalInteractions.js';
 import { applyRidingColours } from './colouring.js';
 import { applyFederalRidingColours } from './federalColouring.js';
 import { initLegend, updateLegend } from './legend.js';
+import { initMunicipal, updateMunicipalVisibility, MUNICIPAL_COLORS, HAMLET_COLOR, showMunicipalTypeSidebar } from './municipalLayer.js';
+
+const HAMLET_LAYERS = ['municipal-hamlet', 'municipal-hamlet-label'];
+let showHamlets = false;
 
 const layers = {
   provincial: {
@@ -13,7 +17,7 @@ const layers = {
     updateVisibility: updateRidingVisibility,
     visible: true,
     zoomThreshold: 6.2,
-    layers: ['ed-fill', 'ed-fill-independent', 'ed-outline', 'ed-highlight']
+    layers: ['ed-fill', 'ed-fill-independent', 'ed-outline', 'ed-highlight', 'ed-label-rural', 'ed-label-urban']
   },
   federal: {
     name: 'Federal (MPs)',
@@ -21,7 +25,14 @@ const layers = {
     updateVisibility: updateFederalVisibility,
     visible: false,
     zoomThreshold: 5.0,
-    layers: ['federal-fill', 'federal-outline', 'federal-highlight']
+    layers: ['federal-fill', 'federal-outline', 'federal-highlight', 'federal-label']
+  },
+  municipal: {
+    name: 'Municipal',
+    init: initMunicipal,
+    updateVisibility: updateMunicipalVisibility,
+    visible: false,
+    layers: ['municipal-fill', 'municipal-fill-hatch', 'municipal-outline', 'municipal-label-rural', 'municipal-label-urban']
   }
 };
 
@@ -67,10 +78,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   initInteractions(map);
   initFederalInteractions(map);
 
+  // Build municipal legend once
+  populateMunicipalLegend(map);
+
   // Initialize legend with delay for stability
   setTimeout(() => {
     const refreshLegend = initLegend(map, () => activeLayer);
     refreshLegend(); // Initial render
+    updateLegendDisplay(activeLayer);
 
     // Debounced refresh on zoom/move
     const debouncedRefresh = debounce(refreshLegend, 300);
@@ -101,6 +116,21 @@ document.addEventListener('DOMContentLoaded', async () => {
           toggleLayerVisibility(map, key, visible);
         }
 
+        // Hamlet layers: hide when leaving municipal, respect toggle when entering
+        if (activeLayer !== 'municipal') {
+          HAMLET_LAYERS.forEach(id => {
+            if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', 'none');
+          });
+        } else {
+          HAMLET_LAYERS.forEach(id => {
+            if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', showHamlets ? 'visible' : 'none');
+          });
+        }
+
+        // Show/hide hamlet toggle
+        const hamletWrap = document.getElementById('hamlet-toggle-wrap');
+        if (hamletWrap) hamletWrap.style.display = activeLayer === 'municipal' ? 'block' : 'none';
+
         if (layers[activeLayer]?.updateVisibility) {
           layers[activeLayer].updateVisibility(map);
         }
@@ -111,8 +141,22 @@ document.addEventListener('DOMContentLoaded', async () => {
           applyFederalRidingColours(map);
         }
 
-        // Refresh legend for new layer
-        refreshLegend();
+        // Switch legend
+        updateLegendDisplay(activeLayer);
+        if (activeLayer !== 'municipal') refreshLegend();
+      });
+    });
+
+    // Hamlet toggle
+    document.getElementById('hamlet-toggle-btn')?.addEventListener('click', () => {
+      showHamlets = !showHamlets;
+      const btn = document.getElementById('hamlet-toggle-btn');
+      if (btn) {
+        btn.textContent = `Hamlets: ${showHamlets ? 'On' : 'Off'}`;
+        btn.classList.toggle('active', showHamlets);
+      }
+      HAMLET_LAYERS.forEach(id => {
+        if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', showHamlets ? 'visible' : 'none');
       });
     });
   }, 500);
@@ -134,5 +178,42 @@ function toggleLayerVisibility(map, layerKey, visible) {
     if (map.getLayer(id)) {
       map.setLayoutProperty(id, 'visibility', visible ? 'visible' : 'none');
     }
+  });
+}
+
+function updateLegendDisplay(layerKey) {
+  const regularLegend = document.getElementById('legend');
+  const municipalLegend = document.getElementById('municipal-legend');
+  if (!regularLegend || !municipalLegend) return;
+
+  if (layerKey === 'municipal') {
+    regularLegend.style.display = 'none';
+    municipalLegend.style.display = 'block';
+  } else {
+    regularLegend.style.display = 'block';
+    municipalLegend.style.display = 'none';
+  }
+}
+
+function populateMunicipalLegend(map) {
+  const container = document.getElementById('municipal-legend-items');
+  if (!container) return;
+
+  container.innerHTML =
+    Object.entries(MUNICIPAL_COLORS).map(([type, { label, color }]) => `
+      <div class="legend-item legend-item-clickable" data-type="${type}" data-label="${label}" data-color="${color}">
+        <span class="legend-swatch" style="background:${color};"></span>
+        <span>${label}</span>
+      </div>`
+    ).join('') +
+    `<div class="legend-item legend-item-clickable" data-type="HAMLET" data-label="Hamlet" data-color="${HAMLET_COLOR}">
+      <span class="legend-dot" style="background:${HAMLET_COLOR};"></span>
+      <span>Hamlet</span>
+    </div>`;
+
+  container.querySelectorAll('.legend-item-clickable').forEach(item => {
+    item.addEventListener('click', () => {
+      showMunicipalTypeSidebar(item.dataset.type, item.dataset.label, item.dataset.color, map);
+    });
   });
 }

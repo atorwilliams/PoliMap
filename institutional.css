@@ -1,0 +1,681 @@
+body {
+  background: #0a0a0a;
+  color: #e8e8e8;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.page-main {
+  margin-top: 76px;
+}
+
+/* ── Hero ── */
+.page-hero {
+  padding: 72px 24px 56px;
+  text-align: center;
+  position: relative;
+}
+
+.page-hero h1 {
+  font-size: 3em;
+  font-weight: 900;
+  margin: 0 0 12px;
+  color: #ffffff;
+}
+
+.page-hero p {
+  color: #777;
+  font-size: 1.05em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ── Profile Grid ── */
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.25rem;
+  max-width: 1200px;
+  margin: 0 auto 4rem;
+  padding: 0 1.5rem;
+}
+
+/* ── Profile Card (flip) ── */
+.profile-card {
+  perspective: 1000px;
+  height: 340px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.profile-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.55s cubic-bezier(0.4, 0.2, 0.2, 1);
+  border-radius: 10px;
+}
+
+.profile-card.flipped .profile-card-inner {
+  transform: rotateY(180deg);
+}
+
+.profile-card-front,
+.profile-card-back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #2a2a2a;
+  background: #161616;
+  transition: border-color 0.2s ease;
+}
+
+.profile-card:hover .profile-card-front,
+.profile-card:hover .profile-card-back {
+  border-color: #444;
+}
+
+/* Front: full portrait with name pinned to bottom */
+.profile-card-front {
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.profile-card-front.no-portrait {
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card-front.no-portrait::before {
+  content: '';
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #2a2a2a;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23555'%3E%3Cpath d='M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z'/%3E%3C/svg%3E");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 48px;
+}
+
+.profile-card-front-label {
+  padding: 0.75rem 1.25rem 1rem;
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%);
+}
+
+.profile-card-front-label .profile-card-name {
+  margin: 0 0 2px;
+}
+
+.profile-card-front-label .profile-card-role {
+  margin: 0;
+}
+
+/* Back: flipped 180deg, scrollable if content overflows */
+.profile-card-back {
+  transform: rotateY(180deg);
+  overflow-y: auto;
+}
+
+.profile-card-stripe {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 4px;
+  background: #003DA5;
+}
+
+.profile-card-body {
+  padding: 1rem 1.25rem 1.25rem;
+}
+
+.profile-card-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #f0f0f0;
+  margin: 0 0 4px;
+}
+
+.profile-card-role {
+  font-size: 0.82rem;
+  color: #666;
+  margin: 0 0 12px;
+}
+
+.profile-card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.profile-meta-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  padding: 5px 8px;
+  background: #0e0e0e;
+  border-radius: 5px;
+}
+
+.profile-meta-label {
+  color: #555;
+}
+
+.profile-meta-value {
+  color: #ccc;
+  text-align: right;
+  max-width: 60%;
+}
+
+/* ── Leaning pill ── */
+.leaning-pill {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.leaning-left         { background: rgba(212, 85, 85, 0.2);  color: #e07070; }
+.leaning-centre-left  { background: rgba(196, 122, 48, 0.2); color: #d4944a; }
+.leaning-centre       { background: rgba(120, 120, 120, 0.2);color: #999; }
+.leaning-centre-right { background: rgba(74, 127, 193, 0.2); color: #7aaee0; }
+.leaning-right        { background: rgba(34, 85, 170, 0.2);  color: #6699dd; }
+.leaning-unknown      { background: rgba(80, 80, 80, 0.2);   color: #666; }
+
+/* ── Notable / Landmark Cases ── */
+.cases-section {
+  margin-top: 14px;
+  border-top: 1px solid #222;
+  padding-top: 10px;
+}
+
+.cases-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #444;
+  margin: 0 0 8px;
+}
+
+.case-entry {
+  background: #0e0e0e;
+  border: 1px solid #222;
+  border-radius: 6px;
+  padding: 9px 11px;
+  margin-bottom: 7px;
+}
+
+.case-entry-name {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #bbb;
+  margin: 0 0 5px;
+}
+
+.case-year {
+  font-weight: 400;
+  color: #555;
+}
+
+.case-entry-desc {
+  font-size: 0.75rem;
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ── Judge list view (CJ / KB) ── */
+.judge-list-view {
+  display: block !important;
+}
+
+.judge-list {
+  max-width: 1000px;
+  margin: 1.5rem auto 4rem;
+  padding: 0 1.5rem;
+}
+
+.judge-row {
+  display: grid;
+  grid-template-columns: 4px 1fr 1fr 140px 120px;
+  align-items: center;
+  gap: 0 16px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #1a1a1a;
+  transition: background 0.15s;
+}
+
+.judge-row:hover { background: #111; }
+
+.judge-row-stripe {
+  height: 100%;
+  min-height: 20px;
+  border-radius: 2px;
+}
+
+.judge-row-name {
+  font-size: 0.88rem;
+  color: #ddd;
+  font-weight: 500;
+}
+
+.judge-row-title {
+  font-size: 0.82rem;
+  color: #666;
+}
+
+.judge-row-location {
+  font-size: 0.82rem;
+  color: #555;
+  text-align: right;
+}
+
+.judge-row-badge {
+  font-size: 0.7rem;
+  color: #555;
+  text-align: right;
+  font-style: italic;
+}
+
+
+/* ── Empty state ── */
+.coming-soon {
+  text-align: center;
+  padding: 80px 24px;
+  color: #444;
+}
+
+.coming-soon h2 {
+  font-size: 1.4rem;
+  color: #555;
+  margin: 0 0 8px;
+}
+
+.coming-soon p {
+  font-size: 0.9rem;
+}
+
+/* ── RCMP expenses ── */
+.expenses-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 1.5rem 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.expenses-count {
+  flex: 1;
+  font-size: 0.8rem;
+  color: #444;
+}
+
+.expenses-sort-label {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+#expenses-sort {
+  background: #141414;
+  border: 1px solid #2a2a2a;
+  color: #aaa;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+#expenses-table-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  overflow-x: auto;
+}
+
+#expenses-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+}
+
+#expenses-table thead th {
+  text-align: left;
+  padding: 8px 12px;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #444;
+  border-bottom: 1px solid #1e1e1e;
+  white-space: nowrap;
+}
+
+#expenses-table .col-amount { text-align: right; }
+#expenses-table .col-ref    { color: #555; font-size: 0.75rem; }
+#expenses-table .col-date   { white-space: nowrap; }
+
+.expense-row {
+  border-bottom: 1px solid #141414;
+  cursor: pointer;
+  transition: background 0.12s;
+}
+
+.expense-row td {
+  padding: 10px 12px;
+  color: #999;
+}
+
+.expense-row:hover td    { background: #0f0f0f; color: #ccc; }
+.expense-row.active td   { background: #111; color: #e0e0e0; }
+
+.expense-row .col-amount { color: #B8962E; font-weight: 600; text-align: right; }
+
+.expense-detail {
+  max-width: 1100px;
+  margin: 20px auto 60px;
+  padding: 0 1.5rem;
+}
+
+.expense-detail-inner {
+  background: #111;
+  border: 1px solid #1e1e1e;
+  border-left: 3px solid #B8962E;
+  border-radius: 8px;
+  padding: 20px 24px;
+}
+
+.expense-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.expense-detail-ref {
+  font-size: 0.72rem;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+.expense-detail-event {
+  font-size: 1rem;
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.expense-detail-amount {
+  font-size: 1.3rem;
+  color: #B8962E;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.expense-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 24px;
+}
+
+.expense-detail-full { grid-column: 1 / -1; }
+
+.expense-detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.expense-detail-item .edl {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #444;
+}
+
+.expense-detail-item span:last-child {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.expense-detail-item a {
+  color: #6a8fb5;
+  font-size: 0.78rem;
+  word-break: break-all;
+}
+
+/* ── Expense detail modal ── */
+.expense-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.expense-modal {
+  position: relative;
+  background: #111;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 620px;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.expense-modal-close {
+  position: sticky;
+  top: 0;
+  float: right;
+  background: none;
+  border: none;
+  color: #555;
+  font-size: 1.4rem;
+  line-height: 1;
+  padding: 12px 16px;
+  cursor: pointer;
+  z-index: 1;
+  transition: color 0.15s;
+}
+
+.expense-modal-close:hover {
+  color: #ccc;
+}
+
+/* ── Expense category badge ── */
+.expense-cat-badge {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.expense-cat-hospitality {
+  background: rgba(184, 150, 46, 0.15);
+  color: #B8962E;
+}
+
+.expense-cat-travel {
+  background: rgba(74, 127, 193, 0.15);
+  color: #7aaee0;
+}
+
+/* ── Travel cost breakdown ── */
+.expense-breakdown {
+  margin-top: 6px;
+  border: 1px solid #1e1e1e;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.breakdown-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #141414;
+  color: #888;
+}
+
+.breakdown-row:last-child {
+  border-bottom: none;
+}
+
+.breakdown-row span:last-child {
+  color: #aaa;
+  font-variant-numeric: tabular-nums;
+}
+
+.breakdown-total {
+  background: #0e0e0e;
+  font-weight: 600;
+}
+
+.breakdown-total span:last-child {
+  color: #B8962E;
+}
+
+/* ── RCMP hierarchy ── */
+.rcmp-command {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  padding: 0 1.5rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.rcmp-command .profile-card {
+  width: 280px;
+}
+
+.rcmp-section-heading {
+  text-align: center;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #444;
+  margin: 0 0 1.5rem;
+}
+
+.rcmp-districts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 1.5rem 4rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ── Court section header ── */
+.court-header {
+  max-width: 1200px;
+  margin: 2rem auto 0;
+  padding: 0 1.5rem 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.court-header h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #f0f0f0;
+  margin: 0 0 6px;
+}
+
+.court-header p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* ── Sub-nav ── */
+.sub-nav {
+  position: sticky;
+  top: 76px;
+  z-index: 200;
+  display: flex;
+  gap: 0;
+  padding: 0 24px;
+  background: #0a0a0a;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.sub-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.sub-nav-btn {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: #666;
+  font-size: 0.9em;
+  padding: 14px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.sub-nav-btn:hover {
+  color: #bbb;
+}
+
+.sub-nav-btn.active {
+  color: #ffffff;
+  border-bottom-color: #1B4F8C; /* default / CJ */
+}
+
+.sub-nav-btn[data-tab="cj"].active  { border-bottom-color: #1B4F8C; }
+.sub-nav-btn[data-tab="kb"].active  { border-bottom-color: #8B1A1A; }
+.sub-nav-btn[data-tab="ca"].active  { border-bottom-color: #9A8240; }
+.sub-nav-btn[data-tab="scc"].active { border-bottom-color: #3A5070; }
+
+/* ── Court header detail ── */
+.court-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin: 10px 0 14px;
+}
+
+.court-meta-item {
+  font-size: 0.82rem;
+  color: #777;
+}
+
+.court-meta-item strong {
+  color: #aaa;
+  margin-right: 4px;
+}
+
+.court-desc {
+  color: #999;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  max-width: 860px;
+  margin: 0;
+  border-left: 3px solid rgba(27,79,140,0.5);
+  padding-left: 14px;
+}
+
+#tab-cj  .court-desc { border-left-color: rgba(27,79,140,0.5);  }
+#tab-kb  .court-desc { border-left-color: rgba(139,26,26,0.5);  }
+#tab-ca  .court-desc { border-left-color: rgba(154,130,64,0.5); }
+#tab-scc .court-desc { border-left-color: rgba(58,80,112,0.5);  }

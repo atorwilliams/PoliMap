@@ -1,0 +1,122 @@
+body {
+  background: #0a0a0a;
+  color: #e8e8e8;
+}
+
+.page-main {
+  margin-top: 76px;
+}
+
+/* ── Hero ── */
+.page-hero {
+  padding: 72px 24px 48px;
+  text-align: center;
+  position: relative;
+}
+
+.page-hero h1 {
+  font-size: 3em;
+  font-weight: 900;
+  margin: 0 0 12px;
+  color: #ffffff;
+}
+
+.page-hero p {
+  color: #777;
+  font-size: 1.05em;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+/* ── Wallet Grid ── */
+.wallet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.wallet-card {
+  background: #161616;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.wallet-chain {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.chain-icon {
+  font-size: 1.4rem;
+  width: 2rem;
+  text-align: center;
+}
+
+.chain-btc   { color: #f7931a; }
+.chain-eth   { color: #627eea; }
+.chain-sol   { color: #9945ff; }
+.chain-bnb   { color: #f0b90b; }
+.chain-matic { color: #8247e5; }
+
+.chain-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #f0f0f0;
+}
+
+.chain-ticker {
+  font-size: 0.75rem;
+  color: #666;
+  background: #222;
+  padding: 2px 7px;
+  border-radius: 4px;
+  margin-left: auto;
+}
+
+.wallet-address {
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: #888;
+  word-break: break-all;
+  background: #0e0e0e;
+  padding: 0.6rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #222;
+}
+
+.copy-btn {
+  background: #003DA5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.copy-btn:hover {
+  background: #0050cc;
+}
+
+.copy-btn.copied {
+  background: #2a7a2a;
+}
+
+/* ── Footer note ── */
+.donate-note {
+  text-align: center;
+  color: #555;
+  font-size: 0.85rem;
+  margin: 0 auto 3rem;
+  max-width: 500px;
+}

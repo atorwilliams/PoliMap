@@ -44,10 +44,7 @@ export function initInteractions(map) {
 
     currentlyHighlightedRiding = ridingName;
 
-    currentPopup = showRidingPreview(map, ridingName, e.lngLat, 'provincial');
-
-    // Cleanup on popup close
-    currentPopup.on('close', () => {
+    showRidingPreview(map, ridingName, e.lngLat, 'provincial', () => {
       map.setLayoutProperty('ed-highlight', 'visibility', 'none');
       map.setFilter('ed-highlight', ['==', ['get', 'EDName2017'], '']);
 

@@ -10,14 +10,22 @@
 //   { url: 'https://www.cbc.ca/cmlink/rss-canada-calgary', name: 'CBC Calgary', bias: 'centre-left' },
 
 export const RSS_FEEDS = [
+  // Independent editorial outlets
+  { url: 'https://breachmedia.ca/feed/',             name: 'The Breach',         bias: 'left'         },
   { url: 'https://albertapolitics.ca/feed/',         name: 'Alberta Politics',   bias: 'left'         },
-  { url: 'https://daveberta.ca/feed/',               name: 'Daveberta',          bias: 'centre-left'  },
   { url: 'https://thenarwhal.ca/feed/',              name: 'The Narwhal',        bias: 'left'         },
+  { url: 'https://daveberta.ca/feed/',               name: 'Daveberta',          bias: 'centre-left'  },
   { url: 'https://www.westernstandard.news/feed/',   name: 'Western Standard',   bias: 'right'        },
+  { url: 'https://thepostmillennial.com/index.rss',  name: 'The Post Millennial',bias: 'right'        },
+  { url: 'https://www.rebelnews.com/news.rss',       name: 'Rebel News',         bias: 'right'        },
+
+  // Official party feeds
+  { url: 'https://ndp.ca/rss.xml',                  name: 'NDP',                bias: 'centre-left',  partisan: true },
+  { url: 'https://liberal.ca/feed/',                name: 'Liberal Party',      bias: 'centre',       partisan: true },
+  { url: 'https://unitedconservativecaucus.ca/feed/',name: 'UCP Caucus',         bias: 'right',        partisan: true },
 
   // Corporate media (Global News, Calgary Herald, Edmonton Journal, Edmonton Sun)
   // block automated requests — removed to avoid 403 errors.
-  // { url: '', name: '', bias: '' },
 ];
 
 // ── Bias Display Config ───────────────────────────────────────────────────────
@@ -30,15 +38,33 @@ export const BIAS_CONFIG = {
 };
 
 // ── CORS Proxy ────────────────────────────────────────────────────────────────
-// Tries two public CORS proxies in order. Each has a 7s timeout.
-//   1. allorigins.win  – returns JSON-wrapped content
-//   2. corsproxy.io    – returns raw content directly
+// On Vercel (production), route through our own serverless function which
+// fetches server-side — no CORS issues, no third-party blocks.
+// Locally, fall back to public proxies since /api/proxy isn't running.
+const IS_LOCAL = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+
 async function fetchRaw(url) {
-  const tryProxy = async (proxyUrl, unwrap) => {
-    const ctrl = new AbortController();
-    const t = setTimeout(() => ctrl.abort(), 7000);
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), 8000);
+
+  if (!IS_LOCAL) {
+    // Production: use our own Vercel proxy
     try {
-      const res = await fetch(proxyUrl, { signal: ctrl.signal });
+      const res = await fetch(`/api/proxy?url=${encodeURIComponent(url)}`, { signal: ctrl.signal });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.text();
+    } finally {
+      clearTimeout(t);
+    }
+  }
+
+  // Local dev: try public proxies
+  clearTimeout(t);
+  const tryProxy = async (proxyUrl, unwrap) => {
+    const c = new AbortController();
+    const pt = setTimeout(() => c.abort(), 7000);
+    try {
+      const res = await fetch(proxyUrl, { signal: c.signal });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const text = await unwrap(res);
       if (!text || text.trimStart().startsWith('<html') || text.trimStart().startsWith('<!')) {
@@ -48,11 +74,10 @@ async function fetchRaw(url) {
       if (xml.querySelector('parsererror')) throw new Error('Invalid XML from proxy');
       return text;
     } finally {
-      clearTimeout(t);
+      clearTimeout(pt);
     }
   };
 
-  // Proxy 1: allorigins.win
   try {
     return await tryProxy(
       `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
@@ -60,7 +85,6 @@ async function fetchRaw(url) {
     );
   } catch (_) {}
 
-  // Proxy 2: corsproxy.io
   return tryProxy(
     `https://corsproxy.io/?${encodeURIComponent(url)}`,
     r => r.text()
@@ -97,6 +121,7 @@ async function fetchFeed(feed) {
       thumbnail,
       source:      feed.name,
       bias:        feed.bias,
+      partisan:    feed.partisan || false,
     };
   });
 }
@@ -167,6 +192,7 @@ function articleCard(article) {
       <div class="news-body">
         <div class="news-meta-row">
           <span class="news-source">${article.source}</span>
+          ${article.partisan ? `<span class="partisan-tag">Official</span>` : ''}
           <span class="bias-pill" style="--bias-color:${bias.color}">${bias.label}</span>
           <span class="news-date">${timeAgo(article.pubDate)}</span>
         </div>

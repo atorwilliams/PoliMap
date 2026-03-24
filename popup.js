@@ -35,13 +35,19 @@ function renderMemberNews(articles) {
     </a>`).join('');
 }
 
+function formatDate(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr);
+  return d.toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
 // Global sidebar reference (accessible from main.js)
 let currentSidebar = null;
 window.currentSidebar = currentSidebar; // expose globally
 
 let currentPopup = null;
 
-function showRidingPreview(map, ridingName, lngLat, level = 'provincial') {
+function showRidingPreview(map, ridingName, lngLat, level = 'provincial', onClose = null) {
   if (currentPopup) {
     currentPopup.remove();
     currentPopup = null;
@@ -68,6 +74,7 @@ function showRidingPreview(map, ridingName, lngLat, level = 'provincial') {
           .setLngLat(lngLat)
           .setHTML(`<h4>${ridingName}</h4><p>No ${level} data available</p>`)
           .addTo(map);
+        if (onClose) currentPopup.on('close', onClose);
         return;
       }
 
@@ -76,6 +83,8 @@ function showRidingPreview(map, ridingName, lngLat, level = 'provincial') {
       const party = official?.party || '';
       const photo = official?.photo || '';
       const name = official?.name || '';
+      const electionDate = official?.electedDate || data.electionDate;
+      const termEnd = data.termEnd;
 
       const partyColor = data.parties?.[party]?.color || '#E0E0E0';
       const bgColor = `${partyColor}22`;
@@ -85,6 +94,7 @@ function showRidingPreview(map, ridingName, lngLat, level = 'provincial') {
           ${photo ? `<img src="${photo}" style="width:110px; height:110px; border-radius:50%; object-fit:cover; margin-bottom:10px;">` : ''}
           <h3 style="margin:8px 0 4px;">${name}</h3>
           <p style="margin:0; color:#555; font-size:0.95em;">${role} · ${party}</p>
+          ${electionDate ? `<p style="margin:4px 0 0; color:#888; font-size:0.82em;">Elected ${formatDate(electionDate)}${termEnd ? ` · Term ends ${formatDate(termEnd)}` : ''}</p>` : ''}
 
           <button id="more-info-btn" style="margin-top:16px; padding:8px 18px; background:#003DA5; color:white; border:none; border-radius:6px; font-weight:bold; cursor:pointer;">
             Contact & Office Details →
@@ -102,6 +112,8 @@ function showRidingPreview(map, ridingName, lngLat, level = 'provincial') {
         .setHTML(html)
         .addTo(map);
 
+      if (onClose) currentPopup.on('close', onClose);
+
       // Retry attaching button listener (popup DOM can be slow)
       const attachButton = () => {
         const btn = document.getElementById('more-info-btn');
@@ -114,7 +126,7 @@ function showRidingPreview(map, ridingName, lngLat, level = 'provincial') {
 
             const member = level === 'federal' ? ridingData.mp : ridingData.mla;
             if (member) {
-              showMemberDetailSidebar(member, ridingName, level);
+              showMemberDetailSidebar(member, ridingName, level, data.electionDate, data.termEnd);
             }
           });
           return true;
@@ -187,7 +199,7 @@ function showPartySidebar(map, partyKey, members, level) {
   sidebar.querySelectorAll('.member-card').forEach(card => {
     card.addEventListener('click', () => {
       const member = JSON.parse(card.dataset.member);
-      showMemberDetailSidebar(member, member.riding || 'Unknown Riding', level);
+      showMemberDetailSidebar(member, member.riding || 'Unknown Riding', level, member.electionDate, member.termEnd);
       // No need to remove here — showMemberDetailSidebar will close this one
     });
   });
@@ -197,7 +209,7 @@ function showPartySidebar(map, partyKey, members, level) {
   window.currentSidebar = sidebar;
 }
 
-function showMemberDetailSidebar(member, ridingName, level) {
+function showMemberDetailSidebar(member, ridingName, level, electionDate, termEnd) {
   // Close ANY existing sidebar first
   if (window.currentSidebar) {
     window.currentSidebar.remove();
@@ -223,6 +235,7 @@ function showMemberDetailSidebar(member, ridingName, level) {
     <div class="member-info">
       <h3>${member.name}</h3>
       <p class="riding">Riding: ${ridingName}</p>
+      ${(member.electedDate || electionDate) ? `<p class="member-term">Elected ${formatDate(member.electedDate || electionDate)}${termEnd ? ` &nbsp;·&nbsp; Term ends ${formatDate(termEnd)}` : ''}</p>` : ''}
 
       <div class="contact-details">
         ${contact.constituencyOffice ? `<div class="contact-item"><strong>Office</strong><p>${contact.constituencyOffice}</p></div>` : ''}

@@ -19,8 +19,9 @@
       <nav class="main-nav">
         <button class="nav-btn" data-action="map">Map View</button>
         <button class="nav-btn" data-action="about">About</button>
-        <button class="nav-btn" data-action="forum">Discussion Forum</button>
         <button class="nav-btn active" data-action="separatist">Separatist Info</button>
+        <button class="nav-btn" data-action="judiciary">Alberta Judiciary</button>
+        <button class="nav-btn" data-action="rcmp">Alberta RCMP</button>
         <button class="nav-btn" data-action="news">News</button>
         <button class="nav-btn" data-action="gov">Alberta Government</button>
         <button class="nav-btn" data-action="contribute">Contribute</button>
@@ -666,6 +667,16 @@
           ev.style.display = (filter === 'all' || ev.dataset.category === filter) ? '' : 'none';
         });
       });
+    });
+  </script>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+  <script>
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
     });
   </script>
 

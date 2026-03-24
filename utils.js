@@ -34,6 +34,18 @@ document.addEventListener('DOMContentLoaded', () => {
           }
           break;
 
+        case 'judiciary':
+          if (!window.location.pathname.includes('judiciary')) {
+            window.location.href = 'judiciary.html';
+          }
+          break;
+
+        case 'rcmp':
+          if (!window.location.pathname.includes('rcmp')) {
+            window.location.href = 'rcmp.html';
+          }
+          break;
+
         case 'news':
           if (!window.location.pathname.includes('news')) {
             window.location.href = 'news.html';
@@ -49,7 +61,9 @@ document.addEventListener('DOMContentLoaded', () => {
           break;
 
         case 'donate':
-          window.open('https://ko-fi.com/atorwilliams', '_blank');
+          if (!window.location.pathname.includes('donate')) {
+            window.location.href = 'donate.html';
+          }
           break;
 
         default:
@@ -103,7 +117,7 @@ function openAboutModal() {
       <div class="about-section">
         <h2>Support</h2>
         <p>If this helps you understand or share Alberta politics, consider supporting the project:</p>
-        <a class="about-link-btn" href="https://ko-fi.com/yourusername" target="_blank">Buy me a coffee →</a>
+        <a class="about-link-btn" href="donate.html">Support with crypto →</a>
       </div>
 
       <p class="about-footer">v0.1 · March 2026 · Built with open data and spite</p>

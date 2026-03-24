@@ -19,8 +19,9 @@
     <nav class="main-nav">
       <button class="nav-btn active" data-action="map">Map View</button>
       <button class="nav-btn" data-action="about">About</button>
-      <button class="nav-btn" data-action="forum">Discussion Forum</button>
       <button class="nav-btn" data-action="separatist">Separatist Info</button>
+      <button class="nav-btn" data-action="judiciary">Alberta Judiciary</button>
+      <button class="nav-btn" data-action="rcmp">Alberta RCMP</button>
       <button class="nav-btn" data-action="news">News</button>
       <button class="nav-btn" data-action="gov">Alberta Government</button>
       <button class="nav-btn" data-action="contribute">Contribute</button>
@@ -30,17 +31,30 @@
 </header>
     <div id="map"></div>
 
-    <!-- Legend -->
-    <div id="legend" class="map-control legend-control">
-        <div class="control-header">Legend</div>
-        <div id="legend-parties"></div>
-    </div>
+    <!-- Bottom-left control stack -->
+    <div id="map-controls-stack">
 
-    <!-- Layers -->
-    <div id="layer-toggle" class="map-control layers-control">
-        <div class="control-header">Layers</div>
-        <button class="layer-btn active" data-layer="provincial">Provincial (MLAs)</button>
-        <button class="layer-btn" data-layer="federal">Federal (MPs)</button>
+      <!-- Legend (party or municipal, swapped by JS) -->
+      <div id="legend" class="map-control legend-control">
+          <div class="control-header">Legend</div>
+          <div id="legend-parties"></div>
+      </div>
+      <div id="municipal-legend" class="map-control legend-control" style="display:none;">
+        <div class="control-header">Legend</div>
+        <div id="municipal-legend-items"></div>
+      </div>
+
+      <!-- Layers -->
+      <div id="layer-toggle" class="map-control layers-control">
+          <div class="control-header">Layers</div>
+          <button class="layer-btn active" data-layer="provincial">Provincial (MLAs)</button>
+          <button class="layer-btn" data-layer="federal">Federal (MPs)</button>
+          <button class="layer-btn" data-layer="municipal">Municipal</button>
+          <div id="hamlet-toggle-wrap" style="display:none; padding: 6px 0 2px;">
+            <button id="hamlet-toggle-btn" class="layer-sub-btn">Hamlets: Off</button>
+          </div>
+      </div>
+
     </div>
 
 </div>
@@ -48,5 +62,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.js"></script>
     <script type="module" src="utils.js"></script>
     <script type="module" src="main.js"></script>
+
+    <div id="wip-notice">
+      <p>PoliMap is under active development. Data and features are being added regularly.</p>
+      <button id="wip-close" aria-label="Dismiss">×</button>
+    </div>
+    <script>
+      document.getElementById('wip-close').addEventListener('click', () => {
+        document.getElementById('wip-notice').classList.add('hidden');
+      });
+    </script>
 </body>
 </html>

@@ -44,10 +44,7 @@ export function initFederalInteractions(map) {
 
     currentlyHighlightedFederalRiding = ridingName;
 
-    currentFederalPopup = showRidingPreview(map, ridingName, e.lngLat, 'federal');
-
-    // Cleanup on popup close
-    currentFederalPopup.on('close', () => {
+    showRidingPreview(map, ridingName, e.lngLat, 'federal', () => {
       map.setLayoutProperty('federal-highlight', 'visibility', 'none');
       map.setFilter('federal-highlight', ['==', ['get', 'name'], '']);
 

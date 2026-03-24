@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alberta RCMP – PoliMap</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="institutional.css">
+</head>
+<body>
+
+  <header class="top-banner">
+    <div class="banner-container">
+      <div class="logo">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </div>
+      <nav class="main-nav">
+        <button class="nav-btn" data-action="map">Map View</button>
+        <button class="nav-btn" data-action="about">About</button>
+        <button class="nav-btn" data-action="separatist">Separatist Info</button>
+        <button class="nav-btn" data-action="judiciary">Alberta Judiciary</button>
+        <button class="nav-btn active" data-action="rcmp">Alberta RCMP</button>
+        <button class="nav-btn" data-action="news">News</button>
+        <button class="nav-btn" data-action="gov">Alberta Government</button>
+        <button class="nav-btn" data-action="contribute">Contribute</button>
+        <button class="nav-btn" data-action="donate">Donate</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <section class="page-hero">
+      <h1>Alberta RCMP</h1>
+      <p>Commanding officers and appointed officials of the RCMP's K Division — ranks, chain of command, tenure, and public expense disclosures.</p>
+    </section>
+
+    <nav class="sub-nav">
+      <button class="sub-nav-btn active" data-tab="officers">Officers</button>
+      <button class="sub-nav-btn" data-tab="expenses">Expenses</button>
+    </nav>
+
+    <!-- Officers tab -->
+    <div id="tab-officers" class="tab-panel">
+      <div class="profile-grid" id="officer-grid"></div>
+      <div class="coming-soon"><h2>Profiles coming soon</h2><p>Officer data is being compiled.</p></div>
+    </div>
+
+    <!-- Expenses tab -->
+    <div id="tab-expenses" class="tab-panel" style="display:none">
+      <div class="expenses-toolbar">
+        <span id="expenses-count" class="expenses-count"></span>
+        <span class="expenses-sort-label">Sort by</span>
+        <select id="expenses-sort">
+          <option value="date-desc">Date (newest)</option>
+          <option value="date-asc">Date (oldest)</option>
+          <option value="amount-desc">Amount (highest)</option>
+          <option value="amount-asc">Amount (lowest)</option>
+        </select>
+      </div>
+      <div id="expenses-table-wrap">
+        <table id="expenses-table">
+          <thead>
+            <tr>
+              <th>Ref #</th>
+              <th>Officer</th>
+              <th>Event</th>
+              <th>Date</th>
+              <th>Location / Destination</th>
+              <th>Type</th>
+              <th class="col-amount">Amount</th>
+            </tr>
+          </thead>
+          <tbody id="expenses-body"></tbody>
+        </table>
+      </div>
+      <div class="coming-soon" id="expenses-empty" style="display:none"><h2>No expense records</h2><p>Records are being compiled.</p></div>
+    </div>
+
+  </main>
+
+  <!-- Expense detail modal -->
+  <div id="expense-modal-overlay" class="expense-modal-overlay" style="display:none" aria-modal="true" role="dialog">
+    <div class="expense-modal">
+      <button class="expense-modal-close" id="expense-modal-close" aria-label="Close">×</button>
+      <div id="expense-detail"></div>
+    </div>
+  </div>
+
+  <script type="module" src="utils.js"></script>
+  <script type="module" src="rcmp.js"></script>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+  <script>
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+  </script>
+
+</body>
+</html>

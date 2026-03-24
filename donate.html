@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate – PoliMap</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+
+  <header class="top-banner">
+    <div class="banner-container">
+      <div class="logo">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </div>
+      <nav class="main-nav">
+        <button class="nav-btn" data-action="map">Map View</button>
+        <button class="nav-btn" data-action="about">About</button>
+        <button class="nav-btn" data-action="separatist">Separatist Info</button>
+        <button class="nav-btn" data-action="judiciary">Alberta Judiciary</button>
+        <button class="nav-btn" data-action="rcmp">Alberta RCMP</button>
+        <button class="nav-btn" data-action="news">News</button>
+        <button class="nav-btn" data-action="gov">Alberta Government</button>
+        <button class="nav-btn" data-action="contribute">Contribute</button>
+        <button class="nav-btn active" data-action="donate">Donate</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <section class="page-hero">
+      <h1>Support PoliMap</h1>
+      <p>PoliMap is free, open, and independent. If it's useful to you, consider sending a crypto donation.</p>
+    </section>
+
+    <div class="wallet-grid">
+
+      <div class="wallet-card">
+        <div class="wallet-chain">
+          <span class="chain-icon chain-btc">₿</span>
+          <span class="chain-name">Bitcoin</span>
+          <span class="chain-ticker">BTC</span>
+        </div>
+        <div class="wallet-address" id="addr-btc">bc1qr60u45cez4tk78av3ze4p8tucce2ewqwqn5gmp</div>
+        <button class="copy-btn" data-target="addr-btc">Copy Address</button>
+      </div>
+
+      <div class="wallet-card">
+        <div class="wallet-chain">
+          <span class="chain-icon chain-eth">Ξ</span>
+          <span class="chain-name">Ethereum</span>
+          <span class="chain-ticker">ETH</span>
+        </div>
+        <div class="wallet-address" id="addr-eth">0x7E0A173C996871656dAa2D83DD4bA503085b1401</div>
+        <button class="copy-btn" data-target="addr-eth">Copy Address</button>
+      </div>
+
+      <div class="wallet-card">
+        <div class="wallet-chain">
+          <span class="chain-icon chain-sol">◎</span>
+          <span class="chain-name">Solana</span>
+          <span class="chain-ticker">SOL</span>
+        </div>
+        <div class="wallet-address" id="addr-sol">Ekkn3PR8wftMi7FSdWTG1q5F1VEMnbooPSsVxFirnpSL</div>
+        <button class="copy-btn" data-target="addr-sol">Copy Address</button>
+      </div>
+
+      <div class="wallet-card">
+        <div class="wallet-chain">
+          <span class="chain-icon chain-bnb">⬡</span>
+          <span class="chain-name">BNB Chain</span>
+          <span class="chain-ticker">BNB</span>
+        </div>
+        <div class="wallet-address" id="addr-bnb">0x7E0A173C996871656dAa2D83DD4bA503085b1401</div>
+        <button class="copy-btn" data-target="addr-bnb">Copy Address</button>
+      </div>
+
+      <div class="wallet-card">
+        <div class="wallet-chain">
+          <span class="chain-icon chain-matic">⬡</span>
+          <span class="chain-name">Polygon</span>
+          <span class="chain-ticker">MATIC</span>
+        </div>
+        <div class="wallet-address" id="addr-matic">0x7E0A173C996871656dAa2D83DD4bA503085b1401</div>
+        <button class="copy-btn" data-target="addr-matic">Copy Address</button>
+      </div>
+
+    </div>
+
+    <p class="donate-note">ETH, BNB, and Polygon share the same address — they're all EVM-compatible chains.</p>
+
+  </main>
+
+  <script type="module" src="utils.js"></script>
+  <script>
+    document.querySelectorAll('.copy-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const addr = document.getElementById(btn.dataset.target)?.textContent?.trim();
+        if (!addr) return;
+        navigator.clipboard.writeText(addr).then(() => {
+          btn.textContent = 'Copied!';
+          btn.classList.add('copied');
+          setTimeout(() => {
+            btn.textContent = 'Copy Address';
+            btn.classList.remove('copied');
+          }, 2000);
+        });
+      });
+    });
+  </script>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+  <script>
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+  </script>
+
+</body>
+</html>

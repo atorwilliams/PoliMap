@@ -31,6 +31,31 @@ export function isIndependentRiding(ridingName) {
   return !partyKey || !ridingDataCache.parties?.[partyKey]?.color;
 }
 
+// ── Point-in-polygon (ray casting) ───────────────────────────────────────────
+function pointInRing(px, py, ring) {
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i];
+    const [xj, yj] = ring[j];
+    if (((yi > py) !== (yj > py)) && px < ((xj - xi) * (py - yi)) / (yj - yi) + xi) {
+      inside = !inside;
+    }
+  }
+  return inside;
+}
+
+export function pointInFeature(lng, lat, feature) {
+  const geom = feature.geometry;
+  if (!geom) return false;
+  if (geom.type === 'Polygon') {
+    return pointInRing(lng, lat, geom.coordinates[0]);
+  }
+  if (geom.type === 'MultiPolygon') {
+    return geom.coordinates.some(poly => pointInRing(lng, lat, poly[0]));
+  }
+  return false;
+}
+
 let federalRidingDataCache = null;
 
 export async function loadFederalRidingData() {

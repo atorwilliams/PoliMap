@@ -42,9 +42,20 @@ html, body, #map {
 /* ================================================
    Floating map controls – dark glass style
    ================================================ */
-.map-control {
+/* Stack container – positions both controls as a column above bottom-left */
+#map-controls-stack {
   position: absolute;
   left: 20px;
+  bottom: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: stretch;
+}
+
+.map-control {
+  position: static;
   z-index: 1000;
   background: rgba(0, 0, 0, 0.68);
   backdrop-filter: blur(6px);
@@ -69,7 +80,6 @@ html, body, #map {
 
 /* Legend */
 .legend-control {
-  bottom: 140px;
   max-height: 60vh;
   overflow-y: auto;
 }
@@ -105,7 +115,6 @@ html, body, #map {
 
 /* Layers */
 .layers-control {
-  bottom: 20px;
   z-index: 1200 !important; /* always above sidebars */
 }
 
@@ -435,7 +444,13 @@ html, body, #map {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin: 0 0 28px;
+  margin: 0 0 6px;
+}
+
+.member-detail-sidebar .member-term {
+  color: #555;
+  font-size: 0.78em;
+  margin: 0 0 22px;
 }
 
 /* Contact cards */
@@ -649,17 +664,11 @@ html, body, #map {
 
 /* Mobile adjustments */
 @media (max-width: 768px) {
-  .map-control {
+  #map-controls-stack {
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
     max-width: 320px;
-  }
-  .legend-control {
-    bottom: 140px;
-  }
-  .layers-control {
-    bottom: 16px;
   }
   .party-sidebar,
   .member-detail-sidebar {
@@ -930,3 +939,160 @@ html, body, #map {
     padding: 28px 24px;
   }
 }
+/* ── Municipal legend items ── */
+#municipal-legend-items {
+  padding: 8px 14px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 0;
+  font-size: 0.82em;
+  color: #ccc;
+}
+
+.legend-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+/* ── Hamlet sub-toggle ── */
+.layer-sub-btn {
+  width: 100%;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  color: #aaa;
+  font-size: 0.82em;
+  padding: 5px 8px;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s, color 0.15s;
+}
+
+.layer-sub-btn:hover {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+}
+
+.layer-sub-btn.active {
+  background: rgba(240,165,0,0.2);
+  border-color: rgba(240,165,0,0.4);
+  color: #F0A500;
+}
+
+/* ── Municipal type list sidebar ── */
+.legend-item-clickable {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 3px 4px;
+  transition: background 0.15s;
+}
+
+.legend-item-clickable:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.municipal-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding-left: 16px;
+}
+
+.municipal-list-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #f0f0f0;
+}
+
+.municipal-list-count {
+  font-size: 0.8rem;
+  color: #666;
+  background: rgba(255,255,255,0.06);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.municipal-list {
+  padding: 8px 0;
+  overflow-y: auto;
+}
+
+.municipal-list-item {
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.municipal-list-item:hover {
+  background: rgba(255,255,255,0.06);
+  color: #fff;
+}
+
+.municipal-list-empty {
+  padding: 16px 20px;
+  color: #555;
+  font-size: 0.85rem;
+}
+
+/* ── WIP notice ── */
+#wip-notice {
+  position: fixed;
+  top: 90px;
+  right: 20px;
+  z-index: 9999;
+  background: #161616;
+  border: 1px solid #2a2a2a;
+  border-left: 3px solid #9A8240;
+  border-radius: 8px;
+  padding: 12px 36px 12px 14px;
+  max-width: 300px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#wip-notice.hidden {
+  opacity: 0;
+  transform: translateX(12px);
+  pointer-events: none;
+}
+
+#wip-notice p {
+  font-size: 0.8rem;
+  color: #888;
+  line-height: 1.5;
+  margin: 0;
+}
+
+#wip-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #444;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 1;
+  transition: color 0.15s;
+}
+
+#wip-close:hover { color: #aaa; }
