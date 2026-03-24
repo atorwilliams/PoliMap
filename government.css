@@ -1,0 +1,249 @@
+/* ── Seat bar ── */
+.seat-bar-wrap {
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  padding: 0 1.5rem;
+}
+
+.seat-bar {
+  display: flex;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.seat-segment {
+  height: 100%;
+  transition: width 0.4s ease;
+}
+
+.seat-legend {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: #666;
+  align-items: center;
+}
+
+.seat-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.seat-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.seat-legend-total {
+  color: #444;
+  font-size: 0.75rem;
+}
+
+/* ── Column layout ── */
+.gov-column-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+}
+
+.gov-column {
+  width: 100%;
+}
+
+/* ── Party badge ── */
+.gov-party-badge {
+  padding: 1rem 1.25rem;
+  border-left: 4px solid transparent;
+  margin-bottom: 1.5rem;
+  background: #111;
+  border-radius: 0 8px 8px 0;
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.gov-party-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #f0f0f0;
+}
+
+.gov-party-role {
+  font-size: 0.82rem;
+  color: #555;
+}
+
+.gov-party-seats {
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-left: auto;
+}
+
+/* ── Senior cards grid ── */
+.gov-senior-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* ── List rows ── */
+.gov-list {
+  border-top: 1px solid #1a1a1a;
+  margin-bottom: 2rem;
+}
+
+.gov-row {
+  display: grid;
+  grid-template-columns: 4px 1fr 1fr 140px 100px;
+  align-items: center;
+  gap: 0 16px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #141414;
+  transition: background 0.15s;
+}
+
+.gov-row:hover {
+  background: #111;
+}
+
+.gov-row-stripe {
+  height: 100%;
+  min-height: 20px;
+  border-radius: 2px;
+}
+
+.gov-row-name {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #ddd;
+}
+
+.gov-row-role {
+  font-size: 0.82rem;
+  color: #666;
+}
+
+.gov-row-riding {
+  font-size: 0.8rem;
+  color: #555;
+  text-align: right;
+}
+
+.gov-row-link {
+  font-size: 0.75rem;
+  color: #4a7fc1;
+  text-align: right;
+  text-decoration: none;
+}
+
+.gov-row-link:hover {
+  color: #7aaee0;
+}
+
+/* ── Platforms ── */
+.platforms-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+}
+
+.platforms-header {
+  display: grid;
+  grid-template-columns: 1fr 160px 1fr;
+  gap: 0 1rem;
+  padding: 0 0 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #1e1e1e;
+}
+
+.platforms-party-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.platforms-party-label:last-child {
+  text-align: right;
+}
+
+.platforms-topic-spacer {
+  text-align: center;
+}
+
+.platform-row {
+  display: grid;
+  grid-template-columns: 1fr 160px 1fr;
+  gap: 0 1rem;
+  margin-bottom: 1rem;
+  align-items: start;
+}
+
+.platform-topic {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #555;
+  text-align: center;
+  padding-top: 14px;
+}
+
+.platform-cell {
+  background: #111;
+  border: 1px solid #1e1e1e;
+  border-radius: 6px;
+  padding: 12px 14px;
+  font-size: 0.83rem;
+  color: #888;
+  line-height: 1.6;
+  border-left: 3px solid transparent;
+}
+
+.platform-cell-ndp {
+  border-left: 1px solid #1e1e1e;
+  border-right: 3px solid transparent;
+  text-align: right;
+}
+
+/* ── Responsive ── */
+@media (max-width: 700px) {
+  .gov-row {
+    grid-template-columns: 4px 1fr 1fr;
+  }
+
+  .gov-row-riding,
+  .gov-row-link {
+    display: none;
+  }
+
+  .platform-row,
+  .platforms-header {
+    grid-template-columns: 1fr;
+  }
+
+  .platform-topic {
+    text-align: left;
+    padding: 8px 0 4px;
+    border-top: 1px solid #1e1e1e;
+    margin-top: 4px;
+  }
+
+  .platform-cell-ndp {
+    text-align: left;
+    border-right: 1px solid #1e1e1e;
+    border-left: 3px solid transparent;
+  }
+
+  .platforms-party-label:last-child {
+    text-align: left;
+  }
+}

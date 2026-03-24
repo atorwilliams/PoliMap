@@ -53,7 +53,9 @@ document.addEventListener('DOMContentLoaded', () => {
           break;
 
         case 'gov':
-          window.open('https://www.alberta.ca', '_blank');
+          if (!window.location.pathname.includes('government')) {
+            window.location.href = 'government.html';
+          }
           break;
 
         case 'contribute':

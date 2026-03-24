@@ -642,10 +642,13 @@ body {
   border-bottom-color: #1B4F8C; /* default / CJ */
 }
 
-.sub-nav-btn[data-tab="cj"].active  { border-bottom-color: #1B4F8C; }
-.sub-nav-btn[data-tab="kb"].active  { border-bottom-color: #8B1A1A; }
-.sub-nav-btn[data-tab="ca"].active  { border-bottom-color: #9A8240; }
-.sub-nav-btn[data-tab="scc"].active { border-bottom-color: #3A5070; }
+.sub-nav-btn[data-tab="cj"].active         { border-bottom-color: #1B4F8C; }
+.sub-nav-btn[data-tab="kb"].active         { border-bottom-color: #8B1A1A; }
+.sub-nav-btn[data-tab="ca"].active         { border-bottom-color: #9A8240; }
+.sub-nav-btn[data-tab="scc"].active        { border-bottom-color: #3A5070; }
+.sub-nav-btn[data-tab="government"].active { border-bottom-color: #003DA5; }
+.sub-nav-btn[data-tab="opposition"].active { border-bottom-color: #F37021; }
+.sub-nav-btn[data-tab="platforms"].active  { border-bottom-color: #666; }
 
 /* ── Court header detail ── */
 .court-meta {

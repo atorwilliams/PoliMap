@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alberta Government – PoliMap</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="institutional.css">
+  <link rel="stylesheet" href="government.css">
+</head>
+<body>
+
+  <header class="top-banner">
+    <div class="banner-container">
+      <div class="logo">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </div>
+      <nav class="main-nav">
+        <button class="nav-btn" data-action="map">Map View</button>
+        <button class="nav-btn" data-action="about">About</button>
+        <button class="nav-btn" data-action="separatist">Separatist Info</button>
+        <button class="nav-btn" data-action="judiciary">Alberta Judiciary</button>
+        <button class="nav-btn" data-action="rcmp">Alberta RCMP</button>
+        <button class="nav-btn" data-action="news">News</button>
+        <button class="nav-btn active" data-action="gov">Alberta Government</button>
+        <button class="nav-btn" data-action="contribute">Contribute</button>
+        <button class="nav-btn" data-action="donate">Donate</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <section class="page-hero">
+      <h1>Alberta Government</h1>
+      <p>Executive Council, Official Opposition, and party platforms. 32nd Legislature — elected May 29, 2023.</p>
+    </section>
+
+    <!-- Seat composition bar -->
+    <div class="seat-bar-wrap">
+      <div class="seat-bar" id="seat-bar"></div>
+      <div class="seat-legend" id="seat-legend"></div>
+    </div>
+
+    <nav class="sub-nav">
+      <button class="sub-nav-btn active" data-tab="government">Executive Council</button>
+      <button class="sub-nav-btn" data-tab="opposition">Official Opposition</button>
+      <button class="sub-nav-btn" data-tab="platforms">Platforms</button>
+    </nav>
+
+    <!-- Executive Council tab -->
+    <div id="tab-government" class="tab-panel">
+      <div class="gov-column-wrap">
+        <div class="gov-column" id="ucp-column">
+          <div class="gov-column-header" id="ucp-header"></div>
+          <div class="gov-senior-grid" id="ucp-senior"></div>
+          <div class="gov-list" id="ucp-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Official Opposition tab -->
+    <div id="tab-opposition" class="tab-panel" style="display:none">
+      <div class="gov-column-wrap">
+        <div class="gov-column" id="ndp-column">
+          <div class="gov-column-header" id="ndp-header"></div>
+          <div class="gov-senior-grid" id="ndp-senior"></div>
+          <div class="gov-list" id="ndp-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Platforms tab -->
+    <div id="tab-platforms" class="tab-panel" style="display:none">
+      <div class="platforms-wrap" id="platforms-wrap"></div>
+    </div>
+
+  </main>
+
+  <script type="module" src="utils.js"></script>
+  <script type="module" src="government.js"></script>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+  <script>
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+  </script>
+
+</body>
+</html>

@@ -33,19 +33,266 @@
   <main class="page-main">
 
     <nav class="sub-nav">
-      <button class="sub-nav-btn active" data-tab="timeline">Timeline</button>
-      <button class="sub-nav-btn" data-tab="for">Why Separatism</button>
-      <button class="sub-nav-btn" data-tab="against">Why Not</button>
+      <button class="sub-nav-btn active" data-tab="now">Right Now</button>
+      <button class="sub-nav-btn" data-tab="arguments">Arguments</button>
       <button class="sub-nav-btn" data-tab="figures">Key Figures</button>
+      <button class="sub-nav-btn" data-tab="timeline">History</button>
       <button class="sub-nav-btn" data-tab="articles">Articles</button>
     </nav>
 
-    <div id="tab-timeline" class="tab-panel">
+    <!-- ═══════════════════════════════════════════
+         RIGHT NOW (landing)
+    ═══════════════════════════════════════════ -->
+    <div id="tab-now" class="tab-panel">
+      <div class="now-wrap">
 
-    <section class="page-hero">
-      <h1>Alberta Separatism</h1>
-      <p>A timeline of western alienation, resource conflicts, and the ongoing push for provincial sovereignty — from Confederation to today.</p>
-    </section>
+        <div class="now-lede">
+          <p>Alberta just watched the Liberals win their fourth mandate with a handful of seats west of Ontario. Mark Carney replaced Justin Trudeau. The map looked the same. For a lot of Albertans, that wasn't a surprise — it was a confirmation.</p>
+          <p>Post-election polling put separatist sympathy above one-in-three Albertans. Highest on record. It'll ease off, as it always does after a federal election. But the floor keeps rising each cycle.</p>
+          <p>The debate isn't really about independence — not yet, maybe not ever. It's about leverage. What can Alberta threaten, withhold, or build on its own to force a renegotiation of its place in Confederation?</p>
+        </div>
+
+        <div class="now-poll-section">
+          <p class="now-section-label">Separation support — post-2025 federal election</p>
+          <div class="poll-grid">
+            <div class="poll-stat">
+              <span class="poll-number">~35%</span>
+              <span class="poll-label">Support separation</span>
+            </div>
+            <div class="poll-stat">
+              <span class="poll-number">~60%</span>
+              <span class="poll-label">Oppose separation</span>
+            </div>
+            <div class="poll-stat">
+              <span class="poll-number">4×</span>
+              <span class="poll-label">Liberal federal wins in a row</span>
+            </div>
+          </div>
+          <p class="poll-note">Support spikes after federal elections and fades. The high-water mark has risen with each cycle. These figures are polling averages; individual surveys vary.</p>
+        </div>
+
+        <div class="now-issues-section">
+          <p class="now-section-label">What's actually being debated</p>
+
+          <div class="issue-item">
+            <h3 class="issue-title">Alberta Pension Plan</h3>
+            <p class="issue-body">The province's actuaries say Alberta is owed roughly $334 billion from the CPP if it withdraws. Ottawa disputes the number — hard. The real question isn't the math; it's whether Albertans trust the province to run their retirement savings without a federal backstop.</p>
+          </div>
+
+          <div class="issue-item">
+            <h3 class="issue-title">Provincial Police Force</h3>
+            <p class="issue-body">The Fair Deal Panel recommended replacing the RCMP contract with an Alberta force back in 2021. Every government since has studied it and shelved it. It comes back up every time there's a policing controversy or a federal gun policy Alberta doesn't like.</p>
+          </div>
+
+          <div class="issue-item">
+            <h3 class="issue-title">The Sovereignty Act</h3>
+            <p class="issue-body">Smith passed it as Bill 1 in 2022. Cabinet can declare federal laws harmful to Alberta and refuse provincial cooperation in enforcing them. It's been invoked on specific disputes. Whether it has legal teeth remains untested in court, and constitutional scholars are split.</p>
+          </div>
+
+          <div class="issue-item">
+            <h3 class="issue-title">Equalization</h3>
+            <p class="issue-body">In 2021, 62% of Albertans voted in an advisory referendum to remove equalization from the Constitution. Ottawa acknowledged the result and moved on. Nothing changed. The exercise illustrated both the depth of the grievance and the limits of provincial pressure without harder tools.</p>
+          </div>
+        </div>
+
+        <div class="now-positions-section">
+          <p class="now-section-label">Where the parties stand</p>
+          <div class="position-grid">
+            <div class="position-card position-ucp">
+              <span class="position-party">UCP</span>
+              <p>Sovereignty without separation. Smith wants maximum autonomy within Confederation — pension, police, tax collection — and uses the threat of harder action as leverage. She says she wants to fix Canada, not leave it.</p>
+            </div>
+            <div class="position-card position-ndp">
+              <span class="position-party">NDP</span>
+              <p>Against. Nenshi has called the sovereignty rhetoric a distraction from healthcare and housing. The NDP's view is that Alberta's interests are better served by electing governments that represent the province federally, not by confrontation with Ottawa.</p>
+            </div>
+            <div class="position-card position-maverick">
+              <span class="position-party">Maverick Party</span>
+              <p>The only federal party explicitly pushing for western independence or radical devolution. Has contested two federal elections. Hasn't won a seat. Exists as a permanent organizational home for the hard-separation end of the movement.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- #tab-now -->
+
+    <!-- ═══════════════════════════════════════════
+         ARGUMENTS
+    ═══════════════════════════════════════════ -->
+    <div id="tab-arguments" class="tab-panel" style="display:none">
+      <div class="arguments-wrap">
+
+        <div class="arguments-col arguments-col-for">
+          <p class="now-section-label">The case for</p>
+
+          <div class="arg-block">
+            <h3>The money</h3>
+            <p>Alberta has sent an estimated $600 billion more to the federal government than it's received back in transfers and services since 1967. The equalization formula was designed when Alberta was poor. Nobody in Ottawa has any political incentive to change it now that Alberta is rich.</p>
+          </div>
+
+          <div class="arg-block">
+            <h3>The votes don't matter</h3>
+            <p>Alberta can vote 100% Conservative federally and still get a Liberal government. Ontario and Quebec together hold enough seats to decide every federal election. Alberta's votes don't choose governments. Alberta's interests don't need to be courted. That's not a conspiracy — it's the math.</p>
+          </div>
+
+          <div class="arg-block">
+            <h3>The NEP can happen again</h3>
+            <p>The National Energy Program wasn't an anomaly. It was proof of what a federal government will do when Alberta's wealth conflicts with central Canadian political interests. Nothing in the Constitution prevents a future government from doing it again. The only structural guarantee against a repeat is not being subject to Ottawa's jurisdiction.</p>
+          </div>
+
+          <div class="arg-block">
+            <h3>Alberta doesn't need Canada</h3>
+            <p>It has the economy, the institutions, and the resource base to function as an independent country. It contributes more than it takes. Its GDP per capita rivals the wealthiest nations on earth. The dependency runs the other way — Canada needs Alberta's transfers to fund its national programs, not the reverse.</p>
+          </div>
+
+          <div class="arg-block">
+            <h3>The path exists</h3>
+            <p>Canada already established — through the Quebec referendum process — that a province has the political right to hold an independence vote, and that Ottawa is obligated to negotiate if a clear majority votes to leave. The Clarity Act sets the framework. Alberta isn't asking for anything Quebec wasn't offered.</p>
+          </div>
+        </div>
+
+        <div class="arguments-col arguments-col-against">
+          <p class="now-section-label">The case against</p>
+
+          <div class="arg-block">
+            <h3>Landlocked</h3>
+            <p>Alberta has no coastline. Every barrel of oil, every bushel of grain exits through pipelines and railways that cross other jurisdictions. An independent Alberta would need negotiated transit agreements with foreign governments just to reach markets. BC has already shown it's willing to obstruct pipelines as a fellow province. As a separate country, it would have even less reason to help.</p>
+          </div>
+
+          <div class="arg-block">
+            <h3>The transition would be brutal</h3>
+            <p>Independence triggers immediate uncertainty for investment, credit ratings, and regulatory frameworks. Capital doesn't like political instability. The years of negotiation it would take to establish a new state would likely see investment leave, borrowing costs rise, and economic output contract — potentially eliminating the fiscal surpluses that make separation look viable in the first place.</p>
+          </div>
+
+          <div class="arg-block">
+            <h3>The CPP numbers are disputed</h3>
+            <p>Alberta's claim to $334 billion in CPP assets rests on a contested methodology. Independent actuaries put the real entitlement closer to $100–150 billion. The gap matters. An Alberta Pension Plan funded at $150B instead of $334B needs higher premiums, lower benefits, or both. Hundreds of thousands of Albertans approaching retirement would be betting their savings on a number that Ottawa and most actuaries say is wrong.</p>
+          </div>
+
+          <div class="arg-block">
+            <h3>Most Albertans don't actually want it</h3>
+            <p>Even at peak anger — right after a federal election — polls consistently show 55–65% of Albertans opposed to actual separation. Support spikes in the weeks following a bad result and then fades. The high-water mark of ~35% is a minority position that has never been tested in a real referendum. Grievance and wanting to leave are not the same thing.</p>
+          </div>
+
+          <div class="arg-block">
+            <h3>Autonomy may get more done</h3>
+            <p>Quebec has extracted enormous concessions from Ottawa for decades through credible threats and skilled negotiation, without ever leaving. Alberta has rarely played that game as aggressively as it could. The nuclear option is available. It might make sense to exhaust everything else first.</p>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- #tab-arguments -->
+
+    <!-- ═══════════════════════════════════════════
+         KEY FIGURES
+    ═══════════════════════════════════════════ -->
+    <div id="tab-figures" class="tab-panel" style="display:none">
+
+      <section class="figures-section">
+
+        <div class="figure-card">
+          <div class="figure-header">
+            <div class="figure-avatar">PL</div>
+            <div>
+              <h3 class="figure-name">Peter Lougheed</h3>
+              <p class="figure-title">Premier of Alberta, 1971–1985</p>
+            </div>
+          </div>
+          <span class="figure-tag">Provincial Rights</span>
+          <p class="figure-bio">The premier who taught Alberta to fight. He cut oil production to punish Ottawa for the NEP, created the Heritage Fund, and established the template every assertive premier since has worked from. He wasn't a separatist — he believed in a better deal within Confederation. But he demonstrated what refusing to be a compliant province looks like in practice.</p>
+        </div>
+
+        <div class="figure-card">
+          <div class="figure-header">
+            <div class="figure-avatar">PM</div>
+            <div>
+              <h3 class="figure-name">Preston Manning</h3>
+              <p class="figure-title">Founder, Reform Party of Canada</p>
+            </div>
+          </div>
+          <span class="figure-tag">Reform Movement</span>
+          <p class="figure-bio">Built a federal political movement on the premise that the West could fix Canada from the inside. Reform won 52 seats in 1993, became the Official Opposition, and eventually merged into the modern Conservative Party. The experiment worked — then a decade of Conservative government under Harper proved that even winning the big game doesn't permanently shift the structural balance.</p>
+        </div>
+
+        <div class="figure-card">
+          <div class="figure-header">
+            <div class="figure-avatar">SH</div>
+            <div>
+              <h3 class="figure-name">Stephen Harper</h3>
+              <p class="figure-title">Prime Minister of Canada, 2006–2015</p>
+            </div>
+          </div>
+          <span class="figure-tag">Firewall Letter</span>
+          <p class="figure-bio">Co-authored the Firewall Letter in 2001 proposing Alberta build autonomous institutions as leverage. Then spent a decade as Prime Minister working within those same institutions. His tenure is cited by separatists as proof that even winning the national government doesn't fix the underlying structural problem.</p>
+        </div>
+
+        <div class="figure-card">
+          <div class="figure-header">
+            <div class="figure-avatar">JK</div>
+            <div>
+              <h3 class="figure-name">Jason Kenney</h3>
+              <p class="figure-title">Premier of Alberta, 2019–2022</p>
+            </div>
+          </div>
+          <span class="figure-tag">Fair Deal</span>
+          <p class="figure-bio">Created the Fair Deal Panel, held the equalization referendum, fought the carbon tax in court. Wanted to be seen as a fighter within Confederation, not a separatist. His government collapsed from the right — partly from people who thought he wasn't fighting hard enough. That tells you something about where the UCP base was heading.</p>
+        </div>
+
+        <div class="figure-card">
+          <div class="figure-header">
+            <div class="figure-avatar">DS</div>
+            <div>
+              <h3 class="figure-name">Danielle Smith</h3>
+              <p class="figure-title">Premier of Alberta, 2022–present</p>
+            </div>
+          </div>
+          <span class="figure-tag">Sovereignty Act</span>
+          <p class="figure-bio">Passed the Sovereignty Act as her first bill. The most assertive premier since Lougheed — arguably more so. She's framed her entire government around refusing to cooperate with federal directives she deems harmful to Alberta. Says she wants to fix Canada, not leave it. Whether she means it, and whether Ottawa believes her, are the two questions that matter.</p>
+        </div>
+
+        <div class="figure-card">
+          <div class="figure-header">
+            <div class="figure-avatar">PD</div>
+            <div>
+              <h3 class="figure-name">Peter Downing</h3>
+              <p class="figure-title">Founder, Wexit Canada</p>
+            </div>
+          </div>
+          <span class="figure-tag">Wexit</span>
+          <p class="figure-bio">Turned #Wexit from a hashtag into an organization in the days after the 2019 federal election. Represents the populist, social-media-driven end of the movement — anger as fuel, no particular policy platform. Wexit eventually became the Maverick Party under different leadership.</p>
+        </div>
+
+        <div class="figure-card">
+          <div class="figure-header">
+            <div class="figure-avatar">JH</div>
+            <div>
+              <h3 class="figure-name">Jay Hill</h3>
+              <p class="figure-title">Leader, Maverick Party</p>
+            </div>
+          </div>
+          <span class="figure-tag">Maverick Party</span>
+          <p class="figure-bio">A former Reform and Conservative MP who took over the Wexit rebranding, giving it establishment credibility. The Maverick Party has contested two federal elections and hasn't won a seat. It exists as a permanent organizational home for the hard end of the movement — useful as a pressure valve and a polling benchmark.</p>
+        </div>
+
+        <div class="figure-card">
+          <div class="figure-header">
+            <div class="figure-avatar">TF</div>
+            <div>
+              <h3 class="figure-name">Tom Flanagan</h3>
+              <p class="figure-title">Political Scientist; Harper Strategist</p>
+            </div>
+          </div>
+          <span class="figure-tag">Firewall Letter</span>
+          <p class="figure-bio">Co-authored the Firewall Letter and spent decades as one of the intellectual architects of the Alberta right. His contribution was giving the autonomy movement a coherent constitutional and economic framework — translating populist grievance into actual policy proposals that governments could implement if they chose to.</p>
+        </div>
+
+      </section>
+    </div><!-- #tab-figures -->
+
+    <!-- ═══════════════════════════════════════════
+         HISTORY (timeline)
+    ═══════════════════════════════════════════ -->
+    <div id="tab-timeline" class="tab-panel" style="display:none">
 
     <div class="filter-bar">
       <button class="filter-btn active" data-filter="all">All</button>
@@ -58,7 +305,6 @@
 
     <section class="timeline-section">
 
-      <!-- ── ERA ── -->
       <div class="timeline-era"><span>Confederation &amp; Early Province</span></div>
 
       <div class="timeline-event cat-legislative" data-category="legislative">
@@ -68,7 +314,7 @@
             <span class="card-tag">Legislative</span>
           </div>
           <h3 class="card-title">Alberta Enters Confederation — Without Its Resources</h3>
-          <p class="card-body">Alberta is established as a province on September 1, 1905 under the Alberta Act. Unlike the original provinces, Ottawa retains control over Alberta's Crown lands and natural resources — a structural inequality baked into Confederation from day one that would fuel resentment for decades.</p>
+          <p class="card-body">Alberta becomes a province on September 1, 1905 under the Alberta Act. Unlike the original provinces, Ottawa retains control of Alberta's Crown lands and natural resources — a structural inequality baked in from day one that would fuel resentment for decades.</p>
         </div>
       </div>
 
@@ -79,11 +325,10 @@
             <span class="card-tag">Political</span>
           </div>
           <h3 class="card-title">United Farmers of Alberta Win Provincially</h3>
-          <p class="card-body">The UFA sweeps the provincial election, signalling a distinct western agrarian identity at odds with eastern Canada's financial and industrial interests. Alberta's tradition of electing parties that exist nowhere else in the country begins here.</p>
+          <p class="card-body">The UFA sweeps the provincial election on a platform at odds with eastern Canada's financial and industrial interests. Alberta's tradition of electing parties that exist nowhere else in the country begins here.</p>
         </div>
       </div>
 
-      <!-- ── ERA ── -->
       <div class="timeline-era"><span>Depression &amp; Resource Control</span></div>
 
       <div class="timeline-event cat-legislative" data-category="legislative">
@@ -93,7 +338,7 @@
             <span class="card-tag">Legislative</span>
           </div>
           <h3 class="card-title">Natural Resources Transfer Act</h3>
-          <p class="card-body">After 25 years of lobbying, Alberta finally gains control of its Crown lands and natural resources. The original provinces had never lost this control — Alberta's delayed grant is widely cited as proof of Ottawa's willingness to treat western provinces as colonies rather than equal partners in Confederation.</p>
+          <p class="card-body">After 25 years of lobbying, Alberta finally gains control of its Crown lands and natural resources — something the original provinces never lost. The 25-year delay is widely cited as proof that Ottawa treated western provinces as colonies rather than equal partners.</p>
         </div>
       </div>
 
@@ -104,7 +349,7 @@
             <span class="card-tag">Political</span>
           </div>
           <h3 class="card-title">Social Credit Sweeps Alberta</h3>
-          <p class="card-body">William Aberhart's Social Credit party wins a landslide victory amid the Great Depression. The movement channels prairie frustration with eastern banks and Ottawa's indifference into a powerful regional identity. Social Credit governs Alberta for 36 consecutive years — a duration that demonstrates the province's political distinctiveness from the rest of Canada.</p>
+          <p class="card-body">William Aberhart's Social Credit party wins a landslide amid the Great Depression, channelling prairie frustration with eastern banks and Ottawa. Social Credit governs Alberta for 36 consecutive years — a duration that demonstrates the province's persistent political distinctiveness.</p>
         </div>
       </div>
 
@@ -114,12 +359,11 @@
             <span class="card-year">1947</span>
             <span class="card-tag">Economic</span>
           </div>
-          <h3 class="card-title">Leduc No. 1 — Oil Transforms Alberta</h3>
-          <p class="card-body">Imperial Oil strikes oil at Leduc on February 13. The discovery transforms Alberta from a struggling agricultural economy into an energy powerhouse — and permanently raises the stakes of who controls, and who benefits from, Alberta's resource wealth. The question would define federal-provincial relations for the next 80 years.</p>
+          <h3 class="card-title">Leduc No. 1</h3>
+          <p class="card-body">Imperial Oil strikes oil at Leduc on February 13. Alberta transforms from a struggling agricultural economy into an energy powerhouse. The question of who controls and who benefits from that wealth will define federal-provincial relations for the next 80 years.</p>
         </div>
       </div>
 
-      <!-- ── ERA ── -->
       <div class="timeline-era"><span>Energy Wars &amp; Western Alienation</span></div>
 
       <div class="timeline-event right cat-political" data-category="political">
@@ -128,8 +372,8 @@
             <span class="card-year">1971</span>
             <span class="card-tag">Political</span>
           </div>
-          <h3 class="card-title">Peter Lougheed Elected — Alberta Asserts Itself</h3>
-          <p class="card-body">Peter Lougheed's Progressive Conservatives end Social Credit's 36-year reign. Lougheed aggressively asserts provincial ownership of natural resources and takes an increasingly confrontational stance with Ottawa, establishing the template for the assertive, rights-conscious Alberta government that subsequent premiers would follow.</p>
+          <h3 class="card-title">Peter Lougheed Elected</h3>
+          <p class="card-body">Lougheed's Progressive Conservatives end Social Credit's 36-year reign and immediately begin asserting provincial resource ownership against Ottawa. He establishes the template for the confrontational, rights-conscious Alberta government that subsequent premiers would follow.</p>
         </div>
       </div>
 
@@ -140,7 +384,7 @@
             <span class="card-tag">Federal Action</span>
           </div>
           <h3 class="card-title">The National Energy Program</h3>
-          <p class="card-body">Pierre Trudeau's Liberal government introduces the National Energy Program, capping domestic oil prices below world market rates and redirecting billions in resource revenue from Alberta to Ottawa. Albertans view it as federal theft of provincial wealth. Lougheed calls it "the most discriminatory action taken by a federal government against a particular province in Canadian history." The NEP remains the defining grievance of Alberta separatism — still invoked in every sovereignty debate today.</p>
+          <p class="card-body">Pierre Trudeau's Liberal government caps domestic oil prices below world rates and redirects billions in resource revenue from Alberta to Ottawa. Lougheed calls it "the most discriminatory action taken by a federal government against a particular province in Canadian history." The NEP remains the defining grievance of Alberta separatism — still invoked in every sovereignty debate today.</p>
         </div>
       </div>
 
@@ -151,7 +395,7 @@
             <span class="card-tag">Cultural</span>
           </div>
           <h3 class="card-title">Western Canada Concept Party Founded</h3>
-          <p class="card-body">The Western Canada Concept party is founded explicitly advocating for an independent western Canadian nation. It wins a provincial seat in a 1982 by-election — the first separatist elected to any Canadian legislature. The party's rise reflects the boiling anger over the NEP and demonstrates that separatism can translate into actual votes.</p>
+          <p class="card-body">The Western Canada Concept party is founded explicitly advocating for an independent western nation. It wins a provincial seat in a 1982 by-election — the first separatist elected to any Canadian legislature.</p>
         </div>
       </div>
 
@@ -162,7 +406,7 @@
             <span class="card-tag">Legislative</span>
           </div>
           <h3 class="card-title">Constitution Patriated — The West Left Out</h3>
-          <p class="card-body">Canada's Constitution is patriated with the Charter of Rights and Freedoms. Western provinces feel sidelined in negotiations that prioritized Quebec's demands. The amending formula gives Quebec an effective veto but leaves the West without equivalent leverage. The sense that Confederation is a bargain structurally stacked against the West deepens into a lasting grievance.</p>
+          <p class="card-body">Canada's Constitution is patriated with the Charter of Rights and Freedoms. Western provinces feel sidelined in negotiations that prioritized Quebec's demands. The amending formula gives Quebec an effective veto but leaves the West without equivalent leverage.</p>
         </div>
       </div>
 
@@ -173,7 +417,7 @@
             <span class="card-tag">Political</span>
           </div>
           <h3 class="card-title">NEP Dismantled Under Mulroney</h3>
-          <p class="card-body">Brian Mulroney's Progressive Conservative government dismantles the National Energy Program following their landslide election victory. Alberta's economy, devastated by the combined effect of the NEP and falling oil prices, begins a slow recovery. But the damage to western trust in federal institutions — particularly Liberal ones — proves permanent.</p>
+          <p class="card-body">Mulroney's PCs dismantle the National Energy Program. Alberta's economy begins a slow recovery. The damage to western trust in federal institutions — particularly Liberal ones — proves permanent.</p>
         </div>
       </div>
 
@@ -184,11 +428,10 @@
             <span class="card-tag">Political</span>
           </div>
           <h3 class="card-title">Reform Party of Canada Founded</h3>
-          <p class="card-body">Preston Manning founds the Reform Party of Canada in Winnipeg under the slogan <em>"The West Wants In."</em> While not explicitly separatist, it channels western alienation into federal politics. Reform wins 52 seats in 1993, becoming the Official Opposition in 1997. It eventually morphs into the Canadian Alliance, then merges with the PCs to form the Conservative Party — putting Alberta's political DNA at the centre of Canadian conservatism.</p>
+          <p class="card-body">Preston Manning founds the Reform Party in Winnipeg under <em>"The West Wants In."</em> Not explicitly separatist — it wants a western voice in Ottawa, not independence. Reform wins 52 seats in 1993, becomes the Official Opposition in 1997, and eventually merges into the Conservative Party of Canada.</p>
         </div>
       </div>
 
-      <!-- ── ERA ── -->
       <div class="timeline-era"><span>Meech, Charlottetown &amp; the 1990s</span></div>
 
       <div class="timeline-event right cat-legislative" data-category="legislative">
@@ -198,7 +441,7 @@
             <span class="card-tag">Legislative</span>
           </div>
           <h3 class="card-title">Meech Lake Accord Fails</h3>
-          <p class="card-body">The Meech Lake Accord — designed primarily to bring Quebec into the constitutional fold — collapses after Elijah Harper's procedural delay in Manitoba and Newfoundland's refusal to ratify. Many western Canadians resent that the entire constitutional exercise was driven by Quebec's demands. The failure reinforces Alberta's view that Ottawa views the West as an afterthought.</p>
+          <p class="card-body">The Meech Lake Accord collapses after Elijah Harper's procedural delay in Manitoba and Newfoundland's refusal to ratify. The entire exercise was driven by Quebec's demands. Many western Canadians take note that their concerns were not what brought the table together.</p>
         </div>
       </div>
 
@@ -209,11 +452,10 @@
             <span class="card-tag">Legislative</span>
           </div>
           <h3 class="card-title">Charlottetown Accord Rejected</h3>
-          <p class="card-body">The Charlottetown Accord — a sweeping constitutional package — is rejected in a national referendum. Alberta votes heavily against it, with many voters feeling it gave too much to Quebec and Indigenous groups while offering the West only a weak Triple-E Senate proposal. The "No" vote is seen partly as a rejection of Ottawa-driven constitutional politics altogether.</p>
+          <p class="card-body">Alberta votes heavily against the Charlottetown Accord in the national referendum. Many voters felt it gave too much to Quebec and Indigenous groups while offering the West only a weak Triple-E Senate proposal. The "No" vote is partly a rejection of Ottawa-driven constitutional politics altogether.</p>
         </div>
       </div>
 
-      <!-- ── ERA ── -->
       <div class="timeline-era"><span>Firewall Era</span></div>
 
       <div class="timeline-event right cat-political" data-category="political">
@@ -223,11 +465,10 @@
             <span class="card-tag">Political</span>
           </div>
           <h3 class="card-title">The Firewall Letter</h3>
-          <p class="card-body">Stephen Harper, Tom Flanagan, Ted Morton, Rainer Knopff, Andrew Crooks, and Ken Boessenkool publish <em>"An Open Letter to Ralph Klein"</em> in the National Post. They propose Alberta build a "firewall" against federal intrusion: withdraw from the Canada Pension Plan, create a provincial police force, collect its own income tax, and assert full control over health care. The letter is the most coherent articulation of the autonomy-first strategy — push back to the limit of existing constitutional powers before considering independence.</p>
+          <p class="card-body">Stephen Harper, Tom Flanagan, Ted Morton, and three others publish <em>"An Open Letter to Ralph Klein"</em> in the National Post. They propose Alberta build a "firewall" against federal intrusion: its own pension plan, police force, income tax collection, and full control over health care. The most coherent articulation of the autonomy-first strategy: exhaust every constitutional tool before considering independence.</p>
         </div>
       </div>
 
-      <!-- ── ERA ── -->
       <div class="timeline-era"><span>Wexit &amp; Modern Sovereignty Movement</span></div>
 
       <div class="timeline-event cat-political" data-category="political">
@@ -236,8 +477,8 @@
             <span class="card-year">2019</span>
             <span class="card-tag">Political</span>
           </div>
-          <h3 class="card-title">"Wexit" Goes Viral After the Federal Election</h3>
-          <p class="card-body">Following the October federal election — in which the Liberals win a minority government with near-zero seats in Alberta and Saskatchewan — the hashtag <em>#Wexit</em> spreads rapidly across social media. Peter Downing founds Wexit Canada, calling for western provinces to separate. The movement reflects not just frustration with a single election but decades of accumulated grievances over pipelines, equalization, and political representation.</p>
+          <h3 class="card-title">"Wexit" Goes Viral</h3>
+          <p class="card-body">Following the October federal election — Liberals win a minority with near-zero seats in Alberta — the hashtag #Wexit spreads rapidly. Peter Downing founds Wexit Canada. The movement reflects not just frustration with one election but decades of accumulated grievances over pipelines, equalization, and representation.</p>
         </div>
       </div>
 
@@ -248,7 +489,7 @@
             <span class="card-tag">Political</span>
           </div>
           <h3 class="card-title">Fair Deal Panel Established</h3>
-          <p class="card-body">Premier Jason Kenney's UCP government establishes the Fair Deal Panel to formally explore Alberta's options within Confederation. The panel's creation signals that separatist and autonomy sentiments have moved from fringe politics into the provincial government itself. Albertans are invited to submit their views on everything from a provincial police force to an Alberta pension plan.</p>
+          <p class="card-body">Premier Jason Kenney's UCP government establishes the Fair Deal Panel to explore Alberta's options within Confederation — a provincial pension plan, a police force, and more. Its creation signals that autonomy politics have moved from fringe to mainstream government.</p>
         </div>
       </div>
 
@@ -259,7 +500,7 @@
             <span class="card-tag">Cultural</span>
           </div>
           <h3 class="card-title">The Buffalo Declaration</h3>
-          <p class="card-body">A group of conservative intellectuals and politicians publish the Buffalo Declaration, arguing that western Canadians are "consistent victims of Confederation." It demands an equal Senate, fiscal reform, and resource sovereignty — and frames separation as the legitimate next step if Ottawa refuses to negotiate. The document becomes a touchstone for the modern sovereignty movement.</p>
+          <p class="card-body">Conservative intellectuals and politicians publish the Buffalo Declaration, arguing that western Canadians are "consistent victims of Confederation." It demands Senate reform, fiscal reform, and resource sovereignty — framing separation as the legitimate next step if Ottawa refuses to negotiate.</p>
         </div>
       </div>
 
@@ -270,7 +511,7 @@
             <span class="card-tag">Political</span>
           </div>
           <h3 class="card-title">Maverick Party Formed</h3>
-          <p class="card-body">Wexit Canada rebrands as the Maverick Party under Jay Hill and registers as a federal political party. Running under a platform of western independence or radical devolution, the party contests the 2021 federal election. Though it wins no seats, it demonstrates that organized separatist politics can attract candidates, donors, and voters across the prairies.</p>
+          <p class="card-body">Wexit Canada rebrands as the Maverick Party under Jay Hill. It contests the 2021 federal election and wins no seats but establishes a permanent organizational presence for western separatist politics.</p>
         </div>
       </div>
 
@@ -280,8 +521,8 @@
             <span class="card-year">2021</span>
             <span class="card-tag">Legislative</span>
           </div>
-          <h3 class="card-title">Fair Deal Panel Report Released</h3>
-          <p class="card-body">The Fair Deal Panel releases its final report recommending an Alberta Pension Plan, a provincial police force to replace the RCMP, an Alberta Revenue Agency, and a formal opt-out from federal firearms registries. The report frames greater autonomy as the principled first step — exhaust every constitutional tool available before considering independence.</p>
+          <h3 class="card-title">Fair Deal Panel Report &amp; Equalization Referendum</h3>
+          <p class="card-body">The Fair Deal Panel recommends an Alberta Pension Plan, provincial police force, and revenue agency. Separately, 62% of Albertans vote in an advisory referendum to remove equalization from the Constitution. Ottawa acknowledges the result and does nothing.</p>
         </div>
       </div>
 
@@ -292,40 +533,29 @@
             <span class="card-tag">Legislative</span>
           </div>
           <h3 class="card-title">Alberta Sovereignty Act Introduced</h3>
-          <p class="card-body">Danielle Smith, running on an explicit sovereignty platform, wins the UCP leadership and introduces the Alberta Sovereignty Within a United Canada Act as her first piece of legislation. The act empowers the provincial cabinet to declare federal laws harmful to Alberta and refuse provincial cooperation in their enforcement. It immediately triggers a constitutional debate about the limits of provincial defiance.</p>
+          <p class="card-body">Danielle Smith wins the UCP leadership on an explicit sovereignty platform and introduces the Alberta Sovereignty Within a United Canada Act as Bill 1. Cabinet can declare federal laws harmful to Alberta and refuse provincial cooperation in enforcing them. Constitutional scholars are split on whether it has teeth.</p>
         </div>
       </div>
 
-      <div class="timeline-event cat-legislative" data-category="legislative">
-        <div class="timeline-card">
-          <div class="card-meta">
-            <span class="card-year">2023</span>
-            <span class="card-tag">Legislative</span>
-          </div>
-          <h3 class="card-title">Alberta Sovereignty Within a United Canada Act Passes</h3>
-          <p class="card-body">Bill 1 receives Royal Assent. The legislation is the most assertive formal claim of provincial autonomy in modern Canadian history. Constitutional scholars remain divided on whether it is legally enforceable. The federal government declines to challenge it immediately. Supporters call it a necessary tool; critics call it political theatre masking the absence of actual independence.</p>
-        </div>
-      </div>
-
-      <div class="timeline-event right cat-economic" data-category="economic">
+      <div class="timeline-event cat-economic" data-category="economic">
         <div class="timeline-card">
           <div class="card-meta">
             <span class="card-year">2023</span>
             <span class="card-tag">Economic</span>
           </div>
           <h3 class="card-title">Alberta Pension Plan Feasibility Study</h3>
-          <p class="card-body">The provincial government releases a study projecting Alberta could withdraw from the Canada Pension Plan and launch its own Alberta Pension Plan, claiming entitlement to approximately $334 billion in CPP assets. Ottawa and other provinces dispute the figures sharply. The proposal becomes a flashpoint: proponents argue it would deliver higher benefits at lower premiums; opponents warn it risks the retirement security of hundreds of thousands of Albertans.</p>
+          <p class="card-body">The provincial government releases a study projecting Alberta could claim approximately $334 billion in CPP assets upon withdrawal. Ottawa and independent actuaries dispute the figure sharply. The proposal becomes the central flashpoint of the economic sovereignty debate.</p>
         </div>
       </div>
 
-      <div class="timeline-event cat-political" data-category="political">
+      <div class="timeline-event right cat-political" data-category="political">
         <div class="timeline-card">
           <div class="card-meta">
             <span class="card-year">2025</span>
             <span class="card-tag">Political</span>
           </div>
           <h3 class="card-title">Separatist Sentiment at Recorded Highs</h3>
-          <p class="card-body">Following the 2025 federal election and the return of a Liberal government under Mark Carney — again with negligible seat counts in Alberta — polling shows support for separation reaching its highest recorded levels. Some surveys place it above one-in-three Albertans. The result reignites Wexit debates, prompts renewed calls for a provincial referendum, and forces mainstream politicians to address separatism as a live political question rather than a fringe one.</p>
+          <p class="card-body">The Liberal Party wins a fourth federal mandate under Mark Carney — again with negligible Alberta representation. Post-election polling places separatist support above one-in-three Albertans, the highest on record. Mainstream politicians can no longer treat it as a fringe question.</p>
         </div>
       </div>
 
@@ -333,11 +563,14 @@
 
     </div><!-- #tab-timeline -->
 
+    <!-- ═══════════════════════════════════════════
+         ARTICLES
+    ═══════════════════════════════════════════ -->
     <div id="tab-articles" class="tab-panel" style="display:none">
 
       <section class="page-hero">
         <h1>Articles &amp; Writings</h1>
-        <p>In-depth essays, analysis, and opinion on Alberta separatism, western alienation, and the case for provincial sovereignty.</p>
+        <p>Essays, analysis, and opinion on Alberta separatism, western alienation, and the case for provincial sovereignty.</p>
       </section>
 
       <section class="articles-section">
@@ -383,7 +616,7 @@
             <span class="card-tag">Economic</span>
           </div>
           <h2 class="article-title">Equalization: The Math Behind Western Alienation</h2>
-          <p class="article-excerpt">Alberta has contributed an estimated $600 billion more to the federal government than it has received back in transfers and services since 1967. Equalization is not charity — it is a constitutional formula. But the formula was written by people who never anticipated Alberta's economic dominance. A breakdown of the numbers and what they mean.</p>
+          <p class="article-excerpt">Alberta has contributed an estimated $600 billion more to the federal government than it has received back in transfers and services since 1967. Equalization is not charity — it's a constitutional formula. But the formula was written by people who never anticipated Alberta's economic dominance.</p>
           <div class="article-footer">
             <span class="article-meta">By Arthur &nbsp;·&nbsp; March 2026</span>
             <a href="#" class="article-read-btn">Read →</a>
@@ -394,248 +627,10 @@
 
     </div><!-- #tab-articles -->
 
-    <!-- ═══════════════════════════════════════════
-         WHY SEPARATISM
-    ═══════════════════════════════════════════ -->
-    <div id="tab-for" class="tab-panel" style="display:none">
-
-      <section class="page-hero">
-        <h1>The Case For</h1>
-        <p>The arguments that drive Alberta's sovereignty movement — fiscal, political, constitutional, and cultural.</p>
-      </section>
-
-      <section class="argument-section">
-
-        <div class="argument-card">
-          <span class="argument-number">01</span>
-          <h3 class="argument-title">The Equalization Trap</h3>
-          <p class="argument-body">Since 1967, Alberta has contributed an estimated $600 billion more to federal coffers than it has received in transfers and services. The equalization formula was written when Alberta was poor. It was never redesigned when Alberta became the engine of the national economy. Alberta perpetually subsidizes provinces that vote against its interests.</p>
-        </div>
-
-        <div class="argument-card">
-          <span class="argument-number">02</span>
-          <h3 class="argument-title">Resource Sovereignty</h3>
-          <p class="argument-body">Ottawa has demonstrated repeatedly that it will override Alberta's resource interests when politically convenient. The National Energy Program, Bill C-69 (the "no more pipelines bill"), Bill C-48 (the tanker ban), and the carbon pricing regime were all imposed over Alberta's explicit objection. Provincial ownership of resources means nothing if Ottawa can regulate them into worthlessness.</p>
-        </div>
-
-        <div class="argument-card">
-          <span class="argument-number">03</span>
-          <h3 class="argument-title">Political Irrelevance</h3>
-          <p class="argument-body">Alberta can vote 100% Conservative federally and still receive a Liberal government. The electoral math is structural — Ontario and Quebec together hold enough seats to determine every federal election outcome. Alberta's votes do not decide governments. Alberta's interests therefore do not need to be courted. This is not an accident; it is the design of the system.</p>
-        </div>
-
-        <div class="argument-card">
-          <span class="argument-number">04</span>
-          <h3 class="argument-title">Irreconcilable Political Cultures</h3>
-          <p class="argument-body">Alberta's political culture — lower taxes, resource development, individual rights, skepticism of central planning — is fundamentally at odds with the federal consensus built around Quebec's social democracy and Ontario's post-industrial progressivism. Confederation forces Alberta to fund and abide by a national government that governs against its expressed values in election after election.</p>
-        </div>
-
-        <div class="argument-card">
-          <span class="argument-number">05</span>
-          <h3 class="argument-title">Constitutional Inequality</h3>
-          <p class="argument-body">The constitutional amending formula requires the consent of provinces representing 50% of the population. In practice, Quebec and Ontario can veto any constitutional change together. Alberta cannot. Meech Lake, Charlottetown, and the patriation of the constitution all proceeded in ways that prioritized central Canadian interests. The West is constitutionally outvoted by design.</p>
-        </div>
-
-        <div class="argument-card">
-          <span class="argument-number">06</span>
-          <h3 class="argument-title">The NEP Can Happen Again</h3>
-          <p class="argument-body">The National Energy Program was not an anomaly — it was a demonstration of what the federal government will do when Alberta's wealth conflicts with central Canadian political interests. Nothing in the Constitution prevents a future federal government from imposing equivalent measures. Autonomy or independence is the only structural guarantee against a repeat.</p>
-        </div>
-
-        <div class="argument-card">
-          <span class="argument-number">07</span>
-          <h3 class="argument-title">Alberta Is Already Self-Sufficient</h3>
-          <p class="argument-body">Alberta has the economic base, the population, the institutions, and the resource wealth to function as an independent nation. It contributes more to Canada than it receives. Its GDP per capita rivals the wealthiest countries in the world. The argument that Alberta "needs" Canada is harder to make than the reverse: Canada needs Alberta's transfers to fund its national programs.</p>
-        </div>
-
-        <div class="argument-card">
-          <span class="argument-number">08</span>
-          <h3 class="argument-title">The Referendum Precedent Exists</h3>
-          <p class="argument-body">Canada has established — through the Quebec referendum process — that a province has the political right to hold a referendum on independence, and that the federal government is obligated to negotiate in good faith if a clear majority votes to leave. The Clarity Act defines the framework. Alberta is not asking for anything Quebec was not offered. The path exists; the question is whether Albertans want to walk it.</p>
-        </div>
-
-      </section>
-    </div><!-- #tab-for -->
-
-    <!-- ═══════════════════════════════════════════
-         WHY NOT
-    ═══════════════════════════════════════════ -->
-    <div id="tab-against" class="tab-panel" style="display:none">
-
-      <section class="page-hero">
-        <h1>The Case Against</h1>
-        <p>The practical, economic, and constitutional arguments for why separation may be harder — or costlier — than its advocates admit.</p>
-      </section>
-
-      <section class="argument-section argument-section--against">
-
-        <div class="argument-card argument-card--against">
-          <span class="argument-number">01</span>
-          <h3 class="argument-title">Alberta Is Landlocked</h3>
-          <p class="argument-body">Alberta has no coastline. Every barrel of oil and every bushel of grain that leaves Alberta does so through pipelines and railways crossing British Columbia, Saskatchewan, or the United States. An independent Alberta would need negotiated transit agreements with foreign countries just to reach international markets. BC has already shown it is willing to obstruct pipelines — as a neighbour, not a fellow Canadian province, it would have even less incentive to cooperate.</p>
-        </div>
-
-        <div class="argument-card argument-card--against">
-          <span class="argument-number">02</span>
-          <h3 class="argument-title">The Economic Transition Would Be Brutal</h3>
-          <p class="argument-body">Independence would trigger immediate uncertainty for business investment, credit ratings, currency arrangements, and regulatory frameworks. Capital does not like political instability. The years-long negotiation process would likely see investment leave, interest rates rise on provincial borrowing, and economic output contract — potentially eliminating the fiscal surpluses that make separation seem viable in the first place.</p>
-        </div>
-
-        <div class="argument-card argument-card--against">
-          <span class="argument-number">03</span>
-          <h3 class="argument-title">The CPP Numbers Are Disputed</h3>
-          <p class="argument-body">Alberta's claim to $334 billion in CPP assets rests on a contested actuarial methodology. The federal government and independent actuaries argue the real entitlement is far lower — perhaps $100–150 billion. The gap matters: an Alberta Pension Plan funded at $150B instead of $334B would need higher premiums, lower benefits, or both. Hundreds of thousands of Albertans approaching retirement would face real uncertainty.</p>
-        </div>
-
-        <div class="argument-card argument-card--against">
-          <span class="argument-number">04</span>
-          <h3 class="argument-title">Trade Agreements Don't Automatically Transfer</h3>
-          <p class="argument-body">CUSMA (formerly NAFTA), CETA, CPTPP — Alberta's preferential access to US, European, and Pacific markets exists because Canada negotiated and signed these agreements. An independent Alberta would need to renegotiate access from scratch as a new, unrecognized state. The US has shown it is willing to use trade negotiations as leverage. Alberta would enter those negotiations from a position of dependency, not strength.</p>
-        </div>
-
-        <div class="argument-card argument-card--against">
-          <span class="argument-number">05</span>
-          <h3 class="argument-title">Treaty Obligations Are Legally Unresolved</h3>
-          <p class="argument-body">Indigenous treaties in Alberta were signed with the Crown of Canada, not the Province of Alberta. What happens to treaty rights, reserve lands, and Crown obligations in an independent Alberta is not legally clear. Many First Nations leaders have stated they would not consider themselves bound by an independence declaration and would look to the international community for recognition of their own rights. This is not a small problem — it is a fundamental one.</p>
-        </div>
-
-        <div class="argument-card argument-card--against">
-          <span class="argument-number">06</span>
-          <h3 class="argument-title">Most Albertans Don't Actually Want It</h3>
-          <p class="argument-body">Even at peak anger — immediately after federal elections Albertans oppose — polls consistently show 55–65% of Albertans opposed to actual separation. Support spikes in the weeks following an unfavourable federal election result and then fades as the emotional temperature drops. The high-water mark of ~30% support is a minority position that has never been tested in a formal referendum. Grievance and a desire to separate are not the same thing.</p>
-        </div>
-
-        <div class="argument-card argument-card--against">
-          <span class="argument-number">07</span>
-          <h3 class="argument-title">Oil Dependency Is a Vulnerability, Not Just a Strength</h3>
-          <p class="argument-body">An independent Alberta would be one of the most resource-concentrated economies in the developed world. When oil prices crash — as they did in 2014–2016 and 2020 — Alberta's revenues collapse. As a Canadian province, Alberta can weather those cycles partly through federal stabilizers and national credit. As an independent nation with no currency flexibility, an oil crash would be a fiscal crisis without a safety net.</p>
-        </div>
-
-        <div class="argument-card argument-card--against">
-          <span class="argument-number">08</span>
-          <h3 class="argument-title">Autonomy May Achieve More Than Independence</h3>
-          <p class="argument-body">The Firewall Letter's agenda — a provincial pension plan, a provincial police force, full control over health care delivery — could be achieved within Confederation. Quebec has demonstrated that a province can extract enormous concessions through credible threats and skilled negotiation without ever leaving. Alberta has rarely played that game as aggressively as it could. Separation is the nuclear option; it may make sense to exhaust conventional weapons first.</p>
-        </div>
-
-      </section>
-    </div><!-- #tab-against -->
-
-    <!-- ═══════════════════════════════════════════
-         KEY FIGURES
-    ═══════════════════════════════════════════ -->
-    <div id="tab-figures" class="tab-panel" style="display:none">
-
-      <section class="page-hero">
-        <h1>Key Figures</h1>
-        <p>The politicians, intellectuals, and agitators who shaped Alberta's sovereignty movement — from the assertive premiers to the Wexit firebrands.</p>
-      </section>
-
-      <section class="figures-section">
-
-        <div class="figure-card">
-          <div class="figure-header">
-            <div class="figure-avatar">PL</div>
-            <div>
-              <h3 class="figure-name">Peter Lougheed</h3>
-              <p class="figure-title">Premier of Alberta, 1971–1985</p>
-            </div>
-          </div>
-          <span class="figure-tag">Provincial Rights</span>
-          <p class="figure-bio">Lougheed transformed Alberta from a compliant province into an assertive one. He created the Heritage Savings Trust Fund, fought the NEP with cutbacks to oil production, and established the precedent that Alberta would defend its resources aggressively. He is not a separatist — he believed in a renewed federalism — but he is the father of every assertive Alberta government since.</p>
-        </div>
-
-        <div class="figure-card">
-          <div class="figure-header">
-            <div class="figure-avatar">PM</div>
-            <div>
-              <h3 class="figure-name">Preston Manning</h3>
-              <p class="figure-title">Founder, Reform Party of Canada</p>
-            </div>
-          </div>
-          <span class="figure-tag">Reform Movement</span>
-          <p class="figure-bio">Manning channelled western alienation into a federal political movement with the slogan <em>"The West Wants In."</em> Reform was not separatist — it wanted western Canada to have a real voice in Ottawa, not to leave it. But Manning gave organizational form to grievances that, when Reform ultimately failed to "get in" on its own terms, fed directly into the Wexit movement.</p>
-        </div>
-
-        <div class="figure-card">
-          <div class="figure-header">
-            <div class="figure-avatar">SH</div>
-            <div>
-              <h3 class="figure-name">Stephen Harper</h3>
-              <p class="figure-title">Prime Minister of Canada, 2006–2015</p>
-            </div>
-          </div>
-          <span class="figure-tag">Firewall Letter</span>
-          <p class="figure-bio">Before becoming PM, Harper co-authored the Firewall Letter proposing Alberta build autonomous institutions. As PM, he governed as a westerner — dismantling the long-gun registry, pursuing pipeline approvals, cutting equalization transfers — but ultimately chose to work within federal structures rather than challenge them. His decade in power is cited by separatists as proof that even a sympathetic PM cannot permanently shift the federal balance.</p>
-        </div>
-
-        <div class="figure-card">
-          <div class="figure-header">
-            <div class="figure-avatar">JK</div>
-            <div>
-              <h3 class="figure-name">Jason Kenney</h3>
-              <p class="figure-title">Premier of Alberta, 2019–2022</p>
-            </div>
-          </div>
-          <span class="figure-tag">Fair Deal</span>
-          <p class="figure-bio">Kenney created the Fair Deal Panel and commissioned the equalization challenge referendum — tools designed to pressure Ottawa rather than leave it. He positioned himself as a federalist who would fight hard within Confederation. His government's collapse under internal UCP pressure, partly driven by those who felt he was not assertive enough, illustrated the limits of the "fight but stay" strategy.</p>
-        </div>
-
-        <div class="figure-card">
-          <div class="figure-header">
-            <div class="figure-avatar">DS</div>
-            <div>
-              <h3 class="figure-name">Danielle Smith</h3>
-              <p class="figure-title">Premier of Alberta, 2022–present</p>
-            </div>
-          </div>
-          <span class="figure-tag">Sovereignty Act</span>
-          <p class="figure-bio">Smith ran for the UCP leadership on an explicit sovereignty platform and passed the Alberta Sovereignty Within a United Canada Act as Bill 1. She represents the mainstream of the Alberta sovereignty movement — not independence, but formal non-compliance with federal directives deemed harmful to Alberta. The constitutionality of her approach is untested. She is the most assertive premier since Lougheed.</p>
-        </div>
-
-        <div class="figure-card">
-          <div class="figure-header">
-            <div class="figure-avatar">PD</div>
-            <div>
-              <h3 class="figure-name">Peter Downing</h3>
-              <p class="figure-title">Founder, Wexit Canada</p>
-            </div>
-          </div>
-          <span class="figure-tag">Wexit</span>
-          <p class="figure-bio">Downing founded Wexit Canada in the days after the 2019 federal election, turning a hashtag into an organization. He represents the populist, social-media-driven wing of the separatist movement — less focused on policy detail than on channelling raw anger into political energy. Wexit eventually became the Maverick Party under different leadership, but Downing's mobilization of the post-election mood gave the movement its initial momentum.</p>
-        </div>
-
-        <div class="figure-card">
-          <div class="figure-header">
-            <div class="figure-avatar">JH</div>
-            <div>
-              <h3 class="figure-name">Jay Hill</h3>
-              <p class="figure-title">Leader, Maverick Party</p>
-            </div>
-          </div>
-          <span class="figure-tag">Maverick Party</span>
-          <p class="figure-bio">A former Reform and Conservative MP, Hill lent establishment credibility to the Wexit movement by leading the rebranded Maverick Party. His background in mainstream conservative politics was intended to signal that western independence was not a fringe idea but a serious electoral proposition. The party has yet to win a seat, but it has established a permanent organizational presence for western separatist politics.</p>
-        </div>
-
-        <div class="figure-card">
-          <div class="figure-header">
-            <div class="figure-avatar">TF</div>
-            <div>
-              <h3 class="figure-name">Tom Flanagan</h3>
-              <p class="figure-title">Political Scientist; Harper Strategist</p>
-            </div>
-          </div>
-          <span class="figure-tag">Firewall Letter</span>
-          <p class="figure-bio">Co-author of the Firewall Letter and one of the intellectual architects of the modern Alberta right. Flanagan's contribution was to give the autonomy movement a coherent constitutional and economic framework, translating populist grievance into policy proposals. His work connects the academic world of western Canadian political science to the grassroots of the sovereignty movement.</p>
-        </div>
-
-      </section>
-    </div><!-- #tab-figures -->
-
   </main>
 
   <script type="module" src="utils.js"></script>
   <script>
-    // Tab switching
     const subNavBtns = document.querySelectorAll('.sub-nav-btn');
     const tabPanels  = document.querySelectorAll('.tab-panel');
 
@@ -672,13 +667,7 @@
 
   <div id="wip-notice">
     <p>PoliMap is under active development. Data and features are being added regularly.</p>
-    <button id="wip-close" aria-label="Dismiss">×</button>
   </div>
-  <script>
-    document.getElementById('wip-close').addEventListener('click', () => {
-      document.getElementById('wip-notice').classList.add('hidden');
-    });
-  </script>
 
 </body>
 </html>
