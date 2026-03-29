@@ -43,6 +43,10 @@
         <div class="control-header">Legend</div>
         <div id="municipal-legend-items"></div>
       </div>
+      <div id="rcmp-legend" class="map-control legend-control" style="display:none;">
+        <div class="control-header">RCMP K Division</div>
+        <div id="rcmp-legend-items"></div>
+      </div>
 
       <!-- Layers -->
       <div id="layer-toggle" class="map-control layers-control">
@@ -50,6 +54,10 @@
           <button class="layer-btn active" data-layer="provincial">Provincial (MLAs)</button>
           <button class="layer-btn" data-layer="federal">Federal (MPs)</button>
           <button class="layer-btn" data-layer="municipal">Municipal</button>
+          <button class="layer-btn" data-layer="rcmp">RCMP Districts</button>
+          <div style="padding: 6px 0 2px;">
+            <button id="rcmp-overlay-btn" class="layer-sub-btn">RCMP Boundaries: Off</button>
+          </div>
           <div id="hamlet-toggle-wrap" style="display:none; padding: 6px 0 2px;">
             <button id="hamlet-toggle-btn" class="layer-sub-btn">Hamlets: Off</button>
           </div>

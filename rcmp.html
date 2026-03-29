@@ -39,6 +39,7 @@
     <nav class="sub-nav">
       <button class="sub-nav-btn active" data-tab="officers">Officers</button>
       <button class="sub-nav-btn" data-tab="expenses">Expenses</button>
+      <button class="sub-nav-btn" data-tab="detachments">Detachments</button>
     </nav>
 
     <!-- Officers tab -->
@@ -76,6 +77,27 @@
         </table>
       </div>
       <div class="coming-soon" id="expenses-empty" style="display:none"><h2>No expense records</h2><p>Records are being compiled.</p></div>
+    </div>
+
+    <!-- Detachments tab -->
+    <div id="tab-detachments" class="tab-panel" style="display:none">
+      <div class="expenses-toolbar">
+        <span id="detachments-count" class="expenses-count"></span>
+        <input id="detachments-search" class="detachments-search" type="search" placeholder="Search by name or address…" autocomplete="off">
+      </div>
+      <div id="detachments-table-wrap">
+        <table id="detachments-table">
+          <thead>
+            <tr>
+              <th>Detachment</th>
+              <th>Address</th>
+              <th>Phone</th>
+              <th>Fax</th>
+            </tr>
+          </thead>
+          <tbody id="detachments-body"></tbody>
+        </table>
+      </div>
     </div>
 
   </main>

@@ -263,10 +263,54 @@ async function loadExpenses() {
   render();
 }
 
+// ── Detachments ──
+let allDetachments = [];
+
+function renderDetachments(list) {
+  const tbody = document.getElementById('detachments-body');
+  const count = document.getElementById('detachments-count');
+  if (!tbody) return;
+  if (count) count.textContent = `${list.length} detachment${list.length !== 1 ? 's' : ''}`;
+  tbody.innerHTML = list.map(d => `
+    <tr>
+      <td class="det-name">${d.name}</td>
+      <td class="det-address">${d.address}</td>
+      <td class="det-phone"><a href="tel:${d.phone}">${d.phone}</a></td>
+      <td class="det-fax">${d.fax || '—'}</td>
+    </tr>
+  `).join('');
+}
+
+async function loadDetachments() {
+  let data;
+  try {
+    const res = await fetch('/json/rcmp-detachments.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    data = await res.json();
+  } catch (err) {
+    console.warn('[RCMP] Failed to load rcmp-detachments.json:', err);
+    return;
+  }
+  allDetachments = data.detachments || [];
+  renderDetachments(allDetachments);
+
+  document.getElementById('detachments-search')?.addEventListener('input', e => {
+    const q = e.target.value.trim().toLowerCase();
+    renderDetachments(q
+      ? allDetachments.filter(d =>
+          d.name.toLowerCase().includes(q) ||
+          d.address.toLowerCase().includes(q)
+        )
+      : allDetachments
+    );
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initSubNav();
   loadRCMP();
   loadExpenses();
+  loadDetachments();
 
   function closeExpenseModal() {
     const overlay = document.getElementById('expense-modal-overlay');

@@ -6,9 +6,11 @@ import { applyRidingColours } from './colouring.js';
 import { applyFederalRidingColours } from './federalColouring.js';
 import { initLegend, updateLegend } from './legend.js';
 import { initMunicipal, updateMunicipalVisibility, MUNICIPAL_COLORS, HAMLET_COLOR, showMunicipalTypeSidebar } from './municipalLayer.js';
+import { initRCMP, updateRCMPVisibility, RCMP_DISTRICT_COLORS } from './rcmpLayer.js';
 
 const HAMLET_LAYERS = ['municipal-hamlet', 'municipal-hamlet-label'];
 let showHamlets = false;
+let showRCMPOverlay = false;
 
 const layers = {
   provincial: {
@@ -33,6 +35,13 @@ const layers = {
     updateVisibility: updateMunicipalVisibility,
     visible: false,
     layers: ['municipal-fill', 'municipal-fill-hatch', 'municipal-outline', 'municipal-label-rural', 'municipal-label-urban']
+  },
+  rcmp: {
+    name: 'RCMP Districts',
+    init: initRCMP,
+    updateVisibility: updateRCMPVisibility,
+    visible: false,
+    layers: ['rcmp-fill', 'rcmp-outline', 'rcmp-highlight', 'rcmp-label']
   }
 };
 
@@ -78,8 +87,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   initInteractions(map);
   initFederalInteractions(map);
 
-  // Build municipal legend once
+  // Build static legends
   populateMunicipalLegend(map);
+  populateRCMPLegend();
 
   // Initialize legend with delay for stability
   setTimeout(() => {
@@ -116,6 +126,9 @@ document.addEventListener('DOMContentLoaded', async () => {
           toggleLayerVisibility(map, key, visible);
         }
 
+        // RCMP overlay: keep outline visible even on other layers
+        applyRCMPOverlay(map);
+
         // Hamlet layers: hide when leaving municipal, respect toggle when entering
         if (activeLayer !== 'municipal') {
           HAMLET_LAYERS.forEach(id => {
@@ -147,6 +160,17 @@ document.addEventListener('DOMContentLoaded', async () => {
       });
     });
 
+    // RCMP overlay toggle
+    document.getElementById('rcmp-overlay-btn')?.addEventListener('click', () => {
+      showRCMPOverlay = !showRCMPOverlay;
+      const btn = document.getElementById('rcmp-overlay-btn');
+      if (btn) {
+        btn.textContent = `RCMP Boundaries: ${showRCMPOverlay ? 'On' : 'Off'}`;
+        btn.classList.toggle('active', showRCMPOverlay);
+      }
+      applyRCMPOverlay(map);
+    });
+
     // Hamlet toggle
     document.getElementById('hamlet-toggle-btn')?.addEventListener('click', () => {
       showHamlets = !showHamlets;
@@ -170,6 +194,13 @@ function debounce(fn, delay = 300) {
   };
 }
 
+function applyRCMPOverlay(map) {
+  if (!map.getLayer('rcmp-outline')) return;
+  // Outline is visible if: RCMP layer is active (full layer on), or overlay toggle is on
+  const show = activeLayer === 'rcmp' || showRCMPOverlay;
+  map.setLayoutProperty('rcmp-outline', 'visibility', show ? 'visible' : 'none');
+}
+
 function toggleLayerVisibility(map, layerKey, visible) {
   const layer = layers[layerKey];
   if (!layer) return;
@@ -184,15 +215,31 @@ function toggleLayerVisibility(map, layerKey, visible) {
 function updateLegendDisplay(layerKey) {
   const regularLegend = document.getElementById('legend');
   const municipalLegend = document.getElementById('municipal-legend');
+  const rcmpLegend = document.getElementById('rcmp-legend');
   if (!regularLegend || !municipalLegend) return;
 
+  regularLegend.style.display = 'none';
+  municipalLegend.style.display = 'none';
+  if (rcmpLegend) rcmpLegend.style.display = 'none';
+
   if (layerKey === 'municipal') {
-    regularLegend.style.display = 'none';
     municipalLegend.style.display = 'block';
+  } else if (layerKey === 'rcmp') {
+    if (rcmpLegend) rcmpLegend.style.display = 'block';
   } else {
     regularLegend.style.display = 'block';
-    municipalLegend.style.display = 'none';
   }
+}
+
+function populateRCMPLegend() {
+  const container = document.getElementById('rcmp-legend-items');
+  if (!container) return;
+  container.innerHTML = Object.entries(RCMP_DISTRICT_COLORS).map(([, { label, color }]) => `
+    <div class="legend-item">
+      <span class="legend-swatch" style="background:${color};"></span>
+      <span>${label}</span>
+    </div>`
+  ).join('');
 }
 
 function populateMunicipalLegend(map) {

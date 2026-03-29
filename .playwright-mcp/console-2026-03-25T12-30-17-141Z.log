@@ -1,0 +1,17 @@
+[   10736ms] [ERROR] Failed to load resource: the server responded with a status of 422 (Unprocessable Entity) @ http://192.168.0.231:8000/auth/invite:0
+[   10747ms] Error: Objects are not valid as a React child (found: object with keys {type, loc, msg, input, ctx}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectTypeImpl (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=16322e9a:3540:10)
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=16322e9a:3544:105)
+    at createChild (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=16322e9a:3643:6)
+    at reconcileChildrenArray (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=16322e9a:3737:63)
+    at reconcileChildFibersImpl (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=16322e9a:3842:106)
+    at http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=16322e9a:3869:28
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=16322e9a:5386:46)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=16322e9a:6200:1569)
+    at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=16322e9a:851:66)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=16322e9a:8429:92)
+[   10746ms] [WARNING] %s
+
+%s
+ An error occurred in the <p> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/@vite/client:509
