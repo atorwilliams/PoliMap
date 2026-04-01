@@ -201,6 +201,8 @@ html, body, #map {
   cursor: pointer;
   border-radius: 6px;
   transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .nav-btn:hover,
@@ -742,6 +744,8 @@ html, body, #map {
   cursor: pointer;
   border-radius: 6px;
   transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .nav-btn:hover,
