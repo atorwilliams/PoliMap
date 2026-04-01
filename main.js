@@ -34,7 +34,7 @@ const layers = {
     init: initMunicipal,
     updateVisibility: updateMunicipalVisibility,
     visible: false,
-    layers: ['municipal-fill', 'municipal-fill-hatch', 'municipal-outline', 'municipal-label-rural', 'municipal-label-urban']
+    layers: ['municipal-fill', 'municipal-fill-hatch', 'municipal-highlight', 'municipal-outline', 'municipal-label-rural', 'municipal-label-urban']
   },
   rcmp: {
     name: 'RCMP Districts',

@@ -41,6 +41,16 @@ function toTitleCase(str) {
   return str.toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
 }
 
+function getBounds(feature) {
+  const geom = feature.geometry;
+  const coords = geom.type === 'Polygon'
+    ? geom.coordinates.flat()
+    : geom.coordinates.flat(2);
+  const lngs = coords.map(c => c[0]);
+  const lats = coords.map(c => c[1]);
+  return [[Math.min(...lngs), Math.min(...lats)], [Math.max(...lngs), Math.max(...lats)]];
+}
+
 function getCentroid(feature) {
   const geom = feature.geometry;
   if (geom.type === 'Point') return geom.coordinates;
@@ -116,6 +126,18 @@ export async function initMunicipal(map) {
     paint: {
       'fill-color': colorMatch,
       'fill-opacity': 0.3,
+    }
+  });
+
+  map.addLayer({
+    id: 'municipal-highlight',
+    type: 'fill',
+    source: 'municipal-source',
+    filter: ['==', ['get', 'GEONAME'], ''],
+    layout: { visibility: 'none' },
+    paint: {
+      'fill-color': '#ffffff',
+      'fill-opacity': 0.5,
     }
   });
 
@@ -231,7 +253,7 @@ export async function initMunicipal(map) {
     console.warn('[Municipal] Failed to load hamlet layer:', err);
   }
 
-  // ── Click → sidebar ───────────────────────────────────────────────────────
+  // ── Click → highlight + camera + sidebar ─────────────────────────────────
   const TYPE_PRIORITY = { CITY: 7, TOWN: 6, VILLAGE: 5, SVILLAGE: 4, URBSERV: 3, INDIAN: 2, RURAL: 1 };
 
   map.on('click', 'municipal-fill', (e) => {
@@ -248,11 +270,28 @@ export async function initMunicipal(map) {
     const typeColor = MUNICIPAL_COLORS[props.municipalType]?.color || '#999';
     const { lng, lat } = e.lngLat;
 
+    // Highlight the clicked feature
+    map.setFilter('municipal-highlight', ['==', ['get', 'GEONAME'], props.GEONAME]);
+    map.setLayoutProperty('municipal-highlight', 'visibility', 'visible');
+
+    // Fly to fit the feature's bounds
+    const fullFeature = municipalPolygonFeatures.find(f => f.properties.GEONAME === props.GEONAME);
+    if (fullFeature) {
+      const bounds = getBounds(fullFeature);
+      map.fitBounds(bounds, { padding: 80, maxZoom: 13, duration: 800, essential: true });
+    }
+
     const provincialRiding = findProvincialRidingAt(lng, lat);
     const federalRiding    = findFederalRidingAt(lng, lat);
 
     const isReserve = props.municipalType === 'INDIAN';
-    showMunicipalSidebar({ name, typeLabel, typeColor, provincialRiding, federalRiding, isReserve });
+    showMunicipalSidebar({
+      name, typeLabel, typeColor, provincialRiding, federalRiding, isReserve,
+      onClose: () => {
+        map.setFilter('municipal-highlight', ['==', ['get', 'GEONAME'], '']);
+        map.setLayoutProperty('municipal-highlight', 'visibility', 'none');
+      }
+    });
   });
 
   map.on('mouseenter', 'municipal-fill', () => {
@@ -313,7 +352,7 @@ export function showMunicipalTypeSidebar(type, label, color, map) {
   window.currentSidebar = sidebar;
 }
 
-function showMunicipalSidebar({ name, typeLabel, typeColor, provincialRiding, federalRiding, isReserve }) {
+function showMunicipalSidebar({ name, typeLabel, typeColor, provincialRiding, federalRiding, isReserve, onClose }) {
   if (window.currentSidebar) {
     window.currentSidebar.remove();
     window.currentSidebar = null;
@@ -357,6 +396,7 @@ function showMunicipalSidebar({ name, typeLabel, typeColor, provincialRiding, fe
   document.getElementById('sidebar-close-btn').addEventListener('click', () => {
     sidebar.remove();
     window.currentSidebar = null;
+    if (onClose) onClose();
   });
 
   setTimeout(() => sidebar.classList.add('open'), 10);

@@ -129,11 +129,16 @@ export async function initRCMP(map) {
     id: 'rcmp-outline',
     type: 'line',
     source: 'rcmp-source',
-    layout: { visibility: 'none' },
+    layout: {
+      visibility: 'none',
+      'line-cap': 'round',
+      'line-join': 'round',
+    },
     paint: {
       'line-color': DISTRICT_COLOR_EXPR,
-      'line-width': ['interpolate', ['linear'], ['zoom'], 5, 0.8, 10, 1.8],
-      'line-opacity': 0.7,
+      'line-width': ['interpolate', ['linear'], ['zoom'], 5, 1.5, 10, 2.5],
+      'line-opacity': 0.85,
+      'line-dasharray': [5, 3],
     }
   });
 
