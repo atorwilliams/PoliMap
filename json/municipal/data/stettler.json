@@ -1,0 +1,83 @@
+{
+  "name": "Stettler",
+  "geoname": "COUNTY OF STETTLER NO. 6",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Gord Lawlor",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "glawlor@stettler.net"
+  },
+  "council": [
+    {
+      "name": "Kurt Baker",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kbaker@stettler.net",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Cheryl Barros",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cbarros@stettler.net",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Sharon Fischer",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sfischer@stettler.net",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Dusty Myshrall",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dmyshrall@stettler.net",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Scott Pfeiffer",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "spfeiffer@stettler.net",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Wayne Smith",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "wsmith@stettler.net",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

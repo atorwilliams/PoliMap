@@ -1,0 +1,174 @@
+{
+  "name": "Camrose",
+  "geoname": "CITY OF CAMROSE",
+  "type": "City",
+  "mayor": {
+    "name": "PJ Stasko",
+    "portrait": "https://www.camrose.ca/media/v0fdgbyc/2025-mayor-pj-stasko-headshot.jpg?rxy=0.4898502112330877,0.4223192010249122&width=1600&height=1600&v=1dc5b30bd9ec8d0&format=webp",
+    "since": "",
+    "title": "Mayor",
+    "email": "pstasko@camrose.ca ",
+    "phone": "780.781.0826",
+    "committees": [
+      "Camrose Intermunicipal Committee (Alternate)",
+      "Camrose Recreation Committee (Alternate)",
+      "Emergency Advisory Committee",
+      "Finance Committee of Council"
+    ]
+  },
+  "council": [
+    {
+      "name": "Lucas Banack",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.camrose.ca/media/rnah53dp/2025-councillor-lucas-banack-headshot.jpg?rxy=0.5350119815453082,0.37843398756204716&width=1600&height=1600&v=1dc5b30ceb1f840&format=webp",
+      "email": "lbanack@camrose.ca ",
+      "phone": "780.608.8323",
+      "committees": [
+        "Camrose Intermunicipal Committee",
+        "Camrose Police Commission",
+        "Camrose Recreation Committee",
+        "Community Transit Advisory Committee",
+        "Finance Committee of Council",
+        "Heritage Advisory Committee (alternate)",
+        "Municipal Planning Advisory Committee",
+        "Recreation Advisory Committee"
+      ]
+    },
+    {
+      "name": "Lana Broker",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.camrose.ca/media/3xbltzdq/2025-councillor-lana-broker-headshot.jpg?rxy=0.48113187139783004,0.4147265994346896&width=1600&height=1600&v=1dc5b3092b5fb70&format=webp",
+      "email": "lbroker@camrose.ca ",
+      "phone": "780.608.0800",
+      "committees": [
+        "Capital Region Southwest Water Services Commission",
+        "Finance Committee of Council",
+        "Heritage Advisory Committee",
+        "Member at Large Review Panel",
+        "Subdivision & Development Appeal Board"
+      ]
+    },
+    {
+      "name": "David R. Francoeur",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.camrose.ca/media/pakjzpv4/2025-councillor-david-francoeur-headshot.jpg?rxy=0.5235847772132792,0.3693570828384259&width=1600&height=1600&v=1dc5b308bf131b0&format=webp",
+      "email": "dfrancoeur@camrose.ca ",
+      "phone": "780.672.5561",
+      "committees": [
+        "Camrose and Area Lodge Authority",
+        "Emergency Advisory Committee",
+        "Finance Committee of Council",
+        "Heritage Advisory Committee",
+        "Member at Large Review Panel",
+        "Municipal Planning Advisory Committee"
+      ]
+    },
+    {
+      "name": "Agnes Hoveland",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.camrose.ca/media/bcyedodn/official-councillor-agnes-hoveland-headshot-2025-10.jpg?rxy=0.5067622123536536,0.3739530122893916&width=1600&height=1600&v=1dc5b30e63282a0&format=webp",
+      "email": "ahoveland@camrose.ca ",
+      "phone": "780.672.2888",
+      "committees": [
+        "Camrose and District Family and Community Support Services",
+        "Camrose Arts Council Board",
+        "Camrose Intermunicipal Committee",
+        "Camrose Performing Arts Centre Board of Governors",
+        "Discretionary Grants Review Committee",
+        "Emergency Advisory Committee",
+        "Finance Committee of Council"
+      ]
+    },
+    {
+      "name": "DJ Ilg",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.camrose.ca/media/iein34xe/2025-councillor-dj-ilg-headshot.jpg?rxy=0.556286032163447,0.3864168010913033&width=1600&height=1600&v=1dc5b3076250e10&format=webp",
+      "email": "dilg@camrose.ca ",
+      "phone": "780.887.7911",
+      "committees": [
+        "Camrose Airport Commission",
+        "Camrose and District Family and Community Support Services (Alternate)",
+        "Camrose Recreation Committee",
+        "Emergency Advisory Committee",
+        "Finance Committee of Council",
+        "Member at Large Review Panel",
+        "Municipal Planning Advisory Committee"
+      ]
+    },
+    {
+      "name": "Joy-Anne Murphy",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.camrose.ca/media/caqkahvy/official-councillor-joy-anne-murphy-headshot-2025-10.jpg?rxy=0.4760920361078223,0.41937651228048606&width=1600&height=1600&v=1dc5b304bb03830&format=webp",
+      "email": "jmurphy@camrose.ca ",
+      "phone": "780.781.4087",
+      "committees": [
+        "Camrose and District Family and Community Support Services",
+        "Camrose and Area Lodge Authority",
+        "Camrose Arts Council Board",
+        "Camrose Environmental Sustainability Advisory Committee",
+        "Camrose Public Library Board",
+        "Finance Committee of Council",
+        "Indigenous Advisory Committee",
+        "Parkland Regional Library Board"
+      ]
+    },
+    {
+      "name": "Don Rosland",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.camrose.ca/media/qdznrgac/2025-councillor-don-rosland-headshot.jpg?rxy=0.4892423812154266,0.388645505376121&width=1600&height=1600&v=1dc5b30fb5f8010&format=webp",
+      "email": "drosland@camrose.ca",
+      "phone": "780.781.0572 ",
+      "committees": [
+        "Camrose and Area Lodge Authority",
+        "Camrose Intermunicipal Committee",
+        "Camrose Recreation Committee",
+        "Discretionary Grants Review Committee",
+        "Finance Committee of Council",
+        "Indigenous Advisory Committee (Alternate)",
+        "Recreation Advisory Board",
+        "Subdivision & Development Appeal Board (Alternate)"
+      ]
+    },
+    {
+      "name": "Wayne Throndson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.camrose.ca/media/ynqpdjdr/official-councillor-wayne-throndson-headshot-2025-10.jpg?rxy=0.4788554703270085,0.36443433064899783&width=1600&height=1600&v=1dc5b3115de0830&format=webp",
+      "email": "wthrondson@camrose.ca ",
+      "phone": "780.678.5350 ",
+      "committees": [
+        "Camrose Performing Arts Centre Board of Governors",
+        "Camrose Police Commission",
+        "Capital Region Southwest Water Services Commission",
+        "Community Transit Advisory Committee (Alternate)",
+        "Discretionary Grants Review Committee",
+        "Finance Committee of Council",
+        "Rose City Handi-van Society Board"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.camrose.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

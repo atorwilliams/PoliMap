@@ -1,0 +1,144 @@
+{
+  "name": "Edmonton",
+  "geoname": "CITY OF EDMONTON",
+  "type": "City",
+  "mayor": {
+    "name": "Andrew Knack",
+    "portrait": "",
+    "since": "2025-10-29",
+    "title": "Mayor",
+    "email": "andrew.knack@edmonton.ca",
+    "committees": []
+  },
+  "council": [
+    {
+      "name": "Erin Rutherford",
+      "role": "",
+      "ward": "Anirniq",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "erin.rutherford@edmonton.ca",
+      "phone": "780-496-8136",
+      "committees": []
+    },
+    {
+      "name": "Aaron Paquette",
+      "role": "",
+      "ward": "Dene",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "aaron.paquette@edmonton.ca",
+      "phone": "780-496-8138",
+      "committees": []
+    },
+    {
+      "name": "Jon Morgan",
+      "role": "",
+      "ward": "Ipiihkoohkanipiaohtsi",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "jon.morgan@edmonton.ca",
+      "phone": "780-496-8132",
+      "committees": []
+    },
+    {
+      "name": "Keren Tang",
+      "role": "",
+      "ward": "Karhiio",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "keren.tang@edmonton.ca",
+      "phone": "780-496-8142",
+      "committees": []
+    },
+    {
+      "name": "Ashley Salvador",
+      "role": "",
+      "ward": "Métis",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "ashley.salvador@edmonton.ca",
+      "phone": "780-496-8140",
+      "committees": []
+    },
+    {
+      "name": "Reed Clarke",
+      "role": "",
+      "ward": "Nakota Isga",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "reed.clarke@edmonton.ca",
+      "phone": "780-496-8122",
+      "committees": []
+    },
+    {
+      "name": "Anne Stevenson",
+      "role": "",
+      "ward": "O-day'min",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "anne.stevenson@edmonton.ca",
+      "phone": "780-496-8333",
+      "committees": []
+    },
+    {
+      "name": "Michael Janz",
+      "role": "",
+      "ward": "papastew",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "michael.janz@edmonton.ca",
+      "phone": "780-496-8146",
+      "committees": []
+    },
+    {
+      "name": "Mike Elliott",
+      "role": "",
+      "ward": "pihêsiwin",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "mike.elliott@edmonton.ca",
+      "phone": "780-496-8130",
+      "committees": []
+    },
+    {
+      "name": "Thu Parmar",
+      "role": "",
+      "ward": "sipiwiyiniwak",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "thu.parmar@edmonton.ca",
+      "phone": "780-496-8120",
+      "committees": []
+    },
+    {
+      "name": "Jo-Anne Wright",
+      "role": "",
+      "ward": "Sspomitapi",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "jo-anne.wright@edmonton.ca",
+      "phone": "780-496-8148",
+      "committees": []
+    },
+    {
+      "name": "Karen Principe",
+      "role": "",
+      "ward": "tastawiyiniwak",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "karen.principe@edmonton.ca",
+      "phone": "780-496-8128",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2029-10-20",
+  "website": "https://www.edmonton.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

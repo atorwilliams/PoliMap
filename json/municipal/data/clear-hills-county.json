@@ -1,0 +1,84 @@
+{
+  "name": "Clear Hills County",
+  "geoname": "CLEAR HILLS COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Amber Bean",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "780-834-8871",
+    "email": "True_North_Strong@outlook.com"
+  },
+  "council": [
+    {
+      "name": "David Janzen",
+      "role": "Deputy Reeve",
+      "ward": "Ward 5",
+      "since": "",
+      "portrait": "",
+      "email": "denovember5@gmail.com",
+      "phone": "780-834-0197",
+      "committees": []
+    },
+    {
+      "name": "Danae Walmsley",
+      "role": "",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "danaewalmsley@outlook.com",
+      "phone": "780-834-8315 ",
+      "committees": []
+    },
+    {
+      "name": "Susan Hansen",
+      "role": "",
+      "ward": "Ward 2",
+      "since": "",
+      "portrait": "",
+      "email": "susan-hansen@live.com",
+      "phone": "780-834-7977",
+      "committees": []
+    },
+    {
+      "name": "Jason Ruecker",
+      "role": "",
+      "ward": "Ward 4",
+      "since": "",
+      "portrait": "",
+      "email": "jj_ruecker@hotmail.com",
+      "phone": "780-835-0398",
+      "committees": []
+    },
+    {
+      "name": "Abram Giesbrecht",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Abeg87@hotmail.com",
+      "phone": "780-834-7369",
+      "committees": []
+    },
+    {
+      "name": "Candice Stevenson",
+      "role": "",
+      "ward": "Ward 7",
+      "since": "",
+      "portrait": "",
+      "email": "cjames938@hotmail.com",
+      "phone": "780-897-5361",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.clearhillscounty.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

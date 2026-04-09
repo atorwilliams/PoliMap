@@ -1,0 +1,84 @@
+{
+  "name": "Municipality Of Crowsnest Pass",
+  "geoname": "MUNICIPALITY OF CROWSNEST PASS",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Pat Rypien",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "pat.rypien@crowsnestpass.com",
+    "phone": "403-563-0208"
+  },
+  "council": [
+    {
+      "name": "Doreen Glavin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "doreen.glavin@crowsnestpass.com",
+      "phone": "403-563-9436",
+      "committees": []
+    },
+    {
+      "name": "Doreen Johnson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "doreen.johnson@crowsnestpass.com",
+      "phone": "403-582-5582",
+      "committees": []
+    },
+    {
+      "name": "Colleen MacDonald",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "colleen.macdonald@crowsnestpass.com",
+      "phone": "403-999-4954",
+      "committees": []
+    },
+    {
+      "name": "Darren Nastasi",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "darren.nastasi@crowsnestpass.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Tony Vastenhout",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tony.vastenhout@crowsnestpass.com",
+      "phone": "403-563-6804",
+      "committees": []
+    },
+    {
+      "name": "Dean Ward",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dean.ward@crowsnestpass.com",
+      "phone": "403-563-4128",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

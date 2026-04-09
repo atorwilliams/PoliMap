@@ -1,0 +1,134 @@
+{
+  "name": "Chestermere",
+  "geoname": "CITY OF CHESTERMERE",
+  "type": "City",
+  "mayor": {
+    "name": "Shannon Dean",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "sdean@chestermere.ca",
+    "committees": [
+      "Alberta Mid-sized Cities Mayors’ Caucus",
+      "Calgary Intermunicipal Committee",
+      "Chestermere Interfaith Committee",
+      "Not for Profit Committee",
+      "Police Communications Committee",
+      "Rocky View Intermunicipal Committee",
+      "Seniors Advisory Committee",
+      "Wheatland Regional Emergency Management Advisory Committee (alternate)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Ritesh Narayan",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rnarayan@chestermere.ca ",
+      "phone": "",
+      "committees": [
+        "Chestermere Interfaith Committee",
+        "Grant Adjudication Committee",
+        "Inter-City Forum on Social Policy (primary)",
+        "Police Communications Committee",
+        "Recreation Committee",
+        "Subdivision and Development Appeal Board (SDAB)"
+      ]
+    },
+    {
+      "name": "Murray Grant",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mgrant@chestermere.ca",
+      "phone": "",
+      "committees": [
+        "Chestermere Economic Development Advisory Committee",
+        "Chestermere Municipal Heritage Advisory Committee",
+        "Grant Adjudication Committee",
+        "Recreation Committee"
+      ]
+    },
+    {
+      "name": "Kiran Randhawa",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "krandhawa@chestermere.ca",
+      "phone": "",
+      "committees": [
+        "Inter-City Forum on Social Policy (alternate)",
+        "Lake and Watershed Advisory Committee",
+        "Not for Profit Committee",
+        "Wheatland Regional Emergency Management Advisory Committee (primary)"
+      ]
+    },
+    {
+      "name": "Janelle Sandboe",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jsandboe@chestermere.ca",
+      "phone": "",
+      "committees": [
+        "Community Futures Wild Rose",
+        "Chestermere Library Board",
+        "Chestermere Municipal Heritage Advisory Committee",
+        "Recreation Committee"
+      ]
+    },
+    {
+      "name": "Robert Schindler",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rschindler@chestermere.ca",
+      "phone": "",
+      "committees": [
+        "Assessment Review Board (ARB)",
+        "Chestermere Library Board",
+        "Marigold Library Systems Board",
+        "Seniors Advisory Committee"
+      ]
+    },
+    {
+      "name": "Rob Wawrzynowski",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "robw@chestermere.ca",
+      "phone": "",
+      "committees": [
+        "Chestermere Chamber of Commerce",
+        "Chestermere Economic Development Advisory Committee",
+        "Lake and Watershed Advisory Committee"
+      ]
+    },
+    {
+      "name": "Kent Edney",
+      "role": "Chief Administrative Officer",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Kedney@chestermere.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

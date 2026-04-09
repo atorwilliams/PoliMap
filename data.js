@@ -69,3 +69,31 @@ export async function loadFederalRidingData() {
   federalRidingDataCache = json;
   return json;
 }
+
+// ── Municipal data (lazy, per-click) ─────────────────────────────────────────
+let municipalIndexCache = null;
+const municipalDataCache = {};
+
+async function loadMunicipalIndex() {
+  if (municipalIndexCache) return municipalIndexCache;
+  const res = await fetch('/json/municipal/index.json');
+  if (!res.ok) throw new Error(`municipal index fetch failed: ${res.status}`);
+  municipalIndexCache = await res.json();
+  return municipalIndexCache;
+}
+
+export async function loadMunicipalData(geoname) {
+  if (!geoname) return null;
+  if (municipalDataCache[geoname]) return municipalDataCache[geoname];
+
+  const index = await loadMunicipalIndex();
+  const entry = index[geoname];
+  if (!entry?.slug) return null;
+
+  const res = await fetch(`/json/municipal/data/${entry.slug}.json`);
+  if (!res.ok) return null;
+
+  const data = await res.json();
+  municipalDataCache[geoname] = data;
+  return data;
+}

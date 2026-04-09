@@ -1,0 +1,44 @@
+{
+  "name": "Golden Days",
+  "geoname": "S.V. of GOLDEN DAYS",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Brian Park",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "(780) 387-6276",
+    "email": "Briansvgd@gmail.com"
+  },
+  "council": [
+    {
+      "name": "Brad Lloyd",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "badbrad1340@yahoo.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Phil Pawlyk",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "philpawlyksvogd@gmail.com",
+      "phone": "(780) 389-3352",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://goldendays.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

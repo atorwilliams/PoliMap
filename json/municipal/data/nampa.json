@@ -1,0 +1,21 @@
+{
+  "name": "Nampa",
+  "geoname": "VILLAGE OF NAMPA",
+  "type": "Village",
+  "mayor": {
+    "name": "",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "-not updated-",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

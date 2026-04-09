@@ -1,0 +1,73 @@
+{
+  "name": "Alliance",
+  "geoname": "VILLAGE OF ALLIANCE",
+  "type": "Village",
+  "mayor": {
+    "name": "Leslie Ganshirt",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "lganshirt@villageofalliance.ca"
+  },
+  "council": [
+    {
+      "name": "Denise Nychyporuk",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dnychyporuk@villageofalliance.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Stephen Wyse",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "stephen@villageofalliance.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Carmen Frank",
+      "role": "Chief Administrative Officer",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cao@villageofalliance.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Natacha St-Louis",
+      "role": "Administrative Assistant",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "adminassistant@villageofalliance.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Wayne Cameron",
+      "role": "Public Works",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "wayne@villageofalliance.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.villageofalliance.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

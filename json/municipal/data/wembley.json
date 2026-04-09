@@ -1,0 +1,93 @@
+{
+  "name": "Wembley",
+  "geoname": "TOWN OF WEMBLEY",
+  "type": "Town",
+  "mayor": {
+    "name": "Kelly Peterson",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": " mayorpeterson@wembley.ca",
+    "phone": "780-876-5150"
+  },
+  "council": [
+    {
+      "name": "Shaun Baker",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorbaker@wembley.ca",
+      "phone": "780.876.5452 ",
+      "committees": []
+    },
+    {
+      "name": "Dick Barendregt",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorbarendgret@wembley.ca",
+      "phone": "780.228.7390",
+      "committees": []
+    },
+    {
+      "name": "Robert Berlasty",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorberlasty@wembley.ca",
+      "phone": "780-296-1723",
+      "committees": []
+    },
+    {
+      "name": "Rebecca Ketchum",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorketchum@wembley.ca",
+      "phone": "780.296.2306",
+      "committees": []
+    },
+    {
+      "name": "Tanya Skinner",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorskinner@wembley.ca ",
+      "phone": "780.512.8791",
+      "committees": []
+    },
+    {
+      "name": "Bailee Wills",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorwills@wembley.ca",
+      "phone": "780.897.5539",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.wembley.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "NOREEN ZHANG",
+      "since": "",
+      "email": "info@wembley.ca",
+      "phone": "780.766.2269 Ext.3",
+      "notes": ""
+    }
+  ]
+}

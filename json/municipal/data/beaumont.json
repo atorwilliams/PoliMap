@@ -1,0 +1,123 @@
+{
+  "name": "Beaumont",
+  "geoname": "CITY OF BEAUMONT",
+  "type": "City",
+  "mayor": {
+    "name": "Lisa Vanderkwaak",
+    "portrait": "https://www.beaumont.ab.ca/wp-content/uploads/2025/11/Mayor-Vanderkwaak-Casual-2048x1365.jpg",
+    "since": "",
+    "title": "Mayor",
+    "email": "lisa.vanderkwaak@beaumont.ab.ca",
+    "committees": [
+      "Emergency Management Advisory Committee (EMAC)",
+      "Capital Region Southwest Water Services Commission (CRSWSC)",
+      "Edmonton Global",
+      "Mid-Sized Cities Mayors’ Caucus (MCMC)",
+      "Regional Collaboration Group"
+    ]
+  },
+  "council": [
+    {
+      "name": "Paul Heide",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.beaumont.ab.ca/wp-content/uploads/2025/11/Councillor-Heide-Casual-2048x1406.jpg",
+      "email": "paul.heide@beaumont.ab.ca",
+      "phone": "",
+      "committees": [
+        "Recreation and Culture Advisory Committee",
+        "Youth Advisory Committee",
+        "Beaumont, Edmonton, Leduc Intermunicipal Oversight Committee",
+        "Edmonton Global",
+        "Inter-City Forum on Social Policy (ICFSP)"
+      ]
+    },
+    {
+      "name": "Philip Penrod",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.beaumont.ab.ca/wp-content/uploads/2025/11/Councilor-Penrod-Scaled.png",
+      "email": "philip.penrod@beaumont.ab.ca",
+      "phone": "",
+      "committees": [
+        "Arts Advisory Committee",
+        "Beaumont Municipal Library Board",
+        "Leduc Regional Housing Foundation (LRHF)",
+        "Yellowhead Regional Library Board (YRLB)"
+      ]
+    },
+    {
+      "name": "Anthony Kohlsmith",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.beaumont.ab.ca/wp-content/uploads/2025/11/Councillor-Kohlsmith-Casual-2048x1359.jpg",
+      "email": "anthony.kohlsmith@beaumont.ab.ca",
+      "phone": "",
+      "committees": [
+        "Edmonton Region Waste Advisory Committee (ERWAC)",
+        "Capital Region Southwest Water Services Commission (CRSWSC)",
+        "Beaumont Municipal Library Board",
+        "Leduc and District Waste Management Commission (LDWMC)",
+        "Yellowhead Regional Library Board (YRLB)"
+      ]
+    },
+    {
+      "name": "Kim Murray",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.beaumont.ab.ca/wp-content/uploads/2025/11/Councillor-Murray-Casual-Outdoors-2048x1529.jpg",
+      "email": "kim.murray@beaumont.ab.ca",
+      "phone": "",
+      "committees": [
+        "Arts Advisory Committee",
+        "Leduc Regional Housing Foundation (LRHF)",
+        "Recreation and Culture Advisory Committee",
+        "Alberta Bilingual Municipalities Association (ABMA)",
+        "Edmonton Region Waste Advisory Committee (ERWAC)"
+      ]
+    },
+    {
+      "name": "Nathan Netelenbos",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.beaumont.ab.ca/wp-content/uploads/2025/11/Councillor-Netelenbos-Casual-2048x1365.jpg",
+      "email": "nathan.netelenbos@beaumont.ab.ca",
+      "phone": "",
+      "committees": [
+        "Municipal Policing Committee",
+        "Emergency Management Advisory Committee (EMAC)",
+        "Philip Ki Joon Oh Scholarship Foundation Selection Committee",
+        "Youth Advisory Committee",
+        "Beaumont Amateur Hockey Association Scholarship Selection Committee"
+      ]
+    },
+    {
+      "name": "Steven van Nieuwkerk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.beaumont.ab.ca/wp-content/uploads/2025/11/Councillor-vanNieuwkerk-Casual-1657x2048.jpg",
+      "email": "steven.vanNieuwkerk@beaumont.ab.ca",
+      "phone": "",
+      "committees": [
+        "ARROW Utilities",
+        "Leduc and District Waste Management Commission (LDWMC)",
+        "Capital Region Southwest Water Services Commission (CRSWSC)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.beaumont.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

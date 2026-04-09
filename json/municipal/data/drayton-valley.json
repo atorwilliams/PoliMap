@@ -1,0 +1,83 @@
+{
+  "name": "Drayton Valley",
+  "geoname": "TOWN OF DRAYTON VALLEY",
+  "type": "Town",
+  "mayor": {
+    "name": "Nancy Dodds",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "ndodds@draytonvalley.ca"
+  },
+  "council": [
+    {
+      "name": "Ryan Finn",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rfynn@draytonvalley.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Pat Jeffery",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "pjeffery@draytonvalley.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Colin Clarke",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cclarke@draytonvalley.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Fayrell Wheeler",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "fwheeler@draytonvalley.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Cody Brooks",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cbrooks@draytonvalley.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Brandon Boehm",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bboehm@draytonvalley.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.draytonvalley.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

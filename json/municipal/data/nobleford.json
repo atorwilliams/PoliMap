@@ -1,0 +1,64 @@
+{
+  "name": "Nobleford",
+  "geoname": "TOWN OF NOBLEFORD",
+  "type": "Town",
+  "mayor": {
+    "name": "Joan Boeder",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "(403) 331-4674",
+    "email": "boeder.j@nobleford.ca"
+  },
+  "council": [
+    {
+      "name": "Bill Oudshoorn",
+      "role": "\tDeputy Mayor ",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "oudshoorn.b@nobleford.ca",
+      "phone": "(587) 257-3657",
+      "committees": []
+    },
+    {
+      "name": "Melissa Jensen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jensen.m@nobleford.ca",
+      "phone": "(403) 359-0803",
+      "committees": []
+    },
+    {
+      "name": "Don McDowell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mcdowell.d@nobleford.ca",
+      "phone": "(403) 635-6027",
+      "committees": []
+    },
+    {
+      "name": "Bob Morrow",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "morrow.b@nobleford.ca",
+      "phone": "(403) 393-3325",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

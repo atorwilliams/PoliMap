@@ -1,0 +1,44 @@
+{
+  "name": "Sunbreaker Cove",
+  "geoname": "S.V. of SUNBREAKER COVE",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Michael J. Bruni",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403-813-1264",
+    "email": "mbruni@brunilaw.com"
+  },
+  "council": [
+    {
+      "name": "Jim Willmon",
+      "role": "DEPUTY MAYOR",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jwillmon@live.ca",
+      "phone": "403-988-4085 Email",
+      "committees": []
+    },
+    {
+      "name": "Kelsey Finch",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "finchkelsey@shaw.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "http://www.sylvansummervillages.ca/sunbreaker-cove.html",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

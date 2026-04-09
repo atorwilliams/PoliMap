@@ -1,0 +1,132 @@
+{
+  "name": "Westlock",
+  "geoname": "TOWN OF WESTLOCK",
+  "type": "Town",
+  "mayor": {
+    "name": "Jon Kramer",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Emergency Management Committee",
+      "Employee Collective Bargaining Committee",
+      "Financial Framework Task Force",
+      "Homeland Housing Board",
+      "Intermunicipal Development Plan (IDP) Review Committee",
+      "Westlock Economic Region Committee",
+      "FCSS Advisory Board (Alternate)",
+      "Westlock And District Agricultural Society (Alternate)",
+      "Yellowhead Regional Library Board (Alternate)"
+    ],
+    "email": "jkramer@westlock.ca"
+  },
+  "council": [
+    {
+      "name": "Jerry Buchko",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jbuchko@westlock.ca",
+      "phone": "",
+      "committees": [
+        "Community Events Committee",
+        "FCSS Advisory Board",
+        "Municipal Planning Commission (MPC)"
+      ]
+    },
+    {
+      "name": " Laurie Hodge",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "lhodge@westlock.ca",
+      "phone": "",
+      "committees": [
+        "Community Futures Tawatinaw Region",
+        "Health & Safety Committee",
+        "Intermunicipal Development Plan (IDP) Review Committee",
+        "Westlock Intermunicipal Library Board",
+        "Yellowhead Regional Library Board",
+        "Municipal Planning Commission (MPC) (Alternate)"
+      ]
+    },
+    {
+      "name": "Laura Morie",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "lmorie@westlock.ca",
+      "phone": "",
+      "committees": [
+        "Employee Collective Bargaining Committee",
+        "Homeland Housing Board",
+        "Naming Committee",
+        "Westlock Regional Municipal Airport Advisory Board",
+        "Community Events Committee (Alternate)"
+      ]
+    },
+    {
+      "name": "Curtis Snell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "csnell@westlock.ca",
+      "phone": "",
+      "committees": [
+        "Employee Collective Bargaining Committee",
+        "Financial Framework Task Force",
+        "Intermunicipal Development Plan (IDP) Review Committee",
+        "Regional Waste Mgmt Services Commission",
+        "Regional Water Services Commission",
+        "Subdivision And Development Appeal Board (SDAB)",
+        "Emergency Management Committee (Alternate)",
+        "Westlock And District Tractor Museum Foundation, Operating As The Canadian Tractor Museum (Alternate)"
+      ]
+    },
+    {
+      "name": " Mitchell Tinant",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mtinant@westlock.ca",
+      "phone": "",
+      "committees": [
+        "Emergency Management Committee",
+        "Municipal Planning Commission (MPC)",
+        "Regional Water Services Commission",
+        "Westlock Economic Region Committee",
+        "Health & Safety Committee (Alternate)",
+        "Westlock Regional Municipal Airport Advisory Board (Alternate)"
+      ]
+    },
+    {
+      "name": "Randy Wold",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rwold@westlock.ca",
+      "phone": "",
+      "committees": [
+        "Regional Waste Mgmt Services Commission",
+        "Regional Water Services Commission",
+        "Westlock And District Agricultural Society",
+        "Westlock And District Tractor Museum Foundation, Operating As The Canadian Tractor Museum"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.westlock.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

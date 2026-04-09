@@ -1,0 +1,92 @@
+{
+  "name": "Killam",
+  "geoname": "TOWN OF KILLAM",
+  "type": "Town",
+  "mayor": {
+    "name": "Les Fee",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Killam Public Library",
+      "Killam Recreation Board",
+      "Doctor Attraction & Retention",
+      "Flagstaff Family & Community Services (Alternate)"
+    ],
+    "email": "lfee@town.killam.ab.ca",
+    "phone": "780-385-0697"
+  },
+  "council": [
+    {
+      "name": "Kevin Kinzer",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " kkinzer@town.killam.ab.ca",
+      "phone": "(780) 390-0312",
+      "committees": [
+        "Community Advisory (CAC)",
+        "Flagstaff Regional Solid Waste Management",
+        "Tourism - Go East of Edmonton (Alternate)",
+        "Flagstaff Regional Emergency Services (Alternate)",
+        "Doctor Attraction & Retention (Alternate)"
+      ]
+    },
+    {
+      "name": "Rick Krys",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rkrys@town.killam.ab.ca",
+      "phone": "(780) 385-8078",
+      "committees": [
+        "Flagstaff Regional Emergency Services (FRESS)",
+        "Sedgewick Killam Natural Gas System",
+        "Community Advisory Committee (Alternate)",
+        "Killam Recreation Board (Alternate)"
+      ]
+    },
+    {
+      "name": "Jim Clark",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jclark@town.killam.ab.ca",
+      "phone": "(780) 385-0328",
+      "committees": [
+        "Tourism - Go East of Edmonton",
+        "Flagstaff Regional Housing Group",
+        "Killam Chamber of Commerce (Alternate)",
+        "Sedgewick Killam Natural Gas System"
+      ]
+    },
+    {
+      "name": "Terry Brodie",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tbrodie@town.killam.ab.ca",
+      "phone": "(780) 385-1012",
+      "committees": [
+        "Killam Chamber of Commerce",
+        "Flagstaff Family & Community Services",
+        "Flagstaff Regional Housing Group (Alternate)",
+        "Sedgewick Killam Natural Gas System",
+        "Flagstaff Regional Solid Waste Management (Alternate)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.town.killam.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

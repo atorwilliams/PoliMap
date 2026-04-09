@@ -1,0 +1,81 @@
+{
+  "name": "Rainbow Lake",
+  "geoname": "TOWN OF RAINBOW LAKE",
+  "type": "Town",
+  "mayor": {
+    "name": "Rick Cartier",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "(780) 720-1240",
+    "email": "rcartier@rainbowlake.ca"
+  },
+  "council": [
+    {
+      "name": "Peggie Barnhill",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "pbarnhill@rainbowlake.ca",
+      "phone": "(780) 956-4483",
+      "committees": []
+    },
+    {
+      "name": "Danny Huppertz",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dhuppertz@rainbowlake.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Cheri Hazelwood",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "chazelwood@rainbowlake.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Darren Meyer",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dmeyer@rainbowlake.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://rainbowlake.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Jason Harley",
+      "since": "",
+      "email": "jharley@rainbowlake.ca",
+      "phone": "(780) 956-1701",
+      "notes": ""
+    },
+    {
+      "role": "Town Foreman",
+      "name": "Joy Occidental",
+      "since": "",
+      "email": "joccidental@rainbowlake.ca",
+      "phone": "(780) 956-1702",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Grimshaw",
+  "geoname": "TOWN OF GRIMSHAW",
+  "type": "Town",
+  "mayor": {
+    "name": "Stacey Messner",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayor@grimshaw.ca",
+    "committees": [
+      "Lac Cardinal Inter-Municipal Committee",
+      "Mackenzie Municipal Services Agency",
+      "Mid-Sized Towns Mayors Caucus",
+      "Northern Alberta Elected Leaders (NAEL)",
+      "Peace Regional Energy Committee",
+      "Vision 2030 Planning Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Colleen Sklapsky",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "colleen.sklapsky@grimshaw.ca",
+      "phone": "",
+      "committees": [
+        "Grimshaw & District Chamber of Commerce",
+        "Lac Cardinal Inter-Municipal Committee",
+        "Lac Cardinal Regional Economic Development Board",
+        "Peace Regional Economic Development Alliance",
+        "Peace Regional Energy Committee",
+        "PRAMP",
+        "Water North Coalition"
+      ]
+    },
+    {
+      "name": "Tanya Allen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tanya.allen@grimshaw.ca",
+      "phone": "",
+      "committees": [
+        "Grimshaw Regional Health Care Attraction and Retention Committee (Alternate)",
+        "Kennedy Park Steering Committee",
+        "Peace Regional Mutual Aid Committee",
+        "Vision 2030 Planning Committee"
+      ]
+    },
+    {
+      "name": "John Bak",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "john.bak@grimshaw.ca",
+      "phone": "",
+      "committees": [
+        "Grimshaw Gravels Aquifer Advisory Association",
+        "Community Services Advisory Board (Centennial Park Society) (Alternate)",
+        "Grimshaw Gravels Aquifer Advisory Association (Alternate for Chad Krantz)"
+      ]
+    },
+    {
+      "name": " Lynn Florence",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "lynn.florence@grimshaw.ca",
+      "phone": "",
+      "committees": [
+        "Alberta Pond Hockey Association",
+        "Library Board",
+        "Mighty Peace Tourist Association",
+        "Peace Library Systems Board"
+      ]
+    },
+    {
+      "name": "Chad Krantz",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "chad.krantz@grimshaw.ca",
+      "phone": "",
+      "committees": [
+        "Grimshaw & District Chamber of Commerce (Alternate)",
+        "Grimshaw Gravels Aquifer Advisory Association (Alternate)",
+        "Long Lake Regional Waste Management Services Commission"
+      ]
+    },
+    {
+      "name": " Dirk Thompson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dirk.thompson@grimshaw.ca",
+      "phone": "",
+      "committees": [
+        "Community Services Advisory Board (Centennial Park Society)",
+        "Grimshaw School’s Joint Use Committee",
+        "Peace Regional Community Advisory Committee",
+        "North Peace Housing Foundation"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://grimshaw.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

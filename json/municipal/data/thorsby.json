@@ -1,0 +1,95 @@
+{
+  "name": "Thorsby",
+  "geoname": "TOWN OF THORSBY",
+  "type": "Town",
+  "mayor": {
+    "name": "Darryl Hostyn",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Committee of the Whole",
+      "Emergency Management Committee",
+      "Regional Assessment Review Board",
+      "Subdivision & Development Appeal Board",
+      "Water Task Force",
+      "North Saskatchewan Watershed Alliance"
+    ],
+    "email": "dhostyn@thorsby.ca"
+  },
+  "council": [
+    {
+      "name": "Tracy Musson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tmusson@thorsby.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole",
+        "Leduc Regional Housing Foundation Board",
+        "Yellowhead Regional Library Board (Alternate)",
+        "Water Task Force"
+      ]
+    },
+    {
+      "name": "Carrie Levins Nelson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole",
+        "Thorsby Municipal Library Board"
+      ]
+    },
+    {
+      "name": "Kevin Reynolds",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole",
+        "Leduc Regional Housing Foundation Board (Alternate)",
+        "Yellowhead Regional Library Board"
+      ]
+    },
+    {
+      "name": "Audrey Watson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole",
+        "Emergency Management Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://thorsby.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Donna Tona",
+      "since": "",
+      "email": "dtona@thorsby.ca",
+      "phone": "780-918-7208",
+      "notes": ""
+    }
+  ]
+}

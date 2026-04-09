@@ -1,0 +1,42 @@
+{
+  "name": "Vilna",
+  "geoname": "VILLAGE OF VILNA",
+  "type": "Village",
+  "mayor": {
+    "name": "Leroy Kunyk",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Tammy-Lynn Thompson",
+      "role": "Deputy Mayor ",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jennifer Trider",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.vilna.ca/",
+  "notes": "contact via website",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

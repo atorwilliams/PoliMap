@@ -1,0 +1,83 @@
+{
+  "name": "Parkland County",
+  "geoname": "PARKLAND COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Rod Shaigec",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "rod.shaigec@parklandcounty.com "
+  },
+  "council": [
+    {
+      "name": "Sally Kucher Johnson",
+      "role": "",
+      "ward": "Division 1 ",
+      "since": "",
+      "portrait": "",
+      "email": "sally.johnson@parklandcounty.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jason Doucette",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "jason.doucette@parklandcounty.com ",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Ben Jespersen",
+      "role": "",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "ben.jespersen@parklandcounty.com ",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Corey Kyle",
+      "role": "",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "corey.kyle@parklandcounty.com ",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kristine Olson",
+      "role": "",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "kristine.olson@parklandcounty.com ",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "John McNab",
+      "role": "",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "john.mcnab@parklandcounty.com ",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.parklandcounty.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

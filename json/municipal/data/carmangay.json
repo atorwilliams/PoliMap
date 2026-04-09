@@ -1,0 +1,53 @@
+{
+  "name": "Carmangay",
+  "geoname": "VILLAGE OF CARMANGAY",
+  "type": "Village",
+  "mayor": {
+    "name": "Doug Fraser",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "frasercabin1@gmail.com"
+  },
+  "council": [
+    {
+      "name": "Kelly McLeod",
+      "role": "Chief Administrative Officer",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cao@villageofcarma.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kym Nichols",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kymnichols21@gmail.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Sue Brown",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mcsuebrown@gmail.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://carmangay.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

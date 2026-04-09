@@ -1,0 +1,83 @@
+{
+  "name": "Leduc",
+  "geoname": "CITY OF LEDUC",
+  "type": "City",
+  "mayor": {
+    "name": "Lars Hansen",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "Mayor@leduc.ca"
+  },
+  "council": [
+    {
+      "name": "Bretton Baynes",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "BrettonBaynes@leduc.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Bill Hamilton",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "BillHamilton@leduc.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Ryley Miller",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "RyleyMiller@leduc.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Shawn Raymond",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ShawnRaymond@leduc.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jill Spinks",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "JillSpinks@leduc.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Laura Tillack",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "LauraTillack@leduc.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.leduc.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

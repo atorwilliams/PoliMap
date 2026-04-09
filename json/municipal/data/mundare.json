@@ -1,0 +1,91 @@
+{
+  "name": "Mundare",
+  "geoname": "TOWN OF MUNDARE",
+  "type": "Town",
+  "mayor": {
+    "name": "Rick Patrie",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "rpatrie@mundare.ca",
+    "committees": [
+      "Lamont Regional Emergency Committee (Alternate)",
+      "Inter-Municipal Planning Committee",
+      "Mary Immaculate Hospital Foundation & Community Health Board",
+      "School Advisory Council (Alternate)",
+      "Intermunicipal Planning Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Irene Talaga",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "italaga@mundare.ca",
+      "phone": "",
+      "committees": [
+        "John S. Batiuk Regional Water Commission",
+        "Communities in Bloom"
+      ]
+    },
+    {
+      "name": "Cheryl Calinoiu",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ccalinoiu@mundare.ca",
+      "phone": "",
+      "committees": [
+        "St. Michael Regional Solid Waste Commission (Alternate)",
+        "Lamont County Housing Foundation",
+        "Lamont Regional Emergency Committee",
+        "Recreation/Parks",
+        "Family and Community  Social Services (FCSS) (Alternate)",
+        "Vegreville Tourism Advisory Board (Alternate)",
+        "Municipal Planning Commission",
+        "John S. Batiuk Regional Water Commission"
+      ]
+    },
+    {
+      "name": "Geoffrey Hughes",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ghughes@mundare.ca",
+      "phone": "",
+      "committees": [
+        "St. Michael Regional Solid Waste Commission",
+        "Inter-Municipal Planning Committee",
+        "Recreation/Parks (Alternate)",
+        "Family and Community  Social Services (FCSS)",
+        "Intermunicipal Planning Committee"
+      ]
+    },
+    {
+      "name": "Jennifer Johner",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jjohner@mundare.ca",
+      "phone": "",
+      "committees": [
+        "School Advisory Council",
+        "Vegreville Tourism Advisory Board"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.mundare.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

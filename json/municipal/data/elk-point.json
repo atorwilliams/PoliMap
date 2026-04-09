@@ -1,0 +1,63 @@
+{
+  "name": "Elk Point",
+  "geoname": "TOWN OF ELK POINT",
+  "type": "Town",
+  "mayor": {
+    "name": "Wanda Cochrane",
+    "portrait": "",
+    "since": "2025-10-20",
+    "title": "Mayor",
+    "email": ""
+  },
+  "council": [
+    {
+      "name": "Dwayne Yaremkevich",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jason Boorse",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Shaun Schaffrick",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Tim Smereka",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2029-10-20",
+  "website": "https://www.elkpoint.ca/",
+  "notes": "Cochrane defeated Terri Hampson 279-207 for mayor. Yaremkevich, Smereka, and Boorse are returning councillors; Schaffrick is a newcomer. Emails are listed on elkpoint.ca/contact but obfuscated by Cloudflare email protection.",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

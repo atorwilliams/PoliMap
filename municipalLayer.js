@@ -1,6 +1,7 @@
 // municipalLayer.js – Municipal boundary layer (cities, towns, villages, etc.)
 import { findProvincialRidingAt } from './ridings.js';
 import { findFederalRidingAt } from './federalRidings.js';
+import { loadMunicipalData, loadRidingData, loadFederalRidingData } from './data.js';
 
 export const MUNICIPAL_COLORS = {
   CITY:     { label: 'City',                   color: '#C0392B' },
@@ -286,6 +287,7 @@ export async function initMunicipal(map) {
 
     const isReserve = props.municipalType === 'INDIAN';
     showMunicipalSidebar({
+      geoname: props.GEONAME,
       name, typeLabel, typeColor, provincialRiding, federalRiding, isReserve,
       onClose: () => {
         map.setFilter('municipal-highlight', ['==', ['get', 'GEONAME'], '']);
@@ -352,7 +354,7 @@ export function showMunicipalTypeSidebar(type, label, color, map) {
   window.currentSidebar = sidebar;
 }
 
-function showMunicipalSidebar({ name, typeLabel, typeColor, provincialRiding, federalRiding, isReserve, onClose }) {
+function showMunicipalSidebar({ geoname, name, typeLabel, typeColor, provincialRiding, federalRiding, isReserve, onClose }) {
   if (window.currentSidebar) {
     window.currentSidebar.remove();
     window.currentSidebar = null;
@@ -361,15 +363,12 @@ function showMunicipalSidebar({ name, typeLabel, typeColor, provincialRiding, fe
   const sidebar = document.createElement('div');
   sidebar.className = 'member-detail-sidebar';
 
-  const ridingRow = (label, riding) => riding
-    ? `<div class="contact-item">
-         <strong>${label} Riding</strong>
-         <p>${riding}</p>
-       </div>`
-    : `<div class="contact-item">
-         <strong>${label} Riding</strong>
-         <p style="color:#555;">Not found</p>
-       </div>`;
+  const ridingRow = (label, riding, memberId) => `
+    <div class="contact-item">
+      <strong>${label} Riding</strong>
+      <p>${riding || '<span style="color:#555;">Not found</span>'}</p>
+      ${riding ? `<p id="${memberId}" style="color:#888; font-size:0.85em; margin:2px 0 0;"></p>` : ''}
+    </div>`;
 
   const reserveNote = isReserve ? `
     <div class="contact-item" style="border-color:rgba(230,126,34,0.3); background:rgba(230,126,34,0.07);">
@@ -377,6 +376,7 @@ function showMunicipalSidebar({ name, typeLabel, typeColor, provincialRiding, fe
       <p>First Nations reserves are federal land governed by band councils under the <em>Indian Act</em>. They fall outside Alberta provincial jurisdiction. Band members vote in provincial and federal elections.</p>
     </div>` : '';
 
+  // Render skeleton immediately so sidebar slides in right away
   sidebar.innerHTML = `
     <button id="sidebar-close-btn">×</button>
     <div style="height:8px; background:${typeColor};"></div>
@@ -385,8 +385,11 @@ function showMunicipalSidebar({ name, typeLabel, typeColor, provincialRiding, fe
       <p class="riding">${typeLabel}</p>
       <div class="contact-details">
         ${reserveNote}
-        ${ridingRow('Provincial', provincialRiding)}
-        ${ridingRow('Federal', federalRiding)}
+        ${ridingRow('Provincial', provincialRiding, 'muni-provincial-member')}
+        ${ridingRow('Federal', federalRiding, 'muni-federal-member')}
+      </div>
+      <div id="municipal-council-section">
+        <p style="color:#555; font-size:0.9em; margin-top:16px;">Loading council…</p>
       </div>
     </div>
   `;
@@ -401,6 +404,92 @@ function showMunicipalSidebar({ name, typeLabel, typeColor, provincialRiding, fe
 
   setTimeout(() => sidebar.classList.add('open'), 10);
   window.currentSidebar = sidebar;
+
+  // Async: load municipal data + riding member info in parallel
+  Promise.all([
+    loadMunicipalData(geoname).catch(() => null),
+    provincialRiding ? loadRidingData().catch(() => null) : Promise.resolve(null),
+    federalRiding    ? loadFederalRidingData().catch(() => null) : Promise.resolve(null),
+  ]).then(([municipalData, provData, fedData]) => {
+    // Inject MLA name under provincial riding row
+    if (provData && provincialRiding) {
+      const mla = provData.ridings?.[provincialRiding]?.mla;
+      const el = document.getElementById('muni-provincial-member');
+      if (el && mla?.name) {
+        el.textContent = `${mla.name}${mla.party ? ` · ${mla.party}` : ''}`;
+      }
+    }
+
+    // Inject MP name under federal riding row
+    if (fedData && federalRiding) {
+      const mp = fedData.ridings?.[federalRiding]?.mp;
+      const el = document.getElementById('muni-federal-member');
+      if (el && mp?.name) {
+        el.textContent = `${mp.name}${mp.party ? ` · ${mp.party}` : ''}`;
+      }
+    }
+
+    // Inject council section
+    const section = document.getElementById('municipal-council-section');
+    if (!section || !municipalData) {
+      if (section) section.remove();
+      return;
+    }
+    section.innerHTML = renderMunicipalCouncil(municipalData);
+  });
+}
+
+function renderMunicipalCouncil(data) {
+  const mayor = data.mayor;
+  const council = data.council || [];
+
+  const contactLine = (icon, val, href) => {
+    if (!val || !val.trim()) return '';
+    const content = href ? `<a href="${href}">${val.trim()}</a>` : `<p>${val.trim()}</p>`;
+    return `<div class="contact-item"><strong>${icon}</strong>${content}</div>`;
+  };
+
+  const mayorTitle = mayor?.title || 'Mayor';
+  const mayorHtml = mayor ? `
+    <div class="contact-item" style="border-color:${''} rgba(255,255,255,0.12); margin-bottom:4px;">
+      <strong>${mayorTitle}</strong>
+      <p style="font-size:1.05em; font-weight:700; color:#fff; margin:2px 0 0;">${mayor.name || '—'}</p>
+    </div>
+    ${mayor.since ? `<div class="contact-item"><strong>Since</strong><p>${mayor.since}</p></div>` : ''}
+    ${contactLine('Email', mayor.email, mayor.email ? `mailto:${mayor.email.trim()}` : null)}
+    ${contactLine('Phone', mayor.phone, mayor.phone ? `tel:${mayor.phone.trim()}` : null)}
+  ` : '';
+
+  const councilHtml = council.length ? `
+    <div style="margin-top:20px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.08);">
+      <p class="riding" style="margin-bottom:8px;">Council</p>
+      ${council.map(m => `
+        <div class="contact-item">
+          <strong>${m.name}${m.role ? ` <span style="font-weight:400; color:#888;">· ${m.role}</span>` : ''}${m.ward ? ` <span style="font-weight:400; color:#666;">· ${m.ward}</span>` : ''}</strong>
+          ${m.email ? `<a href="mailto:${m.email.trim()}" style="font-size:0.82em; color:#6af;">${m.email.trim()}</a>` : ''}
+        </div>
+      `).join('')}
+    </div>
+  ` : '';
+
+  const metaHtml = `
+    <div style="margin-top:20px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.08);">
+      ${data.electionDate ? `<div class="contact-item"><strong>Last Election</strong><p>${data.electionDate}</p></div>` : ''}
+      ${data.nextElection ? `<div class="contact-item"><strong>Next Election</strong><p>${data.nextElection}</p></div>` : ''}
+      ${data.website ? `<div class="contact-item"><strong>Website</strong><a href="${data.website}" target="_blank" rel="noopener">${data.website}</a></div>` : ''}
+    </div>
+  `;
+
+  return `
+    <div style="margin-top:20px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.08);">
+      <p class="riding" style="margin-bottom:8px;">Leadership</p>
+      <div class="contact-details">
+        ${mayorHtml}
+      </div>
+    </div>
+    ${councilHtml}
+    ${metaHtml}
+  `;
 }
 
 export function updateMunicipalVisibility(map) {

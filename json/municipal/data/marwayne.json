@@ -1,0 +1,62 @@
+{
+  "name": "Marwayne",
+  "geoname": "VILLAGE OF MARWAYNE",
+  "type": "Village",
+  "mayor": {
+    "name": "Chris Neureuter",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "ctneureuter@gmail.com",
+    "committees": [
+      "Emergency Management Committee",
+      "East Central 911 Call Answer Society",
+      "Northern Lights Library System",
+      "Vermilion River Regional Alliance (VRRA)",
+      "Community Futures Lloydminster"
+    ]
+  },
+  "council": [
+    {
+      "name": "Ashley Rainey",
+      "role": "Deputy Mayor ",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "a_irvine@hotmail.com",
+      "phone": "(780) 214-1410",
+      "committees": [
+        "Subdivision and Development Appeal Board",
+        "Economic Development Committee",
+        "Marwayne Agricultural Society",
+        "Intermunicipal Development Plan Liaison Committee",
+        "Northern Lights Library System"
+      ]
+    },
+    {
+      "name": "Roger Parkyn",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "(780) 872-8390",
+      "committees": [
+        "Fire Agreement Oversight Committee",
+        "Alberta Central East (ACE) Water Corporation",
+        "Lloydminster Regional Housing Board",
+        "Northeast Alberta HUB",
+        "Vermilion River Regional Waste Management Services Commission"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.marwayne.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

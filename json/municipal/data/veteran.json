@@ -1,0 +1,59 @@
+{
+  "name": "Veteran",
+  "geoname": "VILLAGE OF VETERAN",
+  "type": "Village",
+  "mayor": {
+    "name": "Jerry Wipf",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Darrel Durksen",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kevin Ulseth",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "http://villageofveteran.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Nichole Grocock",
+      "since": "",
+      "email": " villageofveteran@gmail.com",
+      "phone": "(403) 575-3954",
+      "notes": ""
+    },
+    {
+      "role": "Village Foreman",
+      "name": "Wesley Saunders",
+      "since": "",
+      "email": "",
+      "phone": "",
+      "notes": ""
+    }
+  ]
+}

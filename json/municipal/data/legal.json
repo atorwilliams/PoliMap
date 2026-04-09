@@ -1,0 +1,115 @@
+{
+  "name": "Legal",
+  "geoname": "TOWN OF LEGAL",
+  "type": "Town",
+  "mayor": {
+    "name": "Andy Beaton",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Budget Committee",
+      "Community Services Advisory Board",
+      "Economic Development Committee & Sponsorship Committee",
+      "Emergency Advisory Committee",
+      "Governance & Priorities Committee",
+      "Intermunicipal Committee",
+      "Legal & District Chamber of Commerce (Alternate)",
+      "Sturgeon Regional Partnership",
+      "Transportation & Infrastructure Committee",
+      "Fete au Village, Executive Member",
+      "Friends of Legal Library Society, Executive Member",
+      "Citizens on Patrol, Vice President",
+      "Chateau Sturgeon, Seasonal Volunteer",
+      "Soccer and Baseball, Coach"
+    ]
+  },
+  "council": [
+    {
+      "name": "Pat Hills",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Budget Committee",
+        "Community Services Advisory Board",
+        "Emergency Advisory Committee",
+        "Governance & Priorities Committee",
+        "Northern Lights Library Board",
+        "Regional Emergency Advisory Committee (Alternate)",
+        "Roseridge Waste Management Services Commission",
+        "Sturgeon Regional Partnership (Alternate)",
+        "Town of Legal Library Board"
+      ]
+    },
+    {
+      "name": "Aaron MacIntyre",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Budget Committee",
+        "Community Services Advisory Board",
+        "Economic Development Committee & Sponsorship Committee",
+        "Emergency Advisory Committee",
+        "Fête au Village Committee (Alternate)",
+        "Governance & Priorities Committee",
+        "Legal & District Chamber of Commerce",
+        "Subdivision & Development Appeal Board"
+      ]
+    },
+    {
+      "name": "Megan Thiel",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Budget Committee",
+        "Community Services Advisory Board",
+        "Edmonton Salutes (Alternate)",
+        "Emergency Advisory Committee",
+        "Governance & Priorities Committee",
+        "Homeland Housing",
+        "Intermunicipal Committee",
+        "Regional Emergency Advisory Committee"
+      ]
+    },
+    {
+      "name": "Kevin Veenstra",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Budget Committee",
+        "Community Services Advisory Board",
+        "Edmonton Salutes Committee",
+        "Emergency Advisory Committee",
+        "Fête au Village",
+        "Governance & Priorities Committee",
+        "Intermunicipal Committee",
+        "Roseridge Waste Management Services Commission (Alternate)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.legal.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

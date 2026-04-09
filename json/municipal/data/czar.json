@@ -1,0 +1,59 @@
+{
+  "name": "Czar",
+  "geoname": "VILLAGE OF CZAR",
+  "type": "Village",
+  "mayor": {
+    "name": "Jason Manning",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Brant Eldering",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Carter Oxamitny",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.villageofczar.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Maintenance Foreman",
+      "name": "Mark Wight",
+      "since": "",
+      "email": "",
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Patricia Young",
+      "since": "",
+      "email": "",
+      "phone": "",
+      "notes": ""
+    }
+  ]
+}

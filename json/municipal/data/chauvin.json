@@ -1,0 +1,93 @@
+{
+  "name": "Chauvin",
+  "geoname": "VILLAGE OF CHAUVIN",
+  "type": "Village",
+  "mayor": {
+    "name": "Alan Dow",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "alan.dow@villageofchauvin.com",
+    "committees": [
+      "Regional Communications/Ambulance",
+      "Regional Emergency Advisory Committee",
+      "BRAED/Go East of Edmonton",
+      "ICE Committee",
+      "Municipal Planning Commission"
+    ]
+  },
+  "council": [
+    {
+      "name": "Sheila Donally",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sheila.donally@villageofchauvin.com",
+      "phone": "",
+      "committees": [
+        "Family and Community Service",
+        "Chauvin Municipal Library",
+        "ICE Committee",
+        "Federation of Gas Coops"
+      ]
+    },
+    {
+      "name": "Don Prokopetz",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "don.prokopetz@villageofchauvin.com",
+      "phone": "",
+      "committees": [
+        "Chauvin Recreation Board",
+        "Chauvin Economic Development Board (CEDDI)",
+        "ICE Equipment Committee",
+        "Northern Lights Library",
+        "ICE Committee",
+        "Municipal Planning Commission"
+      ]
+    },
+    {
+      "name": "Allan Skinner",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "allan.skinner@villageofchauvin.com",
+      "phone": "",
+      "committees": [
+        "Battle River Lodge",
+        "Chauvin Museum Board",
+        "Chauvin Economic Development Board (CEDDI)",
+        "ICE Committee",
+        "Municipal Planning Commission"
+      ]
+    },
+    {
+      "name": "Frank Snow",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "frank.snow@villageofchauvin.com",
+      "phone": "",
+      "committees": [
+        "Chauvin Fire Department",
+        "School Council",
+        "EC 911",
+        "ICE Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.villageofchauvin.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Municipality Of Jasper",
+  "geoname": "MUNICIPALITY OF JASPER",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Richard Ireland ",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-852-6503",
+    "email": " rireland@jasper-alberta.ca"
+  },
+  "council": [
+    {
+      "name": "Wendy Hall ",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "whall@jasper-alberta.ca",
+      "phone": "780-852-8887",
+      "committees": []
+    },
+    {
+      "name": "Danny Frechette",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dfrechette@jasper-alberta.ca ",
+      "phone": "780-852-7791",
+      "committees": []
+    },
+    {
+      "name": "Kathleen Waxer  ",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kwaxer@jasper-alberta.ca",
+      "phone": "780-852-8139",
+      "committees": []
+    },
+    {
+      "name": "Laurie Rodger",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "lrodger@jasper-alberta.ca ",
+      "phone": "780-852-4714",
+      "committees": []
+    },
+    {
+      "name": "Ralph Melnyk ",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rmelnyk@jasper-alberta.ca",
+      "phone": "780-852-3224",
+      "committees": []
+    },
+    {
+      "name": "Kable Kongsrud ",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kkongsrud@jasper-alberta.ca ",
+      "phone": "780-852-3909",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.jasper-alberta.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

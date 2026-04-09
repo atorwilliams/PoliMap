@@ -1,0 +1,177 @@
+{
+  "name": "Clearwater County",
+  "geoname": "CLEARWATER COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Jordon Northcott",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "committees": [
+      "Broadband Committee",
+      "Burnstick Lake - Clearwater Intermunicipal Collaboration Committee",
+      "Central Alberta Economic Partnership (CAEP)",
+      "Central Alberta Mayors & Reeves Committee",
+      "Clearwater Regional Emergency Advisory Committee",
+      "Clearwater Regional Family and Community Support Services Committee",
+      "District 2 Rural Municipalities of Alberta Board of Directors",
+      "Mountain View County Local and Regional Municipal Airports Working Group",
+      "Mountain View - Clearwater Intermunicipal Collaboration Committee",
+      "Municipal Planning Commission (MPC)",
+      "Parkland Regional Library Board - Alternate",
+      "Rocky - Clearwater Intermunicipal Collaboration Committee",
+      "Rocky Senior Housing Council",
+      "Strategic Planning Committee",
+      "Sundre Petroleum Operators Group (SPOG) Board of Directors",
+      "Wetaskiwin - Clearwater Intermunicipal Collaboration Committee"
+    ],
+    "phone": "403-895-2649",
+    "email": "jnorthcott@clearwatercounty.ca"
+  },
+  "council": [
+    {
+      "name": "Drew McKay",
+      "role": "Deputy Reeve",
+      "ward": "Ward 3",
+      "since": "",
+      "portrait": "",
+      "email": "dmckay@clearwatercounty.ca",
+      "phone": "403-846-5817",
+      "committees": [
+        "Bighorn Back Country Standing Committee",
+        "Broadband Committee",
+        "Central Alberta Mayors & Reeves Committee",
+        "Clearwater Regional Emergency Advisory Committee",
+        "Clearwater Regional Family and Community Support Services Committee",
+        "David Thompson Recreation Board",
+        "District 2 Rural Municipalities of Alberta Board of Directors",
+        "Lacombe - Clearwater Intermunicipal Collaboration Committee"
+      ]
+    },
+    {
+      "name": "Breanne Powell",
+      "role": "",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "bpowell@clearwatercounty.ca",
+      "phone": "403-846-8254",
+      "committees": [
+        "Broadband Committee",
+        "Clearwater Regional Emergency Advisory Committee",
+        "Municipal Planning Commission (MPC)",
+        "North Saskatchewan Recreation Board",
+        "Rocky - Clearwater Intermunicipal Collaboration Committee",
+        "Strategic Planning Committee"
+      ]
+    },
+    {
+      "name": "Hazen Letwin",
+      "role": "",
+      "ward": "Ward 2",
+      "since": "",
+      "portrait": "",
+      "email": "hletwin@clearwatercounty.ca",
+      "phone": "(403) 846-3760",
+      "committees": [
+        "Agricultural Service Board (ASB)",
+        "Broadband Committee",
+        "Caroline and District Recreation and Agricultural Society - Alternate",
+        "Clearwater Regional Emergency Advisory Committee",
+        "Lacombe - Clearwater Intermunicipal Collaboration Committee",
+        "Medicine River Watershed Society Board",
+        "North Saskatchewan Recreation Board",
+        "Parkland Regional Library Board",
+        "Ponoka - Clearwater Intermunicipal Collaboration Committee",
+        "Rocky – Clearwater Intermunicipal Development Plan Committee",
+        "Rocky Mountain House Museum Operations Board",
+        "Strategic Planning Committee",
+        "Subdivision & Development Appeal Board (SDAB) - Vice-Chair Sundre RCMP Community Advisory Committee",
+        "Sundre Petroleum Operators Group (SPOG) Board of Directors - Alternate"
+      ]
+    },
+    {
+      "name": "Tyler McCauley",
+      "role": "",
+      "ward": "Ward 5",
+      "since": "",
+      "portrait": "",
+      "email": "tmccauley@clearwatercounty.ca",
+      "phone": "403-895-3215",
+      "committees": [
+        "Bighorn Back Country Standing Committee",
+        "Bighorn - Clearwater Intermunicipal Collaboration Committee",
+        "Brazeau - Clearwater Intermunicipal Collaboration Committee Broadband Committee",
+        "Caroline and District Recreation and Agricultural Society Clearwater County Heritage Advisory Committee",
+        "Clearwater Regional Emergency Advisory Committee",
+        "Community Futures – Central Alberta (CFCA)",
+        "David Thompson Recreation Board - Alternate",
+        "Nordegg Community Association",
+        "Raven Recreation Board",
+        "Rocky Community Learning Council (RCLC) Board of Directors",
+        "Rocky - Clearwater Intermunicipal Collaboration Committee",
+        "Rocky - Clearwater Intermunicipal Development Plan Committee",
+        "Rocky Mountain House/Clearwater County Community Wellness Association (formerly Health Professionals Engagement Team)",
+        "Rocky Mountain House Museum Operations Board",
+        "Rocky Mountain House Municipal Library Board",
+        "School Resource officer (SRO) Committee - Alternate",
+        "Strategic Planning Committee",
+        "Wetaskiwin - Clearwater Intermunicipal Collaboration Committee",
+        "Yellowhead - Clearwater Intermunicipal Collaboration Committee"
+      ]
+    },
+    {
+      "name": "Bryan Cermak",
+      "role": "",
+      "ward": "Ward 6",
+      "since": "",
+      "portrait": "",
+      "email": "bcermak@clearwatercounty.ca",
+      "phone": "403-846-5197",
+      "committees": [
+        "Broadband Committee",
+        "Clearwater County Heritage Advisory Committee - Alternate Clearwater County Library Board",
+        "Clearwater Regional Emergency Advisory Committee",
+        "Mountain View - Clearwater Intermunicipal Collaboration Committee",
+        "Raven Recreation Board",
+        "Red Deer - Clearwater Intermunicipal Collaboration Committee",
+        "Rocky Senior Housing Council",
+        "Strategic Planning Committee"
+      ]
+    },
+    {
+      "name": "Lorne Humphrey",
+      "role": "",
+      "ward": "Ward 7",
+      "since": "",
+      "portrait": "",
+      "email": "lhumphrey@clearwatercounty.ca",
+      "phone": "403-846-5824",
+      "committees": [
+        "Agricultural Service Board (ASB)",
+        "Bighorn - Clearwater Intermunicipal Collaboration Committee",
+        "Brazeau - Clearwater Intermunicipal Collaboration Committee",
+        "Broadband Committee",
+        "Clearwater Regional Emergency Advisory Committee",
+        "Municipal Planning Commission (MPC)",
+        "North Saskatchewan Watershed Alliance (NSWA) Board of Directors and NSWA Headwaters Partnership Steering",
+        "Ponoka - Clearwater Intermunicipal Collaboration Committee",
+        "Rimbey RCMP Community Advisory Committee",
+        "Rocky – Clearwater Intermunicipal Development Plan Committee",
+        "Strategic Planning Committee",
+        "Sundre Forest Products Public Involvement Round Table (SPIRT)",
+        "West Central Stakeholder Group",
+        "Yellowhead - Clearwater Intermunicipal Collaboration Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.clearwatercounty.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

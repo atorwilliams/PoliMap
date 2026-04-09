@@ -1,0 +1,59 @@
+{
+  "name": "Rosalind",
+  "geoname": "VILLAGE OF ROSALIND",
+  "type": "Village",
+  "mayor": {
+    "name": "James McTavish",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Mitch Weller",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Janice McTavish",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://villageofrosalind.ca/",
+  "notes": "Mayor/Council contact via CAO.",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Liza Clairmont",
+      "since": "",
+      "email": "rosalindvillage@gmail.com",
+      "phone": "780-375-3996",
+      "notes": ""
+    },
+    {
+      "role": "Public Works",
+      "name": "Keith Friend",
+      "since": "",
+      "email": "",
+      "phone": "780-608-0698",
+      "notes": ""
+    }
+  ]
+}

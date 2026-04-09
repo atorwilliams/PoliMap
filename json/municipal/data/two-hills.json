@@ -1,0 +1,64 @@
+{
+  "name": "Two Hills",
+  "geoname": "COUNTY OF TWO HILLS NO. 21",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Michael Tarkowski",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-603-1085",
+    "email": "mtarkowski@townoftwohills.com"
+  },
+  "council": [
+    {
+      "name": "Cody Dyck",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cdyck@townoftwohills.com",
+      "phone": "587-280-0976",
+      "committees": []
+    },
+    {
+      "name": "Marvin Patel",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mpatel@townoftwohills.com",
+      "phone": "647-707-9439",
+      "committees": []
+    },
+    {
+      "name": "Abram Hiebert",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ahiebert@townoftwohills.com",
+      "phone": "587-280-2365",
+      "committees": []
+    },
+    {
+      "name": "Henry Wall",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "hwall@townoftwohills.com",
+      "phone": "587-280-8814",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.townoftwohills.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Crossfield",
+  "geoname": "TOWN OF CROSSFIELD",
+  "type": "Town",
+  "mayor": {
+    "name": "Kim Harris",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayorharris@crossfieldalberta.com",
+    "committees": [
+      "Alberta Mid-Size Town's Mayor Caucus",
+      "Town of Crossfield-Rocky View County Inter-municipal Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Justin Gustafson",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorgustafson@crossfieldalberta.com",
+      "phone": "",
+      "committees": [
+        "Crossfield & District Recreation Board"
+      ]
+    },
+    {
+      "name": "Craig Benson",
+      "role": "councillorbenson@crossfieldalberta.com",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Rocky View Foundation Board",
+        "Town of Crossfield-Rocky View County Inter-municipal Committee",
+        "Marigold Library Board (Alternate)"
+      ]
+    },
+    {
+      "name": "Luke Brennan",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorbrennan@crossfieldalberta.com",
+      "phone": "",
+      "committees": [
+        "Marigold Library Board",
+        "Municipal Planning Commission (Alternate)"
+      ]
+    },
+    {
+      "name": "Logan Cosh",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorcosh@crossfieldalberta.com",
+      "phone": "",
+      "committees": [
+        "Subdivision and Development Appeal Board",
+        "Mountain View Regional Water Services Commission Board (Alternate)"
+      ]
+    },
+    {
+      "name": "Mike Knight",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorknight@crossfieldalberta.com",
+      "phone": "",
+      "committees": [
+        "Crossfield & District Recreation Board",
+        "Mountain View Regional Water Services Commission"
+      ]
+    },
+    {
+      "name": "Dawn Nielsen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillornielsen@crossfieldalberta.com",
+      "phone": "",
+      "committees": [
+        "Municipal Planning Commission",
+        "Crossfield & District Recreation Board (Alternate)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.crossfieldalberta.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

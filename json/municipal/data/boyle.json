@@ -1,0 +1,64 @@
+{
+  "name": "Boyle",
+  "geoname": "VILLAGE OF BOYLE",
+  "type": "Village",
+  "mayor": {
+    "name": "Colin Derko",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "cderko@boylealberta.com",
+    "phone": "780-689-3643"
+  },
+  "council": [
+    {
+      "name": "Mike Antal",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mikeantal@boylealberta.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Shelby Kiteley",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "skiteley@boylealberta.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Barbara Smith",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bsmith@boylealberta.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Patrick Ferguson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "pferguson@boylealberta.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

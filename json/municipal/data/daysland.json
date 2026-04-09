@@ -1,0 +1,110 @@
+{
+  "name": "Daysland",
+  "geoname": "TOWN OF DAYSLAND",
+  "type": "Town",
+  "mayor": {
+    "name": "Wayne Button",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "wayne.button@daysland.ca",
+    "committees": [
+      "Providence Place Board",
+      "Daysland Health & Wellness Hub",
+      "Battle River Association for Economic Development (BRAED)",
+      "Flagstaff Healthcare Attraction & Retention (FIHAR)",
+      "Inter-Municipal Collaboration & Planning (Alternate)",
+      "Flagstaff Community Foundation (Alternate)",
+      "Daysland Recreation Board (Alternate)",
+      "Natural Gas / Federation of Alberta Gas Co-ops (Alternate)"
+    ]
+  },
+  "council": [
+    {
+      "name": "James (Butch) Robertson",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "james.robertson@daysland.ca",
+      "phone": "",
+      "committees": [
+        "Flagstaff Regional Solid Waste Management Association (FRSWMA)",
+        "Daysland Curling Club",
+        "Natural Gas / Federation of Alberta Gas Co-ops",
+        "Flagstaff Regional Emergency Services Society (FRESS)",
+        "RCMP Citizen Advisory Committee (Alternate)",
+        "Battle River Association for Economic Development (BRAED) (Alternate)",
+        "Daysland Drainage District (Alternate)",
+        "Daysland Golf Club (Alternate)"
+      ]
+    },
+    {
+      "name": "Vic Kelly",
+      "role": "Acting Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " victor.kelly@daysland.ca",
+      "phone": "",
+      "committees": [
+        "Daysland Public Library Board",
+        "Parkland Regional Library Board",
+        "Daysland Golf Club",
+        "Daysland Recreation Board",
+        "Daysland Arena Board",
+        "Flagstaff Regional Emergency Services Society (FRESS) (Alternate)",
+        "Flagstaff Regional Solid Waste Management Association (FRSWMA) (Alternate)",
+        "Daysland & District Agricultural Society Board (Alternate)"
+      ]
+    },
+    {
+      "name": "Al McLeod",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "allan.mcleod@daysland.ca",
+      "phone": "",
+      "committees": [
+        "Daysland Business Association",
+        "Inter-Municipal Collaboration & Planning",
+        "Daysland Drainage District",
+        "Daysland & District Agricultural Society Board",
+        "Flagstaff Family and Community Services (FFCS) (Alternate)",
+        "Daysland Health & Wellness Hub (Alternate)",
+        "Flagstaff Healthcare Attraction & Retention (FIHAR) (Alternate)"
+      ]
+    },
+    {
+      "name": "Mona Mah",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mona.mah@daysland.ca",
+      "phone": "",
+      "committees": [
+        "Flagstaff Family and Community Services (FFCS)",
+        "Flagstaff Community Foundation",
+        "RCMP Citizen Advisory Committee (CAC)",
+        "Flagstaff Regional Housing Group",
+        "Providence Place Board (Alternate)",
+        "Daysland Business Association (Alternate)",
+        "Daysland Public Library Board (Alternate)",
+        "Parkland Regional Library (Alternate)",
+        "Daysland Curling Club (Alternate)",
+        "Daysland Arena Board (Alternate)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://daysland.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

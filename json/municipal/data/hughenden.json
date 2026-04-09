@@ -1,0 +1,44 @@
+{
+  "name": "Hughenden",
+  "geoname": "VILLAGE OF HUGHENDEN",
+  "type": "Village",
+  "mayor": {
+    "name": "Kathy Hall",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "kathall21@gmail.com",
+    "phone": "780-856-2206 "
+  },
+  "council": [
+    {
+      "name": "David Willan",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dmwillan49@gmail.com",
+      "phone": "780-806-6006",
+      "committees": []
+    },
+    {
+      "name": "Terry Laing",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "terry@247supply.ca",
+      "phone": "587-255-0505",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://hughendenab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

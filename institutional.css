@@ -548,19 +548,75 @@ body {
   color: #B8962E;
 }
 
-/* ── RCMP hierarchy ── */
-.rcmp-command {
+/* ── RCMP officers layout ── */
+.rcmp-officers-layout {
   display: flex;
-  justify-content: center;
-  gap: 32px;
-  flex-wrap: wrap;
-  padding: 0 1.5rem 2rem;
-  max-width: 900px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.rcmp-command-note {
+  flex-shrink: 0;
+  width: 260px;
+  padding: 1.25rem 1.5rem;
+  border-left: 2px solid #B8962E;
+  color: #aaa;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  margin-top: 2rem;
+}
+
+.rcmp-command-note h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #B8962E;
+  margin: 0 0 0.75rem;
+}
+
+.rcmp-command-note p {
+  margin: 0 0 0.75rem;
+}
+
+.rcmp-command-note a {
+  color: #B8962E;
+  text-decoration: none;
+}
+
+.rcmp-command-note a:hover {
+  text-decoration: underline;
+}
+
+/* ── RCMP hierarchy ── */
+.rcmp-org-chart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0;
+  padding: 2rem 1.5rem;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
+.rcmp-command {
+  display: flex;
+  flex-shrink: 0;
+}
+
 .rcmp-command .profile-card {
-  width: 280px;
+  width: 260px;
+}
+
+.rcmp-org-line-h {
+  width: 48px;
+  height: 2px;
+  background: #B8962E;
+  flex-shrink: 0;
+}
+
+.rcmp-districts .profile-card {
+  width: 200px;
 }
 
 .rcmp-section-heading {
@@ -573,13 +629,9 @@ body {
 }
 
 .rcmp-districts {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  padding: 0 1.5rem 4rem;
-  max-width: 1100px;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
 }
 
 /* ── Court section header ── */

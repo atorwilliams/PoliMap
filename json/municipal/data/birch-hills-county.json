@@ -1,0 +1,83 @@
+{
+  "name": "Birch Hills County",
+  "geoname": "BIRCH HILLS COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Albert Poetker",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "ward1councillor@birchhillscounty.com"
+  },
+  "council": [
+    {
+      "name": "Karen Portelance",
+      "role": "Deputy Reeve",
+      "ward": "Ward 7",
+      "since": "",
+      "portrait": "",
+      "email": "ward7councillor@birchhillscounty.com ",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Nelson Kitchen",
+      "role": "",
+      "ward": "Ward 2",
+      "since": "",
+      "portrait": "",
+      "email": "ward2councillor@birchhillscounty.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": " Stephen Syncox",
+      "role": "",
+      "ward": "Ward 3",
+      "since": "",
+      "portrait": "",
+      "email": "ward3councillor@birchhillscounty.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "John Sinkwich",
+      "role": "",
+      "ward": "Ward 4",
+      "since": "",
+      "portrait": "",
+      "email": "ward4councillor@birchhillscounty.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Mel Duvall",
+      "role": "",
+      "ward": "Ward 5",
+      "since": "",
+      "portrait": "",
+      "email": "ward5councillor@birchhillscounty.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Tim Chandonnet",
+      "role": "",
+      "ward": "Ward 6",
+      "since": "",
+      "portrait": "",
+      "email": "ward6councillor@birchhillscounty.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://birchhillscounty.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

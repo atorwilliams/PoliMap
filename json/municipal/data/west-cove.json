@@ -1,0 +1,43 @@
+{
+  "name": "West Cove",
+  "geoname": "S.V. of WEST COVE",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Chris Kelly",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "chris.kelly@westcove.ca"
+  },
+  "council": [
+    {
+      "name": "Ren Giesbrecht",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ren.giesbrecht@westcove.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Wendy Henderson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "wendy.henderson@westcove.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.westcove.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

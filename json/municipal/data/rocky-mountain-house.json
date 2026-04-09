@@ -1,0 +1,128 @@
+{
+  "name": "Rocky Mountain House",
+  "geoname": "TOWN OF ROCKY MOUNTAIN HOUSE",
+  "type": "Town",
+  "mayor": {
+    "name": "Shane Boniface",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "sboniface@trmh.ca",
+    "phone": "403-844-7434",
+    "committees": [
+      "Central Alberta Economic Partnership (CAEP)",
+      "Central Alberta Mayors & Reeves",
+      "Clearwater Regional FCSS Board",
+      "Intermunicipal Development Plan Committee (IDP)",
+      "Municipal Emergency Advisory Committee",
+      "Policing Committee",
+      "Rocky-Clearwater Intermunicipal Collaboration Committee (ICC)",
+      "School Resource Officer Steering Committee",
+      "West Central Stakeholders"
+    ]
+  },
+  "council": [
+    {
+      "name": "Denise Boniface",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dboniface@trmh.ca",
+      "phone": "403-322-0654",
+      "committees": [
+        "Anti-Racism Task Force",
+        "Municipal Emergency Advisory Committee",
+        "Parkland Regional Library System Board",
+        "Rocky Public Library Board",
+        "Rocky Senior Housing Council",
+        "Alternate: Community Events Committee",
+        "Alternate: Rocky Mountain House Museum Operations Board"
+      ]
+    },
+    {
+      "name": "Trevor Kalyn",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tkalyn@trmh.ca",
+      "phone": "403-322-0655",
+      "committees": [
+        "Clearwater Regional FCSS Board",
+        "Community Futures Board",
+        "Intermunicipal Development Plan Committee (IDP)",
+        "Rocky-Clearwater Intermunicipal Collaboration Committee (ICC)",
+        "Alternate: Anti-Racism Task Force",
+        "Alternate: School Resource Officer Steering Committee"
+      ]
+    },
+    {
+      "name": "Ken Moesker",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kmoesker@trmh.ca",
+      "phone": "403-322-5461",
+      "committees": [
+        "Municipal Emergency Advisory Committee",
+        "Rocky Mountain House Museum Operations Board",
+        "Alternate: Clearwater Regional FCSS Board",
+        "Alternate: Parkland Regional Library System Board"
+      ]
+    },
+    {
+      "name": "Dale Shippelt",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dshippelt@trmh.ca",
+      "phone": "403-322-7063",
+      "committees": [
+        "Anti-Racism Task Force",
+        "Campus Alberta Central Post-Secondary Committee",
+        "Community Wellness Society",
+        "Intermunicipal Development Plan Committee (IDP)",
+        "Rocky-Clearwater Intermunicipal Collaboration Committee (ICC)"
+      ]
+    },
+    {
+      "name": "Justin Sinclair",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jsinclair@trmh.ca",
+      "phone": "403-322-7052",
+      "committees": [
+        "Alberta/Japan Twinned Municipalities Association / Rocky-Kamikawa Friendship Society",
+        "Community Events Committee"
+      ]
+    },
+    {
+      "name": "Kevin Stalker",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kstalker@trmh.ca",
+      "phone": "403-322-5575 ",
+      "committees": [
+        "Community Events Committee",
+        "North Saskatchewan Watershed Alliance",
+        "Policing Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.rockymtnhouse.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

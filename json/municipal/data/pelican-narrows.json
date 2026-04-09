@@ -1,0 +1,51 @@
+{
+  "name": "Pelican Narrows",
+  "geoname": "S.V. of PELICAN NARROWS",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Ashley Hornseth",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Mathew Larsen",
+      "role": " Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Gilles Lapointe",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.pelicannarrowsab.ca/",
+  "notes": "contact via contact form",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Shirley Yuschyshyn",
+      "since": "",
+      "email": "",
+      "phone": "",
+      "notes": ""
+    }
+  ]
+}

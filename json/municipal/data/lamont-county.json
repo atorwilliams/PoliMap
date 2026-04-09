@@ -1,0 +1,64 @@
+{
+  "name": "Lamont County",
+  "geoname": "LAMONT COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Aaron Wick",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "780-916-4727",
+    "email": "aaron.w@lamontcounty.ca"
+  },
+  "council": [
+    {
+      "name": "Gerald Thorowsky",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "gerald1@lamontcounty.ca",
+      "phone": "780-208-2224",
+      "committees": []
+    },
+    {
+      "name": "John Uganecz ",
+      "role": "",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "john1@lamontcounty.ca",
+      "phone": "780-719-9150 ",
+      "committees": []
+    },
+    {
+      "name": "Roy Anaka",
+      "role": "",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "roy.a@lamontcounty.ca",
+      "phone": "780-221-3965",
+      "committees": []
+    },
+    {
+      "name": "Neil Woitas",
+      "role": "Deputy Reeve",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "neil.w@lamontcounty.ca",
+      "phone": "780-918-9329",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.lamontcounty.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

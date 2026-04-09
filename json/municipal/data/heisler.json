@@ -1,0 +1,43 @@
+{
+  "name": "Heisler",
+  "geoname": "VILLAGE OF HEISLER",
+  "type": "Village",
+  "mayor": {
+    "name": "Brandon Martz",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "bmartz@villageofheisler.ca"
+  },
+  "council": [
+    {
+      "name": "Beverly Kovacs",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bkovacs@villageofheisler.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Alex Kovacs",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "akovacs@villageofheisler.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.villageofheisler.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

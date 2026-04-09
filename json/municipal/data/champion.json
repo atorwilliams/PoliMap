@@ -1,0 +1,64 @@
+{
+  "name": "Champion",
+  "geoname": "VILLAGE OF CHAMPION",
+  "type": "Village",
+  "mayor": {
+    "name": "Richard “Dick” Ellis",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403-485-8442",
+    "email": "ellis@vulcan.ca"
+  },
+  "council": [
+    {
+      "name": "Nathan Schmeelke",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "nschmeelke@villageofchamp.com",
+      "phone": "403-897-3833",
+      "committees": []
+    },
+    {
+      "name": "Don Dettman",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "403-897-3833",
+      "committees": []
+    },
+    {
+      "name": "Judy Perkin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "403-897-3833",
+      "committees": []
+    },
+    {
+      "name": "Samantha Hoffman",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "403-897-3833",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://villageofchampion.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

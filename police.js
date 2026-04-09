@@ -89,17 +89,7 @@ function renderForce(forceKey, officers) {
   if (stub) stub.style.display = 'none';
 
   if (forceKey === 'tribal') {
-    // Group by unit (each unit = a distinct service)
-    const byUnit = {};
-    named.forEach(o => {
-      const key = o.unit || 'Unknown Service';
-      if (!byUnit[key]) byUnit[key] = [];
-      byUnit[key].push(o);
-    });
-    grid.innerHTML = Object.entries(byUnit).map(([unitName, members]) => `
-      <h2 class="rcmp-section-heading">${unitName}</h2>
-      <div class="rcmp-command">${members.map(o => buildCard(o, colors)).join('')}</div>
-    `).join('');
+    grid.innerHTML = `<div class="rcmp-command" style="justify-content:center;flex-wrap:wrap;">${named.map(o => buildCard(o, colors)).join('')}</div>`;
   } else {
     const level1 = named.filter(o => o.level === 1);
     const level2 = named.filter(o => o.level >= 2);

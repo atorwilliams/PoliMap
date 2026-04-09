@@ -1,0 +1,84 @@
+{
+  "name": "Athabasca",
+  "geoname": "TOWN OF ATHABASCA",
+  "type": "Town",
+  "mayor": {
+    "name": "Robert Balay",
+    "portrait": "https://athabasca.municipalwebsites.ca/UploadFiles/Public/3fde7082505d118940229a5e986e685760f62e3c.jpg",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayorbalay@athabasca.ca",
+    "phone": "780-327-9646"
+  },
+  "council": [
+    {
+      "name": "Ida Edwards",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://athabasca.municipalwebsites.ca/UploadFiles/Public/8c420baa3a2e389ab51b9b01325f74423c38b4f0.jpg",
+      "email": "councilloredwards@athabasca.ca",
+      "phone": "780-675-4524",
+      "committees": []
+    },
+    {
+      "name": "David Neufeld",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://athabasca.municipalwebsites.ca/UploadFiles/Public/f56da3fd6964fef1c573aa1db21355c352c155c5.jpg",
+      "email": "councillorneufeld@athabasca.ca",
+      "phone": "780-222-8751",
+      "committees": []
+    },
+    {
+      "name": "David Pacholok",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://athabasca.municipalwebsites.ca/UploadFiles/Public/891fcb876d121784a6b310a9fce1d8472c801544.jpg",
+      "email": "councillorpacholok@athabasca.ca",
+      "phone": "780-689-7535",
+      "committees": []
+    },
+    {
+      "name": "Colleen Powell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://athabasca.municipalwebsites.ca/UploadFiles/Public/af1324bb0d01be23c644cf0a66508d34b91af2b4.jpg",
+      "email": "councillorpowell@athabasca.ca",
+      "phone": "780-675-5174",
+      "committees": []
+    },
+    {
+      "name": "Darlene Reimer",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://athabasca.municipalwebsites.ca/UploadFiles/Public/0efdeaf62b661c4cba9d3bf74ef03759c83b4f6e.jpg",
+      "email": "councillorreimer@athabasca.ca",
+      "phone": "780-327-4432",
+      "committees": []
+    },
+    {
+      "name": "Edith (Edie) Yuill",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://athabasca.municipalwebsites.ca/UploadFiles/Public/de818a8cdc31be0357b68cc952475f58749ddee3.jpg",
+      "email": "councilloryuill@athabasca.ca",
+      "phone": "780-284-6321",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.athabasca.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

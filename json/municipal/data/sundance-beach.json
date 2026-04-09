@@ -1,0 +1,52 @@
+{
+  "name": "Sundance Beach",
+  "geoname": "S.V. of SUNDANCE BEACH",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Brian Waterhouse",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "bwaterhouse@sundancebeach.ca"
+  },
+  "council": [
+    {
+      "name": "Allan Harris",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "aharris@sundancebeach.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Amy Munro",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "amunro@sundancebeach.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.sundancebeach.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "June Boyda",
+      "since": "",
+      "email": "",
+      "phone": "(780) 389-4409",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Airdrie",
+  "geoname": "CITY OF AIRDRIE",
+  "type": "City",
+  "mayor": {
+    "name": "Heather Spearman",
+    "portrait": "",
+    "since": "2025-10-20",
+    "title": "Mayor",
+    "committees": [
+      "Community Infrastructure and Strategic Growth Standing Committee (First alternate, Chair back up)",
+      "Community Safety and Social Services Standing Committee (First alternate, Chair back up)",
+      "Community and Corporate Services Standing Committee (First alternate, Chair back up)",
+      "Mid-sized Cities Mayors Caucus",
+      "Rocky View County and Airdrie Intermunicipal Committee",
+      "Airdrie Housing Limited Board of Directors"
+    ],
+    "phone": "403.948.8820",
+    "email": " mayor@airdrie.ca"
+  },
+  "council": [
+    {
+      "name": "Ron Chapman",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ron.chapman@airdrie.ca",
+      "phone": "403.992.4604",
+      "committees": [
+        "Community Infrastructure and Strategic Growth Standing Committee (Chair)",
+        "Community Safety and Social Services Standing Committee (Alternate)",
+        "Policing Committee",
+        "Airdrie Board of Youth Affairs",
+        "Rocky View County and Airdrie Intermunicipal Committee"
+      ]
+    },
+    {
+      "name": "Candice Kolson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "candice.kolson@airdrie.ca",
+      "phone": "",
+      "committees": [
+        "Community Safety and Social Services Standing Committee (Chair)",
+        "Policing Committee (Vice Chair)",
+        "Subdivision and Development Appeal Board (Chair)"
+      ]
+    },
+    {
+      "name": "Chris Glass",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "chris.glass@airdrie.ca",
+      "phone": "",
+      "committees": [
+        "Airdrie Housing Limited Board of Directors",
+        "Rocky View County and Airdrie Intermunicipal Committee (Alternate)",
+        "Rocky View Foundation Board of Directors",
+        "Community and Corporate Services Standing Committee",
+        "Community Infrastructure and Strategic Growth Standing Committee (Alternate)"
+      ]
+    },
+    {
+      "name": "Kristen Shima",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kristen.shima@airdrie.ca",
+      "phone": "403.473.0630",
+      "committees": [
+        "Community and Corporate Services Standing Committee",
+        "Community Infrastructure and Strategic Growth Standing Committee",
+        "Airdrie Library Board"
+      ]
+    },
+    {
+      "name": "Simisola Obasan",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "simisola.obasan@airdrie.ca ",
+      "phone": "403.948.8800",
+      "committees": [
+        "Community Infrastructure and Strategic Growth Standing Committee",
+        "Community Safety and Social Services Standing Committee",
+        "Community and Corporate Services Standing Committee (Alternate)",
+        "Rocky View Foundation Board of Directors"
+      ]
+    },
+    {
+      "name": "Chad Stewart",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "chad.stewart@airdrie.ca ",
+      "phone": "403.604.8017",
+      "committees": [
+        "Community and Corporate Services Standing Committee (Chair)",
+        "Community Safety and Social Services Standing Committee",
+        "Airdrie Library Board",
+        "Inter-City Forum on Social Policy"
+      ]
+    }
+  ],
+  "electionDate": "2025-10-20",
+  "nextElection": "2029-10-20",
+  "website": "https://www.airdrie.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

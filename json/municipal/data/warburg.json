@@ -1,0 +1,64 @@
+{
+  "name": "Warburg",
+  "geoname": "VILLAGE OF WARBURG",
+  "type": "Village",
+  "mayor": {
+    "name": "Dwayne Mayr",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "(780) 542-0297",
+    "email": "dmayr@warburg.ca"
+  },
+  "council": [
+    {
+      "name": "Tom Davy",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tdavy@warburg.ca",
+      "phone": "(587) 974-9333",
+      "committees": []
+    },
+    {
+      "name": "Steven Swartz",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sswartz@warburg.ca",
+      "phone": "(780) 983-1922",
+      "committees": []
+    },
+    {
+      "name": "Rick Hart",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rhart@warburg.ca",
+      "phone": "(780) 918-3733",
+      "committees": []
+    },
+    {
+      "name": "Cody Henderson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "chenderson@warburg.ca",
+      "phone": "(780) 241-3677",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.warburg.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

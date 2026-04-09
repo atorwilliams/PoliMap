@@ -1,0 +1,120 @@
+{
+  "name": "Hinton",
+  "geoname": "TOWN OF HINTON",
+  "type": "Town",
+  "mayor": {
+    "name": "Brian LaBerge",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayor@hinton.ca",
+    "phone": " 780-865-6511",
+    "committees": [
+      "Committee of the Whole",
+      "Organizational Meeting of Council",
+      "Regular Council",
+      "Special Council Meeting"
+    ]
+  },
+  "council": [
+    {
+      "name": "Kristen Chambers",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kchambers@hinton.ca",
+      "phone": "780-817-4268",
+      "committees": [
+        "Committee of the Whole",
+        "Organizational Meeting of Council",
+        "Regular Council",
+        "Special Council Meeting"
+      ]
+    },
+    {
+      "name": "Natalie Charlton",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ncharlton@hinton.ca",
+      "phone": "780-817-0983",
+      "committees": [
+        "Committee of the Whole",
+        "Organizational Meeting of Council",
+        "Regular Council",
+        "Special Council Meeting"
+      ]
+    },
+    {
+      "name": "Gail Dunn",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "gdunn@hinton.ca",
+      "phone": "780-223-7018",
+      "committees": [
+        "Committee of the Whole",
+        "Organizational Meeting of Council",
+        "Regular Council",
+        "Special Council Meeting"
+      ]
+    },
+    {
+      "name": "Don MacLean",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dmaclean@hinton.ca",
+      "phone": "780-817-1506",
+      "committees": [
+        "Committee of the Whole",
+        "Organizational Meeting of Council",
+        "Regular Council",
+        "Special Council Meeting"
+      ]
+    },
+    {
+      "name": "Bill McDonald",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bmcdonald@hinton.ca",
+      "phone": "780-223-4166",
+      "committees": [
+        "Committee of the Whole",
+        "Organizational Meeting of Council",
+        "Regular Council",
+        "Special Council Meeting"
+      ]
+    },
+    {
+      "name": "Dewly Nelson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dnelson@hinton.ca",
+      "phone": "780-232-5856",
+      "committees": [
+        "Committee of the Whole",
+        "Organizational Meeting of Council",
+        "Regular Council",
+        "Special Council Meeting"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.hinton.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Sundre",
+  "geoname": "TOWN OF SUNDRE",
+  "type": "Town",
+  "mayor": {
+    "name": "Richard Warnock",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "richard.w@sundre.com"
+  },
+  "council": [
+    {
+      "name": "Paul Isaac",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "paul.i@sundre.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Connie Anderson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "connie.a@sundre.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jaime Marr",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jaime.m@sundre.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Owen Petersen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "owen.p@sundre.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Todd Dalke",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "todd.d@sundre.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Cheri Buchan",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cheri.b@sundre.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.sundre.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

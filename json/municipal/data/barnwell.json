@@ -1,0 +1,89 @@
+{
+  "name": "Barnwell",
+  "geoname": "VILLAGE OF BARNWELL",
+  "type": "Village",
+  "mayor": {
+    "name": "Missy Foster",
+    "portrait": "https://barnwell.ca/wp-content/uploads/2021/10/Missy-Foster-pic.jpg",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Oldman River Regional Services Committee (ORRSC) alternate member",
+      "Regional Fire Partnership Committee",
+      "Intermunicipal Collaboration Framework Agreement Committee",
+      "Municipal Planning Commission",
+      "Regional Assessment Review Board",
+      "Parks and Recreation Committee",
+      "Beautification Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Deb Hansen",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "https://barnwell.ca/wp-content/uploads/2021/10/Debra-Hansen-Pic.jpg",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Barnwell Public Library Board",
+        "Joint Economic Development Committee",
+        "Intermunicipal Collaboration Framework Agreement Committee",
+        "Subdivision & Development Appeal Board",
+        "Parks & Recreation Committee",
+        "Beautification Committee"
+      ]
+    },
+    {
+      "name": "Shayla Anderson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://barnwell.ca/wp-content/uploads/2021/10/Shayla-Anderson.jpg",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Taber & District Housing Authority",
+        "Intermunicipal Development Plan Committee",
+        "Parks and Recreation Committee"
+      ]
+    },
+    {
+      "name": "Jacob Hiebert",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://barnwell.ca/wp-content/uploads/2021/10/Jacob-Hiebert-pic.jpg",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Taber & District Solid Waste Mgmt. Committee",
+        "Regional Fire Partnership Committee",
+        "Intermunicipal Development Plan Committee",
+        "Family & Community Support Services (FCSS)",
+        "Infrastructure Committee",
+        "Risk Management Committee"
+      ]
+    },
+    {
+      "name": "Jane Jensen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://barnwell.ca/wp-content/uploads/2025/10/IMG_0241-e1759768152777.jpg",
+      "email": "jane.jensen@barnwell.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://barnwell.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

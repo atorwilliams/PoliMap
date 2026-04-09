@@ -1,0 +1,123 @@
+{
+  "name": "Kneehill County",
+  "geoname": "KNEEHILL COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Lonnie McCook",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "403-304-4348",
+    "committees": [
+      "Committee of the Whole (Alternate)",
+      "Marigold Library System (Alternate)"
+    ]
+  },
+  "council": [
+    {
+      "name": " Merle Anderson",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "403-820-0092 ",
+      "committees": [
+        "Committee of the Whole",
+        "Central Alberta Economic Partnership (CAEP) (Alternate)",
+        "Central Rural Municipalities of Alberta Executive (Alternate)",
+        "Mountain View & Neighbors Women in Bus. Awards Committee",
+        "Municipal Planning Commission"
+      ]
+    },
+    {
+      "name": "Laura Lee Machell-Cunningham",
+      "role": "",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "403-443-0752",
+      "committees": [
+        "Committee of the Whole",
+        "Agricultural Service Board (Chair)",
+        "Kneehill Housing Corporation (Alternate)",
+        "Kneehill Regional Family & Community Support Services Board (Alternate)",
+        "Kneehill Regional Partnership Steering Committee (Alternate)"
+      ]
+    },
+    {
+      "name": "Darcy Penner",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "403-815-2349",
+      "committees": [
+        "Committee of the Whole",
+        "Agricultural Service Board (Alternate)",
+        "Aqua 7 Water Services Commission (Alternate)",
+        "Police Advisory Committee (Alternate)",
+        "Community Futures Wild Rose (Alternate)",
+        "Drumheller & District Solid Waste Management Association (Alternate)",
+        "Kneehill Regional Partnership Steering Committee (Alternate)",
+        "Marigold Library System (Alternate)"
+      ]
+    },
+    {
+      "name": "Richard Hoppins",
+      "role": "Deputy Reeve",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "403-588-8733",
+      "committees": [
+        "Committee of the Whole (Chair)",
+        "Central Alberta Economic Partnership (CAEP) (Alternate)",
+        "Central Rural Municipalities of Alberta Executive (Alternate)",
+        "Kneehill Regional Family & Community Support Services Board (Alternate)"
+      ]
+    },
+    {
+      "name": "Jerry Wittstock",
+      "role": "",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "403-312-6196",
+      "committees": [
+        "Committee of the Whole",
+        "Agricultural Service Board (Chair)",
+        "Kneehill County Road Committee",
+        "Municipal Planning Commission (Chair)"
+      ]
+    },
+    {
+      "name": "Lowell Olson",
+      "role": "",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "403-443-0680",
+      "committees": [
+        "Committee of the Whole",
+        "Kneehill Housing Corporation (Alternate)",
+        "Municipal Planning Commission (Vice)",
+        "Drumheller & District Solid Waste Management Association"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

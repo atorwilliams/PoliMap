@@ -1,0 +1,112 @@
+{
+  "name": "Strathcona County",
+  "geoname": "STRATHCONA COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Rod Frank",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-464-8000",
+    "email": "rod.frank@strathcona.ca",
+    "committees": [
+      "All Council Advisory Committees (ex-officio member)",
+      "Alberta's Industrial Heartland Association Board of Directors",
+      "Edmonton Global Shareholders",
+      "Edmonton Regional Airports Authority",
+      "Mid-Size Cities Mayors' & CAOs' Caucus",
+      "Northern Alberta Mayors' & Reeves' Caucus"
+    ]
+  },
+  "council": [
+    {
+      "name": "Robert Parks",
+      "role": "",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "Robert.Parks@strathcona.ca",
+      "phone": "780-464-8005",
+      "committees": []
+    },
+    {
+      "name": "Mike Derbyshire",
+      "role": "",
+      "ward": "Ward 2",
+      "since": "",
+      "portrait": "",
+      "email": "mike.derbyshire@strathcona.ca",
+      "phone": "780-464-8002",
+      "committees": []
+    },
+    {
+      "name": "Lorne Harvey",
+      "role": "",
+      "ward": "Ward 3",
+      "since": "",
+      "portrait": "",
+      "email": "Lorne.Harvey@strathcona.ca",
+      "phone": "780-464-8149",
+      "committees": []
+    },
+    {
+      "name": "Bill Tonita",
+      "role": "",
+      "ward": "Ward 4",
+      "since": "",
+      "portrait": "",
+      "email": "Bill.Tonita@strathcona.ca",
+      "phone": " 780-464-8146",
+      "committees": []
+    },
+    {
+      "name": "Aaron Nelson",
+      "role": "",
+      "ward": "Ward 5",
+      "since": "",
+      "portrait": "",
+      "email": "Aaron.Nelson@strathcona.ca",
+      "phone": "780-464-8147",
+      "committees": []
+    },
+    {
+      "name": "Corey-Ann Hartwick",
+      "role": "",
+      "ward": "Ward 6",
+      "since": "",
+      "portrait": "",
+      "email": "Corey-Ann.Hartwick@strathcona.ca",
+      "phone": "780-464-8206",
+      "committees": []
+    },
+    {
+      "name": "Glen Lawrence",
+      "role": "",
+      "ward": "Ward 7",
+      "since": "",
+      "portrait": "",
+      "email": "Glen.Lawrence@strathcona.ca",
+      "phone": "780-464-8003",
+      "committees": []
+    },
+    {
+      "name": "Katie Berghofer",
+      "role": "",
+      "ward": "Ward 8",
+      "since": "",
+      "portrait": "",
+      "email": "Katie.Berghofer@strathcona.ca",
+      "phone": "780-464-8158",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.strathcona.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

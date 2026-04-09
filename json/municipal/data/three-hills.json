@@ -1,0 +1,64 @@
+{
+  "name": "Three Hills",
+  "geoname": "TOWN OF THREE HILLS",
+  "type": "Town",
+  "mayor": {
+    "name": "Dennis Hazelton",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "dhazelton@threehills.ca",
+    "phone": "(403) 443-0701"
+  },
+  "council": [
+    {
+      "name": "Marilyn Sept",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "msept@threehills.ca",
+      "phone": "(403) 443-6205",
+      "committees": []
+    },
+    {
+      "name": "Arlin Koch",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "akoch@threehills.ca",
+      "phone": "(403) 443-0180",
+      "committees": []
+    },
+    {
+      "name": "Miriam Kirk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mkirk@threehills.ca",
+      "phone": "(403) 443-3330",
+      "committees": []
+    },
+    {
+      "name": "Art Creasser",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "acreasser@threehills.ca",
+      "phone": "(403) 443-0041",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.threehills.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

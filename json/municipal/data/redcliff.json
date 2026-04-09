@@ -1,0 +1,138 @@
+{
+  "name": "Redcliff",
+  "geoname": "TOWN OF REDCLIFF",
+  "type": "Town",
+  "mayor": {
+    "name": "Chris Czember",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayor@redcliff.ca",
+    "phone": "403-502-4228",
+    "committees": [
+      "Assessment Review Board",
+      "Family and Community Support Services (FCSS) (Alternate)",
+      "Municipal Planning Commission",
+      "Palliser Economic Partnership (Alternate)",
+      "Cypress View Foundation",
+      "Riverview Golf Club",
+      "Senior Citizens Board",
+      "Southeast Alberta Economic Opportunity Advocacy Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Bernie Bakker",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bernie.bakker@redcliff.ca",
+      "phone": "403-581-4992",
+      "committees": [
+        "Community Advisory Committee (RCMP) (Alternate)",
+        "Redcliff/Cypress Regional Waste Management Authority (Alternate)",
+        "School/Town Joint Use Committee",
+        "Shortgrass Library System (Alternate)",
+        "Southeast Alberta Watershed Alliance",
+        "Subdivision and Development Appeal Board",
+        "Town of Redcliff Library Board"
+      ]
+    },
+    {
+      "name": "Bradie Burns",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bradie.burns@redcliff.ca",
+      "phone": "403-928-3561",
+      "committees": [
+        "Assessment Review Board",
+        "Intermunicipal Committee",
+        "Medicine Hat and District Chamber of Commerce (Alternate)",
+        "Municipal Planning Commission",
+        "Redcliff Action Society for Youth",
+        "Redcliff and District Recreation Committee (Alternate)",
+        "Redcliff Family & Community Support Services (FCSS)"
+      ]
+    },
+    {
+      "name": "Dwight Kilpatrick",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dwightk@redcliff.ca",
+      "phone": "403-502-3479",
+      "committees": [
+        "Assessment Review Board",
+        "Community Futures Entre-Corp (Alternate)",
+        "Cypress View Foundation",
+        "Emergency Advisory Committee (EAC)",
+        "Intermunicipal Committee",
+        "Shortgrass Library System"
+      ]
+    },
+    {
+      "name": "Larry Leipert",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "larryl@redcliff.ca",
+      "phone": "403-548-1605",
+      "committees": [
+        "Emergency Advisory Committee (EAC)",
+        "Medicine Hat and District Chamber of Commerce",
+        "Municipal Planning Commission",
+        "Redcliff/Cypress Regional Waste Management Authority",
+        "Riverview Golf Club (Alternate)",
+        "Senior Citizens Board",
+        "Southeast Alberta Watershed Alliance (Alternate)"
+      ]
+    },
+    {
+      "name": "Eric Solberg",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "eric.solberg@redcliff.ca",
+      "phone": "403-928-3742",
+      "committees": [
+        "Community Futures Entre-Corp",
+        "Redcliff/Cypress Regional Waste Management Authority",
+        "Redcliff Museum and Horticultural Society (Alternate)",
+        "Southeast Alberta Economic Opportunity Advocacy Committee (Alternate)",
+        "Subdivision and Development Appeal Board (Alternate)"
+      ]
+    },
+    {
+      "name": "Matthew St. Pierre",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "matthew.stpierre@redcliff.ca",
+      "phone": "403-866-7407",
+      "committees": [
+        "Community Advisory Committee (RCMP)",
+        "Emergency Advisory Committee (EAC)",
+        "Palliser Economic Partnership",
+        "Redcliff Action Society for Youth (Alternate)",
+        "Redcliff & District Recreation Committee",
+        "Redcliff Museum and Horticultural Society"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://redcliff.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

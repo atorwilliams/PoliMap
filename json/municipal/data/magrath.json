@@ -1,0 +1,130 @@
+{
+  "name": "Magrath",
+  "geoname": "TOWN OF MAGRATH",
+  "type": "Town",
+  "mayor": {
+    "name": "Byrne Cook",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "byrne@magrath.ca",
+    "committees": [
+      "Events/FCSS",
+      "Sustainable Agriculture Education Partnership",
+      "Magrath and District Emergency Services",
+      "Intermunicipal Committee",
+      "Human Resources Committee",
+      "SouthGrow Regional Initiative",
+      "Council Public Relations",
+      "Mayor’s & Reeves Caucus",
+      "Cardston County Regional Emergency Management Committee",
+      "Ex-Officio on All Committees"
+    ]
+  },
+  "council": [
+    {
+      "name": "Darryl Christensen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "darryl@magrath.ca",
+      "phone": "",
+      "committees": [
+        "Municipal Planning Commission",
+        "Magrath and District Regional Water Services Commission",
+        "Chinook Arch Regional Library Board",
+        "Magrath Library Board",
+        "Intermunicipal Committee",
+        "Human Resources Committee"
+      ]
+    },
+    {
+      "name": "Kurt Fisher",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kurt@magrath.ca",
+      "phone": "",
+      "committees": [
+        "Municipal Planning Commission",
+        "Family and Community Support Services",
+        "Intermunicipal Committee",
+        "Human Resources Committee",
+        "Community Futures Lethbridge",
+        "Sustainable Agricultural Education Partnership"
+      ]
+    },
+    {
+      "name": "Joanne Koegler",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "joanne@magrath.ca",
+      "phone": "",
+      "committees": [
+        "Chinook Foundation",
+        "Magrath and District Regional Water Services Commission",
+        "ORRSC Regional Subdivision Appeals Board",
+        "Garden City Seniors Society"
+      ]
+    },
+    {
+      "name": "Cynthia Ralph",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cynthia@magrath.ca",
+      "phone": "",
+      "committees": [
+        "Chinook Foundation",
+        "Municipal Planning Commission",
+        "Magrath and District Regional Water Services Commission",
+        "Magrath Agricultural Society"
+      ]
+    },
+    {
+      "name": "Travis Seaborn",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "travis@magrath.ca",
+      "phone": "",
+      "committees": [
+        "Chief Mountain Regional Solid Waste Commission",
+        "Wildrose Place HOA",
+        "Recreation Committee",
+        "Magrath and District Emergency Services"
+      ]
+    },
+    {
+      "name": "Tavis Tidmarsh",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tavis@magrath.ca",
+      "phone": "",
+      "committees": [
+        "Museum Board",
+        "Wildrose Place HOA",
+        "Magrath Golf Club",
+        "ORRSC Regional Assessment Appeals Board Member",
+        "Oldman River Regional Services Commission"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://magrath.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

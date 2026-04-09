@@ -1,0 +1,43 @@
+{
+  "name": "Empress",
+  "geoname": "VILLAGE OF EMPRESS",
+  "type": "Village",
+  "mayor": {
+    "name": "Dawna Martin",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "d.martin@villageofempress.ca"
+  },
+  "council": [
+    {
+      "name": "Kasmira Robson",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "k.robson@villageofempress.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Amber Kennedy",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "a.kennedy@villageofempress.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

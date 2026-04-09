@@ -1,0 +1,80 @@
+{
+  "name": "Breton",
+  "geoname": "VILLAGE OF BRETON",
+  "type": "Village",
+  "mayor": {
+    "name": "Shayanne Sheaves",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "ssheaves@breton.ca",
+    "committees": [
+      "39/20 Alliance",
+      "Family & Community Support Services Committee",
+      "Physician Recruitment (Alternate)",
+      "Breton Bylaw Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Glory Tornack",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "gtornack@breton.ca",
+      "phone": "",
+      "committees": [
+        "Brazeau Senior Foundation",
+        "Breton Bylaw Committee"
+      ]
+    },
+    {
+      "name": "Alan Barker",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "abarker@breton.ca",
+      "phone": "",
+      "committees": [
+        "Breton Bylaw Committee"
+      ]
+    },
+    {
+      "name": "Heather Barrett",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "hbarrett@breton.ca",
+      "phone": "",
+      "committees": [
+        "Physician Recruitment",
+        "Breton Bylaw Committee"
+      ]
+    },
+    {
+      "name": "Bob Parkyn",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bparkyn@breton.ca",
+      "phone": "",
+      "committees": [
+        "Family & Community Support Services Committee",
+        "Breton Bylaw Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://breton.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

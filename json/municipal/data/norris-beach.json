@@ -1,0 +1,43 @@
+{
+  "name": "Norris Beach",
+  "geoname": "S.V. of NORRIS BEACH",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Brian Keeler",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-887-5232"
+  },
+  "council": [
+    {
+      "name": "Charlie Esslemont",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780-782-6699",
+      "committees": []
+    },
+    {
+      "name": "Frank Dyck",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780-361-6779",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://norrisbeach.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Whispering Hills",
+  "geoname": "S.V. of WHISPERING HILLS",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Curtis Schoepp",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-220-4897",
+    "email": "curtisschoepp@gmail.com"
+  },
+  "council": [
+    {
+      "name": "Ed Scantland",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Edscant@gmail.com",
+      "phone": "780-916-9145",
+      "committees": []
+    },
+    {
+      "name": "Maurice Caron",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "caronmaurice431@gmail.com",
+      "phone": "780-220-2873",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://mywhisperinghills.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

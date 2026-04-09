@@ -1,0 +1,73 @@
+{
+  "name": "Beaver County",
+  "geoname": "BEAVER COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Gene Hrabec",
+    "portrait": "https://www.beaver.ab.ca/public/uploads/images/pxl_20231018_165114637/1697727917-520w_pxl_20231018_165114637.jpg",
+    "since": "",
+    "title": "Reeve",
+    "phone": "780-235-1328"
+  },
+  "council": [
+    {
+      "name": "Kevin Smook",
+      "role": "",
+      "ward": "Division 1 (Northwest of Tofield)",
+      "since": "",
+      "portrait": "https://www.beaver.ab.ca/public/uploads/images/pxl_20231018_164925295/1697727916-520w_pxl_20231018_164925295.jpg",
+      "email": "",
+      "phone": "780-995-9339",
+      "committees": []
+    },
+    {
+      "name": "Lionel Williams",
+      "role": "Deputy Reeve",
+      "ward": "Division 2 (Southwest of Tofield)",
+      "since": "",
+      "portrait": "https://www.beaver.ab.ca/public/uploads/images/pxl_20231018_165139264/1697727916-520w_pxl_20231018_165139264.jpg",
+      "email": "",
+      "phone": "780-906-6314",
+      "committees": []
+    },
+    {
+      "name": "Shawn O'Shea",
+      "role": "",
+      "ward": "Division 4 (Holden/Bruce)",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Gene Hrabec",
+      "role": "",
+      "ward": "Division 3 (Ryley/Holden) ",
+      "since": "",
+      "portrait": "https://www.beaver.ab.ca/public/uploads/images/pxl_20231018_165114637/1697727917-520w_pxl_20231018_165114637.jpg",
+      "email": "",
+      "phone": "780-235-1328",
+      "committees": []
+    },
+    {
+      "name": "Dale Pederson",
+      "role": "",
+      "ward": "Division 5 (Viking/Kinsella)",
+      "since": "",
+      "portrait": "https://www.beaver.ab.ca/public/uploads/images/pxl_20231018_165040332/1697727917-520w_pxl_20231018_165040332.jpg",
+      "email": "",
+      "phone": "780-385-0545",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.beaver.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,165 @@
+{
+  "name": "Red Deer",
+  "geoname": "CITY OF RED DEER",
+  "type": "City",
+  "mayor": {
+    "name": "Cindy Jefferies",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayor@reddeer.ca ",
+    "phone": "403-342-8154 ",
+    "committees": [
+      "Audit Committee",
+      "Emergency Advisory Committee",
+      "Municipal Planning Commission (MPC)",
+      "Red Deer Native Friendship Society Joint Committee - Asooahum",
+      "Urban Indigenous Voices Society (UIVS)",
+      "Regional Collaboration Committee (RCC)",
+      "Mid-Sized City Mayor’ Caucus Executive Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Kraymer Barnstable",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kraymer.barnstable@reddeer.ca",
+      "phone": "403-550-2010 ",
+      "committees": [
+        "Audit Committee (chair)",
+        "Emergency Advisory Committee",
+        "Red Deer Regional Municipal Users Group (RDMUG)",
+        "Red Deer River Watershed Alliance (RDRWA)",
+        "Regional Collaboration Committee (RCC)"
+      ]
+    },
+    {
+      "name": "Tristin Brisbois",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tristin.brisbois@reddeer.ca",
+      "phone": "403-304-2061",
+      "committees": [
+        "Audit Committee",
+        "Downtown Business Association of Red Deer (DBA)",
+        "Emergency Advisory Committee (Alternate)",
+        "Queen Elizabeth II Scholarship Awards Selection Committee",
+        "Westerner Park Board"
+      ]
+    },
+    {
+      "name": "Bruce Buruma",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bruce.buruma@reddeer.ca ",
+      "phone": "403-350-7646 ",
+      "committees": [
+        "Emergency Advisory Committee (Alternate)",
+        "Housing and Homelessness Integration Committee",
+        "Nomination Committee",
+        "Westerner Exposition Board",
+        "Tourism Red Deer Board",
+        "Midsized City Mayors' Caucus (Alternate)"
+      ]
+    },
+    {
+      "name": "Cassandra Curtis",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cassandra.curtis@reddeer.ca ",
+      "phone": "403-304-4641",
+      "committees": [
+        "Emergency Advisory Committee (Alternate)",
+        "Municipal Planning Commission (Alternate)",
+        "Policing Committee",
+        "Bridges Community Living",
+        "Urban Indigenous Voices Society (UIVS)",
+        "Red Deer & District Family and Community Support Services Board",
+        "Inter City Forum on Social Policy"
+      ]
+    },
+    {
+      "name": "Adam Goodwin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "adam.goodwin@reddeer.ca",
+      "phone": "403-302-6652",
+      "committees": [
+        "Audit Committee",
+        "Emergency Advisory Committee",
+        "Library Board",
+        "Parkland Airshed Management Zone (PAMZ)"
+      ]
+    },
+    {
+      "name": "Chad Krahn",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "chad.krahn@reddeer.ca ",
+      "phone": "",
+      "committees": [
+        "Emergency Advisory Committee (Alternate)",
+        "Municipal Planning Commission (MPC)",
+        "Policing Committee",
+        "Central Alberta Economic Partnership (CAEP)",
+        "Riverbend Golf and Recreation Society",
+        "Urban Indigenous Voices Society (UIVS)"
+      ]
+    },
+    {
+      "name": "Jaelene Tweedle",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jaelene.tweedle@reddeer.ca",
+      "phone": "403-304-7319",
+      "committees": [
+        "Emergency Advisory Committee (Alternate)",
+        "Housing and Homelessness Integration Committee",
+        "Nomination Committee",
+        "Red Deer Museum & Art Gallery Board (MAG)",
+        "Red Deer Native Friendship Society Joint Committee – Asooahum",
+        "Red Deer & District Family and Community Support Services Board"
+      ]
+    },
+    {
+      "name": "Dianne Wyntjes",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dianne.wyntjes@reddeer.ca",
+      "phone": "403-505-4256",
+      "committees": [
+        "Emergency Advisory Committee (Alternate)",
+        "Municipal Planning Commission (MPC)",
+        "Nomination Committee",
+        "Waskasoo Environmental Education Society Board (WEES)",
+        "Regional Collaboration Committee (RCC)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

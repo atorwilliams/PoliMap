@@ -303,12 +303,46 @@
       "officers": [
         {
           "id": "mhps-chief",
-          "name": "",
+          "name": "Al Murphy",
           "rank": "Chief of Police",
           "role": "Chief of Police",
           "unit": "Executive",
           "location": "Medicine Hat",
           "level": 1,
+          "tenureStart": "2023-01-20",
+          "tenureEnd": null,
+          "appointedBy": "",
+          "appointingParty": "",
+          "awards": [],
+          "controversies": [],
+          "notes": "Office of the Chief\nEmail: mhps@mhps.ca\nPhone: 403-529-8410",
+          "portrait": "https://mhps.ca/uploads/posts/874106e40b2183c77bc96ca1db4b7a34.jpg"
+        },
+        {
+          "id": "mhps-deputy-chief",
+          "name": "Raj Saini",
+          "rank": "Deputy Chief",
+          "role": "Deputy Chief of Police",
+          "unit": "Executive",
+          "location": "Medicine Hat",
+          "level": 2,
+          "tenureStart": "2025-01-01",
+          "tenureEnd": null,
+          "appointedBy": "",
+          "appointingParty": "",
+          "awards": [],
+          "controversies": [],
+          "notes": "",
+          "portrait": "https://mhps.ca/uploads/posts/385e9bfda8598a38ca72ff51d3e083a0.jpg"
+        },
+        {
+          "id": "jason-graham",
+          "name": "Jason Graham",
+          "rank": "Inspector",
+          "role": "",
+          "unit": "Operational Services Division",
+          "location": "Medicine Hat",
+          "level": 2,
           "tenureStart": "",
           "tenureEnd": null,
           "appointedBy": "",
@@ -316,14 +350,14 @@
           "awards": [],
           "controversies": [],
           "notes": "",
-          "portrait": ""
+          "portrait": "https://mhps.ca/uploads/posts/f291d9da13ad6dcb1c3c28f5c1296a92.jpg"
         },
         {
-          "id": "mhps-deputy-chief",
-          "name": "",
-          "rank": "Deputy Chief",
-          "role": "Deputy Chief of Police",
-          "unit": "Executive",
+          "id": "joe-west",
+          "name": "Joe West ",
+          "rank": "Inspector",
+          "role": "",
+          "unit": "Investigation and Support Services Division",
           "location": "Medicine Hat",
           "level": 2,
           "tenureStart": "",
@@ -342,7 +376,7 @@
       "officers": [
         {
           "id": "btps-chief",
-          "name": "",
+          "name": "Grant Buckskin",
           "rank": "Chief of Police",
           "role": "Chief of Police",
           "unit": "Blood Tribe Police Service",
@@ -355,11 +389,11 @@
           "awards": [],
           "controversies": [],
           "notes": "",
-          "portrait": ""
+          "portrait": "https://lirp.cdn-website.com/c676d1ad/dms3rep/multi/opt/18-2880w.jpg"
         },
         {
           "id": "snps-chief",
-          "name": "",
+          "name": "*Vacant*",
           "rank": "Chief of Police",
           "role": "Chief of Police",
           "unit": "Siksika Nation Police Service",
@@ -371,12 +405,12 @@
           "appointingParty": "",
           "awards": [],
           "controversies": [],
-          "notes": "",
+          "notes": "No currently listed chief of police.\n\nsamuelc@siksikanation.com",
           "portrait": ""
         },
         {
           "id": "tnps-chief",
-          "name": "",
+          "name": "Keith Blake ",
           "rank": "Chief of Police",
           "role": "Chief of Police",
           "unit": "Tsuut'ina Nation Police Service",
@@ -389,7 +423,7 @@
           "awards": [],
           "controversies": [],
           "notes": "",
-          "portrait": ""
+          "portrait": "https://tsuutinapolice.com/wp-content/uploads/2022/03/Tsuutina-Chief-of-Police-Keith-Blake-bio-1.jpg"
         }
       ]
     }

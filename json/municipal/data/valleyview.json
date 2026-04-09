@@ -1,0 +1,139 @@
+{
+  "name": "Valleyview",
+  "geoname": "TOWN OF VALLEYVIEW",
+  "type": "Town",
+  "mayor": {
+    "name": "Glenn Burke",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "(780) 552-3352",
+    "email": "gburke@valleyview.ca",
+    "committees": [
+      "Greenview Regional Waste Management Commission",
+      "RhPAP",
+      "PREDA (alternate)",
+      "Interagency Group (alternate)",
+      "Community Education (alternate)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Kerri Danner",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kdanner@valleyview.ca",
+      "phone": "(780) 524-8483",
+      "committees": [
+        "Community Education",
+        "Emergency Management Advisory Committee",
+        "Grande Prairie Regional Tourism (alternate)",
+        "Green View FCSS Board (alternate)",
+        "Medical Clinic"
+      ]
+    },
+    {
+      "name": "Ken Hoedl",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "khoedl@valleyview.ca",
+      "phone": "(780) 524-6710",
+      "committees": [
+        "Chamber of Commerce",
+        "Green View FCSS Board",
+        "ICF Committee",
+        "Library Board",
+        "Peace Library System",
+        "Municipal Planning Commission",
+        "Working on Wellbeing",
+        "Emergency Management Advisory Committee (alternate)",
+        "Greenview Regional Waste Management Commission (alternate)"
+      ]
+    },
+    {
+      "name": "Danny McCallum",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dmccallum@valleyview.ca",
+      "phone": "(780) 524-7552",
+      "committees": [
+        "SDAB",
+        "Alberta Gas Cooperatives",
+        "ICF Committee",
+        "Medical Clinic",
+        "Municipal Planning Commission",
+        "Emergency Management Advisory Committee (alternate)",
+        "Recreation Board (alternate)"
+      ]
+    },
+    {
+      "name": "Rod Perron",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rperron@valleyview.ca",
+      "phone": "(780) 524-9751",
+      "committees": [
+        "Heart River Housing",
+        "Citizen Action Committee (alternate)",
+        "SDAB (alternate)",
+        "Emergency Management Advisory Committee (alternate)",
+        "Alberta Gas Cooperatives (alternate)"
+      ]
+    },
+    {
+      "name": "Zac Sarling",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "zsarling@valleyview.ca",
+      "phone": "(780) 524-4133",
+      "committees": [
+        "Chamber of Commerce (alternate)",
+        "Citizen Action Committee",
+        "Emergency Management Advisory Committee",
+        "Peace Library System (alternate)",
+        "Medical Clinic (alternate)",
+        "Municipal Planning Commission",
+        "Recreation Board"
+      ]
+    },
+    {
+      "name": "Ken Wittig",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kwittig@valleyview.ca",
+      "phone": "(780) 512-6701",
+      "committees": [
+        "ARB",
+        "Emergency Management Advisory Committee",
+        "Grande Prairie Regional Tourism",
+        "Greenview Regional Waste Management",
+        "Interagency Group",
+        "Medical Clinic",
+        "PREDA",
+        "ICF Committee (alternate)",
+        "Working on Wellbeing (alternate)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://valleyview.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

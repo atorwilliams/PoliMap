@@ -1,0 +1,53 @@
+{
+  "name": "Bondiss",
+  "geoname": "S.V. of BONDISS",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "April Clark",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "aprilbondiss@outlook.com"
+  },
+  "council": [
+    {
+      "name": "Rebecca Skoreyko",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rebecca.bondiss@gmail.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Leah Iwaniuk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kim Bancroft",
+      "role": "Chief Administrative Officer",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://bondiss.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

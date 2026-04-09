@@ -1,0 +1,125 @@
+{
+  "name": "Regional Municipality Of Wood Buffalo",
+  "geoname": "REGIONAL MUNICIPALITY OF WOOD BUFFALO",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Don Scott",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Regional Recreation Corporation (voting member)",
+      "Wood Buffalo Economic Development",
+      "Wood Buffalo Regional Library Board"
+    ]
+  },
+  "council": [
+    {
+      "name": "Jennifer Vardy",
+      "role": "",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Emergency Advisory Committee",
+        "Homelessness Initiatives Strategic Committee",
+        "Fort McMurray Wood Buffalo Economic Development and Tourism Board"
+      ]
+    },
+    {
+      "name": "Lance Bussieres",
+      "role": "",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "Lance.Bussieres@rmwb.ca",
+      "phone": "",
+      "committees": [
+        "Fort McMurray Airport Authority",
+        "Public Art Committee",
+        "Downtown Revitalization Committee"
+      ]
+    },
+    {
+      "name": "Luana Bussieres",
+      "role": "",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Mike Allen",
+      "role": "",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Ty Brandt",
+      "role": "",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kendrick Cardinal",
+      "role": "",
+      "ward": "Ward 2",
+      "since": "",
+      "portrait": "",
+      "email": "Kendrick.Cardinal@rmwb.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Greg (Cowboy) Marcel",
+      "role": "",
+      "ward": "Ward 2",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Stu Wigle",
+      "role": "",
+      "ward": "Ward 3",
+      "since": "",
+      "portrait": "",
+      "email": "Stu.Wigle@rmwb.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kyle Vandecasteyen",
+      "role": "",
+      "ward": "Ward 4",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.rmwb.ca/",
+  "notes": "The page is clearly still being filled in — most profiles are stubs.\nContact via website",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

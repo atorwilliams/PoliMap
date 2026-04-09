@@ -1,0 +1,105 @@
+{
+  "name": "Stirling",
+  "geoname": "VILLAGE OF STIRLING",
+  "type": "Village",
+  "mayor": {
+    "name": "Jeffrey (Scott) Barton",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Joint Use Planning Agreement",
+      "Tourism and Economic Development Committee",
+      "Chief Regional Solid Waste Services Commission",
+      "Community Futures Lethbridge Region",
+      "Family and Community Support Services",
+      "Oldman River Regional Services Commission",
+      "4 Mayors",
+      "Southern Alberta Chief Elected Officials"
+    ],
+    "phone": "403-308-0034",
+    "email": "Scott@stirling.ca"
+  },
+  "council": [
+    {
+      "name": "Stacey Maynes",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Stacey@stirling.ca",
+      "phone": "403-315-3942",
+      "committees": [
+        "Emergency Management Committee",
+        "Joint Use Planning Agreement",
+        "Community Events Committee",
+        "Municipal Library Board",
+        "Chinook Arch Regional Library Authority",
+        "Ridge Country Housing Authority",
+        "Ridge Utilities Ltd.",
+        "Warner County Regional Emergency Management Committee"
+      ]
+    },
+    {
+      "name": "Justin Davis",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "JDavis@stirling.ca",
+      "phone": "587-691-1740",
+      "committees": [
+        "Intermunicipal Collaboration Framework",
+        "Chinook Arch Regional Library Authority",
+        "Ridge Country Housing Authority",
+        "Ridge Utilities Ltd.",
+        "Ridge Water Services Commission",
+        "Ridge Utilities Ltd.",
+        "SouthGrow Regional Partnership"
+      ]
+    },
+    {
+      "name": "Matthew Foss",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "M.Foss@stirling.ca",
+      "phone": "403-332-3427",
+      "committees": [
+        "Intermunicipal Collaboration Framework",
+        "Municipal Library Board",
+        "Chief Mountain Regional Solid Waste Services Commission",
+        "Oldman River Regional Services Commission",
+        "Ridge Regional Public Safety Services Commission",
+        "Ridge Water Services Commission"
+      ]
+    },
+    {
+      "name": "Nikole Norris",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Nikole@stirling.ca",
+      "phone": "403-701-0344",
+      "committees": [
+        "Emergency Management Committee",
+        "Community Events Committee",
+        "Tourism and Economic Development Committee",
+        "Family and Community Support Services",
+        "Ridge Regional Public Safety Services Commission",
+        "Warner County Regional Emergency Management Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://stirling.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

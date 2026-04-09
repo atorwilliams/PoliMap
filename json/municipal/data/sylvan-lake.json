@@ -1,0 +1,92 @@
+{
+  "name": "Sylvan Lake",
+  "geoname": "TOWN OF SYLVAN LAKE",
+  "type": "Town",
+  "mayor": {
+    "name": "Megan Hanson",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mhanson@sylvanlake.ca "
+  },
+  "council": [
+    {
+      "name": "Holly Bilodeau",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "hbilodeau@sylvanlake.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Joe Iwanicki",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jiwanicki@sylvanlake.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Teej Johannesson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tjohannesson@sylvanlake.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Tim Mearns",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tmearns@sylvanlake.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Ian Oostindie",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ioostindie@sylvanlake.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jas Payne",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jaspayne@sylvanlake.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.sylvanlake.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Office of the Chief Administrative Officer",
+      "name": "",
+      "since": "",
+      "email": "",
+      "phone": "403 887 2141",
+      "notes": ""
+    }
+  ]
+}

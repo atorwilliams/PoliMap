@@ -1,0 +1,155 @@
+{
+  "name": "High River",
+  "geoname": "TOWN OF HIGH RIVER",
+  "type": "Town",
+  "mayor": {
+    "name": "Craig Snodgrass",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "csnodgrass@highriver.ca",
+    "committees": [
+      "Committee of the Whole (Mayor)",
+      "FCSS Community Grant Program Task Force (Council Representative)",
+      "Intermunicipal Committee (Council Representative)",
+      "Organizational (Mayor)",
+      "Public Hearing (Mayor)",
+      "Regional Economic Development (Council Representative)",
+      "Regular Council",
+      "Special Committee of the Whole (Mayor)",
+      "Special Council (Mayor)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Michael Nychyk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mnychyk@highriver.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole (Councillor)",
+        "Emergency Advisory Committee (Council Representative)",
+        "Foothills Regional Services Commission (FRSC)/Foothills Regional Waste Management Authority/Calgary Regional Waste Reduction Committee (Council Representative)",
+        "High River Protective Services Advisory Committee (Councillor)",
+        "Intermunicipal Committee (Council Representative (1))",
+        "Organizational (Councillor)",
+        "Public Hearing (Councillor)",
+        "Regular Council",
+        "Special Committee of the Whole (Councillor)",
+        "Special Council (Councillor)"
+      ]
+    },
+    {
+      "name": "Jenny Jones",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jjones@highriver.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole (Councillor)",
+        "Community Vitality Advisory Committee (Council Member)",
+        "High River & District Chamber of Commerce (Council Representative)",
+        "Intermunicipal Committee (Council Representative (2))",
+        "Organizational (Councillor)",
+        "Public Hearing (Councillor)",
+        "Regular Council",
+        "Special Committee of the Whole (Councillor)",
+        "Special Council (Councillor)"
+      ]
+    },
+    {
+      "name": "Jamie Barton",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jbarton@highriver.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole (Councillor)",
+        "External Water Related Committee (Council Representative)",
+        "FCSS Community Grant Program Task Force (Council Representative)",
+        "Highwood Centre Board (Council Representative)",
+        "Organizational (Councillor)",
+        "Public Hearing (Councillor)",
+        "Regular Council",
+        "Special Committee of the Whole (Councillor)",
+        "Special Council (Councillor)"
+      ]
+    },
+    {
+      "name": "Cathy Couey",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ccouey@highriver.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole (Councillor)",
+        "Intermunicipal Committee (Council Representative (3))",
+        "Organizational (Councillor)",
+        "Public Hearing (Councillor)",
+        "Regular Council",
+        "Sheppard Family Park Board (Council Representative)",
+        "Special Committee of the Whole (Councillor)",
+        "Special Council (Councillor)",
+        "Westwinds Communities (Council Representative)"
+      ]
+    },
+    {
+      "name": "Garth Brookwell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "gbrookwell@highriver.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole (Councillor)",
+        "Emergency Advisory Committee (Council Representative)",
+        "Foothills Regional Emergency Services Commission (FRESC) (Council Representative)",
+        "High River Protective Services Advisory Committee (Alternate Councillor)",
+        "Organizational (Councillor)",
+        "Public Hearing (Councillor)",
+        "Regular Council",
+        "Special Committee of the Whole (Councillor)",
+        "Special Council (Councillor)"
+      ]
+    },
+    {
+      "name": "Vicky McGonigle",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "vmcgonigle@highriver.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole (Councillor)",
+        "FCSS Community Grant Program Task Force (Council Representative)",
+        "High River Library Board (Council Member)",
+        "Museum of the Highwood (Council Representative)",
+        "Organizational (Councillor)",
+        "Public Hearing (Councillor)",
+        "Regular Council",
+        "Special Committee of the Whole (Councillor)",
+        "Special Council (Councillor)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

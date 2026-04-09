@@ -1,0 +1,83 @@
+{
+  "name": "Fairview",
+  "geoname": "TOWN OF FAIRVIEW",
+  "type": "Town",
+  "mayor": {
+    "name": "Gordon MacLeod",
+    "portrait": "",
+    "since": "2025-10-20",
+    "title": "Mayor",
+    "email": ""
+  },
+  "council": [
+    {
+      "name": "Andrew Pietsch",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Christopher Laue",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Erin Sawchuk",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jo Anne Fleming",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Lloyd Campbell",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Stan Golob",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2029-10-20",
+  "website": "https://www.fairview.ca/",
+  "notes": "Deputy Mayor rotates monthly, assigned at the October organizational meeting. Town reception: reception@fairview.ca / 780-835-5461. Individual councillor bios available at fairview.ca/government/mayor-council/.",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

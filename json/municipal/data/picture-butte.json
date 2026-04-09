@@ -1,0 +1,53 @@
+{
+  "name": "Picture Butte",
+  "geoname": "TOWN OF PICTURE BUTTE",
+  "type": "Town",
+  "mayor": {
+    "name": "Cathy Moore",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "cmoore@picturebutte.ca"
+  },
+  "council": [
+    {
+      "name": "Henry deKok",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "hdekok@picturebutte.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Cynthia Papworth",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cpapworth@picturebutte.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Teresa Feist",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tfeist@picturebutte.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.picturebutte.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

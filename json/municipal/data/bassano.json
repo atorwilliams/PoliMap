@@ -1,0 +1,64 @@
+{
+  "name": "Bassano",
+  "geoname": "TOWN OF BASSANO",
+  "type": "Town",
+  "mayor": {
+    "name": "Mike Wetzstein",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403-363-6468",
+    "email": "mikewetzstein@bassano.ca"
+  },
+  "council": [
+    {
+      "name": "Mike Phillips",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mikephillips@bassano.ca",
+      "phone": "403-376-7434",
+      "committees": []
+    },
+    {
+      "name": "Sydney Miller",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sydneymiller@bassano.ca",
+      "phone": "306-830-0505",
+      "committees": []
+    },
+    {
+      "name": "Matthew Loewen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "matthewloewen@bassano.ca",
+      "phone": "403-363-1396",
+      "committees": []
+    },
+    {
+      "name": "Gary Lee",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "garylee@bassano.ca",
+      "phone": "403-376-7221",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://bassano.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

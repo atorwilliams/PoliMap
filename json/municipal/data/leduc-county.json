@@ -1,0 +1,166 @@
+{
+  "name": "Leduc County",
+  "geoname": "LEDUC COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Tanni Doblanko",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "tanni@leduc-county.com",
+    "phone": "780-920-0675",
+    "committees": [
+      "Agricultural Service Board",
+      "Emergency Management Advisory Committee",
+      "Leduc County Library Board",
+      "Municipal Policy Review Committee",
+      "City of Beaumont Cost-Share Planning and Consultation Committee",
+      "Edmonton Global",
+      "Edmonton Regional Airports Authority",
+      "Edmonton Regional Airports Authority: City of Edmonton, Leduc County and City of Leduc - Airport Accord Oversite Committee",
+      "North Saskatchewan Watershed Alliance",
+      "Pembina River Association of Municipal Districts (District 3)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Glen Bienert",
+      "role": "",
+      "ward": "division one",
+      "since": "",
+      "portrait": "",
+      "email": "glen@leduc-county.com",
+      "phone": " 780-920-0671",
+      "committees": [
+        "Agricultural Service Board",
+        "Emergency Management Advisory Committee",
+        "Leduc County Library Board",
+        "Municipal Policy Review Committee",
+        "Subdivision Authority",
+        "Alternative Land Use Services (ALUS) Partnership Advisory Committee (PAC) (alternate)",
+        "Beaver Hills Biosphere Region Association (alternate)",
+        "Capital Region Southwest Water Services Commission (CRSWSC) (alternate)",
+        "City of Beaumont Cost Share Planning and Consultation Committee",
+        "Edmonton Global (alternate)",
+        "Intermunicipal Liaison Committee",
+        "Leduc and District Regional Waste Management Commission (alternate)",
+        "Pembina River Association of Municipal Districts (District 3)"
+      ]
+    },
+    {
+      "name": "Kelly-Lynn Lewis",
+      "role": "",
+      "ward": "division two",
+      "since": "",
+      "portrait": "",
+      "email": "KLewis@leduc-county.com",
+      "phone": "780-920-0672",
+      "committees": [
+        "Agricultural Service Board",
+        "Council Sponsorship and Grants Committee",
+        "Emergency Management Advisory Committee",
+        "Subdivision Authority",
+        "Arrow Utilities Commission",
+        "Beaver Hills Biosphere Region Association",
+        "Capital Region Southwest Water Services Commission (CRSWSC) (alternate)",
+        "Edmonton International Airport (EIA) Noise Advisory Committee",
+        "Intermunicipal Liaison Committee",
+        "Intermunicipal Planning Framework (IPF) Oversight Committee",
+        "The Chamber - Leduc, Nisku, Wetaskiwin Regions",
+        "Leduc (City) Parks, Recreation and Culture Board (alternate)",
+        "Pembina River Association of Municipal Districts (District 3)"
+      ]
+    },
+    {
+      "name": "Dal Virdi",
+      "role": "",
+      "ward": "division three",
+      "since": "",
+      "portrait": "",
+      "email": "dal@leduc-county.com",
+      "phone": "780-920-0673",
+      "committees": [
+        "Agricultural Service Board",
+        "Emergency Management Advisory Committee",
+        "Subdivision Authority",
+        "Capital Region Southwest Water Services Commission (CRSWSC)",
+        "City of Leduc Cost Share Planning and Consultation Committee",
+        "Intermunicipal Liaison Committee",
+        "Leduc (City) Parks, Recreation and Culture Board",
+        "Leduc Regional Housing Foundation",
+        "Pembina River Association of Municipal Districts (District 3)"
+      ]
+    },
+    {
+      "name": "Bonnie Thomas",
+      "role": "",
+      "ward": "division four",
+      "since": "",
+      "portrait": "",
+      "email": "bonnie.thomas@leduc-county.com",
+      "phone": "780-920-0674",
+      "committees": [
+        "Agricultural Service Board",
+        "Emergency Management Advisory Committee",
+        "Council Sponsorship and Grants Committee",
+        "Subdivision Authority",
+        "Capital Region Southwest Water Services Commission (CRSWSC)",
+        "City of Leduc Cost-Share Planning and Consultation Committee",
+        "Edmonton International Airport (EIA) Noise Advisory Committee",
+        "Intermunicipal Liaison Committee (alternate)",
+        "The Chamber - Leduc, Nisku, Wetaskiwin Regions",
+        "Leduc Regional Housing Foundation",
+        "Pembina River Association of Municipal Districts (District 3)"
+      ]
+    },
+    {
+      "name": "Glenn Belozer",
+      "role": "",
+      "ward": "division six",
+      "since": "",
+      "portrait": "",
+      "email": "GlennB@leduc-county.com",
+      "phone": "780-920-0676",
+      "committees": [
+        "Agricultural Service Board",
+        "Emergency Management Advisory Committee",
+        "Subdivision Authority",
+        "Alternative Land Use Services (ALUS) Partnership Advisory Committee (PAC)",
+        "Alliance of Pigeon Lake Municipalities",
+        "Leduc and District Regional Waste Management Commission (LDRWMC)",
+        "North Saskatchewan Watershed Alliance",
+        "Pembina River Association of Municipal Districts (District 3)",
+        "Pigeon Lake Watershed Steering Committee",
+        "Warburg Seed Cleaning Co-op Ltd. Board of Directors"
+      ]
+    },
+    {
+      "name": "Ray Scobie",
+      "role": "",
+      "ward": "division seven",
+      "since": "",
+      "portrait": "",
+      "email": "ray@leduc-county.com",
+      "phone": "780-920-0677",
+      "committees": [
+        "Agriculture Service Board",
+        "Emergency Management Advisory Committee",
+        "Municipal Policy Review Committee",
+        "Alliance of Pigeon Lake Municipalities (alternate)",
+        "Leduc Regional Housing Foundation",
+        "North Saskatchewan Watershed Alliance (alternate)",
+        "Pembina River Association of Municipal Districts (District 3)",
+        "Warburg Seed Cleaning Co-op Ltd. Board of Directors (alternate)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

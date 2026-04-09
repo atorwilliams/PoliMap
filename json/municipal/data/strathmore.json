@@ -1,0 +1,84 @@
+{
+  "name": "Strathmore",
+  "geoname": "TOWN OF STRATHMORE",
+  "type": "Town",
+  "mayor": {
+    "name": "Pat Fule",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "(403) 324-3314",
+    "email": "Pat.Fule@Strathmore.ca"
+  },
+  "council": [
+    {
+      "name": "Claude Brown",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " Claude.Brown@Strathmore.ca ",
+      "phone": "403-499-9488",
+      "committees": []
+    },
+    {
+      "name": "James (Jim) Chisholm",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "James.Chisholm@Strathmore.ca ",
+      "phone": "403-499-9254",
+      "committees": []
+    },
+    {
+      "name": "Matt Hyde",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Matt.Hyde@Strathmore.ca ",
+      "phone": "403-361-1513",
+      "committees": []
+    },
+    {
+      "name": "Melissa Langmaid",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Melissa.Langmaid@Strathmore.ca ",
+      "phone": " (403) 901-7325",
+      "committees": []
+    },
+    {
+      "name": "Richard Wegener",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Richard.Wegener@Strathmore.ca ",
+      "phone": " (403) 499-8352",
+      "committees": []
+    },
+    {
+      "name": "Brent Wiley",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Brent.Wiley@Strathmore.ca ",
+      "phone": "(403) 361-1843",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.strathmore.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

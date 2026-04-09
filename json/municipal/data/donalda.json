@@ -1,0 +1,64 @@
+{
+  "name": "Donalda",
+  "geoname": "VILLAGE OF DONALDA",
+  "type": "Village",
+  "mayor": {
+    "name": "Shaleah Fox",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Destination Stettler",
+      "Parkland Community Planning",
+      "Parkland Regional and Donalda Municipal Library Board",
+      "Stettler & District Ambulance Association",
+      "Stettler Regional Fire Advisory Committee",
+      "Red Deer Municipal River Users Group",
+      "CAEP Representation (Central Alberta Economic Partnership)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Phil Menecola",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "County of Stettler Housing Authority",
+        "County of Stettler Regional Recreation Board",
+        "Stettler Regional Waste Management Authority",
+        "RCMP Community Consultative Group",
+        "Stettler & District Ambulance Association (Alternate for Mayor)"
+      ]
+    },
+    {
+      "name": "Tanya Metcalfe",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Donalda and District Museum Society",
+        "Lamp Park Committee",
+        "East Central Alberta Heritage Society",
+        "Village of Donalda Emergency Management Advisory Committee",
+        "Shirley McClellan Regional Water Services Commission",
+        "Stettler Regional Waste Management Authority (Alternate for Deputy Mayor)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

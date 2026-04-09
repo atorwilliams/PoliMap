@@ -1,0 +1,52 @@
+{
+  "name": "Rochon Sands",
+  "geoname": "S.V. of ROCHON SANDS",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Dan Hiller",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "danhiller@rochonsands.net"
+  },
+  "council": [
+    {
+      "name": "Darren Benson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "darrenbenson@rochonsands.net",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jim Blaney",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jimblaney@rochonsands.net",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.rochonsands.net/",
+  "notes": "Mayor is appointed by the other councillors.",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "John Jacobson",
+      "since": "",
+      "email": "cao@rochonsands.net",
+      "phone": "",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Waskatenau",
+  "geoname": "VILLAGE OF WASKATENAU",
+  "type": "Village",
+  "mayor": {
+    "name": "Richard Warren",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "(780) 618-1398"
+  },
+  "council": [
+    {
+      "name": "Roy Krahulec",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "(780) 656-0335",
+      "committees": []
+    },
+    {
+      "name": "Cassidy Luchyk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "(587) 926-0904",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.waskatenau.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

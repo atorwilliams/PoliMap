@@ -1,0 +1,164 @@
+{
+  "name": "Lac Ste. Anne County",
+  "geoname": "LAC STE. ANNE COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Jurgen Preugschas",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "780.204.2500",
+    "email": "jpreugschas@LSAC.ca",
+    "committees": [
+      "Agricultural Service Board",
+      "Enforcement Review Committee",
+      "Intermunicipal Collaboration Framework (ICF) Mayerthorpe/Lac Ste. Anne County",
+      "Intermunicipal Development Plan (IDP) Mayerthorpe/Lac Ste. Anne County",
+      "Joint Worksite Health & Safety Committee",
+      "Lac Ste. Anne County Library Board",
+      "Lac Ste. Anne Foundation",
+      "Peter Trynchy Airport Committee",
+      "Upper Athabasca Watershed Council"
+    ]
+  },
+  "council": [
+    {
+      "name": "Dale Johnson",
+      "role": "Deputy Reeve",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "dale-johnson@LSAC.ca",
+      "phone": "780.909.8600",
+      "committees": [
+        "Emergency Advisory Committee",
+        "Enforcement Review Committee",
+        "First Nations Committee",
+        "Highway 43 East Waste Commission",
+        "Intermunicipal Collaboration Framework (ICF) Alberta Beach/Lac Ste. Anne County",
+        "Intermunicipal Development Plan (IDP) Alberta Beach/Lac Ste. Anne County",
+        "Joint Worksite Health & Safety Committee",
+        "Municipal Planning Commission",
+        "West Inter Lake District (WILD) Water Commission"
+      ]
+    },
+    {
+      "name": "Barry Voltner",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "bvoltner@LSAC.ca",
+      "phone": "780.915.3151",
+      "committees": [
+        "Enforcement Review Committee",
+        "Interlakes Regional Trails Master Plan Committee",
+        "Intermunicipal Collaboration Framework (ICF) Onoway/Lac Ste. Anne County",
+        "Intermunicipal Development Plan (IDP) Onoway/Lac Ste. Anne County",
+        "Municipal Planning Commission",
+        "Onoway Regional Medical Clinic Board"
+      ]
+    },
+    {
+      "name": "Mike Derksen",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "mderksen@LSAC.ca",
+      "phone": "780.803.7252",
+      "committees": [
+        "Emergency Advisory Committee",
+        "Enforcement Review Committee",
+        "Intermunicipal Collaboration Framework (ICF) Onoway/Lac Ste. Anne County",
+        "Intermunicipal Development Plan (IDP) Onoway/Lac Ste. Anne County",
+        "Lac La Nonne Enhancement and Protection Association",
+        "North 43 Lagoon Commission",
+        "Onoway Regional Medical Clinic Board",
+        "Seniors Transportation - East End Bus Society",
+        "Subdivision Development Appeal Board",
+        "Sturgeon River Watershed Alliance"
+      ]
+    },
+    {
+      "name": "Ed Gifford",
+      "role": "",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "egifford@LSAC.ca",
+      "phone": "780.674.0600",
+      "committees": [
+        "Agricultural Service Board – Chair",
+        "Community Futures Yellowhead East",
+        "Darwell Lagoon Commission",
+        "Emergency Advisory Committee",
+        "Enforcement Review Committee",
+        "First Nations Committee",
+        "Seniors Transportation - West End Bus Committee",
+        "Ste. Anne Emergency Response Centre – Building & Operational Committee",
+        "Ste. Anne Regional Lake Use Committee",
+        "Ste. Anne Regional Trail Use Committee"
+      ]
+    },
+    {
+      "name": "Bo Knysh",
+      "role": "",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "bknysh@LSAC.ca",
+      "phone": "780.916.5174",
+      "committees": [
+        "Athabasca Watershed Council",
+        "Darwell Lagoon Commission",
+        "Enforcement Review Committee",
+        "Highway 43 East Waste Commission",
+        "Interlakes Regional Trails Master Plan Committee",
+        "Intermunicipal Collaboration Framework (ICF) Alberta Beach/Lac Ste. Anne County",
+        "Intermunicipal Development Plan (IDP) Alberta Beach/Lac Ste. Anne County",
+        "Lake Isle and Lac Ste. Anne Stewardship Society",
+        "Municipal Planning Commission",
+        "North 43 Lagoon Commission",
+        "North Saskatchewan Watershed Alliance Committee",
+        "Ste. Anne Regional Lake Use Committee",
+        "Ste. Anne Regional Trail Use Committee"
+      ]
+    },
+    {
+      "name": "Jill Stoney",
+      "role": "",
+      "ward": "Division 7",
+      "since": "",
+      "portrait": "",
+      "email": "jstoney@LSAC.ca",
+      "phone": "780.284.2007",
+      "committees": [
+        "Agricultural Service Board – Vice Chair",
+        "Beachwave Park Stakeholders Committee",
+        "Enforcement Review Committee",
+        "First Nations Committee",
+        "George Pegg Botanic Garden Society",
+        "Intermunicipal Collaboration Framework (ICF) Mayerthorpe/Lac Ste. Anne County",
+        "Intermunicipal Development Plan (IDP) Mayerthorpe/Lac Ste. Anne County",
+        "Lac Ste. Anne County Library Board",
+        "Lac Ste. Anne Foundation",
+        "Northwest of 16 Regional Tourism Association",
+        "Seniors Transportation - West End Bus Committee",
+        "Ste. Anne Regional Lake Use Committee",
+        "Ste. Anne Regional Trail Use Committee",
+        "Ste. Anne Emergency Response Centre – Building & Operational Committee",
+        "Subdivision Development Appeal Board"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

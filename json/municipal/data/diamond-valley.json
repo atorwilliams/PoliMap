@@ -1,0 +1,138 @@
+{
+  "name": "Diamond Valley",
+  "geoname": "TOWN OF DIAMOND VALLEY",
+  "type": "Town",
+  "mayor": {
+    "name": "Brendan Kelly",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayor@diamondvalley.town",
+    "committees": [
+      "Mayors & Reeves of Southern Alberta",
+      "WRSSC (Westend Regional Services Commission)",
+      "DV Library Board (2nd term: Nov 1, 2025 – Oct 31, 2028)",
+      "Municipal Policing Committee (1st term: Nov 5, 2025 – Oct 31, 2027)",
+      "SRRUC (Sheep River Regional Utility Corporation)",
+      "FRESC (Foothills Regional Emergency Services Commission)",
+      "DVFCSS (Diamond Valley Family & Community Support Services)",
+      "Foothills Cemetery",
+      "IMC (Intermunicipal Committee with Foothills County)",
+      "EDAC (Economic Development Advisory Committee) – subject to budget",
+      "Westwinds Communities",
+      "FRSC – Landfill (Foothills Regional Services Commission – Landfill)",
+      "Emergency Advisory Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Cindy Holladay",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "CindyH@diamondvalley.town",
+      "phone": "",
+      "committees": [
+        "WRSSC (Westend Regional Services Commission)",
+        "SRRUC (Sheep River Regional Utility Corporation)",
+        "FRESC (Foothills Regional Emergency Services Commission)",
+        "IMC (Intermunicipal Committee with Foothills County)",
+        "FRSC – Landfill",
+        "Foothills Cemetery",
+        "Municipal Policing Committee"
+      ]
+    },
+    {
+      "name": "Hazel Martin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "HazelM@diamondvalley.town",
+      "phone": "",
+      "committees": [
+        "SRRUC (Sheep River Regional Utility Corporation)",
+        "WRSSC (Westend Regional Services Commission)",
+        "IMC (Intermunicipal Committee with Foothills County)",
+        "EDAC (Economic Development Advisory Committee)",
+        "Emergency Advisory Committee",
+        "Foothills Cemetery",
+        "Municipal Policing Committee"
+      ]
+    },
+    {
+      "name": "Colin Fleming",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ColinF@diamondvalley.town",
+      "phone": "",
+      "committees": [
+        "SRRUC (Sheep River Regional Utility Corporation)",
+        "WRSSC (Westend Regional Services Commission)",
+        "IMC (Intermunicipal Committee with Foothills County)",
+        "Emergency Advisory Committee",
+        "Municipal Policing Committee"
+      ]
+    },
+    {
+      "name": "Ted Bain",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "TedB@diamondvalley.town",
+      "phone": "",
+      "committees": [
+        "SRRUC (Sheep River Regional Utility Corporation)",
+        "WRSSC (Westend Regional Services Commission)",
+        "IMC (Intermunicipal Committee with Foothills County)",
+        "Emergency Advisory Committee",
+        "Municipal Policing Committee"
+      ]
+    },
+    {
+      "name": "Jonathan Gordon",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "JonathanG@diamondvalley.town",
+      "phone": "",
+      "committees": [
+        "SRRUC (Sheep River Regional Utility Corporation)",
+        "WRSSC (Westend Regional Services Commission)",
+        "IMC (Intermunicipal Committee with Foothills County)",
+        "Emergency Advisory Committee",
+        "Municipal Policing Committee"
+      ]
+    },
+    {
+      "name": "Ashley Brosz",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "AshleyB@diamondvalley.town",
+      "phone": "",
+      "committees": [
+        "SRRUC (Sheep River Regional Utility Corporation)",
+        "WRSSC (Westend Regional Services Commission)",
+        "IMC (Intermunicipal Committee with Foothills County)",
+        "Emergency Advisory Committee",
+        "Municipal Policing Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.diamondvalley.town/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

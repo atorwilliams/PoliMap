@@ -1,0 +1,94 @@
+{
+  "name": "Alix",
+  "geoname": "VILLAGE OF ALIX",
+  "type": "Village",
+  "mayor": {
+    "name": "Barb Gilliat",
+    "portrait": "https://www.villageofalix.ca/files/cache/ebc4a8ac15141ce70c65f8a32d49ccf4_f1557.jpg",
+    "since": "",
+    "title": "Mayor",
+    "email": "bgilliat@villageofalix.ca",
+    "committees": [
+      "Village of Alix/Lacombe County IDP/ICF Committee",
+      "Village/School Joint Use and Planning Agreement",
+      "Lacombe Foundation",
+      "Alix Public Library",
+      "Parkland Regional Library",
+      "Rahr/Village Relations Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Rob Fehr",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.villageofalix.ca/files/cache/22fcda49f0a516e23caa0a1a250a57f3_f1561.jpg",
+      "email": "kasmak1@outlook.com",
+      "phone": "",
+      "committees": [
+        "Municipal Planning Commission",
+        "Village of Alix/Lacombe County IDP/ICF Committee",
+        "Regional Fire Services Committee",
+        "Alix Fire Department",
+        "Lacombe Regional Waste Services Commission",
+        "Alix Arena Association"
+      ]
+    },
+    {
+      "name": "Ed Cole",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.villageofalix.ca/files/cache/1d35bbb47367330467c73da5f8da18cf_f1558.jpg",
+      "email": "edcole@villageofalix.ca",
+      "phone": "",
+      "committees": [
+        "Municipal Planning Commission",
+        "Village/School Joint Use and Planning Agreement",
+        "Lacombe Regional Emergency Management Committee",
+        "Bashaw RCMP Community Consultive Group",
+        "Railway Advisory Committee"
+      ]
+    },
+    {
+      "name": "Janice Besuijen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.villageofalix.ca/files/cache/8fc10e50ec3fb40f979e338599590587_f1560.jpg",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Parkland Community Planning Services",
+        "Municipal Planning Commission",
+        "Hwy 12/21 Water Commission",
+        "Buffalo Lake Management Team",
+        "Alix/Mirror Wellness Society"
+      ]
+    },
+    {
+      "name": "Frank Laneuville",
+      "role": "n/a",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "flaneuville@villageofalix.ca",
+      "phone": "",
+      "committees": [
+        "Hwy 12/21 Water Commission",
+        "Red Deer River Municipal Users Group",
+        "Rahr/Village Relations Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.villageofalix.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

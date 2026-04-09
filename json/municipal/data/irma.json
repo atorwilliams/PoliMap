@@ -1,0 +1,63 @@
+{
+  "name": "Irma",
+  "geoname": "VILLAGE OF IRMA",
+  "type": "Village",
+  "mayor": {
+    "name": "Mervin Firkus",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mfirkus@irma.ca"
+  },
+  "council": [
+    {
+      "name": "Eric Nissen",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "enissen@irma.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Brandon Parsons",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bparsons@irma.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jim Schubada",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jschubada@irma.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Mike Soucy",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "msoucy@irma.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://irma.ca/wpsite/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

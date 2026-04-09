@@ -1,0 +1,44 @@
+{
+  "name": "Crystal Springs",
+  "geoname": "S.V. of CRYSTAL SPRINGS",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Ian Rawlinson",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "(403) 896-7897",
+    "email": "ian.rawlinson@wolfcreek.ab.ca"
+  },
+  "council": [
+    {
+      "name": "Dwayne Manning",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dwaynema88@gmail.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Annalee Butterwick",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "annaleecrystalsprings@gmail.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://crystalsprings.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Hines Creek",
+  "geoname": "VILLAGE OF HINES CREEK",
+  "type": "Village",
+  "mayor": {
+    "name": "Hazel Reintjes",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-494-2510"
+  },
+  "council": [
+    {
+      "name": "Len Rimmer",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780-835-8519",
+      "committees": []
+    },
+    {
+      "name": "Frank Armella",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780-618-3827",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://hinescreek.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

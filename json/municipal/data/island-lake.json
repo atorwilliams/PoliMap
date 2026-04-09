@@ -1,0 +1,43 @@
+{
+  "name": "Island Lake",
+  "geoname": "S.V. of ISLAND LAKE",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Chad Newton",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "chad.newton@islandlake.ca"
+  },
+  "council": [
+    {
+      "name": "Jamie McIntosh",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jamie.mcintosh@islandlake.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": " Marc Lachambre",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "marc.lachambre@islandlake.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.islandlake.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

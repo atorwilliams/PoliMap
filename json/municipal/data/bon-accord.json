@@ -1,0 +1,96 @@
+{
+  "name": "Bon Accord",
+  "geoname": "TOWN OF BON ACCORD",
+  "type": "Town",
+  "mayor": {
+    "name": "Brian Holden",
+    "portrait": "https://bonaccord.ca/vertical/Sites/%7B88BC6E44-75EE-4E86-88CD-8A9DD10539C7%7D/uploads/Mayor_Holden_photo_Web.jpg",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Intermunicipal Collaboration Framework Committee",
+      "Intermunicipal Subdivision & Development Appeal Board",
+      "Municipal Emergency Advisory Committee",
+      "Northern Mayor's Caucus",
+      "Roseridge Waste Management Services",
+      "Sturgeon Regional Partnership Committee",
+      "Community Services Advisory Board"
+    ],
+    "email": "bholden@bonaccord.ca",
+    "phone": "780-237-8297"
+  },
+  "council": [
+    {
+      "name": "Lynn Bidney",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "https://bonaccord.ca/vertical/Sites/%7B88BC6E44-75EE-4E86-88CD-8A9DD10539C7%7D/uploads/Councillor_Bidney_photo_Web.jpg",
+      "email": "lbidney@bonaccord.ca",
+      "phone": "780-921-3356",
+      "committees": [
+        "Arrow Utilities Commission",
+        "Homeland Housing Board",
+        "Intermunicipal Collaboration Framework Committee",
+        "Municipal Emergency Advisory Committee",
+        "Infrastructure and Transportation Committee"
+      ]
+    },
+    {
+      "name": "Cindy Gallant",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://bonaccord.ca/vertical/Sites/%7B88BC6E44-75EE-4E86-88CD-8A9DD10539C7%7D/uploads/Councillor_Gallant_photo_Web.jpg",
+      "email": "cgallant@bonaccord.ca",
+      "phone": "780-966-2409",
+      "committees": [
+        "Bon Accord Public Library Board",
+        "Edmonton Salutes Committee",
+        "Intermunicipal Collaboration Framework Committee",
+        "Municipal Emergency Advisory Committee"
+      ]
+    },
+    {
+      "name": "Tanya May",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://bonaccord.ca/vertical/Sites/%7B88BC6E44-75EE-4E86-88CD-8A9DD10539C7%7D/uploads/Councillor_May_photo_Web.jpg",
+      "email": "tmay@bonaccord.ca",
+      "phone": "780-916-8085",
+      "committees": [
+        "Bon Accord Public Library Board",
+        "Northern Lights Library System Board",
+        "Capital Region Assessment Services Commission",
+        "Municipal Emergency Advisory Committee",
+        "Veterans' Memorial Park Committee"
+      ]
+    },
+    {
+      "name": "Timothy J. Larson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://bonaccord.ca/vertical/Sites/%7B88BC6E44-75EE-4E86-88CD-8A9DD10539C7%7D/uploads/Councillor_Larson_photo_Web.jpg",
+      "email": "tlarson@bonaccord.ca",
+      "phone": "780-718-6799",
+      "committees": [
+        "B.A.C.S. and Lilian Schick Joint Use Committee",
+        "Capital Region Northeast Water Services Commission",
+        "Regional Emergency Advisory Committee",
+        "Municipal Emergency Advisory Committee",
+        "Veterans' Memorial Park Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://bonaccord.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

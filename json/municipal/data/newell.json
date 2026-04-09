@@ -1,0 +1,220 @@
+{
+  "name": "Newell",
+  "geoname": "COUNTY OF NEWELL",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Arno Doerksen",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "doerksena@newellmail.ca",
+    "phone": "403-363-0253",
+    "committees": [
+      "Agricultural Service Board",
+      "Soil Conservation Act Appeal Committee",
+      "Municipal Planning Commission",
+      "CAO Performance Evaluation Committee",
+      "Crop Diversification Centre (CDC) South Revitalization Committee",
+      "Fire Area Committee - Rosemary & Rural Area",
+      "Foothills Little Bow Municipal Association",
+      "Intermunicipal Affairs Committee (Voting Member)",
+      "Intermunicipal Development Plan Committee - Bassano",
+      "Intermunicipal Development Plan Committee - Rosemary",
+      "Intermunicipal Development Plan Committee - Wheatland County",
+      "Mayors & Reeves Association of Southeast Alberta",
+      "Palliser Economic Partnership",
+      "Regional Emergency Advisory Committee (Alternate)",
+      "Road Ban Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Benjamin Hofer",
+      "role": "",
+      "ward": "Division 8 (Duchess)",
+      "since": "",
+      "portrait": "",
+      "email": "hoferb@newellmail.ca",
+      "phone": "403-793-0457",
+      "committees": [
+        "Agricultural Service Board",
+        "Soil Conservation Act Appeal Committee",
+        "Municipal Planning Commission",
+        "Brooks Region Tourism Association",
+        "CAO Performance Evaluation Committee",
+        "Fire Area Committee - Duchess & Rural Area",
+        "Fire Area Committee - Rosemary & Rural Area",
+        "Foothills Little Bow Municipal Association",
+        "Intermunicipal Development Plan Committee - Brooks",
+        "Intermunicipal Development Plan Committee - Duchess",
+        "Recreation Board (Bassano Area)",
+        "Recreation, Parks & Culture Board (Duchess Area)",
+        "Road Ban Committee",
+        "Veteran's Memorial Highway Association"
+      ]
+    },
+    {
+      "name": "Neil Johnson",
+      "role": "",
+      "ward": "Division 7 (North & East of Brooks)",
+      "since": "",
+      "portrait": "",
+      "email": "johnsonn@newellmail.ca",
+      "phone": "403-793-4206",
+      "committees": [
+        "Agricultural Service Board",
+        "Soil Conservation Act Appeal Committee",
+        "Municipal Planning Commission",
+        "Bow River Basin Council",
+        "CAO Performance Evaluation Committee",
+        "City of Brooks Recreation & Parks Board",
+        "Foothills Little Bow Municipal Association",
+        "Intermunicipal Development Plan Committee - Brooks",
+        "Intermunicipal Development Plan Committee - Special Areas",
+        "Recreation Board (Rural Brooks Area)",
+        "Recreation, Parks & Culture Board (Duchess Area)"
+      ]
+    },
+    {
+      "name": "Dan Baumgarten",
+      "role": "",
+      "ward": "Division 1 (Rolling Hills)",
+      "since": "",
+      "portrait": "",
+      "email": "baumgartend@newellmail.ca",
+      "phone": "403-829-7608",
+      "committees": [
+        "Agricultural Service Board",
+        "Soil Conservation Act Appeal Committee",
+        "Municipal Planning Commission",
+        "CAO Performance Evaluation Committee",
+        "Councillor Compensation Review Committee",
+        "Crop Diversification Centre (CDC) South Revitalization Committee",
+        "Foothills Little Bow Municipal Association",
+        "Intermunicipal Development Plan Committee - Cypress County",
+        "Intermunicipal Development Plan Committee - MD of Taber",
+        "Newell Regional Services Corporation (NRSC)",
+        "Regional Emergency Advisory Committee"
+      ]
+    },
+    {
+      "name": "Kelly Christman",
+      "role": "Deputy Reeve",
+      "ward": "Division 6 (Bassano)",
+      "since": "",
+      "portrait": "",
+      "email": "christmank@newellmail.ca",
+      "phone": "403-793-0014",
+      "committees": [
+        "Agricultural Service Board",
+        "Soil Conservation Act Appeal Committee",
+        "Municipal Planning Commission (Chair)",
+        "CAO Performance Evaluation Committee",
+        "Councillor Compensation Review Committee",
+        "Foothills Little Bow Municipal Association",
+        "Intermunicipal Development Plan Committee - Bassano",
+        "Intermunicipal Development Plan Committee - Rosemary",
+        "Intermunicipal Development Plan Committee - Vulcan County",
+        "Intermunicipal Development Plan Committee - Wheatland County",
+        "Recreation Board (Bassano Area)"
+      ]
+    },
+    {
+      "name": "Greg Skriver",
+      "role": "",
+      "ward": "Division 5 (South Brooks/Lake Newell Resort/Kinbrook)",
+      "since": "",
+      "portrait": "",
+      "email": "skriverg@newellmail.ca",
+      "phone": "403-409-4281",
+      "committees": [
+        "Agricultural Service Board",
+        "Soil Conservation Act Appeal Committee",
+        "Municipal Planning Commission",
+        "CAO Performance Evaluation Committee",
+        "City of Brooks Recreation & Parks Board",
+        "Foothills Little Bow Municipal Association",
+        "Intermunicipal Affairs Committee (Voting Member)",
+        "Intermunicipal Development Plan Committee - Brooks",
+        "Newell Housing Foundation",
+        "Recreation Board (Rural Brooks Area)"
+      ]
+    },
+    {
+      "name": "Holly Johnson",
+      "role": "",
+      "ward": "Division 4 (Scandia/Rainier/Bow City/Cassils)",
+      "since": "",
+      "portrait": "",
+      "email": "johnsonh@newellmail.ca",
+      "phone": "403-363-4701",
+      "committees": [
+        "Agricultural Service Board",
+        "Soil Conservation Act Appeal Committee",
+        "Municipal Planning Commission",
+        "CAO Performance Evaluation Committee",
+        "Crop Diversification Centre (CDC) South Revitalization Committee",
+        "Foothills Little Bow Municipal Association",
+        "Grasslands Regional FCSS",
+        "Intermunicipal Development Plan Committee - MD of Taber",
+        "Intermunicipal Development Plan Committee - Vulcan County",
+        "Palliser Economic Partnership",
+        "Road Ban Committee"
+      ]
+    },
+    {
+      "name": "Lynette Kopp",
+      "role": "",
+      "ward": "Division 3 (Patricia/Millicent)",
+      "since": "",
+      "portrait": "",
+      "email": "koppl@newellmail.ca",
+      "phone": "403-363-5677",
+      "committees": [
+        "Agricultural Service Board",
+        "Soil Conservation Act Appeal Committee",
+        "Municipal Planning Commission",
+        "CAO Performance Evaluation Committee",
+        "Councillor Compensation Review Committee",
+        "Crop Diversification Centre (CDC) South Revitalization Committee",
+        "Fire Area Committee - Duchess & Rural",
+        "Foothills Little Bow Municipal Association",
+        "Intermunicipal Development Plan Committee - Duchess",
+        "Intermunicipal Development Plan Committee - Special Areas",
+        "Newell Recycling Association",
+        "Newell Regional Services Corporation (NRSC)",
+        "Newell Regional Solid Waste Management Authority"
+      ]
+    },
+    {
+      "name": "Adena Skanderup",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "skanderupa@newellmail.ca",
+      "phone": "403-633-2224",
+      "committees": [
+        "Agricultural Service Board",
+        "Soil Conservation Act Appeal Committee",
+        "Municipal Planning Commission (Vice Chair)",
+        "Airport Commission",
+        "CAO Performance Evaluation Committee",
+        "County of Newell Library Board",
+        "Foothills Little Bow Municipal Association",
+        "Intermunicipal Development Plan Committee - Cypress County",
+        "Newell Housing Foundation",
+        "Shortgrass Library Board"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://countyofnewell.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

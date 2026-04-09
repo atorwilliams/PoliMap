@@ -1,0 +1,153 @@
+{
+  "name": "Lesser Slave River",
+  "geoname": "MUNICIPAL DISTRICT OF LESSER SLAVE RIVER NO. 124",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Murray Kerik",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "murray.kerik@mdlsr.ca",
+    "phone": "780.349.0518",
+    "committees": [
+      "Alberta North Central Alliance",
+      "Alberta — Pacific Forest Industries Inc.",
+      "Community Rail Advocacy Alliance",
+      "Director of Wildfire Legacy Corporation",
+      "Disaster Services Committee",
+      "Inter-Municipal Committee (MD and TOSL)",
+      "Northern Alberta Elected Leaders",
+      "Pembina River District No.3",
+      "Slave Lake Chamber of Commerce",
+      "Tri-Council Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Richard Colborne",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "richard.colborne@mdlsr.ca",
+      "phone": "780.516.5795",
+      "committees": [
+        "Disaster Services Committee",
+        "Lesser Slave Lake Watershed Council",
+        "Lesser Slave Regional Waste Services Commission",
+        "Lesser Slave Lake Regional Housing Authority",
+        "Pembina River District No.3",
+        "Tri-Council Committee"
+      ]
+    },
+    {
+      "name": "Sandra Melzer",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "sandra.melzer@mdlsr.ca",
+      "phone": "780.307.3173",
+      "committees": [
+        "Agricultural Service Board",
+        "Athabasca Regional Waste Management Services Commission",
+        "Disaster Services Committee",
+        "Inter-Municipal Committee (MD and TOSL)",
+        "Municipal Planning Commission",
+        "Pembina River District No.3",
+        "Tri-Council Committee",
+        "Tri-Council Health Advocacy Committee",
+        "Veterinary Services Incorporated"
+      ]
+    },
+    {
+      "name": "Brad Pearson",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "brad.pearson@mdlsr.ca",
+      "phone": "780.805.2559",
+      "committees": [
+        "Disaster Services Committee",
+        "Lesser Slave Regional Waste Services Commission",
+        "Inter-Municipal Committee (MD and TOSL)",
+        "Peace Library Systems",
+        "Pembina River District No.3",
+        "Lesser Slave Lake Regional Housing Authority",
+        "Municipal Planning Commission",
+        "Slave Lake Airport Services Commission",
+        "Tri-Council Committee",
+        "Tri-Council Health Advocacy Committee"
+      ]
+    },
+    {
+      "name": "Norm Seatter",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "norm.seatter@mdlsr.ca",
+      "phone": "780.805.0048",
+      "committees": [
+        "Alberta North Central Alliance",
+        "Community Futures Slave Lake Region",
+        "Disaster Services Committee",
+        "Inter-Municipal Committee (MD and TOSL)",
+        "Lesser Slave Regional Waste Services Commission",
+        "Municipal Planning Commission",
+        "Pembina River District No.3",
+        "Slave Lake Airport Services Commission",
+        "Tri-Council Committee"
+      ]
+    },
+    {
+      "name": "Thomas Snowden",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "thomas.snowden@mdlsr.ca",
+      "phone": "780.849.1568",
+      "committees": [
+        "Agricultural Service Board",
+        "Disaster Services Committee",
+        "Peace Library Systems (alternate)",
+        "Pembina River District No.3",
+        "Slave Lake Regional Library Board",
+        "Slave Lake Regional Tourism",
+        "Tri-Council Committee"
+      ]
+    },
+    {
+      "name": "Lester Vanhill",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "lester.vanhill@mdlsr.ca",
+      "phone": "780.910.7059",
+      "committees": [
+        "Athabasca Regional Waste Management Services Commission",
+        "Community Futures Tawatinaw Region",
+        "Disaster Services Committee",
+        "Homeland Housing",
+        "Lesser Slave Watershed Council",
+        "Municipal Planning Commission",
+        "Pembina River District No.3",
+        "Slave Lake Airport Services Commission",
+        "Tr-Council Committee",
+        "Tri-Council Health Advocacy Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

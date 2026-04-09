@@ -1,0 +1,64 @@
+{
+  "name": "Arrowwood",
+  "geoname": "VILLAGE OF ARROWWOOD",
+  "type": "Village",
+  "mayor": {
+    "name": " Colin Bexte",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "(403) 534-3821",
+    "email": "vlgarrw@telusplanet.net"
+  },
+  "council": [
+    {
+      "name": " Nikki Holloway",
+      "role": "Chief Administrative Officer",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cao.arrowwood@gmail.com ",
+      "phone": "(403) 534-3821",
+      "committees": []
+    },
+    {
+      "name": "Nicholas Kuntz",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "vlgarrw@telusplanet.net",
+      "phone": "(403)534-3821",
+      "committees": []
+    },
+    {
+      "name": "Kevyn Stevenson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "vlgarrw@telusplanet.net",
+      "phone": "(403)534-3821",
+      "committees": []
+    },
+    {
+      "name": "Lisa Kasper",
+      "role": "Administrative Assistant",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "vlgarrw@telusplanet.net",
+      "phone": " 403-534-3821",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://villageofarrowwood.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

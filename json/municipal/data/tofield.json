@@ -1,0 +1,92 @@
+{
+  "name": "Tofield",
+  "geoname": "TOWN OF TOFIELD",
+  "type": "Town",
+  "mayor": {
+    "name": "Adam Hall ",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "ahall@tofieldalberta.ca",
+    "committees": [
+      "Beaver Emergency Medical Services - Ambulance (Alternate)",
+      "Beaver Emergency Services Commission",
+      "Beaver Regional Partnership Committee",
+      "Community Attraction & Retention Committee",
+      "Tourism Representation",
+      "Winter Festival Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Brenda Chehade",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bchehade@tofieldalberta.ca",
+      "phone": "",
+      "committees": [
+        "Beaver Foundation",
+        "Community Attraction & Retention Committee (Alternate)",
+        "Tofield/Beaver/ Family & Community Support Services - FCSS",
+        "Tofield & Area Health Foundation"
+      ]
+    },
+    {
+      "name": "Jennifer Durant ",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jdurrant@tofieldalberta.ca",
+      "phone": "",
+      "committees": [
+        "Beaver Foundation (Alternate)",
+        "Northern Lights Library System",
+        "Tofield Library Board",
+        "Tofield/Beaver/ Family & Community Support Services - FCSS (Alternate)",
+        "Tofield Welcome Initiative"
+      ]
+    },
+    {
+      "name": "Elaine Taylor",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "etaylor@tofieldalberta.ca",
+      "phone": "",
+      "committees": [
+        "Beaver Emergency Medical Services - Ambulance",
+        "Highway 14 Regional Water Services Commission (Alternate)",
+        "Tofield Historical Society (Alternate)",
+        "Tofield & Area Health Foundation (Alternate)"
+      ]
+    },
+    {
+      "name": "Dustin Terpstra",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dterpstra@tofieldalberta.ca",
+      "phone": "",
+      "committees": [
+        "Agricultural Society",
+        "Beaver Emergency Services Commission (Alternate)",
+        "Claystone Waste PAC",
+        "Tourism Representation (Alternate)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://tofieldalberta.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

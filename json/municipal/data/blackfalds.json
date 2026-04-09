@@ -1,0 +1,84 @@
+{
+  "name": "Blackfalds",
+  "geoname": "TOWN OF BLACKFALDS",
+  "type": "Town",
+  "mayor": {
+    "name": "Laura Svab",
+    "portrait": "https://blackfalds.ca/vertical/Sites/%7BFDE543F4-BC9C-4213-A282-C5DB54C1631F%7D/uploads/9cf499579594ef0d67720f0890c1858451581727_Web.jpg",
+    "since": "",
+    "title": "Mayor",
+    "email": "lsvab@blackfalds.ca",
+    "phone": "403.391.9485"
+  },
+  "council": [
+    {
+      "name": "Ryan Brown",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://blackfalds.ca/vertical/Sites/%7BFDE543F4-BC9C-4213-A282-C5DB54C1631F%7D/uploads/610b8a0b0e5f718652a7df83edf1a653974ef008_Web.jpg",
+      "email": "rbrown@blackfalds.ca",
+      "phone": "403.479.9610",
+      "committees": []
+    },
+    {
+      "name": "Brenda Dennis",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://blackfalds.ca/vertical/Sites/%7BFDE543F4-BC9C-4213-A282-C5DB54C1631F%7D/uploads/bd0dd14224454c04c584348492bff1dec4bfa596_Web.jpg",
+      "email": "bdennis@blackfalds.ca",
+      "phone": "403.340.9189",
+      "committees": []
+    },
+    {
+      "name": "Shane Hanson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://blackfalds.ca/vertical/Sites/%7BFDE543F4-BC9C-4213-A282-C5DB54C1631F%7D/uploads/6507566dc3e12f77b601b8252d8e8ab344cbe202_Web.jpg",
+      "email": "shanson@blackfalds.ca",
+      "phone": "587.876.7134",
+      "committees": []
+    },
+    {
+      "name": "Cory Twerdoclib",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ctwerdoclib@blackfalds.ca",
+      "phone": "403.304.4222",
+      "committees": []
+    },
+    {
+      "name": "Aaron J Hoyte",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://blackfalds.ca/vertical/Sites/%7BFDE543F4-BC9C-4213-A282-C5DB54C1631F%7D/uploads/8e05e2aac509955c5b45863de4faeae16f3e0425_Web.jpg",
+      "email": "ahoyte@blackfalds.ca",
+      "phone": "587.693.4784",
+      "committees": []
+    },
+    {
+      "name": "Jim Sands",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://blackfalds.ca/vertical/Sites/%7BFDE543F4-BC9C-4213-A282-C5DB54C1631F%7D/uploads/93130b371fe598d3dfbf7334b663f3ad72108686_Web.jpg",
+      "email": "jsands@blackfalds.ca",
+      "phone": "403.396.6535",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://blackfalds.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

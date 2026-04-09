@@ -1,0 +1,44 @@
+{
+  "name": "Hussar",
+  "geoname": "VILLAGE OF HUSSAR",
+  "type": "Village",
+  "mayor": {
+    "name": "Les Schultz",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "Councillor2@villageofhussar.ca",
+    "phone": "403.934.1288"
+  },
+  "council": [
+    {
+      "name": "Coralee Schindel",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Councillor1@villageofhussar.ca",
+      "phone": "403.389.2983",
+      "committees": []
+    },
+    {
+      "name": "Michelle Plante",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Councillor3@villageofhussar.ca",
+      "phone": "403.934.0740",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.villageofhussar.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

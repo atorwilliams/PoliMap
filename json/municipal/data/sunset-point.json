@@ -1,0 +1,68 @@
+{
+  "name": "Sunset Point",
+  "geoname": "S.V. of SUNSET POINT",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Lee Landsperg",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "lee.landsperg@sunsetpoint.ca",
+    "committees": [
+      "Summer Village of Lac Ste. Anne County East",
+      "Emergency Management Agency",
+      "Family and Community Support Services (FCSS)",
+      "West Inter Lake District Water Commission (WILD Water)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Rodney Janz",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rodney.janz@sunsetpoint.ca",
+      "phone": "",
+      "committees": [
+        "Summer Village of Lac Ste. Anne County East",
+        "Emergency Management Agency",
+        "Tri-Village Sewer Commission",
+        "Lake Isle Lac Ste. Anne Stewardship Society (LILSA)"
+      ]
+    },
+    {
+      "name": "Gwen Jones",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "gwen.jones@sunsetpoint.ca",
+      "phone": "",
+      "committees": [
+        "Summer Village of Lac Ste. Anne County East",
+        "Emergency Management Agency",
+        "Tri-Village Sewer Commission (Director)",
+        "Alberta Beach Municipal Library Board"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Mike Primeau",
+      "since": "",
+      "email": "office@sunsetpoint.ca",
+      "phone": "780-665-5866",
+      "notes": ""
+    }
+  ]
+}

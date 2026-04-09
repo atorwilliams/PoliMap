@@ -1,0 +1,84 @@
+{
+  "name": "Pincher Creek",
+  "geoname": "MUNICIPAL DISTRICT OF PINCHER CREEK NO. 9",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Wayne Oliver",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "woliver@pinchercreek.ca",
+    "phone": "403-624-3999"
+  },
+  "council": [
+    {
+      "name": "Mark Barber",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mbarber@pinchercreek.ca",
+      "phone": "403-627-8004",
+      "committees": []
+    },
+    {
+      "name": "Bernice Cyr",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bcyr@pinchercreek.ca",
+      "phone": "403-627-1579",
+      "committees": []
+    },
+    {
+      "name": "Brian McGillivray",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bmcgillivray@pinchercreek.ca",
+      "phone": "825-594-2083",
+      "committees": []
+    },
+    {
+      "name": "Gordon McMullen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "gmcmullen@pinchercreek.ca",
+      "phone": "403-627-8205",
+      "committees": []
+    },
+    {
+      "name": "Sahra Nodge",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "snodge@pinchercreek.ca",
+      "phone": "403-632-3016",
+      "committees": []
+    },
+    {
+      "name": "Valerie Wynder",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "vwynder@pinchercreek.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://pinchercreek.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

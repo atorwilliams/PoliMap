@@ -1,0 +1,64 @@
+{
+  "name": "Viking",
+  "geoname": "TOWN OF VIKING",
+  "type": "Town",
+  "mayor": {
+    "name": "Paul King",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "paul.king@viking.ca",
+    "phone": "780-878-1282"
+  },
+  "council": [
+    {
+      "name": "Judy Acres",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Judy.acres@viking.ca",
+      "phone": "780-336-3466",
+      "committees": []
+    },
+    {
+      "name": "James Buttner",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "james.buttner@viking.ca",
+      "phone": "780-385-1290",
+      "committees": []
+    },
+    {
+      "name": "Tim Goodison",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tim.goodison@viking.ca",
+      "phone": "780-336-3466",
+      "committees": []
+    },
+    {
+      "name": "Cole Harasyn-O'Neill",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cole.harasyn-oneill@viking.ca",
+      "phone": " 780-336-3466",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.viking.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

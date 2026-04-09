@@ -1,0 +1,43 @@
+{
+  "name": "Elnora",
+  "geoname": "VILLAGE OF ELNORA",
+  "type": "Village",
+  "mayor": {
+    "name": "Leah Nelson",
+    "portrait": "",
+    "since": "2025-10-20",
+    "title": "Mayor",
+    "email": ""
+  },
+  "council": [
+    {
+      "name": "Sherri Walker",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Gail Moise",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2029-10-20",
+  "website": "https://www.villageofelnora.com/",
+  "notes": "Village office email: elnoraab@gmail.com. Village office phone: 403-773-3922.",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

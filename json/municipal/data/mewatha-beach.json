@@ -1,0 +1,44 @@
+{
+  "name": "Mewatha Beach",
+  "geoname": "S.V. of MEWATHA BEACH",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Guy White",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "guy.mewatha@gmail.com",
+    "phone": "(780) 305-4180"
+  },
+  "council": [
+    {
+      "name": "Darcy Sumyk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "darcy.mewatha@gmail.com",
+      "phone": "(780) 915-2928",
+      "committees": []
+    },
+    {
+      "name": "Steven Pretula",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "steve.mewatha@gmail.com",
+      "phone": "(780) 901-2636",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

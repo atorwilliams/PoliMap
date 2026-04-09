@@ -1,0 +1,43 @@
+{
+  "name": "Bonnyville Beach",
+  "geoname": "S.V. of BONNYVILLE BEACH",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Grant Ferbey",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-815-7818"
+  },
+  "council": [
+    {
+      "name": "Laurie Gardner",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780-815-7818",
+      "committees": []
+    },
+    {
+      "name": "Joshua Paul",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780-815-7818",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://bonnyvillebeach.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

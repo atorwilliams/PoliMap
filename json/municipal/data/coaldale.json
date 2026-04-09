@@ -1,0 +1,147 @@
+{
+  "name": "Coaldale",
+  "geoname": "TOWN OF COALDALE",
+  "type": "Town",
+  "mayor": {
+    "name": "Jack Van Rijn",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayor@coaldale.ca",
+    "committees": [
+      "Bylaw Appeal Committee",
+      "CAO Personnel Committee",
+      "Joint Emergency Services Committee",
+      "Joint Inter-Municipal Development Planning Commission",
+      "Malloy Drain Steering Committee",
+      "Mayors & Reeves",
+      "Municipal Planning Commission",
+      "Operations Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Jacen Abrey",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jacen.abrey@coaldale.ca.",
+      "phone": "",
+      "committees": [
+        "Deputy Mayor Appointment – Oct.25/21 – Jun.26/22",
+        "Alberta Birds of Prey Foundation (Alternate)",
+        "Bylaw Appeal Committee",
+        "CAO Personnel Committee",
+        "Joint Inter-Municipal Development Planning Commission",
+        "Mayors & Reeves (Oct.25/21 – Jun.26/22)",
+        "Municipal Planning Commission",
+        "Operations Committee"
+      ]
+    },
+    {
+      "name": "Jason Beekman",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jason.beekman@coaldale.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Bill Chapman",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bill.chapman@coaldale.ca",
+      "phone": "",
+      "committees": [
+        "Deputy Mayor Appointment – Jun.24/24 – Feb.23/25",
+        "Barons Eureka Warner FCSS",
+        "Bylaw Appeal Committee",
+        "CAO Personnel Committee",
+        "Coaldale & District Chamber of Commerce (Alternate)",
+        "Coaldale & District Handi-Ride Association",
+        "Highway 3 Twinning Association",
+        "Joint Emergency Services Committee",
+        "Joint Inter-Municipal Development Planning Commission (Alternate)",
+        "Lethbridge Regional Water Services Commission",
+        "Mayors & Reeves (Jun.24/24-Feb.23/25)",
+        "Operations Committee",
+        "Southern Alberta Energy from Waste Alliance (SAEWA) (Alternate)",
+        "Subdivision & Development Appeal Board"
+      ]
+    },
+    {
+      "name": "Dale Pickering",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dale.pickering@coaldale.ca",
+      "phone": "",
+      "committees": [
+        "Bylaw Appeal Committee",
+        "CAO Personnel Committee",
+        "Gem of the West Museum Board",
+        "Lethbridge Regional Water Services Commission",
+        "Malloy Drain Steering Committee",
+        "Mayors & Reeves (Jun.27/22-Feb.26/23)",
+        "Municipal Planning Commission",
+        "Operations Committee",
+        "Southern Regional Stormwater Management Committee",
+        "SouthGrow"
+      ]
+    },
+    {
+      "name": "Lisa Reis",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "lisa.reis@coaldale.ca",
+      "phone": "",
+      "committees": [
+        "Deputy Mayor Appointment – Feb.24/25-Oct.19/25",
+        "Alberta Birds of Prey Foundation",
+        "Bylaw Appeal Committee",
+        "CAO Personnel Committee",
+        "Emergency Advisory Committee",
+        "Mayors & Reeves (Feb.24/25-Oct.19/25)",
+        "Operations Committee"
+      ]
+    },
+    {
+      "name": "Jordan Sailer",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jordan.sailer@coaldale.ca",
+      "phone": "",
+      "committees": [
+        "Deputy Mayor Appointment – Oct.23/23-Jun.23/24",
+        "Bylaw Appeal Committee",
+        "CAO Personnel Committee",
+        "Chinook Arch Library Board",
+        "Coaldale & District Chamber of Commerce",
+        "Community Futures",
+        "County of Lethbridge Community Learning Council (CLCLC)",
+        "LINK Regional Pathway Committee",
+        "Mayors & Reeves (Oct.23/23-Jun.23/24)",
+        "Operations Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.coaldale.ca/",
+  "notes": "- committee positions are not up to date according to their website (latest as of 21/22)",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

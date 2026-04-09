@@ -1,0 +1,63 @@
+{
+  "name": "Hay Lakes",
+  "geoname": "VILLAGE OF HAY LAKES",
+  "type": "Village",
+  "mayor": {
+    "name": "Paige Berkholtz",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "berkholtz@villageofhaylakes.com"
+  },
+  "council": [
+    {
+      "name": "Ron These",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "these@villageofhaylakes.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kimberlee Hunter",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "hunter@villageofhaylakes.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jill King",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "king@villageofhaylakes.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Paul Patterson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "patterson@villageofhaylakes.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

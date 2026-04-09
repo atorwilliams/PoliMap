@@ -1,0 +1,173 @@
+{
+  "name": "Mackenzie County",
+  "geoname": "MACKENZIE COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Josh Knelsen",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "780.926.7405",
+    "email": " josh@mackenziecounty.com",
+    "committees": [
+      "Agricultural Service Board",
+      "Hay Zama Committee",
+      "Regional Economic Development Initiative",
+      "Water North Coalition"
+    ]
+  },
+  "council": [
+    {
+      "name": "Ernest Peters",
+      "role": "Deputy Reeve",
+      "ward": "Ward 5",
+      "since": "",
+      "portrait": "",
+      "email": "ernest@mackenziecounty.com",
+      "phone": "780.926.1788",
+      "committees": [
+        "Agricultural Service Board",
+        "Community Futures Northwest Alberta",
+        "Rural Health Professions Action Plan (RhPAP)"
+      ]
+    },
+    {
+      "name": "Dale Wiebe",
+      "role": "",
+      "ward": "Ward 2",
+      "since": "",
+      "portrait": "",
+      "email": "dale@mackenziecounty.com",
+      "phone": "780.841.1990",
+      "committees": []
+    },
+    {
+      "name": "Peter Braun",
+      "role": "",
+      "ward": "Ward 3",
+      "since": "",
+      "portrait": "",
+      "email": "peter@mackenziecounty.com",
+      "phone": "780.926.6238",
+      "committees": [
+        "Community Services Committee",
+        "Inter-Municipal Planning Commission",
+        "La Crete Community Adult Learning Council",
+        "Mackenzie Regional Waste Management Commission",
+        "Municipal Planning Commission",
+        "Northern Lakes College CEC – La Crete"
+      ]
+    },
+    {
+      "name": "David Driedger",
+      "role": "",
+      "ward": "Ward 4",
+      "since": "",
+      "portrait": "",
+      "email": "david@mackenziecounty.com",
+      "phone": "780.821.9225",
+      "committees": [
+        "Agricultural Service Board",
+        "Inter-Municipal Planning Commission",
+        "Joint Steering Committee (Ad-Hoc)",
+        "Municipal Planning Commission",
+        "Water North Coalition (WNC)"
+      ]
+    },
+    {
+      "name": "Henry Goertzen",
+      "role": "",
+      "ward": "Ward 6",
+      "since": "",
+      "portrait": "",
+      "email": "henry@mackenziecounty.com",
+      "phone": "780.502.3775",
+      "committees": [
+        "Agricultural Appeal Board",
+        "Boreal Housing Foundation",
+        "Community Services Committee",
+        "Flood Recovery Steering Committee",
+        "Mackenzie Applied Research Association (MARA)",
+        "Northwest Species at Risk (NWSAR) (alt)",
+        "Rural Health Professions Action Plan (RhPAP)",
+        "Veterinary Services Incorporated (VSI)"
+      ]
+    },
+    {
+      "name": "Cameron Cardinal",
+      "role": "",
+      "ward": "Ward 7",
+      "since": "",
+      "portrait": "",
+      "email": "cameron@mackenziecounty.com",
+      "phone": "780.841.5119",
+      "committees": [
+        "Agricultural Appeal Board",
+        "Alberta Health Regional Advisory Councils 1",
+        "Assessment Review Board",
+        "Boreal Housing Foundation",
+        "Community Services Committee",
+        "Flood Recovery Steering Committee",
+        "Mackenzie Frontier Tourist Association (MFTA)",
+        "Mackenzie Library Board",
+        "Mighty Peace Watershed Alliance",
+        "Northern Lakes College CEC – Fort Vermilion",
+        "Northwest Species at Risk (NWSAR)",
+        "Rural Health Professions Action Plan (RhPAP)",
+        "Subdivision & Development Appeal Board",
+        "Upper Hay Regional Forests Public Advisory Committee (PAC)"
+      ]
+    },
+    {
+      "name": "Kim Bancarz",
+      "role": "",
+      "ward": "Ward 8",
+      "since": "",
+      "portrait": "",
+      "email": "kim@mackenziecounty.com",
+      "phone": "780.285.4695",
+      "committees": [
+        "Joint Steering Committee (Ad-Hoc)",
+        "Mackenzie Regional Waste Management Commission",
+        "Northern Lakes College CEC – High Level",
+        "Veterinary Services Incorporated (VSI) (alt)"
+      ]
+    },
+    {
+      "name": "Lisa Wardley",
+      "role": "",
+      "ward": "Ward 9",
+      "since": "",
+      "portrait": "",
+      "email": "lisa@mackenziecounty.com",
+      "phone": "780.841.5799",
+      "committees": [
+        "Agricultural Appeal Board",
+        "Alberta Health – Regional Advisory Councils 1",
+        "Assessment Review Board",
+        "Boreal Housing Foundation",
+        "Community Services Committee",
+        "Forest Capital of Canada",
+        "Hay Zama Committee",
+        "Inter-Municipal Subdivision & Development Appeal Board",
+        "Joint Steering Committee (Ad-Hoc)",
+        "Mackenzie Frontier Tourist Association (MFTA)",
+        "Mackenzie Library Board",
+        "Northwest Species at Risk (NWSAR)",
+        "Regional Economic Development Initiative (REDI)",
+        "Subdivision & Development Appeal Board",
+        "The Northern Lights Forest Education Society",
+        "Upper Hay Regional Forests Public Advisory Committee (PAC)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://mackenziecounty.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Stony Plain",
+  "geoname": "TOWN OF STONY PLAIN",
+  "type": "Town",
+  "mayor": {
+    "name": "William Choy",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "wchoy@stonyplain.com"
+  },
+  "council": [
+    {
+      "name": "Justin Anderson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "janderson@stonyplain.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Justin Laurie",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jlaurie@stonyplain.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Melanie Loyns",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mloyns@stonyplain.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Eric Meyer",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "emeyer@stonyplain.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Miranda Niebergall",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mniebergall@stonyplain.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Harold Pawlechko",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "hpawlechko@stonyplain.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.stonyplain.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

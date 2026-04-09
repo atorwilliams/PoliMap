@@ -1,0 +1,154 @@
+{
+  "name": "Vegreville",
+  "geoname": "TOWN OF VEGREVILLE",
+  "type": "Town",
+  "mayor": {
+    "name": "Tim MacPhee",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": " tmacphee@vegreville.com",
+    "committees": [
+      "Legislative Committee",
+      "CAO Evaluation Committee",
+      "Northeast Alberta Information HUB",
+      "Crossroads Economic Development Alliance",
+      "Land Use Committee",
+      "Intermunicipal Committee",
+      "John S. Batiuk Regional Water Commission"
+    ]
+  },
+  "council": [
+    {
+      "name": "Taneen Rudyk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " trudyk@vegreville.com",
+      "phone": "",
+      "committees": [
+        "Legislative Committee",
+        "M.D. of Minburn Foundation",
+        "CAO Evaluation Committee",
+        "Vegreville Library Board",
+        "Vegreville Transportation Services Society",
+        "Subdivision & Development Appeal Board",
+        "Land Use Committee",
+        "Northern Lights Library System Board (Alternate)",
+        "Vegreville Attraction and Retention Committee (Alternate)"
+      ]
+    },
+    {
+      "name": "Jerrold Lemko",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jlemko@vegreville.com",
+      "phone": "",
+      "committees": [
+        "Legislative Committee",
+        "M.D. of Minburn Foundation",
+        "Municipal Policing Committee",
+        "Vegreville Cultural Association",
+        "Ad-hoc Transportation Committee",
+        "Subdivision Authority",
+        "Inter Municipal Committee",
+        "Northeast Alberta Information HUB (Alternate)",
+        "Vegreville & District Chambers of Commerce (Alternate)",
+        "Regional Emergency Advisory Committee (Alternate)"
+      ]
+    },
+    {
+      "name": "Justin Curtis",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jcurtis@vegreville.com",
+      "phone": "",
+      "committees": [
+        "Legislative Committee",
+        "CAO Evaluation Committee",
+        "Council Remuneration Committee",
+        "Regional Emergency Advisory Committee",
+        "Municipal Policing Committee",
+        "Subdivision Authority Board",
+        "Land Use Committee",
+        "Inter Municipal Committee",
+        "Vermilion River Watershed Alliance Committee",
+        "Crossroads Economic Development Alliance (Alternate)",
+        "John S. Batiuk Regional Water Commission (Alternate)"
+      ]
+    },
+    {
+      "name": "Marielle Brodziak",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mbrodziak@vegreville.com",
+      "phone": "",
+      "committees": [
+        "Legislative Committee",
+        "Council Remuneration Committee",
+        "Municipal Policing Committee",
+        "Community Association For Lasting Success (CALS) Board",
+        "St. Joseph's General Hospital Community Board",
+        "Vegreville Attraction and Retention Committee",
+        "Subdivision Authority",
+        "Land Use Committee (Alternate)",
+        "Inter Municipal Committee (Alternate)"
+      ]
+    },
+    {
+      "name": "Lisa Gegolick",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "lgegolick@vegreville.com",
+      "phone": "",
+      "committees": [
+        "Legislative Committee",
+        "Vegreville & District Chambers of Commerce",
+        "Community Futures Elk Island Region",
+        "Vegreville Tourism Advisory Board",
+        "Vegreville & District FCSS Advisory Board",
+        "Vegreville Library Board",
+        "Northern Lights Library System Board",
+        "Subdivision & Development Appeal Board (Alternate)"
+      ]
+    },
+    {
+      "name": "Colby Warawa",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cwarawa@vegreville.com",
+      "phone": "",
+      "committees": [
+        "Legislative Committee",
+        "Vegreville Tourism Advisory Board",
+        "Go East of Edmonton Regional Tourism Organization",
+        "Vegreville Agricultural Society",
+        "Municipal Policing Committee",
+        "Vegreville & District FCSS Advisory Board",
+        "VegMin Learning Society",
+        "Ad-hoc Transportation Committee",
+        "Subdivision Authority (Alternate)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://vegreville.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

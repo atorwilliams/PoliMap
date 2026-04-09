@@ -1,0 +1,43 @@
+{
+  "name": "Waiparous",
+  "geoname": "S.V. of WAIPAROUS",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Cheryl Wauthier",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayor@waiparous.ca"
+  },
+  "council": [
+    {
+      "name": "Michael LeBlanc",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "deputymayor@waiparous.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Michael Parker",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councilor@waiparous.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://waiparous.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

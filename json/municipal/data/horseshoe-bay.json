@@ -1,0 +1,33 @@
+{
+  "name": "Horseshoe Bay",
+  "geoname": "S.V. of HORSESHOE BAY",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Dave Amyotte",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "dave@amyotteweld.ca"
+  },
+  "council": [
+    {
+      "name": "Marg Laberge",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "labergegm@gmail.com",
+      "phone": "(780)614-4168",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

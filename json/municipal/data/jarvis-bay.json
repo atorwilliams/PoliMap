@@ -1,0 +1,44 @@
+{
+  "name": "Jarvis Bay",
+  "geoname": "S.V. of JARVIS BAY",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Julie Maplethorpe",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403-304-0446",
+    "email": "jamnrg@telus.net"
+  },
+  "council": [
+    {
+      "name": "John Cuthbertson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jhc.personal@icloud.com",
+      "phone": "403-830-9914",
+      "committees": []
+    },
+    {
+      "name": "David Garratt",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "nolimitservices.inc@gmail.com",
+      "phone": "780-817-1227",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "http://www.sylvansummervillages.ca/jarvis-bay.html",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

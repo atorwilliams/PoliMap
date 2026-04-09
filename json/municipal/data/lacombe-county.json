@@ -1,0 +1,109 @@
+{
+  "name": "Lacombe County",
+  "geoname": "LACOMBE COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "John Ireland",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "403-392-3981",
+    "committees": [
+      "Agricultural Service Board",
+      "Municipal Planning Commission",
+      "Red Deer River Municipal Users Group",
+      "North Red Deer River Water/Wastewater Commission"
+    ]
+  },
+  "council": [
+    {
+      "name": "Brenda Knight",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "bknight@lacombecounty.com",
+      "phone": "403-788-2168",
+      "committees": [
+        "Agricultural Service Board Provincial Committee (Chair)",
+        "Buffalo Lake Intermunicipal Development Plan Committee (Chair)",
+        "Synergy Alberta (Chair)",
+        "Buffalo Lake Management Team (Vice-Chair)",
+        "Highway 12/21 Water Commission (Chair)"
+      ]
+    },
+    {
+      "name": "Mark Visscher",
+      "role": "",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "mvisscher@lacombecounty.com",
+      "phone": "403-350-4709",
+      "committees": [
+        "Joffre Community Advisory Panel"
+      ]
+    },
+    {
+      "name": "Dwayne West",
+      "role": "Deputy Reeve",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "dwest@lacombecounty.com",
+      "phone": "403-660-2328",
+      "committees": []
+    },
+    {
+      "name": "Roger Van Haren",
+      "role": "",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "rvanharen@lacombecounty.com",
+      "phone": "403-896-9931",
+      "committees": [
+        "Agricultural Service Board (Vice Chair)",
+        "Central Alberta Synergy Group",
+        "Friends of the Blindman River",
+        "Lacombe Regional Tourism & Marketing Association"
+      ]
+    },
+    {
+      "name": "Allan Wilson",
+      "role": "",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "awilson@lacombecounty.com",
+      "phone": "403-506-3735",
+      "committees": []
+    },
+    {
+      "name": "Dana Kreil",
+      "role": "",
+      "ward": "Division 7",
+      "since": "",
+      "portrait": "",
+      "email": "dkreil@lacombecounty.com",
+      "phone": "403-746-3607",
+      "committees": [
+        "Medicine River Crime Watch Society",
+        "Red Deer Regional Restorative Justice Committee",
+        "Eckville Library Board",
+        "Parkland Regional Library Board",
+        "Sylvan Lake Regional Wastewater Commission",
+        "Medicine River Watershed Society Board"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "John Ireland serves until October 2026 as Reeve. Dwayne West serves as Deputy Reeve until October 2026.",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

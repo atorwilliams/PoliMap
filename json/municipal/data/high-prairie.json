@@ -1,0 +1,135 @@
+{
+  "name": "High Prairie",
+  "geoname": "TOWN OF HIGH PRAIRIE",
+  "type": "Town",
+  "mayor": {
+    "name": "Daniel Vandermeulen",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-523-8469",
+    "email": "mayor@highprairie.ca",
+    "committees": [
+      "Committee of the Whole",
+      "Regional Emergency Advisory Committee",
+      "Inter - Municipal Committee",
+      "Budget Review Committee (Library)",
+      "Budget Review Committee (Fire)",
+      "Northern Alberta Mayor and Reeves Caucus (NAMRC)",
+      "Alberta North Central Alliance",
+      "Joint Health Professionals Attraction and Retention Committee",
+      "Regional Emergency Management Partnership"
+    ]
+  },
+  "council": [
+    {
+      "name": "Brian Martinson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bmartinson@highprairie.ca ",
+      "phone": "780-570-7566",
+      "committees": [
+        "Committee of the Whole",
+        "Inter - Municipal Committee",
+        "Budget Review Committee ( Library )",
+        "Budget Review Committee ( Fire )",
+        "Northern Alberta Mayor and Reeves Caucus (NAMRC)",
+        "Airport Advisory Committee",
+        "Big Lakes Family and Community Support Services",
+        "Northern Alberta Elected Leaders ( NAEL )",
+        "Joint Health Professional Attraction and Retention Committee",
+        "Slave Lake Regional Tourism"
+      ]
+    },
+    {
+      "name": "Bryce Shunter",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " bshunter@highprairie.ca",
+      "phone": " 780-523-0967",
+      "committees": [
+        "Committee of the Whole",
+        "Joint Recreation Committee",
+        "Big Lakes Family and Community Support Services",
+        "Mackenzie Municipal Services Agency Board",
+        "High Prairie Chamber of Commerce"
+      ]
+    },
+    {
+      "name": "Carol Hanlon",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "chanlon@highprairie.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole",
+        "Children's Resource Council",
+        "High Prairie Aboriginal Inter Agency Committee"
+      ]
+    },
+    {
+      "name": "David Temple",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dtemple@highprairie.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole",
+        "Municipal Planning Commission",
+        "Joint Recreation Committee",
+        "Airport Advisory Committee",
+        "Community Education Committee"
+      ]
+    },
+    {
+      "name": "Dennis Porisky",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dporisky@highprairie.ca",
+      "phone": "780-523-0900",
+      "committees": [
+        "Committee of the Whole",
+        "Inter - Municipal Committee",
+        "Lesser Slave Watershed Council",
+        "High Prairie and District Waste Management Authority",
+        "Forest Resource Advisory Committee (FRAC)"
+      ]
+    },
+    {
+      "name": "Hermann Minderlein",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "hminderlein@highprairie.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole",
+        "Municipal Planning Commission",
+        "High Prairie Municipal Library Board",
+        "Peace Library Board",
+        "Heart River Foundation",
+        "Regional Emergency Management Partnership"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Milo",
+  "geoname": "VILLAGE OF MILO",
+  "type": "Village",
+  "mayor": {
+    "name": "Scott Schroeder",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "(403) 599-3883",
+    "email": "sschroeder@villageofmilo.ca"
+  },
+  "council": [
+    {
+      "name": "Rory Lahd",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rlahd@villageofmilo.ca",
+      "phone": "(403) 599-3883",
+      "committees": []
+    },
+    {
+      "name": "Doug Headrick",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dheadrick@villageofmilo.ca",
+      "phone": "(403) 599-3883",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.villageofmilo.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

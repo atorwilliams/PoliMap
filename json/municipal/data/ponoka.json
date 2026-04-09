@@ -1,0 +1,84 @@
+{
+  "name": "Ponoka",
+  "geoname": "TOWN OF PONOKA",
+  "type": "Town",
+  "mayor": {
+    "name": "Kevin Ferguson",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "kevin.ferguson@ponoka.ca",
+    "phone": "403-913-4211 "
+  },
+  "council": [
+    {
+      "name": "Cal David",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cal.david@ponoka.ca",
+      "phone": "403-913-4784 ",
+      "committees": []
+    },
+    {
+      "name": "Carla Lloyd",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "carla.lloyd@ponoka.ca",
+      "phone": "403-913-5651 ",
+      "committees": []
+    },
+    {
+      "name": "Sandra Lyon",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sandra.lyon@ponoka.ca",
+      "phone": "403-913-4726 ",
+      "committees": []
+    },
+    {
+      "name": "Clayton Nelson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "clayton.nelson@ponoka.ca",
+      "phone": "403-913-5274 ",
+      "committees": []
+    },
+    {
+      "name": "Katherine Steblyk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "katherine.steblyk@ponoka.ca",
+      "phone": "403-913-4033 ",
+      "committees": []
+    },
+    {
+      "name": "Teri Underhill",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "teri.underhill@ponoka.ca",
+      "phone": "403-913-4728 ",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.ponoka.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

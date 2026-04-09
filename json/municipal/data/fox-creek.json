@@ -1,0 +1,124 @@
+{
+  "name": "Fox Creek",
+  "geoname": "TOWN OF FOX CREEK",
+  "type": "Town",
+  "mayor": {
+    "name": "Gilmour",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Intermunicipal Collaboration Framework (ICF)",
+      "Subdivision and Development Appeal Board",
+      "Family & Community Support Services (FCSS)",
+      "Heart River Foundation",
+      "Northern Alberta Elected Leaders",
+      "Reside Selection Committee for the Rural Health Professions Action Plan (RhPAP)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Doran",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Subdivision and Development Appeal Board",
+        "Alberta C.A.R.E",
+        "Golden Triangle Board",
+        "Peace Airshed Zone Association",
+        "Whitecourt Regional Forest Advisory Committee & Canfor Advisory Committee"
+      ]
+    },
+    {
+      "name": "George",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Intermunicipal Collaboration Framework (ICF)",
+        "Fox Creek Synergy Group",
+        "Greenview Waste Management Commission",
+        "Whitecourt Regional Forest Advisory Committee & Canfor Advisory Committee"
+      ]
+    },
+    {
+      "name": "Hudson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "(Alternate) Municipal Planning Commission (MPC)",
+        "Alberta C.A.R.E",
+        "Community Futures Yellowhead East",
+        "Greenview Waste Management Commission"
+      ]
+    },
+    {
+      "name": "Lamb",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Arne Vaadeland Volunteer of the Year Award Selection Committee",
+        "Municipal Planning Commission (MPC)",
+        "Fox Creek Synergy Group",
+        "(Alternate) Golden Triangle Board",
+        "(Alternate) Greenview Waste Management Commission"
+      ]
+    },
+    {
+      "name": "Norman",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Legacy Scholarship Committee",
+        "(Alternate) Alberta C.A.R.E",
+        "(Alternate) Family & Community Support Services (FCSS)",
+        "Fox Creek Library Board",
+        "Peace Library Board"
+      ]
+    },
+    {
+      "name": "Thesen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Legacy Scholarship Committee",
+        "Municipal Planning Commission (MPC)",
+        "Fox Creek Community Education Committee",
+        "(Alternate) Fox Creek Synergy Group",
+        "(Alternate) Peace Airshed Zone Association"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Alexis Cardinal River Indian Reserve #234",
+  "geoname": "ALEXIS CARDINAL RIVER INDIAN RESERVE #234",
+  "type": "Metis Settlement / First Nation",
+  "mayor": {
+    "name": "Tony Alexis",
+    "portrait": "",
+    "since": "",
+    "title": "Chief",
+    "email": "chief@ansn.ca"
+  },
+  "council": [
+    {
+      "name": "Cameron Alexis",
+      "role": "",
+      "ward": "Justice & Emergency Management",
+      "since": "",
+      "portrait": "",
+      "email": "cameron.alexis@ansn.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Tina Cardinal",
+      "role": "Band Councillor",
+      "ward": "Education & Social Development",
+      "since": "",
+      "portrait": "",
+      "email": "tina.cardinal@ansn.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Darwin Alexis",
+      "role": "Band Councillor",
+      "ward": "Language and Heritage & ISETS",
+      "since": "",
+      "portrait": "",
+      "email": "darwin.alexis@ansn.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Dwayne Alexis",
+      "role": "Band Councillor",
+      "ward": "Lands Consultation & Economic Development",
+      "since": "",
+      "portrait": "",
+      "email": "dwayne.alexis@ansn.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Hank Alexis",
+      "role": "Band Councillor",
+      "ward": "Community Wellness & Wakâmne Science",
+      "since": "",
+      "portrait": "",
+      "email": " hank.alexis@ansn.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Darren Kootenay",
+      "role": "Band Councillor",
+      "ward": "Health & Youth Recreation",
+      "since": "",
+      "portrait": "",
+      "email": "darren.kootenay@ansn.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Emily Potts",
+      "role": "Band Councillor",
+      "ward": "Public Works & Child and Family Wellbeing and Prevention Program",
+      "since": "",
+      "portrait": "",
+      "email": "emily.potts@ansn.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

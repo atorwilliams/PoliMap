@@ -1,0 +1,83 @@
+{
+  "name": "Trochu",
+  "geoname": "TOWN OF TROCHU",
+  "type": "Town",
+  "mayor": {
+    "name": "Barry Kletke",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "barry.kletke@townoftrochu.ca"
+  },
+  "council": [
+    {
+      "name": "Chris Reeds",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "chris.reeds@townoftrochu.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Chris Armstrong",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "chris.armstrong@townoftrochu.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Bill Cunningham",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bill.cunningham@townoftrochu.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Cerilo Dela Cruz",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cerilo.delacruz@townoftrochu.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jaime Martel",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jaime.martel@townoftrochu.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Carl Peterson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "carl@townoftrochu.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://town.trochu.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

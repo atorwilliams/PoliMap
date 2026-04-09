@@ -1,0 +1,96 @@
+{
+  "name": "Big Valley",
+  "geoname": "VILLAGE OF BIG VALLEY",
+  "type": "Village",
+  "mayor": {
+    "name": "Clark German",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "cgerman@villageofbigvalley.ca",
+    "committees": [
+      "County of Stettler Housing Authority",
+      "Parkland Community Planning Service",
+      "Stettler Waste Management Authority"
+    ]
+  },
+  "council": [
+    {
+      "name": "Gail Knudson",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "gknudson@villageofbigvalley.ca",
+      "phone": "",
+      "committees": [
+        "County of Stettler Regional Rec Board",
+        "Stettler & District Ambulance Association",
+        "Emergency Advisory Committee",
+        "Heartland Regional Fire"
+      ]
+    },
+    {
+      "name": "Skyla Attfield",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sattfield@villageofbigvalley.ca",
+      "phone": "",
+      "committees": [
+        "County of Stettler Housing Authority",
+        "County of Stettler Regional Rec Board",
+        "Stettler & District Ambulance Association",
+        "Emergency Advisory Committee",
+        "Heartland Regional Fire",
+        "Parkland Community Planning Service",
+        "Stettler Waste Management Authority"
+      ]
+    },
+    {
+      "name": "Elaine Macdonald",
+      "role": "Chief Administrative Officer",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cao@villageofbigvalley.ca",
+      "phone": "",
+      "committees": [
+        "Shirley McLellan Regional Water Services",
+        "Family & Community Support Services",
+        "Parkland Regional Library Services",
+        "Big Valley Municipal Library"
+      ]
+    },
+    {
+      "name": "Tammy Rotvik",
+      "role": "Public Works",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "publicworks@villageofbigvalley.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Tanya Plante",
+      "role": "Administrative Assistant",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "info@villageofbigvalley.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.villageofbigvalley.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

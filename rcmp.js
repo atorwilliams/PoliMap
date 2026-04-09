@@ -38,6 +38,9 @@ function buildCard(officer) {
   const portrait = officer.portrait
     ? `background-image: url('${officer.portrait}'); background-size: cover; background-position: center top;`
     : '';
+  const portraitErrorScript = officer.portrait
+    ? `<img src="${officer.portrait}" style="display:none" onerror="this.closest('.profile-card-front').style.backgroundImage=''; this.closest('.profile-card-front').classList.add('no-portrait');">`
+    : '';
   const appointed = officer.appointedBy
     ? `${officer.appointedBy}${officer.appointingParty ? ` (${officer.appointingParty})` : ''}`
     : '—';
@@ -48,6 +51,7 @@ function buildCard(officer) {
 
         <!-- Front -->
         <div class="profile-card-front${officer.portrait ? '' : ' no-portrait'}" style="${portrait}">
+          ${portraitErrorScript}
           <div class="profile-card-stripe" style="background:${accentColor};"></div>
           <div class="profile-card-front-label">
             <p class="profile-card-name">${name}</p>
@@ -98,11 +102,13 @@ async function loadRCMP() {
   if (!container) return;
 
   container.innerHTML = `
-    <div class="rcmp-command">${level1.map(buildCard).join('')}</div>
-    ${level2.length ? `
-      <h2 class="rcmp-section-heading">District Commanders</h2>
-      <div class="rcmp-districts">${level2.map(buildCard).join('')}</div>
-    ` : ''}
+    <div class="rcmp-org-chart">
+      <div class="rcmp-command">${level1.map(buildCard).join('')}</div>
+      ${level2.length ? `
+        <div class="rcmp-org-line-h"></div>
+        <div class="rcmp-districts">${level2.map(buildCard).join('')}</div>
+      ` : ''}
+    </div>
   `;
 
   container.querySelectorAll('.profile-card').forEach(card => {

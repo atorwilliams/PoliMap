@@ -1,0 +1,83 @@
+{
+  "name": "Innisfail",
+  "geoname": "TOWN OF INNISFAIL",
+  "type": "Town",
+  "mayor": {
+    "name": "Jean Barclay",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "jean.barclay@innisfail.ca"
+  },
+  "council": [
+    {
+      "name": "Jason Heistad",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jason.heistad@innisfail.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Donnie Hill ",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "donnie.hill@innisfail.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Lyle McKellar",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "lyle.mckellar@innisfail.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Shawn Russell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "shawn.russell@innisfail.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Chris Strong",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "chris.strong@innisfail.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Janice Wing",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "janice.wing@innisfail.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

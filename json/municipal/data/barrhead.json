@@ -1,0 +1,122 @@
+{
+  "name": "Barrhead",
+  "geoname": "COUNTY OF BARRHEAD NO. 11",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Ty Assaf",
+    "portrait": "https://barrhead2021.municipalwebsites.ca/UploadFiles/Public/e48321fca112b7ce4a13d0ded895bfb19872f915.jpg",
+    "since": "",
+    "title": "Mayor",
+    "email": "tassaf@barrhead.ca"
+  },
+  "council": [
+    {
+      "name": "Charmaine Botros",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://barrhead2021.municipalwebsites.ca/UploadFiles/Public/b30d9c3ec9555b4efa24655bf2bf53b3f25a822a.jpg",
+      "email": "cbotros@barrhead.ca",
+      "phone": "",
+      "committees": [
+        "Barrhead Attraction & Retention Committee",
+        "Barrhead Regional Airport Committee",
+        "Community Futures Yellowhead East",
+        "Library Board",
+        "Municipal Planning Commission (Alternate)",
+        "Twinning Committee",
+        "Yellowhead Regional Library Board"
+      ]
+    },
+    {
+      "name": "Steven Fylyshtan",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://barrhead2021.municipalwebsites.ca/UploadFiles/Public/5d17d3407488fb16f9d7fa0cab7b0b6f644cd67d.jpg",
+      "email": "sfylyshtan@barrhead.ca",
+      "phone": "",
+      "committees": [
+        "Barrhead Regional Landfill",
+        "Barrhead & District Historical Society",
+        "Barrhead Regional Water Commission (Alternate)",
+        "Capital Region Assessment Services Commission",
+        "Family & Community Support Services Society",
+        "Municipal Planning Commission",
+        "Yellowhead Regional Library Board (Alternate)"
+      ]
+    },
+    {
+      "name": "Dausen Kluin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://barrhead2021.municipalwebsites.ca/UploadFiles/Public/dce5a93dac783a3505b5112295a39ad732af1349.jpg",
+      "email": "dkluin@barrhead.ca",
+      "phone": "",
+      "committees": [
+        "Barrhead Regional Landfill",
+        "Barrhead Accessibility Coalition",
+        "Barrhead Area Regional Crime Coalition (BARCC)",
+        "Barrhead Regional Airport Committee",
+        "Intermunicipal Collaboration Framework Committee (Alternate)"
+      ]
+    },
+    {
+      "name": "Anthony Oswald",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://barrhead2021.municipalwebsites.ca/UploadFiles/Public/53d66420abb07d99a312115b8b002b7e5908f874.jpg",
+      "email": "aoswald@barrhead.ca",
+      "phone": "",
+      "committees": [
+        "Barrhead Exhibition Association & Agricultural Society",
+        "Barrhead & District Chamber of Commerce",
+        "Barrhead & District Family & Community Support Services Society",
+        "Municipal Planning Commission",
+        "Barrhead Regional Water Commission"
+      ]
+    },
+    {
+      "name": "Dave Sawatzky",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://barrhead2021.municipalwebsites.ca/UploadFiles/Public/d89c1f1173ec7a81795976f1fdfc1bf69ef58fe4.jpg",
+      "email": "dsawatzky@barrhead.ca",
+      "phone": "",
+      "committees": [
+        "Barrhead Exhibition Association & Agricultural Society",
+        "Barrhead Regional Fire Services",
+        "Intermunicipal Collaboration Framework Committee",
+        "Municipal Planning Commission"
+      ]
+    },
+    {
+      "name": "Don Smith",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://barrhead2021.municipalwebsites.ca/UploadFiles/Public/ca03af8ae394109232d0fb35a309b28dd1f17585.jpg",
+      "email": "dsmith@barrhead.ca",
+      "phone": "",
+      "committees": [
+        "Barrhead & District Social Housing Authority",
+        "Barrhead Regional Fire Services",
+        "Barrhead Regional Water Commission",
+        "Intermunicipal Collaboration Framework Committee",
+        "Subdivision & Development Appeal Board"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.barrhead.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

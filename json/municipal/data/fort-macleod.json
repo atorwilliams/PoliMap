@@ -1,0 +1,104 @@
+{
+  "name": "Fort Macleod",
+  "geoname": "TOWN OF FORT MACLEOD",
+  "type": "Town",
+  "mayor": {
+    "name": "Brent Feyter",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "brent.feyter@fortmacleod.com"
+  },
+  "council": [
+    {
+      "name": "Christina Fox",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "christina.fox@fortmacleod.com",
+      "phone": "",
+      "committees": [
+        "Environment Committee - Alternate",
+        "Fort Macleod & District Library Board",
+        "Fort Macleod Housing Committee",
+        "Willow Creek Foundation"
+      ]
+    },
+    {
+      "name": "Jim Monteith",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jim.monteith@fortmacleod.com",
+      "phone": "",
+      "committees": [
+        "Fort Macleod Housing Committee",
+        "Willow Creek Foundation"
+      ]
+    },
+    {
+      "name": "David Orr",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "david.orr@fortmacleod.com",
+      "phone": "",
+      "committees": [
+        "Diversity & Inclusion Committee",
+        "Family & Community Support Services (FCSS)",
+        "Municipal Planning Commission (MPC)"
+      ]
+    },
+    {
+      "name": "Jeemeet Patel",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jeemeet.patel@fortmacleod.com",
+      "phone": "",
+      "committees": [
+        "Built Heritage Advisory Board (BHAB)",
+        "Municipal Planning Commission (MPC)"
+      ]
+    },
+    {
+      "name": "Shawn Patience",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "shawn.patience@fortmacleod.com",
+      "phone": "",
+      "committees": [
+        "Built Heritage Advisory Board (BHAB)",
+        "Environment Committee",
+        "Municipal Planning Commission (MPC)"
+      ]
+    },
+    {
+      "name": "Aaron Poytress",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "aaron.poytress@fortmacleod.com",
+      "phone": "",
+      "committees": [
+        "Built Heritage Advisory Board (BHAB) - Alternate"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.fortmacleod.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,142 @@
+{
+  "name": "Vulcan",
+  "geoname": "TOWN OF VULCAN",
+  "type": "Town",
+  "mayor": {
+    "name": "Tom Grant",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403-485-2417",
+    "email": "tgrant@townofvulcan.ca",
+    "committees": [
+      "Seniors Housing Committee",
+      "Mayors and Reeves",
+      "Southern Alberta Energy from Waste Association",
+      "Vulcan Area Public & Petroleum Association",
+      "Healthcare Attraction and Retention Committee – Alternate",
+      "Twin Valley Regional Water Commission - Alternate",
+      "Southern Alberta Senior Protect Society - Alternate",
+      "Vulcan District Solid Waste Commission - Alternate",
+      "Vulcan Region Healthcare Grant Committee - Alternate"
+    ]
+  },
+  "council": [
+    {
+      "name": "Dwayne Hill",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dhill@townofvulcan.ca",
+      "phone": "403-485-2417",
+      "committees": [
+        "Municipal Planning Commission",
+        "Foothills Regional Emergency Services Commission",
+        "Southern Alberta Senior Protect Society",
+        "Vulcan County Health and Wellness Foundation",
+        "Vulcan District Solid Waste Commission",
+        "Vulcan Flying Club",
+        "SouthGrow Regional Initiative - Alternate",
+        "Southern Alberta Energy from Waste Association - Alternate"
+      ]
+    },
+    {
+      "name": "Richard DeBolt",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rdebolt@townofvulcan.ca",
+      "phone": "403-485-2417",
+      "committees": [
+        "Oldman River Regional Service Commission",
+        "Chinook intermunicipal Subdivision & Development Appeal Board",
+        "Twin Valley Regional Water Commission",
+        "Vulcan & District Fire Committee",
+        "Municipal Planning Commission – Alternate",
+        "Palliser Joint Use Policy and Advisory Board – Alternate",
+        "Vulcan Flying Club"
+      ]
+    },
+    {
+      "name": "Judy Sanderson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jsanderson@townofvulcan.ca",
+      "phone": "403-485-2417",
+      "committees": [
+        "Seniors Housing Committee",
+        "Family and Community Support Services",
+        "Marquis Foundation",
+        "Municipal Planning Commission"
+      ]
+    },
+    {
+      "name": "Cole Dunham",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cdunham@townofvulcan.ca",
+      "phone": "403-485-2417",
+      "committees": [
+        "FuturVille Local Community Activation Committee",
+        "Chinook Intermunicipal Subdivision & Development Appeal Board",
+        "Vulcan Golf and Country Club",
+        "Twin Valley Regional Water Commission",
+        "Inter-Municipal Development Plan Committee - Alternate",
+        "Oldman River Regional Services Commission - Alternate",
+        "Vulcan Area Public and Petroleum Association - Alternate"
+      ]
+    },
+    {
+      "name": "Chris Mitchell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cmitchell@townofvulcan.ca",
+      "phone": "403-485-2417",
+      "committees": [
+        "Inter-Municipal Development Plan",
+        "SouthGrow Regional Initiative",
+        "FuturVille Local Community Activation Committee - Alternate\\",
+        "Marquis Foundation - Alternate",
+        "Vulcan County Regional Emergency Advisory - Alternate",
+        "Vulcan Golf and Country Club - Alternate"
+      ]
+    },
+    {
+      "name": "Chantele DeBolt",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cdebolt@townofvulcan.ca",
+      "phone": "403-485-2417",
+      "committees": [
+        "Healthcare Attraction and Retention Committee",
+        "Palliser Joint Use Policy and Advisory Board",
+        "Vulcan County Regional Emergency Advisory Board",
+        "Vulcan Library Board",
+        "Vulcan Region Healthcare Grant Committee",
+        "Seniors Housing Building Committee - Alternate",
+        "Vulcan District Fire Committee - Alternate",
+        "Family and Community Support Services - Alternate",
+        "Foothills Regional Emergency Services Commission - Alternate"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.townofvulcan.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

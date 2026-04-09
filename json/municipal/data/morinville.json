@@ -1,0 +1,152 @@
+{
+  "name": "Morinville",
+  "geoname": "TOWN OF MORINVILLE",
+  "type": "Town",
+  "mayor": {
+    "name": "Simon Boersma",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Agricultural Pest Act Control Committee",
+      "Chief Administrative Officer Recruitment and Evaluation Committee",
+      "Edmonton Global Shareholder Group",
+      "Emergency Management Committee",
+      "Morinville - St. Albert Constituency, Transportation & Infrastructure Committee",
+      "Morinville/Sturgeon County Intermunicipal Affairs Committee",
+      "Sturgeon Regional Partnership Committee",
+      "Weed Control Act Appeal Committee",
+      "Also “ex officio” member of all other Town of Morinville Committees"
+    ],
+    "phone": "780-939-7853"
+  },
+  "council": [
+    {
+      "name": "Nathan Himschoot",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Agricultural Pests Act Appeal Committee",
+        "Edmonton Global Shareholder Group",
+        "Emergency Management Committee",
+        "Edmonton Region Waste Advisory Committee",
+        "Morinville & District Chamber of Commerce",
+        "Morinville / Sturgeon County Intermunicipal Affairs Committee",
+        "Northern Lights Library System",
+        "Sturgeon River Watershed Alliance",
+        "Weed Control Act Appeal Committee"
+      ]
+    },
+    {
+      "name": "Jenn Anheliger",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Alexander First Nation / Town of Morinville Joint Partnership Task Force",
+        "Agricultural Pest Act Control Committee",
+        "Arrow Utilities Board of Directors",
+        "Assessment Review Board",
+        "Chief Administrative Officer Recruitment and Evaluation Committee",
+        "Emergency Management Committee",
+        "Morinville/Sturgeon County Intermunicipal Affairs Committee",
+        "Northern Lights Library System",
+        "Roseridge Waste Management Services Commission",
+        "Weed Control Act Appeal Committee"
+      ]
+    },
+    {
+      "name": " Daryn Duliba",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Agricultural Pests Act Appeal Committee",
+        "Emergency Management Committee",
+        "Morinville / Sturgeon County Intermunicipal Affairs Committee",
+        "Morinville & District Chamber of Commerce",
+        "Policing Committee",
+        "Roseridge Waste Management Services Commission",
+        "Sturgeon River Watershed Alliance",
+        "Weed Control Act Appeal Committee"
+      ]
+    },
+    {
+      "name": "Lisa Parenteau",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Agricultural Pests Act Appeal Committee",
+        "Community Services Advisory Committee",
+        "Emergency Management Committee",
+        "Morinville Historical & Cultural Society",
+        "Morinville Public Library Board",
+        "Morinville / Sturgeon County Intermunicipal Affairs Committee",
+        "Weed Control Act Appeal Committee"
+      ]
+    },
+    {
+      "name": "Maurice St. Denis",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Agricultural Pest Act Control Committee",
+        "Alexander First Nation / Town of Morinville Joint Partnership Task Force",
+        "Chief Administrative Officer Recruitment and Evaluation Committee",
+        "Community Services Advisory Committee",
+        "Emergency Management Committee",
+        "Homeland Housing",
+        "Morinville/Sturgeon County Intermunicipal Affairs Committee",
+        "Sturgeon Regional Emergency Management Partnership",
+        "Subdivision and Development Appeal Board",
+        "Weed Control Act Appeal Committee"
+      ]
+    },
+    {
+      "name": "Jayson Wood",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Agricultural Pests Act Appeal Committee",
+        "Assessment Review Board",
+        "Edmonton Salutes Committee",
+        "Emergency Management Committee",
+        "Morinville / Sturgeon County Intermunicipal Affairs Committee",
+        "Sturgeon Regional Emergency Management Partnership",
+        "Subdivision and Development Appeal Board",
+        "Weed Control Act Appeal Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.morinville.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

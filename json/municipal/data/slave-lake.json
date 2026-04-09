@@ -1,0 +1,153 @@
+{
+  "name": "Slave Lake",
+  "geoname": "TOWN OF SLAVE LAKE",
+  "type": "Town",
+  "mayor": {
+    "name": "Francesca Ward",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "Frankie@slavelake.ca",
+    "phone": "780-849-8000",
+    "committees": [
+      "Tri-Council",
+      "Disaster Services Committee",
+      "Inter-Municipal Committee",
+      "Slave lake District Chamber of Commerce",
+      "Tri-Council Health Committee",
+      "Community Education Committee",
+      "Municipal Planning Commission",
+      "Protectivee Services Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": " Phone: 780-849-8000 More Information  Shawn Headshot edited Councillor/Deputy Mayor Shawn Gramlich",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "shawn@slavelake.ca",
+      "phone": "780-849-8000",
+      "committees": [
+        "Inter-Municipal Committee",
+        "Tri-Council",
+        "Alberta North Central Alliance",
+        "Lesser Slave Lake Regional Housing Authority",
+        "Naming Advisory Committee",
+        "Slave Lake Airport Commission",
+        "Municipal Planning Commission",
+        "Disaster Services Committee"
+      ]
+    },
+    {
+      "name": "Kimberly Hughes",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Kim@slavelake.ca",
+      "phone": "780-849-8000",
+      "committees": [
+        "Slave Lake Airport Commission",
+        "Slave Lake Reginal Tourism Society",
+        "Inter-Municipal Committee",
+        "Tri-Council Health Committee",
+        "Tri-Council",
+        "Disaster Services Committee"
+      ]
+    },
+    {
+      "name": "Andrew Achoba",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Andrew@slavelake.ca",
+      "phone": "780-849-8000",
+      "committees": [
+        "Lesser Slave Lake Regional Waste Management Services Commission",
+        "Lesser Slave Watershed Council",
+        "Tri-Council",
+        "Tri-Council Health Committee",
+        "Northern Lakes College Community Education Committee (CEC)",
+        "Disaster Services Committee"
+      ]
+    },
+    {
+      "name": "Lynn Bowes",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Lynn.Bowes@slavelake.ca",
+      "phone": "780-849-8000",
+      "committees": [
+        "Inter-Municipal Committee",
+        "Tri-Council Health Committee",
+        "Tri-Council",
+        "Youth Advisory Committee",
+        "Municipal Planning Commission",
+        "Protective Services Committee",
+        "Disaster Services Committee"
+      ]
+    },
+    {
+      "name": "Craig Hudson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Craig.Hudson@slavelake.ca",
+      "phone": "780-849-8000",
+      "committees": [
+        "Tri-Council",
+        "Slave Lake Airport Commission",
+        "Lesser Slave Lake Regional Waste Management Services Commission",
+        "Disaster Services"
+      ]
+    },
+    {
+      "name": "Cindy Williams",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Cindy.Williams@slavelake.ca",
+      "phone": "780-849-8000",
+      "committees": [
+        "Lesser Slave Watershed Council",
+        "Tri-Council",
+        "Slave Lake Library Board",
+        "Peace Library System",
+        "Disaster Services Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.slavelake.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Alex Pavcek",
+      "since": "",
+      "email": "cao@slavelake.ca",
+      "phone": "780-849-8000",
+      "notes": ""
+    },
+    {
+      "role": "Director of Planning and Development",
+      "name": "Joanna Raymond",
+      "since": "",
+      "email": "planning@slavelake.ca",
+      "phone": "780-849-8000",
+      "notes": ""
+    }
+  ]
+}

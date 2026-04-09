@@ -1,0 +1,100 @@
+{
+  "name": "Clive",
+  "geoname": "VILLAGE OF CLIVE",
+  "type": "Village",
+  "mayor": {
+    "name": "Luci Henry",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "lucihenry1@gmail.com",
+    "phone": "403-350-9687",
+    "committees": [
+      "FCSS (Family & Community Support)",
+      "Intermunicipal Collaboration Framework Committee",
+      "Intermunicipal Development Plan Committee",
+      "RCMP Liaison",
+      "LREAC (Lacombe Regional Emergency Advisory)",
+      "CEMAC (Clive’s Emergency Management Advisory Committee)",
+      "Clive School Council",
+      "Little Red Hen Playschool"
+    ]
+  },
+  "council": [
+    {
+      "name": "Tracey Hallman",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Tracey.hallman@outlook.com",
+      "phone": "403-358-9835",
+      "committees": [
+        "AHS (Alberta Health Services) Liaison",
+        "Lacombe Foundation",
+        "MPC (Municipal Planning Commission)",
+        "PCPS – Parkland Community Planning Services",
+        "Neighborhood Revitalization",
+        "Highway12/21 Regional Water Services Commission",
+        "Intermunicipal Collaboration Framework Committee",
+        "Intermunicipal Development Plan Committee"
+      ]
+    },
+    {
+      "name": "Susan Russell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "susanrrussell@outlook.com",
+      "phone": "",
+      "committees": [
+        "MPC (Municipal Planning Commission)",
+        "CEMAC (Clive’s Emergency Management Advisory Committee)",
+        "Clive Hall Board"
+      ]
+    },
+    {
+      "name": "Sarah Fahey",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sarahedunbrack@gmail.com",
+      "phone": "403-896-0984",
+      "committees": [
+        "LRT (Lacombe Regional Tourism)",
+        "LRWSC (Lacombe Regional Waste Services Commission)",
+        "PRLS (Parkland Regional Library System)",
+        "Clive Library Board"
+      ]
+    },
+    {
+      "name": "Dave Nutbrown",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dave.nutbrown@ryscocorrosion.com",
+      "phone": "",
+      "committees": [
+        "CAEP (Central Alberta Economic Partnership)",
+        "Highway12/21 Regional Water Services Commission",
+        "Lacombe County Fire Services Advisory Committee",
+        "MPC (Municipal Planning Commission)",
+        "CEMAC (Clive’s Emergency Management Advisory Committee)",
+        "Clive Athletic and Agriculture Society",
+        "Clive Volunteer Fire Department"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://clive.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

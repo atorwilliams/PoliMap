@@ -1,0 +1,43 @@
+{
+  "name": "Sunrise Beach",
+  "geoname": "S.V. of SUNRISE BEACH",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "\tBrian Benning",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "\tbrian@svsunrisebeach.ca"
+  },
+  "council": [
+    {
+      "name": "John Fowler",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "\tjohn@svsunrisebeach.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Mike Benson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mike@svsunrisebeach.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.summervillageofsunrisebeach.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

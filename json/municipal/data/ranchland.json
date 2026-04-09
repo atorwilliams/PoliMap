@@ -1,0 +1,43 @@
+{
+  "name": "Ranchland",
+  "geoname": "MUNICIPAL DISTRICT OF RANCHLAND NO. 66",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Ron Davis",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "rdavis@ranchland66.com"
+  },
+  "council": [
+    {
+      "name": "Harry Streeter",
+      "role": "Deputy Reeve",
+      "ward": "Ward Two",
+      "since": "",
+      "portrait": "",
+      "email": "hstreeter@ranchland66.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Cam Gardner",
+      "role": "",
+      "ward": "Ward Three",
+      "since": "",
+      "portrait": "",
+      "email": "cgardner@ranchland66.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://mdranchland.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

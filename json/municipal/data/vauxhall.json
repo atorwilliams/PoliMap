@@ -1,0 +1,129 @@
+{
+  "name": "Vauxhall",
+  "geoname": "TOWN OF VAUXHALL",
+  "type": "Town",
+  "mayor": {
+    "name": "Kimberley Cawley",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "kcawley@town.vauxhall.ab.ca",
+    "committees": [
+      "Chinook Intermunicipal Subdivision & Development Appeal Board",
+      "Vauxhall Public Library Board",
+      "Public Information Officer – Emergency Management Plan",
+      "Inter-municipal Collaboration Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Marilyn Forchuk",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mforchuk@town.vauxhall.ab.ca",
+      "phone": "",
+      "committees": [
+        "Municipal Planning Commission",
+        "Vauxhall Public Library Board",
+        "Chinook Arch Library Board",
+        "Taber & District Solid Waste Management Committee",
+        "Policy, Bylaw and Rate Committee",
+        "Inter-municipal Development Authority (as required)"
+      ]
+    },
+    {
+      "name": "Shelley Deleeuw",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sdeleeuw@town.vauxhall.ab.ca",
+      "phone": "",
+      "committees": [
+        "Taber Regional Joint Economic Development Committee",
+        "SouthGrow (Alternate)",
+        "Policy, Bylaw and Rate Committee",
+        "Barons-Eureka-Warner FCSS",
+        "Inter-municipal Collaboration Committee"
+      ]
+    },
+    {
+      "name": "Paul Ballard",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "pballard@town.vauxhall.ab.ca",
+      "phone": "",
+      "committees": [
+        "Taber & District Solid Waste Management Committee",
+        "Taber & District Housing Foundation",
+        "Protective Services Committee",
+        "Vauxhall & District Chamber of Commerce",
+        "Pheasant Festival Committee",
+        "Vauxhall Community Center Advisory Committee"
+      ]
+    },
+    {
+      "name": "Henry Zacharias",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "hzacharias@town.vauxhall.ab.ca",
+      "phone": "",
+      "committees": [
+        "Municipal Planning Commission",
+        "Taber Regional Joint Economic Development Committee",
+        "SouthGrow",
+        "Vauxhall Regional Fire Authority",
+        "Vauxhall Business and Tourism Committee",
+        "Inter-municipal Development Authority (as required)"
+      ]
+    },
+    {
+      "name": "Russell Norris",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rnorris@town.vauxhall.ab.ca",
+      "phone": "",
+      "committees": [
+        "Municipal Planning Commission",
+        "Regional Assessment Review Board",
+        "Vauxhall & District Regional Water Services Commission",
+        "Oldman River Regional Services Commission (ORRSC)",
+        "Inter-municipal Development Authority (as required)"
+      ]
+    },
+    {
+      "name": "Jimmy Wolf",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jwolf@town.vauxhall.ab.ca",
+      "phone": "",
+      "committees": [
+        "Vauxhall Regional Fire Authority",
+        "Veterans Memorial Highway Association",
+        "Vauxhall Business and Tourism Committee",
+        "Vauxhall Community Center Advisory Committee",
+        "Vauxhall Ag Society",
+        "Inter-municipal Collaboration Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://town.vauxhall.ab.ca/wp/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

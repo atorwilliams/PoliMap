@@ -1,0 +1,33 @@
+{
+  "name": "Barons",
+  "geoname": "VILLAGE OF BARONS",
+  "type": "Village",
+  "mayor": {
+    "name": "Kyle Prince",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "kyle.prince@barons.ca"
+  },
+  "council": [
+    {
+      "name": "Belinda Rempel",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "belinda.rempel@barons.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://barons.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

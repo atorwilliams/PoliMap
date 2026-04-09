@@ -1,0 +1,44 @@
+{
+  "name": "Norglenwold",
+  "geoname": "S.V. of NORGLENWOLD",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Rod Miller",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "(403)-606-6379",
+    "email": "rmiller@sylvansummervillages.ca"
+  },
+  "council": [
+    {
+      "name": "Murray Munro",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mmunro@sylvansummervillages.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Cyril Gurevitch",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cgurevitch@sylvansummervillages.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "http://www.sylvansummervillages.ca/norglenwold.html",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Bowden",
+  "geoname": "TOWN OF BOWDEN",
+  "type": "Town",
+  "mayor": {
+    "name": "Laurie Miller ",
+    "portrait": "https://bowden.municipalwebsites.ca/UploadFiles/Public/22864d6b9450831cf9c5abdf541798d7c764fa5b.jpg",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Randy Brown ",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Municipal Planning Commission",
+        "Economic Development Committee",
+        "Intermunicipal Development Committee",
+        "Bylaw Enforcement & Development Control Committee",
+        "Central Alberta Economic Partnership",
+        "Central Alberta Regional Waste Management Commission",
+        "South Red Deer Regional Wastewater Commission"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.bowden.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

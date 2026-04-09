@@ -1,0 +1,87 @@
+{
+  "name": "Devon",
+  "geoname": "TOWN OF DEVON",
+  "type": "Town",
+  "mayor": {
+    "name": "Jeff Craddock",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayorcraddock@devon.ca",
+    "committees": [
+      "Federation of Gas Co-ops AGM Delegate",
+      "Intermunicipal Development Plan - Town of Devon"
+    ]
+  },
+  "council": [
+    {
+      "name": "Brian Bowles",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "BBowles@devon.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Gurk Dhanoa",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "GDhanoa@devon.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Ben Gronberg",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "BGronberg@devon.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Dale Babuik",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "DBabuik@devon.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Mike Hanly",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "MHanly@devon.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kayla Fitzpatrick",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "KFitzpatrick@devon.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.devon.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Smoky Lake County",
+  "geoname": "SMOKY LAKE COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Craig Lukinuk",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "780-650-5440",
+    "email": "clukinuk@smokylakecounty.ab.ca"
+  },
+  "council": [
+    {
+      "name": "Lorne Halisky",
+      "role": "Deputy Reeve",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "lhalisky@smokylakecounty.ab.ca",
+      "phone": "780-650-5401",
+      "committees": []
+    },
+    {
+      "name": "Ryan Barker",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "rbarker@smokylakecounty.ab.ca",
+      "phone": "780-668-6869",
+      "committees": []
+    },
+    {
+      "name": "David Kully ",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "dkully@smokylakecounty.ab.ca",
+      "phone": "780-650-5444",
+      "committees": []
+    },
+    {
+      "name": "Jered Serben",
+      "role": "",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "jserben@smokylakecounty.ab.ca",
+      "phone": "780-656-5244",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.smokylakecounty.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

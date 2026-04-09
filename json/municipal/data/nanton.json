@@ -1,0 +1,112 @@
+{
+  "name": "Nanton",
+  "geoname": "TOWN OF NANTON",
+  "type": "Town",
+  "mayor": {
+    "name": "Jennifer Handley",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "jhandley@nanton.ca"
+  },
+  "council": [
+    {
+      "name": "Dave Mitchell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dmitchell@nanton.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Erin Shields",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "eshields@nanton.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jennie McMasters",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jmcmasters@nanton.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "John Dozeman",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "403-646-2526",
+      "committees": []
+    },
+    {
+      "name": "Ken Sorenson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ksorenson@nanton.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Roger Miller",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rmiller@nanton.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Shauna Strong",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sstrong@nanton.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Victor Czop",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "vczop@nanton.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.nanton.ca/",
+  "notes": "contact via: https://www.nanton.ca/government/council-and-committees/connect-council",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Tara Vandervalk",
+      "since": "",
+      "email": "cao@nanton.ca",
+      "phone": "403-646-2029",
+      "notes": ""
+    }
+  ]
+}

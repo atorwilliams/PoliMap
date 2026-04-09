@@ -1,0 +1,84 @@
+{
+  "name": "Northern Lights",
+  "geoname": "COUNTY OF NORTHERN LIGHTS",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Terry Ungarian",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "780-836-5264",
+    "email": "ungariant@countyofnorthernlights.com"
+  },
+  "council": [
+    {
+      "name": "Gary These",
+      "role": "",
+      "ward": "Ward 1: Weberville-Stewart",
+      "since": "",
+      "portrait": "",
+      "email": "theseg@countyofnorthernlights.com",
+      "phone": "780-625-6668",
+      "committees": []
+    },
+    {
+      "name": "Kayln Schug",
+      "role": "Deputy Reeve",
+      "ward": "Ward 2: Warrensville-Lac Cardinal",
+      "since": "",
+      "portrait": "",
+      "email": "schugk@countyofnorthernlights.com",
+      "phone": "780-625-7694",
+      "committees": []
+    },
+    {
+      "name": "Brenda Yasinski",
+      "role": "",
+      "ward": "Ward 3: Dixonville-Chinook Valley",
+      "since": "",
+      "portrait": "",
+      "email": "yasinskib@countyofnorthernlights.com",
+      "phone": "780-618-3543",
+      "committees": []
+    },
+    {
+      "name": "Brent Reese",
+      "role": "",
+      "ward": "Ward 4: Deadwood-Sunny Valley",
+      "since": "",
+      "portrait": "",
+      "email": "reeseb@countyofnorthernlights.com ",
+      "phone": "780-836-0399",
+      "committees": []
+    },
+    {
+      "name": "Gloria Dechant",
+      "role": "",
+      "ward": "Ward 5: Breaking Point-North Star",
+      "since": "",
+      "portrait": "",
+      "email": "dechantg@countyofnorthernlights.com",
+      "phone": "780-836-6578",
+      "committees": []
+    },
+    {
+      "name": "Linda Halabisky",
+      "role": "",
+      "ward": "Ward 7: Keg River-Carcajou",
+      "since": "",
+      "portrait": "",
+      "email": " halabiskyl@countyofnorthernlights.com",
+      "phone": "780-836-0652",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

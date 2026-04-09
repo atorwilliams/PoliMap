@@ -1,0 +1,94 @@
+{
+  "name": "Hardisty",
+  "geoname": "TOWN OF HARDISTY",
+  "type": "Town",
+  "mayor": {
+    "name": "Brett Baumgartner",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "b.baumgartner@hardisty.ca",
+    "committees": [
+      "Audit and Budget",
+      "Governance and Priorities",
+      "Hardisty Emergency Management Committee",
+      "Public Engagement & Communications",
+      "Transportation and Development",
+      "Subdivision Authority",
+      "Hardisty Fire Department",
+      "(MPC) Town of Hardisty Municipal Planning Commission Alternate",
+      "Board of Directors for (FRESS) Flagstaff Regional Emergency Services Society",
+      "Hardisty Development Group"
+    ]
+  },
+  "council": [
+    {
+      "name": "Wade Kroening",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "w.kroening@hardisty.ca",
+      "phone": "",
+      "committees": [
+        "Audit and Budget",
+        "Governance and Priorities",
+        "Public Engagement and Communications",
+        "Transportation and Development",
+        "Hardisty Emergency Management Committee",
+        "(MPC) Town of Hardisty Municipal Planning Commission",
+        "(FRSWMA) Flagstaff Regional Solid Waste Management Association",
+        "(IDP) Intermunicipal Development & Planning Committee",
+        "Hardisty Development Group"
+      ]
+    },
+    {
+      "name": "Christine Ruzicka-Drager",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "c.ruzicka@hardisty.ca",
+      "phone": "",
+      "committees": [
+        "Audit and Budget",
+        "Governance and Priorities",
+        "Public Engagement & Communications",
+        "Transportation and Development",
+        "Hardisty Public Library Board",
+        "Hardisty Community Hall Board",
+        "(FFCSS) Flagstaff Family Community Support Services",
+        "(BRAED) Battle River Alliance for Economic Development",
+        "Hardisty Lakeview Golf Course",
+        "Hardisty Development Group"
+      ]
+    },
+    {
+      "name": "Julie Pasztor",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "j.pasztor@hardisty.ca",
+      "phone": "",
+      "committees": [
+        "Audit and Budget",
+        "Governance and Priorities",
+        "Public Engagement and Communications",
+        "Transportation and Development",
+        "Water Resources Board",
+        "Flagstaff Regional Housing Group",
+        "FlHAR Flagstaff Health and Retention Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Myrnam",
+  "geoname": "VILLAGE OF MYRNAM",
+  "type": "Village",
+  "mayor": {
+    "name": "Rick Sadowsky",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "rick.sadowsky@myrnam.ca",
+    "phone": "780.907.4788"
+  },
+  "council": [
+    {
+      "name": "Paul Myshaniuk",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "paul.myshaniuk@myrnam.ca",
+      "phone": "780.616.4321",
+      "committees": []
+    },
+    {
+      "name": "Simon Patterson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "simon.patterson@myrnam.ca",
+      "phone": "780.614.4930",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

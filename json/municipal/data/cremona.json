@@ -1,0 +1,87 @@
+{
+  "name": "Cremona",
+  "geoname": "VILLAGE OF CREMONA",
+  "type": "Village",
+  "mayor": {
+    "name": "Craig Lamb",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "clamb@cremona.ca",
+    "committees": [
+      "Mountain View Seniors’ Housing Board",
+      "Mountain View Regional Waste Management Commission (Alternate)",
+      "Cremona Family & Community Support Services Board (Alternate)",
+      "Cremona/Water Valley & District Chamber of Commerce (Alternate)",
+      "Didsbury Community Policing Advisory Committee (Alternate)",
+      "Intermunicipal Collaborative Committee (ICC)",
+      "Mayors & Reeves of Central Alberta",
+      "Mayors of South-Central Alberta"
+    ]
+  },
+  "council": [
+    {
+      "name": "Christina Liu",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cliu@cremona.ca",
+      "phone": "",
+      "committees": [
+        "Cremona Library Board (Council Representative)",
+        "Parkland Regional Library Board (Alternate)",
+        "Intermunicipal Collaborative Committee (ICC)",
+        "Mayors & Reeves of Central Alberta"
+      ]
+    },
+    {
+      "name": "Leslie Abrams",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "labrams@cremona.ca",
+      "phone": "",
+      "committees": [
+        "Cremona & District Recreational & Culture Board (Alternate)",
+        "Cremona Family & Community Support Services Board",
+        "Didsbury Community Policing Advisory Committee"
+      ]
+    },
+    {
+      "name": "Eric Martin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "emartin@cremona.ca",
+      "phone": "",
+      "committees": [
+        "Cremona/Water Valley & District Chamber of Commerce"
+      ]
+    },
+    {
+      "name": "Jennie Thompson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jthompson@cremona.ca",
+      "phone": "",
+      "committees": [
+        "Cremona & District Recreational & Culture Board",
+        "Mountain View Regional Waste Management Commission"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.cremona.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,1914 @@
+{
+  "CITY OF AIRDRIE": {
+    "slug": "airdrie",
+    "type": "City"
+  },
+  "CITY OF BEAUMONT": {
+    "slug": "beaumont",
+    "type": "City"
+  },
+  "CITY OF BROOKS": {
+    "slug": "brooks",
+    "type": "City"
+  },
+  "CITY OF CALGARY": {
+    "slug": "calgary",
+    "type": "City"
+  },
+  "CITY OF CAMROSE": {
+    "slug": "camrose",
+    "type": "City"
+  },
+  "CITY OF EDMONTON": {
+    "slug": "edmonton",
+    "type": "City"
+  },
+  "CITY OF FORT SASKATCHEWAN": {
+    "slug": "fort-saskatchewan",
+    "type": "City"
+  },
+  "CITY OF GRANDE PRAIRIE": {
+    "slug": "grande-prairie",
+    "type": "City"
+  },
+  "CITY OF LACOMBE": {
+    "slug": "lacombe",
+    "type": "City"
+  },
+  "CITY OF LEDUC": {
+    "slug": "leduc",
+    "type": "City"
+  },
+  "CITY OF LETHBRIDGE": {
+    "slug": "lethbridge",
+    "type": "City"
+  },
+  "CITY OF LLOYDMINSTER": {
+    "slug": "lloydminster",
+    "type": "City"
+  },
+  "CITY OF MEDICINE HAT": {
+    "slug": "medicine-hat",
+    "type": "City"
+  },
+  "CITY OF RED DEER": {
+    "slug": "red-deer",
+    "type": "City"
+  },
+  "CITY OF SPRUCE GROVE": {
+    "slug": "spruce-grove",
+    "type": "City"
+  },
+  "CITY OF ST. ALBERT": {
+    "slug": "st-albert",
+    "type": "City"
+  },
+  "CITY OF WETASKIWIN": {
+    "slug": "wetaskiwin",
+    "type": "City"
+  },
+  "CITY OF CHESTERMERE": {
+    "slug": "chestermere",
+    "type": "City"
+  },
+  "CITY OF COLD LAKE": {
+    "slug": "cold-lake",
+    "type": "City"
+  },
+  "TOWN OF ATHABASCA": {
+    "slug": "athabasca",
+    "type": "Town"
+  },
+  "TOWN OF BARRHEAD": {
+    "slug": "barrhead",
+    "type": "Town"
+  },
+  "TOWN OF BASHAW": {
+    "slug": "bashaw",
+    "type": "Town"
+  },
+  "TOWN OF BASSANO": {
+    "slug": "bassano",
+    "type": "Town"
+  },
+  "TOWN OF BEAVERLODGE": {
+    "slug": "beaverlodge",
+    "type": "Town"
+  },
+  "TOWN OF BENTLEY": {
+    "slug": "bentley",
+    "type": "Town"
+  },
+  "TOWN OF BLACKFALDS": {
+    "slug": "blackfalds",
+    "type": "Town"
+  },
+  "TOWN OF BON ACCORD": {
+    "slug": "bon-accord",
+    "type": "Town"
+  },
+  "TOWN OF BONNYVILLE": {
+    "slug": "bonnyville",
+    "type": "Town"
+  },
+  "TOWN OF BOW ISLAND": {
+    "slug": "bow-island",
+    "type": "Town"
+  },
+  "TOWN OF BOWDEN": {
+    "slug": "bowden",
+    "type": "Town"
+  },
+  "TOWN OF BRUDERHEIM": {
+    "slug": "bruderheim",
+    "type": "Town"
+  },
+  "TOWN OF CALMAR": {
+    "slug": "calmar",
+    "type": "Town"
+  },
+  "TOWN OF CANMORE": {
+    "slug": "canmore",
+    "type": "Town"
+  },
+  "TOWN OF CARDSTON": {
+    "slug": "cardston",
+    "type": "Town"
+  },
+  "TOWN OF CARSTAIRS": {
+    "slug": "carstairs",
+    "type": "Town"
+  },
+  "TOWN OF CASTOR": {
+    "slug": "castor",
+    "type": "Town"
+  },
+  "TOWN OF CLARESHOLM": {
+    "slug": "claresholm",
+    "type": "Town"
+  },
+  "TOWN OF COALDALE": {
+    "slug": "coaldale",
+    "type": "Town"
+  },
+  "TOWN OF COCHRANE": {
+    "slug": "cochrane",
+    "type": "Town"
+  },
+  "TOWN OF CORONATION": {
+    "slug": "coronation",
+    "type": "Town"
+  },
+  "TOWN OF CROSSFIELD": {
+    "slug": "crossfield",
+    "type": "Town"
+  },
+  "TOWN OF DAYSLAND": {
+    "slug": "daysland",
+    "type": "Town"
+  },
+  "TOWN OF DEVON": {
+    "slug": "devon",
+    "type": "Town"
+  },
+  "TOWN OF DIDSBURY": {
+    "slug": "didsbury",
+    "type": "Town"
+  },
+  "TOWN OF DRAYTON VALLEY": {
+    "slug": "drayton-valley",
+    "type": "Town"
+  },
+  "TOWN OF ECKVILLE": {
+    "slug": "eckville",
+    "type": "Town"
+  },
+  "TOWN OF EDSON": {
+    "slug": "edson",
+    "type": "Town"
+  },
+  "TOWN OF ELK POINT": {
+    "slug": "elk-point",
+    "type": "Town"
+  },
+  "TOWN OF FAIRVIEW": {
+    "slug": "fairview",
+    "type": "Town"
+  },
+  "TOWN OF FALHER": {
+    "slug": "falher",
+    "type": "Town"
+  },
+  "TOWN OF FORT MACLEOD": {
+    "slug": "fort-macleod",
+    "type": "Town"
+  },
+  "TOWN OF FOX CREEK": {
+    "slug": "fox-creek",
+    "type": "Town"
+  },
+  "TOWN OF GIBBONS": {
+    "slug": "gibbons",
+    "type": "Town"
+  },
+  "TOWN OF GRIMSHAW": {
+    "slug": "grimshaw",
+    "type": "Town"
+  },
+  "TOWN OF HANNA": {
+    "slug": "hanna",
+    "type": "Town"
+  },
+  "TOWN OF HARDISTY": {
+    "slug": "hardisty",
+    "type": "Town"
+  },
+  "TOWN OF HIGH LEVEL": {
+    "slug": "high-level",
+    "type": "Town"
+  },
+  "TOWN OF HIGH PRAIRIE": {
+    "slug": "high-prairie",
+    "type": "Town"
+  },
+  "TOWN OF HIGH RIVER": {
+    "slug": "high-river",
+    "type": "Town"
+  },
+  "TOWN OF HINTON": {
+    "slug": "hinton",
+    "type": "Town"
+  },
+  "TOWN OF INNISFAIL": {
+    "slug": "innisfail",
+    "type": "Town"
+  },
+  "TOWN OF IRRICANA": {
+    "slug": "irricana",
+    "type": "Town"
+  },
+  "TOWN OF KILLAM": {
+    "slug": "killam",
+    "type": "Town"
+  },
+  "TOWN OF LAMONT": {
+    "slug": "lamont",
+    "type": "Town"
+  },
+  "TOWN OF LEGAL": {
+    "slug": "legal",
+    "type": "Town"
+  },
+  "TOWN OF MAGRATH": {
+    "slug": "magrath",
+    "type": "Town"
+  },
+  "TOWN OF MANNING": {
+    "slug": "manning",
+    "type": "Town"
+  },
+  "TOWN OF MAYERTHORPE": {
+    "slug": "mayerthorpe",
+    "type": "Town"
+  },
+  "TOWN OF MCLENNAN": {
+    "slug": "mclennan",
+    "type": "Town"
+  },
+  "TOWN OF MILK RIVER": {
+    "slug": "milk-river",
+    "type": "Town"
+  },
+  "TOWN OF MILLET": {
+    "slug": "millet",
+    "type": "Town"
+  },
+  "TOWN OF MORINVILLE": {
+    "slug": "morinville",
+    "type": "Town"
+  },
+  "TOWN OF MUNDARE": {
+    "slug": "mundare",
+    "type": "Town"
+  },
+  "TOWN OF NANTON": {
+    "slug": "nanton",
+    "type": "Town"
+  },
+  "TOWN OF NOBLEFORD": {
+    "slug": "nobleford",
+    "type": "Town"
+  },
+  "TOWN OF OKOTOKS": {
+    "slug": "okotoks",
+    "type": "Town"
+  },
+  "TOWN OF OLDS": {
+    "slug": "olds",
+    "type": "Town"
+  },
+  "TOWN OF ONOWAY": {
+    "slug": "onoway",
+    "type": "Town"
+  },
+  "TOWN OF OYEN": {
+    "slug": "oyen",
+    "type": "Town"
+  },
+  "TOWN OF PEACE RIVER": {
+    "slug": "peace-river",
+    "type": "Town"
+  },
+  "TOWN OF PENHOLD": {
+    "slug": "penhold",
+    "type": "Town"
+  },
+  "TOWN OF PICTURE BUTTE": {
+    "slug": "picture-butte",
+    "type": "Town"
+  },
+  "TOWN OF PINCHER CREEK": {
+    "slug": "pincher-creek",
+    "type": "Town"
+  },
+  "TOWN OF PONOKA": {
+    "slug": "ponoka",
+    "type": "Town"
+  },
+  "TOWN OF PROVOST": {
+    "slug": "provost",
+    "type": "Town"
+  },
+  "TOWN OF RAINBOW LAKE": {
+    "slug": "rainbow-lake",
+    "type": "Town"
+  },
+  "TOWN OF RAYMOND": {
+    "slug": "raymond",
+    "type": "Town"
+  },
+  "TOWN OF REDCLIFF": {
+    "slug": "redcliff",
+    "type": "Town"
+  },
+  "TOWN OF REDWATER": {
+    "slug": "redwater",
+    "type": "Town"
+  },
+  "TOWN OF RIMBEY": {
+    "slug": "rimbey",
+    "type": "Town"
+  },
+  "TOWN OF ROCKY MOUNTAIN HOUSE": {
+    "slug": "rocky-mountain-house",
+    "type": "Town"
+  },
+  "TOWN OF SEDGEWICK": {
+    "slug": "sedgewick",
+    "type": "Town"
+  },
+  "TOWN OF SEXSMITH": {
+    "slug": "sexsmith",
+    "type": "Town"
+  },
+  "TOWN OF SLAVE LAKE": {
+    "slug": "slave-lake",
+    "type": "Town"
+  },
+  "TOWN OF SMOKY LAKE": {
+    "slug": "smoky-lake",
+    "type": "Town"
+  },
+  "TOWN OF SPIRIT RIVER": {
+    "slug": "spirit-river",
+    "type": "Town"
+  },
+  "TOWN OF ST. PAUL": {
+    "slug": "st-paul",
+    "type": "Town"
+  },
+  "TOWN OF STAVELY": {
+    "slug": "stavely",
+    "type": "Town"
+  },
+  "TOWN OF STETTLER": {
+    "slug": "stettler",
+    "type": "Town"
+  },
+  "TOWN OF STONY PLAIN": {
+    "slug": "stony-plain",
+    "type": "Town"
+  },
+  "TOWN OF STRATHMORE": {
+    "slug": "strathmore",
+    "type": "Town"
+  },
+  "TOWN OF SUNDRE": {
+    "slug": "sundre",
+    "type": "Town"
+  },
+  "TOWN OF SWAN HILLS": {
+    "slug": "swan-hills",
+    "type": "Town"
+  },
+  "TOWN OF SYLVAN LAKE": {
+    "slug": "sylvan-lake",
+    "type": "Town"
+  },
+  "TOWN OF TABER": {
+    "slug": "taber",
+    "type": "Town"
+  },
+  "TOWN OF THORSBY": {
+    "slug": "thorsby",
+    "type": "Town"
+  },
+  "TOWN OF THREE HILLS": {
+    "slug": "three-hills",
+    "type": "Town"
+  },
+  "TOWN OF TOFIELD": {
+    "slug": "tofield",
+    "type": "Town"
+  },
+  "TOWN OF TROCHU": {
+    "slug": "trochu",
+    "type": "Town"
+  },
+  "TOWN OF TWO HILLS": {
+    "slug": "two-hills",
+    "type": "Town"
+  },
+  "TOWN OF VALLEYVIEW": {
+    "slug": "valleyview",
+    "type": "Town"
+  },
+  "TOWN OF VAUXHALL": {
+    "slug": "vauxhall",
+    "type": "Town"
+  },
+  "TOWN OF VEGREVILLE": {
+    "slug": "vegreville",
+    "type": "Town"
+  },
+  "TOWN OF VERMILION": {
+    "slug": "vermilion",
+    "type": "Town"
+  },
+  "TOWN OF VIKING": {
+    "slug": "viking",
+    "type": "Town"
+  },
+  "TOWN OF VULCAN": {
+    "slug": "vulcan",
+    "type": "Town"
+  },
+  "TOWN OF WAINWRIGHT": {
+    "slug": "wainwright",
+    "type": "Town"
+  },
+  "TOWN OF WEMBLEY": {
+    "slug": "wembley",
+    "type": "Town"
+  },
+  "TOWN OF WESTLOCK": {
+    "slug": "westlock",
+    "type": "Town"
+  },
+  "TOWN OF WHITECOURT": {
+    "slug": "whitecourt",
+    "type": "Town"
+  },
+  "TOWN OF COALHURST": {
+    "slug": "coalhurst",
+    "type": "Town"
+  },
+  "TOWN OF BANFF": {
+    "slug": "banff",
+    "type": "Town"
+  },
+  "TOWN OF DRUMHELLER": {
+    "slug": "drumheller",
+    "type": "Town"
+  },
+  "TOWN OF DIAMOND VALLEY": {
+    "slug": "diamond-valley",
+    "type": "Town"
+  },
+  "VILLAGE OF ACME": {
+    "slug": "acme",
+    "type": "Village"
+  },
+  "ALBERTA BEACH": {
+    "slug": "alberta-beach",
+    "type": "Village"
+  },
+  "VILLAGE OF ALIX": {
+    "slug": "alix",
+    "type": "Village"
+  },
+  "VILLAGE OF ALLIANCE": {
+    "slug": "alliance",
+    "type": "Village"
+  },
+  "VILLAGE OF AMISK": {
+    "slug": "amisk",
+    "type": "Village"
+  },
+  "VILLAGE OF ANDREW": {
+    "slug": "andrew",
+    "type": "Village"
+  },
+  "VILLAGE OF ARROWWOOD": {
+    "slug": "arrowwood",
+    "type": "Village"
+  },
+  "VILLAGE OF BARONS": {
+    "slug": "barons",
+    "type": "Village"
+  },
+  "VILLAGE OF BAWLF": {
+    "slug": "bawlf",
+    "type": "Village"
+  },
+  "VILLAGE OF BEISEKER": {
+    "slug": "beiseker",
+    "type": "Village"
+  },
+  "VILLAGE OF BERWYN": {
+    "slug": "berwyn",
+    "type": "Village"
+  },
+  "VILLAGE OF BIG VALLEY": {
+    "slug": "big-valley",
+    "type": "Village"
+  },
+  "VILLAGE OF BITTERN LAKE": {
+    "slug": "bittern-lake",
+    "type": "Village"
+  },
+  "VILLAGE OF BOYLE": {
+    "slug": "boyle",
+    "type": "Village"
+  },
+  "VILLAGE OF BRETON": {
+    "slug": "breton",
+    "type": "Village"
+  },
+  "VILLAGE OF CARBON": {
+    "slug": "carbon",
+    "type": "Village"
+  },
+  "VILLAGE OF CARMANGAY": {
+    "slug": "carmangay",
+    "type": "Village"
+  },
+  "VILLAGE OF CHAMPION": {
+    "slug": "champion",
+    "type": "Village"
+  },
+  "VILLAGE OF CHAUVIN": {
+    "slug": "chauvin",
+    "type": "Village"
+  },
+  "VILLAGE OF CHIPMAN": {
+    "slug": "chipman",
+    "type": "Village"
+  },
+  "VILLAGE OF CLIVE": {
+    "slug": "clive",
+    "type": "Village"
+  },
+  "VILLAGE OF CLYDE": {
+    "slug": "clyde",
+    "type": "Village"
+  },
+  "VILLAGE OF CONSORT": {
+    "slug": "consort",
+    "type": "Village"
+  },
+  "VILLAGE OF COUTTS": {
+    "slug": "coutts",
+    "type": "Village"
+  },
+  "VILLAGE OF COWLEY": {
+    "slug": "cowley",
+    "type": "Village"
+  },
+  "VILLAGE OF CREMONA": {
+    "slug": "cremona",
+    "type": "Village"
+  },
+  "VILLAGE OF CZAR": {
+    "slug": "czar",
+    "type": "Village"
+  },
+  "VILLAGE OF DELBURNE": {
+    "slug": "delburne",
+    "type": "Village"
+  },
+  "VILLAGE OF DELIA": {
+    "slug": "delia",
+    "type": "Village"
+  },
+  "VILLAGE OF DONALDA": {
+    "slug": "donalda",
+    "type": "Village"
+  },
+  "VILLAGE OF DONNELLY": {
+    "slug": "donnelly",
+    "type": "Village"
+  },
+  "VILLAGE OF DUCHESS": {
+    "slug": "duchess",
+    "type": "Village"
+  },
+  "VILLAGE OF EDBERG": {
+    "slug": "edberg",
+    "type": "Village"
+  },
+  "VILLAGE OF EDGERTON": {
+    "slug": "edgerton",
+    "type": "Village"
+  },
+  "VILLAGE OF SPRING LAKE": {
+    "slug": "spring-lake",
+    "type": "Village"
+  },
+  "VILLAGE OF ELNORA": {
+    "slug": "elnora",
+    "type": "Village"
+  },
+  "VILLAGE OF EMPRESS": {
+    "slug": "empress",
+    "type": "Village"
+  },
+  "VILLAGE OF FOREMOST": {
+    "slug": "foremost",
+    "type": "Village"
+  },
+  "VILLAGE OF FORESTBURG": {
+    "slug": "forestburg",
+    "type": "Village"
+  },
+  "VILLAGE OF GIROUXVILLE": {
+    "slug": "girouxville",
+    "type": "Village"
+  },
+  "VILLAGE OF GLENDON": {
+    "slug": "glendon",
+    "type": "Village"
+  },
+  "VILLAGE OF GLENWOOD": {
+    "slug": "glenwood",
+    "type": "Village"
+  },
+  "VILLAGE OF HAY LAKES": {
+    "slug": "hay-lakes",
+    "type": "Village"
+  },
+  "VILLAGE OF HEISLER": {
+    "slug": "heisler",
+    "type": "Village"
+  },
+  "VILLAGE OF HILL SPRING": {
+    "slug": "hill-spring",
+    "type": "Village"
+  },
+  "VILLAGE OF HINES CREEK": {
+    "slug": "hines-creek",
+    "type": "Village"
+  },
+  "VILLAGE OF HOLDEN": {
+    "slug": "holden",
+    "type": "Village"
+  },
+  "VILLAGE OF HUGHENDEN": {
+    "slug": "hughenden",
+    "type": "Village"
+  },
+  "VILLAGE OF HUSSAR": {
+    "slug": "hussar",
+    "type": "Village"
+  },
+  "VILLAGE OF INNISFREE": {
+    "slug": "innisfree",
+    "type": "Village"
+  },
+  "VILLAGE OF IRMA": {
+    "slug": "irma",
+    "type": "Village"
+  },
+  "VILLAGE OF KITSCOTY": {
+    "slug": "kitscoty",
+    "type": "Village"
+  },
+  "VILLAGE OF LINDEN": {
+    "slug": "linden",
+    "type": "Village"
+  },
+  "VILLAGE OF LOMOND": {
+    "slug": "lomond",
+    "type": "Village"
+  },
+  "VILLAGE OF LONGVIEW": {
+    "slug": "longview",
+    "type": "Village"
+  },
+  "VILLAGE OF LOUGHEED": {
+    "slug": "lougheed",
+    "type": "Village"
+  },
+  "VILLAGE OF MANNVILLE": {
+    "slug": "mannville",
+    "type": "Village"
+  },
+  "VILLAGE OF MARWAYNE": {
+    "slug": "marwayne",
+    "type": "Village"
+  },
+  "VILLAGE OF MILO": {
+    "slug": "milo",
+    "type": "Village"
+  },
+  "VILLAGE OF MORRIN": {
+    "slug": "morrin",
+    "type": "Village"
+  },
+  "VILLAGE OF MUNSON": {
+    "slug": "munson",
+    "type": "Village"
+  },
+  "VILLAGE OF MYRNAM": {
+    "slug": "myrnam",
+    "type": "Village"
+  },
+  "VILLAGE OF NAMPA": {
+    "slug": "nampa",
+    "type": "Village"
+  },
+  "VILLAGE OF PARADISE VALLEY": {
+    "slug": "paradise-valley",
+    "type": "Village"
+  },
+  "VILLAGE OF ROCKYFORD": {
+    "slug": "rockyford",
+    "type": "Village"
+  },
+  "VILLAGE OF ROSALIND": {
+    "slug": "rosalind",
+    "type": "Village"
+  },
+  "VILLAGE OF ROSEMARY": {
+    "slug": "rosemary",
+    "type": "Village"
+  },
+  "VILLAGE OF RYCROFT": {
+    "slug": "rycroft",
+    "type": "Village"
+  },
+  "VILLAGE OF RYLEY": {
+    "slug": "ryley",
+    "type": "Village"
+  },
+  "VILLAGE OF STANDARD": {
+    "slug": "standard",
+    "type": "Village"
+  },
+  "VILLAGE OF STIRLING": {
+    "slug": "stirling",
+    "type": "Village"
+  },
+  "VILLAGE OF VETERAN": {
+    "slug": "veteran",
+    "type": "Village"
+  },
+  "VILLAGE OF VILNA": {
+    "slug": "vilna",
+    "type": "Village"
+  },
+  "VILLAGE OF WARBURG": {
+    "slug": "warburg",
+    "type": "Village"
+  },
+  "VILLAGE OF WARNER": {
+    "slug": "warner",
+    "type": "Village"
+  },
+  "VILLAGE OF WASKATENAU": {
+    "slug": "waskatenau",
+    "type": "Village"
+  },
+  "VILLAGE OF YOUNGSTOWN": {
+    "slug": "youngstown",
+    "type": "Village"
+  },
+  "VILLAGE OF BARNWELL": {
+    "slug": "barnwell",
+    "type": "Village"
+  },
+  "S.V. of ARGENTIA BEACH": {
+    "slug": "argentia-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of BETULA BEACH": {
+    "slug": "betula-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of BIRCHCLIFF": {
+    "slug": "birchcliff",
+    "type": "Summer Village"
+  },
+  "S.V. of BONNYVILLE BEACH": {
+    "slug": "bonnyville-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of CASTLE ISLAND": {
+    "slug": "castle-island",
+    "type": "Summer Village"
+  },
+  "S.V. of CRYSTAL SPRINGS": {
+    "slug": "crystal-springs",
+    "type": "Summer Village"
+  },
+  "S.V. of GHOST LAKE": {
+    "slug": "ghost-lake",
+    "type": "Summer Village"
+  },
+  "S.V. of GOLDEN DAYS": {
+    "slug": "golden-days",
+    "type": "Summer Village"
+  },
+  "S.V. of GRANDVIEW": {
+    "slug": "grandview",
+    "type": "Summer Village"
+  },
+  "S.V. of GULL LAKE": {
+    "slug": "gull-lake",
+    "type": "Summer Village"
+  },
+  "S.V. of ISLAND LAKE": {
+    "slug": "island-lake",
+    "type": "Summer Village"
+  },
+  "S.V. of ITASKA BEACH": {
+    "slug": "itaska-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of KAPASIWIN": {
+    "slug": "kapasiwin",
+    "type": "Summer Village"
+  },
+  "S.V. of LAKEVIEW": {
+    "slug": "lakeview",
+    "type": "Summer Village"
+  },
+  "S.V. of MA-ME-O BEACH": {
+    "slug": "ma-me-o-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of NAKAMUN PARK": {
+    "slug": "nakamun-park",
+    "type": "Summer Village"
+  },
+  "S.V. of NORGLENWOLD": {
+    "slug": "norglenwold",
+    "type": "Summer Village"
+  },
+  "S.V. of POINT ALISON": {
+    "slug": "point-alison",
+    "type": "Summer Village"
+  },
+  "S.V. of POPLAR BAY": {
+    "slug": "poplar-bay",
+    "type": "Summer Village"
+  },
+  "S.V. of ROCHON SANDS": {
+    "slug": "rochon-sands",
+    "type": "Summer Village"
+  },
+  "S.V. of ROSS HAVEN": {
+    "slug": "ross-haven",
+    "type": "Summer Village"
+  },
+  "S.V. of SANDY BEACH": {
+    "slug": "sandy-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of SEBA BEACH": {
+    "slug": "seba-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of SILVER BEACH": {
+    "slug": "silver-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of SILVER SANDS": {
+    "slug": "silver-sands",
+    "type": "Summer Village"
+  },
+  "S.V. of SOUTH VIEW": {
+    "slug": "south-view",
+    "type": "Summer Village"
+  },
+  "S.V. of SUNDANCE BEACH": {
+    "slug": "sundance-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of SUNSET POINT": {
+    "slug": "sunset-point",
+    "type": "Summer Village"
+  },
+  "S.V. of VAL QUENTIN": {
+    "slug": "val-quentin",
+    "type": "Summer Village"
+  },
+  "S.V. of WEST COVE": {
+    "slug": "west-cove",
+    "type": "Summer Village"
+  },
+  "S.V. of YELLOWSTONE": {
+    "slug": "yellowstone",
+    "type": "Summer Village"
+  },
+  "S.V. of SUNSET BEACH": {
+    "slug": "sunset-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of HALF MOON BAY": {
+    "slug": "half-moon-bay",
+    "type": "Summer Village"
+  },
+  "S.V. of MEWATHA BEACH": {
+    "slug": "mewatha-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of PELICAN NARROWS": {
+    "slug": "pelican-narrows",
+    "type": "Summer Village"
+  },
+  "S.V. of WHITE SANDS": {
+    "slug": "white-sands",
+    "type": "Summer Village"
+  },
+  "S.V. of BONDISS": {
+    "slug": "bondiss",
+    "type": "Summer Village"
+  },
+  "S.V. of ISLAND LAKE SOUTH": {
+    "slug": "island-lake-south",
+    "type": "Summer Village"
+  },
+  "S.V. of SOUTH BAPTISTE": {
+    "slug": "south-baptiste",
+    "type": "Summer Village"
+  },
+  "S.V. of WEST BAPTISTE": {
+    "slug": "west-baptiste",
+    "type": "Summer Village"
+  },
+  "S.V. of WHISPERING HILLS": {
+    "slug": "whispering-hills",
+    "type": "Summer Village"
+  },
+  "S.V. of PARKLAND BEACH": {
+    "slug": "parkland-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of HORSESHOE BAY": {
+    "slug": "horseshoe-bay",
+    "type": "Summer Village"
+  },
+  "S.V. of LARKSPUR": {
+    "slug": "larkspur",
+    "type": "Summer Village"
+  },
+  "S.V. of JARVIS BAY": {
+    "slug": "jarvis-bay",
+    "type": "Summer Village"
+  },
+  "S.V. of WAIPAROUS": {
+    "slug": "waiparous",
+    "type": "Summer Village"
+  },
+  "S.V. of BIRCH COVE": {
+    "slug": "birch-cove",
+    "type": "Summer Village"
+  },
+  "S.V. of NORRIS BEACH": {
+    "slug": "norris-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of SUNRISE BEACH": {
+    "slug": "sunrise-beach",
+    "type": "Summer Village"
+  },
+  "S.V. of SUNBREAKER COVE": {
+    "slug": "sunbreaker-cove",
+    "type": "Summer Village"
+  },
+  "S.V. of BURNSTICK LAKE": {
+    "slug": "burnstick-lake",
+    "type": "Summer Village"
+  },
+  "MUNICIPAL DISTRICT OF ACADIA NO. 34": {
+    "slug": "acadia",
+    "type": "Municipal District"
+  },
+  "ATHABASCA COUNTY": {
+    "slug": "athabasca-county",
+    "type": "Municipal District"
+  },
+  "COUNTY OF BARRHEAD NO. 11": {
+    "slug": "barrhead",
+    "type": "Municipal District"
+  },
+  "BEAVER COUNTY": {
+    "slug": "beaver-county",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF BONNYVILLE NO. 87": {
+    "slug": "bonnyville",
+    "type": "Municipal District"
+  },
+  "CAMROSE COUNTY": {
+    "slug": "camrose-county",
+    "type": "Municipal District"
+  },
+  "CARDSTON COUNTY": {
+    "slug": "cardston-county",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF FAIRVIEW NO. 136": {
+    "slug": "fairview",
+    "type": "Municipal District"
+  },
+  "FLAGSTAFF COUNTY": {
+    "slug": "flagstaff-county",
+    "type": "Municipal District"
+  },
+  "FOOTHILLS COUNTY": {
+    "slug": "foothills-county",
+    "type": "Municipal District"
+  },
+  "COUNTY OF FORTY MILE NO. 8": {
+    "slug": "forty-mile",
+    "type": "Municipal District"
+  },
+  "COUNTY OF GRANDE PRAIRIE NO. 1": {
+    "slug": "grande-prairie",
+    "type": "Municipal District"
+  },
+  "I.D. NO. 4 (WATERTON)": {
+    "slug": "i-d-waterton",
+    "type": "Municipal District"
+  },
+  "I.D. NO. 9 (BANFF)": {
+    "slug": "i-d-banff",
+    "type": "Municipal District"
+  },
+  "I.D. NO. 12 (JASPER NATIONAL PARK)": {
+    "slug": "i-d-jasper-national-park",
+    "type": "Municipal District"
+  },
+  "I.D. NO. 13 (ELK ISLAND)": {
+    "slug": "i-d-elk-island",
+    "type": "Municipal District"
+  },
+  "I.D. NO. 24 (WOOD BUFFALO)": {
+    "slug": "i-d-wood-buffalo",
+    "type": "Municipal District"
+  },
+  "KNEEHILL COUNTY": {
+    "slug": "kneehill-county",
+    "type": "Municipal District"
+  },
+  "LAC STE. ANNE COUNTY": {
+    "slug": "lac-ste-anne-county",
+    "type": "Municipal District"
+  },
+  "LACOMBE COUNTY": {
+    "slug": "lacombe-county",
+    "type": "Municipal District"
+  },
+  "LAMONT COUNTY": {
+    "slug": "lamont-county",
+    "type": "Municipal District"
+  },
+  "LEDUC COUNTY": {
+    "slug": "leduc-county",
+    "type": "Municipal District"
+  },
+  "LETHBRIDGE COUNTY": {
+    "slug": "lethbridge-county",
+    "type": "Municipal District"
+  },
+  "COUNTY OF MINBURN NO. 27": {
+    "slug": "minburn",
+    "type": "Municipal District"
+  },
+  "MOUNTAIN VIEW COUNTY": {
+    "slug": "mountain-view-county",
+    "type": "Municipal District"
+  },
+  "COUNTY OF NEWELL": {
+    "slug": "newell",
+    "type": "Municipal District"
+  },
+  "COUNTY OF PAINTEARTH NO. 18": {
+    "slug": "paintearth",
+    "type": "Municipal District"
+  },
+  "PARKLAND COUNTY": {
+    "slug": "parkland-county",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF PEACE NO. 135": {
+    "slug": "peace",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF PINCHER CREEK NO. 9": {
+    "slug": "pincher-creek",
+    "type": "Municipal District"
+  },
+  "PONOKA COUNTY": {
+    "slug": "ponoka-county",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF PROVOST NO. 52": {
+    "slug": "provost",
+    "type": "Municipal District"
+  },
+  "RED DEER COUNTY": {
+    "slug": "red-deer-county",
+    "type": "Municipal District"
+  },
+  "ROCKY VIEW COUNTY": {
+    "slug": "rocky-view-county",
+    "type": "Municipal District"
+  },
+  "SMOKY LAKE COUNTY": {
+    "slug": "smoky-lake-county",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF SMOKY RIVER NO. 130": {
+    "slug": "smoky-river",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF SPIRIT RIVER NO. 133": {
+    "slug": "spirit-river",
+    "type": "Municipal District"
+  },
+  "COUNTY OF ST. PAUL NO. 19": {
+    "slug": "st-paul",
+    "type": "Municipal District"
+  },
+  "STARLAND COUNTY": {
+    "slug": "starland-county",
+    "type": "Municipal District"
+  },
+  "COUNTY OF STETTLER NO. 6": {
+    "slug": "stettler",
+    "type": "Municipal District"
+  },
+  "STRATHCONA COUNTY": {
+    "slug": "strathcona-county",
+    "type": "Municipal District"
+  },
+  "STURGEON COUNTY": {
+    "slug": "sturgeon-county",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF TABER": {
+    "slug": "taber",
+    "type": "Municipal District"
+  },
+  "THORHILD COUNTY": {
+    "slug": "thorhild-county",
+    "type": "Municipal District"
+  },
+  "COUNTY OF TWO HILLS NO. 21": {
+    "slug": "two-hills",
+    "type": "Municipal District"
+  },
+  "COUNTY OF VERMILION RIVER": {
+    "slug": "vermilion-river",
+    "type": "Municipal District"
+  },
+  "VULCAN COUNTY": {
+    "slug": "vulcan-county",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF WAINWRIGHT NO. 61": {
+    "slug": "wainwright",
+    "type": "Municipal District"
+  },
+  "COUNTY OF WARNER NO. 5": {
+    "slug": "warner",
+    "type": "Municipal District"
+  },
+  "WESTLOCK COUNTY": {
+    "slug": "westlock-county",
+    "type": "Municipal District"
+  },
+  "COUNTY OF WETASKIWIN NO. 10": {
+    "slug": "wetaskiwin",
+    "type": "Municipal District"
+  },
+  "WHEATLAND COUNTY": {
+    "slug": "wheatland-county",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF WILLOW CREEK NO. 26": {
+    "slug": "willow-creek",
+    "type": "Municipal District"
+  },
+  "MUNICIPALITY OF CROWSNEST PASS": {
+    "slug": "municipality-of-crowsnest-pass",
+    "type": "Municipal District"
+  },
+  "KANANASKIS IMPROVEMENT DISTRICT": {
+    "slug": "kananaskis-improvement-district",
+    "type": "Municipal District"
+  },
+  "CYPRESS COUNTY": {
+    "slug": "cypress-county",
+    "type": "Municipal District"
+  },
+  "CLEARWATER COUNTY": {
+    "slug": "clearwater-county",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF BIGHORN NO. 8": {
+    "slug": "bighorn",
+    "type": "Municipal District"
+  },
+  "BRAZEAU COUNTY": {
+    "slug": "brazeau-county",
+    "type": "Municipal District"
+  },
+  "MUNICIPALITY OF JASPER": {
+    "slug": "municipality-of-jasper",
+    "type": "Municipal District"
+  },
+  "SPECIAL AREAS NO. 3": {
+    "slug": "special-areas",
+    "type": "Municipal District"
+  },
+  "SPECIAL AREAS NO. 4": {
+    "slug": "special-areas",
+    "type": "Municipal District"
+  },
+  "I.D. NO. 25 (WILLMORE WILDERNESS)": {
+    "slug": "i-d-willmore-wilderness",
+    "type": "Municipal District"
+  },
+  "WOODLANDS COUNTY": {
+    "slug": "woodlands-county",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF GREENVIEW NO. 16": {
+    "slug": "greenview",
+    "type": "Municipal District"
+  },
+  "YELLOWHEAD COUNTY": {
+    "slug": "yellowhead-county",
+    "type": "Municipal District"
+  },
+  "NORTHERN SUNRISE COUNTY": {
+    "slug": "northern-sunrise-county",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF RANCHLAND NO. 66": {
+    "slug": "ranchland",
+    "type": "Municipal District"
+  },
+  "BIRCH HILLS COUNTY": {
+    "slug": "birch-hills-county",
+    "type": "Municipal District"
+  },
+  "SADDLE HILLS COUNTY": {
+    "slug": "saddle-hills-county",
+    "type": "Municipal District"
+  },
+  "CLEAR HILLS COUNTY": {
+    "slug": "clear-hills-county",
+    "type": "Municipal District"
+  },
+  "MACKENZIE COUNTY": {
+    "slug": "mackenzie-county",
+    "type": "Municipal District"
+  },
+  "BIG LAKES COUNTY": {
+    "slug": "big-lakes-county",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF LESSER SLAVE RIVER NO. 124": {
+    "slug": "lesser-slave-river",
+    "type": "Municipal District"
+  },
+  "REGIONAL MUNICIPALITY OF WOOD BUFFALO": {
+    "slug": "regional-municipality-of-wood-buffalo",
+    "type": "Municipal District"
+  },
+  "COUNTY OF NORTHERN LIGHTS": {
+    "slug": "northern-lights",
+    "type": "Municipal District"
+  },
+  "MUNICIPAL DISTRICT OF OPPORTUNITY NO. 17": {
+    "slug": "opportunity",
+    "type": "Municipal District"
+  },
+  "LAC LA BICHE COUNTY": {
+    "slug": "lac-la-biche-county",
+    "type": "Municipal District"
+  },
+  "SPECIAL AREAS NO. 2": {
+    "slug": "special-areas",
+    "type": "Municipal District"
+  },
+  "BUFFALO LAKE METIS SETTLEMENT": {
+    "slug": "buffalo-lake-metis-settlement",
+    "type": "Metis Settlement / First Nation"
+  },
+  "EAST PRAIRIE METIS SETTLEMENT": {
+    "slug": "east-prairie-metis-settlement",
+    "type": "Metis Settlement / First Nation"
+  },
+  "ELIZABETH METIS SETTLEMENT": {
+    "slug": "elizabeth-metis-settlement",
+    "type": "Metis Settlement / First Nation"
+  },
+  "FISHING LAKE METIS SETTLEMENT": {
+    "slug": "fishing-lake-metis-settlement",
+    "type": "Metis Settlement / First Nation"
+  },
+  "GIFT LAKE METIS SETTLEMENT": {
+    "slug": "gift-lake-metis-settlement",
+    "type": "Metis Settlement / First Nation"
+  },
+  "KIKINO METIS SETTLEMENT": {
+    "slug": "kikino-metis-settlement",
+    "type": "Metis Settlement / First Nation"
+  },
+  "PADDLE PRAIRIE METIS SETTLEMENT": {
+    "slug": "paddle-prairie-metis-settlement",
+    "type": "Metis Settlement / First Nation"
+  },
+  "PEAVINE METIS SETTLEMENT": {
+    "slug": "peavine-metis-settlement",
+    "type": "Metis Settlement / First Nation"
+  },
+  "CLEAR HILLS INDIAN RESERVE #152C": {
+    "slug": "clear-hills-indian-reserve-152c",
+    "type": "Metis Settlement / First Nation"
+  },
+  "JEAN BAPTISTE GAMBLER INDIAN RESERVE #183": {
+    "slug": "jean-baptiste-gambler-indian-reserve-183",
+    "type": "Metis Settlement / First Nation"
+  },
+  "SADDLE LAKE INDIAN RESERVE #125": {
+    "slug": "saddle-lake-indian-reserve-125",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WHITE FISH LAKE INDIAN RESERVE #128": {
+    "slug": "white-fish-lake-indian-reserve-128",
+    "type": "Metis Settlement / First Nation"
+  },
+  "CHILD LAKE INDIAN RESERVE #164A": {
+    "slug": "child-lake-indian-reserve-164a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "BOYER RIVER INDIAN RESERVE #164": {
+    "slug": "boyer-river-indian-reserve-164",
+    "type": "Metis Settlement / First Nation"
+  },
+  "FOX LAKE INDIAN RESERVE #162": {
+    "slug": "fox-lake-indian-reserve-162",
+    "type": "Metis Settlement / First Nation"
+  },
+  "JOHN D'OR PRAIRIE INDIAN RESERVE #215": {
+    "slug": "john-d-or-prairie-indian-reserve-215",
+    "type": "Metis Settlement / First Nation"
+  },
+  "BUSHE RIVER INDIAN RESERVE #207": {
+    "slug": "bushe-river-indian-reserve-207",
+    "type": "Metis Settlement / First Nation"
+  },
+  "UPPER HAY RIVER INDIAN RESERVE #212": {
+    "slug": "upper-hay-river-indian-reserve-212",
+    "type": "Metis Settlement / First Nation"
+  },
+  "TALL CREE INDIAN RESERVE #173": {
+    "slug": "tall-cree-indian-reserve-173",
+    "type": "Metis Settlement / First Nation"
+  },
+  "TALL CREE INDIAN RESERVE #173A": {
+    "slug": "tall-cree-indian-reserve-173a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "DOG HEAD INDIAN RESERVE #218": {
+    "slug": "dog-head-indian-reserve-218",
+    "type": "Metis Settlement / First Nation"
+  },
+  "ERMINESKIN INDIAN RESERVE #138": {
+    "slug": "ermineskin-indian-reserve-138",
+    "type": "Metis Settlement / First Nation"
+  },
+  "HAY LAKE INDIAN RESERVE #209": {
+    "slug": "hay-lake-indian-reserve-209",
+    "type": "Metis Settlement / First Nation"
+  },
+  "ALEXIS INDIAN RESERVE #133": {
+    "slug": "alexis-indian-reserve-133",
+    "type": "Metis Settlement / First Nation"
+  },
+  "ALEXIS WHITECOURT INDIAN RESERVE #232": {
+    "slug": "alexis-whitecourt-indian-reserve-232",
+    "type": "Metis Settlement / First Nation"
+  },
+  "ALEXIS ELK RIVER INDIAN RESERVE #233": {
+    "slug": "alexis-elk-river-indian-reserve-233",
+    "type": "Metis Settlement / First Nation"
+  },
+  "ALEXIS CARDINAL RIVER INDIAN RESERVE #234": {
+    "slug": "alexis-cardinal-river-indian-reserve-234",
+    "type": "Metis Settlement / First Nation"
+  },
+  "ALEXANDER INDIAN RESERVE #134": {
+    "slug": "alexander-indian-reserve-134",
+    "type": "Metis Settlement / First Nation"
+  },
+  "ALLISON BAY INDIAN RESERVE #219": {
+    "slug": "allison-bay-indian-reserve-219",
+    "type": "Metis Settlement / First Nation"
+  },
+  "AMBER RIVER INDIAN RESERVE #211": {
+    "slug": "amber-river-indian-reserve-211",
+    "type": "Metis Settlement / First Nation"
+  },
+  "ASSINEAU RIVER INDIAN RESERVE #150F": {
+    "slug": "assineau-river-indian-reserve-150f",
+    "type": "Metis Settlement / First Nation"
+  },
+  "BEAVER LAKE INDIAN RESERVE #131": {
+    "slug": "beaver-lake-indian-reserve-131",
+    "type": "Metis Settlement / First Nation"
+  },
+  "BEAVER RANCH INDIAN RESERVE #163": {
+    "slug": "beaver-ranch-indian-reserve-163",
+    "type": "Metis Settlement / First Nation"
+  },
+  "BEAVER RANCH INDIAN RESERVE #163A": {
+    "slug": "beaver-ranch-indian-reserve-163a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "BEAVER RANCH INDIAN RESERVE #163B": {
+    "slug": "beaver-ranch-indian-reserve-163b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "BIG HORN INDIAN RESERVE #144A": {
+    "slug": "big-horn-indian-reserve-144a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "BISTCHO LAKE INDIAN RESERVE #213": {
+    "slug": "bistcho-lake-indian-reserve-213",
+    "type": "Metis Settlement / First Nation"
+  },
+  "BLOOD INDIAN RESERVE #148": {
+    "slug": "blood-indian-reserve-148",
+    "type": "Metis Settlement / First Nation"
+  },
+  "BLOOD INDIAN RESERVE #148A": {
+    "slug": "blood-indian-reserve-148a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "BLUE QUILLS FIRST NATION INDIAN RESERVE": {
+    "slug": "blue-quills-first-nation-indian-reserve",
+    "type": "Metis Settlement / First Nation"
+  },
+  "BUCK LAKE INDIAN RESERVE #133C": {
+    "slug": "buck-lake-indian-reserve-133c",
+    "type": "Metis Settlement / First Nation"
+  },
+  "CHARLES LAKE INDIAN RESERVE #225": {
+    "slug": "charles-lake-indian-reserve-225",
+    "type": "Metis Settlement / First Nation"
+  },
+  "CHIPEWYAN INDIAN RESERVE #201": {
+    "slug": "chipewyan-indian-reserve-201",
+    "type": "Metis Settlement / First Nation"
+  },
+  "CHIPEWYAN INDIAN RESERVE #201A": {
+    "slug": "chipewyan-indian-reserve-201a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "CHIPEWYAN INDIAN RESERVE #201B": {
+    "slug": "chipewyan-indian-reserve-201b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "CHIPEWYAN INDIAN RESERVE #201C": {
+    "slug": "chipewyan-indian-reserve-201c",
+    "type": "Metis Settlement / First Nation"
+  },
+  "CHIPEWYAN INDIAN RESERVE #201D": {
+    "slug": "chipewyan-indian-reserve-201d",
+    "type": "Metis Settlement / First Nation"
+  },
+  "CHIPEWYAN INDIAN RESERVE #201E": {
+    "slug": "chipewyan-indian-reserve-201e",
+    "type": "Metis Settlement / First Nation"
+  },
+  "CHIPEWYAN INDIAN RESERVE #201F": {
+    "slug": "chipewyan-indian-reserve-201f",
+    "type": "Metis Settlement / First Nation"
+  },
+  "CHIPEWYAN INDIAN RESERVE #201G": {
+    "slug": "chipewyan-indian-reserve-201g",
+    "type": "Metis Settlement / First Nation"
+  },
+  "CLEARWATER INDIAN RESERVE #175": {
+    "slug": "clearwater-indian-reserve-175",
+    "type": "Metis Settlement / First Nation"
+  },
+  "COLD LAKE INDIAN RESERVE #149": {
+    "slug": "cold-lake-indian-reserve-149",
+    "type": "Metis Settlement / First Nation"
+  },
+  "COLD LAKE INDIAN RESERVE #149A": {
+    "slug": "cold-lake-indian-reserve-149a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "COLD LAKE INDIAN RESERVE #149B": {
+    "slug": "cold-lake-indian-reserve-149b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "COLIN LAKE INDIAN RESERVE #223": {
+    "slug": "colin-lake-indian-reserve-223",
+    "type": "Metis Settlement / First Nation"
+  },
+  "CORNWALL LAKE INDIAN RESERVE #224": {
+    "slug": "cornwall-lake-indian-reserve-224",
+    "type": "Metis Settlement / First Nation"
+  },
+  "COWPER LAKE INDIAN RESERVE #194A": {
+    "slug": "cowper-lake-indian-reserve-194a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "DEVIL'S GATE INDIAN RESERVE #220": {
+    "slug": "devil-s-gate-indian-reserve-220",
+    "type": "Metis Settlement / First Nation"
+  },
+  "DRIFT PILE RIVER INDIAN RESERVE #150": {
+    "slug": "drift-pile-river-indian-reserve-150",
+    "type": "Metis Settlement / First Nation"
+  },
+  "DUNCANS INDIAN RESERVE #151A": {
+    "slug": "duncans-indian-reserve-151a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "EDEN VALLEY INDIAN RESERVE #216": {
+    "slug": "eden-valley-indian-reserve-216",
+    "type": "Metis Settlement / First Nation"
+  },
+  "FORT MCKAY INDIAN RESERVE #174": {
+    "slug": "fort-mckay-indian-reserve-174",
+    "type": "Metis Settlement / First Nation"
+  },
+  "FORT VERMILION INDIAN RESERVE #173B": {
+    "slug": "fort-vermilion-indian-reserve-173b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "KAPAWE'NO INDIAN RESERVE #150B": {
+    "slug": "kapawe-no-indian-reserve-150b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "GREGOIRE LAKE INDIAN RESERVE #176": {
+    "slug": "gregoire-lake-indian-reserve-176",
+    "type": "Metis Settlement / First Nation"
+  },
+  "GREGOIRE LAKE INDIAN RESERVE #176A": {
+    "slug": "gregoire-lake-indian-reserve-176a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "GREGOIRE LAKE INDIAN RESERVE #176B": {
+    "slug": "gregoire-lake-indian-reserve-176b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "KAPAWE'NO INDIAN RESERVE #229": {
+    "slug": "kapawe-no-indian-reserve-229",
+    "type": "Metis Settlement / First Nation"
+  },
+  "KAPAWE'NO INDIAN RESERVE #230": {
+    "slug": "kapawe-no-indian-reserve-230",
+    "type": "Metis Settlement / First Nation"
+  },
+  "KAPAWE'NO INDIAN RESERVE #231": {
+    "slug": "kapawe-no-indian-reserve-231",
+    "type": "Metis Settlement / First Nation"
+  },
+  "KAPAWE'NO INDIAN RESERVE #150C": {
+    "slug": "kapawe-no-indian-reserve-150c",
+    "type": "Metis Settlement / First Nation"
+  },
+  "HEART LAKE INDIAN RESERVE #167": {
+    "slug": "heart-lake-indian-reserve-167",
+    "type": "Metis Settlement / First Nation"
+  },
+  "HORSE LAKES INDIAN RESERVE #152B": {
+    "slug": "horse-lakes-indian-reserve-152b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "HOUSE RIVER INDIAN CEMETERY INDIAN RESERVE #178": {
+    "slug": "house-river-indian-cemetery-indian-reserve-178",
+    "type": "Metis Settlement / First Nation"
+  },
+  "JACKFISH POINT INDIAN RESERVE #214": {
+    "slug": "jackfish-point-indian-reserve-214",
+    "type": "Metis Settlement / First Nation"
+  },
+  "JANVIER INDIAN RESERVE #194": {
+    "slug": "janvier-indian-reserve-194",
+    "type": "Metis Settlement / First Nation"
+  },
+  "KEHEWIN INDIAN RESERVE #123": {
+    "slug": "kehewin-indian-reserve-123",
+    "type": "Metis Settlement / First Nation"
+  },
+  "LOUIS BULL INDIAN RESERVE #138B": {
+    "slug": "louis-bull-indian-reserve-138b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "MAKAOO INDIAN RESERVE #120": {
+    "slug": "makaoo-indian-reserve-120",
+    "type": "Metis Settlement / First Nation"
+  },
+  "MONTANA INDIAN RESERVE #139": {
+    "slug": "montana-indian-reserve-139",
+    "type": "Metis Settlement / First Nation"
+  },
+  "NAMUR LAKE INDIAN RESERVE #174B": {
+    "slug": "namur-lake-indian-reserve-174b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "NAMUR RIVER INDIAN RESERVE #174A": {
+    "slug": "namur-river-indian-reserve-174a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "O'CHIESE INDIAN RESERVE #203": {
+    "slug": "o-chiese-indian-reserve-203",
+    "type": "Metis Settlement / First Nation"
+  },
+  "O'CHIESE CEMETERY INDIAN RESERVE #203A": {
+    "slug": "o-chiese-cemetery-indian-reserve-203a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "OLD FORT INDIAN RESERVE #217": {
+    "slug": "old-fort-indian-reserve-217",
+    "type": "Metis Settlement / First Nation"
+  },
+  "KAPAWE'NO INDIAN RESERVE #150D": {
+    "slug": "kapawe-no-indian-reserve-150d",
+    "type": "Metis Settlement / First Nation"
+  },
+  "PEACE POINT NO. 222": {
+    "slug": "peace-point",
+    "type": "Metis Settlement / First Nation"
+  },
+  "PIIKANI RESERVE": {
+    "slug": "piikani-reserve",
+    "type": "Metis Settlement / First Nation"
+  },
+  "PEIGAN INDIAN RESERVE #147B": {
+    "slug": "peigan-indian-reserve-147b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "PIGEON LAKE INDIAN RESERVE #138A": {
+    "slug": "pigeon-lake-indian-reserve-138a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "PUSKIAKIWENIN INDIAN RESERVE #122": {
+    "slug": "puskiakiwenin-indian-reserve-122",
+    "type": "Metis Settlement / First Nation"
+  },
+  "SANDY POINT INDIAN RESERVE #221": {
+    "slug": "sandy-point-indian-reserve-221",
+    "type": "Metis Settlement / First Nation"
+  },
+  "SAMSON INDIAN RESERVE #137": {
+    "slug": "samson-indian-reserve-137",
+    "type": "Metis Settlement / First Nation"
+  },
+  "SAMSON INDIAN RESERVE #137A": {
+    "slug": "samson-indian-reserve-137a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "TSUU T'INA INDIAN RESERVE #145": {
+    "slug": "tsuu-t-ina-indian-reserve-145",
+    "type": "Metis Settlement / First Nation"
+  },
+  "SAWRIDGE INDIAN RESERVE #150G": {
+    "slug": "sawridge-indian-reserve-150g",
+    "type": "Metis Settlement / First Nation"
+  },
+  "SAWRIDGE INDIAN RESERVE #150H": {
+    "slug": "sawridge-indian-reserve-150h",
+    "type": "Metis Settlement / First Nation"
+  },
+  "SIKSIKA INDIAN RESERVE #146": {
+    "slug": "siksika-indian-reserve-146",
+    "type": "Metis Settlement / First Nation"
+  },
+  "STONEY INDIAN RESERVE #142B": {
+    "slug": "stoney-indian-reserve-142b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "STONY PLAIN INDIAN RESERVE #135": {
+    "slug": "stony-plain-indian-reserve-135",
+    "type": "Metis Settlement / First Nation"
+  },
+  "STURGEON LAKE INDIAN RESERVE #154": {
+    "slug": "sturgeon-lake-indian-reserve-154",
+    "type": "Metis Settlement / First Nation"
+  },
+  "STURGEON LAKE INDIAN RESERVE #154A": {
+    "slug": "sturgeon-lake-indian-reserve-154a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "STURGEON LAKE INDIAN RESERVE #154B": {
+    "slug": "sturgeon-lake-indian-reserve-154b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "SUCKER CREEK INDIAN RESERVE #150A": {
+    "slug": "sucker-creek-indian-reserve-150a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "SUNCHILD CREE INDIAN RESERVE #202": {
+    "slug": "sunchild-cree-indian-reserve-202",
+    "type": "Metis Settlement / First Nation"
+  },
+  "SWAN RIVER INDIAN RESERVE #150E": {
+    "slug": "swan-river-indian-reserve-150e",
+    "type": "Metis Settlement / First Nation"
+  },
+  "UNIPOUHEOS INDIAN RESERVE #121": {
+    "slug": "unipouheos-indian-reserve-121",
+    "type": "Metis Settlement / First Nation"
+  },
+  "UTIKOOMAK LAKE INDIAN RESERVE #155": {
+    "slug": "utikoomak-lake-indian-reserve-155",
+    "type": "Metis Settlement / First Nation"
+  },
+  "UTIKOOMAK LAKE INDIAN RESERVE #155A": {
+    "slug": "utikoomak-lake-indian-reserve-155a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "UTIKOOMAK LAKE INDIAN RESERVE #155B": {
+    "slug": "utikoomak-lake-indian-reserve-155b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WABAMUN INDIAN RESERVE #133A": {
+    "slug": "wabamun-indian-reserve-133a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WABAMUN INDIAN RESERVE #133B": {
+    "slug": "wabamun-indian-reserve-133b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WABASCA INDIAN RESERVE #166": {
+    "slug": "wabasca-indian-reserve-166",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WABASCA INDIAN RESERVE #166A": {
+    "slug": "wabasca-indian-reserve-166a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WABASCA INDIAN RESERVE #166B": {
+    "slug": "wabasca-indian-reserve-166b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WABASCA INDIAN RESERVE #166C": {
+    "slug": "wabasca-indian-reserve-166c",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WABASCA INDIAN RESERVE #166D": {
+    "slug": "wabasca-indian-reserve-166d",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WADLIN LAKE INDIAN RESERVE #173C": {
+    "slug": "wadlin-lake-indian-reserve-173c",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WILLIAM MCKENZIE INDIAN RESERVE #151K": {
+    "slug": "william-mckenzie-indian-reserve-151k",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WINEFRED LAKE INDIAN RESERVE #194B": {
+    "slug": "winefred-lake-indian-reserve-194b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WOODLAND CREE INDIAN RESERVE #226": {
+    "slug": "woodland-cree-indian-reserve-226",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WOODLAND CREE INDIAN RESERVE #227": {
+    "slug": "woodland-cree-indian-reserve-227",
+    "type": "Metis Settlement / First Nation"
+  },
+  "WOODLAND CREE INDIAN RESERVE #228": {
+    "slug": "woodland-cree-indian-reserve-228",
+    "type": "Metis Settlement / First Nation"
+  },
+  "ZAMA LAKE INDIAN RESERVE #210": {
+    "slug": "zama-lake-indian-reserve-210",
+    "type": "Metis Settlement / First Nation"
+  },
+  "ALEXANDER INDIAN RESERVE #134A": {
+    "slug": "alexander-indian-reserve-134a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "ALEXANDER INDIAN RESERVE #134B": {
+    "slug": "alexander-indian-reserve-134b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "STONY PLAIN INDIAN RESERVE #135A": {
+    "slug": "stony-plain-indian-reserve-135a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "LOON LAKE INDIAN RESERVE #235": {
+    "slug": "loon-lake-indian-reserve-235",
+    "type": "Metis Settlement / First Nation"
+  },
+  "SWAMPY LAKE INDIAN RESERVE #236": {
+    "slug": "swampy-lake-indian-reserve-236",
+    "type": "Metis Settlement / First Nation"
+  },
+  "LOON PRAIRIE INDIAN RESERVE #237": {
+    "slug": "loon-prairie-indian-reserve-237",
+    "type": "Metis Settlement / First Nation"
+  },
+  "HEART LAKE INDIAN RESERVE #167A": {
+    "slug": "heart-lake-indian-reserve-167a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "COLD LAKE INDIAN RESERVE #149C": {
+    "slug": "cold-lake-indian-reserve-149c",
+    "type": "Metis Settlement / First Nation"
+  },
+  "THABACHA NÁRE #196A": {
+    "slug": "thabacha-n-re-196a",
+    "type": "Metis Settlement / First Nation"
+  },
+  "THEBATHI #196": {
+    "slug": "thebathi-196",
+    "type": "Metis Settlement / First Nation"
+  },
+  "TTHE JERE GHAILI #196B": {
+    "slug": "tthe-jere-ghaili-196b",
+    "type": "Metis Settlement / First Nation"
+  },
+  "K'I TÚE #196D": {
+    "slug": "k-i-t-e-196d",
+    "type": "Metis Settlement / First Nation"
+  },
+  "HOKEDHE TÚE #196E": {
+    "slug": "hokedhe-t-e-196e",
+    "type": "Metis Settlement / First Nation"
+  },
+  "TSU K'ADHE TÚE #196F": {
+    "slug": "tsu-k-adhe-t-e-196f",
+    "type": "Metis Settlement / First Nation"
+  },
+  "TSU TÚE #196G": {
+    "slug": "tsu-t-e-196g",
+    "type": "Metis Settlement / First Nation"
+  },
+  "FORT MCKAY INDIAN RESERVE #174C": {
+    "slug": "fort-mckay-indian-reserve-174c",
+    "type": "Metis Settlement / First Nation"
+  },
+  "FORT MCKAY INDIAN RESERVE #174D": {
+    "slug": "fort-mckay-indian-reserve-174d",
+    "type": "Metis Settlement / First Nation"
+  },
+  "LI DEZÉ INDIAN RESERVE #196C": {
+    "slug": "li-dez-indian-reserve-196c",
+    "type": "Metis Settlement / First Nation"
+  },
+  "STONEY INDIAN RESERVES #142, #143, #144": {
+    "slug": "stoney-indian-reserves-142-143-144",
+    "type": "Metis Settlement / First Nation"
+  },
+  "PEERLESS TROUT FIRST NATION": {
+    "slug": "peerless-trout-first-nation",
+    "type": "Metis Settlement / First Nation"
+  },
+  "TSU NEDEHE TUE #196H": {
+    "slug": "tsu-nedehe-tue-196h",
+    "type": "Metis Settlement / First Nation"
+  },
+  "?EJERE K'ELNI KUE #196I": {
+    "slug": "ejere-k-elni-kue-196i",
+    "type": "Metis Settlement / First Nation"
+  }
+}

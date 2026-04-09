@@ -1,0 +1,63 @@
+{
+  "name": "Linden",
+  "geoname": "VILLAGE OF LINDEN",
+  "type": "Village",
+  "mayor": {
+    "name": "Kelly Klassen",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "kklassen@linden.ca "
+  },
+  "council": [
+    {
+      "name": "Sonia Ens",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sens@linden.ca ",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Heather Sweetman",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "h.sweetman@linden.ca ",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Patricia McConnell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "pmcconnell@linden.ca ",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "John Hillis",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jhillis@linden.ca ",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://linden.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

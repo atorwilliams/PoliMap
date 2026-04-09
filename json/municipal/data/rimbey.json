@@ -1,0 +1,63 @@
+{
+  "name": "Rimbey",
+  "geoname": "TOWN OF RIMBEY",
+  "type": "Town",
+  "mayor": {
+    "name": "Rick Pankiw",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "rick.pankiw@rimbey.com"
+  },
+  "council": [
+    {
+      "name": "Lana Curle",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "lana.curle@rimbey.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Bonnie Grundy",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bonnie.grundy@rimbey.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Mathew Jaycox",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mathew.jaycox@rimbey.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jeff Johnstone ",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jeff.johnstone@rimbey.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.rimbey.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}
