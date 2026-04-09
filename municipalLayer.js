@@ -380,7 +380,7 @@ function showMunicipalSidebar({ geoname, name, typeLabel, typeColor, provincialR
   sidebar.innerHTML = `
     <button id="sidebar-close-btn">×</button>
     <div style="height:8px; background:${typeColor};"></div>
-    <div class="member-info">
+    <div class="member-info" style="padding-top:56px;">
       <h3>${name}</h3>
       <p class="riding">${typeLabel}</p>
       <div class="contact-details">

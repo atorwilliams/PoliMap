@@ -13,6 +13,10 @@ html, body, #map {
   margin-top: 56px; /* pushed down by banner height */
 }
 
+.maplibregl-ctrl-top-right {
+  margin-top: 64px; /* clear the navbar */
+}
+
 /* ================================================
    Popups & tooltips
    ================================================ */
