@@ -55,7 +55,7 @@ function showRidingPreview(map, ridingName, lngLat, level = 'provincial', onClos
       const html = `
         <div style="text-align:center; padding:12px 16px; background:${bgColor}; border-radius:8px;">
           ${photo ? `<img src="${photo}" style="width:110px; height:110px; border-radius:50%; object-fit:cover; margin-bottom:10px;">` : ''}
-          <h3 style="margin:8px 0 4px;">${name}</h3>
+          <h3 style="margin:8px 0 4px; color:#111;">${name}</h3>
           <p style="margin:0; color:#555; font-size:0.95em;">${role} · ${party}</p>
           ${electionDate ? `<p style="margin:4px 0 0; color:#888; font-size:0.82em;">Elected ${formatDate(electionDate)}${termEnd ? ` · Term ends ${formatDate(termEnd)}` : ''}</p>` : ''}
 
