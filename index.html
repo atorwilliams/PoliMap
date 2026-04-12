@@ -1,85 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polimap – Ridings in Colour</title>
-<link rel="stylesheet" href="https://cdn.simpleicons.org/simpleicons.css">
-    <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PoliMap – Ridings in Colour</title>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="landing.css">
 </head>
-<body>
-   <header class="top-banner">
-  <div class="banner-container">
-    <div class="logo">
-      <h1>PoliMap</h1>
-      <span>Ridings in Colour</span>
+<body class="landing-body">
+
+  <div class="landing-split">
+
+    <!-- Left panel -->
+    <div class="landing-panel">
+
+      <div class="landing-wordmark">
+        <div class="landing-wordmark-main">PoliMap</div>
+        <div class="landing-wordmark-sub">Ridings in Colour</div>
+      </div>
+
+      <div class="landing-mid">
+        <blockquote class="landing-quote">
+          "They are ruled by people they do not know, whose names they do not know, whose faces they have never seen."
+        </blockquote>
+
+        <div class="landing-rule"></div>
+
+        <p class="landing-explore-label">Explore</p>
+
+        <nav class="landing-country-list">
+          <a href="/canada.html" class="landing-country-item active">
+            <span class="landing-country-arrow">→</span>Canada
+          </a>
+          <div class="landing-country-item disabled">
+            United States<span class="landing-country-soon">soon</span>
+          </div>
+          <div class="landing-country-item disabled">
+            United Kingdom<span class="landing-country-soon">soon</span>
+          </div>
+          <div class="landing-country-item disabled">
+            Australia<span class="landing-country-soon">soon</span>
+          </div>
+        </nav>
+      </div>
+
+      <footer class="landing-footer">
+        <button class="landing-footer-link" id="about-btn">About</button>
+        <span class="landing-footer-sep">·</span>
+        <button class="landing-footer-link" id="mission-btn">Mission</button>
+        <span class="landing-footer-sep">·</span>
+        <a class="landing-footer-link" href="/donate.html">Donate</a>
+        <span class="landing-footer-sep">·</span>
+        <a class="landing-footer-link" href="https://forum.poli-map.org" target="_blank">Forum</a>
+      </footer>
+
     </div>
 
-    <nav class="main-nav">
-      <button class="nav-btn active" data-action="map">Map View</button>
-      <button class="nav-btn" data-action="about">About</button>
-      <button class="nav-btn" data-action="judiciary">Alberta Judiciary</button>
-      <button class="nav-btn" data-action="rcmp">Police in Alberta</button>
-      <button class="nav-btn" data-action="news">News</button>
-      <button class="nav-btn" data-action="gov">Alberta Government</button>
-      <button class="nav-btn" data-action="contribute">Contribute</button>
-      <button class="nav-btn" data-action="donate">Donate</button>
-      <a class="nav-btn" href="https://forum.poli-map.org" target="_blank">Forum</a>
-    </nav>
+    <!-- Right panel: live map -->
+    <div class="landing-map-wrap">
+      <div id="landing-map"></div>
+      <div class="landing-map-fade"></div>
+    </div>
+
   </div>
-</header>
-    <div id="map"></div>
 
-    <!-- Bottom-left control stack -->
-    <div id="map-controls-stack">
-
-      <!-- Legend (party or municipal, swapped by JS) -->
-      <div id="legend" class="map-control legend-control">
-          <div class="control-header">Legend</div>
-          <div id="legend-parties"></div>
-      </div>
-      <div id="municipal-legend" class="map-control legend-control" style="display:none;">
-        <div class="control-header">Legend</div>
-        <div id="municipal-legend-items"></div>
-      </div>
-      <div id="rcmp-legend" class="map-control legend-control" style="display:none;">
-        <div class="control-header">RCMP K Division</div>
-        <div id="rcmp-legend-items"></div>
-      </div>
-
-      <!-- Layers -->
-      <div id="layer-toggle" class="map-control layers-control">
-          <div class="control-header">Layers</div>
-          <button class="layer-btn active" data-layer="provincial">Provincial (MLAs)</button>
-          <button class="layer-btn" data-layer="federal">Federal (MPs)</button>
-          <button class="layer-btn" data-layer="municipal">Municipal</button>
-          <button class="layer-btn" data-layer="rcmp">RCMP Districts</button>
-          <div style="padding: 6px 0 2px;">
-            <button id="rcmp-overlay-btn" class="layer-sub-btn">RCMP Boundaries: Off</button>
-          </div>
-          <div id="hamlet-toggle-wrap" style="display:none; padding: 6px 0 2px;">
-            <button id="hamlet-toggle-btn" class="layer-sub-btn">Hamlets: Off</button>
-          </div>
-      </div>
-
+  <!-- Mission Modal -->
+  <div id="mission-modal" class="modal-overlay" style="display:none;">
+    <div class="modal-box">
+      <button class="modal-close" data-close="mission-modal">×</button>
+      <h2>Our Mission</h2>
+      <p>
+        Political representation should be transparent, accessible, and understandable.
+        PoliMap exists to close the gap between citizens and their governments — one riding at a time.
+      </p>
+      <p>
+        We believe that knowing who represents you is the first step toward engaging with them.
+        Whether you're looking up your MLA, your MP, or your local councillor, PoliMap puts
+        that information on the map.
+      </p>
     </div>
+  </div>
 
-</div>
-    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.js"></script>
-    <script type="module" src="utils.js"></script>
-    <script type="module" src="main.js"></script>
+  <!-- About Modal -->
+  <div id="about-overlay" class="about-overlay">
+    <div class="about-content">
+      <button id="about-close" aria-label="Close">&#x2715;</button>
 
-    <div id="wip-notice">
-      <p>PoliMap is under active development. Data and features are being added regularly.</p>
-      <button id="wip-close" aria-label="Dismiss">×</button>
+      <div class="about-header">
+        <h1>PoliMap</h1>
+        <p class="about-tagline">Ridings in Colour</p>
+      </div>
+
+      <p>A tool to visualize who actually represents you — provincial MLAs, federal MPs, municipal councils — and how to reach them.</p>
+
+      <blockquote>
+        "They are ruled by people they do not know, whose names they do not know, whose faces they have never seen."
+        <cite>— Unknown</cite>
+      </blockquote>
+
+      <div class="about-section">
+        <h2>Built by</h2>
+        <p>Arthur in Vienna.</p>
+      </div>
+
+      <div class="about-section">
+        <h2>Data</h2>
+        <p>Sourced from Elections Canada, provincial election authorities, and public municipal records. Contributions welcome — see the <a href="/contribute.html" style="color:#aac4ff;">Contribute</a> page.</p>
+      </div>
+
+      <div class="about-section">
+        <h2>Support</h2>
+        <p>If this helps you understand or share Canadian politics, consider supporting the project:</p>
+        <a class="about-link-btn" href="donate.html">Support with crypto →</a>
+      </div>
+
+      <p class="about-footer">v0.2 · 2026 · Built with open data and spite</p>
     </div>
-    <script>
-      document.getElementById('wip-close').addEventListener('click', () => {
-        document.getElementById('wip-notice').classList.add('hidden');
+  </div>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script>
+    // ── Decorative background map ──────────────────────────────────────────────
+    const map = new maplibregl.Map({
+      container: 'landing-map',
+      style: 'https://tiles.openfreemap.org/styles/liberty',
+      center: [-113.5, 53.8],
+      zoom: 5.2,
+      interactive: false,
+      attributionControl: false
+    });
+
+
+    // ── WIP notice ─────────────────────────────────────────────────────────────
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+
+    // ── Mission modal ──────────────────────────────────────────────────────────
+    function openModal(id)  { document.getElementById(id).style.display = 'flex'; }
+    function closeModal(id) { document.getElementById(id).style.display = 'none'; }
+
+    document.getElementById('mission-btn').addEventListener('click', () => openModal('mission-modal'));
+    document.querySelectorAll('.modal-close').forEach(btn => {
+      btn.addEventListener('click', () => closeModal(btn.dataset.close));
+    });
+    document.querySelectorAll('.modal-overlay').forEach(overlay => {
+      overlay.addEventListener('click', e => {
+        if (e.target === overlay) overlay.style.display = 'none';
       });
-    </script>
+    });
+
+    // ── About modal ────────────────────────────────────────────────────────────
+    const aboutOverlay = document.getElementById('about-overlay');
+    document.getElementById('about-btn').addEventListener('click', () => aboutOverlay.classList.add('open'));
+    document.getElementById('about-close').addEventListener('click', () => aboutOverlay.classList.remove('open'));
+    aboutOverlay.addEventListener('click', e => {
+      if (e.target === aboutOverlay) aboutOverlay.classList.remove('open');
+    });
+  </script>
+
 </body>
 </html>

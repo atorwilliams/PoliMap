@@ -1,40 +1,3 @@
-import { loadArticles, RSS_FEEDS } from './news.js';
-
-// ── News matching ─────────────────────────────────────────────────────────────
-async function getMemberNews(member, ridingName) {
-  if (!RSS_FEEDS.length) return [];
-  let articles;
-  try { articles = await loadArticles(); } catch (_) { return []; }
-
-  // Build keywords: full name, last name (if distinctive), riding name
-  const nameParts = (member.name || '').split(' ');
-  const lastName  = nameParts[nameParts.length - 1];
-  const keywords  = [
-    member.name.toLowerCase(),
-    ...(lastName.length > 4 ? [lastName.toLowerCase()] : []),
-    ridingName.toLowerCase(),
-    ridingName.toLowerCase().replace(/-/g, ' '),
-  ];
-
-  return articles
-    .filter(a => {
-      const text = `${a.title} ${a.description}`.toLowerCase();
-      return keywords.some(kw => kw.length > 3 && text.includes(kw));
-    })
-    .slice(0, 3);
-}
-
-function renderMemberNews(articles) {
-  if (!articles.length) {
-    return `<p class="member-news-empty">No recent news found.</p>`;
-  }
-  return articles.map(a => `
-    <a href="${a.link}" target="_blank" rel="noopener noreferrer" class="member-news-item">
-      <span class="member-news-title">${a.title}</span>
-      <span class="member-news-meta">${a.source} · ${a.pubDate ? new Date(a.pubDate).toLocaleDateString('en-CA', { month: 'short', day: 'numeric' }) : ''}</span>
-    </a>`).join('');
-}
-
 function formatDate(dateStr) {
   if (!dateStr) return '';
   const d = new Date(dateStr);
@@ -193,6 +156,7 @@ function showPartySidebar(map, partyKey, members, level) {
   closeBtn.addEventListener('click', () => {
     sidebar.remove();
     window.currentSidebar = null;
+    document.body.classList.remove('sidebar-open');
   });
 
   // Card clicks (open member detail)
@@ -200,11 +164,11 @@ function showPartySidebar(map, partyKey, members, level) {
     card.addEventListener('click', () => {
       const member = JSON.parse(card.dataset.member);
       showMemberDetailSidebar(member, member.riding || 'Unknown Riding', level, member.electionDate, member.termEnd);
-      // No need to remove here — showMemberDetailSidebar will close this one
     });
   });
 
   setTimeout(() => sidebar.classList.add('open'), 10);
+  document.body.classList.add('sidebar-open');
 
   window.currentSidebar = sidebar;
 }
@@ -252,11 +216,6 @@ function showMemberDetailSidebar(member, ridingName, level, electionDate, termEn
       </div>
 
       ${buildSocialLinks(contact.social)}
-
-      <div class="member-news-section">
-        <h4 class="member-news-heading">Recent News</h4>
-        <div id="member-news-results"><p class="member-news-loading">Loading…</p></div>
-      </div>
     </div>
   `;
 
@@ -266,17 +225,13 @@ function showMemberDetailSidebar(member, ridingName, level, electionDate, termEn
   document.getElementById('sidebar-close-btn').addEventListener('click', () => {
     sidebar.remove();
     window.currentSidebar = null;
+    document.body.classList.remove('sidebar-open');
   });
 
   setTimeout(() => sidebar.classList.add('open'), 10);
+  document.body.classList.add('sidebar-open');
 
   window.currentSidebar = sidebar;
-
-  // Async: fetch and inject relevant news
-  getMemberNews(member, ridingName).then(articles => {
-    const el = document.getElementById('member-news-results');
-    if (el) el.innerHTML = renderMemberNews(articles);
-  });
 }
 
 function buildSocialLinks(social) {

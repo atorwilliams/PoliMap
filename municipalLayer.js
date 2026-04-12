@@ -338,6 +338,7 @@ export function showMunicipalTypeSidebar(type, label, color, map) {
   document.getElementById('sidebar-close-btn').addEventListener('click', () => {
     sidebar.remove();
     window.currentSidebar = null;
+    document.body.classList.remove('sidebar-open');
   });
 
   sidebar.querySelectorAll('.municipal-list-item').forEach(el => {
@@ -351,6 +352,7 @@ export function showMunicipalTypeSidebar(type, label, color, map) {
   });
 
   setTimeout(() => sidebar.classList.add('open'), 10);
+  document.body.classList.add('sidebar-open');
   window.currentSidebar = sidebar;
 }
 
@@ -399,10 +401,12 @@ function showMunicipalSidebar({ geoname, name, typeLabel, typeColor, provincialR
   document.getElementById('sidebar-close-btn').addEventListener('click', () => {
     sidebar.remove();
     window.currentSidebar = null;
+    document.body.classList.remove('sidebar-open');
     if (onClose) onClose();
   });
 
   setTimeout(() => sidebar.classList.add('open'), 10);
+  document.body.classList.add('sidebar-open');
   window.currentSidebar = sidebar;
 
   // Async: load municipal data + riding member info in parallel

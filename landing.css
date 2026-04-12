@@ -1,0 +1,456 @@
+/* landing.css — Landing page, Canada picker, and shared modal/dropdown styles */
+
+/* ── Body ─────────────────────────────────────────────────────────────────────── */
+
+.landing-body {
+  background: #0d0d0d;
+  min-height: 100vh;
+}
+
+/* ── Split layout ─────────────────────────────────────────────────────────────── */
+
+.landing-split {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ── Left panel ───────────────────────────────────────────────────────────────── */
+
+.landing-panel {
+  width: 400px;
+  flex-shrink: 0;
+  background: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  padding: 52px 52px 40px;
+  position: relative;
+  z-index: 2;
+  overflow-y: auto;
+}
+
+/* ── Wordmark ─────────────────────────────────────────────────────────────────── */
+
+.landing-wordmark {
+  margin-bottom: 56px;
+}
+
+.landing-wordmark-main {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.01em;
+  line-height: 1;
+}
+
+.landing-wordmark-sub {
+  font-size: 0.65rem;
+  color: rgba(255,255,255,0.28);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  margin-top: 6px;
+}
+
+/* ── Mid content ──────────────────────────────────────────────────────────────── */
+
+.landing-mid {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ── Quote ────────────────────────────────────────────────────────────────────── */
+
+.landing-quote {
+  margin: 0 0 36px;
+  padding: 0;
+  border: none;
+  font-size: 1rem;
+  font-style: italic;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.75;
+}
+
+/* ── Rule ─────────────────────────────────────────────────────────────────────── */
+
+.landing-rule {
+  height: 1px;
+  background: rgba(255,255,255,0.08);
+  margin-bottom: 32px;
+}
+
+/* ── Explore section ──────────────────────────────────────────────────────────── */
+
+.landing-explore-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: rgba(255,255,255,0.28);
+  margin: 0 0 14px;
+}
+
+.landing-country-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-country-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 0;
+  font-size: 0.98rem;
+  color: rgba(255,255,255,0.28);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  transition: color 0.15s;
+  cursor: default;
+}
+
+.landing-country-item:last-child {
+  border-bottom: none;
+}
+
+.landing-country-item.active {
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.landing-country-item.active:hover {
+  color: #aac4ff;
+}
+
+.landing-country-item.active:hover .landing-country-arrow {
+  transform: translateX(4px);
+}
+
+.landing-country-arrow {
+  font-size: 0.95rem;
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+.landing-country-soon {
+  margin-left: auto;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,0.18);
+  font-style: normal;
+}
+
+/* ── Footer ───────────────────────────────────────────────────────────────────── */
+
+.landing-footer {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.landing-footer-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.28);
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.15s;
+  font-family: inherit;
+}
+
+.landing-footer-link:hover {
+  color: rgba(255,255,255,0.7);
+}
+
+.landing-footer-sep {
+  color: rgba(255,255,255,0.12);
+  font-size: 0.75rem;
+}
+
+/* ── Map panel ────────────────────────────────────────────────────────────────── */
+
+.landing-map-wrap {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+#landing-map {
+  width: 100%;
+  height: 100%;
+}
+
+.landing-map-fade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    #0d0d0d 0%,
+    rgba(13, 13, 13, 0.85) 15%,
+    rgba(13, 13, 13, 0.3) 40%,
+    transparent 65%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ── Province grid (canada.html) ──────────────────────────────────────────────── */
+
+.province-section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px 60px;
+}
+
+.province-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 14px;
+}
+
+.province-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 22px 20px;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: background 0.18s, border-color 0.18s, transform 0.15s;
+}
+
+.province-card.active {
+  border-color: rgba(0, 61, 165, 0.45);
+  background: rgba(0, 61, 165, 0.07);
+  cursor: pointer;
+}
+
+.province-card.active:hover {
+  background: rgba(0, 61, 165, 0.14);
+  border-color: rgba(0, 61, 165, 0.7);
+  transform: translateY(-2px);
+}
+
+.province-card.disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.province-abbr {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.province-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: rgba(255,255,255,0.9);
+}
+
+.province-sub {
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.45);
+}
+
+.province-coming {
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.3);
+  font-style: italic;
+}
+
+/* ── Province switcher dropdown (alberta.html nav) ────────────────────────────── */
+
+.nav-province-wrap {
+  position: relative;
+}
+
+.nav-province-btn {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 6px;
+  color: #fff;
+  padding: 5px 12px;
+  font-size: 0.82em;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+
+.nav-province-btn:hover {
+  background: rgba(255,255,255,0.14);
+}
+
+.nav-province-btn .chevron {
+  font-size: 0.65em;
+  opacity: 0.7;
+  transition: transform 0.15s;
+}
+
+.nav-province-wrap.open .nav-province-btn .chevron {
+  transform: rotate(180deg);
+}
+
+.nav-province-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background: #1a1a1a;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 8px;
+  min-width: 200px;
+  z-index: 2000;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+
+.nav-province-wrap.open .nav-province-dropdown {
+  display: block;
+}
+
+.province-drop-item {
+  display: block;
+  padding: 9px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: rgba(255,255,255,0.85);
+  transition: background 0.13s;
+  cursor: pointer;
+}
+
+.province-drop-item:hover {
+  background: rgba(255,255,255,0.07);
+}
+
+.province-drop-item.current {
+  color: #fff;
+  font-weight: 600;
+  background: rgba(0, 61, 165, 0.2);
+}
+
+.province-drop-item.disabled {
+  color: rgba(255,255,255,0.25);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.province-drop-divider {
+  height: 1px;
+  background: rgba(255,255,255,0.08);
+  margin: 6px 4px;
+}
+
+/* ── Modals ───────────────────────────────────────────────────────────────────── */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.72);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  z-index: 9000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.modal-box {
+  background: #191919;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 14px;
+  padding: 36px 36px 32px;
+  max-width: 520px;
+  width: 100%;
+  position: relative;
+  color: #fff;
+}
+
+.modal-box h2 {
+  margin: 0 0 16px;
+  font-size: 1.35rem;
+  font-weight: 700;
+  padding-right: 32px;
+}
+
+.modal-box p {
+  color: rgba(255,255,255,0.72);
+  line-height: 1.68;
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+}
+
+.modal-box p:last-child {
+  margin-bottom: 0;
+}
+
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.4);
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: color 0.15s, background 0.15s;
+}
+
+.modal-close:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.08);
+}
+
+/* ── Responsive ───────────────────────────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .landing-split {
+    flex-direction: column-reverse;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .landing-panel {
+    width: 100%;
+    padding: 40px 28px 36px;
+  }
+
+  .landing-map-wrap {
+    height: 45vh;
+    flex-shrink: 0;
+  }
+
+  .landing-map-fade {
+    background: linear-gradient(
+      to bottom,
+      transparent 40%,
+      rgba(13,13,13,0.85) 80%,
+      #0d0d0d 100%
+    );
+  }
+
+  .province-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .modal-box {
+    padding: 28px 22px 24px;
+  }
+}

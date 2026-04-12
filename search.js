@@ -132,6 +132,7 @@ function showResults(map, { display_name, provincialRiding, federalRiding, munic
   sidebar.querySelector('#sidebar-close-btn').addEventListener('click', () => {
     sidebar.remove();
     window.currentSidebar = null;
+    document.body.classList.remove('sidebar-open');
   });
 
   // Wire "Contact & Details" buttons
@@ -151,6 +152,7 @@ function showResults(map, { display_name, provincialRiding, federalRiding, munic
   }
 
   setTimeout(() => sidebar.classList.add('open'), 10);
+  document.body.classList.add('sidebar-open');
   window.currentSidebar = sidebar;
 }
 

@@ -14,7 +14,7 @@ html, body, #map {
 }
 
 .maplibregl-ctrl-top-right {
-  margin-top: 64px; /* clear the navbar */
+  margin-top: 136px; /* clear navbar + search bar */
 }
 
 /* ================================================
@@ -1064,22 +1064,22 @@ html, body, #map {
 /* ── WIP notice ── */
 #wip-notice {
   position: fixed;
-  top: 90px;
-  right: 20px;
+  bottom: 20px;
+  left: 240px;
   z-index: 9999;
   background: #161616;
   border: 1px solid #2a2a2a;
   border-left: 3px solid #9A8240;
   border-radius: 8px;
-  padding: 12px 36px 12px 14px;
-  max-width: 300px;
+  padding: 10px 32px 10px 12px;
+  max-width: 260px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.5);
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 #wip-notice.hidden {
   opacity: 0;
-  transform: translateX(12px);
+  transform: translateY(8px);
   pointer-events: none;
 }
 
@@ -1110,13 +1110,17 @@ html, body, #map {
    ================================================ */
 #address-search {
   position: fixed;
-  top: 68px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 80px;
+  right: 10px;
   z-index: 1500;
-  width: 360px;
+  width: 340px;
   max-width: calc(100vw - 40px);
   font-family: Arial, sans-serif;
+  transition: right 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+body.sidebar-open #address-search {
+  right: 430px;
 }
 
 .search-box {
@@ -1187,6 +1191,7 @@ html, body, #map {
 @media (max-width: 768px) {
   #address-search {
     top: 64px;
+    right: 10px;
     width: calc(100vw - 80px);
   }
 }

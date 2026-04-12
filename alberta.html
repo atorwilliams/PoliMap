@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alberta – PoliMap</title>
+    <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+  <header class="top-banner">
+    <div class="banner-container">
+      <a href="/" class="logo" style="text-decoration:none;">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </a>
+
+      <nav class="main-nav">
+
+        <!-- Province switcher -->
+        <div class="nav-province-wrap" id="province-wrap">
+          <button class="nav-province-btn" id="province-btn">
+            🇨🇦 Alberta <span class="chevron">▾</span>
+          </button>
+          <div class="nav-province-dropdown">
+            <span class="province-drop-item current">Alberta</span>
+            <div class="province-drop-divider"></div>
+            <span class="province-drop-item disabled">British Columbia <small style="opacity:0.5;">soon</small></span>
+            <span class="province-drop-item disabled">Saskatchewan <small style="opacity:0.5;">soon</small></span>
+            <span class="province-drop-item disabled">Manitoba <small style="opacity:0.5;">soon</small></span>
+            <span class="province-drop-item disabled">Ontario <small style="opacity:0.5;">soon</small></span>
+            <span class="province-drop-item disabled">Québec <small style="opacity:0.5;">soon</small></span>
+            <div class="province-drop-divider"></div>
+            <a class="province-drop-item" href="/canada.html">All provinces →</a>
+          </div>
+        </div>
+
+        <a class="nav-btn" href="/judiciary.html">Alberta Judiciary</a>
+        <a class="nav-btn" href="/rcmp.html">Police in Alberta</a>
+        <a class="nav-btn" href="/government.html">Alberta Government</a>
+        <a class="nav-btn" href="/contribute.html">Contribute</a>
+        <a class="nav-btn" href="/donate.html">Donate</a>
+        <a class="nav-btn" href="https://forum.poli-map.org" target="_blank">Forum</a>
+      </nav>
+    </div>
+  </header>
+
+    <div id="map"></div>
+
+    <!-- Bottom-left control stack -->
+    <div id="map-controls-stack">
+
+      <!-- Legend (party or municipal, swapped by JS) -->
+      <div id="legend" class="map-control legend-control">
+          <div class="control-header">Legend</div>
+          <div id="legend-parties"></div>
+      </div>
+      <div id="municipal-legend" class="map-control legend-control" style="display:none;">
+        <div class="control-header">Legend</div>
+        <div id="municipal-legend-items"></div>
+      </div>
+      <div id="rcmp-legend" class="map-control legend-control" style="display:none;">
+        <div class="control-header">RCMP K Division</div>
+        <div id="rcmp-legend-items"></div>
+      </div>
+
+      <!-- Layers -->
+      <div id="layer-toggle" class="map-control layers-control">
+          <div class="control-header">Layers</div>
+          <button class="layer-btn active" data-layer="provincial">Provincial (MLAs)</button>
+          <button class="layer-btn" data-layer="federal">Federal (MPs)</button>
+          <button class="layer-btn" data-layer="municipal">Municipal</button>
+          <button class="layer-btn" data-layer="rcmp">RCMP Districts</button>
+          <div style="padding: 6px 0 2px;">
+            <button id="rcmp-overlay-btn" class="layer-sub-btn">RCMP Boundaries: Off</button>
+          </div>
+          <div id="hamlet-toggle-wrap" style="display:none; padding: 6px 0 2px;">
+            <button id="hamlet-toggle-btn" class="layer-sub-btn">Hamlets: Off</button>
+          </div>
+      </div>
+
+    </div>
+
+    <div id="wip-notice">
+      <p>PoliMap is under active development. Data and features are being added regularly.</p>
+      <button id="wip-close" aria-label="Dismiss">×</button>
+    </div>
+
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.js"></script>
+    <script type="module" src="utils.js"></script>
+    <script type="module" src="main.js"></script>
+
+    <script>
+      document.getElementById('wip-close').addEventListener('click', () => {
+        document.getElementById('wip-notice').classList.add('hidden');
+      });
+
+      // Province switcher dropdown toggle
+      const wrap = document.getElementById('province-wrap');
+      const btn  = document.getElementById('province-btn');
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        wrap.classList.toggle('open');
+      });
+      document.addEventListener('click', () => wrap.classList.remove('open'));
+    </script>
+</body>
+</html>

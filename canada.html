@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canada – PoliMap</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="institutional.css">
+  <link rel="stylesheet" href="landing.css">
+</head>
+<body class="landing-body">
+
+  <header class="top-banner">
+    <div class="banner-container">
+      <a href="/" class="logo" style="text-decoration:none;">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </a>
+      <nav class="main-nav">
+        <a class="nav-btn" href="/">← Home</a>
+        <a class="nav-btn" href="/donate.html">Donate</a>
+        <a class="nav-btn" href="https://forum.poli-map.org" target="_blank">Forum</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <section class="page-hero">
+      <h1>Canada</h1>
+      <p>Select a province or territory to explore its political map.</p>
+    </section>
+
+    <div class="province-section">
+      <div class="province-grid">
+
+        <!-- Active -->
+        <a href="/alberta.html" class="province-card active">
+          <div class="province-abbr">AB</div>
+          <div class="province-name">Alberta</div>
+          <div class="province-sub">87 provincial · 34 federal ridings</div>
+        </a>
+
+        <!-- Coming soon -->
+        <div class="province-card disabled">
+          <div class="province-abbr">BC</div>
+          <div class="province-name">British Columbia</div>
+          <div class="province-coming">Coming soon</div>
+        </div>
+
+        <div class="province-card disabled">
+          <div class="province-abbr">SK</div>
+          <div class="province-name">Saskatchewan</div>
+          <div class="province-coming">Coming soon</div>
+        </div>
+
+        <div class="province-card disabled">
+          <div class="province-abbr">MB</div>
+          <div class="province-name">Manitoba</div>
+          <div class="province-coming">Coming soon</div>
+        </div>
+
+        <div class="province-card disabled">
+          <div class="province-abbr">ON</div>
+          <div class="province-name">Ontario</div>
+          <div class="province-coming">Coming soon</div>
+        </div>
+
+        <div class="province-card disabled">
+          <div class="province-abbr">QC</div>
+          <div class="province-name">Québec</div>
+          <div class="province-coming">Coming soon</div>
+        </div>
+
+        <div class="province-card disabled">
+          <div class="province-abbr">NB</div>
+          <div class="province-name">New Brunswick</div>
+          <div class="province-coming">Coming soon</div>
+        </div>
+
+        <div class="province-card disabled">
+          <div class="province-abbr">NS</div>
+          <div class="province-name">Nova Scotia</div>
+          <div class="province-coming">Coming soon</div>
+        </div>
+
+        <div class="province-card disabled">
+          <div class="province-abbr">PE</div>
+          <div class="province-name">Prince Edward Island</div>
+          <div class="province-coming">Coming soon</div>
+        </div>
+
+        <div class="province-card disabled">
+          <div class="province-abbr">NL</div>
+          <div class="province-name">Newfoundland & Labrador</div>
+          <div class="province-coming">Coming soon</div>
+        </div>
+
+        <div class="province-card disabled">
+          <div class="province-abbr">YT</div>
+          <div class="province-name">Yukon</div>
+          <div class="province-coming">Coming soon</div>
+        </div>
+
+        <div class="province-card disabled">
+          <div class="province-abbr">NT</div>
+          <div class="province-name">Northwest Territories</div>
+          <div class="province-coming">Coming soon</div>
+        </div>
+
+        <div class="province-card disabled">
+          <div class="province-abbr">NU</div>
+          <div class="province-name">Nunavut</div>
+          <div class="province-coming">Coming soon</div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+  <script>
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+  </script>
+
+</body>
+</html>

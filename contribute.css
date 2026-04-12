@@ -24,6 +24,13 @@
   margin: 0;
 }
 
+.wallet-privacy-note {
+  color: #888;
+  font-size: 0.78rem;
+  font-style: italic;
+  margin: 4px 0 0;
+}
+
 .wallet-connect-btn {
   background: #003DA5;
   color: #fff;

@@ -1,6 +1,5 @@
-// api/proxy.js – Vercel serverless CORS proxy for RSS feeds
+// api/proxy.js – CORS proxy for external URL fetches
 // Fetches any URL server-side and returns the content with CORS headers.
-// Called from news.js as: /api/proxy?url=https://example.com/feed
 
 export default async function handler(req, res) {
   const { url } = req.query;
