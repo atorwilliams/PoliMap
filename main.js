@@ -7,6 +7,7 @@ import { applyFederalRidingColours } from './federalColouring.js';
 import { initLegend, updateLegend } from './legend.js';
 import { initMunicipal, updateMunicipalVisibility, MUNICIPAL_COLORS, HAMLET_COLOR, showMunicipalTypeSidebar } from './municipalLayer.js';
 import { initRCMP, updateRCMPVisibility, RCMP_DISTRICT_COLORS } from './rcmpLayer.js';
+import { initSearch } from './search.js';
 
 const HAMLET_LAYERS = ['municipal-hamlet', 'municipal-hamlet-label'];
 let showHamlets = false;
@@ -86,6 +87,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Initialize interactions
   initInteractions(map);
   initFederalInteractions(map);
+  initSearch(map);
 
   // Build static legends
   populateMunicipalLegend(map);

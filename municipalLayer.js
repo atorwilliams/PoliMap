@@ -1,7 +1,7 @@
 // municipalLayer.js – Municipal boundary layer (cities, towns, villages, etc.)
 import { findProvincialRidingAt } from './ridings.js';
 import { findFederalRidingAt } from './federalRidings.js';
-import { loadMunicipalData, loadRidingData, loadFederalRidingData } from './data.js';
+import { pointInFeature, loadMunicipalData, loadRidingData, loadFederalRidingData } from './data.js';
 
 export const MUNICIPAL_COLORS = {
   CITY:     { label: 'City',                   color: '#C0392B' },
@@ -490,6 +490,19 @@ function renderMunicipalCouncil(data) {
     ${councilHtml}
     ${metaHtml}
   `;
+}
+
+export function findMunicipalAt(lng, lat) {
+  if (!municipalPolygonFeatures.length) return null;
+  const found = municipalPolygonFeatures.find(f => pointInFeature(lng, lat, f));
+  if (!found) return null;
+  const props = found.properties;
+  return {
+    geoname: props.GEONAME,
+    name: props.geonameTitled || toTitleCase(props.GEONAME || ''),
+    typeLabel: MUNICIPAL_COLORS[props.municipalType]?.label || props.municipalType,
+    typeColor: MUNICIPAL_COLORS[props.municipalType]?.color || '#999',
+  };
 }
 
 export function updateMunicipalVisibility(map) {

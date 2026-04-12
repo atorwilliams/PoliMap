@@ -1,4 +1,5 @@
 // rcmpLayer.js – RCMP K Division detachment boundary layer
+import { pointInFeature } from './data.js';
 
 export const RCMP_DISTRICT_COLORS = {
   SAD: { label: 'South Alberta District',    color: '#C0392B' },
@@ -214,6 +215,24 @@ export async function initRCMP(map) {
       highlightedId = null;
     });
   });
+}
+
+export function findRCMPAt(lng, lat) {
+  if (!rcmpFeatures.length) return null;
+  const found = rcmpFeatures.find(f => pointInFeature(lng, lat, f));
+  if (!found) return null;
+  const props = found.properties;
+  const district = RCMP_DISTRICT_COLORS[props.GEO_BNDRY1] || RCMP_DISTRICT_COLORS.Other;
+  const det = detachmentLookup[props.ProperName?.toLowerCase()] || null;
+  return {
+    detachment: props.ProperName || 'Unknown Detachment',
+    code: props.Two_Letter || '',
+    district: district.label,
+    districtColor: district.color,
+    contract: props.Contract?.trim() ? `${props.Contract} Police` : 'K Division',
+    phone: det?.phone || null,
+    address: det?.address || null,
+  };
 }
 
 export function updateRCMPVisibility(map) {

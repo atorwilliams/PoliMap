@@ -1104,3 +1104,201 @@ html, body, #map {
 }
 
 #wip-close:hover { color: #aaa; }
+
+/* ================================================
+   Address search bar
+   ================================================ */
+#address-search {
+  position: fixed;
+  top: 68px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1500;
+  width: 360px;
+  max-width: calc(100vw - 40px);
+  font-family: Arial, sans-serif;
+}
+
+.search-box {
+  display: flex;
+  gap: 0;
+  background: rgba(0, 0, 0, 0.78);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+}
+
+#search-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 0.92em;
+  padding: 11px 14px;
+  font-family: Arial, sans-serif;
+}
+
+#search-input::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+#search-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 0.88em;
+  font-weight: 600;
+  padding: 11px 16px;
+  cursor: pointer;
+  transition: background 0.18s ease;
+  white-space: nowrap;
+  font-family: Arial, sans-serif;
+}
+
+#search-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+#search-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.search-error {
+  margin-top: 6px;
+  padding: 7px 12px;
+  background: rgba(180, 30, 30, 0.75);
+  border-radius: 7px;
+  font-size: 0.82em;
+  color: #fcc;
+  display: none;
+  backdrop-filter: blur(4px);
+}
+
+.search-error.visible {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  #address-search {
+    top: 64px;
+    width: calc(100vw - 80px);
+  }
+}
+
+/* ================================================
+   Search results cards (inside member-detail-sidebar)
+   ================================================ */
+.search-result-address {
+  font-size: 0.75em;
+  color: #444;
+  margin: 0 0 20px;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.search-rep-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search-rep-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-left: 4px solid #333;
+  border-radius: 10px;
+  padding: 13px 14px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.search-rep-label {
+  font-size: 0.68em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #555;
+}
+
+.search-rep-riding {
+  font-size: 0.88em;
+  color: #bbb;
+  font-weight: 500;
+}
+
+.search-rep-person {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.search-rep-photo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.search-rep-person-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.search-rep-person-text strong {
+  font-size: 0.95em;
+  color: #fff;
+  font-weight: 700;
+}
+
+.search-rep-party {
+  display: inline-block;
+  font-size: 0.72em;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 4px;
+  letter-spacing: 0.3px;
+}
+
+.search-rep-role {
+  font-size: 0.78em;
+  color: #666;
+}
+
+.search-rep-none {
+  font-size: 0.82em;
+  color: #444;
+  font-style: italic;
+}
+
+.search-detail-btn {
+  margin-top: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 7px;
+  color: #aaa;
+  font-size: 0.82em;
+  font-weight: 600;
+  padding: 7px 12px;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.18s, color 0.18s, border-color 0.18s;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+.search-detail-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}

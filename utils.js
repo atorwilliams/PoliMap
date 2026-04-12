@@ -28,12 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
   window.location.href = 'https://polimap.discourse.group';
   break;
 
-        case 'separatist':
-          if (!window.location.pathname.includes('separatist')) {
-            window.location.href = 'separatist.html';
-          }
-          break;
-
         case 'judiciary':
           if (!window.location.pathname.includes('judiciary')) {
             window.location.href = 'judiciary.html';
@@ -59,7 +53,9 @@ document.addEventListener('DOMContentLoaded', () => {
           break;
 
         case 'contribute':
-          window.open('https://github.com/atorwilliams/polimap', '_blank');
+          if (!window.location.pathname.includes('contribute')) {
+            window.location.href = 'contribute.html';
+          }
           break;
 
         case 'donate':

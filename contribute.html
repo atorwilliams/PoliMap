@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contribute – PoliMap</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="institutional.css">
+  <link rel="stylesheet" href="contribute.css">
+</head>
+<body>
+
+  <header class="top-banner">
+    <div class="banner-container">
+      <div class="logo">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </div>
+      <nav class="main-nav">
+        <button class="nav-btn" data-action="map">Map View</button>
+        <button class="nav-btn" data-action="about">About</button>
+        <button class="nav-btn" data-action="judiciary">Alberta Judiciary</button>
+        <button class="nav-btn" data-action="rcmp">Police in Alberta</button>
+        <button class="nav-btn" data-action="news">News</button>
+        <button class="nav-btn" data-action="gov">Alberta Government</button>
+        <button class="nav-btn active" data-action="contribute">Contribute</button>
+        <button class="nav-btn" data-action="donate">Donate</button>
+        <a class="nav-btn" href="https://forum.poli-map.org" target="_blank">Forum</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <section class="page-hero">
+      <h1>Contribute</h1>
+      <p>Help keep Alberta's political data accurate. Propose corrections, confirm others' edits, and earn contributor tokens.</p>
+    </section>
+
+    <!-- Wallet connection bar -->
+    <div id="wallet-bar">
+      <div id="wallet-disconnected">
+        <p>Connect your MetaMask wallet to propose edits, confirm proposals, and earn tokens.</p>
+        <button id="connect-wallet-btn" class="wallet-connect-btn">Connect Wallet</button>
+      </div>
+      <div id="wallet-connected" style="display:none;">
+        <div class="wallet-status">
+          <span class="wallet-dot"></span>
+          <span id="wallet-address-display"></span>
+        </div>
+        <div class="wallet-meta">
+          <span id="wallet-token-display" class="wallet-token-count">— tokens</span>
+          <span id="wallet-flair-display" class="wallet-flair-badge"></span>
+          <span id="wallet-strike-display" class="wallet-strike-count" style="display:none;"></span>
+        </div>
+        <button id="disconnect-wallet-btn" class="wallet-disconnect-btn">Disconnect</button>
+      </div>
+    </div>
+
+    <!-- Sub-nav -->
+    <nav class="sub-nav">
+      <button class="sub-nav-btn active" data-tab="proposals">Active Proposals</button>
+      <button class="sub-nav-btn" data-tab="propose">Propose an Edit</button>
+      <button class="sub-nav-btn" data-tab="mine">My Activity</button>
+    </nav>
+
+    <!-- ── Tab: Active Proposals ── -->
+    <div id="tab-proposals" class="tab-panel">
+
+      <div class="contrib-toolbar">
+        <div class="filter-strip">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="provincial">Provincial</button>
+          <button class="filter-btn" data-filter="federal">Federal</button>
+          <button class="filter-btn" data-filter="municipal">Municipal</button>
+          <button class="filter-btn" data-filter="rcmp">RCMP</button>
+        </div>
+        <span class="proposal-count" id="proposal-count">0 active</span>
+      </div>
+
+      <div id="proposals-list" class="proposals-list">
+        <!-- Empty state -->
+        <div class="empty-state" id="proposals-empty">
+          <div class="empty-icon">📋</div>
+          <h3>No active proposals</h3>
+          <p>Be the first to propose a correction.</p>
+          <button class="cta-btn" data-goto-tab="propose">Propose an Edit →</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ── Tab: Propose an Edit ── -->
+    <div id="tab-propose" class="tab-panel" style="display:none;">
+      <div class="drill-wrap">
+
+        <!-- Level 0: source list (auto-generated from registry) -->
+        <div id="drill-sources" class="drill-level">
+          <p class="drill-hint">Select a data source to correct.</p>
+          <div id="source-list" class="drill-list">
+            <div class="drill-loading">Loading…</div>
+          </div>
+        </div>
+
+        <!-- Level 1: entry list -->
+        <div id="drill-entries" class="drill-level" style="display:none;">
+          <button class="drill-back" id="back-to-sources">← Back</button>
+          <div class="drill-level-title" id="drill-source-label"></div>
+          <input id="drill-search" class="drill-search" type="text"
+            placeholder="Search…" autocomplete="off" />
+          <div id="entry-list" class="drill-list"></div>
+        </div>
+
+        <!-- Level 2: field editor -->
+        <div id="drill-fields" class="drill-level" style="display:none;">
+          <button class="drill-back" id="back-to-entries">← Back</button>
+          <div class="drill-level-title" id="drill-entry-label"></div>
+          <div id="field-editor" class="field-editor"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── Tab: My Activity ── -->
+    <div id="tab-mine" class="tab-panel" style="display:none;">
+
+      <!-- Wallet required gate -->
+      <div id="mine-wallet-gate" class="wallet-gate">
+        <p>Connect your wallet to see your activity.</p>
+        <button class="wallet-connect-btn" id="mine-connect-btn">Connect Wallet</button>
+      </div>
+
+      <!-- Activity content (shown when wallet connected) -->
+      <div id="mine-content" style="display:none;">
+        <div class="mine-grid">
+
+          <!-- Token summary -->
+          <div class="mine-card token-summary-card">
+            <div class="mine-card-header">Contributor Tokens</div>
+            <div class="token-big" id="mine-token-count">—</div>
+            <div id="mine-flair-badge" class="mine-flair"></div>
+            <div class="token-next-tier" id="mine-next-tier"></div>
+          </div>
+
+          <!-- Strikes -->
+          <div class="mine-card strikes-card" id="strikes-card">
+            <div class="mine-card-header">Strikes</div>
+            <div class="strikes-display">
+              <div class="strike-pips" id="strike-pips"></div>
+              <span class="strikes-count" id="mine-strikes">0 / 3</span>
+            </div>
+            <p class="strikes-note" id="strikes-note"></p>
+            <button class="redeem-btn" id="redeem-btn" style="display:none;">
+              Redeem Strike (burn 5 tokens)
+            </button>
+          </div>
+
+        </div>
+
+        <!-- My proposals -->
+        <div class="mine-section">
+          <div class="mine-section-header">My Proposals</div>
+          <div id="mine-proposals" class="mine-list">
+            <div class="mine-empty">No proposals yet.</div>
+          </div>
+        </div>
+
+        <!-- My votes -->
+        <div class="mine-section">
+          <div class="mine-section-header">My Confirmations</div>
+          <div id="mine-votes" class="mine-list">
+            <div class="mine-empty">No confirmations yet.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Proposal card template (used by JS) -->
+  <template id="proposal-card-tpl">
+    <div class="proposal-card">
+      <div class="proposal-card-stripe"></div>
+      <div class="proposal-card-body">
+        <div class="proposal-meta">
+          <span class="proposal-category-badge"></span>
+          <span class="proposal-time"></span>
+        </div>
+        <div class="proposal-entity"></div>
+        <div class="proposal-field-label"></div>
+        <div class="proposal-diff">
+          <span class="diff-old"></span>
+          <span class="diff-arrow">→</span>
+          <span class="diff-new"></span>
+        </div>
+        <div class="proposal-progress-wrap">
+          <div class="proposal-progress-bar">
+            <div class="proposal-progress-fill"></div>
+          </div>
+          <span class="proposal-progress-label"></span>
+        </div>
+        <div class="proposal-actions">
+          <button class="confirm-btn">Confirm</button>
+          <button class="report-btn">Report Spam</button>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <script type="module" src="utils.js"></script>
+  <script type="module" src="contribute.js"></script>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+  <script>
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+  </script>
+
+</body>
+</html>
