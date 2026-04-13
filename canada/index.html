@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canada – PoliMap</title>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/landing.css">
+</head>
+<body class="landing-body">
+
+  <div class="landing-split">
+
+    <!-- Left panel -->
+    <div class="landing-panel">
+
+      <a href="/" class="landing-wordmark" style="text-decoration:none;">
+        <div class="landing-wordmark-main">PoliMap</div>
+        <div class="landing-wordmark-sub">Ridings in Colour</div>
+      </a>
+
+      <div class="landing-mid">
+
+        <!-- Default view: province list -->
+        <div id="panel-list">
+          <div id="pm-strip"></div>
+
+          <p class="landing-explore-label" style="margin-top:24px;">Provinces & Territories</p>
+
+          <nav class="landing-country-list" id="province-list"></nav>
+        </div>
+
+        <!-- Selected province view -->
+        <div id="panel-detail" style="display:none;">
+          <button class="landing-footer-link" id="back-btn" style="margin-bottom:28px; font-size:0.82rem;">← All provinces</button>
+
+          <div id="detail-content"></div>
+        </div>
+
+      </div>
+
+      <footer class="landing-footer">
+        <a class="landing-footer-link" href="/donate.html">Donate</a>
+        <span class="landing-footer-sep">·</span>
+        <a class="landing-footer-link" href="https://forum.poli-map.org" target="_blank">Forum</a>
+      </footer>
+
+    </div>
+
+    <!-- Right panel: Canada map -->
+    <div class="landing-map-wrap">
+      <div id="canada-map"></div>
+      <div class="landing-map-fade"></div>
+    </div>
+
+  </div>
+
+  <style>
+    #canada-map { width: 100%; height: 100%; }
+
+    .pm-strip {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      margin-bottom: 4px;
+    }
+    .pm-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .pm-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.3);
+      margin-bottom: 2px;
+    }
+    .pm-name {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .pm-party {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.45);
+    }
+
+    .detail-party-bar {
+      height: 3px;
+      border-radius: 2px;
+      margin-bottom: 24px;
+    }
+    .detail-abbr {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .detail-name {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.9);
+      margin-bottom: 20px;
+    }
+    .detail-label {
+      font-size: 0.62rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.3);
+      margin-bottom: 4px;
+      display: block;
+    }
+    .detail-premier-name {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 2px;
+    }
+    .detail-premier-party {
+      font-size: 0.82rem;
+      margin-bottom: 2px;
+    }
+    .detail-premier-since {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.35);
+      margin-bottom: 20px;
+    }
+    .detail-seats {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .detail-seat-block {
+      flex: 1;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px;
+      padding: 10px 12px;
+    }
+    .detail-seat-num {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+      margin-bottom: 3px;
+    }
+    .detail-seat-label {
+      font-size: 0.68rem;
+      color: rgba(255,255,255,0.35);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .detail-explore-btn {
+      display: block;
+      padding: 10px 18px;
+      background: #003DA5;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-align: center;
+      transition: background 0.15s;
+    }
+    .detail-explore-btn:hover { background: #0050cc; }
+    .detail-coming-soon {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.25);
+      font-style: italic;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script type="module">
+    const PROVINCE_ORDER = ['48','59','47','46','35','24','13','12','11','10','60','61','62'];
+
+    let provincesData = null;
+    let selectedPruid = null;
+    let highlightSource = null;
+    let map = null;
+
+    function formatDate(str) {
+      if (!str) return '';
+      const d = new Date(str);
+      return d.toLocaleDateString('en-CA', { year: 'numeric', month: 'long' });
+    }
+
+    async function init() {
+      const res = await fetch('./provinces.json');
+      provincesData = await res.json();
+
+      renderPMStrip();
+      renderProvinceList();
+      initMap();
+    }
+
+    function renderPMStrip() {
+      const pm = provincesData.primeMinister;
+      document.getElementById('pm-strip').innerHTML = `
+        <div class="pm-strip">
+          <div class="pm-dot" style="background:${pm.partyColor};"></div>
+          <div>
+            <div class="pm-label">Prime Minister</div>
+            <div class="pm-name">${pm.name}</div>
+            <div class="pm-party">${pm.party} · Since ${formatDate(pm.since)}</div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderProvinceList() {
+      const list = document.getElementById('province-list');
+      list.innerHTML = PROVINCE_ORDER.map(pruid => {
+        const p = provincesData.provinces[pruid];
+        if (!p) return '';
+
+        if (p.available) {
+          return `
+            <div class="landing-country-item active" data-pruid="${pruid}" style="cursor:pointer;">
+              <span class="landing-country-arrow">→</span>
+              <span>${p.name}</span>
+            </div>`;
+        } else {
+          return `
+            <div class="landing-country-item" data-pruid="${pruid}" style="cursor:pointer;">
+              <span style="width:16px; display:inline-block;"></span>
+              <span>${p.name}</span>
+              <span class="landing-country-soon">soon</span>
+            </div>`;
+        }
+      }).join('');
+
+      list.querySelectorAll('.landing-country-item').forEach(el => {
+        el.addEventListener('click', () => selectProvince(el.dataset.pruid));
+      });
+    }
+
+    function selectProvince(pruid) {
+      selectedPruid = pruid;
+      const p = provincesData.provinces[pruid];
+      if (!p) return;
+
+      // Update left panel
+      document.getElementById('panel-list').style.display = 'none';
+      document.getElementById('panel-detail').style.display = 'block';
+
+      const since = formatDate(p.premier.since);
+      document.getElementById('detail-content').innerHTML = `
+        <div class="detail-party-bar" style="background:${p.partyColor};"></div>
+        <div class="detail-abbr">${p.abbr}</div>
+        <div class="detail-name">${p.name}</div>
+
+        <span class="detail-label">Premier</span>
+        <div class="detail-premier-name">${p.premier.name}</div>
+        <div class="detail-premier-party" style="color:${p.partyColor};">${p.premier.party}</div>
+        <div class="detail-premier-since">Since ${since}</div>
+
+        <div class="detail-seats">
+          <div class="detail-seat-block">
+            <div class="detail-seat-num">${p.federalSeats}</div>
+            <div class="detail-seat-label">Federal seats</div>
+          </div>
+          <div class="detail-seat-block">
+            <div class="detail-seat-num">${p.provincialSeats}</div>
+            <div class="detail-seat-label">Provincial seats</div>
+          </div>
+        </div>
+
+        ${p.available
+          ? `<a href="${p.mapUrl}" class="detail-explore-btn">Explore ${p.name} →</a>`
+          : `<div class="detail-coming-soon">Detailed map coming soon</div>`
+        }
+      `;
+
+      // Highlight on map
+      if (map && map.getSource('highlight-source')) {
+        const feature = getFeatureByPruid(pruid);
+        map.getSource('highlight-source').setData(feature
+          ? { type: 'FeatureCollection', features: [feature] }
+          : { type: 'FeatureCollection', features: [] }
+        );
+      }
+    }
+
+    function getFeatureByPruid(pruid) {
+      if (!map) return null;
+      const source = map.getSource('provinces-source');
+      if (!source?._data?.features) return null;
+      return source._data.features.find(f => String(f.properties.PRUID) === String(pruid)) || null;
+    }
+
+    document.getElementById('back-btn').addEventListener('click', () => {
+      selectedPruid = null;
+      document.getElementById('panel-detail').style.display = 'none';
+      document.getElementById('panel-list').style.display = 'block';
+      if (map && map.getSource('highlight-source')) {
+        map.getSource('highlight-source').setData({ type: 'FeatureCollection', features: [] });
+      }
+    });
+
+    function initMap() {
+      map = new maplibregl.Map({
+        container: 'canada-map',
+        style: 'https://tiles.openfreemap.org/styles/liberty',
+        center: [-96, 60],
+        zoom: 3.2,
+        attributionControl: false
+      });
+
+      map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+      map.on('load', async () => {
+        const res = await fetch('./canada_boundary.geojson');
+        const geojson = await res.json();
+
+        // Build colour match expression from provinces data
+        const colorMatch = ['match', ['get', 'PRUID']];
+        Object.entries(provincesData.provinces).forEach(([pruid, p]) => {
+          colorMatch.push(pruid, p.partyColor);
+        });
+        colorMatch.push('#666666');
+
+        map.addSource('provinces-source', { type: 'geojson', data: geojson });
+
+        map.addLayer({
+          id: 'provinces-fill',
+          type: 'fill',
+          source: 'provinces-source',
+          paint: {
+            'fill-color': colorMatch,
+            'fill-opacity': 0.35,
+          }
+        });
+
+        map.addLayer({
+          id: 'provinces-outline',
+          type: 'line',
+          source: 'provinces-source',
+          paint: {
+            'line-color': '#888888',
+            'line-width': 0.8,
+            'line-opacity': 0.7,
+          }
+        });
+
+        // Highlight layer for selected province
+        map.addSource('highlight-source', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        });
+
+        map.addLayer({
+          id: 'provinces-highlight',
+          type: 'fill',
+          source: 'highlight-source',
+          paint: {
+            'fill-color': '#ffffff',
+            'fill-opacity': 0.15,
+          }
+        });
+
+        map.addLayer({
+          id: 'provinces-highlight-outline',
+          type: 'line',
+          source: 'highlight-source',
+          paint: {
+            'line-color': '#ffffff',
+            'line-width': 1.5,
+            'line-opacity': 0.8,
+          }
+        });
+
+        // Click handler
+        map.on('click', 'provinces-fill', (e) => {
+          const pruid = String(e.features[0].properties.PRUID);
+          selectProvince(pruid);
+        });
+
+        map.on('mouseenter', 'provinces-fill', () => {
+          map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'provinces-fill', () => {
+          map.getCanvas().style.cursor = '';
+        });
+      });
+    }
+
+    init();
+  </script>
+
+</body>
+</html>

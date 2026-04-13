@@ -1,0 +1,140 @@
+{
+  "name": "Castor",
+  "geoname": "TOWN OF CASTOR",
+  "type": "Town",
+  "mayor": {
+    "name": "Trudy Kilner",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "councillorkilner@gmail.com",
+    "committees": [
+      "Paintearth Regional Waste Management Ltd. (PRWML)",
+      "Castor and Area Health Care Providers Attraction and Retention Committee",
+      "Shirley McClellan Regional Water Services Commission",
+      "Castor Community Foodbank",
+      "Insurance Risk Pro Committee",
+      "Dog and Cat Control"
+    ]
+  },
+  "council": [
+    {
+      "name": "Brenda Hepp",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorhepp@gmail.com",
+      "phone": "",
+      "committees": [
+        "Municipal Planning Committee",
+        "Intermunicipal Development Plan and Intermunicipal Collaboration Framework Committee",
+        "Palliser Regional Municipal Services",
+        "East Central Ambulance Association",
+        "Castor and Area Health Care Providers Attraction and Retention Committee",
+        "Community Hall Board / Ag Society",
+        "Veteran Memorial Highway Association",
+        "Dog and Cat Control"
+      ]
+    },
+    {
+      "name": "Chad Gilchrist",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorgilchrist@gmail.com",
+      "phone": "",
+      "committees": [
+        "Castor and District Recreation Board",
+        "Safety Committee",
+        "3C's Emergency Response Society",
+        "Fire Department/East Central 911",
+        "Castor Golf Club",
+        "Castor Splash Park Committee",
+        "Dog and Cat Control"
+      ]
+    },
+    {
+      "name": "Gwen Kleinschroth",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorkleinschroth@gmail.com",
+      "phone": "",
+      "committees": [
+        "Safety Committee",
+        "Pest & Weed Control Appeal Panel",
+        "ISDAB Assessment Review Board",
+        "Education Joint Use Committee",
+        "Dog and Cat Control"
+      ]
+    },
+    {
+      "name": "Don Sisson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillordsisson@gmail.com",
+      "phone": "",
+      "committees": [
+        "Pest & Weed Control Appeal Panel",
+        "Castor & District Housing Authority",
+        "Castor and District Museum Society",
+        "Castor Fair Board",
+        "Battle River Economic Opportunities Centre",
+        "Castor Community Foodbank Committee",
+        "BREOC Committee",
+        "Education Joint Use",
+        "Dog and Cat Control"
+      ]
+    },
+    {
+      "name": "Matthew Sumegi",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorsumegi@gmail.com",
+      "phone": "",
+      "committees": [
+        "Castor and District Recreation Board",
+        "Intermunicipal Development Plan and Intermunicipal Collaboration Framework Committee",
+        "Castor and District Museum Society",
+        "Shirley McClellan Regional Water Services Commission (SMRWSC)",
+        "Paintearth Adult Learning Council",
+        "Castor Curling Club",
+        "Castor Library Board",
+        "Castor Splash Park Committee",
+        "Dog and Cat Control"
+      ]
+    },
+    {
+      "name": "Brenda Wismer",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorwismer1@gmail.com",
+      "phone": "",
+      "committees": [
+        "Municipal Planning Committee",
+        "Castor & District Housing Authority",
+        "Castor and District FCSS",
+        "Castor Library Board",
+        "Dog and Cat Control"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "http://www.castor.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Delburne",
+  "geoname": "VILLAGE OF DELBURNE",
+  "type": "Village",
+  "mayor": {
+    "name": "Jeff Bourne",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "jeff.bourne@delburne.ca",
+    "phone": "403-391-8598"
+  },
+  "council": [
+    {
+      "name": "Jim Ellis",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "\tjim.ellis@delburne.ca",
+      "phone": "\t403-588-6642",
+      "committees": []
+    },
+    {
+      "name": "Kathy Faulk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "\tkathy.faulk@delburne.ca",
+      "phone": "\t403-749-2590",
+      "committees": []
+    },
+    {
+      "name": "Dustin Gillespie",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "\tdustin.gillespie@delburne.ca",
+      "phone": "\t403-596-3138",
+      "committees": []
+    },
+    {
+      "name": "Jason Reckseidler",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "\tjason.reckseidler@delburne.ca",
+      "phone": "\t587-447-0767",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

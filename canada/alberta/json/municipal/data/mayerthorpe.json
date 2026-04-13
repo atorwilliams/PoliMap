@@ -1,0 +1,83 @@
+{
+  "name": "Mayerthorpe",
+  "geoname": "TOWN OF MAYERTHORPE",
+  "type": "Town",
+  "mayor": {
+    "name": "Allen (AJ) Malcolm",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "allen.malcolm@mayerthorpe.ca"
+  },
+  "council": [
+    {
+      "name": "Rebecca Wells",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rebecca.wells@mayerthorpe.ca ",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Rick Armstrong",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rick.armstrong@mayerthorpe.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Bridgette Campbell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bridgette.campbell@mayerthorpe.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "James Mason",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "james.mason@mayerthorpe.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Annette Pedersen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "annette.pedersen@mayerthorpe.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Esther Sonnenberg",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "esther.sonnenberg@mayerthorpe.ca ",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Silver Beach",
+  "geoname": "S.V. of SILVER BEACH",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "David Rolf ",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "drolf@silverbeach.ca"
+  },
+  "council": [
+    {
+      "name": "Robert Gibbs",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "robert@silverbeach.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Dave Bunnin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dbunnin@silverbeach.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.silverbeach.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "June Boyda",
+      "since": "",
+      "email": "cao@silverbeach.ca",
+      "phone": "",
+      "notes": ""
+    }
+  ]
+}

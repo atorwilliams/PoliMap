@@ -1,0 +1,100 @@
+{
+  "name": "Swan Hills",
+  "geoname": "TOWN OF SWAN HILLS",
+  "type": "Town",
+  "mayor": {
+    "name": "Craig Wilson",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "craig.bbwilson@telus.net"
+  },
+  "council": [
+    {
+      "name": "Daryn Watson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "darynwatson@townofswanhills.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Dean LaBerge",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "deanlaberge@townofswanhills.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kelly Stenberg",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kellystenberg@townofswanhills.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Terry Kuyek",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "terrykuyek@townofswanhills.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Paul Caughlin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "paulcaughlin@townofswanhills.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jeff Goebel",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jeffgoebel@townofswanhills.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.townofswanhills.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Bill Lewis",
+      "since": "",
+      "email": "cao@townofswanhills.com",
+      "phone": "780-333-4477, ext. 1",
+      "notes": ""
+    },
+    {
+      "role": "Public Works",
+      "name": "John Gibbins",
+      "since": "",
+      "email": "john@townofswanhills.com",
+      "phone": "780-333-4477, ext. 2",
+      "notes": ""
+    }
+  ]
+}

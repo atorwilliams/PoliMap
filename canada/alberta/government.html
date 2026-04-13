@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alberta Government – PoliMap</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/institutional.css">
+  <link rel="stylesheet" href="government.css">
+</head>
+<body>
+
+  <header class="top-banner">
+    <div class="banner-container">
+      <a href="/" class="logo" style="text-decoration:none;">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </a>
+      <nav class="main-nav">
+        <a class="nav-btn" href="index.html">Map View</a>
+        <a class="nav-btn" href="judiciary.html">Alberta Judiciary</a>
+        <a class="nav-btn" href="rcmp.html">Police in Alberta</a>
+        <a class="nav-btn active" href="government.html">Alberta Government</a>
+        <a class="nav-btn" href="/contribute.html">Contribute</a>
+        <a class="nav-btn" href="/donate.html">Donate</a>
+        <a class="nav-btn" href="https://forum.poli-map.org" target="_blank">Forum</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <section class="page-hero">
+      <h1>Alberta Government</h1>
+      <p>Executive Council, Official Opposition, and party platforms. 32nd Legislature — elected May 29, 2023.</p>
+    </section>
+
+    <div class="seat-bar-wrap">
+      <div class="seat-bar" id="seat-bar"></div>
+      <div class="seat-legend" id="seat-legend"></div>
+    </div>
+
+    <nav class="sub-nav">
+      <button class="sub-nav-btn active" data-tab="government">Executive Council</button>
+      <button class="sub-nav-btn" data-tab="opposition">Official Opposition</button>
+      <button class="sub-nav-btn" data-tab="platforms">Platforms</button>
+    </nav>
+
+    <div id="tab-government" class="tab-panel">
+      <div class="gov-column-wrap">
+        <div class="gov-column" id="ucp-column">
+          <div class="gov-column-header" id="ucp-header"></div>
+          <div class="gov-senior-grid" id="ucp-senior"></div>
+          <div class="gov-list" id="ucp-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="tab-opposition" class="tab-panel" style="display:none">
+      <div class="gov-column-wrap">
+        <div class="gov-column" id="ndp-column">
+          <div class="gov-column-header" id="ndp-header"></div>
+          <div class="gov-senior-grid" id="ndp-senior"></div>
+          <div class="gov-list" id="ndp-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="tab-platforms" class="tab-panel" style="display:none">
+      <div class="platforms-wrap" id="platforms-wrap"></div>
+    </div>
+
+  </main>
+
+  <script type="module" src="government.js"></script>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+  <script>
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+
+    const subNavBtns = document.querySelectorAll('.sub-nav-btn');
+    const tabPanels  = document.querySelectorAll('.tab-panel');
+    subNavBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        subNavBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const target = btn.dataset.tab;
+        tabPanels.forEach(panel => {
+          panel.style.display = panel.id === `tab-${target}` ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>

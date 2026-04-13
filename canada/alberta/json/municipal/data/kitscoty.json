@@ -1,0 +1,62 @@
+{
+  "name": "Kitscoty",
+  "geoname": "VILLAGE OF KITSCOTY",
+  "type": "Village",
+  "mayor": {
+    "name": "Joyce Bell",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Kevin Miciak",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Geoff Barr",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Daryl Frank",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Heather Perryman",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "http://vokitscoty.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

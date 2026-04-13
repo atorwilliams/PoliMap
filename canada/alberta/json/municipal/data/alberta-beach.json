@@ -1,0 +1,66 @@
+{
+  "name": "Alberta Beach",
+  "geoname": "ALBERTA BEACH",
+  "type": "Village",
+  "mayor": {
+    "name": "Tara Elwood",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "taraelwood@albertabeach.com",
+    "phone": "\t780-924-3181"
+  },
+  "council": [
+    {
+      "name": "Debbie Durocher",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "debbiedurocher@albertabeach.com",
+      "phone": "780-924-3181",
+      "committees": []
+    },
+    {
+      "name": "DecolynneJo Burns",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "decolynnejoburns@albertabeach.com",
+      "phone": "780-924-3181",
+      "committees": [
+        "Yellowhead East Board (IRC Chair)"
+      ]
+    },
+    {
+      "name": "Daryl Weber",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "aboffice@albertabeach.com",
+      "phone": "780-924-3181",
+      "committees": []
+    },
+    {
+      "name": "Kelly Muir",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kellymuir@albertabeach.com",
+      "phone": "780-924-3181",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://albertabeach.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

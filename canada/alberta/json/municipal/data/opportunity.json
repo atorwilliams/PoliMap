@@ -1,0 +1,124 @@
+{
+  "name": "Opportunity",
+  "geoname": "MUNICIPAL DISTRICT OF OPPORTUNITY NO. 17",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Marshall D. Auger",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "780-891-8272",
+    "email": "marcel.auger@mdopportunity.ab.ca"
+  },
+  "council": [
+    {
+      "name": "Brendan Powell",
+      "role": "Deputy Reeve",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " brendan.powell@mdopportunity.ab.ca",
+      "phone": "780-891-8272",
+      "committees": []
+    },
+    {
+      "name": "Darlene Jackson",
+      "role": "",
+      "ward": "Wabasca Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "darlene.jackson@mdopportunity.ab.ca",
+      "phone": "780-891-7900",
+      "committees": []
+    },
+    {
+      "name": "Robin Guild",
+      "role": "",
+      "ward": "Wabasca Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "robin.guild@mdopportunity.ab.ca",
+      "phone": "780-773-6284",
+      "committees": []
+    },
+    {
+      "name": "Gerald Johnson",
+      "role": "",
+      "ward": "Calling Lake Ward 2",
+      "since": "",
+      "portrait": "",
+      "email": "gerald.johnson@mdopportunity.ab.ca",
+      "phone": "780-676-4400",
+      "committees": []
+    },
+    {
+      "name": "Cecil Gladue",
+      "role": "",
+      "ward": " Calling Lake Ward 2",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kevin Bigstone",
+      "role": "",
+      "ward": "Sandy Lake Ward 3",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Marcel C. Auger",
+      "role": "",
+      "ward": "Wabasca Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Louis A. Cardinal",
+      "role": "",
+      "ward": "Peerless Lake Ward 4",
+      "since": "",
+      "portrait": "",
+      "email": "louis.cardinal@mdopportunity.ab.ca",
+      "phone": "780-649-5858",
+      "committees": []
+    },
+    {
+      "name": "Leo Alook",
+      "role": "",
+      "ward": "Trout Lake Ward 5",
+      "since": "",
+      "portrait": "",
+      "email": "leo.alook@mdopportunity.ab.ca",
+      "phone": "780-649-0182",
+      "committees": []
+    },
+    {
+      "name": "Roy Yellowknee",
+      "role": "",
+      "ward": "Chipewyan Lake Ward 7",
+      "since": "",
+      "portrait": "",
+      "email": "roy.yellowknee@mdopportunity.ab.ca",
+      "phone": "780-891-8795",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.mdopportunity.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

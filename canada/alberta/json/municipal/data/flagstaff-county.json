@@ -1,0 +1,115 @@
+{
+  "name": "Flagstaff County",
+  "geoname": "FLAGSTAFF COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Murray Hampshire",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "780-390-0386",
+    "email": "mhampshire@flagstaff.ab.ca",
+    "committees": [
+      "Agricultural Service Board (Vice Chairperson)",
+      "Battle River Research Group (BRRG)",
+      "Battle River Watershed Alliance",
+      "Battle River Watershed Alliance Land and Water Advisory Committee",
+      "Emergency Advisory Committee",
+      "Intermunicipal Planning Committee – Alliance, Heisler and Lougheed",
+      "Intermunicipal Planning Committee – Forestburg",
+      "Intermunicipal Planning Committee – Hardisty",
+      "Intermunicipal Planning Committee – Killam",
+      "Intermunicipal Planning Committee – Sedgewick",
+      "Intermunicipal Planning Committee – MD of Paintearth",
+      "Veterans Memorial Highway Association"
+    ]
+  },
+  "council": [
+    {
+      "name": "Leslie Heck",
+      "role": "Deputy Reeve ",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "lheck@flagstaff.ab.ca",
+      "phone": "780-679-7766",
+      "committees": [
+        "Battle River Alliance for Economic Development (BRAED)",
+        "Building Committee",
+        "Emergency Advisory Committee",
+        "Flagstaff Healthcare Attraction and Retention Committee",
+        "Flagstaff Regional Solid Waste Management Association (FRSWMA)",
+        "Intermunicipal Collaboration Committee",
+        "Intermunicipal Planning Committee – Daysland",
+        "Intermunicipal Planning Committee – MD of Provost"
+      ]
+    },
+    {
+      "name": "Amy Jackson",
+      "role": "",
+      "ward": " Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "ajackson@flagstaff.ab.ca",
+      "phone": "780-385-1378",
+      "committees": [
+        "Agricultural Service Board",
+        "Building Committee",
+        "Citizens Advisory Committee",
+        "Flagstaff Regional Housing Group (FRHG)",
+        "Intermunicipal Collaboration Committee",
+        "Intermunicipal Planning Committee – Hardisty",
+        "Intermunicipal Planning Committee – MD of Provost",
+        "Intermunicipal Planning Committee – Sedgewick"
+      ]
+    },
+    {
+      "name": "Lori Lindseth",
+      "role": "",
+      "ward": " Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "llindseth@flagstaff.ab.ca",
+      "phone": "780-608-6810",
+      "committees": [
+        "Agricultural Service Board (Chairperson)",
+        "Battle River Research Group (BRRG) (Alternate)",
+        "Flagstaff Regional Emergency Services Society",
+        "Flagstaff Regional Solid Waste Management Association (FRSWMA) (Alternate)",
+        "Intermunicipal Planning Committee – Daysland",
+        "Intermunicipal Planning Committee – Killam",
+        "Parkland Regional Library Committee"
+      ]
+    },
+    {
+      "name": "Alexis Ponto",
+      "role": "",
+      "ward": " Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "aponto@flagstaff.ab.ca",
+      "phone": " 780-990-8826",
+      "committees": [
+        "Building Committee",
+        "Citizens Advisory Committee (Alternate)",
+        "Diplomat Mine Museum Society",
+        "Flagstaff Family & Community Services (FFCS)",
+        "Flagstaff Regional Emergency Services Society",
+        "Flagstaff Regional Housing Group (FRHG)",
+        "Intermunicipal Collaboration Committee",
+        "Intermunicipal Planning Committee – Alliance, Heisler and Lougheed",
+        "Intermunicipal Planning Committee – Forestburg",
+        "Intermunicipal Planning Committee – MD of Paintearth"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

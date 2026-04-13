@@ -1,0 +1,83 @@
+{
+  "name": "Okotoks",
+  "geoname": "TOWN OF OKOTOKS",
+  "type": "Town",
+  "mayor": {
+    "name": "Tanya Thorn",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403-938-8904"
+  },
+  "council": [
+    {
+      "name": "Stefan Dykema",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Oliver Hallmark",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Gord Lang",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Ryan Nix",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Carrie Penner",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Michelle Walther",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.okotoks.ca/",
+  "notes": "Council must be contacted via the website",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

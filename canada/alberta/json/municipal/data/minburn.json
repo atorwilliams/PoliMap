@@ -1,0 +1,153 @@
+{
+  "name": "Minburn",
+  "geoname": "COUNTY OF MINBURN NO. 27",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Roger Konieczny",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "rkonieczny@minburncounty.ab.ca",
+    "committees": [
+      "Committee of the Whole",
+      "Subdivision Authority Board",
+      "Agricultural Service Board",
+      "Alberta Hub (Alternate)",
+      "Innisfree Seed Cleaning Plant Liaison (Alternate)",
+      "Intermunicipal Committees - Vegreville, Innisfree, Mannville, and Rural",
+      "Northern Lights Library System",
+      "Town of Vegreville Regional Recreation Feasibility Study Steering Committee",
+      "Soil Conservation Appeal Board (Chair)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Joey Nafziger",
+      "role": "",
+      "ward": "Division No. 1",
+      "since": "",
+      "portrait": "",
+      "email": "jnafziger@minburncounty.ab.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole",
+        "Subdivision Authority",
+        "Agricultural Service Board (Chairperson)",
+        "Alberta HUB",
+        "Crossroads Economic Development Alliance",
+        "East Central 911 (Alternate)",
+        "Intermunicipal Committee - Mannville",
+        "Intermunicipal Committee - Rural",
+        "Northern Lights Library System (alternate)",
+        "Regional Emergency Management Advisory"
+      ]
+    },
+    {
+      "name": "Ray Nedzielski",
+      "role": "",
+      "ward": "Division No. 2",
+      "since": "",
+      "portrait": "",
+      "email": "rnedzielski@minburncounty.ab.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole",
+        "Subdivision Authority",
+        "Agricultural Service Board",
+        "Wapasu Committee",
+        "Intermunicipal Committee - Innisfree",
+        "Mannville-Minburn-Innisfree Family and Community Support Services (FCSS)",
+        "Vermilion & District Health Care Providers Attraction & Retention Committee",
+        "Innisfree Seed Cleaning Plant Liaison"
+      ]
+    },
+    {
+      "name": "Allen McCutcheon",
+      "role": "",
+      "ward": "Division No. 4 ",
+      "since": "",
+      "portrait": "",
+      "email": "amccutcheon@minburncounty.ab.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole",
+        "Subdivision Authority",
+        "Agricultural Service Board",
+        "Community Progress Scholarship Committee",
+        "Wapasu Committee",
+        "Alberta Central East Water Corporation Zone 1 Director",
+        "East Central 911",
+        "Regional Emergency Management Advisory (alternate)",
+        "Vermilion River Watershed Alliance"
+      ]
+    },
+    {
+      "name": "Tara Kuzio",
+      "role": "Deputy Reeve",
+      "ward": "Division No. 5",
+      "since": "",
+      "portrait": "",
+      "email": "tkuzio@minburncounty.ab.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole",
+        "Subdivision Authority Board",
+        "Agricultural Service Board",
+        "Intermunicipal Committees - Innisfree, Mannville, Rural, Vegreville",
+        "Minburn Foundation",
+        "Soil Conservation Appeal Board",
+        "St. Joseph's Hospital Board",
+        "Town of Vegreville Regional Recreation Feasibility Study Steering Committee",
+        "Vegreville Region Physician Attraction and Retention Committee",
+        "Wapasu Committee (Chair)"
+      ]
+    },
+    {
+      "name": "Carl Ogrodnick",
+      "role": "",
+      "ward": "Division No. 6",
+      "since": "",
+      "portrait": "",
+      "email": "cogrodnick@minburncounty.ab.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole",
+        "Subdivision Authority Board",
+        "Agricultural Service Board (Vice Chairperson)",
+        "Community Progress Scholarship Committee",
+        "Vegreville Family and Committee Support Services (FCSS)",
+        "Intermunicipal Committee - Vegreville",
+        "Minburn Foundation",
+        "Vegreville Seed Cleaning Plant Liaison (Alternate)"
+      ]
+    },
+    {
+      "name": "Jerri Ziegler",
+      "role": "",
+      "ward": "Division No. 7",
+      "since": "",
+      "portrait": "",
+      "email": "jziegler@minburncounty.ab.ca",
+      "phone": "",
+      "committees": [
+        "Committee of the Whole",
+        "Subdivision Authority",
+        "Agricultural Service Board",
+        "Community Progress Scholarship Committee",
+        "Soil Conservation Appeal Board",
+        "Vegreville Tourism Advisory Board",
+        "Vegreville Seed Cleaning Plant Liaison",
+        "Vegreville & District Chamber of Commerce"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://minburncounty.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

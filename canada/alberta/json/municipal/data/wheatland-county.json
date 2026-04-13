@@ -1,0 +1,94 @@
+{
+  "name": "Wheatland County",
+  "geoname": "WHEATLAND COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Scott Klassen",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "scott.klassen@wheatlandcounty.ca",
+    "phone": "403-361-8370"
+  },
+  "council": [
+    {
+      "name": "Berle Hebbes",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "berle.hebbes@wheatlandcounty.ca",
+      "phone": "403-361-8372",
+      "committees": []
+    },
+    {
+      "name": "Donna Biggar",
+      "role": "",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "donna.biggar@wheatlandcounty.ca",
+      "phone": "403-371-8096",
+      "committees": []
+    },
+    {
+      "name": "Glenn Koester",
+      "role": "",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "glenn.koester@wheatlandcounty.ca",
+      "phone": "403-901-3702",
+      "committees": []
+    },
+    {
+      "name": "Keith Clayton",
+      "role": "",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "Keith.clayton@wheatlandcounty.ca",
+      "phone": "403-361-8334",
+      "committees": []
+    },
+    {
+      "name": "Rick Laursen",
+      "role": "",
+      "ward": "Division 7",
+      "since": "",
+      "portrait": "",
+      "email": "rick.laursen@wheatlandcounty.ca",
+      "phone": "4033251588",
+      "committees": []
+    },
+    {
+      "name": " Shannon Laprise",
+      "role": "Deputy Reeve",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "shannon.laprise@wheatlandcounty.ca",
+      "phone": "4039018533",
+      "committees": []
+    },
+    {
+      "name": "",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

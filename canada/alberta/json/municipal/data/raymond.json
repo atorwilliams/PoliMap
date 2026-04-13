@@ -1,0 +1,83 @@
+{
+  "name": "Raymond",
+  "geoname": "TOWN OF RAYMOND",
+  "type": "Town",
+  "mayor": {
+    "name": "Bryce Coppieters",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "coppieters@raymond.ca"
+  },
+  "council": [
+    {
+      "name": "Matt Evans",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "evans@raymond.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Wayne Johnson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "johnson@raymond.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Brian Eakett",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "eakett@raymond.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kate Kindt",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kindt@raymond.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Neil Sieben",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sieben@raymond.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Pamela Stewart",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "stewart@raymond.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://raymond.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

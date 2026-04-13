@@ -1,0 +1,72 @@
+{
+  "name": "Glenwood",
+  "geoname": "VILLAGE OF GLENWOOD",
+  "type": "Village",
+  "mayor": {
+    "name": "Mark Peterson",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mark.peterson@glenwood.ca"
+  },
+  "council": [
+    {
+      "name": "Brian Wickhorst",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "brian.wickhorst@glenwood.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Shane Ford",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "shane.ford@glenwood.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": " John Doney",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "john.doney@glenwood.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Sandy Lybbert",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sandy.lybbert@glenwood.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Jim Brown",
+      "since": "",
+      "email": "cao@glenwood.ca",
+      "phone": "",
+      "notes": ""
+    }
+  ]
+}

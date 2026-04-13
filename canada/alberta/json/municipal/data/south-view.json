@@ -1,0 +1,44 @@
+{
+  "name": "South View",
+  "geoname": "S.V. of SOUTH VIEW",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Sandi Benford ",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "sandi@summervillageofsouthview.com",
+    "phone": "780-967-0271"
+  },
+  "council": [
+    {
+      "name": "Garth Ward",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "garth@summervillageofsouthview.com",
+      "phone": "780-967-0271",
+      "committees": []
+    },
+    {
+      "name": "Colleen Richardson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "colleen@summervillageofsouthview.com",
+      "phone": "780-967-0271",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "http://www.summervillageofsouthview.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

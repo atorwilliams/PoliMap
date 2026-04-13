@@ -1,0 +1,72 @@
+{
+  "name": "Hill Spring",
+  "geoname": "VILLAGE OF HILL SPRING",
+  "type": "Village",
+  "mayor": {
+    "name": "Dwight Davis",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "dwight.davis@hillspring.ca"
+  },
+  "council": [
+    {
+      "name": "Sue French",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sue.french@hillspring.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Don Shideler",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "don.shideler@hillspring.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Campbell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Hegedus",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://hillspring.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "La Vonne Rideout",
+      "since": "",
+      "email": "cao@hillspring.ca",
+      "phone": "",
+      "notes": ""
+    }
+  ]
+}

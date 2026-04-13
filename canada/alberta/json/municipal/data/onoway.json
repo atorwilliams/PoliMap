@@ -1,0 +1,64 @@
+{
+  "name": "Onoway",
+  "geoname": "TOWN OF ONOWAY",
+  "type": "Town",
+  "mayor": {
+    "name": "Bridgitte Coninx",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "bconinx@onoway.ca",
+    "phone": "780-779-6183"
+  },
+  "council": [
+    {
+      "name": "Sheila Pockett",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "spockett@onoway.ca",
+      "phone": "780-779-6182",
+      "committees": []
+    },
+    {
+      "name": "Jocelyne Eastman",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jeastman@onoway.ca",
+      "phone": "780-779-6880",
+      "committees": []
+    },
+    {
+      "name": "Grant Johnson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "gjohnson@onoway.ca",
+      "phone": "780-779-6868",
+      "committees": []
+    },
+    {
+      "name": "Karen McConaghy",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kmcconaghy@onoway.ca",
+      "phone": "780-779-6186",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.onoway.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

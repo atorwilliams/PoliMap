@@ -1,0 +1,84 @@
+{
+  "name": "Beaverlodge",
+  "geoname": "TOWN OF BEAVERLODGE",
+  "type": "Town",
+  "mayor": {
+    "name": "Gary Rycroft",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-933-4954",
+    "email": "grycroft@beaverlodge.ca"
+  },
+  "council": [
+    {
+      "name": "Trevor Bartsch",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tbartsch@beaverlodge.ca",
+      "phone": "780-897-8556",
+      "committees": []
+    },
+    {
+      "name": "Hugh Graw",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "hgraw@beaverlodge.ca",
+      "phone": "780-814-0701",
+      "committees": []
+    },
+    {
+      "name": "Judy Kokotilo-Bekkerus",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jkokotilo-bekkerus@beaverlodge.ca",
+      "phone": "780-882-1878",
+      "committees": []
+    },
+    {
+      "name": "Richard Lappenbush",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rlappenbush@beaverlodge.ca",
+      "phone": "780-512-3004",
+      "committees": []
+    },
+    {
+      "name": "Tyke Longmore",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tlongmore@beaverlodge.ca",
+      "phone": "780-933-8806",
+      "committees": []
+    },
+    {
+      "name": "Jen Wolan",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jwolan@beaverlodge.ca",
+      "phone": "587-343-1567",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://beaverlodge.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

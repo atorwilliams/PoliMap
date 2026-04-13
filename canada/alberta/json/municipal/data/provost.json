@@ -1,0 +1,82 @@
+{
+  "name": "Provost",
+  "geoname": "MUNICIPAL DISTRICT OF PROVOST NO. 52",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Dirk Brouwer",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Jeremy Rehman",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Alvin Schultz",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Mike Angeltvedt",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Gillian White",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Christopher Tuckey",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Corrinna Ens",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://provost.ca/",
+  "notes": "contact via contact form",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

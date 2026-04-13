@@ -1,0 +1,93 @@
+{
+  "name": "Sexsmith",
+  "geoname": "TOWN OF SEXSMITH",
+  "type": "Town",
+  "mayor": {
+    "name": "Kate Potter",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-978-1820",
+    "email": "mayorpotter@sexsmith.ca"
+  },
+  "council": [
+    {
+      "name": "Dennis Stredulinsky",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Councillorstredulinsky@sexsmith.ca",
+      "phone": "780-933-0149",
+      "committees": []
+    },
+    {
+      "name": "Ken Hildebrand",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Councillorhildebrand@sexsmith.ca",
+      "phone": "780-228-1339",
+      "committees": []
+    },
+    {
+      "name": "Bruce Black",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorblack@sexsmith.ca",
+      "phone": "780-832-6975",
+      "committees": []
+    },
+    {
+      "name": "Chrystal Widsten",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorwidsten@sexsmith.ca",
+      "phone": "778-256-7368",
+      "committees": []
+    },
+    {
+      "name": "Daycie Bohning",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillorbohning@sexsmith.ca",
+      "phone": "780-933-1951",
+      "committees": []
+    },
+    {
+      "name": "Pauline Nelson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillornelson@sexsmith.ca",
+      "phone": "780-518-1253",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://sexsmith.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Rachel Wueschner",
+      "since": "",
+      "email": "admin@sexsmith.ca",
+      "phone": "780-568-3681",
+      "notes": ""
+    }
+  ]
+}

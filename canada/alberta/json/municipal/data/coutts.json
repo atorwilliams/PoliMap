@@ -1,0 +1,83 @@
+{
+  "name": "Coutts",
+  "geoname": "VILLAGE OF COUTTS",
+  "type": "Village",
+  "mayor": {
+    "name": "Scott MacCumber",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Quad Municipality Healthcare Support Committee",
+      "Milk River Watershed Council",
+      "Coutts and District Recreation Board",
+      "Highway Four Economic Corridor"
+    ]
+  },
+  "council": [
+    {
+      "name": "Jim Willett",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "AUMA (Alberta Urban Municipalities Association)",
+        "SouthGrow Regional Economic Development (Executive Chair)"
+      ]
+    },
+    {
+      "name": "Steve Pain",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "HandiBus Society",
+        "Public Works",
+        "Coutts and District Library Board"
+      ]
+    },
+    {
+      "name": "Tanya Smith",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "ORRSC (Oldman River Regional Services Commission)",
+        "Chief Mountain Regional Solid Waste Authority",
+        "Emergency Services"
+      ]
+    },
+    {
+      "name": "Megan Payne",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "FCSS (Family and Community Support Services)",
+        "Ridge Country Housing",
+        "Canadian Badlands"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.couttsalberta.com/",
+  "notes": "- website not currently showing sitting council members",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

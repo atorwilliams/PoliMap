@@ -1,0 +1,60 @@
+{
+  "name": "Point Alison",
+  "geoname": "S.V. of POINT ALISON",
+  "type": "Summer Village",
+  "mayor": {
+    "name": " Gordon Wilson",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780 441 5800"
+  },
+  "council": [
+    {
+      "name": "John Howard",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780 910 4205",
+      "committees": []
+    },
+    {
+      "name": "Dave Young",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780 908 4525",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://svpointalison.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Development Officer",
+      "name": "Birch Nero",
+      "since": "",
+      "email": "",
+      "phone": "780 721 8022",
+      "notes": ""
+    },
+    {
+      "role": "Administrator",
+      "name": "Brenda Bennett",
+      "since": "",
+      "email": "",
+      "phone": "780-984-2773",
+      "notes": ""
+    }
+  ]
+}

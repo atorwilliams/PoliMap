@@ -1,0 +1,83 @@
+{
+  "name": "Edson",
+  "geoname": "TOWN OF EDSON",
+  "type": "Town",
+  "mayor": {
+    "name": "Kevin Zahara",
+    "portrait": "",
+    "since": "2025-10-20",
+    "title": "Mayor",
+    "email": ""
+  },
+  "council": [
+    {
+      "name": "Pat Fogarty",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "780-712-0948",
+      "committees": []
+    },
+    {
+      "name": "Shawn Holden",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "780-728-6340",
+      "committees": []
+    },
+    {
+      "name": "Greg Pasychny",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "780-723-0302",
+      "committees": []
+    },
+    {
+      "name": "Al Schram",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "780-728-8802",
+      "committees": []
+    },
+    {
+      "name": "Peter Taylor",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "780-725-2006",
+      "committees": []
+    },
+    {
+      "name": "Corrie Wilson-Leier",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "",
+      "phone": "780-712-5596",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2029-10-20",
+  "website": "https://www.edson.ca/",
+  "notes": "Mayor Zahara was acclaimed (ran unopposed). Deputy Mayor rotates every 8 months: Fogarty (Oct 2025–Jun 2026), Holden (Jul 2026–Feb 2027), Pasychny (Mar 2027–Oct 2027), Schram (Nov 2027–Jun 2028), Taylor (Jul 2028–Feb 2029), Wilson-Leier (Mar 2029–Oct 2029).",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

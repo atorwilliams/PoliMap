@@ -1,0 +1,42 @@
+{
+  "name": "Bittern Lake",
+  "geoname": "VILLAGE OF BITTERN LAKE",
+  "type": "Village",
+  "mayor": {
+    "name": "James Jones",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Mike Doyle",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jolene Powell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.villageofbitternlake.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

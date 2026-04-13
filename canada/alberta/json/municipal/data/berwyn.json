@@ -1,0 +1,63 @@
+{
+  "name": "Berwyn",
+  "geoname": "VILLAGE OF BERWYN",
+  "type": "Village",
+  "mayor": {
+    "name": " Nicole Johnson",
+    "portrait": "https://static.wixstatic.com/media/b88dde_74c124c1592842bcae97eb63deee99f8~mv2.jpg/v1/fill/w_550,h_688,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Nicole%20(7)_edited_edited.jpg",
+    "since": "",
+    "title": "Mayor",
+    "email": "njohnson@berwyn.ca"
+  },
+  "council": [
+    {
+      "name": " Brian Carreau",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "https://static.wixstatic.com/media/b88dde_cd0f7bc5c9f24be883b491bc7bc74661~mv2.jpg/v1/fill/w_550,h_688,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Brian_edited.jpg",
+      "email": "bcarreau@berwyn.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": " Patrick O'Brien",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://static.wixstatic.com/media/b88dde_933725c57553429e9835f6db35a594ad~mv2.jpg/v1/fill/w_550,h_688,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Patrick_edited.jpg",
+      "email": "pobrien@berwyn.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": " Jane Weber",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://static.wixstatic.com/media/b88dde_16d0bbe926744517b676cd9f61070ccb~mv2.jpg/v1/fill/w_550,h_688,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Jane_edited.jpg",
+      "email": "jweber@berwyn.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": " ​Tristan Vander Klok",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://static.wixstatic.com/media/b88dde_41ab5296928043f698df18963dbce285~mv2.jpg/v1/fill/w_550,h_688,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Tristan_edited.jpg",
+      "email": "tvanderklok@berwyn.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.berwyn.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

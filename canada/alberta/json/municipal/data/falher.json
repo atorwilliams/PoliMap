@@ -1,0 +1,98 @@
+{
+  "name": "Falher",
+  "geoname": "TOWN OF FALHER",
+  "type": "Town",
+  "mayor": {
+    "name": "Donna Buchinski",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "\tdbuchinski@falher.ca",
+    "committees": [
+      "Employee Relations Committee",
+      "Heart River Housing",
+      "Intermunicipal Committee",
+      "Mackenzie Municipal Services Agency",
+      "Peace Region Economic Development Alliance",
+      "Smoky River Emergency Management",
+      "Smoky River Regional Airport Committee",
+      "Smoky River Regional Committee",
+      "Smoky River Regional Economic Development",
+      "Smoky River Regional Water Commission",
+      "Smoky River Transportation Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Lindsay Brown",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "lbrown@falher.ca",
+      "phone": "",
+      "committees": [
+        "Intermunicipal Committee",
+        "Peace Library System",
+        "Smoky River Family & Community Support Services",
+        "Smoky River Regional Health Care Professionals Attraction & Recruitment Committee",
+        "Smoky River Regional Waste Commission",
+        "Smoky River Regional Water Commission"
+      ]
+    },
+    {
+      "name": "\tKelsie Fournier",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kfournier@falher.ca",
+      "phone": "",
+      "committees": [
+        "Alberta Bilingual Municipality Association",
+        "Falher Recreation Committee",
+        "Policy Review Committee",
+        "Smoky River Regional Waste Commission"
+      ]
+    },
+    {
+      "name": "\tLynn Skrepnek",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "\tlskrepnek@falher.ca",
+      "phone": "",
+      "committees": [
+        "Mighty Peace Tourism Association",
+        "Peace Library System"
+      ]
+    },
+    {
+      "name": "\tTrevor Carrier",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "\ttcarrier@falher.ca",
+      "phone": "",
+      "committees": [
+        "Employee Relations Committee",
+        "Falher Recreation Committee",
+        "Policy Review Committee",
+        "Smoky River Emergency Management",
+        "Smoky River Regional Airport Committee",
+        "Smoky River Regional Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

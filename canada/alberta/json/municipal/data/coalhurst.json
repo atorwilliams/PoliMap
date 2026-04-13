@@ -1,0 +1,85 @@
+{
+  "name": "Coalhurst",
+  "geoname": "TOWN OF COALHURST",
+  "type": "Town",
+  "mayor": {
+    "name": "Deb Florence",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "dflorence@coalhurst.ca",
+    "committees": [
+      "Green Acres Foundation",
+      "Mayors and Reeves of Southern Alberta"
+    ]
+  },
+  "council": [
+    {
+      "name": "Jesse Potrie",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Highway 3 Twinning Development Association",
+        "Regional Emergency Advisory Committee",
+        "Regional Composite Assessment Appeal Board (RCAAB)",
+        "Regional Local Assessment Appeal Board (RLAAB)",
+        "Municipal Subdivision and Development Authority"
+      ]
+    },
+    {
+      "name": "Lori Harasem",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "LHarasem@coalhurst.ca",
+      "phone": "",
+      "committees": [
+        "Barons Eureka Warner Family and Community Support Services (BEW-FCSS)",
+        "Chinook Arch Library System",
+        "Oldman Watershed Council",
+        "Municipal Subdivision and Development Authority"
+      ]
+    },
+    {
+      "name": "Brody Prete",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Chinook Intermunicipal Subdivision and Development Appeal Board (CISDAB)",
+        "Community Futures Lethbridge Region"
+      ]
+    },
+    {
+      "name": "Colin Slingsby",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Oldman River Regional Services Commission (ORRSC)",
+        "South Grow Regional Initiative",
+        "Regional Emergency Advisory Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.coalhurst.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

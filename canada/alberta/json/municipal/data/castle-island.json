@@ -1,0 +1,53 @@
+{
+  "name": "Castle Island",
+  "geoname": "S.V. of CASTLE ISLAND",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Calvin Smith",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "svcastle.smith@gmail.com"
+  },
+  "council": [
+    {
+      "name": "Wendy Wildman",
+      "role": "Chief Administrative Officer",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jeff Elkow",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jeff@elkow.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Gary Guy",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ggltr@yahoo.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://summervillageofcastleisland.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

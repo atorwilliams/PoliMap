@@ -1,0 +1,84 @@
+{
+  "name": "Saddle Hills County",
+  "geoname": "SADDLE HILLS COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Gerry Richard",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "grichard@saddlehills.ab.ca ",
+    "phone": "(780) 831-8525"
+  },
+  "council": [
+    {
+      "name": "Jenn van Rootselaar",
+      "role": "",
+      "ward": "Ward 7",
+      "since": "",
+      "portrait": "",
+      "email": " jvanrootselaar@saddlehills.ab.ca ",
+      "phone": "(780) 897-5366",
+      "committees": []
+    },
+    {
+      "name": "Danny Roy",
+      "role": "",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "droy@saddlehills.ab.ca ",
+      "phone": "(780) 864-0144",
+      "committees": []
+    },
+    {
+      "name": "Lance Hingley",
+      "role": "",
+      "ward": "Ward 2",
+      "since": "",
+      "portrait": "",
+      "email": "lhingley@saddlehills.ab.ca ",
+      "phone": "(780) 864-0800",
+      "committees": []
+    },
+    {
+      "name": "Blaine Rogers",
+      "role": "",
+      "ward": "Ward 3",
+      "since": "",
+      "portrait": "",
+      "email": "brogers@saddlehills.ab.ca ",
+      "phone": "(780) 864-8356",
+      "committees": []
+    },
+    {
+      "name": "Ed Armagost",
+      "role": "",
+      "ward": "Ward 4",
+      "since": "",
+      "portrait": "",
+      "email": "edarmagost@saddlehills.ab.ca ",
+      "phone": "(780) 864-5555",
+      "committees": []
+    },
+    {
+      "name": "Shirley Klatt",
+      "role": "",
+      "ward": "Ward 5",
+      "since": "",
+      "portrait": "",
+      "email": "sklatt@saddlehills.ab.ca ",
+      "phone": "(780) 864-0621",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.saddlehills.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

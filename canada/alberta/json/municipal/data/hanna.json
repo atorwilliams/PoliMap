@@ -1,0 +1,123 @@
+{
+  "name": "Hanna",
+  "geoname": "TOWN OF HANNA",
+  "type": "Town",
+  "mayor": {
+    "name": "Danny Povaschuk",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Emergency Advisory Committee",
+      "Regional Emergency Management Committee",
+      "Finance & Audit",
+      "Henry Kroeger Water Commission",
+      "Personnel Committee",
+      "Red Deer River Muni. Users Group"
+    ]
+  },
+  "council": [
+    {
+      "name": "Fred Crowle",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Acadia Foundation",
+        "Big Country Waste Mgmt.",
+        "Finance & Audit Committee",
+        "Veterans Memorial Highway"
+      ]
+    },
+    {
+      "name": "Paul Hunter",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Finance & Audit",
+        "Fred & Freda Geuder Bursary",
+        "Hanna/Wake Student Exchange"
+      ]
+    },
+    {
+      "name": "Brenda Karg",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Emergency Advisory",
+        "LYNKS",
+        "Hanna/Wake Exchange",
+        "Harvest Sky Ec. Dev.",
+        "Municipal Planning Commission",
+        "Palliser Regional Muni Services"
+      ]
+    },
+    {
+      "name": "Erica Rorabeck",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Hanna Chamber of Commerce",
+        "Hanna Medical Corporation",
+        "Harvest Sky Ec Dev",
+        "Personnel Committee"
+      ]
+    },
+    {
+      "name": "Vern Thuroo",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Community Services Board",
+        "Hanna Golf & Country Club",
+        "Hanna Library Board",
+        "Marigold Library Systems",
+        "Palliser Economic Partnership",
+        "Personnel Committee"
+      ]
+    },
+    {
+      "name": "Angie Warwick",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Community Futures Meridian",
+        "Emergency Advisory Committee",
+        "Municipal Planning Commission",
+        "Palliser Economic Partnership"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "https://hanna.ca/contact-us",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

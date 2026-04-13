@@ -1,0 +1,84 @@
+{
+  "name": "Red Deer County",
+  "geoname": "RED DEER COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Brent Ramsay",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "BRamsay@rdcounty.ca",
+    "phone": "403.506.8065"
+  },
+  "council": [
+    {
+      "name": "Lee Girard",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "lgirard@rdcounty.ca",
+      "phone": "403.350.5530",
+      "committees": []
+    },
+    {
+      "name": "Kelli Ritz",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "kritz@rdcounty.ca",
+      "phone": "587.223.3801",
+      "committees": []
+    },
+    {
+      "name": "Dana Depalme",
+      "role": "",
+      "ward": "Divison 3",
+      "since": "",
+      "portrait": "",
+      "email": "DDepalme@rdcounty.ca",
+      "phone": "403.872.1547",
+      "committees": []
+    },
+    {
+      "name": "Julie Brewster",
+      "role": "",
+      "ward": "Divison 4",
+      "since": "",
+      "portrait": "",
+      "email": "jbrewster@rdcounty.ca",
+      "phone": "403.507.9972",
+      "committees": []
+    },
+    {
+      "name": "Carly Hansen",
+      "role": "",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "chansen@rdcounty.ca",
+      "phone": "403.352.8444",
+      "committees": []
+    },
+    {
+      "name": "Ryanna Hansen",
+      "role": "",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "rhansen@rdcounty.ca",
+      "phone": "403.597.6097",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.rdcounty.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

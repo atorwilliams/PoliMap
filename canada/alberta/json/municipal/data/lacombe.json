@@ -1,0 +1,103 @@
+{
+  "name": "Lacombe",
+  "geoname": "CITY OF LACOMBE",
+  "type": "City",
+  "mayor": {
+    "name": "Thalia Hibbs",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403-782-1271",
+    "email": "thibbs@lacombe.ca",
+    "committees": [
+      "Emergency Management Advisory Committee — Member",
+      "IDP/ICF Committee — Member (City Council, 2025–2026, At Pleasure)",
+      "North Blindman River Tri-Municipal Collaborative — Member (City Council, 2025–2026, At Pleasure)",
+      "Council Remuneration Review Committee — Member"
+    ]
+  },
+  "council": [
+    {
+      "name": "Chris (Rocky) Contenti",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ccontenti@lacombe.ca",
+      "phone": "",
+      "committees": [
+        "Emergency Management Advisory Committee — Member",
+        "Lacombe Regional Emergency Management Partnership — Member"
+      ]
+    },
+    {
+      "name": "Justin de Bresser",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jdebresser@lacombe.ca",
+      "phone": "",
+      "committees": [
+        "Council Remuneration Review Committee — Member"
+      ]
+    },
+    {
+      "name": "Sonja Dykslag",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sdykslag@lacombe.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Torie Goings",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tgoings@lacombe.ca",
+      "phone": "",
+      "committees": [
+        "IDP/ICF Committee — Member (City Council, 2025–2026, At Pleasure)",
+        "North Blindman River Tri-Municipal Collaborative — Alternate (City Council, 2025–2026, At Pleasure)"
+      ]
+    },
+    {
+      "name": "Kim Proud",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kproud@lacombe.ca",
+      "phone": "",
+      "committees": [
+        "Emergency Management Advisory Committee — Member"
+      ]
+    },
+    {
+      "name": "Matt Span",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mspan@lacombe.ca",
+      "phone": "",
+      "committees": [
+        "North Blindman River Tri-Municipal Collaborative — Member (City Council, 2025–2026, At Pleasure)",
+        "Council Remuneration Review Committee — Member"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

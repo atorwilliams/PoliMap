@@ -1,0 +1,139 @@
+{
+  "name": "Penhold",
+  "geoname": "TOWN OF PENHOLD",
+  "type": "Town",
+  "mayor": {
+    "name": "Michael Yargeau",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403-506-4743",
+    "email": "myargeau@townofpenhold.ca",
+    "committees": [
+      "Emergency Management Advisory Committee",
+      "Inter-Municipal Relations",
+      "Penhold Fall Festival",
+      "South Red Deer Regional Waste Water Commission"
+    ]
+  },
+  "council": [
+    {
+      "name": "Teresa Cunningham",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tcunningham@townofpenhold.ca",
+      "phone": "587-876-6237",
+      "committees": [
+        "Community Services Advisory Board",
+        "Emergency Management Advisory Committee",
+        "Inter-Municipal Relations",
+        "Jessie Duncan School",
+        "Parkland Community Planning Commission (PCPS)",
+        "Parkland Regional Library System (PRLS)",
+        "Penhold and District Library",
+        "Penhold District Museum"
+      ]
+    },
+    {
+      "name": "Ken Denson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kdenson@townofpenhold.ca",
+      "phone": "403-506-9007",
+      "committees": [
+        "Central Alberta Regional Waste Management Commission",
+        "Emergency Management Advisory Committee",
+        "Inter-Municipal Relations",
+        "Licensing Appeal Board",
+        "Parkland Foundation",
+        "Penhold Crossing High School",
+        "Seniors Drop-in Centre"
+      ]
+    },
+    {
+      "name": "Cameron Galisky",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cgalisky@townofpenhold.ca",
+      "phone": "587-340-6137",
+      "committees": [
+        "Central Alberta Combative Sports Commission",
+        "Emergency Management Advisory Committee",
+        "Inter-Municipal Relations",
+        "Parkland Community Planning Services",
+        "Penhold Waskasoo Middle School",
+        "Red Deer & District FCSS"
+      ]
+    },
+    {
+      "name": "Shaun Kranenborg",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "skranenborg@townofpenhold.ca",
+      "phone": "403-872-7267",
+      "committees": [
+        "Central Alberta Combative Sports Commission",
+        "Combative Sports in Alberta",
+        "Emergency Management Advisory Committee",
+        "Jessie Duncan School",
+        "Licensing Appeal Board",
+        "Municipal Planning Commission (Vice Chair)",
+        "Penhold District Museum",
+        "Restorative Justice"
+      ]
+    },
+    {
+      "name": "Tyrone Muller",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tmuller@townofpenhold.ca",
+      "phone": "587-876-3400",
+      "committees": [
+        "Community Services Advisory Board",
+        "Emergency Management Advisory Committee",
+        "Licensing Appeal Board",
+        "Municipal Planning Commission (Chair)",
+        "Penhold Crossing High School",
+        "Red Deer & District FCSS",
+        "South Red Deer Regional Waste Water Commission"
+      ]
+    },
+    {
+      "name": "Kathy Sitter",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ksitter@townofpenhold.ca",
+      "phone": "403-505-5043",
+      "committees": [
+        "Community Futures Central Alberta",
+        "Community Services Advisory Board",
+        "Emergency Management Advisory Committee",
+        "Municipal Planning Commission",
+        "Penhold Fall Festival",
+        "Penhold Waskasoo Middle School",
+        "Seniors Drop-In Centre"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.townofpenhold.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

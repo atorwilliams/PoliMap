@@ -1,0 +1,51 @@
+{
+  "name": "Youngstown",
+  "geoname": "VILLAGE OF YOUNGSTOWN",
+  "type": "Village",
+  "mayor": {
+    "name": "Kenneth Johnson",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Wade Laughlin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Emma Garlock",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "website not functional",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Jimmy Mably",
+      "since": "",
+      "email": "",
+      "phone": "",
+      "notes": ""
+    }
+  ]
+}

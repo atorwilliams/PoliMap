@@ -1,0 +1,164 @@
+{
+  "name": "Claresholm",
+  "geoname": "TOWN OF CLARESHOLM",
+  "type": "Town",
+  "mayor": {
+    "name": "Brad Schlossberger",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Community Development Committee",
+      "Economic Development Committee (ex officio)",
+      "Facility & Infrastructure Planning Committee",
+      "Municipal Planning Commission",
+      "Alberta SouthWest",
+      "Community Hall Board",
+      "Claresholm Library Board",
+      "Intermunicipal Development Plan Committee",
+      "Oldman River Regional Services Commission",
+      "Regional Landfill Commission"
+    ]
+  },
+  "council": [
+    {
+      "name": "Kieth Carlson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Administrative Services Committee",
+        "Audit & Finance Committee",
+        "Community Development Committee",
+        "Economic Development Committee",
+        "Facility & Infrastructure Planning Committee",
+        "Grievance Committee",
+        "Municipal Planning Commission",
+        "Wage Negotiating Committee",
+        "Intermunicipal Development Plan Committee",
+        "Intermunicipal Collaboration Framework",
+        "Joint Economic Development Initiative",
+        "Physician Recruitment & Retention Committee",
+        "Porcupine Hills Lodge Foundation Board"
+      ]
+    },
+    {
+      "name": "David Knox",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Audit & Finance Committee",
+        "Emergency Management Advisory Committee",
+        "Facility & Infrastructure Planning Committee",
+        "Family & Community Support Services Board",
+        "Grievance Committee",
+        "Museum Board",
+        "Wage Negotiating Committee",
+        "Claresholm & District Chamber of Commerce",
+        "Claresholm Curling Club",
+        "Claresholm Social Centre Board",
+        "Swimming Pool Joint Use Committee"
+      ]
+    },
+    {
+      "name": "Rod Kettles",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Audit & Finance Committee",
+        "Community Development Committee",
+        "Economic Development Committee",
+        "Emergency Services Committee",
+        "Facility & Infrastructure Planning Committee",
+        "Recreation Facility Users Committee",
+        "Chinook Intermunicipal Subdivision & Development Appeal Board",
+        "Claresholm Golf Club Board",
+        "Claresholm Learn-a-lot Playschool Society Board",
+        "Intermunicipal Collaboration Framework Committee",
+        "SouthGrow Regional Initiative"
+      ]
+    },
+    {
+      "name": "Kandice Meister",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Audit & Finance Committee",
+        "Community Development Committee",
+        "Facility & Infrastructure Planning Committee",
+        "Family & Community Support Services Board",
+        "Municipal Planning Commission",
+        "Museum Board",
+        "Wage Negotiating Committee",
+        "Claresholm & District Transportation Society Board",
+        "Claresholm Animal Rescue Society (CAReS)",
+        "Claresholm Housing Authority",
+        "Joint Economic Development Initiative",
+        "Welcoming Claresholm Committee"
+      ]
+    },
+    {
+      "name": "Seth Wagner",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Administrative Services Committee",
+        "Audit & Finance Committee",
+        "Facility & Infrastructure Planning Committee",
+        "Family & Community Support Services Board",
+        "Claresholm Child Care Society Board",
+        "Claresholm Food Bank",
+        "Southern Alberta Summer Games Committee",
+        "Southern Alberta Senior Protect Society",
+        "West Meadow Elementary School Council",
+        "Willow Creek Agricultural Society Board"
+      ]
+    },
+    {
+      "name": "Craig Zimmer",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Audit & Finance Committee",
+        "Emergency Management Advisory Committee",
+        "Emergency Services Committee",
+        "Facility & Infrastructure Planning Committee",
+        "Grievance Committee",
+        "Wage Negotiating Committee",
+        "Regional Emergency Preparedness Training Exercise Steering Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.claresholm.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

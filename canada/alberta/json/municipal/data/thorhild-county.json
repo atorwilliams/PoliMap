@@ -1,0 +1,64 @@
+{
+  "name": "Thorhild County",
+  "geoname": "THORHILD COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": " Trevor Dafoe",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "trevor.dafoe@thorhildcounty.com",
+    "phone": "780-656-8165 "
+  },
+  "council": [
+    {
+      "name": " Angela Zilinski",
+      "role": "Deputy Reeve",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "angela.zilinski@thorhildcounty.com",
+      "phone": "780-307-5846 ",
+      "committees": []
+    },
+    {
+      "name": "Neil Halun",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "Neil.Halun@thorhildcounty.com",
+      "phone": "780-938-6345 ",
+      "committees": []
+    },
+    {
+      "name": "Scott Nedeljak",
+      "role": "",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "scott.nedeljak@thorhildcounty.com",
+      "phone": "780-819-0907 ",
+      "committees": []
+    },
+    {
+      "name": "Janine Paly",
+      "role": "",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "janine.paly@thorhildcounty.com",
+      "phone": "780-307-5978 ",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.thorhildcounty.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

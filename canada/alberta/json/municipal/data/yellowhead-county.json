@@ -1,0 +1,190 @@
+{
+  "name": "Yellowhead County",
+  "geoname": "YELLOWHEAD COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Wade Williams",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Attraction & Retention Committee ARC - Edson",
+      "Attraction & Retention Committee Hinton ARCH",
+      "Emergency Advisory Committee",
+      "Council Meeting",
+      "Governance and Priorities Committee Meeting (Mayor)",
+      "Intermunicipal Collaboration Framework (ICF) Committee - Brazeau County (Mayor)",
+      "Intermunicipal Collaboration Framework (ICF) Committee - Clearwater County (Mayor)",
+      "Intermunicipal Collaboration Framework (ICF) Committee - Edson (Mayor)",
+      "Intermunicipal Collaboration Framework (ICF) Committee - Greenview MD (Mayor)",
+      "Intermunicipal Collaboration Framework (ICF) Committee - Hinton (Mayor)",
+      "Intermunicipal Collaboration Framework (ICF) Committee - Lac Ste Anne County (Mayor)",
+      "Intermunicipal Collaboration Framework (ICF) Committee - Parkland County (Mayor)",
+      "Intermunicipal Collaboration Framework (ICF) Committee - Woodlands County (Mayor)",
+      "Municipal Planning Commission"
+    ],
+    "phone": "780-723-0930"
+  },
+  "council": [
+    {
+      "name": "Patrick Soroka",
+      "role": "",
+      "ward": "Division 1 - Evansburg and Area",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780-542-8822",
+      "committees": [
+        "Pembina Agriculture and Recreation Society (PARS)",
+        "Pembina Lobstick Historical Society",
+        "Emergency Advisory Committee",
+        "Agricultural Services Board",
+        "Council Meeting",
+        "Governance and Priorities Committee Meeting (Councillor Division 1 - Evansburg and Area)",
+        "Intermunicipal Collaboration Framework (ICF) Committee - Parkland County",
+        "Municipal Planning Commission",
+        "Pembina Agricultural and Recreation Society (PARS)"
+      ]
+    },
+    {
+      "name": "Anthony Giezen",
+      "role": "",
+      "ward": "Division 2 - Wildwood and Area",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": " 780-325-2459",
+      "committees": [
+        "Emergency Advisory Committee",
+        "Agricultural Services Appeal Committee (Alternate Council Rep)",
+        "Council Meeting",
+        "Evergreens Foundation (Councillor)",
+        "Governance and Priorities Committee Meeting (Councillor Division 2 - Wildwood and Area)",
+        "Intermunicipal Collaboration Framework (ICF) Committee - Lac Ste Anne County",
+        "Municipal Planning Commission (Councillor)"
+      ]
+    },
+    {
+      "name": "Penny Lowe",
+      "role": "",
+      "ward": "Division 3 - Niton Junction and Carrot Creek Areas",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780-795-2500",
+      "committees": [
+        "Emergency Advisory Committee",
+        "Agricultural Services Board (Councillor)",
+        "Council Meeting",
+        "Governance and Priorities Committee Meeting (Councillor Division 3 - Niton Junction and Carrot Creek Areas)",
+        "Heritage Advisory Board (Heritage Advisory Board)",
+        "Municipal Planning Commission (Councillor)"
+      ]
+    },
+    {
+      "name": "David Russell",
+      "role": "",
+      "ward": "Division 4 - Peers, Rosevear and Shiningbank Areas",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780-693-2209",
+      "committees": [
+        "Emergency Advisory Committee",
+        "Council Meeting",
+        "Governance and Priorities Committee Meeting (Councillor Division 4 - Peers, Rosevear and Shiningbank Areas)",
+        "Intermunicipal Collaboration Framework (ICF) Committee - Clearwater County",
+        "Intermunicipal Collaboration Framework (ICF) Committee - Hinton",
+        "Intermunicipal Collaboration Framework (ICF) Committee - Woodlands County",
+        "Subdivision and Development Appeal Board (Council Member)",
+        "West Yellowhead Regional Waste Management Authority (Councillor Yellowhead County)",
+        "Yellowhead County Recreation Board (Yellowhead County Recreation Board Member)"
+      ]
+    },
+    {
+      "name": "Shallen Erickson",
+      "role": "",
+      "ward": "Division 5 - Wolf Creek and Pinedale Areas",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780-712-0279",
+      "committees": [
+        "Emergency Advisory Committee",
+        "Community Futures",
+        "Council Meeting",
+        "Edson and District Historical Society",
+        "Governance and Priorities Committee Meeting (Councillor Division 5 - Wolf Creek and Pinedale Areas)",
+        "Intermunicipal Collaboration Framework (ICF) Committee - Brazeau County",
+        "Intermunicipal Collaboration Framework (ICF) Committee - Edson",
+        "Yellowhead Synergy Group"
+      ]
+    },
+    {
+      "name": "Brigitte Lemieux",
+      "role": "Deputy Mayor",
+      "ward": "Division 6 - Edson and Area",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780-712-1412",
+      "committees": [
+        "Attraction & Retention Committee ARC - Edson - Alternate",
+        "Emergency Advisory Committee",
+        "Council Meeting",
+        "Governance and Priorities Committee Meeting (Deputy Mayor, Councillor Division 6 - Edson and Area)",
+        "Intermunicipal Collaboration Framework (ICF) Committee - Edson (Yellowhead County Delegate)",
+        "Subdivision and Development Appeal Board (Council Member)",
+        "West Yellowhead Regional Waste Management Authority (Councillor Yellowhead County)"
+      ]
+    },
+    {
+      "name": "Jo-Ann Sobon",
+      "role": "",
+      "ward": "Division 7 - Edson West Area",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "7807231126",
+      "committees": [
+        "Emergency Advisory Committee",
+        "Council Meeting",
+        "Family and Community Support Services (FCSS) Board ( Councillor)",
+        "Governance and Priorities Committee Meeting (Councillor Division 7)",
+        "Subdivision and Development Appeal Board",
+        "Yellowhead County Library Board (Councillor)",
+        "Yellowhead Regional Library Board"
+      ]
+    },
+    {
+      "name": "Jack Williams",
+      "role": "",
+      "ward": "Division 8 - Hinton, Cadomin and Robb Areas",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780 817 4968",
+      "committees": [
+        "Emergency Advisory Committee",
+        "Attraction & Retention Committee Hinton ARCH - Alternate",
+        "Community Futures",
+        "Community Futures Investment Committee",
+        "Council Meeting",
+        "Governance and Priorities Committee Meeting (Councillor Division 8 - Hinton, Cadomin and Robb Areas)",
+        "Intermunicipal Collaboration Framework (ICF) Committee - Greenview MD",
+        "Intermunicipal Collaboration Framework (ICF) Committee - Hinton",
+        "Mary Reimer Regional Park Board",
+        "Municipal Planning Commission"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://yhcounty.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

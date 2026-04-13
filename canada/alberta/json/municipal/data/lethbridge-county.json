@@ -1,0 +1,84 @@
+{
+  "name": "Lethbridge County",
+  "geoname": "LETHBRIDGE COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Tory Campbell",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "403-308-2769",
+    "email": "tcampbell@lethcounty.ca"
+  },
+  "council": [
+    {
+      "name": "Lorne Hickey",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "lhickey@lethcounty.ca",
+      "phone": "403-315-3880",
+      "committees": []
+    },
+    {
+      "name": "Mark Sayers",
+      "role": "",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "msayers@lethcounty.ca",
+      "phone": "403-327-9673",
+      "committees": []
+    },
+    {
+      "name": "John Kuerbis",
+      "role": "Deputy Reeve",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "jkuerbis@lethcounty.ca",
+      "phone": "403-715-2926",
+      "committees": []
+    },
+    {
+      "name": "Kevin Slomp",
+      "role": "",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "kslomp@lethcounty.ca",
+      "phone": "403.929.0872",
+      "committees": []
+    },
+    {
+      "name": "Eric Van Essen",
+      "role": "",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "evanessen@lethcounty.ca",
+      "phone": "403-330-7847",
+      "committees": []
+    },
+    {
+      "name": "Tony Ankermann",
+      "role": "",
+      "ward": "Division 7",
+      "since": "",
+      "portrait": "",
+      "email": "tankermann@lethcounty.ca",
+      "phone": "403-382-9399",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.lethcounty.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Eckville",
+  "geoname": "TOWN OF ECKVILLE",
+  "type": "Town",
+  "mayor": {
+    "name": "Colleen Ebden",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Municipal Planning Commission (Chairman)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Karin Engen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Collin Pacholek",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Municipal Planning Commission (Member)"
+      ]
+    },
+    {
+      "name": "Dwayne Meyers",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Lindsay Holmen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.eckville.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

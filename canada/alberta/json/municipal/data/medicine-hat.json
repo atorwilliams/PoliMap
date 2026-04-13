@@ -1,0 +1,177 @@
+{
+  "name": "Medicine Hat",
+  "geoname": "CITY OF MEDICINE HAT",
+  "type": "City",
+  "mayor": {
+    "name": "Linnsie Clark",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Emergency Advisory Committee, Chair",
+      "Community Futures Entre-Corp",
+      "Cypress View Foundation",
+      "Intermunicipal Committee",
+      "Physician Attraction and Retention",
+      "Southeast AB Economic Advocacy Committee",
+      "Administrative and Legislative Review and Government Relations Committee",
+      "Audit Committee",
+      "Corporate Services Committee",
+      "Council Employee Committee",
+      "Development and Infrastructure Committee",
+      "Energy, Land, and Environment Committee",
+      "Public Services Committee",
+      "Resilient and Inclusive Task Force"
+    ]
+  },
+  "council": [
+    {
+      "name": "Ted Clugston",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Administrative and Legislative Review and Government Relations Committee, Vice chair",
+        "Council Employee Committee, Vice chair",
+        "Emergency Advisory Committee",
+        "Energy, Land, and Environment, Chair",
+        "Municipal Planning Commission",
+        "Police Commission"
+      ]
+    },
+    {
+      "name": "Bill Cocks",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Emergency Advisory Committee, Vice chair",
+        "Energy, Land, and Environment",
+        "Inter-City Forum on Social Policy",
+        "Public Services Committee, Chair",
+        "Police Commission",
+        "Subdivision and Appeal Board",
+        "Community Vibrancy Advisory Board"
+      ]
+    },
+    {
+      "name": "Chris Hellman",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Corporate Services Committee, Chair",
+        "Public Services Committee, Vice chair",
+        "Medicine Hat Community Housing Society",
+        "Medicine Hat Public Library",
+        "Subdivision and Appeal Board",
+        "Resilient and Inclusive Task Force"
+      ]
+    },
+    {
+      "name": "Yusuf Mohammed",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Administrative and Legislative Review and Government Relations Committee",
+        "Audit Committee, Vice chair",
+        "Development and Infrastructure, Chair",
+        "Council Employee Committee",
+        "Southeast Alberta Rural Renewal Steering Committee",
+        "Palliser Economic Partnership",
+        "Physician Attraction and Retention"
+      ]
+    },
+    {
+      "name": "Cheryl Phaff",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Audit Committee, Chair",
+        "Development and Infrastructure",
+        "Highway 3 Twinning Association",
+        "Chamber of Commerce",
+        "Friends of Medalta Society",
+        "Medicine Hat Exhibition and Stampede",
+        "Palliser Economic Partnership"
+      ]
+    },
+    {
+      "name": "Dan Reynish",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Public Services Committee",
+        "Development and Infrastructure Committee, Vice chair",
+        "Councillor for Civic Functions",
+        "Cypress View Foundation",
+        "Municipal Names Committee",
+        "Shortgrass Library System"
+      ]
+    },
+    {
+      "name": "Brian Varga",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Corporate Services, Vice Chair",
+        "Audit Committee",
+        "Regional Drainage Committee",
+        "Municipal Planning Commission",
+        "Tourism Medicine Hat Committee"
+      ]
+    },
+    {
+      "name": "Stuart Young",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Administrative and Legislative Review and Government Relations Committee, Chair",
+        "Corporate Services Committee",
+        "Council Employee Committee, Chair",
+        "Energy, Land & Environment Committee, Vice chair",
+        "Intermunicipal Committee",
+        "Tourism Medicine Hat Committee",
+        "Resilient and Inclusive Community Task Force"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

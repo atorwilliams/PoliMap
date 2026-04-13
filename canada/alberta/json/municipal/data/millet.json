@@ -1,0 +1,83 @@
+{
+  "name": "Millet",
+  "geoname": "TOWN OF MILLET",
+  "type": "Town",
+  "mayor": {
+    "name": "Doug Peel",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "dpeel@millet.ca"
+  },
+  "council": [
+    {
+      "name": "Mike Bennett",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mbennett@millet.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Mat Starky",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mstarky@millet.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kelly Kayfish-Winkler",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ghogstead@millet.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Thomas Dudley",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rfrost@millet.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Susie Petrisor",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "spetrisor@millet.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Tera Ainsworth",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tainsworth@millet.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.millet.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

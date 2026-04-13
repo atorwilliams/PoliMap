@@ -1,0 +1,21 @@
+{
+  "name": "Cowley",
+  "geoname": "VILLAGE OF COWLEY",
+  "type": "Village",
+  "mayor": {
+    "name": "Garry Hackler",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://cowley.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

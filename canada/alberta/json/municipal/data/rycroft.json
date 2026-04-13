@@ -1,0 +1,64 @@
+{
+  "name": "Rycroft",
+  "geoname": "VILLAGE OF RYCROFT",
+  "type": "Village",
+  "mayor": {
+    "name": "James Verquin",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "james.verquin@rycroft.ca",
+    "phone": "587-298-6667"
+  },
+  "council": [
+    {
+      "name": "Roxann Dreger",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "roxann.dreger@rycroft.ca",
+      "phone": "780-814-9908",
+      "committees": []
+    },
+    {
+      "name": "Elane Blandin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "elane.blandin@rycroft.ca",
+      "phone": "250-991-9573",
+      "committees": []
+    },
+    {
+      "name": "Tamara Babcock",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tamara.babcock@rycroft.ca",
+      "phone": "250-521-0445",
+      "committees": []
+    },
+    {
+      "name": "Brian Markovich",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "brian.markovich@rycroft.ca",
+      "phone": "780-933-0549",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://rycroft.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

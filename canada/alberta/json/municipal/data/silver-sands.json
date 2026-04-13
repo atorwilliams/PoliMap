@@ -1,0 +1,43 @@
+{
+  "name": "Silver Sands",
+  "geoname": "S.V. of SILVER SANDS",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Bernie Poulin",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": " bernie@summervillageofsilversands.com"
+  },
+  "council": [
+    {
+      "name": "Graeme Horne",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " graeme@summervillageofsilversands.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Sherry Strong",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " sherry@summervillageofsilversands.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "http://www.summervillageofsilversands.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Lamont",
+  "geoname": "TOWN OF LAMONT",
+  "type": "Town",
+  "mayor": {
+    "name": "Jody Foulds",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "jody.f@lamont.ca",
+    "phone": "780.232.2469"
+  },
+  "council": [
+    {
+      "name": "Perry Koroluk",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "perry.k@lamont.ca",
+      "phone": "780.446.4076",
+      "committees": []
+    },
+    {
+      "name": "\tAl Harvey",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "al.h@lamont.ca",
+      "phone": "\t780.940.7194",
+      "committees": []
+    },
+    {
+      "name": "Linda Sieker",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "linda.s@lamont.ca",
+      "phone": "780.298.2011",
+      "committees": []
+    },
+    {
+      "name": "\tColleen Holowaychuk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "colleen.h@lamont.ca",
+      "phone": "780.722.5370",
+      "committees": []
+    },
+    {
+      "name": "Lynn Huxley",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "lynn.h@lamont.ca",
+      "phone": "780.217.2033",
+      "committees": []
+    },
+    {
+      "name": "\tChris Mintenko",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "chris.m@lamont.ca",
+      "phone": "780.399.5613",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.lamont.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,176 @@
+{
+  "name": "Woodlands County",
+  "geoname": "WOODLANDS COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Dave Kusch ",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "dave.kusch@woodlands.ab.ca",
+    "phone": "780-778-9337",
+    "committees": [
+      "Agriculture Service Board (ASB)",
+      "Enforcement Review Committee",
+      "Joint Liaison Committee",
+      "Intermunicipal Collaboration Framework (ICF) Committee",
+      "Municipal Planning Commission (MPC)",
+      "Woodlands County Community Services Committee (Alternate)",
+      "Woodlands County Library Board",
+      "Governance & Priorities Committee",
+      "Finance/Taxation Committee",
+      "CAO Performance Review Committee",
+      "Whitecourt Protective Services Committee (Alternate)",
+      "Whitecourt Regional Solid Waste Management Authority",
+      "Northern Alberta Elected Leaders (NAEL)",
+      "Whitecourt & District Library Board",
+      "Yellowhead Regional Library (YRL) Board"
+    ]
+  },
+  "council": [
+    {
+      "name": "Patricia MacNeil",
+      "role": "",
+      "ward": "Division 2, Whitecourt West",
+      "since": "",
+      "portrait": "",
+      "email": "patricia.macneil@woodlands.ab.ca",
+      "phone": "780-268-3000",
+      "committees": [
+        "Airport Advisory Committee",
+        "Economic Development Committee",
+        "Enforcement Review Committee",
+        "Municipal Planning Commission (MPC)",
+        "Pride Valley Aggregate Oversight Committee",
+        "Governance & Priorities Committee",
+        "Finance/Taxation Committee",
+        "CAO Performance Review Committee",
+        "Whitecourt Community Services Advisory Board",
+        "Community Futures Yellowhead East",
+        "Millar Western (Canfor) Public Advisory Committee (PAC)",
+        "Health professionals Attraction & Retention Committee"
+      ]
+    },
+    {
+      "name": "Alan Deane",
+      "role": "",
+      "ward": "Division 3, Whitecourt Central",
+      "since": "",
+      "portrait": "",
+      "email": " alan.deane@woodlands.ab.ca",
+      "phone": "780-778-0894",
+      "committees": [
+        "Agriculture Service Board (ASB)",
+        "Airport Advisory Committee",
+        "Economic Development Committee",
+        "Enforcement Review Committee",
+        "Joint Liaison Committee",
+        "Intermunicipal Collaboration Framework (ICF) Committee",
+        "Governance & Priorities Committee",
+        "Youth Advisory Committee",
+        "Whitecourt Regional Forest Advisory Committee",
+        "Golden Triangle",
+        "Lac St. Anne Foundation",
+        "Northern Alberta Elected Leaders (NAEL) (Alternate)"
+      ]
+    },
+    {
+      "name": "Karen St. Martin",
+      "role": "",
+      "ward": "Division 4, Whitecourt East",
+      "since": "",
+      "portrait": "",
+      "email": "karen.stmartin@woodlands.ab.ca",
+      "phone": "780-778-0822",
+      "committees": [
+        "Economic Development Committee",
+        "Emergency Management Committee",
+        "Enforcement Review Committee (Alternate)",
+        "Joint Liaison Committee",
+        "Intermunicipal Collaboration Framework (ICF) Committee",
+        "Subdivision Development Appeal Board (SDAB)",
+        "Woodlands County Community Services Committee",
+        "Governance & Priorities Committee",
+        "Finance/Taxation Committee",
+        "CAO Performance Review Committee",
+        "Youth Advisory Committee (Alternate)",
+        "Whitecourt Community Services Advisory Board",
+        "Community Futures Yellowhead East (Alternate)",
+        "Whitecourt & District Agricultural Society"
+      ]
+    },
+    {
+      "name": "Jenna Wright",
+      "role": "",
+      "ward": "Division 5,  Blue Ridge",
+      "since": "",
+      "portrait": "",
+      "email": "jenna.wright@woodlands.ab.ca",
+      "phone": "780-779-6765",
+      "committees": [
+        "Emergency Management Committee",
+        "Municipal Planning Commission (MPC)",
+        "Woodlands County Community Services Committee",
+        "Governance & Priorities Committee",
+        "CAO Performance Review Committee",
+        "Blue Ridge Community League",
+        "West End Bus",
+        "Whitecourt Community Services Advisory Board (Alternate)",
+        "Whitecourt Regional Solid Waste Management Authority",
+        "Alberta CARE Committee (Alternate)"
+      ]
+    },
+    {
+      "name": "Peter Kuelken ",
+      "role": "",
+      "ward": "Division 6,  Goose Lake/Freeman River",
+      "since": "",
+      "portrait": "",
+      "email": "peter.kuelken@woodlands.ab.ca",
+      "phone": "780-284-2425",
+      "committees": [
+        "Agriculture Service Board (ASB)",
+        "Airport Advisory Committee",
+        "Municipal Planning Commission (MPC) (Alternate)",
+        "Woodlands County Community Services Committee",
+        "Pride Valley Aggregate Oversight Committee",
+        "Governance & Priorities Committee",
+        "Finance/Taxation Committee (Alternate)",
+        "Fort Assiniboine School Liaison Committee",
+        "Goose Lake Community League",
+        "Topland Recreational Society",
+        "Barrhead & District Social Housing Authority",
+        "Grizzly Reg. Economic Alliance General Assembly (GROWTH)"
+      ]
+    },
+    {
+      "name": "Benny Whitten",
+      "role": "",
+      "ward": "Division 7, Fort Assiniboine/Timeu",
+      "since": "",
+      "portrait": "",
+      "email": "benny.whitten@woodlands.ab.ca",
+      "phone": "780-305-4655",
+      "committees": [
+        "Agriculture Service Board (ASB)",
+        "Municipal Planning Commission (MPC)",
+        "Woodlands County Library Board",
+        "Pride Valley Aggregate Oversight Committee",
+        "Governance & Priorities Committee",
+        "Fort Assiniboine Agricultural Society",
+        "Fort Assiniboine School Liaison Committee (Alternate)",
+        "Barrhead and Area Regional Crime Coalition (BARCC)",
+        "Veterinary Services Incorporated (VSI) Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://woodlands.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

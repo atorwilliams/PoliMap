@@ -1,0 +1,276 @@
+{
+  "judges": [
+    {
+      "id": "ritu-khullar",
+      "name": "Ritu Khullar",
+      "title": "Chief Justice of Alberta",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2018-03-12",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [
+        {
+          "name": "Vriend v Alberta  1 SCR 493",
+          "year": 1998,
+          "description": "The Supreme Court of Canada ruled that Alberta’s human rights law violated the Charter by failing to protect people from discrimination on the basis of sexual orientation.\nThe Court ordered “sexual orientation” to be read into the legislation as a prohibited ground of discrimination."
+        },
+        {
+          "name": "R v Ewanchuk",
+          "year": 1999,
+          "description": "The Supreme Court of Canada held that consent to sexual activity must be affirmative, voluntary, and ongoing, and that silence, passivity, or lack of resistance does not constitute consent.\nThe Court rejected the defence of “implied consent” and overturned the acquittal in the sexual assault case."
+        }
+      ],
+      "notes": "Elevated to Chief Justice of Alberta on November 25, 2022.",
+      "portrait": "https://cba.org/CBA/media/cba-org-Images/Sections/Madam%20Justice/JC-Khullar-Portrait.jpg"
+    },
+    {
+      "id": "frans-slatter",
+      "name": "Frans Slatter",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Stephen Harper",
+      "appointingParty": "Conservative",
+      "appointmentDate": "2006-10-26",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [
+        {
+          "name": "Orphan Well Association v. Grant Thornton Ltd., 2017 ABCA 124",
+          "year": null,
+          "description": "Alberta Court of Appeal decision ruling that insolvency trustees can disclaim \"uneconomic\" environmental liabilities (abandoned wells) under the Bankruptcy and Insolvency Act (BIA), prioritizing secured creditors over provincial environmental remediation orders."
+        },
+        {
+          "name": "",
+          "year": null,
+          "description": ""
+        }
+      ],
+      "notes": "",
+      "portrait": ""
+    },
+    {
+      "id": "michelle-crighton",
+      "name": "Michelle Crighton",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2016-10-19",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [],
+      "notes": "Supernumerary — retired from full-time position, continues part-time.",
+      "portrait": ""
+    },
+    {
+      "id": "joanne-strekaf",
+      "name": "Jo'Anne Strekaf",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2016-10-19",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [
+        {
+          "name": "Reference re Impact Assessment Act, 2022 ABCA 165",
+          "year": null,
+          "description": "Landmark May 2022 decision where the Alberta Court of Appeal (ABCA) ruled that the federal Impact Assessment Act (IAA) is largely unconstitutional. The court found the law, which allows federal oversight of major projects, improperly intrudes on provincial jurisdiction over natural resources and project development."
+        }
+      ],
+      "notes": "Supernumerary — retired from full-time position, continues part-time.",
+      "portrait": ""
+    },
+    {
+      "id": "dawn-pentelechuk",
+      "name": "Dawn Pentelechuk",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2018-11-01",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [
+        {
+          "name": "R v Prystay, 2019 ABQB 8",
+          "year": 2019,
+          "description": "Ruled that prolonged administrative segregation (solitary confinement) breached s. 12 of the Charter as cruel and unusual punishment, citing health impacts and lack of procedural fairness."
+        }
+      ],
+      "notes": "",
+      "portrait": ""
+    },
+    {
+      "id": "jolaine-antonio",
+      "name": "Jolaine Antonio",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2018-12-12",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [],
+      "notes": "",
+      "portrait": ""
+    },
+    {
+      "id": "kevin-feehan",
+      "name": "Kevin Feehan",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2019-01-29",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [],
+      "notes": "",
+      "portrait": ""
+    },
+    {
+      "id": "bernette-ho",
+      "name": "Bernette Ho",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2021-08-04",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [],
+      "notes": "",
+      "portrait": ""
+    },
+    {
+      "id": "anne-kirker",
+      "name": "Anne Kirker",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2021-08-04",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [],
+      "notes": "",
+      "portrait": ""
+    },
+    {
+      "id": "william-de-wit",
+      "name": "William de Wit",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2023-04-21",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [],
+      "notes": "",
+      "portrait": ""
+    },
+    {
+      "id": "jane-fagnan",
+      "name": "Jane Fagnan",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2023-04-21",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [],
+      "notes": "",
+      "portrait": ""
+    },
+    {
+      "id": "april-grosse",
+      "name": "April Grosse",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2023-04-21",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [],
+      "notes": "",
+      "portrait": ""
+    },
+    {
+      "id": "alice-woolley",
+      "name": "Alice Woolley",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2023-10-20",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [],
+      "notes": "",
+      "portrait": ""
+    },
+    {
+      "id": "kevin-feth",
+      "name": "Kevin Feth",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2023-10-20",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [],
+      "notes": "",
+      "portrait": ""
+    },
+    {
+      "id": "tamara-friesen",
+      "name": "Tamara Friesen",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2024-04-12",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notes": "",
+      "notableCases": [],
+      "portrait": ""
+    },
+    {
+      "id": "joshua-hawkes",
+      "name": "Joshua Hawkes",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2024-04-12",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [],
+      "notes": "",
+      "portrait": ""
+    },
+    {
+      "id": "karan-shaner",
+      "name": "Karan Shaner",
+      "title": "Justice",
+      "location": "Edmonton",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Liberal",
+      "appointmentDate": "2024-06-20",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [],
+      "notes": "",
+      "portrait": ""
+    }
+  ]
+}

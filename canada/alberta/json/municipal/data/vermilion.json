@@ -1,0 +1,93 @@
+{
+  "name": "Vermilion",
+  "geoname": "TOWN OF VERMILION",
+  "type": "Town",
+  "mayor": {
+    "name": "Robert Snow",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "rsnow@vermilion.ca",
+    "phone": "(780) 581-7549"
+  },
+  "council": [
+    {
+      "name": "Justin Clark",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jclark@vermilion.ca",
+      "phone": "(780) 581-4114",
+      "committees": []
+    },
+    {
+      "name": "Paul Conlon",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "pconlon@vermilion.ca",
+      "phone": "(790) 853-3704",
+      "committees": []
+    },
+    {
+      "name": "Bruce MacDuff",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bmacduff@vermilion.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kevin Martin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kmartin@vermilion.ca",
+      "phone": "(780) 787-0082",
+      "committees": []
+    },
+    {
+      "name": "Sherry Martin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "smartin@vermilion.ca",
+      "phone": "(780) 581-7010",
+      "committees": []
+    },
+    {
+      "name": "Kellen Snelgrove",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ksnelgrove@vermilion.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.vermilion.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "",
+      "since": "",
+      "email": "",
+      "phone": "780-581-2406",
+      "notes": ""
+    }
+  ]
+}

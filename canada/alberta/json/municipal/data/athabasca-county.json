@@ -1,0 +1,115 @@
+{
+  "name": "Athabasca County",
+  "geoname": "ATHABASCA COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Tracy Holland",
+    "portrait": "https://athabascacounty.com/wp-content/uploads/2025/11/Tracy-Holland-Thumbnail.jpg",
+    "since": "",
+    "title": "Reeve",
+    "committees": [],
+    "email": "THolland@athabascacounty.com",
+    "phone": "780-675-5689"
+  },
+  "council": [
+    {
+      "name": "Tracy Holland",
+      "role": "",
+      "ward": "Councillor Division 5",
+      "since": "",
+      "portrait": "https://athabascacounty.com/wp-content/uploads/2025/11/Tracy-Holland-Thumbnail.jpg",
+      "email": "THolland@athabascacounty.com",
+      "phone": "780-675-5689",
+      "committees": []
+    },
+    {
+      "name": "Ken Stasiuk",
+      "role": "",
+      "ward": "Rochester – Perryvale",
+      "since": "",
+      "portrait": "https://athabascacounty.com/wp-content/uploads/2025/11/Ken-Stasiuk-Thumbnail.jpg",
+      "email": "KStasiuk@athabascacounty.com",
+      "phone": "780-698-2295",
+      "committees": []
+    },
+    {
+      "name": "Natasha Kapitaniuk",
+      "role": "",
+      "ward": "Colinton Area",
+      "since": "",
+      "portrait": "https://athabascacounty.com/wp-content/uploads/2025/11/Natasha-Kapitaniuk-Thumbnail.jpg",
+      "email": "NKapitaniuk@athabascacounty.com",
+      "phone": "780-689-9847",
+      "committees": []
+    },
+    {
+      "name": "Lucille Chisan",
+      "role": "",
+      "ward": "Boyle Area",
+      "since": "",
+      "portrait": "https://athabascacounty.com/wp-content/uploads/2025/11/Lucille-Chisan-Thumbnail.jpg",
+      "email": "LChisan@athabascacounty.com",
+      "phone": "780-689-9762",
+      "committees": []
+    },
+    {
+      "name": "Brian Hall",
+      "role": "",
+      "ward": "SW Athabasca",
+      "since": "",
+      "portrait": "https://athabascacounty.com/wp-content/uploads/2025/11/Brian-Hall-Thumbnail.jpg",
+      "email": "BHall@athabascacounty.com",
+      "phone": "780-213-0776",
+      "committees": []
+    },
+    {
+      "name": "Jack Dowhaluk",
+      "role": "",
+      "ward": "Wandering River Area",
+      "since": "",
+      "portrait": "https://athabascacounty.com/wp-content/uploads/2025/11/Jack-Dowhaluk-Thumbnail.jpg",
+      "email": "JDowhaluk@athabascacounty.com",
+      "phone": "780-213-0875",
+      "committees": []
+    },
+    {
+      "name": "Kelly Chamzuk",
+      "role": "",
+      "ward": "Grassland Area",
+      "since": "",
+      "portrait": "https://athabascacounty.com/wp-content/uploads/2026/01/Kelly-Chamzuk-Thumbnail-edit.jpg",
+      "email": "kchamzuk@athabascacounty.com",
+      "phone": "780-525-2222",
+      "committees": []
+    },
+    {
+      "name": "Codie Callihoo",
+      "role": "",
+      "ward": "North of Athabasca River",
+      "since": "",
+      "portrait": "https://athabascacounty.com/wp-content/uploads/2025/11/Codie-Calihoo-thumbnail.jpg",
+      "email": "CCallihoo@athabascacounty.com",
+      "phone": "780-689-9646",
+      "committees": []
+    },
+    {
+      "name": "Rob Minns",
+      "role": "Deputy Reeve/Councillor",
+      "ward": "Northwest, Baptiste/Island Lake",
+      "since": "",
+      "portrait": "https://athabascacounty.com/wp-content/uploads/2025/11/Rob-Minns-Thumbnail.jpg",
+      "email": "RobMinns@athabascacounty.com",
+      "phone": "780-689-7292",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://athabascacounty.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

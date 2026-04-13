@@ -1,0 +1,178 @@
+{
+  "name": "Mountain View County",
+  "geoname": "MOUNTAIN VIEW COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Angela Aalbers",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "committees": [
+      "Agricultural Service Board",
+      "Central Rural Municipalities of Alberta (CRMA)",
+      "Fire Guardians",
+      "Greenwood Neighbourhood Place",
+      "Inter-Governmental Communications Committee",
+      "Inter-Municipal Collaboration Committee (ICC)",
+      "Inter-Municipal Collaboration Framework (ICF)",
+      "Municipal Emergency Advisory Committee",
+      "Olds Regional Exhibition Vision 250 Committee",
+      "South Red Deer Regional Wastewater Commission",
+      "Subdivision & Development Appeal Board",
+      "Sundre Community Wellness Advisory Committee",
+      "Sundre Hospital Steering Committee",
+      "Sundre Public Involvement Round Table (SPIRT) (Alternate)"
+    ],
+    "email": "aaalbers@mvcounty.com",
+    "phone": "403-507-1057"
+  },
+  "council": [
+    {
+      "name": "Dwayne Fulton",
+      "role": "Deputy Reeve",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "dfulton@mvcounty.com",
+      "phone": "403-606-8925",
+      "committees": [
+        "Central Rural Municipalities of Alberta (CRMA)",
+        "Cremona Viability Review Support Group",
+        "Fire Guardians",
+        "Inter-Governmental Communications Committee",
+        "Inter-Municipal Collaboration Committee (ICC)",
+        "Inter-Municipal Collaboration Framework (ICF)",
+        "Library Board - Carstairs",
+        "Mountain View Seniors Housing",
+        "Municipal Emergency Advisory Committee",
+        "Parkland Regional Library Board",
+        "Subdivision & Development Appeal Board"
+      ]
+    },
+    {
+      "name": "Greg Harris",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "gharris@mvcounty.com",
+      "phone": "403-586-6267",
+      "committees": [
+        "Aviation Advisory Committee",
+        "BearSmart Society Liaison",
+        "Bergen Area Structure Plan Steering Committee",
+        "Cremona & District Recreation Board",
+        "Cremona Community Engagement Site",
+        "Cremona FCSS",
+        "Cremona Viability Review Support Group",
+        "Fire Guardians",
+        "Inter-Municipal Collaboration Committee (ICC)",
+        "Inter-Municipal Collaboration Framework (ICF)",
+        "Library Board - Cremona",
+        "Mountain View Seniors Housing",
+        "Municipal Emergency Advisory Committee",
+        "South Red Deer Regional Wastewater Commission (Alternate)",
+        "Subdivision & Development Appeal Board"
+      ]
+    },
+    {
+      "name": "Angela Look",
+      "role": "",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "alook@mvcounty.com",
+      "phone": "403-556-0551",
+      "committees": [
+        "Audit Committee",
+        "Aviation Advisory Committee",
+        "Bergen Area Structure Plan Steering Committee",
+        "Fire Guardians",
+        "Inter-Municipal Collaboration Committee (ICC)",
+        "Inter-Municipal Collaboration Framework (ICF)",
+        "Library Board - Didsbury",
+        "Municipal Emergency Advisory Committee",
+        "Municipal Planning Commission",
+        "Red Deer River Watershed Alliance (RDRWA) (Alternate)"
+      ]
+    },
+    {
+      "name": "Tiffany Nixon",
+      "role": "",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "tnixon@mvcounty.com",
+      "phone": "403-507-9153",
+      "committees": [
+        "Audit Committee",
+        "Bergen Area Structure Plan Steering Committee",
+        "Fire Guardians",
+        "Inter-Municipal Collaboration Committee (ICC)",
+        "Inter-Municipal Collaboration Framework (ICF)",
+        "Library Board - Sundre",
+        "Mountain View Regional Waste Management Commission (MVRWMC) (Alternate)",
+        "Municipal Emergency Advisory Committee",
+        "Municipal Planning Commission",
+        "Red Deer River Municipal User Group (RDRMUG)",
+        "Strings & Keys Contribution Committee",
+        "Sundre Public Involvement Round Table (SPIRT)"
+      ]
+    },
+    {
+      "name": "Peggy Johnson",
+      "role": "",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "pjohnson@mvcounty.com",
+      "phone": "403-586-6273",
+      "committees": [
+        "Agricultural Service Board",
+        "Fire Guardians",
+        "Inter-Municipal Collaboration Committee (ICC)",
+        "Inter-Municipal Collaboration Framework (ICF)",
+        "Municipal Emergency Advisory Committee",
+        "Municipal Planning Commission",
+        "Red Deer River Municipal User Group (RDRMUG) (Alternate)",
+        "Red Deer River Watershed Alliance (RDRWA)",
+        "Sundre Community Wellness Advisory Committee",
+        "Sundre Hospital Futures Committee",
+        "Westward Ho Campers Association"
+      ]
+    },
+    {
+      "name": "Jennifer Lutz",
+      "role": "",
+      "ward": "Division 7",
+      "since": "",
+      "portrait": "",
+      "email": "jlutz@mvcounty.com",
+      "phone": "403-507-1157",
+      "committees": [
+        "Agricultural Service Board",
+        "Audit Committee",
+        "Economic Development Action Committee (EDAC)",
+        "Fire Guardians",
+        "Inter-Governmental Communications Committee",
+        "Inter-Municipal Collaboration Committee (ICC)",
+        "Inter-Municipal Collaboration Framework (ICF)",
+        "Library Board - Olds",
+        "Mountain View Regional Waste Management Commission (MVRWMC)",
+        "Municipal Emergency Advisory Committee",
+        "Municipal Planning Commission",
+        "Olds and Area Health Professionals Attraction and Retention Committee",
+        "Olds Regional Exhibition Vision 250 Committee (Alternate)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.mountainviewcounty.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

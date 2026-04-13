@@ -1,0 +1,104 @@
+{
+  "name": "Cypress County",
+  "geoname": "CYPRESS COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Dan Hamilton",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "(403) 952-1856",
+    "email": "Dan.Hamilton@cypress.ab.ca"
+  },
+  "council": [
+    {
+      "name": "Shane Hok",
+      "role": "Deputy Mayor",
+      "ward": "Ward 5 – Dunmore/Veinerville",
+      "since": "",
+      "portrait": "",
+      "email": "Dan.Hamilton@cypress.ab.ca",
+      "phone": "(403) 952-1856",
+      "committees": []
+    },
+    {
+      "name": "Michelle McKenzie",
+      "role": "",
+      "ward": "Ward 1 – Hilda/Schuler",
+      "since": "",
+      "portrait": "",
+      "email": "michelle.mckenzie@cypress.ab.ca",
+      "phone": "(403) 878-5705",
+      "committees": []
+    },
+    {
+      "name": "Blaine Brost",
+      "role": "",
+      "ward": "Ward 2 – Irvine/Walsh",
+      "since": "",
+      "portrait": "",
+      "email": "blaine.brost@cypress.ab.ca",
+      "phone": "(403) 502-5626",
+      "committees": []
+    },
+    {
+      "name": "Lloyd Want",
+      "role": "v",
+      "ward": "Ward 3 – Elkwater",
+      "since": "",
+      "portrait": "",
+      "email": "lloyd.want@cypress.ab.ca",
+      "phone": "(403) 928-0023",
+      "committees": []
+    },
+    {
+      "name": "Robin Kurpjuweit",
+      "role": "",
+      "ward": "Ward 4 – Longfellow",
+      "since": "",
+      "portrait": "",
+      "email": "robin.kurpjuweit@cypress.ab.ca",
+      "phone": "(403) 977-7625",
+      "committees": []
+    },
+    {
+      "name": "Dustin Vossler",
+      "role": "",
+      "ward": "Ward 6 – Black & White/Seven Persons",
+      "since": "",
+      "portrait": "",
+      "email": "Dustin.Vossler@cypress.ab.ca",
+      "phone": "(403) 502-1834",
+      "committees": []
+    },
+    {
+      "name": "Garry Procter",
+      "role": "",
+      "ward": "Ward 7 – Seven Persons North/Desert Blume",
+      "since": "",
+      "portrait": "",
+      "email": "garry.procter@cypress.ab.ca",
+      "phone": "(403) 581-6303",
+      "committees": []
+    },
+    {
+      "name": "Keith Ritz",
+      "role": "",
+      "ward": "Ward 9 – Suffield",
+      "since": "",
+      "portrait": "",
+      "email": "keith.ritz@cypress.ab.ca",
+      "phone": "(403) 548-1502",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.cypress.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

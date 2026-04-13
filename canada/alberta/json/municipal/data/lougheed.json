@@ -1,0 +1,59 @@
+{
+  "name": "Lougheed",
+  "geoname": "VILLAGE OF LOUGHEED",
+  "type": "Village",
+  "mayor": {
+    "name": "Shawn Sieben",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "shawn.sieben@lougheed.ca",
+    "committees": [
+      "Lougheed Ag. Society",
+      "Flagstaff Family Community Services (FFCS)",
+      "Disaster Emergency Service Committee",
+      "Flagstaff Regional Emergency Services Society (FRESS)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Paul Looser",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "paul.looser@lougheed.ca",
+      "phone": "",
+      "committees": [
+        "Flagstaff Regional Housing Group (FRHG)",
+        "Lougheed Public & District Library",
+        "Parkland Regional Library System (PRLS)",
+        "R.C.M.P Citizen Advisory Committee",
+        "Disaster Emergency Service Committee"
+      ]
+    },
+    {
+      "name": "John Cole",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " john.cole@lougheed.ca",
+      "phone": "",
+      "committees": [
+        "Flagstaff Regional Solid Waste Management (FRSWMA)",
+        "Battle River Alliance For Economic Development (BRAED)",
+        "Disaster Emergency Service Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://lougheed.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

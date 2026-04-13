@@ -1,0 +1,130 @@
+{
+  "name": "Canmore",
+  "geoname": "TOWN OF CANMORE",
+  "type": "Town",
+  "mayor": {
+    "name": "Sean Krausert",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403.678.1517",
+    "email": "sean.krausert@canmore.ca ",
+    "committees": [
+      "Emergency Advisory Committee (Mayor + 2)",
+      "Tourism Canmore Kananaskis (TCK) (Mayor or Alt)",
+      "Biosphere Institute of the Bow Valley (Mayor or Alt)",
+      "Canmore/MD of Bighorn Intermunicipal Committee (Mayor + 1)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Tanya Foubert",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tanya.foubert@canmore.ca",
+      "phone": "403.678.1511",
+      "committees": [
+        "Bow Valley Regional Transit Services Commission",
+        "Bow Valley Waste Management Commission (ALT)",
+        "Community Grants Selection Committee",
+        "Canmore/MD of Bighorn Intermunicipal Committee"
+      ]
+    },
+    {
+      "name": "Wade Graham",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "wade.graham@canmore.ca",
+      "phone": "403.678.1596",
+      "committees": [
+        "Assessment Review Board (ARB)",
+        "Emergency Advisory Committee",
+        "Municipal Policing Committee",
+        "Bow Valley Regional Transit Services Commission",
+        "Canmore Community Housing (CCH)",
+        "Canmore Museum Society"
+      ]
+    },
+    {
+      "name": "Jeff Hilstad",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jeff.hilstad@canmore.ca",
+      "phone": "403.678.7734",
+      "committees": [
+        "Emergency Advisory Committee",
+        "Enforcement Appeal Review Committee",
+        "Bow Valley Regional Transit Services Commission",
+        "Bow Valley Waste Management Commission",
+        "Canmore Community Housing (CCH)",
+        "Canmore Library Board"
+      ]
+    },
+    {
+      "name": "Jeff Mah",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jeff.mah@canmore.ca",
+      "phone": "403.714.5783 ",
+      "committees": [
+        "Cultural Advisory Committee",
+        "Finance Committee",
+        "Heliport Monitoring Committee",
+        "Property Tax Taskforce",
+        "Emergency Advisory Committee",
+        "Subdivision & Development Appeal Board (SDAB) (ALT)",
+        "Canmore Mountain Arts Foundation Board"
+      ]
+    },
+    {
+      "name": "Jen Marran",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jen.marran@canmore.ca ",
+      "phone": "403.493.5171",
+      "committees": [
+        "Finance Committee",
+        "Emergency Advisory Committee",
+        "Canmore Community Housing (CCH)",
+        "Downtown Canmore Business Improvement Area (BIA)"
+      ]
+    },
+    {
+      "name": "Rob Murray",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rob.murray@canmore.ca ",
+      "phone": "403.688.5333",
+      "committees": [
+        "Finance Committee",
+        "Assessment Review Board (ARB)",
+        "Enforcement Appeal Review Committee",
+        "Bow Valley Regional Housing (BVRH)",
+        "Canmore Community Housing (CCH)",
+        "Canmore Museum Society",
+        "Tourism Canmore Kananaskis (TCK)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.canmore.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Ma-Me-O Beach",
+  "geoname": "S.V. of MA-ME-O BEACH",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Christine Holmes",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-619-4460",
+    "email": "svmholmes@gmail.com"
+  },
+  "council": [
+    {
+      "name": "Timothy Mahoney",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mahoney.mameo@gmail.com",
+      "phone": "780-361-9405",
+      "committees": []
+    },
+    {
+      "name": "Rick Roder",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "svmroder@gmail.com",
+      "phone": "780-993-9745",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

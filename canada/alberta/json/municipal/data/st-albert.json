@@ -1,0 +1,89 @@
+{
+  "name": "St. Albert",
+  "geoname": "CITY OF ST. ALBERT",
+  "type": "City",
+  "mayor": {
+    "name": "Scott Olivieri",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-459-1605",
+    "email": "contactmayor@stalbert.ca"
+  },
+  "council": [
+    {
+      "name": "Shelley Biermanski",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sbiermanski@stalbert.ca",
+      "phone": "780-264-5870",
+      "committees": []
+    },
+    {
+      "name": "Sandy Clark",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sclark@stalbert.ca",
+      "phone": "780-264-7960",
+      "committees": []
+    },
+    {
+      "name": "Sheena Hughes",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "shughes@stalbert.ca",
+      "phone": "780-240-9889",
+      "committees": []
+    },
+    {
+      "name": "Neil Korotash",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "nkorotash@stalbert.ca",
+      "phone": "780-982-3627",
+      "committees": []
+    },
+    {
+      "name": "Ken MacKay",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kmackay@stalbert.ca",
+      "phone": "780-782-0982",
+      "committees": [
+        "St Albert Policing Committee",
+        "Internal Auditor & Internal Audit Steering Committee",
+        "Arrow Utilities Board of Directors",
+        "Edmonton Salutes"
+      ]
+    },
+    {
+      "name": "Amanda Patrick",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "apatrick@stalbert.ca",
+      "phone": "780-893-7486",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://stalbert.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

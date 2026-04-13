@@ -1,0 +1,157 @@
+{
+  "name": "Camrose County",
+  "geoname": "CAMROSE COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Cindy Trautman",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Agricultural Service Board",
+      "Budget Committee",
+      "Municipal Planning Commission",
+      "Economic Development Committee",
+      "Emergency Management Advisory Committee",
+      "Fire Protection Committee",
+      "Personnel and Labour Relations Committee",
+      "Camrose and District FCSS",
+      "Capital Region Southwest Water Services Commission",
+      "Camrose Intermunicipal Committee",
+      "Highway 12/21 Regional Water Services Commission",
+      "West Dried Meat Lake Regional Solid Waste Committee"
+    ],
+    "phone": "780-679-7390"
+  },
+  "council": [
+    {
+      "name": "Carl Bergstrom",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "780-781-3133",
+      "committees": [
+        "Agricultural Committee",
+        "Budget Committee",
+        "Municipal Planning Commission",
+        "Bashaw Seed Cleaning Plant",
+        "Buffalo Lake Intermunicipal Development Plan",
+        "Buffalo Lake Management Team",
+        "Buffalo Lake Stabilization Team",
+        "Camrose and District FCSS",
+        "Recreation Committee"
+      ]
+    },
+    {
+      "name": "Grant Bailey",
+      "role": "",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "gbailey@county.camrose.ab.ca",
+      "phone": "780-608-5630",
+      "committees": [
+        "Agricultural Service Board",
+        "Budget Committee",
+        "Fire Protection Committee",
+        "Municipal Planning Commission",
+        "Recreation Committee",
+        "Camrose Intermunicipal Committee"
+      ]
+    },
+    {
+      "name": "Marty Maxwell",
+      "role": "",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "mmaxwell@county.camrose.ab.ca",
+      "phone": "780-679-7394",
+      "committees": [
+        "Agricultural Service Board",
+        "Budget Committee",
+        "Municipal Planning Commission",
+        "Fire Protection Committee",
+        "Camrose Regional Exhibition",
+        "Parkland Library Committee",
+        "Capital Region Southwest Regional Water Services Commission"
+      ]
+    },
+    {
+      "name": "Carlene Wetthuhn",
+      "role": "",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "cwethuhn@county.camrose.ab.ca",
+      "phone": "780-781-1199",
+      "committees": [
+        "Agricultural Service Board",
+        "Budget Committee",
+        "Committee of the Whole",
+        "Economic Development Committee",
+        "Municipal Planning Commission",
+        "Recreation Committee",
+        "Assessment Review Board (Regional)",
+        "Camrose and Area Lodge Authority",
+        "Camrose Intermunicipal Committee",
+        "Parkland Library Committee",
+        "Regional Recreation Advisory Committee",
+        "West Dried Meat Lake Landfill"
+      ]
+    },
+    {
+      "name": "Jordon Banack",
+      "role": "",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "jbanack@county.camrose.ab.ca",
+      "phone": "780-608-9890",
+      "committees": [
+        "Agricultural Committee",
+        "Budget Committee",
+        "Building and Planning Committee",
+        "Committee of the Whole",
+        "Emergency Advisory Committee",
+        "Fire Protection Committee",
+        "Joint Worksites Health and Safety Committee",
+        "Municipal Planning Commission",
+        "Personnel and Labour Relations Committee",
+        "Capital Region Southwest Water Services Commission",
+        "City/County Intermunicipal Committee"
+      ]
+    },
+    {
+      "name": "Doug Lyseng",
+      "role": "",
+      "ward": "Division 7",
+      "since": "",
+      "portrait": "",
+      "email": "dlyseng@county.camrose.ab.ca",
+      "phone": "780-679-8163",
+      "committees": [
+        "Agricultural Service Board",
+        "Budget Committee",
+        "Committee of the Whole",
+        "Municipal Planning Commission",
+        "Personnel & Labour Relations Committee",
+        "Recreation Committee",
+        "Camrose and Area Lodge Authority",
+        "Camrose & District FCSS Association",
+        "Capital Region Southwest Water Services Commission"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://county.camrose.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

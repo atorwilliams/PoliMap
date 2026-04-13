@@ -1,0 +1,68 @@
+{
+  "name": "Ghost Lake",
+  "geoname": "S.V. of GHOST LAKE",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "John Walsh",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayor@ghostlake.ca"
+  },
+  "council": [
+    {
+      "name": "Carey Fougere",
+      "role": "DEPUTY MAYOR",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "deputymayor@ghostlake.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Karen Foudy",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillor@ghostlake.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Mustafa Hashimi",
+      "since": "",
+      "email": "admin@ghostlake.ca",
+      "phone": "587.703.0137",
+      "notes": ""
+    },
+    {
+      "role": "Planning and Development Technologist",
+      "name": "Hassan Saeed",
+      "since": "",
+      "email": "policy@ghostlake.ca",
+      "phone": "587.703.0137",
+      "notes": ""
+    },
+    {
+      "role": "FINANCE MANAGER",
+      "name": "Suzanne Gaida",
+      "since": "",
+      "email": "finance@ghostlake.ca",
+      "phone": "587.703.0137",
+      "notes": ""
+    }
+  ]
+}

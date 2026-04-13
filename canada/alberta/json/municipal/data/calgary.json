@@ -1,0 +1,279 @@
+{
+  "name": "Calgary",
+  "geoname": "CITY OF CALGARY",
+  "type": "City",
+  "mayor": {
+    "name": "Jeromy Farkas",
+    "portrait": "https://www.calgary.ca/council/mayor/mayordefault/_jcr_content/root/maincontentpar/responsivegrid/grid/column-0-r0/content_block_copy/responsivegridA/grid_layout/column-5903aef0-7959-463f-9234-9042f659fd550/image.img.85.500.jpeg/1761838869196/mayor-jeromy-farkas.jpeg",
+    "since": "",
+    "title": "Mayor",
+    "email": "",
+    "committees": [
+      "Community Development Committee",
+      "Infrastructure and Planning Committee",
+      "Prairie Gateway Oversight Committee",
+      "Audit Committee",
+      "Council Services Committee",
+      "Executive Committee",
+      "Emergency Management Committee",
+      "Nominations Committee",
+      "Calgary Convention Centre Authority",
+      "Calgary Stampede Board",
+      "Intergovernmental Affairs Committee",
+      "Opportunity Calgary Investment Fund Ltd.",
+      "Attainable Homes Calgary Corporation",
+      "Calgary Municipal Land Corporation"
+    ]
+  },
+  "council": [
+    {
+      "name": "Kim Tyers",
+      "role": "",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "https://www.calgary.ca/council/ward-1/warddefault/_jcr_content/root/maincontentpar/responsivegrid/grid/column-0-r0/content_block_copy/responsivegridA/grid_layout/column-5903aef0-7959-463f-9234-9042f659fd550/image.img.85.500.jpeg/1761854153305/ward-01-kim-tyers.jpeg",
+      "email": "%20Ward1@Calgary.ca",
+      "phone": "403-268-2430",
+      "committees": [
+        "Community Development Committee",
+        "Rocky View County and City of Calgary Intermunicipal Committee",
+        "Nominations Committee",
+        "Emergency Management Committee",
+        "Arts Commons Advisory Committee",
+        "Intergovernmental Affairs Committee",
+        "Calgary Arts Development Authority"
+      ]
+    },
+    {
+      "name": "Jennifer Wyness",
+      "role": "",
+      "ward": "Ward 2",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Infrastructure and Planning Committee",
+        "Calgary Police Commission",
+        "Audit Committee",
+        "Council Services Committee",
+        "Executive Committee"
+      ]
+    },
+    {
+      "name": "Andrew Yule",
+      "role": "",
+      "ward": "Ward 3",
+      "since": "",
+      "portrait": "https://www.calgary.ca/council/ward-3/warddefault/_jcr_content/root/maincontentpar/responsivegrid/grid/column-0-r0/content_block_copy/responsivegridA/grid_layout/column-5903aef0-7959-463f-9234-9042f659fd550/image.img.85.500.jpeg/1770757721372/ward-03-andrew-yule.jpeg",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Community Development Committee",
+        "Prairie Gateway Oversight Committee",
+        "Executive Committee",
+        "Emergency Management Committee",
+        "Nominations Committee"
+      ]
+    },
+    {
+      "name": "DJ Kelly",
+      "role": "",
+      "ward": "Ward 4",
+      "since": "",
+      "portrait": "https://www.calgary.ca/council/ward-4/warddefault/_jcr_content/root/maincontentpar/responsivegrid/grid/column-0-r0/content_block_copy/responsivegridA/grid_layout/column-5903aef0-7959-463f-9234-9042f659fd550/image.img.85.500.jpeg/1761839118760/ward-04-dj-kelly.jpeg",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Community Development Committee",
+        "Executive Committee",
+        "Emergency Management Committee",
+        "Nominations Committee",
+        "Calgary Salutes Coordinating Committee",
+        "Calgary Municipal Land Corporation"
+      ]
+    },
+    {
+      "name": "Raj Dhaliwal",
+      "role": "",
+      "ward": "Ward 5",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Rocky View County and City of Calgary Intermunicipal Committee",
+        "Council Services Committee",
+        "Multisport Fieldhouse Committee",
+        "Community Development Committee",
+        "Executive Committee",
+        "Emergency Management Committee",
+        "Federation of Canadian Municipalities",
+        "Intergovernmental Affairs Committee"
+      ]
+    },
+    {
+      "name": "John Pantazopoulos",
+      "role": "",
+      "ward": "Ward 6",
+      "since": "",
+      "portrait": "https://www.calgary.ca/council/ward-6/warddefault/_jcr_content/root/maincontentpar/responsivegrid/grid/column-0-r0/content_block_copy/responsivegridA/grid_layout/column-5903aef0-7959-463f-9234-9042f659fd550/image.img.85.500.jpeg/1761839644457/ward-06-john-pantazopoulos.jpeg",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Infrastructure and Planning Committee",
+        "Pension Governance Committee",
+        "Audit Committee",
+        "Executive Committee",
+        "Arts Commons Advisory Committee",
+        "Calgary Convention Centre Authority",
+        "Calgary Economic Development Ltd.",
+        "Opportunity Calgary Investment Fund Ltd."
+      ]
+    },
+    {
+      "name": "Myke Atkinson",
+      "role": "",
+      "ward": "Ward 7",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Community Development Committee",
+        "Multisport Fieldhouse Committee",
+        "Council Services Committee",
+        "Emergency Management Committee",
+        "Arts Commons Advisory Committee",
+        "Calgary Climate Innovation Fund Executive Advisory Committee",
+        "Calgary Housing",
+        "Attainable Homes Calgary Corporation",
+        "Foothills County - City of Calgary Annexation Negotiation Committee"
+      ]
+    },
+    {
+      "name": "Nathaniel Schmidt",
+      "role": "",
+      "ward": "Ward 8",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Harrison Clark",
+      "role": "",
+      "ward": "Ward 9",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Community Development Committee",
+        "Audit Committee",
+        "Emergency Management Committee",
+        "Nominations Committee",
+        "City of Chestermere and City of Calgary Intermunicipal Committee",
+        "Calgary General Hospital Legacy Fund Review Committee",
+        "Intergovernmental Affairs Committee",
+        "Calgary Housing"
+      ]
+    },
+    {
+      "name": "Andre Chabot",
+      "role": "",
+      "ward": "Ward 10",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "City of Chestermere and City of Calgary Intermunicipal Committee",
+        "Council Services Committee",
+        "Infrastructure and Planning Committee",
+        "Executive Committee",
+        "Alberta Municipalities",
+        "Calgary Stampede Board",
+        "Intergovernmental Affairs Committee"
+      ]
+    },
+    {
+      "name": "Rob Ward",
+      "role": "",
+      "ward": "​Ward 11",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Infrastructure and Planning Committee",
+        "Multisport Fieldhouse Committee",
+        "Council Services Committee",
+        "Intergovernmental Affairs Committee",
+        "Calgary Municipal Land Corporation"
+      ]
+    },
+    {
+      "name": "Mike Jamieson",
+      "role": "",
+      "ward": "​Ward 12",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Infrastructure and Planning Committee",
+        "Audit Committee",
+        "Foothills County and City of Calgary Intermunicipal Committee",
+        "Nominations Committee",
+        "Foothills County - City of Calgary Annexation Negotiation Committee"
+      ]
+    },
+    {
+      "name": "Dan McLean",
+      "role": "",
+      "ward": "​Ward 13",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Infrastructure and Planning Committee",
+        "Foothills County and City of Calgary Intermunicipal Committee",
+        "Nominations Committee",
+        "Calgary Police Commission",
+        "Calgary Stampede Board",
+        "Intergovernmental Affairs Committee",
+        "Foothills County - City of Calgary Annexation Negotiation Committee"
+      ]
+    },
+    {
+      "name": "Landon Johnston",
+      "role": "",
+      "ward": "​Ward 14",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Community Development Committee",
+        "Pension Governance Committee",
+        "Foothills County and City of Calgary Intermunicipal Committee",
+        "Emergency Management Committee",
+        "Calgary Salutes Coordinating Committee",
+        "Alberta Municipalities",
+        "Foothills County - City of Calgary Annexation Negotiation Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

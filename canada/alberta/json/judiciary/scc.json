@@ -1,0 +1,273 @@
+{
+  "judges": [
+    {
+      "id": "richard-wagner",
+      "name": "Richard Wagner",
+      "title": "Chief Justice of Canada",
+      "location": "Ottawa",
+      "appointedBy": "Stephen Harper",
+      "appointingParty": "Conservative",
+      "appointmentDate": "2012-10-05",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [
+        {
+          "name": "2019 SCC 65 – Canada (Minister of Citizenship and Immigration) v Vavilov",
+          "year": 2019,
+          "description": "The single most transformative administrative law decision in recent decades: it overhauled the standard of review framework, establishing a presumption of reasonableness for most government decisions while clarifying when correctness applies and emphasizing contextual, transparent reasoning. It simplified and modernized judicial review nationwide."
+        },
+        {
+          "name": "2017 SCC 27 – R v Antic",
+          "year": null,
+          "description": "This is one of his earliest and most influential as a justice: it reinforced the presumption of innocence at bail, mandated the \"ladder principle\" (least restrictive conditions first), and prohibited speculative or overly onerous release terms. It reshaped bail practices across Canada to reduce unnecessary detention."
+        },
+        {
+          "name": "2018 SCC 30 – Ewert v Canada (Correctional Service of Canada)",
+          "year": null,
+          "description": "Required Correctional Service Canada to validate and culturally adapt psychological assessment tools for Indigenous inmates to avoid discriminatory outcomes. A key advancement in Indigenous rights within the prison system and evidence-based corrections."
+        },
+        {
+          "name": "2021 SCC 11 – References re Greenhouse Gas Pollution Pricing Act",
+          "year": null,
+          "description": "Upheld the federal carbon-pricing regime under the \"national concern\" branch of the peace, order, and good government power. This affirmed broad federal authority on climate change as a matter of national urgency, profoundly shaping environmental federalism and policy."
+        },
+        {
+          "name": "2024 SCC 5 – Reference re An Act respecting First Nations, Inuit and Métis children, youth and families",
+          "year": null,
+          "description": "Upheld the constitutionality of federal legislation affirming Indigenous self-government over child and family services. A landmark affirmation of Indigenous jurisdiction and reconciliation under sections 35 and federal powers."
+        },
+        {
+          "name": "2025 SCC 6 – John Howard Society of Saskatchewan v Saskatchewan (Attorney General)",
+          "year": null,
+          "description": "Ruled that proof beyond a reasonable doubt applies in inmate disciplinary proceedings that impose imprisonment-like sanctions (e.g., segregation). It overrode prior limits, enhanced Charter protections (ss. 7 and 11(d)) for prisoners, and updated procedural fairness in corrections."
+        }
+      ],
+      "notes": "Elevated to Chief Justice in 2017 by Trudeau's Liberal Party.",
+      "portrait": "https://www.scc-csc.ca/images/judges/richard_wagner_rr_hr.jpg"
+    },
+    {
+      "id": "andromache-karakatsanis",
+      "name": "Andromache Karakatsanis",
+      "title": "Judge of the Supreme Court of Canada",
+      "location": "Ottawa",
+      "appointedBy": "Stephen Harper",
+      "appointingParty": "Conservative",
+      "appointmentDate": "2011-10-21",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [
+        {
+          "name": "2014 SCC 7 – Hryniak v. Mauldin",
+          "year": null,
+          "description": "This is widely regarded as her most-cited and influential decision: it mandated a \"culture shift\" in civil litigation toward proportionate, timely, and affordable justice. The Court expanded the use of summary judgment to resolve cases efficiently without full trials, dramatically improving access to justice and reshaping civil procedure rules across Canada."
+        },
+        {
+          "name": "2016 SCC 27 – R v Jordan",
+          "year": null,
+          "description": "A revolutionary Charter ruling under s. 11(b) that imposed presumptive ceilings on trial delays (18 months in provincial court, 30 months in superior court) to combat systemic \"culture of complacency.\" It forced major reforms to reduce backlogs, sped up criminal justice, and remains one of the most impactful s. 11(b) decisions ever."
+        },
+        {
+          "name": "2015 SCC 5 – Carter v. Canada (Attorney General)",
+          "year": null,
+          "description": "Struck down the blanket Criminal Code prohibition on physician-assisted dying as violating s. 7 Charter rights (life, liberty, and security of the person). This landmark paved the way for medical assistance in dying (MAID) legislation, profoundly advancing personal autonomy in end-of-life decisions."
+        }
+      ],
+      "notes": "",
+      "portrait": "https://www.scc-csc.ca/images/judges/andromache_karakatsanis_rr_hr.jpg"
+    },
+    {
+      "id": "suzanne-c-t",
+      "name": "Suzanne Côté",
+      "title": "Judge of the Supreme Court of Canada",
+      "location": "Ottawa",
+      "appointedBy": "Stephen Harper",
+      "appointingParty": "Conservative",
+      "appointmentDate": "2014-12-01",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [
+        {
+          "name": "2015 SCC 62 – Quebec (Commission des droits de la personne et des droits de la jeunesse) v. Bombardier Inc. (Bombardier Aerospace Training Center)",
+          "year": null,
+          "description": "Clarified the test for prima facie discrimination under human rights law, including in national security contexts, and the evidentiary burden on complainants to prove adverse effects linked to a protected ground. This refined discrimination analysis and balanced equality rights with security considerations in a high-profile racial profiling claim."
+        },
+        {
+          "name": "2019 SCC 39 – Fleming v. Ontario",
+          "year": null,
+          "description": "Restricted police ancillary powers by ruling that preventive arrest for an anticipated \"breach of the peace\" is not generally authorized absent imminent harm. It strengthened individual liberties against overreach, limiting police authority under common law powers and emphasizing Charter protections."
+        },
+        {
+          "name": "2021 SCC 27 – Reference re Code of Civil Procedure, art. 35",
+          "year": null,
+          "description": "Declared unconstitutional Quebec's provision raising the monetary jurisdiction threshold for the Court of Québec, as it infringed provincial superior courts' core jurisdiction under s. 96 of the Constitution Act, 1867. A significant federalism ruling preserving the constitutional architecture of provincial courts and access to justice."
+        }
+      ],
+      "notes": "",
+      "portrait": "https://www.scc-csc.ca/images/judges/suzanne_cote_rr_hr.jpg"
+    },
+    {
+      "id": "malcolm-rowe",
+      "name": "Malcolm Rowe",
+      "title": "Judge of the Supreme Court of Canada",
+      "location": "Ottawa",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Libereal",
+      "appointmentDate": "",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [
+        {
+          "name": "2021 SCC 17 – R v Desautel",
+          "year": null,
+          "description": "Landmark Aboriginal rights decision holding that non-citizens/non-residents (here, a U.S. resident Sinixt descendant) can exercise constitutionally protected s. 35 Aboriginal rights in Canada if the practice was integral to the pre-contact culture. It expanded recognition of cross-border Indigenous rights, advanced reconciliation, and clarified the test for Aboriginal title/rights claims."
+        },
+        {
+          "name": "2022 SCC 30 – Society of Composers, Authors and Music Publishers of Canada v. Entertainment Software Association",
+          "year": null,
+          "description": "Ruled that the Copyright Board's interpretation of online music streaming royalties was incorrect, emphasizing technological neutrality in copyright law (online works treated like offline). It rejected expansive royalty expansions, balanced creator rights with user access, and reinforced statutory interpretation principles in intellectual property."
+        },
+        {
+          "name": "2023 SCC 23 – Reference re Impact Assessment Act",
+          "year": null,
+          "description": "Found significant portions of the federal Impact Assessment Act unconstitutional for overreaching into provincial jurisdiction over natural resources and intra-provincial projects. A major federalism ruling limiting federal environmental assessment powers, influencing environmental regulation and cooperative federalism debates."
+        }
+      ],
+      "notes": "",
+      "portrait": "https://www.scc-csc.ca/images/judges/malcolm_rowe_bn_hr.jpg"
+    },
+    {
+      "id": "sheilah-l-martin",
+      "name": "Sheilah L. Martin",
+      "title": "Judge of the Supreme Court of Canada",
+      "location": "Ottawa",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Libereal",
+      "appointmentDate": "2017-12-18",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [
+        {
+          "name": "2018 SCC 58 – R v Boudreault",
+          "year": null,
+          "description": "This was her first written SCC decision: struck down mandatory victim surcharges as unconstitutional under s. 12 of the Charter (cruel and unusual punishment) for indigent offenders, as they imposed disproportionate financial burdens without meaningful benefit. It influenced sentencing reform, victim-funding debates, and set a tone for her Charter s. 12 jurisprudence."
+        },
+        {
+          "name": "2022 SCC 32 – R v Kirkpatrick",
+          "year": null,
+          "description": "Landmark sexual assault ruling holding that sex without a condom when consent was conditional on condom use constitutes fraud vitiating consent under s. 265(3)(c) of the Criminal Code. It clarified \"stealthing\" as sexual assault, advanced consent law by rejecting myths about implied consent, and strengthened protections in sexual offences cases."
+        },
+        {
+          "name": "2020 SCC 25 – Fraser v Canada (Attorney General)",
+          "year": null,
+          "description": "Found that RCMP job-sharing policy had adverse discriminatory impact on women under s. 15 Charter (equality rights), as it disproportionately affected female officers seeking pension benefits while balancing family responsibilities. A significant equality/discrimination decision addressing systemic barriers for women in policing."
+        }
+      ],
+      "notes": "",
+      "portrait": "https://www.scc-csc.ca/images/judges/sheilah_l_martin_rr_hr.jpg"
+    },
+    {
+      "id": "nicholas-kasirer",
+      "name": "Nicholas Kasirer",
+      "title": "Judge of the Supreme Court of Canada",
+      "location": "Ottawa",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Libereal",
+      "appointmentDate": "2019-09-16",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [
+        {
+          "name": "2022 SCC 18 – R v Brown",
+          "year": null,
+          "description": "Landmark criminal law decision clarifying that \"failure to stop at the scene of an accident\" under s. 320.17 of the Criminal Code requires proof of knowledge of involvement in an accident causing injury or death. It resolved conflicting appellate authority, emphasized mens rea requirements, and influenced impaired driving/accident-related prosecutions nationwide."
+        },
+        {
+          "name": "2020 SCC 43 – Resolute FP Canada Inc. v. Hydro-Québec",
+          "year": null,
+          "description": "Upheld Hydro-Québec's ability to enforce government charges against a successor company under a transferred power contract, applying principles of contract assignment and statutory interpretation in Quebec civil law. It reinforced contractual continuity in public utility contexts and highlighted bijural harmonization in commercial disputes."
+        },
+        {
+          "name": "2021 SCC 23 – Canadian Broadcasting Corp. v. The Queen",
+          "year": null,
+          "description": "Allowed reconsideration of a publication ban in a high-profile criminal case, balancing open courts principles (s. 2(b) Charter) with fair trial rights. It clarified procedural avenues for media challenges to sealing orders and advanced transparency in judicial proceedings."
+        }
+      ],
+      "notes": "",
+      "portrait": "https://www.scc-csc.ca/images/judges/nicholas_kasirer_rr_hr.jpg"
+    },
+    {
+      "id": "mahmud-jamal",
+      "name": "Mahmud Jamal",
+      "title": "Judge of the Supreme Court of Canada",
+      "location": "Ottawa",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Libereal",
+      "appointmentDate": "2021-07-01",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [
+        {
+          "name": "2022 SCC 54 – R v Beaver",
+          "year": null,
+          "description": "Landmark ruling on the exclusion of evidence under s. 24(2) of the Charter: held that subsequent Charter-compliant steps (e.g., obtaining a warrant after an initial breach) can create a \"fresh start,\" dissociating the breach from the evidence and allowing its admission. It refined the Grant analysis for exclusion, balancing police conduct with trial fairness in breath-demand and impaired driving cases."
+        },
+        {
+          "name": "2023 SCC 26 – R v Bertrand Marchand",
+          "year": null,
+          "description": "Struck down the mandatory minimum sentence for child luring under s. 172.1 of the Criminal Code as unconstitutional under s. 12 Charter (cruel and unusual punishment). This established a framework for assessing gravity/severity in child exploitation offences, emphasizing proportionality and advancing protections against overbroad sentencing in sexual offences involving minors."
+        },
+        {
+          "name": "2022 SCC 17 – R v F. (J.)",
+          "year": null,
+          "description": "Addressed youth justice and Charter violations in statements to police, reinforcing safeguards for young persons under the Youth Criminal Justice Act and s. 7/10 Charter rights. It influenced procedural fairness in youth interrogations and evidence admissibility."
+        }
+      ],
+      "notes": "First racialized person and first South Asian Canadian on the Court.",
+      "portrait": "https://www.scc-csc.ca/images/judges/mahmud_jamal_rr_hr.jpg"
+    },
+    {
+      "id": "michelle-o-bonsawin",
+      "name": "Michelle O’Bonsawin",
+      "title": "Judge of the Supreme Court of Canada",
+      "location": "Ottawa",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Libereal",
+      "appointmentDate": "2022-09-01",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [
+        {
+          "name": "2024 SCC 5 – Reference re An Act respecting First Nations, Inuit and Métis children, youth and families",
+          "year": null,
+          "description": "Upheld the constitutionality of federal legislation (Bill C-92) affirming Indigenous jurisdiction over child and family services as part of s. 35 reconciliation and federal powers. This landmark reinforced Indigenous self-government in child welfare, addressed over-incarceration/colonial impacts on families, and advanced reconciliation principles."
+        },
+        {
+          "name": "2024 SCC 12 – Shot Both Sides v. Canada",
+          "year": null,
+          "description": "Addressed a historical treaty breach claim by the Blood Tribe regarding reserve land reductions under Treaty 7. The Court dismissed the claim on limitations grounds but clarified aspects of Crown fiduciary duties and Indigenous claims processes. It contributed to ongoing discussions on historical injustices and limitations in Aboriginal rights litigation."
+        },
+        {
+          "name": "2024 SCC 26 – Canada (Attorney General) v. Power",
+          "year": null,
+          "description": "Held that governments can face Charter damages for enacting unconstitutional legislation in bad faith or with reckless disregard (not absolute immunity). This expanded state accountability, influenced Charter remedy debates, and touched on broader justice/access themes aligned with her background."
+        }
+      ],
+      "notes": "",
+      "portrait": "https://www.scc-csc.ca/images/judges/michelle_obonsawin_rr_hr.jpg"
+    },
+    {
+      "id": "mary-t-moreau",
+      "name": "Mary T. Moreau",
+      "title": "Judge of the Supreme Court of Canada",
+      "location": "Ottawa",
+      "appointedBy": "Justin Trudeau",
+      "appointingParty": "Libereal",
+      "appointmentDate": "2023-11-06",
+      "leaning": "unknown",
+      "knownBias": "",
+      "notableCases": [],
+      "notes": "First Franco-Albertain on the Court.",
+      "portrait": "https://www.scc-csc.ca/images/judges/mary_t_moreau_rr_hr.jpg"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "name": "Greenview",
+  "geoname": "MUNICIPAL DISTRICT OF GREENVIEW NO. 16",
+  "type": "Municipal District",
+  "mayor": {
+    "name": " Ryan Ratzlaff",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "780-552-4093",
+    "email": "Ryan.Ratzlaff@mdgreenview.ab.ca"
+  },
+  "council": [
+    {
+      "name": "Tom Burton",
+      "role": "Deputy Reeve",
+      "ward": "WARD 6, DeBolt",
+      "since": "",
+      "portrait": "",
+      "email": "Tom.Burton@mdgreenview.ab.ca",
+      "phone": "780-512-1558",
+      "committees": []
+    },
+    {
+      "name": "Winston Delorme",
+      "role": "",
+      "ward": "WARD 1, Grande Cache Cooperatives & Enterprises",
+      "since": "",
+      "portrait": "",
+      "email": "Winston.Delorme@mdgreenview.ab.ca",
+      "phone": "780-285-0661",
+      "committees": []
+    },
+    {
+      "name": "Darren Soderquist",
+      "role": "",
+      "ward": "WARD 3, Valleyview",
+      "since": "",
+      "portrait": "",
+      "email": "darren.soderquist@mdgreenview.ab.ca",
+      "phone": "780-558-9118   ",
+      "committees": []
+    },
+    {
+      "name": "Dave Berry",
+      "role": "",
+      "ward": "WARD 4, Sunset House/Sweathouse",
+      "since": "",
+      "portrait": "",
+      "email": "DaveBerry@mdgreenview.ab.ca",
+      "phone": "780-552-4676",
+      "committees": []
+    },
+    {
+      "name": "James Vander Leest",
+      "role": "",
+      "ward": "WARD 5, New Fish Creek",
+      "since": "",
+      "portrait": "",
+      "email": "James.VanderLeest@mdgreenview.ab.ca",
+      "phone": "780-558-9175",
+      "committees": []
+    },
+    {
+      "name": "Chad Taylor",
+      "role": "",
+      "ward": "WARD 7, Ridgevalley/Crooked Creek/Sturgeon Heights",
+      "since": "",
+      "portrait": "",
+      "email": "Chad.Taylor@mdgreenview.ab.ca",
+      "phone": "780-558-9304",
+      "committees": []
+    },
+    {
+      "name": "Christine Schlief",
+      "role": "",
+      "ward": "WARD 8, Grovedale",
+      "since": "",
+      "portrait": "",
+      "email": "Christine.Schlief@mdgreenview.ab.ca",
+      "phone": "780-552-4870",
+      "committees": []
+    },
+    {
+      "name": "Nicholas Hansen",
+      "role": "",
+      "ward": "WARD 8, Grovedale",
+      "since": "",
+      "portrait": "",
+      "email": "Nicholas.Hansen@mdgreenview.ab.ca",
+      "phone": "587-348-5117",
+      "committees": []
+    },
+    {
+      "name": "Marko Hackenberg",
+      "role": "",
+      "ward": "WARD 9, Grande Cache",
+      "since": "",
+      "portrait": "",
+      "email": "marko.hackenberg@mdgreenview.ab.ca",
+      "phone": "780-783-0851",
+      "committees": []
+    },
+    {
+      "name": "Paul Bailey",
+      "role": "",
+      "ward": "WARD 9, Grande Cache",
+      "since": "",
+      "portrait": "",
+      "email": "paul.bailey@mdgreenview.ab.ca",
+      "phone": "780-320-9826",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

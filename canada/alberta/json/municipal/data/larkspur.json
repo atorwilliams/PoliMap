@@ -1,0 +1,44 @@
+{
+  "name": "Larkspur",
+  "geoname": "S.V. of LARKSPUR",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Jason Meliefste",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-405-4339",
+    "email": "jmeliefste@gmail.com"
+  },
+  "council": [
+    {
+      "name": "Blaine Boutin",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "barsboutin@shaw.ca",
+      "phone": "780-994-2635",
+      "committees": []
+    },
+    {
+      "name": "Scott Drazek",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "scdr2290@telus.net",
+      "phone": "780-266-3499",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.svlarkspur.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

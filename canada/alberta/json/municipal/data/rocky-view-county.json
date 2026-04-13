@@ -1,0 +1,171 @@
+{
+  "name": "Rocky View County",
+  "geoname": "ROCKY VIEW COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Sunny Samra ",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "SSamra@rockyview.ca",
+    "phone": "403-462-9207",
+    "committees": [
+      "Intermunicipal Committee – City of Calgary",
+      "Intermunicipal Committee – Chestermere",
+      "Intermunicipal Committee - Kneehill County - Alternate",
+      "Intermunicipal Committee - Wheatland County",
+      "South Central Rural Municipalities of Alberta (SCRMA) District 2 Board",
+      "Trilateral Joint Planning Area 2 Committee",
+      "Governance Committee",
+      "Emergency Advisory Committee",
+      "Public Presentation Committee",
+      "Recreation Governance Committee",
+      "Capital Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Ken Ball",
+      "role": "",
+      "ward": "Division 7",
+      "since": "",
+      "portrait": "",
+      "email": "KBall@rockyview.ca",
+      "phone": "587-837-2183",
+      "committees": [
+        "Governance Committee",
+        "Emergency Advisory Committee",
+        "Public Presentation Committee",
+        "Recreation Governance Committee",
+        "Rocky View Foundation",
+        "Capital Committee"
+      ]
+    },
+    {
+      "name": "Greg Boehlke",
+      "role": "",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "GBoehlke@rockyview.ca",
+      "phone": "403-880-7062",
+      "committees": [
+        "Intermunicipal Committee – Airdrie",
+        "Intermunicipal Committee – Crossfield",
+        "Intermunicipal Committee – Beiseker",
+        "Intermunicipal Committee – Irricana",
+        "Intermunicipal Committee - Kneehill County",
+        "Intermunicipal Committee - Mountain View County",
+        "Intermunicipal Committee - Wheatland County",
+        "Trilateral Joint Planning Area 1 Committee",
+        "Agricultural Service Board",
+        "ALUS Partnership Advisory Committee",
+        "Governance Committee",
+        "Emergency Advisory Committee",
+        "Public Presentation Committee",
+        "Recreation Governance Committee",
+        "Aqua 7 Water Commission",
+        "Intermunicipal Committees",
+        "Beiseker Seed Cleaning Plant",
+        "Capital Committee"
+      ]
+    },
+    {
+      "name": "Samanntha Wright",
+      "role": "",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "SWright@rockyview.ca",
+      "phone": "403-478-1041",
+      "committees": [
+        "Intermunicipal Committee – Airdrie",
+        "Intermunicipal Committee – City of Calgary",
+        "Intermunicipal Committee – Crossfield",
+        "Intermunicipal Committee - Mountain View County",
+        "Intermunicipal Committee - Municipal District of Bighorn",
+        "South Central Rural Municipalities of Alberta (SCRMA) District 2 Board – Alternate",
+        "Prairie Economic Gateway Oversight Committee",
+        "Governance Committee",
+        "Emergency Advisory Committee",
+        "Public Presentation Committee",
+        "Recreation Governance Committee",
+        "Intermunicipal Committees",
+        "Capital Committee"
+      ]
+    },
+    {
+      "name": "Alison Whiting",
+      "role": "",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "awhiting@rockyview.ca",
+      "phone": "587-585-1196",
+      "committees": [
+        "Intermunicipal Committee – Town of Cochrane",
+        "Intermunicipal Committee - Mountain View County",
+        "Intermunicipal Committee - Municipal District of Bighorn",
+        "Governance Committee",
+        "Emergency Advisory Committee",
+        "Public Presentation Committee",
+        "Recreation Governance Committee",
+        "Intermunicipal Committees",
+        "Spray Lake Sawmills Recreation Park Society",
+        "Capital Committee",
+        "Family and Community Support Services Funding Board (FCSS)"
+      ]
+    },
+    {
+      "name": "Don Kochan",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "DKochan@rockyview.ca",
+      "phone": "587-435-7172",
+      "committees": [
+        "Intermunicipal Committee – Town of Cochrane",
+        "Trilateral Joint Planning Area 1 Committee",
+        "Agricultural Service Board",
+        "ALUS Partnership Advisory Committee",
+        "Governance Committee",
+        "Emergency Advisory Committee",
+        "Public Presentation Committee",
+        "Recreation Governance Committee",
+        "Capital Committee"
+      ]
+    },
+    {
+      "name": "Kevin Hanson",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "KRHanson@rockyview.ca",
+      "phone": "403-463-1166",
+      "committees": [
+        "Agricultural Service Board",
+        "ALUS Partnership Advisory Committee",
+        "Bragg Creek FireSmart Committee",
+        "Governance Committee",
+        "Emergency Advisory Committee",
+        "Public Presentation Committee",
+        "Recreation Governance Committee",
+        "Rocky View Foundation",
+        "Springbank Park for All Seasons",
+        "Capital Committee",
+        "Trilateral Joint Planning Area 2 Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

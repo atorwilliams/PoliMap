@@ -1,0 +1,84 @@
+{
+  "name": "Spruce Grove",
+  "geoname": "CITY OF SPRUCE GROVE",
+  "type": "City",
+  "mayor": {
+    "name": "Jeff Acker",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "jacker@sprucegrove.org",
+    "phone": ""
+  },
+  "council": [
+    {
+      "name": "Spencer Bennett",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sbennett@sprucegrove.org",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Danielle Carter",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dcarter@sprucegrove.org",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jan Gillett",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jgillett@sprucegrove.org",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Brad Mastaler",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bmastaler@sprucegrove.org",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Erin Stevenson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "estevenson@sprucegrove.org",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jeff Tokar",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jtokar@sprucegrove.org",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.sprucegrove.org/",
+  "notes": "phone contact via website",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

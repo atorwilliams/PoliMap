@@ -1,0 +1,69 @@
+{
+  "name": "Sandy Beach",
+  "geoname": "S.V. of SANDY BEACH",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "David Noyes",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "dave.noyes@sandybeach.ca",
+    "phone": "780-975-0156"
+  },
+  "council": [
+    {
+      "name": "Deborah Mayer",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "deb.mayer@sandybeach.ca",
+      "phone": "780-218-7280",
+      "committees": []
+    },
+    {
+      "name": "Nicolas Pelechytik",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "nick.pelechytik@sandybeach.ca",
+      "phone": "780-807-0398",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.sandybeach.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Louise Kormos ",
+      "since": "",
+      "email": "",
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "role": "Public Works",
+      "name": "Devin Patterson",
+      "since": "",
+      "email": "",
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "role": "Public Works",
+      "name": "Neil Barnett",
+      "since": "",
+      "email": "",
+      "phone": "",
+      "notes": ""
+    }
+  ]
+}

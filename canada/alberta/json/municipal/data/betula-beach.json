@@ -1,0 +1,52 @@
+{
+  "name": "Betula Beach",
+  "geoname": "S.V. of BETULA BEACH",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Rob Dickie",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Emily House",
+      "role": "Chief Administrative Officer",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "administration@betulabeach.ca",
+      "phone": "780.691.4465",
+      "committees": []
+    },
+    {
+      "name": "Monty Wood",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Peter Wilkes",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://betulabeach.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

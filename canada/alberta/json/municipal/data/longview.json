@@ -1,0 +1,43 @@
+{
+  "name": "Longview",
+  "geoname": "VILLAGE OF LONGVIEW",
+  "type": "Village",
+  "mayor": {
+    "name": "Rose Klassen",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "Rose.Klassen@village.longview.ab.ca"
+  },
+  "council": [
+    {
+      "name": "Brenda McIntosh",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Bmcintosh@village.longview.ab.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "John Wagenaar",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Jwagenaar@village.longview.ab.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://village.longview.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

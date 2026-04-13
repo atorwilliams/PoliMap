@@ -1,0 +1,64 @@
+{
+  "name": "Holden",
+  "geoname": "VILLAGE OF HOLDEN",
+  "type": "Village",
+  "mayor": {
+    "name": "Carl Marsh",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-318-1990",
+    "email": "coun.marsh@holden.ca"
+  },
+  "council": [
+    {
+      "name": "Tyler Beckett",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "coun.beckett@holden.ca",
+      "phone": "587-785-3771",
+      "committees": []
+    },
+    {
+      "name": "Shawn Cole",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "coun.cole@holden.ca",
+      "phone": "780-691-2570",
+      "committees": []
+    },
+    {
+      "name": "Tammy Hill",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "coun.hill@holden.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Alan Ramshaw",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "coun.ramshaw@holden.ca",
+      "phone": "587-879-1003",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://holden.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

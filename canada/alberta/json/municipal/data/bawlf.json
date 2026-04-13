@@ -1,0 +1,63 @@
+{
+  "name": "Bawlf",
+  "geoname": "VILLAGE OF BAWLF",
+  "type": "Village",
+  "mayor": {
+    "name": "Mario Guillemette",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "m.guillemette@bawlf.com"
+  },
+  "council": [
+    {
+      "name": "Bill Staggs",
+      "role": "​​Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jason Gervais",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "j.gervais@bawlf.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Joy Siebold",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "​j.siebold@bawlf.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Lane Vincent",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "l.vincent@bawlf.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.villageofbawlf.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

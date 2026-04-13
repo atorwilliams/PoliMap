@@ -1,0 +1,83 @@
+{
+  "name": "Stavely",
+  "geoname": "TOWN OF STAVELY",
+  "type": "Town",
+  "mayor": {
+    "name": "Ramona Whittingham",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayor@stavely.ca"
+  },
+  "council": [
+    {
+      "name": "Don Norby",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "norby@stavely.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Janice Binmore",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "binmore@stavely.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Dale (Friday) Gugala",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "gugala@stavely.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Tim Martin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "martin@stavely.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Bob Elliot",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "elliott@stavely.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Todd Hill",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "hill@stavely.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.stavely.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

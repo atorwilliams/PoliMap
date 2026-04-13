@@ -1,0 +1,83 @@
+{
+  "name": "Lloydminster",
+  "geoname": "CITY OF LLOYDMINSTER",
+  "type": "City",
+  "mayor": {
+    "name": "Gerald Aalbers",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayor@lloydminster.ca"
+  },
+  "council": [
+    {
+      "name": "David Lopez",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dlopez@lloydminster.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Dr. Michael Diachuk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mdiachuk@lloydminster.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jason Whiting",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jwhiting@lloydminster.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jim Taylor",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jtaylor@lloydminster.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Michele Charles Gustafson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mcgustafson@lloydminster.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Justin Vance",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jvance@lloydminster.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.lloydminster.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

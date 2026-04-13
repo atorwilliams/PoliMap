@@ -1,0 +1,74 @@
+{
+  "name": "Forty Mile",
+  "geoname": "COUNTY OF FORTY MILE NO. 8",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Stacey Barrows",
+    "portrait": "",
+    "since": "2017-10-16",
+    "title": "Reeve",
+    "phone": "(403) 647-4101 ",
+    "email": "division3@fortymile.ab.ca"
+  },
+  "council": [
+    {
+      "name": "Diane Connor",
+      "role": "Deputy Reeve",
+      "ward": "Division 2 – Etzikom & Manyberries",
+      "since": "2018-02-26",
+      "portrait": "",
+      "email": "division2@fortymile.ab.ca",
+      "phone": "(403) 952-0426 ",
+      "committees": []
+    },
+    {
+      "name": "Pearl Jones",
+      "role": "",
+      "ward": "Division 4 – Orion and Conquerville/Maleb",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "division4@fortymile.ab.ca",
+      "phone": "403-866-8482",
+      "committees": []
+    },
+    {
+      "name": "Tammy Reimer",
+      "role": "",
+      "ward": "Division 5 – 40 Mile Park",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "division5@fortymile.ab.ca",
+      "phone": "403-308-8031",
+      "committees": []
+    },
+    {
+      "name": "Don Drake",
+      "role": "",
+      "ward": "Division 6 – Burdett",
+      "since": "2021-10-25",
+      "portrait": "",
+      "email": "division6@fortymile.ab.ca",
+      "phone": "(403) 458-3190",
+      "committees": []
+    },
+    {
+      "name": "Jim Babe",
+      "role": "",
+      "ward": "Division 7 – Bow Island",
+      "since": "2021-10-25",
+      "portrait": "",
+      "email": "division7@fortymile.ab.ca",
+      "phone": "(403) 502-9060",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

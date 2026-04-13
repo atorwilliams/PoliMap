@@ -1,0 +1,89 @@
+{
+  "name": "Ponoka County",
+  "geoname": "PONOKA COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Paul McLauchlin",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "paulmclauchlin@ponokacounty.com",
+    "phone": "780-995-7339"
+  },
+  "council": [
+    {
+      "name": "Bryce Liddle",
+      "role": "",
+      "ward": "Division I",
+      "since": "",
+      "portrait": "",
+      "email": "bryceliddle@ponokacounty.com",
+      "phone": "403-963-2476",
+      "committees": []
+    },
+    {
+      "name": "Mark Matejka",
+      "role": "Deputy Reeve",
+      "ward": "Division II",
+      "since": "",
+      "portrait": "",
+      "email": "markmatejka@ponokacounty.com",
+      "phone": "403-783-9857",
+      "committees": []
+    },
+    {
+      "name": "Doug Weir",
+      "role": "",
+      "ward": "Division III",
+      "since": "",
+      "portrait": "",
+      "email": "dougweir@ponokacounty.com",
+      "phone": "403-783-0394",
+      "committees": []
+    },
+    {
+      "name": "Nancy Hartford",
+      "role": "",
+      "ward": "Division V",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.ponokacounty.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Peter Hall",
+      "since": "",
+      "email": "peterhall@ponokacounty.com",
+      "phone": "403-913-5855",
+      "notes": ""
+    },
+    {
+      "role": "Protective Services Coordinator/Director of Emergency",
+      "name": "Donna Noble",
+      "since": "",
+      "email": "donnanoble@ponokacounty.com",
+      "phone": "403-704-9563",
+      "notes": ""
+    },
+    {
+      "role": "Community Peace Officer",
+      "name": "Doug Wareham",
+      "since": "",
+      "email": "enforcement@ponokacounty.com",
+      "phone": "403-783-3333",
+      "notes": ""
+    }
+  ]
+}

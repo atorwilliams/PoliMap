@@ -1,0 +1,60 @@
+{
+  "name": "White Sands",
+  "geoname": "S.V. of WHITE SANDS",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Dan Zembal",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "dan@whitesandsab.ca"
+  },
+  "council": [
+    {
+      "name": "Leona Thorogood",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "leona@whitesandsab.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Paul Ashford",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "paul@whitesandsab.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.whitesandsab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Melissa Beebe",
+      "since": "",
+      "email": "cao@whitesandsab.ca",
+      "phone": "403-740-1572",
+      "notes": ""
+    },
+    {
+      "role": "Maintenance Supervisor/Public Works",
+      "name": "Allen Berger",
+      "since": "",
+      "email": "",
+      "phone": "",
+      "notes": "Please contact the CAO for any inquiries"
+    }
+  ]
+}

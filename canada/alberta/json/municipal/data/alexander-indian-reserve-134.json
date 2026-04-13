@@ -1,0 +1,83 @@
+{
+  "name": "Alexander Indian Reserve #134",
+  "geoname": "ALEXANDER INDIAN RESERVE #134",
+  "type": "Metis Settlement / First Nation",
+  "mayor": {
+    "name": "George Jr. Arcand",
+    "portrait": "",
+    "since": "",
+    "title": "Chief",
+    "email": "chiefarcand@alexanderfn.com"
+  },
+  "council": [
+    {
+      "name": "Audra Arcand",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "audra.arcand@alexanderfn.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Chris Arcand",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "chris.arcand@alexanderfn.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "James Arcand",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "james.arcand@alexanderfn.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kevin Arcand",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kevin.arcand@alexanderfn.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Marty Arcand",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "marty.arcand@alexanderfn.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Scott Burnstick",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "scott.burnstick@alexanderfn.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "",
+  "website": "https://www.alexanderfn.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

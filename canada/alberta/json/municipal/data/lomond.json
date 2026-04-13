@@ -1,0 +1,59 @@
+{
+  "name": "Lomond",
+  "geoname": "VILLAGE OF LOMOND",
+  "type": "Village",
+  "mayor": {
+    "name": "Brad Koch",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Craig Stokes",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": " Robert Donnelly",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://villageoflomond.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Alex Whittington",
+      "since": "",
+      "email": "cao@villageoflomond.ca",
+      "phone": "(403)792-3611",
+      "notes": ""
+    },
+    {
+      "role": "Assistant Chief Administrative Officer",
+      "name": "McKenzie Koch",
+      "since": "",
+      "email": "cao@villageoflomond.ca",
+      "phone": "(403)792-3611",
+      "notes": ""
+    }
+  ]
+}

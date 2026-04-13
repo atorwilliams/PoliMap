@@ -1,0 +1,133 @@
+{
+  "name": "Drumheller",
+  "geoname": "TOWN OF DRUMHELLER",
+  "type": "Town",
+  "mayor": {
+    "name": "Tony Miglecz",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": " tmiglecz@drumheller.ca",
+    "phone": "403-823-1349",
+    "committees": [
+      "Community Standards Appeal Board",
+      "Emergency Management Committee",
+      "Family and Community Support Services Committee",
+      "Municipal Planning Commission",
+      "Intermunicipal Collaboration Framework Committee",
+      "Intermunicipal Development Plan Board",
+      "Travel Drumheller"
+    ]
+  },
+  "council": [
+    {
+      "name": "Patrick Kolafa",
+      "role": " Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "pkolafa@drumheller.ca",
+      "phone": "403-823-1349",
+      "committees": [
+        "Community Standards Appeal Board",
+        "Intermunicipal Collaboration Framework Committee",
+        "Intermunicipal Development Plan Board",
+        "Drumheller and District Solid Waste Management Association",
+        "Community Futures Big Country"
+      ]
+    },
+    {
+      "name": "Mike Hansen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mhansen@drumheller.ca",
+      "phone": "403-823-1349",
+      "committees": [
+        "Community Standards Appeal Board",
+        "Emergency Management Committee",
+        "Family and Community Support Services Committee",
+        "Drumheller and District Solid Waste Management Association - Alternate",
+        "Palliser Intermunicipal Subdivision and Development Appeal Board"
+      ]
+    },
+    {
+      "name": "Travis Hardy",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "thardy@drumheller.ca",
+      "phone": "403-823-1349",
+      "committees": [
+        "Community Standards Appeal Board",
+        "Drumheller Housing Administration",
+        "Emergency Management Committee",
+        "Municipal Planning Commission",
+        "Red Deer River Municipal Users Group"
+      ]
+    },
+    {
+      "name": "Cheryl McNeil",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cmcneil@drumheller.ca",
+      "phone": "403-823-1349",
+      "committees": [
+        "Community Standards Appeal Board",
+        "Drumheller Public Library Board",
+        "Drumheller Housing Administration",
+        "Family and Community Support Services Committee",
+        "Intermunicipal Collaboration Framework Committee – Alternate",
+        "Intermunicipal Development Plan Board – Alternate",
+        "Valley Bus Society"
+      ]
+    },
+    {
+      "name": "Maddie Miller",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mmiller@drumheller.ca",
+      "phone": "403-823-1349",
+      "committees": [
+        "Community Standards Appeal Board",
+        "Drumheller Valley Sports Committee",
+        "Family and Community Support Services Committee",
+        "Drumheller Community Learning Society",
+        "Red Deer River Municipal Users Group - Alternate"
+      ]
+    },
+    {
+      "name": "Tom Zariski",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " tzariski@drumheller.ca",
+      "phone": "403-823-1349",
+      "committees": [
+        "Community Standards Appeal Board",
+        "Intermunicipal Collaboration Framework Committee",
+        "Intermunicipal Development Plan Board",
+        "Drumheller and District Seniors Foundation",
+        "Palliser Intermunicipal Subdivision and Development Appeal Board",
+        "Palliser Regional Municipal Services",
+        "Drumheller Area Health Foundation"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.drumheller.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,116 @@
+{
+  "name": "High Level",
+  "geoname": "TOWN OF HIGH LEVEL",
+  "type": "Town",
+  "mayor": {
+    "name": "Josh Lambert",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "jlambert@highlevel.ca",
+    "phone": "780-841-7669",
+    "committees": [
+      "Air Access Task Force",
+      "Airport Beautification and Enhancement Task Force",
+      "Community Futures of Northwest Alberta (Alternate)",
+      "Community Rail Advocacy Alliance",
+      "High Level - Dene Tha' partnership (formerly CEDI)",
+      "High Level and District Chamber of Commerce",
+      "High Level Municipal Emergency Advisory Committee",
+      "Indigenous Intergovernmental Relations Advisory Committee",
+      "Intergovernmental Negotiation Committee & Regional Sustainability Working Committee",
+      "Inter-Municipal Development Plan Joint Steering Committee",
+      "Northwest Alberta Regional Emergency Advisory Committee",
+      "Northwest Regional Fetal Alcohol Spectrum Disorder Society (FASD)",
+      "Regional Assessment Review Board",
+      "Regional Economic Development Initiative (REDI) (Alternate)",
+      "Upper Hay Regional Forests Public Advisory Committee (Alternate)",
+      "Water North Coalition (Alternate)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Mark Liboiron",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mliboiron@highlevel.ca",
+      "phone": "",
+      "committees": [
+        "Air Access Task Force",
+        "Assessment Review Board",
+        "Banner of Remembrance Committee",
+        "High Level Municipal Library Board",
+        "High Level Policing Society",
+        "Inter-Municipal Assessment Review Board",
+        "Inter-Municipal Development Plan Joint Steering Committee",
+        "Inter-Municipal Subdivision & Development Appeal",
+        "Mackenzie Regional Waste Management Commission",
+        "Northern Alberta Elected Leaders (NAEL)",
+        "Northern Lakes College - Community Education Committee",
+        "Peace Library System (PLS)",
+        "Subdivision & Development Appeal Board (SDAB)"
+      ]
+    },
+    {
+      "name": "Nickoi Beierle",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Airport Beautification and Enhancement Task Force",
+        "Alberta Northwest Species at Risk Committee",
+        "Community Services and Recreation Committee",
+        "High Level Municipal Emergency Advisory Committee",
+        "High School Bursary Committee",
+        "Inter-Municipal Planning Commission",
+        "Mackenzie Regional Waste Management Commission",
+        "Northwest Regional Fetal Alcohol Spectrum Disorder Society (FASD)",
+        "Regional Economic Development Initiative (REDI)"
+      ]
+    },
+    {
+      "name": "Brielle Mercredi",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Belinda Forest",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Assessment Review Board",
+        "Community Futures of Northwest Alberta",
+        "Community Services and Recreation Committee",
+        "High Level Municipal Library Board",
+        "High Level Transportation Society",
+        "High School Bursary Committee",
+        "Indigenous and Intergovernmental Relations Advisory Committee",
+        "Mackenzie Frontier Tourist Association",
+        "Northwest Regional Fetal Alcohol Spectrum Disorder Society (FASD) (Alternate)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

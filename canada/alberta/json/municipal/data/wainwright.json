@@ -1,0 +1,83 @@
+{
+  "name": "Wainwright",
+  "geoname": "MUNICIPAL DISTRICT OF WAINWRIGHT NO. 61",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Bruce Pugh",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "bpugh@wainwright.ca"
+  },
+  "council": [
+    {
+      "name": "Will Challenger",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "wchallenger@wainwright.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Josh Copeland",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jcopeland@wainwright.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Rick Fountain",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rfountain@wainwright.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Ariel Haubrich",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ahaubrich@wainwright.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Carl Nemyo",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cnemyo@wainwright.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Vince Saretsky",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "vsaretsky@wainwright.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Bonnyville",
+  "geoname": "MUNICIPAL DISTRICT OF BONNYVILLE NO. 87",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Elisa Brosseau",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-573-9846",
+    "email": "ebrosseau@town.bonnyville.ab.ca"
+  },
+  "council": [
+    {
+      "name": "Neil Langridge",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "nlangridge@town.bonnyville.ab.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Phil Kushnir",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "pkushnir@town.bonnyville.ab.ca",
+      "phone": "780-573-2002",
+      "committees": []
+    },
+    {
+      "name": "Byron Johnson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "\t bjohnson@town.bonnyville.ab.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Brian McEvoy",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bmcevoy@town.bonnyville.ab.ca",
+      "phone": "\t 780-573-8446",
+      "committees": []
+    },
+    {
+      "name": "David Sharun",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "\t dsharun@town.bonnyville.ab.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kayla Blanchette",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kblanchette@town.bonnyville.ab.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://town.bonnyville.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

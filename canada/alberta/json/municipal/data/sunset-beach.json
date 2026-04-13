@@ -1,0 +1,44 @@
+{
+  "name": "Sunset Beach",
+  "geoname": "S.V. of SUNSET BEACH",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Tim Evans",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-213-0333",
+    "email": "timevans2010@hotmail.com"
+  },
+  "council": [
+    {
+      "name": "Fred Black",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "pclnd@telus.net",
+      "phone": "780-618-2002",
+      "committees": []
+    },
+    {
+      "name": "Dan Struski",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "daniel_struski@yahoo.ca",
+      "phone": "780-327-9636",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://summervillageofsunsetbeach.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

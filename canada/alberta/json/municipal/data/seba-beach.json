@@ -1,0 +1,52 @@
+{
+  "name": "Seba Beach",
+  "geoname": "S.V. of SEBA BEACH",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Rick MacPhee",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "rmacphee@sebabeach.ca"
+  },
+  "council": [
+    {
+      "name": "Michael Paull",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mpaull@sebabeach.ca   ",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kevin Campbell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kcampbell@sebabeach.ca ",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.sebabeach.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Emily House",
+      "since": "",
+      "email": "village@sebabeach.ca",
+      "phone": "780.797.3863",
+      "notes": ""
+    }
+  ]
+}

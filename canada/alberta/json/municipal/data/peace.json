@@ -1,0 +1,64 @@
+{
+  "name": "Peace",
+  "geoname": "MUNICIPAL DISTRICT OF PEACE NO. 135",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Robert Willing",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "780-624-5625",
+    "email": "rwilling@mdpeace.com"
+  },
+  "council": [
+    {
+      "name": "Sandra Eastman",
+      "role": "Deputy Reeve",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "seastman@mdpeace.com",
+      "phone": "780-338-2341",
+      "committees": []
+    },
+    {
+      "name": "Ken Herlinveaux",
+      "role": "",
+      "ward": "Ward 4",
+      "since": "",
+      "portrait": "",
+      "email": "kherlinveaux@mdpeace.com",
+      "phone": "780-332-1086",
+      "committees": []
+    },
+    {
+      "name": "Theresa Johnson",
+      "role": "",
+      "ward": "Ward 3",
+      "since": "",
+      "portrait": "",
+      "email": "tjohnson@mdpeace.com",
+      "phone": "780-332-2163",
+      "committees": []
+    },
+    {
+      "name": "Lori Kinnee",
+      "role": "",
+      "ward": "Ward 2",
+      "since": "",
+      "portrait": "",
+      "email": "lkinnee@mdpeace.com",
+      "phone": "780-834-8851",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.mdpeace.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

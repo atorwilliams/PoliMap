@@ -1,0 +1,2633 @@
+{
+  "parties": {
+    "United Conservative Party": {
+      "color": "#003DA5"
+    },
+    "NDP": {
+      "color": "#F37021"
+    },
+    "Non-partisan": {
+      "color": "#D3D3D3"
+    },
+    "Independent": {
+      "color": "#808080"
+    },
+    "Progressive Tory Party": {
+      "color": "#FFD700"
+    }
+  },
+  "ridings": {
+    "Calgary-Glenmore": {
+      "name": "Calgary-Glenmore",
+      "mla": {
+        "name": "Ms Nagwan Al-Guneid",
+        "party": "NDP",
+        "heroPhoto": "https://media.licdn.com/dms/image/v2/D5622AQG6sXRtnTFTXA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1687903803533?e=1775692800&v=beta&t=bB5z3EZnrbr9vyjB8SPyMFvjn6n2ydhAfZU5tPB9AWY",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0984&legl=31&from=mla_home",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0984.jpg",
+        "contact": {
+          "email": "calgary.glenmore@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-216-5421",
+          "constituencyOffice": "5th Floor Queen Elizabeth II 9820 107 St NW, Edmonton , Alberta T5K 1E7",
+          "website": "https://www.albertandpcaucus.ca/your-mlas/contact-id/10061",
+          "social": {
+            "facebook": "https://www.facebook.com/NagwanYYC/",
+            "twitter": "https://x.com/NagwanYYC",
+            "instagram": "https://www.instagram.com/nagwanyyc/?hl=en",
+            "linkedin": "https://www.linkedin.com/in/nalguneid/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 40
+      }
+    },
+    "Calgary-Cross": {
+      "name": "Calgary-Cross",
+      "mla": {
+        "name": "Honourable Mickey Amery, ECA, KC",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0913.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0913&legl=31&from=mla_home",
+        "heroPhoto": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2023/08/20230322DB031-scaled.jpg",
+        "contact": {
+          "email": "Calgary.Cross@assembly.ab.ca",
+          "tollFree": "1-888-465-2660",
+          "fax": "",
+          "officeHours": "",
+          "phone": " +1 403-248-4487",
+          "constituencyOffice": "920 36 St NE #201, Calgary, AB T2A 6L8, Canada",
+          "website": "https://unitedconservativecaucus.ca/mickey-amery/",
+          "social": {
+            "facebook": "https://www.facebook.com/MickeyAmeryCalgaryCross#",
+            "twitter": "https://x.com/mickeyamery",
+            "instagram": "https://www.instagram.com/abmickeyamery/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 14
+      }
+    },
+    "Edmonton-West Henday": {
+      "name": "Edmonton-West Henday",
+      "mla": {
+        "name": "Member Brooks Arcand-Paul",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0955.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0955&legl=31&from=mla_home",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/albertaprimetimes/brooks-arcand-paul.jpg;w=1200;h=800;mode=crop",
+        "contact": {
+          "email": "Edmonton.WestHenday@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-414-0711",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/BrooksArcandPaul/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/sipiysis/",
+            "linkedin": "https://www.linkedin.com/in/brooks-arcand-paul/",
+            "youtube": "",
+            "tiktok": "https://www.tiktok.com/@sipiysis",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
+      }
+    },
+    "Fort Saskatchewan-Vegreville": {
+      "name": "Fort Saskatchewan-Vegreville",
+      "mla": {
+        "name": "Honourable Jackie Armstrong-Homeniuk, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0914.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0914&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservative.ca/wp-content/uploads/MLA-Homeniuk.jpg",
+        "contact": {
+          "email": "FortSaskatchewan.Vegreville@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "9am - 4:30pm Monday to Friday",
+          "phone": "780.632.6840",
+          "constituencyOffice": "9940 99 Ave, Fort Saskatchewan, AB T8L 4G8, Canada",
+          "website": "https://www.jackie-armstrong-homeniuk.com/",
+          "social": {
+            "facebook": "",
+            "twitter": "https://www.instagram.com/jackiearmstronghomeniuk.mla/",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
+      }
+    },
+    "Calgary-Acadia": {
+      "name": "Calgary-Acadia",
+      "mla": {
+        "name": "Member Diana Batten",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0983.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0983&legl=31&from=mla_home",
+        "heroPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/4d/20241030_-_MLA_Diana_Batten.jpg",
+        "contact": {
+          "email": "Calgary.Acadia@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-640-1363",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/p/Diana-Batten-100082078204969/",
+            "twitter": "https://x.com/DianaBatten_",
+            "instagram": "https://www.instagram.com/dianabatten_",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "https://www.tiktok.com/@mladianabatten",
+            "BlueSky": "https://bsky.app/profile/dianabatten.bsky.social"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 35
+      }
+    },
+    "Drayton Valley-Devon": {
+      "name": "Drayton Valley-Devon",
+      "mla": {
+        "name": "Honourable Andrew Boitchenko, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0973.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0973&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservative.ca/wp-content/uploads/elementor/thumbs/MLA-Boitchenko-r5vbosmles4hsvtqwxyf556fqw80fdp7s6yci51ibk.jpg",
+        "contact": {
+          "email": "draytonvalley.devon@assembly.ab.ca",
+          "tollFree": "1-866-488-0919",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-542-3355",
+          "constituencyOffice": "5136B - 52 Avenue Box 272 Drayton Valley, AB   T7A 1S5",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/ABoitchenko/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/boitchenkoandrew/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 10
+      }
+    },
+    "Calgary-Falconridge": {
+      "name": "Calgary-Falconridge",
+      "mla": {
+        "name": "Member Parmeet Singh Boparai",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0956.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0956&legl=31&from=mla_home",
+        "heroPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoH8xMhcvNl7W4Dhh_yaNylc3DnQeIZrqXzb0XFL_IyblFR2k_c5VQTzl3O8DFdxwLmyP6e4eoofbmpxH2zbn2zUakLdj_Bb2cANtx65c&s=10",
+        "contact": {
+          "email": "Calgary.Falconridge@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-280-4022",
+          "constituencyOffice": "",
+          "website": "https://parmeetsinghboparai.albertandp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/parmeetsinghyyc/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/parmeetsinghboparai/",
+            "linkedin": "https://www.linkedin.com/in/parmeet-singh-boparai-58726a245/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 25
+      }
+    },
+    "Calgary-Lougheed": {
+      "name": "Calgary-Lougheed",
+      "mla": {
+        "name": "Mr. Eric Bouchard",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0974.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0974&legl=31&from=mla_home",
+        "heroPhoto": "https://pbs.twimg.com/media/GTHX1WmWAAADUA6?format=jpg&name=large",
+        "contact": {
+          "email": "Calgary.Lougheed@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "403.251.5453",
+          "officeHours": "",
+          "phone": "403-238-1212",
+          "constituencyOffice": "230 Eversyde Blvd SW #2105, Calgary, AB T2Y 0J4, Canada",
+          "website": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/constituencies/constituency?rnumber=16",
+          "social": {
+            "facebook": "https://www.facebook.com/ericbouchardmla/",
+            "twitter": "https://x.com/EricBouchardAB",
+            "instagram": "https://www.instagram.com/ericbouchardmla/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 31
+      }
+    },
+    "Calgary-North East": {
+      "name": "Calgary-North East",
+      "mla": {
+        "name": "Member Gurinder Brar",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0957.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0957&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/445174792_778526504407148_7766992885009551476_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=Ik2zZZJj1b0Q7kNvwEDWMsX&_nc_oc=Adkk0Waw4G43a3E9ZLhUPQpjbnqpufekvc4cMS2Kd77VRJRiQMP7JcVcd3F5Kk1tgVM&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=l59Va3Q3CPb9UAc69r_WDw&_nc_ss=8&oh=00_Afyhy8e8DWjN_PwlgqknZmujmfKMbcU_cI8BWLgASi5MFw&oe=69C07E4F",
+        "contact": {
+          "email": "Calgary.NorthEast@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "587-318-2946",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/BrarNDP/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/gurinderbrar_ndp/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 25
+      }
+    },
+    "Edmonton-Ellerslie": {
+      "name": "Edmonton-Ellerslie",
+      "mla": {
+        "name": "Mr. Gurtej Singh Brar",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0988.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0988&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/502035060_10171183909925585_8192110851939209001_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=uwAzNqzJ2kEQ7kNvwHr3aKW&_nc_oc=AdmDjokyLrl12MJD5R3XZCQhk26DXWsGA1VAbs7CkJAaLC0FKBK-FWSJzPnHEQcTIcg&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=oNv3ZO8uu09BOZ5budX6ag&_nc_ss=8&oh=00_AfwkB6-VW7f0E3-Ol1CazrUiI7iDXUsF4G-32Ju-hioMdA&oe=69C06F4D",
+        "contact": {
+          "email": "Edmonton.Ellerslie@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/gurtej.brar.5/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/gurtej.singh.brar",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Edmonton-Rutherford": {
+      "name": "Edmonton-Rutherford",
+      "mla": {
+        "name": "Member Jodi Calahoo Stonehouse",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0958.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0958&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/450093717_508483435183077_9173900483639346451_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=WBTnpocwffkQ7kNvwHavnQc&_nc_oc=Adk0_UkD4X3G6wzSYxNiqhDGslj7Wssjos8zVcmNFfBbYVIe7ESnBJ7K6F1nQIUeC-A&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=lGqKb2s_Q4vHZTP0347ZSQ&_nc_ss=8&oh=00_AfzgQA49cRyAgwZzpdAFyTPpibEmMIC1MzJ9Y3hDo0h7RA&oe=69C0967C",
+        "contact": {
+          "email": "Edmonton.Rutherford@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-414-1311",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/JCalahooStonehouse",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
+      }
+    },
+    "Calgary-Buffalo": {
+      "name": "Calgary-Buffalo",
+      "mla": {
+        "name": "Honourable Joe Ceci, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0838.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0838&legl=31&from=mla_home",
+        "heroPhoto": "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2015/05/edmonton-alberta-may-26-2015-joe-ceci-albertas-new-fin.jpg",
+        "contact": {
+          "email": "",
+          "tollFree": "1.800.465.6587",
+          "fax": "",
+          "officeHours": "",
+          "phone": "",
+          "constituencyOffice": "Suite 201 10544 - 114 Street NW Edmonton, Alberta T5H 3J7",
+          "website": "https://joececi.albertandp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/joe.ceci.ndp",
+            "twitter": "https://x.com/joececiyyc",
+            "instagram": "https://www.instagram.com/joececindp/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 40
+      }
+    },
+    "Calgary-Beddington": {
+      "name": "Calgary-Beddington",
+      "mla": {
+        "name": "Ms Amanda Chapman",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0959.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0959&legl=31&from=mla_home",
+        "heroPhoto": "https://amandachapman.albertandp.ca/sites/default/files/headshots/amanda-chapman-abndp-website-photo.jpg",
+        "contact": {
+          "email": "Calgary.Beddington@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-215-7710",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/AmandaChapmanNDP?_rdr",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/amandachapmanndp/",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/@ChapmanAmanda",
+            "tiktok": "",
+            "BlueSky": "https://bsky.app/profile/amandachapman.bsky.social"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Bonnyville-Cold Lake-St. Paul": {
+      "name": "Bonnyville-Cold Lake-St. Paul",
+      "mla": {
+        "name": "Mr. Scott Cyr",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0886.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0886&legl=31&from=mla_home",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/lakelandtoday/images/lakelandtoday/scottcyrgrandopening.jpg",
+        "contact": {
+          "email": "Bonnyville.ColdLake.StPaul@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-826-5658",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/ElectScottCyr/",
+            "twitter": "https://x.com/scottjcyr",
+            "instagram": "https://www.instagram.com/scottjcyr/",
+            "linkedin": "https://www.linkedin.com/in/scott-cyr-28459474/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 10
+      }
+    },
+    "Edmonton-McClung": {
+      "name": "Edmonton-McClung",
+      "mla": {
+        "name": "Mr. Lorne Dach",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0842.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0842&legl=31&from=mla_home",
+        "heroPhoto": "https://www.albertandpcaucus.ca/public/uploads/contacts/dachweb/1755082074-430w_415h_dachweb.jpg",
+        "contact": {
+          "email": "Edmonton.McClung@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-408-1860",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/LorneDach/",
+            "twitter": "https://x.com/LorneDach",
+            "instagram": "https://www.instagram.com/lornedach/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Chestermere-Strathmore": {
+      "name": "Chestermere-Strathmore",
+      "mla": {
+        "name": "Ms Chantelle de Jonge",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0975.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0975&legl=31&from=mla_home",
+        "heroPhoto": "https://dht7q8fif4gks.cloudfront.net/2023-12/Chantelle%20de%20Jonge.jpg",
+        "contact": {
+          "email": "Chestermere.Strathmore@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.962.0126",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/ChantelledeJongeAB/",
+            "twitter": "https://x.com/CdeJongeAB",
+            "instagram": "https://www.instagram.com/chantelle_de_jonge/",
+            "linkedin": "https://www.linkedin.com/in/chantelledejonge/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
+      }
+    },
+    "Edmonton-Meadows": {
+      "name": "Edmonton-Meadows",
+      "mla": {
+        "name": "Mr. Jasvir Deol",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0909.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0909&legl=31&from=mla_home",
+        "heroPhoto": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2019/04/jasvir-deol-1.jpg",
+        "contact": {
+          "email": "Edmonton.Meadows@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-466-3737",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/jasvirdeolab/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Innisfail-Sylvan Lake": {
+      "name": "Innisfail-Sylvan Lake",
+      "mla": {
+        "name": "Honourable Devin Dreeshen, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0908.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0908&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/495853722_1115075960428675_6081455766614761451_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=r4eXGesYWsMQ7kNvwFAHnvB&_nc_oc=AdnAbiaXFpTeveaa0eC6iPR7KjR7UBLaZ4mti6a_DCHDh6BbfPf_OeXxp9G_NQ8l3Yo&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=whJyLbh-Z8hFDFa4ORPf5A&_nc_ss=8&oh=00_AfyOvTSdWepuTMt5tLjY--u8y0I44-FJOv90Kh9fyZI7JA&oe=69C06BDB",
+        "contact": {
+          "email": "info@devindreeshen.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.865.7580",
+          "constituencyOffice": "",
+          "website": "https://www.devindreeshen.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/DevinDreeshen4AB/",
+            "twitter": "https://x.com/DevinDVote",
+            "instagram": "https://www.instagram.com/devindreeshen/?hl=en",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 25
+      }
+    },
+    "Grande Prairie": {
+      "name": "Grande Prairie",
+      "mla": {
+        "name": "Mr. Nolan Dyck",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0976.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0976&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservative.ca/wp-content/uploads/MLA-Dyck.jpg",
+        "contact": {
+          "email": "grandeprairie@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "7802284347",
+          "constituencyOffice": "",
+          "website": "https://www.nolandyck.com/",
+          "social": {
+            "facebook": "https://www.facebook.com/NolanDyckAB/",
+            "twitter": "https://x.com/NolanDyckAB",
+            "instagram": "https://www.instagram.com/nolandyckAB",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Edmonton-North West": {
+      "name": "Edmonton-North West",
+      "mla": {
+        "name": "Honourable David Eggen, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0757.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0757&legl=31&from=mla_home",
+        "heroPhoto": "https://upload.wikimedia.org/wikipedia/commons/f/f4/David_Eggen_2015.jpg",
+        "contact": {
+          "email": "Edmonton.Northwest@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-451-2345",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/DavidEggenAB/",
+            "twitter": "https://x.com/davideggenab",
+            "instagram": "https://www.instagram.com/davideggenab/?hl=en",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
+      }
+    },
+    "Calgary-Foothills": {
+      "name": "Calgary-Foothills",
+      "mla": {
+        "name": "Member Court Ellingson",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0960.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0960&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/474668599_1178846886941120_8252886234038290084_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=105&ccb=1-7&_nc_sid=13d280&_nc_ohc=kECF9oNOIaQQ7kNvwEQWGTU&_nc_oc=AdnElt8yvFYL6ynsBe-R4BxzDz8ZI8tz_PwlVL1IdjXqn6fjb1N-JZfsoaDc8Y6wg10&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=Tyo0tfe6Ub923y6wWUnSaA&_nc_ss=8&oh=00_Afyz48J72YeE4ypDcAcQeKidALSB_HyihKaMQkbsLhNoqw&oe=69C07E71",
+        "contact": {
+          "email": "Calgary.Foothills@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-216-5444",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/CourtEllingsonYYC/",
+            "twitter": "https://x.com/CourtEllingson",
+            "instagram": "https://www.instagram.com/courtellingson/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
+      }
+    },
+    "Calgary-West": {
+      "name": "Calgary-West",
+      "mla": {
+        "name": "Honourable Mike Ellis, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0832.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0832&legl=31&from=mla_home",
+        "heroPhoto": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2026/02/202602234db007.ej_301676576.jpg?quality=90&strip=all&w=288&h=216&sig=5hstxClnapMxXzX0UnnbVg",
+        "contact": {
+          "email": "Calgary.West@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.216.5439",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/MikeEllisUCP/",
+            "twitter": "https://x.com/MikeEllisUCP",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/michael-ellis-8170411a5/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Banff-Kananaskis": {
+      "name": "Banff-Kananaskis",
+      "mla": {
+        "name": "Member Sarah Elmeligi",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0961.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0961&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/448884090_482336194166119_1280790300632972134_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=CQgmPuBnFRwQ7kNvwHKNh7r&_nc_oc=AdkWfGlA_yacmJu82DxNVknj3zm-nqBnOtZhlCIwYIJTKE81a0dCjejsA1ImIQTSVsk&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=T_0H8hH8mYPw8_NrAha5Ig&_nc_ss=8&oh=00_AfwFUhHyLRXEPl2IMnXXj0u6uB1RPKIaWLO-T7t8W1ps6g&oe=69C078A1",
+        "contact": {
+          "email": "Banff.Kananaskis@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-609-4509",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/SarahElmeligiNDP/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/elmeligisarah/",
+            "linkedin": "https://www.linkedin.com/in/sarah-elmeligi/",
+            "youtube": "https://www.youtube.com/@sarahelmeligi",
+            "tiktok": "https://www.tiktok.com/@mlasarahelmeligi",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Calgary-Currie": {
+      "name": "Calgary-Currie",
+      "mla": {
+        "name": "Member Janet Eremenko",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0962.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0962&legl=31&from=mla_home",
+        "heroPhoto": "https://janeteremenko.albertandp.ca/sites/default/files/headshots/janet-eremenko-abndp-website-photo.jpg",
+        "contact": {
+          "email": "Calgary.Currie@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-246-4794",
+          "constituencyOffice": "5th Floor Queen Elizabeth II 9820 107 St NW, Edmonton , Alberta T5K 1E7",
+          "website": "https://janeteremenko.albertandp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/JanetEremenko/",
+            "twitter": "https://x.com/JanetEremenko",
+            "instagram": "https://www.instagram.com/janeteremenko/?hl=en",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Calgary-Peigan": {
+      "name": "Calgary-Peigan",
+      "mla": {
+        "name": "Honourable Tanya Fir, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0916.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0916&legl=31&from=mla_home",
+        "heroPhoto": "https://ponokanews.com/wp-content/uploads/sites/28/2025/12/41145521_web1_221019-rda-alberta-economy-economy_1.jpg?resize=1536,1024",
+        "contact": {
+          "email": "Calgary.Peigan@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "587.392.8850",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/tanyafirMLA/",
+            "twitter": "https://x.com/tanya_fir",
+            "instagram": "https://www.instagram.com/tanyafirab/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Calgary-Mountain View": {
+      "name": "Calgary-Mountain View",
+      "mla": {
+        "name": "Honourable Kathleen Ganley, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0846.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0846&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/423328199_807368494532281_7647785296294162357_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=H1Ju8_LGNHsQ7kNvwHd5lVq&_nc_oc=AdkZX1tGmYaZSj6I2kkcejDqjo1bHmF2AE1qrnhwmDvZrwy1MKS4Sox-12-dw2ivb4s&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=4ZcthtXpSJmBp7UruupTTg&_nc_ss=8&oh=00_AfyKrW9bsNU38J5m-uDL7WoLQL-9BDavZikNS26N5_2xuQ&oe=69C08C73",
+        "contact": {
+          "email": "Calgary.MountainView@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-216-5445",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/KathleenGanley/",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Lac Ste. Anne-Parkland": {
+      "name": "Lac Ste. Anne-Parkland",
+      "mla": {
+        "name": "Mr. Shane Getson",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0917.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0917&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservative.ca/wp-content/uploads/elementor/thumbs/MLA-Getson-r5vbosmles4hsvtqwxyf556fqw80fdp7s6yci51ibk.jpg",
+        "contact": {
+          "email": "LacSteAnne.Parkland@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780.967.0760",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/MLAShaneGetson/",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Strathcona-Sherwood Park": {
+      "name": "Strathcona-Sherwood Park",
+      "mla": {
+        "name": "Honourable Nate Glubish, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0919.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0919&legl=31&from=mla_home",
+        "heroPhoto": "https://cdn.betakit.com/wp-content/uploads/2022/10/50041276533_dca62b0362_k-1.jpg",
+        "contact": {
+          "email": "Strathcona.Sherwoodpark@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780.416.2492",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/nateglubish/mentions/",
+            "twitter": "https://x.com/nateglubish",
+            "instagram": "https://www.instagram.com/nateglubish",
+            "linkedin": "https://www.linkedin.com/in/nateglubish/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 35
+      }
+    },
+    "Edmonton-Castle Downs": {
+      "name": "Edmonton-Castle Downs",
+      "mla": {
+        "name": "Ms. Nicole Goehring",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0847.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0847&legl=31&from=mla_home",
+        "heroPhoto": "https://nicolegoehring.albertandp.ca/sites/default/files/headshots/nicole-goehring-abndp-website-photo.jpg",
+        "contact": {
+          "email": "edmonton.castledowns@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-414-0705",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/nicolegoehringndp/",
+            "twitter": "https://x.com/intent/user?screen_name=nicolergoehring",
+            "instagram": "https://www.instagram.com/nicolegoehringndp",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": "https://bsky.app/profile/nicolegoehringndp"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Edmonton-Mill Woods": {
+      "name": "Edmonton-Mill Woods",
+      "mla": {
+        "name": "Honourable Christina Gray, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0848.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0848&legl=31&from=mla_home",
+        "heroPhoto": "https://www.albertandpcaucus.ca/public/uploads/contacts/christinagray2025headshotweb/1755035001-430w_415h_christinagray2025headshotweb.jpg",
+        "contact": {
+          "email": "Edmonton.Millwoods@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-414-1000",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/ChristinaNDP/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/christinandp/",
+            "linkedin": "https://www.linkedin.com/in/christinandp/",
+            "youtube": "",
+            "tiktok": "https://www.tiktok.com/@christinandp?_t=zm-8uzcnymvvba&_r=1",
+            "BlueSky": "https://bsky.app/profile/christinandp.bsky.social"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Airdrie-Cochrane": {
+      "name": "Airdrie-Cochrane",
+      "mla": {
+        "name": "Honourable Pete Guthrie, ECA",
+        "party": "Progressive Tory Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0920.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0920&legl=31&from=mla_home",
+        "heroPhoto": "https://albertaenterprisegroup.com/wp-content/uploads/2025/01/proof-200-scaled.webp",
+        "contact": {
+          "email": "Airdrie.Cochrane@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "587.493.2050",
+          "constituencyOffice": "Suite 1B, 60 Railway Street East Cochran, AB T4C 1B5",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/peterguthrie99/",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Edmonton-Decore": {
+      "name": "Edmonton-Decore",
+      "mla": {
+        "name": "Mr. Sharif Haji",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0963.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0963&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/442491952_482334514458451_6645649640188991657_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=W9ObnMG_uY8Q7kNvwHNJMYI&_nc_oc=Adm4pD8MLclY2r8eZz3b6dJDCttcCd41-EtkA8LoBCAHshebDIDeAMNJq55cNKWTldM&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=cWxawtxTttsnjpmNqANB6w&_nc_ss=8&oh=00_Afy6WyouDl4DTLavAA6eo6ny0Jz8r-T11lPWlb-PB-YgWg&oe=69C092C6",
+        "contact": {
+          "email": "Edmonton.Decore@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-414-1328",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/sharifhajimla/",
+            "twitter": "https://x.com/SharifHajimla",
+            "instagram": "https://www.instagram.com/sharifhajimla/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "https://www.tiktok.com/@Sharifhajimla",
+            "BlueSky": "https://bsky.app/profile/sharifhajimla.bsky.social"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Calgary-Edgemont": {
+      "name": "Calgary-Edgemont",
+      "mla": {
+        "name": "Ms Julia Hayter",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0964.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0964&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/489688968_1253689456761073_3010772287080416575_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=Gg7TVAoz0OMQ7kNvwH8VP2-&_nc_oc=Adl5z0jhHvEOMrLWRGcOPlQPv0aunANUSr2KkzMPfbKAyZ8AKdU0qZwcoQSsLrqBw_Q&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=NUnm_K7ilGHL5Rzub5SzJw&_nc_ss=8&oh=00_AfyC3solSIx43VpawLgYCrdIZi9oGrQ_Gcidef3yNtY-eA&oe=69C07CC7",
+        "contact": {
+          "email": "juliahayter@albertandp.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-288-4453",
+          "constituencyOffice": "",
+          "website": "https://juliahayter.albertandp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/NDPJulia/",
+            "twitter": "https://x.com/NDPJulia",
+            "instagram": "https://www.instagram.com/ndpjulia/",
+            "linkedin": "https://www.linkedin.com/in/julia-hayter-30896b185/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Edmonton-Glenora": {
+      "name": "Edmonton-Glenora",
+      "mla": {
+        "name": "Honourable Sarah Hoffman, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0850.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0850&legl=31&from=mla_home",
+        "heroPhoto": "https://www.albertandpcaucus.ca/public/uploads/contacts/sarahhoffmanheadshot2023web/1755033156-430w_415h_sarahhoffmanheadshot2023web.jpg",
+        "contact": {
+          "email": "Edmonton.Glenora@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-455-7979",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/shoffmanAB/",
+            "twitter": "https://x.com/shoffmanAB",
+            "instagram": "https://www.instagram.com/shoffman.ab/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Drumheller-Stettler": {
+      "name": "Drumheller-Stettler",
+      "mla": {
+        "name": "Honourable Nate Horner, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0921.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0921&legl=31&from=mla_home",
+        "heroPhoto": "https://substackcdn.com/image/fetch/$s_!dIef!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02da0925-9914-4062-b3a8-ab807c97a5e0_1200x800.jpeg",
+        "contact": {
+          "email": "Drumheller.Stettler@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "587-774-0306",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/natehorner.alberta/mentions/",
+            "twitter": "https://x.com/NateHornerAB",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/nate-horner-9b1399218/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Edmonton-South": {
+      "name": "Edmonton-South",
+      "mla": {
+        "name": "Member Rhiannon Hoyle",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0965.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0965&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/315647748_530391635767846_6184461421340391581_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=Z9Fafs7sKhQQ7kNvwG2W4Dx&_nc_oc=Adnk5ovPgjCtlLEJ9Lev2ybkABCRc3dLhv8vDMtrRbQIAU8xhw9ZOBwRcTA0r3SRaIA&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=R3kasaDilmMB4jInskWL3w&_nc_ss=8&oh=00_AfyGTjR6UmQIcD3M6svBFMYr7SpyUDxBd7PhhqHCPavtRA&oe=69C06958",
+        "contact": {
+          "email": "Edmonton.South@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-643-9153",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/RhiHoyleYEG/",
+            "twitter": "https://x.com/RhiHoyleYEG",
+            "instagram": "https://www.instagram.com/rhihoyleyeg/?hl=en",
+            "linkedin": "https://www.linkedin.com/in/rhihoyleyeg/",
+            "youtube": "",
+            "tiktok": "https://www.tiktok.com/@rhihoyleyeg",
+            "BlueSky": "https://bsky.app/profile/rhihoyleyeg.bsky.social"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Taber-Warner": {
+      "name": "Taber-Warner",
+      "mla": {
+        "name": "Honourable Grant Hunter, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0889.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0889&legl=31&from=mla_home",
+        "heroPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Grant_Hunter.JPG/960px-Grant_Hunter.JPG",
+        "contact": {
+          "email": "Taber.Warner@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.223.0001",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/GrantHunterAB",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/granthunterab/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
+      }
+    },
+    "Edmonton-South West": {
+      "name": "Edmonton-South West",
+      "mla": {
+        "name": "Mr. Nathan Ip",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0966.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0966&legl=31&from=mla_home",
+        "heroPhoto": "",
+        "contact": {
+          "email": "Edmonton.SouthWest@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-415-8692",
+          "constituencyOffice": "",
+          "website": "https://nathanip.com/",
+          "social": {
+            "facebook": "https://www.facebook.com/nathanipAB/",
+            "twitter": "https://x.com/nathanipyeg",
+            "instagram": "https://www.instagram.com/nathanipyeg/",
+            "linkedin": "https://www.linkedin.com/in/nathanipyeg/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Edmonton-Highlands-Norwood": {
+      "name": "Edmonton-Highlands-Norwood",
+      "mla": {
+        "name": "Member Janis Irwin",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0910.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0910&legl=31&from=mla_home",
+        "heroPhoto": "https://upload.wikimedia.org/wikipedia/commons/3/39/Janis_Irwin_MLA.png",
+        "contact": {
+          "email": "Edmonton.HighlandsNorwood@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-414-0682",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/JanisIrwin/",
+            "twitter": "https://x.com/JanisIrwin",
+            "instagram": "https://www.instagram.com/janis.irwin/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "https://www.tiktok.com/@janis.irwin",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Fort McMurray-Lac La Biche": {
+      "name": "Fort McMurray-Lac La Biche",
+      "mla": {
+        "name": "Honourable Brian Jean, ECA, KC",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0882.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0882&legl=31&from=mla_home",
+        "heroPhoto": "https://www.theglobeandmail.com/resizer/v2/KLUZJETPX5NIZMMBHRSJAOVZW4.jpg?auth=08d0f615f32ca6ff8b16934c50d7d577f14212b388e75e6ac6a65276adfd43bc&width=1500&height=1000&quality=80&smart=true",
+        "contact": {
+          "email": "FortMcMurray.LacLaBiche@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780.588.7979",
+          "constituencyOffice": "",
+          "website": "https://www.brianjean.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/BrianJeanAB/",
+            "twitter": "https://x.com/BrianJeanAB",
+            "instagram": "https://www.instagram.com/brianjeanab/",
+            "linkedin": "https://www.linkedin.com/in/brianmjean/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
+      }
+    },
+    "Lacombe-Ponoka": {
+      "name": "Lacombe-Ponoka",
+      "mla": {
+        "name": "Mrs. Jennifer Johnson",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0972.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0972&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservative.ca/wp-content/uploads/MLA-Johnson.jpg",
+        "contact": {
+          "email": "Lacombe.Ponoka@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.782.7725",
+          "constituencyOffice": "503 Legislature Building 10800 - 97 Avenue NW Edmonton, AB T5K 2B6",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/Jenniferjohnsonucp/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/jenniferjohnson_ucp/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Calgary-South East": {
+      "name": "Calgary-South East",
+      "mla": {
+        "name": "Honourable Matt Jones, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0923.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0923&legl=31&from=mla_home",
+        "heroPhoto": "https://i0.wp.com/albertapolitics.ca/wp-content/uploads/TheFiveMain.png?fit=1200%2C672&ssl=1",
+        "contact": {
+          "email": "Calgary.SouthEast@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.215.8930",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/MattJonesYYC/",
+            "twitter": "https://x.com/MattJonesYYC",
+            "instagram": "https://www.instagram.com/mattjonesyyc/",
+            "linkedin": "https://www.linkedin.com/in/matt-jones-cfa-a8111421/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Sherwood Park": {
+      "name": "Sherwood Park",
+      "mla": {
+        "name": "Mr. Kyle Kasawski",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0967.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0967&legl=31&from=mla_home",
+        "heroPhoto": "https://www.kylekasawski.ca/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fktdrx5ox%2Fproduction%2Fba272b84d916e6d798128773d8e8b3076007778b-3334x3334.png&w=3840&q=75&dpl=dpl_BzJRz2wRUUUV6ug7iVts3LUoUJ47",
+        "contact": {
+          "email": "Sherwood.Park@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-417-4747",
+          "constituencyOffice": "",
+          "website": "https://www.kylekasawski.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/NDPKyle/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/ndpkyle/",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/@ndpkyle",
+            "tiktok": "",
+            "BlueSky": "https://bsky.app/profile/ndpkyle.bsky.social"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Calgary-Elbow": {
+      "name": "Calgary-Elbow",
+      "mla": {
+        "name": "Member Samir Kayande",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0968.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0968&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t51.82787-15/632442851_18039821294732845_5871795380070701064_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=13d280&_nc_ohc=UOI8bEsIEM0Q7kNvwHiNVnB&_nc_oc=AdmqTpRvT_k9Yu9YOcIxFHn5bPVRiT2BqNZqe6LB1O98JuDLZxsh54iF4pIl87Nvn-c&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=SpvGr8pIheEMuoxdrNkV-w&_nc_ss=8&oh=00_AfxtKd9Bs9txLnX_Xi3I1iEXfpGaWIjFPvPyL_84P6Q3KQ&oe=69C070F3",
+        "contact": {
+          "email": "Calgary.Elbow@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-252-0346",
+          "constituencyOffice": "",
+          "website": "https://samirkayande.albertandp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/samirkayande/",
+            "twitter": "https://x.com/samirkayande?lang=en",
+            "instagram": "https://www.instagram.com/kayande.samir/",
+            "linkedin": "https://www.linkedin.com/in/samir-kayande-8ab7701/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Red Deer-North": {
+      "name": "Red Deer-North",
+      "mla": {
+        "name": "Honourable Adriana LaGrange, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0924.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0924&legl=31&from=mla_home",
+        "heroPhoto": "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2024/09/alta-hospitals-20240903.jpg",
+        "contact": {
+          "email": "RedDeer.North@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.342.2263",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/AdrianaLaGrangeRD",
+            "twitter": "https://x.com/AdrianaLaGrange",
+            "instagram": "https://www.instagram.com/adriana_lagrange/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Central Peace-Notley": {
+      "name": "Central Peace-Notley",
+      "mla": {
+        "name": "Honourable Todd Loewen, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0890.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0890&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservative.ca/wp-content/uploads/elementor/thumbs/MLA-Loewen-r5vbosmles4hsvtqwxyf556fqw80fdp7s6yci51ibk.jpg",
+        "contact": {
+          "email": "CentralPeace.Notley@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780.835.7211",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/ToddLoewenAB/",
+            "twitter": "https://x.com/dtloewen",
+            "instagram": "https://www.instagram.com/dtloewen",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "West Yellowhead": {
+      "name": "West Yellowhead",
+      "mla": {
+        "name": "Honourable Martin Long, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0925.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0925&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservativecaucus.ca/wp-content/uploads/2019/10/Long-Web-01.png",
+        "contact": {
+          "email": "West.Yellowhead@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780.712.7790",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "https://x.com/MartinLongUCP",
+            "instagram": "https://www.instagram.com/martinlongucp/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
+      }
+    },
+    "Camrose": {
+      "name": "Camrose",
+      "mla": {
+        "name": "Ms. Jackie Lovely",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0926.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0926&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservativecaucus.ca/wp-content/uploads/2019/10/Lovely_New-Website-Photo.webp",
+        "contact": {
+          "email": "Camrose@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "(780) 672-0000",
+          "constituencyOffice": "#104, 4870 - 51 Street, Camrose , Alberta T4V 1S1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "https://x.com/JackieLovelyAB",
+            "instagram": "https://www.instagram.com/jackielovely.camrose/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
+      }
+    },
+    "Leduc-Beaumont": {
+      "name": "Leduc-Beaumont",
+      "mla": {
+        "name": "Mr. Brandon Lunty",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0977.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0977&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservative.ca/wp-content/uploads/MLA-Lunty.jpg",
+        "contact": {
+          "email": "leduc.beaumont@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780.929.3290",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/brandonlunty.ca/",
+            "twitter": "https://x.com/Vote_Brandon",
+            "instagram": "https://www.instagram.com/brandon.lunty/",
+            "linkedin": "https://www.linkedin.com/in/brandon-lunty-8241685b/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Calgary-Fish Creek": {
+      "name": "Calgary-Fish Creek",
+      "mla": {
+        "name": "Honourable Myles McDougall, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0978.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0978&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservative.ca/wp-content/uploads/elementor/thumbs/MLA-McDougall-r5vbosmles4hsvtqwxyf556fqw80fdp7s6yci51ibk.jpg",
+        "contact": {
+          "email": "Calgary.FishCreek@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.278.4444",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/MylesMcDougallYYC/",
+            "twitter": "https://x.com/MylesMcDougall_",
+            "instagram": "https://www.instagram.com/mlafishcreek/",
+            "linkedin": "https://www.linkedin.com/in/mylesmcdougall/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Calgary-Hays": {
+      "name": "Calgary-Hays",
+      "mla": {
+        "name": "Honourable Ric McIver, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0808.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0808&legl=31&from=mla_home",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/mountainviewtoday/images/mvt-ric-mciver-2024.jpg",
+        "contact": {
+          "email": "Calgary.Hays@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.215.4380",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/RicMcIver",
+            "twitter": "https://x.com/RicMcIver",
+            "instagram": "https://www.instagram.com/mciverr/",
+            "linkedin": "https://www.linkedin.com/in/ric-mciver-34a49810/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Calgary-Varsity": {
+      "name": "Calgary-Varsity",
+      "mla": {
+        "name": "Dr. Luanne Metz",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0969.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0969&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t1.6435-9/98324043_10158557159188816_643919033367789568_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=13d280&_nc_ohc=yjWW_VggCXYQ7kNvwEQur4d&_nc_oc=AdlrXKu4lR0iuV3s0-G4XuPolQuUCKrXepsNiwS244M7WzeRlZf2K-0m1TN5HzgIYww&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=DnPKedLVC0fjvXSR6iC-4w&_nc_ss=8&oh=00_AfwUW4yZLKNnK5VGnzzkrrOcA6_ivyxSekZQqKfrdKLDEg&oe=69E226FB",
+        "contact": {
+          "email": "Calgary.Varsity@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-216-5436",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/drmetzndp",
+            "twitter": "https://x.com/luanne_metz",
+            "instagram": "https://www.instagram.com/drmetzndp",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": "https://bsky.app/profile/drluannemetz.bsky.social"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Lethbridge-West": {
+      "name": "Lethbridge-West",
+      "mla": {
+        "name": "Member Rob Miyashiro",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0985.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0985&legl=31&from=mla_home",
+        "heroPhoto": "https://www.albertandpcaucus.ca/public/uploads/contacts/20240916171805miyashiroheadshot1web/1755058576-430w_415h_20240916171805miyashiroheadshot1web.jpg",
+        "contact": {
+          "email": "Lethbridge.West@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-329-4644",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/Rob.Miyashiro.NDP/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/rob.miyashiro/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": "https://bsky.app/profile/robmiyashiro.bsky.social"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Morinville-St. Albert": {
+      "name": "Morinville-St. Albert",
+      "mla": {
+        "name": "Honourable Dale Nally, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0929.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0929&legl=31&from=mla_home",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/stalberttoday/images/nally-dale.jpg;w=960",
+        "contact": {
+          "email": "Morinville.StAlbert@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780.572.6161",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/DaleNallyAB/",
+            "twitter": "https://x.com/DaleNally_AB",
+            "instagram": "https://www.instagram.com/dalenallyab/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Edmonton-Strathcona": {
+      "name": "Edmonton-Strathcona",
+      "mla": {
+        "name": "Mr. Naheed K. Nenshi",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0987.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0987&legl=31&from=mla_home",
+        "heroPhoto": "https://www.theglobeandmail.com/resizer/v2/IY4LQK6XQNAR3EZIE5VEPGD6YI.jpg?auth=e576514ad6f8aca1e9daa9e8ded493ff563ce521098cfb7fae5bcbf7383928d2&width=600&height=400&quality=80&smart=true",
+        "contact": {
+          "email": "Edmonton.Strathcona@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "https://x.com/nenshi",
+            "instagram": "https://www.instagram.com/nenshi/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "https://www.tiktok.com/@naheednenshi",
+            "BlueSky": "https://bsky.app/profile/naheednenshi.bsky.social"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Lethbridge-East": {
+      "name": "Lethbridge-East",
+      "mla": {
+        "name": "Honourable Nathan Neudorf, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0930.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0930&legl=31&from=mla_home",
+        "heroPhoto": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Nathan_Neudorf_002.jpg",
+        "contact": {
+          "email": "Lethbridge.East@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.320.1011",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/nathanneudorf/",
+            "twitter": "https://x.com/neudorf_ab",
+            "instagram": "https://www.instagram.com/nathanneudorf/?hl=en",
+            "linkedin": "https://www.linkedin.com/in/nathan-neudorf-75b67a5b/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
+      }
+    },
+    "Calgary-Bow": {
+      "name": "Calgary-Bow",
+      "mla": {
+        "name": "Honourable Demetrios Nicolaides, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0931.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0931&legl=31&from=mla_home",
+        "heroPhoto": "https://media.licdn.com/dms/image/v2/D5610AQGukPp_CIzPmg/image-shrink_800/B56ZzZHvJNJ8Ag-/0/1773169211169?e=2147483647&v=beta&t=Zs_D76mopenKlPwJxCPPDrz8lKdmPTmQckux2VMSDs4",
+        "contact": {
+          "email": "Calgary-Bow@unitedconservative.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "",
+          "constituencyOffice": "",
+          "website": "https://www.demetriosnicolaides.com/",
+          "social": {
+            "facebook": "https://www.facebook.com/demetriosnicolaides/",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
+      }
+    },
+    "Rimbey-Rocky Mountain House-Sundre": {
+      "name": "Rimbey-Rocky Mountain House-Sundre",
+      "mla": {
+        "name": "Honourable Jason Nixon, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0892.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0892&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservativecaucus.ca/wp-content/uploads/2019/10/Nixon-Web-01.png",
+        "contact": {
+          "email": "Rimbey.RockyMountainhouse.Sundre@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.638.5029",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/jason.j.nixon/",
+            "twitter": "https://x.com/JasonNixonAB",
+            "instagram": "https://www.instagram.com/jasonjnixon/",
+            "linkedin": "https://www.linkedin.com/in/jasonjnixon/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Edmonton-Whitemud": {
+      "name": "Edmonton-Whitemud",
+      "mla": {
+        "name": "Ms. Rakhi Pancholi",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0911.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0911&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/636999198_1319851116619364_5104396276792068222_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=AeWc9fOW5WYQ7kNvwHESd4N&_nc_oc=AdmMbV4cUf2m_qCYY9KtjxCtf_7j0vvSBmvWcpNz6zmqRYyls9Sxnc8MeHWSv_Pko_A&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=iYReG4WCdBSYFW-5ebHJSg&_nc_ss=8&oh=00_AfxAjb19rJ96IZiANMUgu0bJH5pvKWhPJShl4lIQg1XwVg&oe=69C0725C",
+        "contact": {
+          "email": "Edmonton.Whitemud@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-413-5970",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/voterakhi/",
+            "twitter": "https://x.com/pancholi_rakhi",
+            "instagram": "https://www.instagram.com/pancholi_rakhi/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Livingstone-Macleod": {
+      "name": "Livingstone-Macleod",
+      "mla": {
+        "name": "Mrs. Chelsae Petrovic",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0979.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0979&legl=31&from=mla_home",
+        "heroPhoto": "https://img1.wsimg.com/isteam/ip/3ec6683c-0892-432b-a1a9-d368cb6300c2/DSC_0064.jpg/:/cr=t:16.74%25,l:0%25,w:100%25,h:66.52%25/rs=w:600,h:600,cg:true",
+        "contact": {
+          "email": "livingstone.macleod@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "587.424.2004",
+          "constituencyOffice": "",
+          "website": "https://chelsaepetrovic.com/",
+          "social": {
+            "facebook": "https://www.facebook.com/ChelsaePetrovic",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/chelsaepetrovicmla/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 10
+      }
+    },
+    "Airdrie-East": {
+      "name": "Airdrie-East",
+      "mla": {
+        "name": "Ms Angela Pitt",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0894.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0894&legl=31&from=mla_home",
+        "heroPhoto": "https://img1.wsimg.com/isteam/ip/25f963ca-31d7-4f24-b3d2-a24aa3c57ec1/9elRj7Na.jpeg/:/rs=w:2320,h:1547",
+        "contact": {
+          "email": "Airdrie.East@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.948.8741",
+          "constituencyOffice": "",
+          "website": "https://angelapitt.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/AngelaPittAirdrie/#",
+            "twitter": "https://x.com/angelapittab",
+            "instagram": "https://www.instagram.com/angelapitt_ucp",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "St. Albert": {
+      "name": "St. Albert",
+      "mla": {
+        "name": "Ms. Marie Renaud",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0869.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0869&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/434299091_908897461241041_5687290692478484502_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=108&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=df9QzqUBnGoQ7kNvwEGc6Lc&_nc_oc=Adk68nn1kzgoeSK9fiqi_qg-xzSUxZYqzXboHGona_OrRroMewkhbQAuWiq-sk3XpoA&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=O7DjuflUjuWvUwRxG2e2cg&_nc_ss=8&oh=00_AfwpOaWbIPPWUkHzq57b46uwe7HSzjmuilAczU_Pf08EUA&oe=69C07246",
+        "contact": {
+          "email": "St.Albert@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-459-9113",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/MarieRenaudStAlbert/",
+            "twitter": "https://x.com/MarieFrRenaud",
+            "instagram": "https://www.instagram.com/marierenaudmla/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Vermilion-Lloydminster-Wainwright": {
+      "name": "Vermilion-Lloydminster-Wainwright",
+      "mla": {
+        "name": "Mr. Garth Rowswell",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0937.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0937&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/351322438_1033203960998173_6506540155679118385_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=DINm0hjM-YsQ7kNvwHO5h2T&_nc_oc=Adkjujz3qdckQsbyrdCuPnsmmnOXyXHVs0zj7xEU-PLkRaozXtm_2E3PmXqySo_xzZ4&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=fRB6W6ZD3NM2QnyJd-aX7g&_nc_ss=8&oh=00_Afw2QJSVtk_le0VteP-CSmuoFbXm8kK1sglq3AUeSJ0ObQ&oe=69C08955",
+        "contact": {
+          "email": "Vermilion.Lloydminster.Wainwright@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-842-6177",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/GarthRowswellMLA",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Calgary-Bhullar-McCall": {
+      "name": "Calgary-Bhullar-McCall",
+      "mla": {
+        "name": "Honourable Irfan Sabir, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0871.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0871&legl=31&from=mla_home",
+        "heroPhoto": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Irfan_Sabir_2015.jpg",
+        "contact": {
+          "email": "Calgary.Bhullar.McCall@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-216-5424",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/IrfanSabirMLA/",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/irfan-sabir-aa634491/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Calgary-North West": {
+      "name": "Calgary-North West",
+      "mla": {
+        "name": "Honourable Rajan Sawhney, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0940.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0940&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservative.ca/wp-content/uploads/MLA-Sawhney.jpg",
+        "contact": {
+          "email": "Calgary.NorthWest@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.297.7104",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/rajanjsawhney/",
+            "twitter": "https://x.com/RajanJSaw",
+            "instagram": "https://www.instagram.com/_rajansawhney_/",
+            "linkedin": "https://www.linkedin.com/in/rajansaw/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Olds-Didsbury-Three Hills": {
+      "name": "Olds-Didsbury-Three Hills",
+      "mla": {
+        "name": "Mrs. Tara Sawyer",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0986.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0986&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/574048678_122139577322899786_2677088134695931753_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=7TMp_plRmy0Q7kNvwGBN8Iu&_nc_oc=Adl1qfyMuVUUo_5WFLywzvpQP4St_wLnFSdSvHMcODcUYtvUNXtbxfwvHBG4SrDblFo&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=XHof0tXSVFgYhcFUellbtQ&_nc_ss=8&oh=00_AfwjTll7WIJh5XfRxozqKsoCDuWXRAHiNVbLfQzgIpoxAQ&oe=69C06FD3",
+        "contact": {
+          "email": "tara@unitedconservative.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/people/Tara-Sawyer/61576993595603/",
+            "twitter": "https://x.com/TaraSawyer23",
+            "instagram": "https://www.instagram.com/tarasawyerab/",
+            "linkedin": "https://www.linkedin.com/in/tara-sawyer-b79174149/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
+      }
+    },
+    "Edmonton-Gold Bar": {
+      "name": "Edmonton-Gold Bar",
+      "mla": {
+        "name": "Honourable Marlin Schmidt, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0872.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0872&legl=31&from=mla_home",
+        "heroPhoto": "https://static.tnc.news/media/2024/04/NDP-MLA-Marlin-Schmidt-Facebook-1068x561.png",
+        "contact": {
+          "email": "Edmonton.Goldbar@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-414-1015",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/marlinschmidtAB/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/mlamarlinschmidt/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "https://www.tiktok.com/@mla.marlin.schmidt",
+            "BlueSky": "https://bsky.app/profile/marlinschmidt.bsky.social"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Cardston-Siksika": {
+      "name": "Cardston-Siksika",
+      "mla": {
+        "name": "Honourable Joseph Schow, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0941.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0941&legl=31&from=mla_home",
+        "heroPhoto": "https://dht7q8fif4gks.cloudfront.net/2023-06/Joseph%20Schow.jpg",
+        "contact": {
+          "email": "Cardston.Siksika@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-653-5070",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/josephschowucp/",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/joseph-schow-56518029a/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
+      }
+    },
+    "Calgary-Shaw": {
+      "name": "Calgary-Shaw",
+      "mla": {
+        "name": "Honourable Rebecca Schulz, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0942.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0942&legl=31&from=mla_home",
+        "heroPhoto": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Rebecca_Schulz_Panel_MLA.jpg",
+        "contact": {
+          "email": "Calgary.Shaw@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.256.8969",
+          "constituencyOffice": "",
+          "website": "https://www.rebeccaschulz.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/rebeccaschulzyyc",
+            "twitter": "https://x.com/rebeccakschulz",
+            "instagram": "https://www.instagram.com/rebeccaschulzab",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Edmonton-City Centre": {
+      "name": "Edmonton-City Centre",
+      "mla": {
+        "name": "Mr. David Shepherd",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0874.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0874&legl=31&from=mla_home",
+        "heroPhoto": "https://edmontoncitycentre.com/wp-content/uploads/2022/01/david-shepherd-12x8-1.jpg",
+        "contact": {
+          "email": "edmonton.citycentre@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-414-0743",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/dshepYEG/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/dshepyeg/?hl=en",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Edmonton-Riverview": {
+      "name": "Edmonton-Riverview",
+      "mla": {
+        "name": "Honourable Lori Sigurdson, ECA",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0875.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0875&legl=31&from=mla_home",
+        "heroPhoto": "https://www.albertandpcaucus.ca/public/uploads/contacts/sigurdsonweb/1755033997-430w_415h_sigurdsonweb.jpg",
+        "contact": {
+          "email": "edmonton.riverview@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-414-0719",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/lori-sigurdson-84a5a0b/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
+      }
+    },
+    "Highwood": {
+      "name": "Highwood",
+      "mla": {
+        "name": "Honourable R.J. Sigurdson, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0945.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0945&legl=31&from=mla_home",
+        "heroPhoto": "https://www.openaccessgovernment.org/wp-content/uploads/2024/11/IMG_0312-cropped-1-scaled.jpeg",
+        "contact": {
+          "email": "Highwood@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.995.5488",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/rj.sigurdson/",
+            "twitter": "https://x.com/RjSigurdson",
+            "instagram": "https://www.instagram.com/rjsigurdson.highwood/",
+            "linkedin": "https://www.linkedin.com/in/rj-sigurdson-660b6935/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Lesser Slave Lake": {
+      "name": "Lesser Slave Lake",
+      "mla": {
+        "name": "Mr. Scott Sinclair",
+        "party": "IND",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0980.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0980&legl=31&from=mla_home",
+        "heroPhoto": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2025/03/ps-scott-sinclair-e1741386275924.jpg",
+        "contact": {
+          "email": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-849-3479",
+          "constituencyOffice": "225 2 Ave NW, Slave Lake, AB T0G 2A2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "https://x.com/mlasinclair",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/scott-sinclair-785070178/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Calgary-East": {
+      "name": "Calgary-East",
+      "mla": {
+        "name": "Mr. Peter Singh",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0946.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0946&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservative.ca/wp-content/uploads/elementor/thumbs/MLA-Singh-2-rfje21lyvqryd3po5zcs4u0cg10grxmrohbo06l1c0.jpg",
+        "contact": {
+          "email": "Calgary.East@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "",
+          "constituencyOffice": "",
+          "website": "https://peter-singh.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/petersinghcalgaryeast/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/petersinghyyc/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Brooks-Medicine Hat": {
+      "name": "Brooks-Medicine Hat",
+      "mla": {
+        "name": "Honourable Premier Danielle Smith, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0814.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0814&legl=31&from=mla_home",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2025/05/39e4980b20b5d389b992ae2b4d991d72afee2266e945681013100b32adc4af2d.jpg;w=960",
+        "contact": {
+          "email": "premier@gov.ab.ca",
+          "tollFree": "780-427-2711",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-427-2251",
+          "constituencyOffice": "307 Legislature Building 10800 - 97 Avenue Edmonton, Alberta  T5K 2B6",
+          "website": "https://www.alberta.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/DanielleSmithAB/",
+            "twitter": "https://x.com/ABDanielleSmith",
+            "instagram": "https://www.instagram.com/abdaniellesmith/",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/@ABDanielleSmith",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
+      }
+    },
+    "Red Deer-South": {
+      "name": "Red Deer-South",
+      "mla": {
+        "name": "Mr. Jason Stephan",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0947.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0947&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservativecaucus.ca/wp-content/uploads/2019/10/Stephan-Web-01.png",
+        "contact": {
+          "email": "RedDeer.South@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.340.3565",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/JasonStephanAlberta/mentions/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/jasonmstephan/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Edmonton-Manning": {
+      "name": "Edmonton-Manning",
+      "mla": {
+        "name": "Ms. Heather Sweet",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0877.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0877&legl=31&from=mla_home",
+        "heroPhoto": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2019/04/heather_sweet.jpg",
+        "contact": {
+          "email": "Edmonton.Manning@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-414-0714",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/heathersweetab/",
+            "twitter": "https://x.com/heathersweetab",
+            "instagram": "https://www.instagram.com/sweetmla/?hl=en",
+            "linkedin": "https://www.linkedin.com/in/heather-sweet-b4aa69103/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": "https://bsky.app/profile/sweetmla.bsky.social"
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Calgary-Klein": {
+      "name": "Calgary-Klein",
+      "mla": {
+        "name": "Member Lizette Tejada",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0970.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0970&legl=31&from=mla_home",
+        "heroPhoto": "https://pbs.twimg.com/media/HCcbvdiXwAA-0Rq.jpg",
+        "contact": {
+          "email": "Calgary.Klein@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403-216-5430",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/lizettendp/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/lizettendp/",
+            "linkedin": "https://www.linkedin.com/in/lizette-tejada-203a422a/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Spruce Grove-Stony Plain": {
+      "name": "Spruce Grove-Stony Plain",
+      "mla": {
+        "name": "Honourable Searle Turton, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0950.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0950&legl=31&from=mla_home",
+        "heroPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Searle_Turton_2024.jpg/1280px-Searle_Turton_2024.jpg",
+        "contact": {
+          "email": "SpruceGrove.StonyPlain@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780.962.6606",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "https://x.com/SearleTurton",
+            "instagram": "https://www.instagram.com/searleturton/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Athabasca-Barrhead-Westlock": {
+      "name": "Athabasca-Barrhead-Westlock",
+      "mla": {
+        "name": "Mr. Glenn van Dijken",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0898.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0898&legl=31&from=mla_home",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/townandcountrytoday/import/20/2018/07/GR-20150818-BAR0801-308189997-AR.jpeg;w=800",
+        "contact": {
+          "email": "Athabasca.Barrhead.Westlock@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780.674.3225",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/glenn.van.dijken/",
+            "twitter": "https://x.com/glennvandijken",
+            "instagram": "https://www.instagram.com/ucpcaucus/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Grande Prairie-Wapiti": {
+      "name": "Grande Prairie-Wapiti",
+      "mla": {
+        "name": "Mr. Ron Wiebe",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0981.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0981&legl=31&from=mla_home",
+        "heroPhoto": "https://www.alberta.ca/system/files/styles/square_scale_crop/private/ps-ron-wiebe.jpg?itok=9a5xxhBi",
+        "contact": {
+          "email": "GrandePrairie.Wapiti@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "825.412.2050",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/profile.php?id=61550987126118",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Peace River": {
+      "name": "Peace River",
+      "mla": {
+        "name": "Honourable Dan Williams, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0952.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0952&legl=31&from=mla_home",
+        "heroPhoto": "https://unitedconservative.ca/wp-content/uploads/MLA-Williams.jpg",
+        "contact": {
+          "email": "Peace.River@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780.624.5400",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/DanWilliamsAB/",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Maskwacis-Wetaskiwin": {
+      "name": "Maskwacis-Wetaskiwin",
+      "mla": {
+        "name": "Honourable Rick Wilson, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0953.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0953&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/636744435_1289218709687438_7392566863721312632_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=O6_CfbGgnhsQ7kNvwHbO6or&_nc_oc=AdmNciZwHn_bBg6u80nB9ZF2C9yBXlGuP0fMhuHLSK9zv_GNKXeFx2OZ6ZYh7jY-ijc&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=Fxua56NaYfVgja-8rp8EdA&_nc_ss=8&oh=00_AfxAav5LM0XO6CtrFKP_MNhCjDF_wrLpgbOCM27CeoUMSA&oe=69C08050",
+        "contact": {
+          "email": "Maskwacis.Wetaskiwin@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780.360.8003",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/RickWilsonforAlberta",
+            "twitter": "https://x.com/Richard4Alberta",
+            "instagram": "https://www.instagram.com/mlarickwilson/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 20
+      }
+    },
+    "Cypress-Medicine Hat": {
+      "name": "Cypress-Medicine Hat",
+      "mla": {
+        "name": "Mr. Justin Wright",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0982.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0982&legl=31&from=mla_home",
+        "heroPhoto": "https://daveberta.ca/wp-content/uploads/2023/03/Justin-Wright-UCP-Cypress-Medicine-Hat-Nomination-candidate-960x519.jpg",
+        "contact": {
+          "email": "cypress.medicinehat@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.528.2191",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/justinwrightCMH",
+            "twitter": "https://x.com/real_jtwright",
+            "instagram": "https://www.instagram.com/justinwrightcmh/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Edmonton-Beverly-Clareview": {
+      "name": "Edmonton-Beverly-Clareview",
+      "mla": {
+        "name": "Ms Peggy Wright",
+        "party": "NDP",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0971.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0971&legl=31&from=mla_home",
+        "heroPhoto": "https://www.albertandpcaucus.ca/public/uploads/contacts/wrightweb/1755033754-430w_415h_wrightweb.jpg",
+        "contact": {
+          "email": "Edmonton.BeverlyClareview@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780-476-6467",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/PeggyBevClare/",
+            "twitter": "https://x.com/PeggyBevClare",
+            "instagram": "https://www.instagram.com/peggybevclare/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 50
+      }
+    },
+    "Fort McMurray-Wood Buffalo": {
+      "name": "Fort McMurray-Wood Buffalo",
+      "mla": {
+        "name": "Mr. Tany Yao",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0899.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0899&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/473054246_997632232188203_2689366939388559464_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=EjaZLaaRnGMQ7kNvwHtsDhH&_nc_oc=AdkXHesOshfB9i5gFc_efWwHEwGGXpnSMUhrR8V-qlUUECO4Vy9lPUa7LGgnlpd2cI0&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=kuC-_Y4RAZE2YxQjoImpvw&_nc_ss=8&oh=00_AfzGQjHVXex9zG_W_p9gfgOvMmaijI4RMgEGUM2c_FJQQA&oe=69C08E01",
+        "contact": {
+          "email": "FortMcMurray.WoodBuffalo@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "780.790.6014",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/TanyYaoAB/",
+            "twitter": "https://x.com/TanyYao",
+            "instagram": "https://www.instagram.com/tanyyao/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 10
+      }
+    },
+    "Calgary-North": {
+      "name": "Calgary-North",
+      "mla": {
+        "name": "Honourable Muhammad Yaseen, ECA",
+        "party": "United Conservative Party",
+        "photo": "https://www.assembly.ab.ca/images/default-source/members/mla-photos/ph-mla0954.jpg",
+        "profileUrl": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly/member-information?mid=0954&legl=31&from=mla_home",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t1.6435-9/50681738_605292319925606_6245539921977671680_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=LCWfdvl0QHkQ7kNvwGrZpnD&_nc_oc=AdkeNbzFldaxherQxhGbeaxr1qBl5ZpiU1BBqgGxZHYpeSn27JsQ_4weCXCkW5dKnMs&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=3ySk5QdKOYOaKgE-iEPYCQ&_nc_ss=8&oh=00_AfwCidYRKABM5zgTsQuETzYahjgU7Myrm-xfJH6odBWfpQ&oe=69E2285B",
+        "contact": {
+          "email": "Calgary.North@assembly.ab.ca",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "phone": "403.274.1931",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/MuhammadYaseenYYC",
+            "twitter": "https://x.com/yaseenUCP",
+            "instagram": "https://www.instagram.com/myaseenab/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        },
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30
+      }
+    }
+  },
+  "electionDate": "2023-05-29",
+  "termEnd": "2027-10-18"
+}

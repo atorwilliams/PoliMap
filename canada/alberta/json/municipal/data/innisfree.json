@@ -1,0 +1,43 @@
+{
+  "name": "Innisfree",
+  "geoname": "VILLAGE OF INNISFREE",
+  "type": "Village",
+  "mayor": {
+    "name": "Evan Raycraft",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "e.raycraft@innisfree.ca"
+  },
+  "council": [
+    {
+      "name": "Kristina Brummer",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "k.brummer@innisfree.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Mavis Hyndman",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "m.hyndman@innisfree.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.innisfree.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

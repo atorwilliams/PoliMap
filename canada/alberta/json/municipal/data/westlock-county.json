@@ -1,0 +1,140 @@
+{
+  "name": "Westlock County",
+  "geoname": "WESTLOCK COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Ray Marquette",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "rmarquette@westlockcounty.com",
+    "phone": "780-307-4097",
+    "committees": [
+      "Joint Services (Inter-Municipal)",
+      "Agricultural Service Board",
+      "Community of Networking Excellence (Conex) (Alternate)",
+      "Community Grants Advisory Committee",
+      "Emergency Management Committee",
+      "Farm Family Award Committee",
+      "Homeland Housing",
+      "Westlock & District Agricultural Society",
+      "Westlock & District Chamber of Commerce (Alternate)",
+      "Westlock Seed Cleaning Co-op Ltd."
+    ]
+  },
+  "council": [
+    {
+      "name": "Sherri Provencal",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "sprovencal@westlockcounty.com",
+      "phone": "780-283-0234",
+      "committees": [
+        "Joint Services (Inter-Municipal)",
+        "Emergency Management Committee",
+        "Family & Community Support Services (Alternate)",
+        "Tawatinaw Valley Ski Club Board (Alternate)",
+        "Westlock & Area Crime Coalition",
+        "Westlock Regional Municipal Airport Advisory Board"
+      ]
+    },
+    {
+      "name": "Jared Stitsen",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "jstitsen@westlockcounty.com",
+      "phone": "780-719-7706",
+      "committees": [
+        "Joint Services (Inter-Municipal)",
+        "Community Grants Advisory Committee",
+        "Family & Community Support Services",
+        "Westlock Regional Water Services Commission",
+        "Westlock Economic Region Committee (WERC)"
+      ]
+    },
+    {
+      "name": "Christine Wiese",
+      "role": "",
+      "ward": "Division 7",
+      "since": "",
+      "portrait": "",
+      "email": "cwiese@westlockcounty.com",
+      "phone": "780-307-8088",
+      "committees": [
+        "Joint Services (Inter-Municipal)",
+        "Agricultural Service Board",
+        "Community Futures North Central Alberta - Tawatinaw Region",
+        "Farm Family Award Committee",
+        "Westlock Intermunicipal Library Board",
+        "Westlock & District Tractor Museum Foundation Board",
+        "Westlock Regional Water Services Commission",
+        "Yellowhead Regional Library Board"
+      ]
+    },
+    {
+      "name": "Francis Cloutier",
+      "role": "",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "fcloutier@westlockcounty.com",
+      "phone": "780-206-7711",
+      "committees": [
+        "Joint Services (Inter-Municipal)",
+        "Alberta Trail Net",
+        "Community Grants Advisory Committee",
+        "Homeland Housing",
+        "Westlock Regional Waste Management Commission",
+        "Westlock & District Chamber of Commerce"
+      ]
+    },
+    {
+      "name": "Isaac Skuban",
+      "role": "",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "iskuban@westlockcounty.com",
+      "phone": "780-287-8494",
+      "committees": [
+        "Joint Services (Inter-Municipal)",
+        "Tawatinaw Valley Ski Club Board",
+        "Subdivision & Development Appeal Board",
+        "Westlock Economic Region Committee (WERC)",
+        "Westlock Regional Waste Management Commission (Alternate)"
+      ]
+    },
+    {
+      "name": "Bruinella Mitchell",
+      "role": "",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "div6council@westlockcounty.com",
+      "phone": "",
+      "committees": [
+        "Joint Services (Inter-Municipal)",
+        "Agricultural Service Board",
+        "Community of Networking Excellence (CONEX)",
+        "Emergency Management Committee",
+        "Farm Family Award Committee",
+        "Family & Community Support Services (FCSS)",
+        "Westlock & District Agricultural Society (Alternate)",
+        "Westlock & District Chamber of Commerce"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

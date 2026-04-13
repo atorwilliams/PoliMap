@@ -1,0 +1,84 @@
+{
+  "name": "Cold Lake",
+  "geoname": "CITY OF COLD LAKE",
+  "type": "City",
+  "mayor": {
+    "name": "Bob Mattice",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "bmattice@coldlake.com ",
+    "phone": "780-573-9241"
+  },
+  "council": [
+    {
+      "name": "Ryan Bailey",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rbailey@coldlake.com ",
+      "phone": "780-573-3501",
+      "committees": []
+    },
+    {
+      "name": "Raymond Cowell",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rcowell@coldlake.com ",
+      "phone": "780-573-4886",
+      "committees": []
+    },
+    {
+      "name": "Vicky Lefebvre",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "vlefebvre@coldlake.com",
+      "phone": "780-573-3136",
+      "committees": []
+    },
+    {
+      "name": "Bill Parker",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bparker@coldlake.com ",
+      "phone": "780-573-8687",
+      "committees": []
+    },
+    {
+      "name": "Chris Vining",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cvining@coldlake.com",
+      "phone": "780-573-3658",
+      "committees": []
+    },
+    {
+      "name": "Dawn Weber",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dweber@coldlake.com ",
+      "phone": "780-573-4606",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

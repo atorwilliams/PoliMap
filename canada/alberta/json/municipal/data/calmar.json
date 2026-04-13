@@ -1,0 +1,63 @@
+{
+  "name": "Calmar",
+  "geoname": "TOWN OF CALMAR",
+  "type": "Town",
+  "mayor": {
+    "name": "Krista Gardner",
+    "portrait": "https://calmar.ca/wp-content/uploads/2025/12/Mayor-Gardner-2025-600x840.jpg",
+    "since": "",
+    "title": "Mayor",
+    "email": "kgardner@calmar.ca"
+  },
+  "council": [
+    {
+      "name": "Sean Carnahan",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://calmar.ca/wp-content/uploads/2025/12/Councillor-Carnahan-2025-600x840.jpg",
+      "email": "scarnahan@calmar.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Danielle Bourdin",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://calmar.ca/wp-content/uploads/2025/12/Councillor-Bourdin-2025-600x821.jpg",
+      "email": "dbourdin@calmar.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jaime McKeag-Reber",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://calmar.ca/wp-content/uploads/2025/12/Councillor-McKeag-Reber-2025-600x840.jpg",
+      "email": "jmckeagreber@calmar.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Don Faulkner",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://calmar.ca/wp-content/uploads/2025/12/Councillor-Faulkner-2025-600x840.jpg",
+      "email": "dfaulkner@calmar.ca",
+      "phone": "(780) 974-6882",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://calmar.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

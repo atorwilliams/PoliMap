@@ -1,0 +1,83 @@
+{
+  "name": "Banff",
+  "geoname": "TOWN OF BANFF",
+  "type": "Town",
+  "mayor": {
+    "name": "Corrie DiManno",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "Corrie.DiManno@banff.ca"
+  },
+  "council": [
+    {
+      "name": "Michelle Backhouse",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Michelle.Backhouse@banff.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "David Fullerton",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "David.Fullerton@banff.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Barb Pelham",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Barb.Pelham@banff.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Marc Ledwidge",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Marc.Ledwidge@banff.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kaylee Ram",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Kaylee.Ram@banff.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Brian Standish",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Brian.Standish@banff.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://banff.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Acme",
+  "geoname": "VILLAGE OF ACME",
+  "type": "Village",
+  "mayor": {
+    "name": "Jason Bates",
+    "portrait": "",
+    "since": "2025-10-20",
+    "title": "Mayor",
+    "email": "j.bates@acme.ca"
+  },
+  "council": [
+    {
+      "name": "Rhonda Laking",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "r.laking@acme.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Doreen Ternowetsky",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": " d.ternowetsky@acme.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "David Simmons",
+      "role": "",
+      "ward": "",
+      "since": "2025-10-20",
+      "portrait": "",
+      "email": "d.simmons@acme.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.acme.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

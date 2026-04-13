@@ -1,0 +1,63 @@
+{
+  "name": "Manning",
+  "geoname": "TOWN OF MANNING",
+  "type": "Town",
+  "mayor": {
+    "name": "Robert McLeod",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mcleodrobj@gmail.com"
+  },
+  "council": [
+    {
+      "name": "Greg Pasichnuk",
+      "role": "Deputy Mayor ",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "gregpasichnuk@gmail.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "John Brodrick",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " johnwb@telusplant.net",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Keith Hutchison",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "khutchison@telus.net",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Trevor Fredrickson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " tfredricksonmanning@gmail.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://manning.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

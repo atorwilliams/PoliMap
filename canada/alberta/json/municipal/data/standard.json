@@ -1,0 +1,120 @@
+{
+  "name": "Standard",
+  "geoname": "VILLAGE OF STANDARD",
+  "type": "Village",
+  "mayor": {
+    "name": "Martin Gauthier",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "m.gauthier@villageofstandard.ca",
+    "committees": [
+      "WHMB",
+      "WADEMSA",
+      "Municipal Planning",
+      "WRP",
+      "Three Villages",
+      "Disaster Services"
+    ]
+  },
+  "council": [
+    {
+      "name": "Brandon Duffala",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "b.duffala@villageofstandard.ca",
+      "phone": "",
+      "committees": [
+        "PRMS",
+        "ICF/IDP",
+        "WRP",
+        "Library",
+        "Municipal Planning",
+        "Three Villages",
+        "Disaster Services"
+      ]
+    },
+    {
+      "name": "Richard Bryan",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "r.bryan@villageofstandard.ca",
+      "phone": "",
+      "committees": [
+        "WFCSS",
+        "CFWR",
+        "WRP",
+        "Three Villages",
+        "Disaster Services",
+        "SCFES",
+        "Municipal Planning"
+      ]
+    },
+    {
+      "name": "Brian Pedersen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "b.pedersen@villageofstandard.ca",
+      "phone": "",
+      "committees": [
+        "ARB",
+        "DDSWMA",
+        "SDAB",
+        "WREMP",
+        "Disaster Services",
+        "Three Villages",
+        "WRP"
+      ]
+    },
+    {
+      "name": "Rhett Penny",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "r.penny@villageofstandard.ca",
+      "phone": "",
+      "committees": [
+        "WRC",
+        "Ag Society",
+        "Fire Association",
+        "Rodeo Society",
+        "Disaster Services",
+        "Three Villages",
+        "WRP"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.villageofstandard.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administration Officer",
+      "name": "Yvette April",
+      "since": "",
+      "email": "cao@villageofstandard.ca",
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "role": "Public Works Supervisor",
+      "name": "James Davis",
+      "since": "",
+      "email": "pw@villageofstandard.ca",
+      "phone": "",
+      "notes": ""
+    }
+  ]
+}

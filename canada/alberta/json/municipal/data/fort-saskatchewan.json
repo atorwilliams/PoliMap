@@ -1,0 +1,130 @@
+{
+  "name": "Fort Saskatchewan",
+  "geoname": "CITY OF FORT SASKATCHEWAN",
+  "type": "City",
+  "mayor": {
+    "name": "Lisa Makin",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-340-0054",
+    "email": "lmakin@fortsask.ca",
+    "committees": [
+      "Alberta’s Industrial Heartland Association",
+      "City Manager’s Evaluation Committee",
+      "Emergency Advisory Committee",
+      "Inter-City Forum on Social Policy",
+      "Intermunicipal Relations Committee – City of Fort Saskatchewan / Strathcona County"
+    ]
+  },
+  "council": [
+    {
+      "name": "Birgit Blizzard",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bblizzard@fortsask.ca",
+      "phone": "780-996-5406",
+      "committees": [
+        "Capital Region Assessment Services Commission",
+        "City Manager’s Evaluation Committee",
+        "Emergency Advisory Committee",
+        "Fort Saskatchewan Public Library Board",
+        "Subdivision and Development Appeal Board"
+      ]
+    },
+    {
+      "name": "Gordon Harris",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "gharris@fortsask.ca",
+      "phone": "780-934-4903",
+      "committees": [
+        "Capital Region Assessment Services Commission",
+        "City Manager’s Evaluation Committee",
+        "Emergency Advisory Committee",
+        "Fort Saskatchewan Public Library Board",
+        "Subdivision and Development Appeal Board",
+        "Alberta’s Industrial Heartland Association (Alternate)",
+        "Intermunicipal Relations Committee – City of Fort Sask./Strathcona County (Alternate)",
+        "River Valley Alliance (Alternate)"
+      ]
+    },
+    {
+      "name": "Gale Katchur",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "gkatchur@fortsask.ca",
+      "phone": "780-913-9958",
+      "committees": [
+        "Arrow Utilities",
+        "Board and Committee Application Review Committee",
+        "City Manager’s Evaluation Committee",
+        "Community Grants Committee",
+        "Emergency Advisory Committee"
+      ]
+    },
+    {
+      "name": "Patrick Noyen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "pnoyen@fortsask.ca",
+      "phone": "780-240-9875",
+      "committees": [
+        "Capital Region Northeast Water Services Commission",
+        "City Manager’s Evaluation Committee",
+        "Edmonton Salutes Committee",
+        "Emergency Advisory Committee",
+        "Fort Saskatchewan Youth Council"
+      ]
+    },
+    {
+      "name": "Arjun Randhawa",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "arandhawa@fortsask.ca",
+      "phone": "780-935-7971",
+      "committees": [
+        "City Manager’s Evaluation Committee",
+        "Community Grants Committee",
+        "Emergency Advisory Committee",
+        "Heartland Housing Foundation",
+        "Intermunicipal Relations Committee – City of Fort Saskatchewan / Strathcona County"
+      ]
+    },
+    {
+      "name": "Allan Wesley, B.Com, BSc, MA",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "awesley@fortsask.ca",
+      "phone": "",
+      "committees": [
+        "City Manager’s Evaluation Committee",
+        "Community Grants Committee",
+        "Emergency Advisory Committee",
+        "Fort Saskatchewan Policing Committee",
+        "Heartland Housing Foundation"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

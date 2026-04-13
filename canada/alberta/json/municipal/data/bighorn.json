@@ -1,0 +1,115 @@
+{
+  "name": "Bighorn",
+  "geoname": "MUNICIPAL DISTRICT OF BIGHORN NO. 8",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Lisa Rosvold",
+    "portrait": "https://www.mdbighorn.ca/ImageRepository/Document?documentId=3159",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403-678-7063",
+    "email": "lisa.rosvold@mdbighorn.ca",
+    "committees": [
+      "Rural Municipalities of Alberta (RMA) - Central Zone",
+      "Agendas Committee",
+      "Agricultural Appeals Board",
+      "Biosphere Institute of the Bow Valley",
+      "Bow Valley Human Wildlife Coexistence",
+      "Bow Valley Regional Housing (BVRH)",
+      "Communities (Other) Inter-Municipal Committee",
+      "Emergency Advisory Committee",
+      "Governance & Priorities Committee (GPC)",
+      "Transportation Committee (Alternate)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Steve Fitzmorris",
+      "role": "",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "https://www.mdbighorn.ca/ImageRepository/Document?documentId=4006",
+      "email": "steve.fitzmorris@mdbighorn.ca ",
+      "phone": "403-688-1383",
+      "committees": [
+        "Agricultural Appeals Board",
+        "Bighorn Corridor Environment Committee (BCEC)",
+        "Bow Valley Waste Management Commission (BVWMC)",
+        "Bow Valley WildSmart",
+        "Canmore Inter-Municipal Committee",
+        "Community Services Board (Alternate)",
+        "Emergency Advisory Committee (Alternate)",
+        "Governance & Priorities Committee (GPC)",
+        "Protective Services Committee (PSC)",
+        "Subdivision & Development Appeal Board (S/DAB)",
+        "Transportation Committee"
+      ]
+    },
+    {
+      "name": "Jen Smith",
+      "role": "",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "https://www.mdbighorn.ca/ImageRepository/Document?documentId=3641",
+      "email": "jen.smith@mdbighorn.ca",
+      "phone": "403-678-8116",
+      "committees": [
+        "Agricultural Appeals Board",
+        "Bow Valley Waste Management Commission (BVWMC)",
+        "Bighorn Corridor Environment Committee (BCEC)",
+        "Community Services Board (CSB)",
+        "Emergency Advisory Committee (Alternate)",
+        "Governance & Priorities Committee (GPC)",
+        "Heritage Resources Committee (HRC)",
+        "Municipal Planning Commission (MPC)"
+      ]
+    },
+    {
+      "name": "Alice James",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.mdbighorn.ca/ImageRepository/Document?documentId=3646",
+      "email": "alice.james@mdbighorn.ca",
+      "phone": "403-851-0817",
+      "committees": [
+        "Agricultural Services & Environmental Advisory Board (ASEAB)",
+        "Governance & Priorities Committee (GPC)",
+        "Heritage Resources Committee (HRC)",
+        "Municipal Planning Commission (MPC)",
+        "Transportation Committee"
+      ]
+    },
+    {
+      "name": "Rick Tuza",
+      "role": "Deputy Reeve",
+      "ward": "Councillor Ward 4",
+      "since": "",
+      "portrait": "https://www.mdbighorn.ca/ImageRepository/Document?documentId=3643",
+      "email": "rick.tuza@mdbighorn.ca",
+      "phone": "587-224-7088",
+      "committees": [
+        "Rural Municipalities of Alberta (RMA) - Central Zone",
+        "Agricultural Services & Environmental Advisory Board (ASEAB)",
+        "Bow River Basin Council",
+        "Bow Valley Wild Smart",
+        "Communities (Other) Inter-Municipal Committee",
+        "Emergency Advisory Committee",
+        "Ghost Waiparous Trails Association",
+        "Governance & Priorities Committee (GPC)",
+        "Protective Services Committee (Alternate)",
+        "Southern Alberta Energy from Waste Association (SAEWA)",
+        "Subdivision & Development Appeal Board (S/DAB)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.mdbighorn.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

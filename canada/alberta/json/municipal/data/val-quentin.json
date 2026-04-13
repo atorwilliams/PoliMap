@@ -1,0 +1,42 @@
+{
+  "name": "Val Quentin",
+  "geoname": "S.V. of VAL QUENTIN",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Kathy Dion",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Barrie Ronaldson",
+      "role": "Deputy-Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kent Galusha",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://valquentin.ca/",
+  "notes": "contact via website",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

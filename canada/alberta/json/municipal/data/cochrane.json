@@ -1,0 +1,102 @@
+{
+  "name": "Cochrane",
+  "geoname": "TOWN OF COCHRANE",
+  "type": "Town",
+  "mayor": {
+    "name": "Morgan Nagel",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "Morgan.Nagel@cochrane.ca",
+    "committees": [
+      "Cochrane Planning Commission (Council Representative)",
+      "Emergency Management Committee",
+      "Intermunicipal Committee (IMC)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Marni Fedeyko",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Marni.Fedeyko@cochrane.ca",
+      "phone": "",
+      "committees": [
+        "Cochrane Library Board (Council Representative)",
+        "Cochrane Planning Commission (Council Representative)"
+      ]
+    },
+    {
+      "name": "Laura McDonald",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Laura.McDonald@cochrane.ca",
+      "phone": "",
+      "committees": [
+        "Natural Environment Protection (NEP) Task Force (Council Representative)"
+      ]
+    },
+    {
+      "name": "Tara McFadden",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Tara.McFadden@cochrane.ca",
+      "phone": "",
+      "committees": [
+        "Subdivision & Development Appeal Board (SDAB) (Council Representative)"
+      ]
+    },
+    {
+      "name": "Mikayla Gale",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Mikayla.Gale@cochrane.ca",
+      "phone": "",
+      "committees": [
+        "Natural Environment Protection (NEP) Task Force (Council Representative)",
+        "Parks & Recreation Committee (Council Representative)"
+      ]
+    },
+    {
+      "name": "Paul Singh",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Paul.Singh@cochrane.ca",
+      "phone": "",
+      "committees": [
+        "Councillor Singh (Council Representative)"
+      ]
+    },
+    {
+      "name": "Patrick Wilson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Patrick.Wilson@cochrane.ca",
+      "phone": "",
+      "committees": [
+        "Cochrane Municipal Policing Committee (Council Representative)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.cochrane.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

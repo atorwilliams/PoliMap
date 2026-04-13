@@ -1,0 +1,63 @@
+{
+  "name": "Sedgewick",
+  "geoname": "TOWN OF SEDGEWICK",
+  "type": "Town",
+  "mayor": {
+    "name": "Ian MacEachern",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": " imaceachern@sedgewick.ca"
+  },
+  "council": [
+    {
+      "name": "Tom Bahm",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " tbahm@sedgewick.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Nolan Lewis",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " nlewis@sedgewick.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Maxine Steil",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "msteil@sedgewick.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Todd Armitage",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tarmitage@segdewick.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://sedgewick.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

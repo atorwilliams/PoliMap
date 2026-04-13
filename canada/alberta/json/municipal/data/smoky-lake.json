@@ -1,0 +1,64 @@
+{
+  "name": "Smoky Lake",
+  "geoname": "TOWN OF SMOKY LAKE",
+  "type": "Town",
+  "mayor": {
+    "name": "Marianne Prockiw-Zarusky",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-656-5332",
+    "email": " marianne@smokylake.ca"
+  },
+  "council": [
+    {
+      "name": "Dan Kotylak",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dan@smokylake.ca",
+      "phone": "780-656-0132",
+      "committees": []
+    },
+    {
+      "name": "Bruce Chern",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bruce@smokylake.ca",
+      "phone": "306-740-7771",
+      "committees": []
+    },
+    {
+      "name": "Nestor Rosichuk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "nestor@smokylake.ca",
+      "phone": "780-656-8581",
+      "committees": []
+    },
+    {
+      "name": "Tegan Scharff",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tegan@smokylake.ca",
+      "phone": "780-656-0655",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

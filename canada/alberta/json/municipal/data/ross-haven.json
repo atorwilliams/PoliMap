@@ -1,0 +1,44 @@
+{
+  "name": "Ross Haven",
+  "geoname": "S.V. of ROSS HAVEN",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Ray Hutscal",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "ray.hutscal@rosshaven.ca",
+    "phone": "403.850.1873"
+  },
+  "council": [
+    {
+      "name": "Dieter Brandt",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dieter.brandt@rosshaven.ca",
+      "phone": "403-505-7054",
+      "committees": []
+    },
+    {
+      "name": "Bruce Stonehouse",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bruce.stonehouse@rosshaven.ca",
+      "phone": "780-920-3946",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://rosshaven.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

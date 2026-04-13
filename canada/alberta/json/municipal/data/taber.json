@@ -1,0 +1,93 @@
+{
+  "name": "Taber",
+  "geoname": "MUNICIPAL DISTRICT OF TABER",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Andrew Prokop",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403-223-5515",
+    "email": "council@taber.ca"
+  },
+  "council": [
+    {
+      "name": "Randy Sparks",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "council@taber.ca",
+      "phone": "403-223-5515",
+      "committees": []
+    },
+    {
+      "name": "Daniel Remfert",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "council@taber.ca",
+      "phone": "403-223-5515",
+      "committees": []
+    },
+    {
+      "name": "Josh Antoniuk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "council@taber.ca",
+      "phone": "403-223-5515",
+      "committees": []
+    },
+    {
+      "name": "Carly Firth",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "council@taber.ca",
+      "phone": "403-223-5515",
+      "committees": []
+    },
+    {
+      "name": "Naomi Wiebe",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "council@taber.ca",
+      "phone": "403-223-5515",
+      "committees": []
+    },
+    {
+      "name": "Joanne Sorensen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "council@taber.ca",
+      "phone": "403-223-5515",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.taber.ca/",
+  "notes": "all council and mayor contacted via same email / phone",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Derrin Thibault",
+      "since": "",
+      "email": "cao@taber.ca",
+      "phone": "",
+      "notes": ""
+    }
+  ]
+}

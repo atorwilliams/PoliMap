@@ -1,0 +1,123 @@
+{
+  "name": "Redwater",
+  "geoname": "TOWN OF REDWATER",
+  "type": "Town",
+  "mayor": {
+    "name": "David McRae",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-239-1476",
+    "email": "dmcrae@redwater.ca",
+    "committees": [
+      "Redwater / Sturgeon County Intermunicipal Committee",
+      "Ad Hoc Golf Tournament Committee (2026)",
+      "Capital Region Northeast Water Services Commission (CRNWSC)",
+      "Edmonton Salutes",
+      "Alberta Industrial Heartland (Associate Member)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Connie Butcher",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cbutcher@redwater.ca",
+      "phone": "780.222.6009",
+      "committees": [
+        "Capital Region Assessment Services Commission (CRASC)",
+        "Joint Use Committee - Alternate",
+        "Community Services Policy Committee",
+        "Community Services Board",
+        "Sturgeon Regional Emergency Management Partnership (SREMP) Committee - Alternate",
+        "Redwater & District Chamber of Commerce",
+        "Albeta HUB"
+      ]
+    },
+    {
+      "name": "Tina Cosby",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tcosby@redwater.ca",
+      "phone": "780.293.7555",
+      "committees": [
+        "Municipal Planning Commission",
+        "Intermunicipal Committee",
+        "Ad Hoc Golf Tournament Committee (2026)",
+        "Corporate Services Policy Committee",
+        "Redwater Library Board",
+        "Northern Lights Library System",
+        "Redwater and District Chamber of Commerce - Alternate",
+        "Alberta HUB"
+      ]
+    },
+    {
+      "name": "Rob Olsen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rolsen@redwater.ca",
+      "phone": "780-942-3490",
+      "committees": [
+        "Municipal Planning Commission",
+        "Ad Hoc Golf Tournament Committee (2026)",
+        "Corporate Services Policy Committee",
+        "Sturgeon Regional Emergency Management Partnership (SREMP) Committee",
+        "Fed Gas - Natural Gas Portfolio",
+        "Corporate Services Policy Committee",
+        "Infrastructure Policy Committee",
+        "Edmonton Salutes - Alternate",
+        "Morinville-St. Albert Constituency Transportation & Infrastructure Committee"
+      ]
+    },
+    {
+      "name": "Mel Smith",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "msmith@redwater.ca",
+      "phone": "780.220.2529",
+      "committees": [
+        "Intermunicipal Subdivision & Development Appeal Board (ISDAB)",
+        "Community Services Policy Committee",
+        "Infrastructure Policy Committee",
+        "Roseridge Regional Landfill Commission",
+        "Redwater Library Board",
+        "Alberta Industrial Heartland Association - Alternate"
+      ]
+    },
+    {
+      "name": "Dwayne Spicer",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dspicer@redwater.ca",
+      "phone": "780-914-8083",
+      "committees": [
+        "Redwater / Sturgeon County Intermunicipal Committee",
+        "Corporate Services Policy Committee",
+        "Infrastructure Policy Committee",
+        "Roseridge Regional Landfill Commission - Alternate",
+        "Northern Lights Library System",
+        "Homeland Housing",
+        "Morinville-St.Albert Constituency Transportation & Infrastructure Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.redwater.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

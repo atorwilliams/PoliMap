@@ -1,0 +1,106 @@
+{
+  "name": "Carstairs",
+  "geoname": "TOWN OF CARSTAIRS",
+  "type": "Town",
+  "mayor": {
+    "name": "Dean Allan",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403.630.6411",
+    "email": "deana@carstairs.ca",
+    "committees": [
+      "Mountain View Regional Water Services Commission",
+      "Municipal Planning Commission",
+      "Inter-Municipal Collaboration Committee",
+      "Policies & Priorities Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Angie Fricke",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "angief@carstairs.ca",
+      "phone": "403.507.9114",
+      "committees": [
+        "Mountain View Seniors Housing Authority",
+        "Policies & Priorities Committee"
+      ]
+    },
+    {
+      "name": "Sheldon Ball",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sheldonb@carstairs.ca",
+      "phone": "403.807.2478",
+      "committees": [
+        "Inter-Municipal Subdivision & Development Appeal Board",
+        "Inter-Municipal Collaboration Committee",
+        "Policies & Priorities Committee"
+      ]
+    },
+    {
+      "name": "Darrah Selanders",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "darrahs@carstairs.ca",
+      "phone": "403.863.8344",
+      "committees": [
+        "Policies & Priorities Committee"
+      ]
+    },
+    {
+      "name": "Cam Tolley",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "camt@carstairs.ca",
+      "phone": "825.882.1235",
+      "committees": [
+        "Policies & Priorities Committee"
+      ]
+    },
+    {
+      "name": "Jerry Roberts",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jerryr@carstairs.ca",
+      "phone": "403.479.3169",
+      "committees": [
+        "Mountain View Regional Water Services Commission",
+        "Municipal Planning Commission",
+        "Inter-Municipal Collaboration Committee",
+        "Policies & Priorities Committee"
+      ]
+    },
+    {
+      "name": "Shannon Wilcox",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "shannonw@carstairs.ca",
+      "phone": "587.966.3831",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.carstairs.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

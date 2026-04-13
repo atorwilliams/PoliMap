@@ -1,0 +1,113 @@
+{
+  "name": "Gibbons",
+  "geoname": "TOWN OF GIBBONS",
+  "type": "Town",
+  "mayor": {
+    "name": "Rick Henderson",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Edmonton Global",
+      "Edmonton Regional Waste Advisory Committee",
+      "Transportation and Infrastructure Committee"
+    ],
+    "email": "rhenderson@gibbons.ca"
+  },
+  "council": [
+    {
+      "name": "Darrell Burak",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dburak@gibbons.ca",
+      "phone": "",
+      "committees": [
+        "Alberta Industrial Heartland",
+        "Northern Lights Library System",
+        "Intermunicipal Subdivision and Development Appeal Board",
+        "Gibbons Library Board"
+      ]
+    },
+    {
+      "name": "Travis Currie",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tcurrie@gibbons.ca",
+      "phone": "",
+      "committees": [
+        "Arrow Utilities"
+      ]
+    },
+    {
+      "name": "Darren Longstaff",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dlongstaff@gibbons.ca",
+      "phone": "",
+      "committees": [
+        "Sturgeon Regional Emergency Advisory Committee",
+        "Disaster Services Committee",
+        "Gibbons Fire Department",
+        "Municipal Planning Commission"
+      ]
+    },
+    {
+      "name": "Ashley Morrison",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "amorrison@gibbons.ca",
+      "phone": "",
+      "committees": [
+        "Edmonton Salutes",
+        "Sturgeon Regional Partnership",
+        "Assessment Review Board",
+        "Municipal Planning Commission"
+      ]
+    },
+    {
+      "name": "Robert Simonowits",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rsimonowits@gibbons.ca",
+      "phone": "",
+      "committees": [
+        "Capital Region Northeast Water Services Commission",
+        "Sturgeon River Watershed Alliance",
+        "Roseridge Landfill Commission",
+        "Municipal Planning Commission"
+      ]
+    },
+    {
+      "name": "Sharla St. Germain",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sstgermain@gibbons.ca",
+      "phone": "",
+      "committees": [
+        "Community Futures Tawatinaw",
+        "Homeland Housing Foundation"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

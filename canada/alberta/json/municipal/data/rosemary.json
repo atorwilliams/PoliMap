@@ -1,0 +1,61 @@
+{
+  "name": "Rosemary",
+  "geoname": "VILLAGE OF ROSEMARY",
+  "type": "Village",
+  "mayor": {
+    "name": " CoriAnn Nielson",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403-363-1306",
+    "email": "coriannn@gmail.com"
+  },
+  "council": [
+    {
+      "name": "Yoko Fujimoto",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "yokofuji@eidnet.org",
+      "phone": "403-362-9248 ",
+      "committees": []
+    },
+    {
+      "name": "Ken Shields",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kshields1024@gmail.com ",
+      "phone": "403-359-2164",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.rosemary.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Sharon Zacharias",
+      "since": "",
+      "email": "rosemary.cao@eidnet.org",
+      "phone": "403-501-1117",
+      "notes": ""
+    },
+    {
+      "role": "Public Works Foreman",
+      "name": "Josh Dyck",
+      "since": "",
+      "email": "rosemary.maint@eidnet.org",
+      "phone": "403-793-5409",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Parkland Beach",
+  "geoname": "S.V. of PARKLAND BEACH",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Darcy Robinson",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "drobinson@parklandbeachsv.ca"
+  },
+  "council": [
+    {
+      "name": "Marc Mousseau",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mmousseau@parklandbeachsv.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kent Beakley",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "kbeakley@parklandbeachsv.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Administrative Assistant",
+      "name": "Gwen Auvigne",
+      "since": "",
+      "email": "admin@parklandbeachsv.ca",
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Harold Wynne",
+      "since": "",
+      "email": "hwynne@parklandbeachsv.ca",
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "role": "Public Works",
+      "name": "Keenan Jones",
+      "since": "",
+      "email": "admin@parklandbeachsv.ca",
+      "phone": "",
+      "notes": ""
+    }
+  ]
+}

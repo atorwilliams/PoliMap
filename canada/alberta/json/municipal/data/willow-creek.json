@@ -1,0 +1,84 @@
+{
+  "name": "Willow Creek",
+  "geoname": "MUNICIPAL DISTRICT OF WILLOW CREEK NO. 26",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Maryanne Sandberg",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "maryanne.sandberg@mdwillowcreek.com",
+    "phone": "(403) 894-2147"
+  },
+  "council": [
+    {
+      "name": " John Van Driesten",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "john.vandriesten@mdwillowcreek.com",
+      "phone": "(403) 382-1963",
+      "committees": []
+    },
+    {
+      "name": "Cecilie Fleming",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "Cecilie.fleming@mdwillowcreek.com",
+      "phone": "(403) 687-2288",
+      "committees": []
+    },
+    {
+      "name": "Glen Alm",
+      "role": "Deputy Reeve",
+      "ward": " Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "glen.alm@mdwillowcreek.com",
+      "phone": "(403) 625-0444",
+      "committees": []
+    },
+    {
+      "name": "Earl Hemmaway",
+      "role": "",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": " earl.hemmaway@mdwillowcreek.com",
+      "phone": "(403) 625-6286",
+      "committees": []
+    },
+    {
+      "name": "Evan Berger",
+      "role": "",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "evan.berger@mdwillowcreek.com",
+      "phone": "(403) 646-3097",
+      "committees": []
+    },
+    {
+      "name": "Brian Nelson",
+      "role": "",
+      "ward": "Division 7",
+      "since": "",
+      "portrait": "",
+      "email": "Brian.Nelson@mdwillowcreek.com",
+      "phone": "(403) 625-0965",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://mdwillowcreek.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

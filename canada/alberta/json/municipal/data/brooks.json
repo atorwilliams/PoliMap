@@ -1,0 +1,84 @@
+{
+  "name": "Brooks",
+  "geoname": "CITY OF BROOKS",
+  "type": "City",
+  "mayor": {
+    "name": "Norm Gerestein",
+    "portrait": "https://www.brooks.ca/ImageRepository/Document?documentID=7980",
+    "since": "",
+    "title": "Mayor",
+    "email": "ngerestein@brooks.ca",
+    "phone": "403-362-3333"
+  },
+  "council": [
+    {
+      "name": "Mohammed Idriss",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.brooks.ca/ImageRepository/Document?documentID=7983",
+      "email": "midriss@brooks.ca",
+      "phone": "403-362-3333",
+      "committees": []
+    },
+    {
+      "name": "Mara Nesbitt",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.brooks.ca/ImageRepository/Document?documentID=7984",
+      "email": "mnesbitt@brooks.ca",
+      "phone": "403-362-3333",
+      "committees": []
+    },
+    {
+      "name": "Chad Falkenberg",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.brooks.ca/ImageRepository/Document?documentID=7981",
+      "email": "cfalkenberg@brooks.ca",
+      "phone": "403-362-3333",
+      "committees": []
+    },
+    {
+      "name": "Jackie Johnson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.brooks.ca/ImageRepository/Document?documentID=7985",
+      "email": "jjohnson@brooks.ca",
+      "phone": "403-362-3333",
+      "committees": []
+    },
+    {
+      "name": "Anne-Marie Philipsen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.brooks.ca/ImageRepository/Document?documentID=7986",
+      "email": "aphilipsen@brooks.ca",
+      "phone": "403-362-3333",
+      "committees": []
+    },
+    {
+      "name": "Mike Regner",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://www.brooks.ca/ImageRepository/Document?documentID=7987",
+      "email": "mregner@brooks.ca",
+      "phone": "403-362-3333",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.brooks.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

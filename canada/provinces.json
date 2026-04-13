@@ -1,0 +1,153 @@
+{
+  "primeMinister": {
+    "name": "Mark Carney",
+    "party": "Liberal Party of Canada",
+    "since": "2025-03-14",
+    "partyColor": "#D71920"
+  },
+  "provinces": {
+    "48": {
+      "name": "Alberta",
+      "abbr": "AB",
+      "capital": "Edmonton",
+      "premier": { "name": "Danielle Smith", "party": "United Conservative Party", "since": "2022-10-11" },
+      "partyColor": "#003DA5",
+      "federalSeats": 34,
+      "provincialSeats": 87,
+      "mapUrl": "/canada/alberta/",
+      "available": true
+    },
+    "59": {
+      "name": "British Columbia",
+      "abbr": "BC",
+      "capital": "Victoria",
+      "premier": { "name": "David Eby", "party": "BC NDP", "since": "2022-11-18" },
+      "partyColor": "#F37021",
+      "federalSeats": 43,
+      "provincialSeats": 93,
+      "mapUrl": null,
+      "available": false
+    },
+    "47": {
+      "name": "Saskatchewan",
+      "abbr": "SK",
+      "capital": "Regina",
+      "premier": { "name": "Scott Moe", "party": "Saskatchewan Party", "since": "2018-02-02" },
+      "partyColor": "#007DC3",
+      "federalSeats": 14,
+      "provincialSeats": 61,
+      "mapUrl": null,
+      "available": false
+    },
+    "46": {
+      "name": "Manitoba",
+      "abbr": "MB",
+      "capital": "Winnipeg",
+      "premier": { "name": "Wab Kinew", "party": "NDP", "since": "2023-10-18" },
+      "partyColor": "#F37021",
+      "federalSeats": 14,
+      "provincialSeats": 57,
+      "mapUrl": null,
+      "available": false
+    },
+    "35": {
+      "name": "Ontario",
+      "abbr": "ON",
+      "capital": "Toronto",
+      "premier": { "name": "Doug Ford", "party": "Progressive Conservative", "since": "2018-06-29" },
+      "partyColor": "#003DA5",
+      "federalSeats": 122,
+      "provincialSeats": 124,
+      "mapUrl": null,
+      "available": false
+    },
+    "24": {
+      "name": "Quebec",
+      "abbr": "QC",
+      "capital": "Quebec City",
+      "premier": { "name": "François Legault", "party": "Coalition Avenir Québec", "since": "2018-10-18" },
+      "partyColor": "#1E88D5",
+      "federalSeats": 78,
+      "provincialSeats": 125,
+      "mapUrl": null,
+      "available": false
+    },
+    "13": {
+      "name": "New Brunswick",
+      "abbr": "NB",
+      "capital": "Fredericton",
+      "premier": { "name": "Susan Holt", "party": "Liberal", "since": "2024-11-22" },
+      "partyColor": "#D71920",
+      "federalSeats": 10,
+      "provincialSeats": 49,
+      "mapUrl": null,
+      "available": false
+    },
+    "12": {
+      "name": "Nova Scotia",
+      "abbr": "NS",
+      "capital": "Halifax",
+      "premier": { "name": "Tim Houston", "party": "Progressive Conservative", "since": "2021-08-31" },
+      "partyColor": "#003DA5",
+      "federalSeats": 11,
+      "provincialSeats": 55,
+      "mapUrl": null,
+      "available": false
+    },
+    "11": {
+      "name": "Prince Edward Island",
+      "abbr": "PE",
+      "capital": "Charlottetown",
+      "premier": { "name": "Rob Lantz", "party": "Progressive Conservative", "since": "2025-02-12" },
+      "partyColor": "#003DA5",
+      "federalSeats": 4,
+      "provincialSeats": 27,
+      "mapUrl": null,
+      "available": false
+    },
+    "10": {
+      "name": "Newfoundland and Labrador",
+      "abbr": "NL",
+      "capital": "St. John's",
+      "premier": { "name": "Andrew Furey", "party": "Liberal", "since": "2020-08-19" },
+      "partyColor": "#D71920",
+      "federalSeats": 7,
+      "provincialSeats": 40,
+      "mapUrl": null,
+      "available": false
+    },
+    "60": {
+      "name": "Yukon",
+      "abbr": "YT",
+      "capital": "Whitehorse",
+      "premier": { "name": "Ranj Pillai", "party": "Liberal", "since": "2023-02-13" },
+      "partyColor": "#D71920",
+      "federalSeats": 1,
+      "provincialSeats": 19,
+      "mapUrl": null,
+      "available": false
+    },
+    "61": {
+      "name": "Northwest Territories",
+      "abbr": "NT",
+      "capital": "Yellowknife",
+      "premier": { "name": "R.J. Simpson", "party": "Non-partisan", "since": "2023-11-15" },
+      "partyColor": "#666666",
+      "federalSeats": 1,
+      "provincialSeats": 19,
+      "mapUrl": null,
+      "available": false
+    },
+    "62": {
+      "name": "Nunavut",
+      "abbr": "NU",
+      "capital": "Iqaluit",
+      "premier": { "name": "P.J. Akeeagok", "party": "Non-partisan", "since": "2021-06-22" },
+      "partyColor": "#666666",
+      "federalSeats": 1,
+      "provincialSeats": 22,
+      "mapUrl": null,
+      "available": false
+    }
+  }
+}

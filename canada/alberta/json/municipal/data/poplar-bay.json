@@ -1,0 +1,43 @@
+{
+  "name": "Poplar Bay",
+  "geoname": "S.V. of POPLAR BAY",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Gary Carew",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-910-7310"
+  },
+  "council": [
+    {
+      "name": "Eldon Heck",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "eheck2018@gmail.com",
+      "phone": "780-808-4100",
+      "committees": []
+    },
+    {
+      "name": "Juergen Luebke",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "c1svpb@gmail.com",
+      "phone": "780-387-8418",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://poplarbay.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Cardston",
+  "geoname": "TOWN OF CARDSTON",
+  "type": "Town",
+  "mayor": {
+    "name": "Paula Brown",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Cardston-Kainai Pow-wow Committee",
+      "Citizen of the Year",
+      "Indigenous Relations Liaison Committee",
+      "Policing",
+      "4 Mayors and CAO’s",
+      "Cardston County Regional Emergency Advisory Committee",
+      "Inter-municipal Collaboration Framework",
+      "Mayors & Reeves of Southern Alberta",
+      "Alberta SouthWest REDA"
+    ]
+  },
+  "council": [
+    {
+      "name": "Timothy Court",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Parks and Recreation Advisory",
+        "SouthGrow Regional Initiative REDA",
+        "Town of Cardston Public Library Board",
+        "Chinook Arch Regional Library Board"
+      ]
+    },
+    {
+      "name": "Ronald Gordon Johnson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Municipal Subdivision & Development (MPC)",
+        "Policy Review Committee",
+        "West Area Structure Plan Ad-hoc Committee",
+        "Cardston County Emergency Services Authority"
+      ]
+    },
+    {
+      "name": "Jared Kenly",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Golf Course Advisory",
+        "Policing",
+        "Cardston County Emergency Services Authority",
+        "Chinook Foundation"
+      ]
+    },
+    {
+      "name": "Gerry A. Selk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Policing",
+        "Inter-municipal Collaboration Framework",
+        "Chief Mountain Regional Solid Waste Services Commission",
+        "Chinook Foundation",
+        "Community Futures"
+      ]
+    },
+    {
+      "name": "Jann Smith",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Family and Community Support Services (FCSS) Board",
+        "Policy Review Committee",
+        "Cardston Community Handi-Bus Association"
+      ]
+    },
+    {
+      "name": "Kent Wynder",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Indigenous Relations Liaison Committee",
+        "Oldman River Regional Services Commission (ORRSC)",
+        "Cardston & District Historical Society"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.cardston.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Grandview",
+  "geoname": "S.V. of GRANDVIEW",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Don Davidson",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "(403) 860-1050",
+    "email": "donald_d@telus.net"
+  },
+  "council": [
+    {
+      "name": "Hugh Read",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "hughread@shaw.ca",
+      "phone": "(780) 221-9357",
+      "committees": []
+    },
+    {
+      "name": "Michael Klause",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mklause@mcdonaldstreetlaw.ca",
+      "phone": "(780) 352-0369",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

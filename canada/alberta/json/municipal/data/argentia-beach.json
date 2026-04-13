@@ -1,0 +1,44 @@
+{
+  "name": "Argentia Beach",
+  "geoname": "S.V. of ARGENTIA BEACH",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Lisa Turchansky",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780-903-2033",
+    "email": "turchy@shaw.ca"
+  },
+  "council": [
+    {
+      "name": "Sarah Osterhout",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "simplyjanecreations@gmail.com",
+      "phone": "780-918-7473",
+      "committees": []
+    },
+    {
+      "name": "Tom Bland",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tomb@completehdd.com",
+      "phone": "780-777-4653",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://argentiabeach.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

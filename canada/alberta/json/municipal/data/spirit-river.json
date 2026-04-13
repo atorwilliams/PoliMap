@@ -1,0 +1,83 @@
+{
+  "name": "Spirit River",
+  "geoname": "MUNICIPAL DISTRICT OF SPIRIT RIVER NO. 133",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Tammy Yaremko",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "tyaremko@townofspiritriver.ca"
+  },
+  "council": [
+    {
+      "name": " Bill Jackson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bjackson@townofspiritriver.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Brenda Stanich",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bstanich@townofspiritriver.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": " Brent Potter",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bpotter@townofspiritriver.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": " Jim Nicholson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jnicholson@townofspiritriver.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Ryan Funk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rfunk@townofspiritriver.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": " Sumit Gour",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "sgour@townofspiritriver.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.townofspiritriver.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

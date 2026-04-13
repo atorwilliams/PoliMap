@@ -1,0 +1,84 @@
+{
+  "name": "Brazeau County",
+  "geoname": "BRAZEAU COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": " Bart Guyon",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "cscharfl@brazeau.ab.ca",
+    "phone": "780-542-0999"
+  },
+  "council": [
+    {
+      "name": " Glen Gunderson",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "ggunderson@brazeau.ab.ca",
+      "phone": "780-621-6459",
+      "committees": []
+    },
+    {
+      "name": "Carol Vowk",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "cvowk@brazeau.ab.ca",
+      "phone": "780-202-4090",
+      "committees": []
+    },
+    {
+      "name": "Aria Harris",
+      "role": "",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "aharris@brazeau.ab.ca",
+      "phone": "780-621-0975",
+      "committees": []
+    },
+    {
+      "name": "Kara Westerlund",
+      "role": "",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "kwesterlund@brazeau.ab.ca",
+      "phone": "780-898-4561",
+      "committees": []
+    },
+    {
+      "name": " Shayne Blosky",
+      "role": "",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "sblosky@brazeau.ab.ca",
+      "phone": "587-277-4470",
+      "committees": []
+    },
+    {
+      "name": " Dallas Ekstrom",
+      "role": "",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "dekstrom@brazeau.ab.ca",
+      "phone": "780-898-9129",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.brazeau.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Irricana",
+  "geoname": "TOWN OF IRRICANA",
+  "type": "Town",
+  "mayor": {
+    "name": "Colleen MacLeod ",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403-540-6723",
+    "email": "cmacleod@irricana.com",
+    "committees": [
+      "Community Futures Wild Rose (Alternate)",
+      "Rocky View Foundation (Board Member)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Julie Sim",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jsim@irricana.com",
+      "phone": "403-540-4384",
+      "committees": [
+        "Aqua 7 Water Commission (Alternate)",
+        "Community Futures Wild Rose (Board Member)",
+        "Municipal Planning Commission (Member)"
+      ]
+    },
+    {
+      "name": "Nathanial Fleming",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "nfleming@irricana.com",
+      "phone": "403-540-4642",
+      "committees": [
+        "Aqua 7 Water Commssion (Board Member)",
+        "Assessment Review Boards (Chair)",
+        "Municipal Planning Commission (Member)"
+      ]
+    },
+    {
+      "name": "Megan Hoefnagels",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mhoefnagels@irricana.com",
+      "phone": "403-540-4478",
+      "committees": [
+        "Irricana Library Board (Board Member)",
+        "Municipal Planning Commission (Member)"
+      ]
+    },
+    {
+      "name": "Dawna Polson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dpolson@irricana.com",
+      "phone": "403-540-7185",
+      "committees": [
+        "Committee of the Whole (Chair)",
+        "Irricana Library Board (Board Member)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://townofirricana.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

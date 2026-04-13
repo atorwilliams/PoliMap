@@ -1,0 +1,73 @@
+{
+  "name": "Starland County",
+  "geoname": "STARLAND COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": " Steven Wannstrom",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "swannstrom@starlandcounty.com",
+    "phone": "403-823-7361"
+  },
+  "council": [
+    {
+      "name": " Jacqueline Watts",
+      "role": "Deputy Reeve",
+      "ward": "Division Four",
+      "since": "",
+      "portrait": "",
+      "email": "jwatts@starlandcounty.com",
+      "phone": "403-820-5451",
+      "committees": []
+    },
+    {
+      "name": "John Rew",
+      "role": "",
+      "ward": "Division Five",
+      "since": "",
+      "portrait": "",
+      "email": "jrew@starlandcounty.com",
+      "phone": "403-820-0320",
+      "committees": []
+    },
+    {
+      "name": "Sylvia Neill",
+      "role": "",
+      "ward": "Division Three",
+      "since": "",
+      "portrait": "",
+      "email": "sylvia.neill@starlandcounty.com",
+      "phone": "403-321-2150",
+      "committees": []
+    },
+    {
+      "name": "Mark Landry",
+      "role": "",
+      "ward": "Division One",
+      "since": "",
+      "portrait": "",
+      "email": "mlandry@starlandcounty.com",
+      "phone": "403-821-0168",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://starlandcounty.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Christopher Robblee",
+      "since": "",
+      "email": "christopher@starlandcounty.com",
+      "phone": "403-772-3793",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Duchess",
+  "geoname": "VILLAGE OF DUCHESS",
+  "type": "Village",
+  "mayor": {
+    "name": "Tony Steidel",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": " tonysteidel@hotmail.com"
+  },
+  "council": [
+    {
+      "name": "Deborah Reid-Mickler",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dreid@eidnet.org",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Tina Preston",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tinaprestoncouncil@gmail.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Stephen Dortch",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Dortch33@hotmail.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Shanda Smith",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "shandasmithdc@yahoo.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

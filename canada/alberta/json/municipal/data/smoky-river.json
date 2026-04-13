@@ -1,0 +1,147 @@
+{
+  "name": "Smoky River",
+  "geoname": "MUNICIPAL DISTRICT OF SMOKY RIVER NO. 130",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Paula Guindon",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "pguindon@mdsmokyriver.com",
+    "committees": [
+      "Agricultural Service Board (chairman)",
+      "Committee of the Whole (chairperson)",
+      "Intermunicipal Committee",
+      "Mighty Peace Tourism Board (alternate)",
+      "Northern Alberta Elected Leaders",
+      "Peace Region Economic Development Alliance (Alternate)",
+      "Regional Emergency Advisory Committee",
+      "Small Modular Reactor Ad-Hoc Committee",
+      "Smoky River Regional Committee",
+      "Smoky River Regional Airport Board",
+      "Subdivision & Development Appeal Board"
+    ]
+  },
+  "council": [
+    {
+      "name": "Gilles Roy",
+      "role": "Deputy Reeve",
+      "ward": "Division: 4",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Agricultural Service Board",
+        "Committee of the Whole",
+        "Intermunicipal Committee",
+        "Little Smoky Ski Hill Area Governance Board",
+        "Northern Transportation Advocacy Bureau",
+        "Peace Region Economic Development Alliance",
+        "Regional Assessment Review Board",
+        "Regional Emergency Advisory Committee",
+        "SARDA (As ASB Member)",
+        "Smoky River Community Center/Society du Centre Communautaire",
+        "Smoky River Regional Committee",
+        "Smoky River Regional Water Commission",
+        "Smoky River Regional Airport Board",
+        "Jean Baptiste Historical Society",
+        "Subdivision & Development Appeal Board"
+      ]
+    },
+    {
+      "name": "Rodrique Johnson",
+      "role": "",
+      "ward": "v",
+      "since": "",
+      "portrait": "",
+      "email": "rjohnson@mdsmokyriver.com",
+      "phone": "",
+      "committees": [
+        "Agricultural Service Board",
+        "Committee of the Whole",
+        "Drainage Systems Committee",
+        "Heart River Housing",
+        "Little Smoky Ski Hill Area Governance Board",
+        "Peace Airshed Zone Association",
+        "Peavine Road Committee (Alternate)",
+        "Smoky River Agricultural Society (Alternate)",
+        "Smoky River Region Health Care Professionals’ Attraction and Retention Committee (SRRHCPA&RC)",
+        "V.S.I"
+      ]
+    },
+    {
+      "name": "Alain Blanchette",
+      "role": "",
+      "ward": "Division: 3",
+      "since": "",
+      "portrait": "",
+      "email": "ablanchette@mdsmokyriver.com",
+      "phone": "",
+      "committees": [
+        "5-Star Ad-Hoc Committee",
+        "Agricultural Service Board",
+        "Committee of the Whole",
+        "Peace Library System (Alternate)",
+        "SARDA",
+        "Small Modular Reactor Ad-Hoc Committee",
+        "Smoky River Regional Water Commission",
+        "Watino Riverboat Assosciation"
+      ]
+    },
+    {
+      "name": " Marc Michaud",
+      "role": "",
+      "ward": "Division: 5",
+      "since": "",
+      "portrait": "",
+      "email": "mmichaud@mdsmokyriver.com",
+      "phone": "",
+      "committees": [
+        "5-Star Ad-Hoc Committee",
+        "Agricultural Service Board",
+        "Committee of the Whole",
+        "Drainage Systems Committee (Alternate)",
+        "Falher Co-operative Seed Cleaning Plant",
+        "High Prairie Forest Resource Advisory Council",
+        "Little Smoky Ski Hill Area Governance Board (Alternate)",
+        "Peavine Road Committee",
+        "SARDA (alternate)",
+        "Small Modular Reactor Ad-Hoc Committee",
+        "Smoky River Agricultural Society",
+        "Smoky River Water Co-op Ltd.",
+        "V.S.I. (Alternate)",
+        "Water North Coalition"
+      ]
+    },
+    {
+      "name": "Christine Griffin",
+      "role": "",
+      "ward": "Division: 6",
+      "since": "",
+      "portrait": "",
+      "email": "cgriffin@mdsmokyriver.com",
+      "phone": "",
+      "committees": [
+        "Agricultural Service Board",
+        "Committee of the Whole",
+        "Falher Regional Inter-Municipal Library Board (Reccom.)",
+        "Jean Cote Community and Cultural Society",
+        "Mighty Peace Tourism Board",
+        "Peace Library System",
+        "Peace River Air Monitoring Program Committee",
+        "Smoky River Regional Economic Development",
+        "Smoky River Transportation Commitee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.mdsmokyriver.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

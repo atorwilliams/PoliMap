@@ -1,0 +1,44 @@
+{
+  "name": "Birchcliff",
+  "geoname": "S.V. of BIRCHCLIFF",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Roger Dufresne",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "403-404-6684",
+    "email": "roger.gj.dufresne@gmail.com"
+  },
+  "council": [
+    {
+      "name": "Ann Zacharias",
+      "role": "DEPUTY MAYOR",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "zakyak@telus.net",
+      "phone": "403-505-7236",
+      "committees": []
+    },
+    {
+      "name": "Jonathan Paulgaard",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "http://www.sylvansummervillages.ca/birchcliff.html",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

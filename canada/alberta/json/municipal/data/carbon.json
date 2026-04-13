@@ -1,0 +1,63 @@
+{
+  "name": "Carbon",
+  "geoname": "VILLAGE OF CARBON",
+  "type": "Village",
+  "mayor": {
+    "name": "Rosalie Jimmo",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "r.jimmo@villageofcarbon.com"
+  },
+  "council": [
+    {
+      "name": "Stacey McKenna",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "s.mckenna@villageofcarbon.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Amber Turick",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "a.turick@villageofcarbon.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Bjarne Jensen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "b.jensen@villageofcarbon.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Tracey Gorr",
+      "role": "Chief Administrative Officer",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "cao@villageofcarbon.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.villageofcarbon.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

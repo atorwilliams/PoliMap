@@ -1,0 +1,53 @@
+{
+  "name": "West Baptiste",
+  "geoname": "S.V. of WEST BAPTISTE",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Ryan Heinish",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780 887-4328",
+    "email": "rheinish@shaw.ca"
+  },
+  "council": [
+    {
+      "name": "Bill Dean",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "billdean08@shaw.ca",
+      "phone": "825 439-4579",
+      "committees": []
+    },
+    {
+      "name": "Tyler Woytovicz",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tyler_woytovicz@hotmail.com",
+      "phone": "780 519-0406",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Linda Roland",
+      "since": "",
+      "email": "westbaptiste@outlook.com",
+      "phone": "(780) 938-4141",
+      "notes": ""
+    }
+  ]
+}

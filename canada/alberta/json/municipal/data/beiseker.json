@@ -1,0 +1,187 @@
+{
+  "name": "Beiseker",
+  "geoname": "VILLAGE OF BEISEKER",
+  "type": "Village",
+  "mayor": {
+    "name": "David Ledoyen",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "dledoyen@beiseker.com",
+    "committees": [
+      "Museum Board",
+      "Beiseker Ag Society",
+      "Rocky View Foundation",
+      "Rocky View Handibus",
+      "Emergency Management Committee",
+      "Budget Review Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "David McKenzie",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dmckenzie@beiseker.com",
+      "phone": "",
+      "committees": [
+        "Library Board",
+        "Drumheller Solid Waste Management Association",
+        "Aqua 7 Regional Water Services Commission",
+        "Chamber of Commerce",
+        "Budget Review Committee",
+        "Emergency Management Committee"
+      ]
+    },
+    {
+      "name": "Nikki King",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "nd_king@hotmail.com",
+      "phone": "",
+      "committees": [
+        "Emergency Management Committee"
+      ]
+    },
+    {
+      "name": "Neil Young",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "nyoung@beiseker.com",
+      "phone": "",
+      "committees": [
+        "Emergency Management Committee",
+        "Museum Board",
+        "Wild Rose Economic Development Corporation (Community Futures)",
+        "Parks and Trails",
+        "Beiseker Community School Council",
+        "Campground Liaison",
+        "CAEP Central Alberta Economic Partnership"
+      ]
+    },
+    {
+      "name": "Gail Peckham",
+      "role": "Chief Administrative Officer",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "gpeckham@beiseker.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Austin Sheridan",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "asheridan@beiseker.com",
+      "phone": "",
+      "committees": [
+        "Emergency Management Committee",
+        "Economic Development & Tourism Committee",
+        "Wild Rose Economic Development Corporation (Community Futures)",
+        "Parks and Trails",
+        "Chamber of Commerce",
+        "Beiseker Community School Council",
+        "Campground Liaison",
+        "Rocky View Handibus"
+      ]
+    },
+    {
+      "name": "Lee Johnston",
+      "role": "Municipal Clerk",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ljohnston@beiseker.com",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Jodi King",
+      "role": "Municipal Clerk",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "jking@beiseker.com ",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Brandon Martin",
+      "role": "Public Works Foreman",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "publicworks@beiseker.com",
+      "phone": "403-669-9690",
+      "committees": []
+    },
+    {
+      "name": "Lynn Patterson",
+      "role": "Public Works Leadhand",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Shawna Fox",
+      "role": "Librarian",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "abemlibrary@marigold.ab.ca",
+      "phone": "403-947-3230",
+      "committees": []
+    },
+    {
+      "name": "Gareth Thomas",
+      "role": "Bylaw Enforcement Officer",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "gthomas@beiseker.com",
+      "phone": "(403) 807-9838",
+      "committees": []
+    },
+    {
+      "name": "Nikki King",
+      "role": "Fire Chief",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "nikki.king@beisekerfiredepartment.com",
+      "phone": "403-947-2506",
+      "committees": []
+    },
+    {
+      "name": "Amanda Davies",
+      "role": "Deputy Fire Chief",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "amanda.davies@beisekerfiredepartment.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://beiseker.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Half Moon Bay",
+  "geoname": "S.V. of HALF MOON BAY",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Jonathan Johnston",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "jjohnston@sylvansummervillages.ca"
+  },
+  "council": [
+    {
+      "name": "Garth Dushanek",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "garth.d@telus.net",
+      "phone": "403-588-8700",
+      "committees": []
+    },
+    {
+      "name": "Mike Pashak",
+      "role": "DEPUTY MAYOR",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mike.pashak@shaw.ca",
+      "phone": "403-620-1543",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

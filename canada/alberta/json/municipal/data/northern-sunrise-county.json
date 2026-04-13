@@ -1,0 +1,64 @@
+{
+  "name": "Northern Sunrise County",
+  "geoname": "NORTHERN SUNRISE COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Claude Rodrigue",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "crodrigue@northernsunrise.net",
+    "phone": "(780) 618-8589"
+  },
+  "council": [
+    {
+      "name": "Kelly Little",
+      "role": "",
+      "ward": "Ward 1 (Harmon Valley/Reno)",
+      "since": "",
+      "portrait": "",
+      "email": "klittle@northernsunrise.net",
+      "phone": "(780) 219-0350",
+      "committees": []
+    },
+    {
+      "name": "Jason Javos",
+      "role": "Deputy Reeve",
+      "ward": "Ward 2 (Nampa Rural District)",
+      "since": "",
+      "portrait": "",
+      "email": "jjavos@northernsunrise.net",
+      "phone": "(780) 625-4112",
+      "committees": []
+    },
+    {
+      "name": "Norm Duval",
+      "role": "",
+      "ward": "Ward 4 (St. Isidore)",
+      "since": "",
+      "portrait": "",
+      "email": "nduval@northernsunrise.net",
+      "phone": "(780) 618-8635",
+      "committees": []
+    },
+    {
+      "name": "Kyle Dziengielewski",
+      "role": "",
+      "ward": "Ward 5 (Three Creeks/Wesley Creek/Cadotte Lake)",
+      "since": "",
+      "portrait": "",
+      "email": "kdziengielewski@northernsunrise.net",
+      "phone": "(780) 219-4109",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://northernsunrise.net/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

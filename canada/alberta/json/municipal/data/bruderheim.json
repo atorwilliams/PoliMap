@@ -1,0 +1,94 @@
+{
+  "name": "Bruderheim",
+  "geoname": "TOWN OF BRUDERHEIM",
+  "type": "Town",
+  "mayor": {
+    "name": "Ronald Ewasiuk",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "John S. Batiuk Water Commission",
+      "St Michael Solid Waste Commission",
+      "Alberta Industrial Heartland",
+      "Heartland Air Monitoring Partnership",
+      "Lamont County CEO/CAO Meetings",
+      "Northeast Alberta Alliance for Growth and Opportunities (NAAGO)",
+      "Alberta HUB",
+      "Intermunicipal Collaboration Committee",
+      "Bruderheim Lions Club",
+      "Bruderheim Seniors Club"
+    ],
+    "email": "Ron.Ewasiuk@bruderheim.ca"
+  },
+  "council": [
+    {
+      "name": "Dayna Jacobs",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Dayna.Jacobs@bruderheim.ca",
+      "phone": "",
+      "committees": [
+        "John S. Batiuk Water Commission",
+        "Alberta HUB",
+        "Community Adult Learning Council",
+        "Intermunicipal Relations Committee (Bruderheim and Strathcona County)",
+        "Go East of Edmonton",
+        "Bruderheim School Council",
+        "Youth Advisory Committee",
+        "Emergency Advisory Committee"
+      ]
+    },
+    {
+      "name": "Luis Diaz",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Luis.Diaz@bruderheim.ca",
+      "phone": "",
+      "committees": [
+        "Emergency Advisory Committee",
+        "Lamont County CEO/CAO Meetings",
+        "Lamont County Family and Community Support Services",
+        "Heartland Air Monitoring Partnership",
+        "Lamont County Housing Foundation",
+        "Northern Lights Library System",
+        "Bruderheim Minor Sports",
+        "Bruderheim School Council",
+        "Bruderheim Seniors Club",
+        "Bruderheim Municipal Library Board (Metro Kalyn Library)"
+      ]
+    },
+    {
+      "name": "Arlie Young",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Arlie.Young@bruderheim.ca",
+      "phone": "",
+      "committees": [
+        "St. Michael Solid Waste Commission",
+        "Intermunicipal Relations Committee (Lamont County)",
+        "Lamont County Housing Foundation",
+        "Northeast Alberta Alliance for Growth and Opportunities",
+        "Lamont County Family and Community Support Services",
+        "Community Adult Learning Council",
+        "Bruderheim Minor Sports",
+        "Youth Advisory Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://bruderheim.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

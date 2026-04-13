@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Police in Alberta – PoliMap</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/institutional.css">
+</head>
+<body>
+
+  <header class="top-banner">
+    <div class="banner-container">
+      <a href="/" class="logo" style="text-decoration:none;">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </a>
+      <nav class="main-nav">
+        <a class="nav-btn" href="index.html">Map View</a>
+        <a class="nav-btn" href="judiciary.html">Alberta Judiciary</a>
+        <a class="nav-btn active" href="rcmp.html">Police in Alberta</a>
+        <a class="nav-btn" href="government.html">Alberta Government</a>
+        <a class="nav-btn" href="/contribute.html">Contribute</a>
+        <a class="nav-btn" href="/donate.html">Donate</a>
+        <a class="nav-btn" href="https://forum.poli-map.org" target="_blank">Forum</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <section class="page-hero">
+      <h1>Police in Alberta</h1>
+      <p>Police services operating in Alberta — forces, jurisdictions, commanding officers, and public expense disclosures.</p>
+    </section>
+
+    <nav class="section-nav">
+      <button class="section-nav-btn active" data-section="rcmp">RCMP K Division</button>
+      <button class="section-nav-btn" data-section="calgary">Calgary Police Service</button>
+      <button class="section-nav-btn" data-section="edmonton">Edmonton Police Service</button>
+      <button class="section-nav-btn" data-section="lethbridge">Lethbridge Police Service</button>
+      <button class="section-nav-btn" data-section="medicinhat">Medicine Hat Police Service</button>
+      <button class="section-nav-btn" data-section="tribal">First Nations Police Services</button>
+    </nav>
+
+    <div id="section-rcmp" class="section-panel active">
+      <nav class="sub-nav">
+        <button class="sub-nav-btn active" data-tab="officers">Officers</button>
+        <button class="sub-nav-btn" data-tab="expenses">Expenses</button>
+        <button class="sub-nav-btn" data-tab="detachments">Detachments</button>
+      </nav>
+
+      <div id="tab-officers" class="tab-panel">
+        <div class="rcmp-officers-layout">
+          <div class="profile-grid" id="officer-grid"></div>
+          <aside class="rcmp-command-note">
+            <h3>A note on detachment records</h3>
+            <p>Detachment leadership turns over frequently enough that local records are often outdated or never updated in the first place. Most postings are short-term, and the RCMP does not reliably publish changes in command.</p>
+            <p>If you live in an RCMP detachment area and can find out the name of the current commanding officer, please <a href="mailto:contact@poli-map.org">get in touch</a> so the records can be updated.</p>
+          </aside>
+        </div>
+        <div class="coming-soon"><h2>Profiles coming soon</h2><p>Officer data is being compiled.</p></div>
+      </div>
+
+      <div id="tab-expenses" class="tab-panel" style="display:none">
+        <div class="expenses-toolbar">
+          <span id="expenses-count" class="expenses-count"></span>
+          <span class="expenses-sort-label">Sort by</span>
+          <select id="expenses-sort">
+            <option value="date-desc">Date (newest)</option>
+            <option value="date-asc">Date (oldest)</option>
+            <option value="amount-desc">Amount (highest)</option>
+            <option value="amount-asc">Amount (lowest)</option>
+          </select>
+        </div>
+        <div id="expenses-table-wrap">
+          <table id="expenses-table">
+            <thead>
+              <tr>
+                <th>Ref #</th><th>Officer</th><th>Event</th><th>Date</th>
+                <th>Location / Destination</th><th>Type</th><th class="col-amount">Amount</th>
+              </tr>
+            </thead>
+            <tbody id="expenses-body"></tbody>
+          </table>
+        </div>
+        <div class="coming-soon" id="expenses-empty" style="display:none"><h2>No expense records</h2><p>Records are being compiled.</p></div>
+      </div>
+
+      <div id="tab-detachments" class="tab-panel" style="display:none">
+        <div class="expenses-toolbar">
+          <span id="detachments-count" class="expenses-count"></span>
+          <input id="detachments-search" class="detachments-search" type="search" placeholder="Search by name or address…" autocomplete="off">
+        </div>
+        <div id="detachments-table-wrap">
+          <table id="detachments-table">
+            <thead>
+              <tr><th>Detachment</th><th>Address</th><th>Phone</th><th>Fax</th></tr>
+            </thead>
+            <tbody id="detachments-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div id="section-calgary" class="section-panel">
+      <div class="profile-grid" id="police-grid-calgary"></div>
+      <div class="coming-soon" id="police-stub-calgary" style="display:none"><h2>Calgary Police Service</h2><p>Data is being compiled.</p></div>
+    </div>
+
+    <div id="section-edmonton" class="section-panel">
+      <div class="profile-grid" id="police-grid-edmonton"></div>
+      <div class="coming-soon" id="police-stub-edmonton" style="display:none"><h2>Edmonton Police Service</h2><p>Data is being compiled.</p></div>
+    </div>
+
+    <div id="section-lethbridge" class="section-panel">
+      <div class="profile-grid" id="police-grid-lethbridge"></div>
+      <div class="coming-soon" id="police-stub-lethbridge" style="display:none"><h2>Lethbridge Police Service</h2><p>Data is being compiled.</p></div>
+    </div>
+
+    <div id="section-medicinhat" class="section-panel">
+      <div class="profile-grid" id="police-grid-medicinhat"></div>
+      <div class="coming-soon" id="police-stub-medicinhat" style="display:none"><h2>Medicine Hat Police Service</h2><p>Data is being compiled.</p></div>
+    </div>
+
+    <div id="section-tribal" class="section-panel">
+      <div id="police-grid-tribal"></div>
+      <div class="coming-soon" id="police-stub-tribal" style="display:none"><h2>First Nations Police Services</h2><p>Data is being compiled.</p></div>
+    </div>
+
+  </main>
+
+  <div id="expense-modal-overlay" class="expense-modal-overlay" style="display:none" aria-modal="true" role="dialog">
+    <div class="expense-modal">
+      <button class="expense-modal-close" id="expense-modal-close" aria-label="Close">×</button>
+      <div id="expense-detail"></div>
+    </div>
+  </div>
+
+  <script type="module" src="rcmp.js"></script>
+  <script type="module" src="police.js"></script>
+  <script>
+    document.querySelectorAll('.section-nav-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.section-nav-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.section-panel').forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('section-' + btn.dataset.section).classList.add('active');
+      });
+    });
+  </script>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+  <script>
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+  </script>
+
+</body>
+</html>

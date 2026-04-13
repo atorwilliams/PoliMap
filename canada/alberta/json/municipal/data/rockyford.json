@@ -1,0 +1,127 @@
+{
+  "name": "Rockyford",
+  "geoname": "VILLAGE OF ROCKYFORD",
+  "type": "Village",
+  "mayor": {
+    "name": "Darcy Burke",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Wheatland Regional Partnership",
+      "Wheatland Regional Corporation (Alternate)",
+      "WADEMSA",
+      "Community Futures Wildrose",
+      "Fire Committee",
+      "3 Village",
+      "Intermunicipal Development Plan Committee and Intermunicipal Collaboration Framework Committee",
+      "Drumheller & District Solid Waste (Alternate)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Leah Smith",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Wheatland Regional Partnership",
+        "Palliser Regional Municipal Services",
+        "3 Village",
+        "Wheatland Housing Management Body",
+        "Subdivision and Development Appeal Board",
+        "Community Futures Wild Rose (Alternate)",
+        "Regional Assessment Review Board",
+        "Intermunicipal Development Plan Committee and Intermunicipal Collaboration Framework Committee",
+        "Rockyford Ag Society (Alternate)",
+        "WFCSS (Alternate)",
+        "Marigold Library (Alternate)"
+      ]
+    },
+    {
+      "name": " William (Bill) Goodfellow",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Wheatland Regional Corporation",
+        "Wheatland Regional Partnership",
+        "Drumheller Solid Waste",
+        "Fire Committee (Alternate)",
+        "Corporate Services Committee (Alternate)",
+        "Rockyford Community Centre (Alternate)",
+        "Emergency Advisory Committee",
+        "3 Villages"
+      ]
+    },
+    {
+      "name": "Charlotte Bencharski",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Corporate Services Committee",
+        "Wheatland Regional Partnership",
+        "Rockyford Community Centre",
+        "WFCSS",
+        "Fire Committee",
+        "Palliser Regional Municipal Services (Alternate)",
+        "3 Village"
+      ]
+    },
+    {
+      "name": "Michael Eleniak",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Emergency Advisory Committee (Alternate)",
+        "Wheatland Regional Partnership",
+        "Rockyford Ag Society",
+        "Rockyford Library",
+        "WADEMSA (Alternate)",
+        "Marigold Library",
+        "3 Villages",
+        "Intermunicipal Development Plan Committee and Intermunicipal Collaboration Framework Committee (Alternate)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.rockyford.ca/",
+  "notes": "The positions of Mayor and Deputy Mayor are nominated and appointed by Council at the Organizational Meeting held in October every year.\nContact via website",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Lori Miller ",
+      "since": "",
+      "email": "",
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "role": "Public Works Foreman",
+      "name": "Martin Gauthier",
+      "since": "",
+      "email": "",
+      "phone": "",
+      "notes": ""
+    }
+  ]
+}

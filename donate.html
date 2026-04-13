@@ -12,18 +12,16 @@
 
   <header class="top-banner">
     <div class="banner-container">
-      <div class="logo">
+      <a href="/" class="logo" style="text-decoration:none;">
         <h1>PoliMap</h1>
         <span>Ridings in Colour</span>
-      </div>
+      </a>
       <nav class="main-nav">
-        <button class="nav-btn" data-action="map">Map View</button>
-        <button class="nav-btn" data-action="about">About</button>
-        <button class="nav-btn" data-action="judiciary">Alberta Judiciary</button>
-        <button class="nav-btn" data-action="rcmp">Police in Alberta</button>
-        <button class="nav-btn" data-action="gov">Alberta Government</button>
-        <button class="nav-btn" data-action="contribute">Contribute</button>
-        <button class="nav-btn active" data-action="donate">Donate</button>
+        <a class="nav-btn" href="/canada/alberta/">Map View</a>
+        <a class="nav-btn" href="/canada/">Canada</a>
+        <a class="nav-btn" href="/contribute.html">Contribute</a>
+        <a class="nav-btn active" href="/donate.html">Donate</a>
+        <a class="nav-btn" href="https://forum.poli-map.org" target="_blank">Forum</a>
       </nav>
     </div>
   </header>
@@ -93,7 +91,6 @@
 
   </main>
 
-  <script type="module" src="utils.js"></script>
   <script>
     document.querySelectorAll('.copy-btn').forEach(btn => {
       btn.addEventListener('click', () => {

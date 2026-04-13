@@ -1,0 +1,84 @@
+{
+  "name": "Cardston County",
+  "geoname": "CARDSTON COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Randy Bullock",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "email": "randy.bullock@cardstoncounty.com",
+    "phone": "(403) 593-0332"
+  },
+  "council": [
+    {
+      "name": "LeGrande Bevans",
+      "role": "Deputy Reeve",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "legrande.bevans@cardstoncounty.com",
+      "phone": "(403) 653-7202",
+      "committees": []
+    },
+    {
+      "name": "Dennis Baker",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "dennis.baker@cardstoncounty.com",
+      "phone": "(587) 370-8468",
+      "committees": []
+    },
+    {
+      "name": "Tom Nish",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "tom.nish@cardstoncounty.com",
+      "phone": "(403) 795-5891",
+      "committees": []
+    },
+    {
+      "name": "Roger Houghton",
+      "role": "",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "\troger.houghton@cardstoncounty.com",
+      "phone": "(403) 634-7281",
+      "committees": []
+    },
+    {
+      "name": "Cam Francis",
+      "role": "",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "cam.francis@cardstoncounty.com",
+      "phone": "(403) 308-2696",
+      "committees": []
+    },
+    {
+      "name": "Wayne Harris",
+      "role": "",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "wayne.harris@cardstoncounty.com",
+      "phone": "(403) 634-3997",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.cardstoncounty.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

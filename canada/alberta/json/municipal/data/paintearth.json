@@ -1,0 +1,84 @@
+{
+  "name": "Paintearth",
+  "geoname": "COUNTY OF PAINTEARTH NO. 18",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Stan Schulmeister",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "403-741-7217",
+    "email": "sschulmeister@countypaintearth.ca"
+  },
+  "council": [
+    {
+      "name": "George Glazier",
+      "role": "",
+      "ward": "Division 1",
+      "since": "",
+      "portrait": "",
+      "email": "gglazier@countypaintearth.ca",
+      "phone": "403-575-1165",
+      "committees": []
+    },
+    {
+      "name": "Dale Norton",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "dnorton@countypaintearth.ca",
+      "phone": "587-731-1376",
+      "committees": []
+    },
+    {
+      "name": "Terry Vockeroth",
+      "role": "",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "tvockeroth@countypaintearth.ca",
+      "phone": "403-323-0534 ",
+      "committees": []
+    },
+    {
+      "name": "Maurice Wiart",
+      "role": "Deputy Reeve",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "mwiart@countypaintearth.ca",
+      "phone": "403-742-9878",
+      "committees": []
+    },
+    {
+      "name": "Sandy Shipton",
+      "role": "",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "sshipton@countypaintearth.ca",
+      "phone": "403-741-8571 ",
+      "committees": []
+    },
+    {
+      "name": "Diane Elliott",
+      "role": "",
+      "ward": "Division 7",
+      "since": "",
+      "portrait": "",
+      "email": "delliott@countypaintearth.ca",
+      "phone": "v",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.countypaintearth.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

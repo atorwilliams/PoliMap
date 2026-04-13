@@ -1,0 +1,55 @@
+{
+  "name": "Edberg",
+  "geoname": "VILLAGE OF EDBERG",
+  "type": "Village",
+  "mayor": {
+    "name": "Ian Daykin",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "12/21 Regional Water Services Commission (Primary)",
+      "RCMP Consultative Group",
+      "Regional Fire Services Liaison",
+      "West Dried Meat Lake Regional Landfill (Primary)"
+    ]
+  },
+  "council": [
+    {
+      "name": "Lori Hare",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Edberg Ag Society"
+      ]
+    },
+    {
+      "name": "David Butt",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "12/21 Regional Water Services Commission (Alternate)",
+        "Edberg Recreation Association",
+        "West Dried Meat Lake Regional Landfill (Alternate)",
+        "Regional Assessment Review Board"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.villageofedberg.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

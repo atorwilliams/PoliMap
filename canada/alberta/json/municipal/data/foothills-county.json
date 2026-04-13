@@ -1,0 +1,84 @@
+{
+  "name": "Foothills County",
+  "geoname": "FOOTHILLS COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Rob Siewert",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "phone": "403-336-0576",
+    "email": "rob.siewert@foothillscountyab.ca"
+  },
+  "council": [
+    {
+      "name": "Suzanne Oel",
+      "role": "Deputy Reeve",
+      "ward": "Division 4",
+      "since": "",
+      "portrait": "",
+      "email": "suzanne.oel@foothillscountyab.ca",
+      "phone": "403-336-3419",
+      "committees": []
+    },
+    {
+      "name": "Benita Estes",
+      "role": "",
+      "ward": "Division 2",
+      "since": "",
+      "portrait": "",
+      "email": "Benita.Estes@FoothillsCountyAB.ca",
+      "phone": "403-601-9954",
+      "committees": []
+    },
+    {
+      "name": "Laura Kendall",
+      "role": "",
+      "ward": "Division 3",
+      "since": "",
+      "portrait": "",
+      "email": "Laura.Kendall@FoothillsCountyAB.ca",
+      "phone": "403-336-1568",
+      "committees": []
+    },
+    {
+      "name": "Alan Alger",
+      "role": "",
+      "ward": "Division 5",
+      "since": "",
+      "portrait": "",
+      "email": "alan.alger@foothillscountyab.ca",
+      "phone": "403-899-9345",
+      "committees": []
+    },
+    {
+      "name": "John Callister",
+      "role": "",
+      "ward": "Division 6",
+      "since": "",
+      "portrait": "",
+      "email": "John.Callister@FoothillsCountyAB.ca",
+      "phone": "403-601-1612",
+      "committees": []
+    },
+    {
+      "name": "RD McHugh",
+      "role": "",
+      "ward": "Division 7",
+      "since": "",
+      "portrait": "",
+      "email": "RD.McHugh@foothillscountyab.ca",
+      "phone": "403-336-4068",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.foothillscountyab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

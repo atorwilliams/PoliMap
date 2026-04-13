@@ -1,0 +1,43 @@
+{
+  "name": "Yellowstone",
+  "geoname": "S.V. of YELLOWSTONE",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Jeff Stolte",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "mayor@svyellowstone.ca"
+  },
+  "council": [
+    {
+      "name": "Terry Morgans",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "deputy.mayor@svyellowstone.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Michael Clark",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillor@svyellowstone.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://svyellowstone.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

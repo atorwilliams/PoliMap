@@ -1,0 +1,141 @@
+{
+  "name": "Wetaskiwin",
+  "geoname": "COUNTY OF WETASKIWIN NO. 10",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Joe Branco",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": "780.361.4409",
+    "email": "joe.branco@wetaskiwin.ca",
+    "committees": [
+      "Agenda Review Committee",
+      "Finance and Audit Committee",
+      "Emergency Advisory Committee",
+      "Joint City/School Board Committee",
+      "Intermunicipal Relations Committee",
+      "Mid City Mayors",
+      "Northern Alberta Mayors",
+      "Central Alberta Mayors"
+    ]
+  },
+  "council": [
+    {
+      "name": " Karen Aberle",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "karen.aberle@wetaskiwin.ca",
+      "phone": "780.361.4409",
+      "committees": [
+        "Finance and Audit Committee",
+        "Emergency Advisory Committee",
+        "Assessment Review Boards (LARB and CARB)",
+        "Subdivision and Development Appeal Board",
+        "Community Public Art Committee",
+        "Wetaskiwin Community Transportation Society",
+        "Yellowhead Regional Library Board (alternate)"
+      ]
+    },
+    {
+      "name": "Dean Billingsley",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dean.billingsley@wetaskiwin.ca",
+      "phone": " 780.361.4409",
+      "committees": [
+        "Finance and Audit Committee",
+        "Emergency Advisory Committee",
+        "Wetaskiwin Community Transportation Society (alternate)",
+        "Intermunicipal Relations Committee",
+        "Leduc, Nisku, and Wetaskiwin Regional Chamber of Commerce"
+      ]
+    },
+    {
+      "name": "Mark Elder",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mark.elder@wetaskiwin.ca",
+      "phone": "780.361.4409",
+      "committees": [
+        "Finance and Audit Committee",
+        "Emergency Advisory Committee",
+        "Assessment Review Boards (LARB and CARB)",
+        "Peace Hills Utilities Board",
+        "Wetaskiwin Police Committee",
+        "Wetaskiwin and Area Lodge Authority",
+        "Leduc, Nisku, and Wetaskiwin Regional Chamber of Commerce (alternate)"
+      ]
+    },
+    {
+      "name": "Wendy Hoyle",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "wendy.hoyle@wetaskiwin.ca",
+      "phone": "780.361.4409",
+      "committees": [
+        "Finance and Audit Committee",
+        "Emergency Advisory Committee",
+        "Subdivision and Development Appeal Board",
+        "Wetaskiwin Public Library Board",
+        "Peace Hills Utilities Board",
+        "Family and Community Support Services Board",
+        "Joint City/School Board Committee (alternate)",
+        "Intermunicipal Relations Committee"
+      ]
+    },
+    {
+      "name": "Wayne Neilson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "wayne.neilson@wetaskiwin.ca",
+      "phone": "780.361.4409",
+      "committees": [
+        "Finance and Audit Committee",
+        "Emergency Advisory Committee",
+        "Assessment Review Boards (LARB and CARB) (alternate)",
+        "Community Public Art Committee (alternate)",
+        "Peace Hills Utilities Board",
+        "Family and Community Support Services Board",
+        "Wetaskiwin and Area Lodge Authority",
+        "Intermunicipal Relations Committee (alternate)"
+      ]
+    },
+    {
+      "name": " Laura White",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "laura.white@wetaskiwin.ca",
+      "phone": "780.361.4409",
+      "committees": [
+        "Finance and Audit Committee",
+        "Emergency Advisory Committee",
+        "Regional Community Safety and Well-being Committee",
+        "Wetaskiwin Public Library Board",
+        "Joint City/School Board Committee",
+        "Yellowhead Regional Library Board"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.wetaskiwin.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

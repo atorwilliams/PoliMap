@@ -1,0 +1,151 @@
+{
+  "name": "St. Paul",
+  "geoname": "COUNTY OF ST. PAUL NO. 19",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Glenn Andersen",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Champions for Change",
+      "Evergreen Regional Waste Management (Alternate)",
+      "Fire Protection",
+      "Health Professions Attraction & Retention Commmittee",
+      "Intermunicipal Council Committee",
+      "MD of St. Paul Foundation",
+      "Northeast Alberta Alliance for Growth & Opportunities (NAAGO)",
+      "North-East Muni-Corr Ltd.",
+      "Regional Family & Community Support Services (FCSS)",
+      "St. Paul & District Chamber of Commerce",
+      "Waste Transfer & Recycling Station Committee"
+    ],
+    "phone": "780-614-3803",
+    "email": "gandersen@town.stpaul.ab.ca"
+  },
+  "council": [
+    {
+      "name": "Brad Eamon",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "beamon@town.stpaul.ab.ca",
+      "phone": "780-614-3625",
+      "committees": [
+        "Community Futures St. Paul - Smoky Lake (Alternate)",
+        "Elk Point/St. Paul Regional Water Commission (Alternate)",
+        "Fire Protection",
+        "Health Professions Attraction & Retention Committee (Alternate)",
+        "Intermunicipal Council Committee (ICC)",
+        "North Saskatchewan Watershed Alliance",
+        "Parks & Recreation Advisory Board",
+        "Policing Committee",
+        "Subdivision & Development Appeal Board - Intermunicipal (ISDAB)"
+      ]
+    },
+    {
+      "name": "Maurice Brousseau",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mbrousseau@town.stpaul.ab.ca",
+      "phone": "780-547-3063",
+      "committees": [
+        "Alberta Hub (Alternate)",
+        "Municipal Planning Commission (MPC)",
+        "Parks & Recreation Advisory Board",
+        "Regional Emergency Management",
+        "St. Paul Municipal Airport Committee",
+        "Waste & Recycling Committee (Citizen's Advisory)"
+      ]
+    },
+    {
+      "name": "Norm Noel",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "nnoel@town.stpaul.ab.ca",
+      "phone": "780-614-1684",
+      "committees": [
+        "Alberta Bilingual Municipalities Association (ABMA) (Alternate)",
+        "Alberta's Lakeland Destination Marketing  Organization (DMO)",
+        "Community Futures St. Paul - Smoky Lake",
+        "Elk Point/St. Paul Regional Water Commission (Alternate)",
+        "Fire Protection",
+        "MD of St. Paul Foundation",
+        "Municipal Planning Commission (MPC)",
+        "Northern Lights Library System (NLLS)",
+        "Regional Emergency Management",
+        "Regional Family & Community Support Services (FCSS)",
+        "St. Paul & District Chamber of Commerce (Alternate)",
+        "St. Paul Municipal Library Board"
+      ]
+    },
+    {
+      "name": "David Fodness",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "dfodness@town.stpaul.ab.ca",
+      "phone": "780-210-9708",
+      "committees": [
+        "Champions for Change (Alternate)",
+        "Evergreen Regional Waste Management",
+        "Marketing Committee",
+        "Municipal Planning Commission (MPC)",
+        "North-East Muni-Corr Ltd. (Alternate)",
+        "Waste & Recycling Committee (Citizen's Advisory)",
+        "Waste Transfer & Recycling Station Committee"
+      ]
+    },
+    {
+      "name": "Roger Routhier",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "rrouthier@town.stpaul.ab.ca",
+      "phone": "780-645-0961",
+      "committees": [
+        "Alberta Bilingual Municipalities Association (ABMA)",
+        "Alberta's Lakeland Destination Marketing  Organization (DMO) (Alternate)",
+        "Marketing Committee",
+        "Northern Lights Library System (NLLS) (Alternate)",
+        "St. Paul Municipal Library Board",
+        "St. Paul Youth Council (SPYC)",
+        "Subdivision & Development Appeal Board - Intermunicipal (ISDAB)"
+      ]
+    },
+    {
+      "name": "Nathan Rosychuk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "nrosychuk@town.stpaul.ab.ca",
+      "phone": "780-646-0326",
+      "committees": [
+        "Alberta Hub",
+        "Intermunicipal Council Committee (ICC)",
+        "North Saskatchewan Watershed Alliance (Alternate)",
+        "Regional Assessment Review Board",
+        "STEP (St. Paul & Elk Point) Economic Development Alliance",
+        "St. Paul Municipal Airport Committee",
+        "Subdivision & Development Appeal Board - Intermunicipal (ISDAB)"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "Deputy Term: November 3, 2025 to June 30, 2026 (Dep Mayor)",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

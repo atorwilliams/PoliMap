@@ -1,0 +1,145 @@
+{
+  "name": "Whitecourt",
+  "geoname": "TOWN OF WHITECOURT",
+  "type": "Town",
+  "mayor": {
+    "name": "Ray Hilts",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "rayhilts@whitecourt.ca",
+    "phone": "780-779-7321",
+    "committees": [
+      "Economic Development Committee",
+      "Intermunicipal Collaboration Framework Committee",
+      "Joint Liaison Committee",
+      "Protective Services Committee",
+      "Ad Hoc Culture & Events Centre Sponsorship/Partnership Committee",
+      "Chamber of Commerce Liaison/Board of Directors",
+      "Community Rail Advocacy Alliance",
+      "Mid-Size Towns Mayors Caucus",
+      "Northern Alberta Elected Officials Caucus",
+      "Northern Alberta Mayors & Reeves Caucus",
+      "Whitecourt Business Support Network",
+      "Whitecourt & District Health Partnership Team"
+    ]
+  },
+  "council": [
+    {
+      "name": "Tara Baker",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "tarabaker@whitecourt.ca",
+      "phone": "780-778-1194",
+      "committees": [
+        "Communities in Bloom",
+        "Community Services Advisory Board",
+        "Intermunicipal Collaboration Framework (ICF) Committee",
+        "Joint Liaison Committee",
+        "Ad Hoc Sponsorship/Partnership Committee",
+        "Lac Ste. Anne Foundation"
+      ]
+    },
+    {
+      "name": "Mike Braun",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "mikebraun@whitecourt.ca",
+      "phone": "780-268-4575",
+      "committees": [
+        "Council Compensation Committee",
+        "Economic Development Committee",
+        "Municipal Planning Commission",
+        "Protective Services Committee",
+        "Canfor Western Public Advisory Committee",
+        "Golden Triangle Trail Partnership Committee",
+        "Whitecourt Airport Advisory Committee"
+      ]
+    },
+    {
+      "name": "Braden Lanctot",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bradenlanctot@whitecourt.ca",
+      "phone": "780-779-6751",
+      "committees": [
+        "Council Compensation Committee",
+        "Economic Development Committee",
+        "Municipal Planning Commission",
+        "Protective Services Committee",
+        "Whitecourt Regional Solid Waste Management Authority",
+        "Capital Region Assessment Services Commission"
+      ]
+    },
+    {
+      "name": "Serena Lapointe",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "serenalapointe@whitecourt.ca",
+      "phone": "780-706-5895",
+      "committees": [
+        "Intermunicipal Collaboration Framework Committee",
+        "Joint Liaison Committee",
+        "Subdivision and Development Appeal Board",
+        "Town of Whitecourt Library Board",
+        "Youth Advisory Committee",
+        "Community Futures Yellowhead East",
+        "Whitecourt & Woodlands Performing Arts Society",
+        "Yellowhead Regional Library",
+        "Ad Hoc Culture & Events Centre Sponsorship/Parntership Committee"
+      ]
+    },
+    {
+      "name": "Bill McAree",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "billmcaree@whitecourt.ca",
+      "phone": "780-706-4642",
+      "committees": [
+        "Council Compensation Committee",
+        "Emergency Advisory Committee",
+        "Whitecourt Regional Solid Waste Management Authority",
+        "Youth Advisory Committee",
+        "Whitecourt & District Heritage Society"
+      ]
+    },
+    {
+      "name": "Brian Wynn",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "brianwynn@whitecourt.ca",
+      "phone": "780-286-5101",
+      "committees": [
+        "Emergency Advisory Committee",
+        "Health Professionals Attraction & Retention Committee",
+        "Whitecourt FireSmart Working Group",
+        "Whitecourt Regional Solid Waste Management Authority",
+        "Capital Region Assessment Services Commission",
+        "Whitecourt Mountain Bike Association",
+        "Whitecourt Regional Forest Advisory Committee",
+        "Whitecourt & Woodlands Winter Recreation Park Society"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

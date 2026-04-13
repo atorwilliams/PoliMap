@@ -1,0 +1,159 @@
+{
+  "name": "Grande Prairie",
+  "geoname": "COUNTY OF GRANDE PRAIRIE NO. 1",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Jackie Clayton",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Community Services",
+      "Corporate Services",
+      "Infrastructure & Economic Development",
+      "Protective & Social Services",
+      "Intermunicipal Collaboration Framework Committee",
+      "Grande Prairie Regional Recreation Committee",
+      "Joint City/County Council Committee",
+      "Mid-Sized Cities Mayors Caucus",
+      "Northern Alberta Elected Leaders",
+      "Regional School Sites Committee",
+      "S.C.O.R.E.S."
+    ]
+  },
+  "council": [
+    {
+      "name": "Dylan Bressey",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Police Commission",
+        "Investment & Strategy Committee",
+        "Financial & Administrative Services Committee",
+        "He is also currently serving as President at Alberta Municipalities."
+      ]
+    },
+    {
+      "name": "Kevin O'Toole",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Public and Protective Services",
+        "Combative Sports Commission",
+        "Grande Prairie Regional Emergency Partnership",
+        "Local Immigration Partnership",
+        "Nitehawk Recreation Area Board",
+        "Grande Prairie Storm Hockey board of Directors"
+      ]
+    },
+    {
+      "name": "Chris Thiessen",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Mike O'Connor",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Infrastructure & Economic Development Committee",
+        "Economic Development Strategic Planning & Advisory Committee",
+        "Grande Prairie Library Board",
+        "Joint Regional Emergency Management Committee",
+        "Peace Library System",
+        "Downtown BIA Board (alternate)",
+        "ICF Negotiating Committee (alternate)",
+        "Opioid Task Force (alternate)"
+      ]
+    },
+    {
+      "name": "Grant Berg",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Community Services Committee",
+        "Subdivision and Development Appeal Board",
+        "Grande Prairie and Area Recreation Board",
+        "Nitehawk Recreation Area Board",
+        "Community Advisory Board on Homelessness (alternate)",
+        "Grande Prairie Regional Tourism Association (alternate)",
+        "Inter-City Forum on Social Policy (alternate)",
+        "Joint Regional Emergency Management Committee (alternate)",
+        "South Peace Regional Archives Society Board (alternate)"
+      ]
+    },
+    {
+      "name": "Jena Flach",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Youth Advisory Council",
+        "Sport Connection Board",
+        "Library Board",
+        "South Peace Regional Archives Board"
+      ]
+    },
+    {
+      "name": "Leonard Auger",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": [
+        "Standing Committee- Operational Services",
+        "Standing Committee-Public and Protective Services",
+        "Opioid Task Force",
+        "Storm Hockey Board",
+        "Intercity  Forum on Social Policy",
+        "Joint Council Committee",
+        "Local Immigration Partnership"
+      ]
+    },
+    {
+      "name": "Wade Pilat",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

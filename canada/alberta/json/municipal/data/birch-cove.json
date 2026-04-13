@@ -1,0 +1,42 @@
+{
+  "name": "Birch Cove",
+  "geoname": "S.V. of BIRCH COVE",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Dean Preston",
+    "portrait": "",
+    "since": "2025-08-01",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Jan Tschudin",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "2025-08-01",
+      "portrait": "",
+      "email": "cao@birchcove.ca",
+      "phone": "780-967-0271",
+      "committees": []
+    },
+    {
+      "name": "Eugene Dugan",
+      "role": "",
+      "ward": "",
+      "since": "2025-08-01",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://birchcove.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Acadia",
+  "geoname": "MUNICIPAL DISTRICT OF ACADIA NO. 34",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Peter Rafa",
+    "portrait": "",
+    "since": "2025-10-20",
+    "title": "Reeve",
+    "email": "councillor.rafa@mdacadia.ab.ca",
+    "committees": [
+      "Acadia Foundation",
+      "Agricultural Service Board (alternate)",
+      "Palliser Economic Partnership",
+      "Municipal Planning Commission",
+      "Municipal Emergency Management Committee"
+    ]
+  },
+  "council": [
+    {
+      "name": "Tim Peers",
+      "role": "Deputy Reeve",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillor.peers@mdacadia.ab.ca",
+      "phone": "",
+      "committees": [
+        "Medical Dental Board",
+        "Henry Kroeger Regional Water Commission",
+        "Agricultural Service Board",
+        "Municipal Planning Commission",
+        "Municipal Recreation Board"
+      ]
+    },
+    {
+      "name": "Scott Heeg",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillor.heeg@mdacadia.ab.ca",
+      "phone": "",
+      "committees": [
+        "Agriculture Service Board (Chair)",
+        "Big Country Waste Management Association",
+        "Emergency Management Agency",
+        "Municipal Planning Commission",
+        "Red deer River Municipal Users Group",
+        "Red deer River Watershed Alliance"
+      ]
+    },
+    {
+      "name": "Aaron Skappak",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillor.skappak@mdacadia.ab.ca",
+      "phone": "",
+      "committees": [
+        "Family and Community Support Services (FCSS)",
+        "Palliser Regional Municipal Services",
+        "Municipal Planning Commission",
+        "Agriculture Service Board"
+      ]
+    },
+    {
+      "name": "DARCY BROWN",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "councillor.brown@mdacadia.ab.ca",
+      "phone": "",
+      "committees": [
+        "Red Deer River Municipal Users Group",
+        "Red Deer River Watershed Alliance",
+        "Chair, Municipal Recreation Board",
+        "Council Representative to Acadia Valley Volunteer Fire Department",
+        "Municipal Planning Commission"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2029-10-20",
+  "website": "https://mdacadia.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Peace River",
+  "geoname": "TOWN OF PEACE RIVER",
+  "type": "Town",
+  "mayor": {
+    "name": "Shelly Shannon",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "phone": " 780-625-5631",
+    "email": "mayor@peaceriver.ca"
+  },
+  "council": [
+    {
+      "name": " Jeff Forsythe",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " jforsythe@peaceriver.ca",
+      "phone": "780-625-5595",
+      "committees": []
+    },
+    {
+      "name": " Orren Ford",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "oford@peaceriver.ca",
+      "phone": " 780-617-4419",
+      "committees": []
+    },
+    {
+      "name": "Robin Erickson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " rderickson@peaceriver.ca",
+      "phone": "780-625-2045",
+      "committees": []
+    },
+    {
+      "name": "Brandon Dous",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "bdous@peaceriver.ca",
+      "phone": "780-617-4630",
+      "committees": []
+    },
+    {
+      "name": "Brad Carr",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": " bcarr@peaceriver.ca",
+      "phone": " 780-625-5628",
+      "committees": []
+    },
+    {
+      "name": "Yemi Babalola",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "obabalola@peaceriver.ca",
+      "phone": " 780-625-5629",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Barbara Miller, CPA, CGA, CLGM",
+      "since": "",
+      "email": " cao@peaceriver.ca",
+      "phone": "780-624-2574 ext. 1010",
+      "notes": ""
+    }
+  ]
+}

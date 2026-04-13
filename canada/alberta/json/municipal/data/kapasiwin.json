@@ -1,0 +1,59 @@
+{
+  "name": "Kapasiwin",
+  "geoname": "S.V. of KAPASIWIN",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Tim Wiles",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "John McIvor",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Tim Kirby",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.kapasiwinalberta.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Emily House",
+      "since": "",
+      "email": "administration@kapasiwinalberta.com",
+      "phone": "780.691.4465",
+      "notes": ""
+    },
+    {
+      "role": "Development Officer",
+      "name": "Tony Sonnleitner",
+      "since": "",
+      "email": "Pcm1@telusplanet.net",
+      "phone": "780.718.5479",
+      "notes": ""
+    }
+  ]
+}

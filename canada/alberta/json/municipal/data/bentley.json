@@ -1,0 +1,63 @@
+{
+  "name": "Bentley",
+  "geoname": "TOWN OF BENTLEY",
+  "type": "Town",
+  "mayor": {
+    "name": "Pam Hansen",
+    "portrait": "https://townofbentley.ca/wp-content/uploads/2023/04/pam-400x391.jpeg",
+    "since": "",
+    "title": "Mayor",
+    "email": "phansen@bentleycouncil.ca"
+  },
+  "council": [
+    {
+      "name": "Dale Grimsdale",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "https://townofbentley.ca/wp-content/uploads/2023/05/Dale-Grimsdale-400x500.jpg",
+      "email": "dgrimsdale@bentleycouncil.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Devin Davey",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://townofbentley.ca/wp-content/uploads/2025/11/Devin-Davey-400x337.jpeg",
+      "email": "ddavey@bentleycouncil.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Kristy Klinger",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "https://townofbentley.ca/wp-content/uploads/2023/04/thumbnail_image0-400x445.jpg",
+      "email": "kklinger@bentleycouncil.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "David Rogers",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "drogers@bentleycouncil.ca",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://townofbentley.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

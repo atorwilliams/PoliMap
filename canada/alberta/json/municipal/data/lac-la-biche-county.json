@@ -1,0 +1,181 @@
+{
+  "name": "Lac La Biche County",
+  "geoname": "LAC LA BICHE COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Paul Reutov",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [
+      "Emergency Advisory Committee (chair)",
+      "State of Local Emergency Committee",
+      "Lac La Biche County Indigenous Collaboration Committee (chair)",
+      "Safer Municipality Advisory Committee & Lac La Biche Traffic Safety Committee (chair)",
+      "Economic Development Advisory Committee",
+      "Joint Natural Gas Committee"
+    ],
+    "email": "paul.reutov@laclabichecounty.com",
+    "phone": "(780) 623-0477"
+  },
+  "council": [
+    {
+      "name": "Warren Young",
+      "role": "",
+      "ward": "Ward 1",
+      "since": "",
+      "portrait": "",
+      "email": "warren.young@laclabichecounty.com",
+      "phone": "780-404-9652",
+      "committees": [
+        "Agricultural Appeals Committee",
+        "Emergency Advisory Committee",
+        "Lac La Biche County Indigenous Collaboration Committee",
+        "Municipal Planning Commission",
+        "Safer Municipality Advisory Committee & Lac La Biche Traffic Safety Committee",
+        "Lakeland Out of the Elements Shelter Society",
+        "Northeast Alberta Information HUB Ltd. (Veterans Memorial Highway) (alternate)"
+      ]
+    },
+    {
+      "name": "David McDonald",
+      "role": "",
+      "ward": "Ward 2",
+      "since": "",
+      "portrait": "",
+      "email": "david.mcdonald@laclabichecounty.com",
+      "phone": "780 623-0443",
+      "committees": [
+        "Lac La Biche County Indigenous Collaboration Committee",
+        "Municipal Planning Commission",
+        "Joint Natural Gas Committee",
+        "Federation of Alberta Gas Co-ops Ltd. (alternate)",
+        "Plamondon and District Community Development Society (alternate)",
+        "Lac La Biche Golf Club Society",
+        "Agricultural Service Board and Veterinary Services Inc. & Soil Conservation Act Appeal Committee"
+      ]
+    },
+    {
+      "name": "Travis Lansing",
+      "role": "",
+      "ward": "Ward 3",
+      "since": "",
+      "portrait": "",
+      "email": "travis.lansing@laclabichecounty.com",
+      "phone": "780-212-0911",
+      "committees": [
+        "Agricultural Appeals Committee",
+        "Lac La Biche Watershed Management Plan Implementation Committee",
+        "Healthier Communities Golf Tournament Working Group",
+        "FCSS Advisory Board",
+        "Lac La Biche Region Watershed Stewardship Society",
+        "Northern Lights Library Board System (alternate)",
+        "Plamondon and District Community Development Society",
+        "Plamondon Revitalization Committee",
+        "The Next Step Team - Underutilized Fish Stocks in NE Alberta"
+      ]
+    },
+    {
+      "name": "Blair Norton",
+      "role": "",
+      "ward": "Ward 4",
+      "since": "",
+      "portrait": "",
+      "email": "blair.norton@laclabichecounty.com",
+      "phone": "780-404-5899",
+      "committees": [
+        "Portage College Athletics Association",
+        "Northern Lights Library Board System",
+        "Subdivision and Development Appeal Board (chair)",
+        "Lac La Biche County Library Board",
+        "Healthier Communities Golf Tournament Working Group",
+        "Assessment Review Boards (Local Assessment Review Board & Composite Assessment Review Board) (chair)",
+        "Lac La Biche Regional Attraction and Retention Committee",
+        "Lakeland Interpretive Society",
+        "Lakeland Industry and Community Association"
+      ]
+    },
+    {
+      "name": "Vic Toutant",
+      "role": "",
+      "ward": "Ward 5",
+      "since": "",
+      "portrait": "",
+      "email": "vic.toutant@laclabichecounty.com",
+      "phone": "780-404-3651",
+      "committees": [
+        "Agricultural Service Board and Veterinary Services Inc. & Soil Conservation Act Appeal Committee (chair)",
+        "Municipal Planning Commission (chair)",
+        "Lac La Biche County Indigenous Collaboration Committee",
+        "Athabasca Watershed Council",
+        "Federation of Alberta Gas Co-ops Ltd.",
+        "The Next Step Team - Underutilized Fish Stocks in NE Alberta"
+      ]
+    },
+    {
+      "name": "Tony Marczak",
+      "role": "",
+      "ward": "Ward 6 ",
+      "since": "",
+      "portrait": "",
+      "email": "tony.marczak@laclabichecounty.com",
+      "phone": "780-623-0016",
+      "committees": [
+        "Economic Development Advisory Committee",
+        "Highway 881 Traffic Meeting",
+        "Emergency Advisory Committee",
+        "Subdivision and Development Appeal Board",
+        "Lac La Biche Regional Attraction and Retention Committee",
+        "Lac La Biche Regional Health Foundation",
+        "Northeast Alberta Information HUB Ltd. (Veterans Memorial Highway)"
+      ]
+    },
+    {
+      "name": "John Mondal",
+      "role": "",
+      "ward": "Ward 7",
+      "since": "",
+      "portrait": "",
+      "email": "john.mondal@laclabichecounty.com",
+      "phone": "780-404-4130",
+      "committees": [
+        "Agricultural Appeals Committee",
+        "Emergency Advisory Committee",
+        "Safer Municipality Advisory Committee & Lac La Biche Traffic Safety Committee",
+        "State of Local Emergency Committee",
+        "Community Futures Lac La Biche",
+        "Lac La Biche Regional Attraction and Retention Committee",
+        "Portage College Athletics Association (alternate)",
+        "Municipal Planning Commission",
+        "FCSS Advisory Board"
+      ]
+    },
+    {
+      "name": "Omer Moghrabi",
+      "role": "",
+      "ward": "Ward 7 ",
+      "since": "",
+      "portrait": "",
+      "email": "omer.moghrabi@laclabichecounty.com",
+      "phone": "780-404-1444",
+      "committees": [
+        "Emergency Advisory Committee",
+        "State of Local Emergency Committee",
+        "Municipal Planning Commission",
+        "Healthier Communities Golf Tournament Working Group",
+        "Lac La Biche County Library Board",
+        "Lac La Biche Regional Health Foundation",
+        "Greater North Foundation"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.laclabichecounty.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

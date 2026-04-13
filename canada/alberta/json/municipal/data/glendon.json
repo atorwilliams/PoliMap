@@ -1,0 +1,42 @@
+{
+  "name": "Glendon",
+  "geoname": "VILLAGE OF GLENDON",
+  "type": "Village",
+  "mayor": {
+    "name": "Brian Papirny",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor"
+  },
+  "council": [
+    {
+      "name": "Lorie Czuroski",
+      "role": "Deputy Mayor",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Daryn Galatiuk",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://villageofglendon.ca/",
+  "notes": "Contact:\nadmin@villageofglendon.ca\n(780) 635-3807\n",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": []
+}

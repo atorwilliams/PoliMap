@@ -1,0 +1,151 @@
+{
+  "name": "Vulcan County",
+  "geoname": "VULCAN COUNTY",
+  "type": "Municipal District",
+  "mayor": {
+    "name": "Jason Schneider",
+    "portrait": "",
+    "since": "",
+    "title": "Reeve",
+    "committees": [
+      "Vulcan County Municipal Planning Commission",
+      "Assessment Review Board",
+      "FRESC (Foothills Regional Emergency Services Commission)",
+      "Rainbow Literacy Society",
+      "Regional Municipal Emergency Management Committee",
+      "Vulcan & District Recreation Board",
+      "MD of Willow Creek & Vulcan County Intermunicipal Development Plan (IDP) Committee",
+      "Town of Vulcan & Vulcan County Intermunicipal Development Plan (IDP) Committee"
+    ],
+    "phone": "(403) 485-1803"
+  },
+  "council": [
+    {
+      "name": "Jodie Gateman",
+      "role": "",
+      "ward": "Division 1 (Mossleigh area)",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "(403) 423-0014",
+      "committees": [
+        "Chinook Intermunicipal Subdivision & Development Appeal Board",
+        "Vulcan County Health & Wellness Foundation",
+        "Vulcan District Waste Commission",
+        "North West Fire Protection Association",
+        "North West Recreation Board",
+        "Wheatland County & Vulcan County Intermunicipal Development Plan (IDP) Committee"
+      ]
+    },
+    {
+      "name": "Alex Horkoff",
+      "role": "",
+      "ward": "Division 2 (Brant and North of Vulcan area)",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "(403) 423-0063",
+      "committees": [
+        "Vulcan County Municipal Planning Commission",
+        "Vulcan County Agricultural Services Board",
+        "Twin Valley Regional Water Commission",
+        "Vulcan & District Waste Commission",
+        "Vulcan & District Recreation Board"
+      ]
+    },
+    {
+      "name": "Laurie Lyckman",
+      "role": "Deputy Reeve",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "(403) 423-0143",
+      "committees": [
+        "Vulcan County Audit Committee",
+        "Vulcan County Municipal Planning Commission",
+        "Claresholm & District Transportation Society",
+        "Marquis Foundation",
+        "SouthGrow Regional Initiative",
+        "Twin Valley Regional Water Commission",
+        "Vulcan Seniors Protect",
+        "Carmangay Recreation Board",
+        "MD of Willow Creek & Vulcan County Intermunicipal Development Plan (IDP) Committee"
+      ]
+    },
+    {
+      "name": "Kelly Nelson",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "(403) 423-0149",
+      "committees": [
+        "Vulcan County Municipal Planning Commission",
+        "FCSS (Family and Community Support Services)",
+        "Marquis Foundation",
+        "Vulcan & District Waste Commission",
+        "VAPPA (Vulcan Area Public & Petroleum Association)",
+        "Milo Recreation Board",
+        "County of Newell & Vulcan County Intermunicipal Development Plan (IDP) Committee"
+      ]
+    },
+    {
+      "name": "Christopher Northcott",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "(403) 423-0158",
+      "committees": [
+        "Assessment Review Board",
+        "Municipal Planning Commission",
+        "Vulcan County Audit Committee",
+        "ORRSC (Oldman River Regional Services)",
+        "Champion Recreation Board",
+        "Vulcan & District Recreation Board",
+        "Vulcan Airport Committee"
+      ]
+    },
+    {
+      "name": "Doug Logan",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "",
+      "phone": "(403) 423-0170",
+      "committees": [
+        "Vulcan County Municipal Planning Commission",
+        "Vulcan County Agricultural Services Board",
+        "Vulcan County Audit Committee",
+        "Reservoir Communities Committee",
+        "Chinook Arch Regional Library Board",
+        "County Library Board",
+        "Lomond Recreation Board",
+        "County of Newell & Vulcan County Intermunicipal Development Plan (IDP) Committee",
+        "MD of Taber & Vulcan County Intermunicipal Development Plan (IDP) Committee"
+      ]
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://www.vulcancounty.ab.ca/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Nels Petersen",
+      "since": "",
+      "email": "",
+      "phone": "(403) 485-2241",
+      "notes": ""
+    }
+  ]
+}

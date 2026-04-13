@@ -1,0 +1,53 @@
+{
+  "name": "South Baptiste",
+  "geoname": "S.V. of SOUTH BAPTISTE",
+  "type": "Summer Village",
+  "mayor": {
+    "name": "Wendy Appleby",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "email": "wappleby36@gmail.com",
+    "phone": "780-909-4301"
+  },
+  "council": [
+    {
+      "name": "Karen Sliwkanich",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "ksliwkanich@shaw.ca",
+      "phone": "",
+      "committees": []
+    },
+    {
+      "name": "Todd Dutchak",
+      "role": "",
+      "ward": "",
+      "since": "",
+      "portrait": "",
+      "email": "Toddsvsb@gmail.com",
+      "phone": "",
+      "committees": []
+    }
+  ],
+  "electionDate": "",
+  "nextElection": "2025-10-20",
+  "website": "https://southbaptiste.com/",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  },
+  "appointed": [
+    {
+      "role": "Chief Administrative Officer",
+      "name": "Linda Roland",
+      "since": "",
+      "email": "southbaptiste@gmail.com",
+      "phone": "(780) 938-4141",
+      "notes": ""
+    }
+  ]
+}
