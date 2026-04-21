@@ -1,0 +1,1314 @@
+{
+  "parties": {
+    "Conservative": {
+      "color": "#003DA5"
+    },
+    "Liberal": {
+      "color": "#D71920"
+    },
+    "NDP": {
+      "color": "#F37021"
+    },
+    "Green": {
+      "color": "#3D9B35"
+    },
+    "Bloc Québécois": {
+      "color": "#00AEEF"
+    },
+    "Independent": {
+      "color": "#808080"
+    }
+  },
+  "ridings": {
+    "Abbotsford—South Langley": {
+      "name": "Abbotsford—South Langley",
+      "mp": {
+        "name": "Sukhman Gill",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GillSukhman_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/sukhman-gill(123517)",
+        "heroPhoto": "https://cpcparl.com/sukhmangill/wp-content/uploads/sites/86/2025/06/2025-0605-BT-053-scaled.jpg",
+        "heroPhotoOffsetX": 20,
+        "heroPhotoOffsetY": 15,
+        "contact": {
+          "email": "sukhman.gill@parl.gc.ca",
+          "phone": "778-327-2454",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Abbotsford\n205-2825 Clearbrook road\nAbbotsford, British Columbia\nV2T 6S3",
+          "website": "http://sukhmangillmp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/profile.php?id=61577200912474",
+            "twitter": "https://x.com/sukhmangillasl?s=21&t=lppDA-J76UhtWg-MlHkoHQ",
+            "instagram": "https://www.instagram.com/sukhmangillasl/",
+            "linkedin": "https://www.linkedin.com/in/sukhman-gill21/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Burnaby Central": {
+      "name": "Burnaby Central",
+      "mp": {
+        "name": "Wade Chang",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ChangWade_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/wade-chang(123520)",
+        "heroPhoto": "https://images.squarespace-cdn.com/content/v1/68925a4ffa547b13d8d94cb6/dd8ed58f-0c28-4ab6-978d-826000ea8a2a/HOC-2025-0525-CD-005-2.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 18,
+        "contact": {
+          "email": "wade.chang@parl.gc.ca",
+          "phone": "778-330-0505",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "4940 Kingsway\nBurnaby, British Columbia\nV5H 2E2",
+          "website": "https://www.wadechangmp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/wadechangburnabycentral/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/wadechangmp",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Burnaby North—Seymour": {
+      "name": "Burnaby North—Seymour",
+      "mp": {
+        "name": "The Honourable Terry Beech",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BeechTerry_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/constituencies/burnaby-north-seymour(1242)",
+        "heroPhoto": "https://terrybeechmp.ca/wp-content/uploads/2024/11/HOC_2019_vertical-scaled.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "terry.beech@parl.gc.ca",
+          "phone": "604-718-8870",
+          "tollFree": "",
+          "fax": "604-718-8874",
+          "officeHours": "",
+          "constituencyOffice": "3906 Hastings street\nBurnaby, British Columbia\nV5C 6C1",
+          "website": "http://terrybeechmp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/terryjamesbeech/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/terryjamesbeech/",
+            "linkedin": "https://ca.linkedin.com/in/terrybeech",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Cariboo—Prince George": {
+      "name": "Cariboo—Prince George",
+      "mp": {
+        "name": "Todd Doherty",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DohertyTodd_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/todd-doherty(89249)",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/princegeorgematters/pgc-images/politics-national/img_5992.jpg;w=683",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "todd.doherty@parl.gc.ca",
+          "phone": "250-564-7771",
+          "tollFree": "",
+          "fax": "250-564-6224",
+          "officeHours": "",
+          "constituencyOffice": "1520 3rd avenue\nPrince George, British Columbia\nV2L 3G4",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/ToddDohertyMP/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/todd_doherty/?hl=en",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Chilliwack—Hope": {
+      "name": "Chilliwack—Hope",
+      "mp": {
+        "name": "Mark Strahl",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/StrahlMark_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/mark-strahl(71986)",
+        "heroPhoto": "https://markstrahl.com/wp-content/uploads/sites/30/2026/03/image-1-768x433.png",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Mark.Strahl@parl.gc.ca",
+          "phone": "604-847-9711",
+          "tollFree": "",
+          "fax": "604-847-9744",
+          "officeHours": "",
+          "constituencyOffice": "102-7388 Vedder road\nChilliwack, British Columbia\nV2R 4E4",
+          "website": "http://www.markstrahl.com",
+          "social": {
+            "facebook": "https://www.facebook.com/markstrahlmp",
+            "twitter": "https://twitter.com/markstrahl",
+            "instagram": "https://www.instagram.com/markstrahlmp/",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/channel/UCRCwjpNMncGtcMiqVmHqkDQ",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Cloverdale—Langley City": {
+      "name": "Cloverdale—Langley City",
+      "mp": {
+        "name": "Tamara Jansen",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/JansenTamara_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/tamara-jansen(105774)#contact",
+        "heroPhoto": "https://assets.nationbuilder.com/tamaramp/pages/42/meta_images/original/tamara_jansen_%281%29.jpg?1750673242",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "tamara.jansen@parl.gc.ca",
+          "phone": "604-575-6595",
+          "tollFree": "",
+          "fax": "604-575-6599",
+          "officeHours": "",
+          "constituencyOffice": "214-6820 188 street\nSurrey, British Columbia\nV4N 3G6",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/tamarajansenofficial/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/tamarajansenofficial/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Columbia—Kootenay—Southern Rockies": {
+      "name": "Columbia—Kootenay—Southern Rockies",
+      "mp": {
+        "name": "Rob Morrison",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MorrisonRob_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/rob-morrison(105807)",
+        "heroPhoto": "https://robmorrisonmp.ca/wp-content/uploads/sites/25/2022/02/HOC-2020-1130-BT-QP-094-web.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Rob.Morrison@parl.gc.ca",
+          "phone": "250-417-2250",
+          "tollFree": "",
+          "fax": "250-417-2253",
+          "officeHours": "",
+          "constituencyOffice": "C-415 Industrial road A\nCranbrook, British Columbia\nV1C 4X8",
+          "website": "http://robmorrisonmp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/robmorrisonmp/",
+            "twitter": "https://www.twitter.com/robmorrisonmp",
+            "instagram": "https://www.instagram.com/robmorrisonmp",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/channel/UCxhZ9HjaYn3u_y4XnsEGmHw",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Coquitlam—Port Coquitlam": {
+      "name": "Coquitlam—Port Coquitlam",
+      "mp": {
+        "name": "Ron McKinnon",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/McKinnonRon_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/ron-mckinnon(59293)",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/tricitynews/images/arts/ron-mckinnon.jpg;w=960;h=640;bgcolor=000000",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "ron.mckinnon@parl.gc.ca",
+          "phone": "604-927-1080",
+          "tollFree": "",
+          "fax": "604-927-1084",
+          "officeHours": "",
+          "constituencyOffice": "101-3278 Westwood street\nPort Coquitlam, British Columbia\nV3C 3L8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Courtenay—Alberni": {
+      "name": "Courtenay—Alberni",
+      "mp": {
+        "name": "Gord Johns",
+        "party": "NDP",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/JohnsGord_NDP.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/gord-johns(89263)",
+        "heroPhoto": "https://i1.sndcdn.com/artworks-14M9sS1LaqBWNbzp-WmAyeQ-t500x500.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "gord.johns@parl.gc.ca",
+          "phone": "250-947-2140",
+          "tollFree": "",
+          "fax": "250-947-2144",
+          "officeHours": "",
+          "constituencyOffice": "12A-1209 East Island Highway\nParksville, British Columbia\nV9P 1R5",
+          "website": "http://www.gordjohns.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/GordJohnsNDP/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/gordjohnsndp/?hl=en",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Cowichan—Malahat—Langford": {
+      "name": "Cowichan—Malahat—Langford",
+      "mp": {
+        "name": "Jeff Kibble",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/KibbleJeff_CPC.jpg",
+        "profileUrl": "",
+        "heroPhoto": "https://vicnews.com/wp-content/uploads/sites/2/2025/09/250411jeffkibble.JPG",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "jeff.kibble@parl.gc.ca",
+          "phone": "250-434-8138",
+          "tollFree": "1-866-609-9998",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "202-814 Goldstream Avenue\nLangford, British Columbia\nV9B 2X7",
+          "website": "http://jeffkibble.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/profile.php?id=61568565022793",
+            "twitter": "https://x.com/JeffKibbleCML",
+            "instagram": "https://www.instagram.com/jeffkibblecml",
+            "linkedin": "https://www.linkedin.com/in/jeff-kibble-1913ba198/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Delta": {
+      "name": "Delta",
+      "mp": {
+        "name": "The Honourable Jill McKnight",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/McKnightJill_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/jill-mcknight(123556)",
+        "heroPhoto": "https://www.federalretirees.ca/sites/default/files/2025-09/j_mcknight_web.png",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "jill.mcknight@parl.gc.ca",
+          "phone": "778-593-4007",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "5064 48th avenue\nDelta, British Columbia\nV4K 1V8",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/JillMcKnightDelta/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/jillmcknightdelta/",
+            "linkedin": "https://ca.linkedin.com/in/jillmcknight",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Esquimalt—Saanich—Sooke": {
+      "name": "Esquimalt—Saanich—Sooke",
+      "mp": {
+        "name": "The Honourable Stephanie McLean",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/McLeanStephanie_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/stephanie-mclean(123563)",
+        "heroPhoto": "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2016/02/stephanie-mclean.jpeg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "stephanie.mclean@parl.gc.ca",
+          "phone": "250-244-9988",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "2-50 Burnside road West\nVictoria, British Columbia\nV9A 1B5",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/p/Hon-Stephanie-McLean-61577768897783/",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "https://ca.linkedin.com/in/stephanie-mclean-bc",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Fleetwood—Port Kells": {
+      "name": "Fleetwood—Port Kells",
+      "mp": {
+        "name": "Gurbux Saini",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/SainiGurbux_Lib.jpg",
+        "profileUrl": "",
+        "heroPhoto": "https://s31184.pcdn.co/wp-content/uploads/sites/780/2025/04/thumbnail_IMG_9154-3.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "gurbux.saini@parl.gc.ca",
+          "phone": "604-484-6161",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "301-16088 84th avenue\nSurrey, British Columbia\nV4N 0V9",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/gurbux.saini.1/",
+            "twitter": "https://x.com/gurbuxsainimp",
+            "instagram": "https://www.instagram.com/gurbuxsainimp/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kamloops—Shuswap—Central Rockies": {
+      "name": "Kamloops—Shuswap—Central Rockies",
+      "mp": {
+        "name": "Mel Arnold",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ArnoldMel_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/mel-arnold(89294)",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "mel.arnold@parl.gc.ca",
+          "phone": "778-283-9700",
+          "tollFree": "1-800-665-5040",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "103-951 5th avenue SW\nSalmon Arm, British Columbia\nV1E 2R9",
+          "website": "http://melarnold.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/MelArnoldMP",
+            "twitter": "https://x.com/MelArnoldMP/status/1915773795853557954",
+            "instagram": "https://melarnoldmp.ca/@MELARNOLD9722",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kamloops—Thompson—Nicola": {
+      "name": "Kamloops—Thompson—Nicola",
+      "mp": {
+        "name": "Frank Caputo",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/CaputoFrank_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/frank-caputo(111007)",
+        "heroPhoto": "https://www.merrittherald.com/wp-content/uploads/2025/07/caputo_house_creditcp_p4199875.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "frank.caputo@parl.gc.ca",
+          "phone": "250-851-4991",
+          "tollFree": "",
+          "fax": "250-851-4994",
+          "officeHours": "",
+          "constituencyOffice": "6-275 Seymour street\nKamloops, British Columbia\nV2C 2E7",
+          "website": "https://frankcaputomp.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/share/1DGbhCtiTr/?mibextid=wwXIfr",
+            "twitter": "https://x.com/FrankCaputoKTN",
+            "instagram": "https://www.instagram.com/_frankcaputo?igsh=MXB0a3M5MGYzeTQxbw==",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/channel/UC6dEAxLxT_OoFlwZdOgCHYg",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kelowna": {
+      "name": "Kelowna",
+      "mp": {
+        "name": "The Honourable Stephen Fuhr",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/FuhrStephen_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/stephen-fuhr(89279)",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "stephen.fuhr@parl.gc.ca",
+          "phone": "250-244-8200",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "306 - 890 Clement Avenue\nKelowna, British Columbia\nV1Y 0H8",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/FuhrMP/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/steve_fuhr/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Langley Township—Fraser Heights": {
+      "name": "Langley Township—Fraser Heights",
+      "mp": {
+        "name": "Tako Van Popta",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/VanPoptaTako_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/tako-van-popta(105811)",
+        "heroPhoto": "https://pbs.twimg.com/profile_images/1542518982573314049/ldG_4jFS_400x400.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Tako.VanPopta@parl.gc.ca",
+          "phone": "604-534-5955",
+          "tollFree": "",
+          "fax": "604-534-5970",
+          "officeHours": "",
+          "constituencyOffice": "104-4769 222 street\nLangley, British Columbia\nV2Z 3C1",
+          "website": "http://www.takovanpoptamp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/takovanpoptamp",
+            "twitter": "https://twitter.com/takovanpopta",
+            "instagram": "https://www.instagram.com/takovanpopta/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mission—Matsqui—Abbotsford": {
+      "name": "Mission—Matsqui—Abbotsford",
+      "mp": {
+        "name": "Brad Vis",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/VisBrad_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/brad-vis(89289)",
+        "heroPhoto": "https://media-cdn.socastsrm.com/wordpress/wp-content/blogs.dir/1605/files/2023/06/brad-vis.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Brad.Vis@parl.gc.ca",
+          "phone": "604-814-5710",
+          "tollFree": "",
+          "fax": "604-814-5714",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, British Columbia\nV2V 1G3",
+          "website": "http://www.bradvis.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/BradVisMP/",
+            "twitter": "https://x.com/bradleyvis",
+            "instagram": "https://www.instagram.com/brad_vis/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Nanaimo—Ladysmith": {
+      "name": "Nanaimo—Ladysmith",
+      "mp": {
+        "name": "Tamara Kronis",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/KronisTamara_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/tamara-kronis(111025)",
+        "heroPhoto": "https://cpcparl.ca/tamarakronismp/wp-content/uploads/sites/77/2025/06/tamara-kronis-hoc.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "tamara.kronis@parl.gc.ca",
+          "phone": "250-244-5085",
+          "tollFree": "1-866-390-7550",
+          "fax": "236-933-2966",
+          "officeHours": "",
+          "constituencyOffice": "3-3188 Barons Road\nNanaimo, British Columbia\nV9T 4B5",
+          "website": "http://tamarakronismp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/tamarakroniscpc/",
+            "twitter": "https://x.com/KronisTamara",
+            "instagram": "https://www.instagram.com/tamarakronismp/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "New Westminster—Burnaby—Maillardville": {
+      "name": "New Westminster—Burnaby—Maillardville",
+      "mp": {
+        "name": "Jake Sawatzky",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/SawatzkyJake_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/jake-sawatzky(123583)",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t51.82787-15/659075670_17889509643461285_4338725875650101081_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=13d280&_nc_ohc=LkOp9pLRQO4Q7kNvwHoAd_D&_nc_oc=AdoFLh_k7URMM0cDBb10LEBjNLkN8UPMzUoS9ihPprAAoXvwTKR72wk9A1payQatPKs&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=aBfOLQYk4TvOjMtiOh2fPg&_nc_ss=7a3a8&oh=00_Af28dT7FeSrWuivlDat2XlUryrGnY3NMZ7lx338sWEsvKw&oe=69E58773",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "jake.sawatzky@parl.gc.ca",
+          "phone": "604-775-5707",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "611-628 6th Ave\nNew Westminster, British Columbia\nV3M 6Z1",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/JakeSawatzkyMP/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/jake_sawatzky/",
+            "linkedin": "https://ca.linkedin.com/in/jake--sawatzky",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "North Island—Powell River": {
+      "name": "North Island—Powell River",
+      "mp": {
+        "name": "Aaron Gunn",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GunnAaron_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/aaron-gunn(123586)",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "aaron.gunn@parl.gc.ca",
+          "phone": "250-434-0300",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "427 10th avenue\nCampbell River, British Columbia\nV9W 4E4",
+          "website": "http://aarongunnmp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/AaronGunn.ca/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/aarongunnbc/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "North Vancouver—Capilano": {
+      "name": "North Vancouver—Capilano",
+      "mp": {
+        "name": "The Honourable Jonathan Wilkinson",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/WilkinsonJonathan_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/jonathan-wilkinson(89300)",
+        "heroPhoto": "https://www.atlanticcouncil.org/wp-content/uploads/2025/02/2024-09-24T191208Z_749308213_RC277AATCF95_RTRMADP_3_CANADA-POLITICS-1024x683.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "jonathan.wilkinson@parl.gc.ca",
+          "phone": "604-775-6333",
+          "tollFree": "",
+          "fax": "604-775-6332",
+          "officeHours": "",
+          "constituencyOffice": "201-310 Esplanade East\nNorth Vancouver, British Columbia\nV7L 1A4",
+          "website": "http://jonathanwilkinson.libparl.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/JonathanWilkinsonNorthVancouver/",
+            "twitter": "https://twitter.com/JonathanWNV",
+            "instagram": "https://www.instagram.com/jonathanwnv",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Okanagan Lake West—South Kelowna": {
+      "name": "Okanagan Lake West—South Kelowna",
+      "mp": {
+        "name": "Dan Albas",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/AlbasDan_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/dan-albas(72029)",
+        "heroPhoto": "https://danalbasmp.ca/wp-content/uploads/sites/59/2023/07/Dan_HOC_2020-1.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "dan.albas@parl.gc.ca",
+          "phone": "",
+          "tollFree": "1-800-665-8711",
+          "fax": "250-707-2153",
+          "officeHours": "",
+          "constituencyOffice": "101-3731 Old Okanagan Hwy\nWest Kelowna, British Columbia\nV4T 0G7",
+          "website": "http://danalbasmp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/DanAlbas4OLWSK",
+            "twitter": "https://twitter.com/DanAlbas",
+            "instagram": "https://www.instagram.com/mpdanalbas/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Pitt Meadows—Maple Ridge": {
+      "name": "Pitt Meadows—Maple Ridge",
+      "mp": {
+        "name": "Marc Dalton",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DaltonMarc_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/marc-dalton(35909)",
+        "heroPhoto": "https://cpcparl.com/marcdalton/wp-content/uploads/sites/91/2025/08/2025-0609-BT-013-web-1024x717.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Marc.Dalton@parl.gc.ca",
+          "phone": "604-466-2761",
+          "tollFree": "",
+          "fax": "604-466-7593",
+          "officeHours": "",
+          "constituencyOffice": "22369 Lougheed Highway\nMaple Ridge, British Columbia\nV2X 2T3",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/MarcDalton4PMMR/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/marcdaltonpmmr/",
+            "linkedin": "https://ca.linkedin.com/in/marc-dalton-b6824a5a",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Port Moody—Coquitlam": {
+      "name": "Port Moody—Coquitlam",
+      "mp": {
+        "name": "Zoe Royer",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/RoyerZoe_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/zoe-royer(59294)",
+        "heroPhoto": "https://zoeroyer.libparl.ca/wp-content/uploads/sites/192/2025/09/MPRoyer-HoCspeech-June2025-e1769804800960.png",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "zoe.royer@parl.gc.ca",
+          "phone": "778-786-2595",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "2314 ST. JOHNS ST\nPort Moody, British Columbia\nV3H 0L7",
+          "website": "https://zoeroyer.libparl.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/ZoeRoyerMP/mentions/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/zoeroyer/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Prince George—Peace River—Northern Rockies": {
+      "name": "Prince George—Peace River—Northern Rockies",
+      "mp": {
+        "name": "Bob Zimmer",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ZimmerBob_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/bob-zimmer(72035)",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/princegeorgematters/pgc-images/politics-national/19-bob-zimmer-2019-all-candiates-forum.jpg;w=756",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "bob.zimmer@parl.gc.ca",
+          "phone": "250-787-1192",
+          "tollFree": "",
+          "fax": "250-787-1195",
+          "officeHours": "",
+          "constituencyOffice": "9916 100th avenue\nFort St. John, British Columbia\nV1J 1Y5",
+          "website": "http://www.bobzimmer.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/bobzimmercpc/",
+            "twitter": "https://x.com/bobzimmermp",
+            "instagram": "https://www.instagram.com/bob_zimmer_mp",
+            "linkedin": "",
+            "youtube": "http://www.youtube.com/@BobZimmerMP",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Richmond Centre—Marpole": {
+      "name": "Richmond Centre—Marpole",
+      "mp": {
+        "name": "Chak Au",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/AuChak_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/chak-au(123608)",
+        "heroPhoto": "https://i.cbc.ca/ais/27959fe3-b04c-4ec1-8767-cabaa87a121a,1768883469562/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C479%2C6720%2C3780%29%3B",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "chak.au@parl.gc.ca",
+          "phone": "604-235-8990",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "303-4940 Number 3 Rd\nRichmond, British Columbia\nV6X 3A5",
+          "website": "http://chakaump.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/Yes.ChakAu",
+            "twitter": "http://x.com/chakaurichmond",
+            "instagram": "https://www.instagram.com/chak.au/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Richmond East—Steveston": {
+      "name": "Richmond East—Steveston",
+      "mp": {
+        "name": "Parm Bains",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BainsParm_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/parm-bains(111067)",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/richmondnews/images/politics-national/parmbains.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "parm.bains@parl.gc.ca",
+          "phone": "604-257-2900",
+          "tollFree": "",
+          "fax": "604-257-2904",
+          "officeHours": "",
+          "constituencyOffice": "230-11331 Coppersmith Way\nRichmond, British Columbia\nV7A 5J9",
+          "website": "http://www.mpparmbains.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/Bains4Richmond/",
+            "twitter": "https://twitter.com/pbainsy",
+            "instagram": "https://www.instagram.com/bains4richmond",
+            "linkedin": "https://www.linkedin.com/in/parm-bains-95b61019a/",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saanich—Gulf Islands": {
+      "name": "Saanich—Gulf Islands",
+      "mp": {
+        "name": "Elizabeth May",
+        "party": "Green",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MayElizabeth_GP.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/elizabeth-may(2897)",
+        "heroPhoto": "https://i.cbc.ca/ais/1.3717074,1470945115000/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C38%2C3000%2C1687%29%3B",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "elizabeth.may@parl.gc.ca",
+          "phone": "250-657-2000",
+          "tollFree": "",
+          "fax": "250-657-2004",
+          "officeHours": "",
+          "constituencyOffice": "1-9711 Fourth street\nSidney, British Columbia\nV8L 2Y8",
+          "website": "http://elizabethmaymp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/ElizabethMaySGI/",
+            "twitter": "https://twitter.com/elizabethmay",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/user/canadiangreenparty",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Similkameen—South Okanagan—West Kootenay": {
+      "name": "Similkameen—South Okanagan—West Kootenay",
+      "mp": {
+        "name": "Helena Konanz",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/KonanzHelena_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/helena-konanz(105863)",
+        "heroPhoto": "https://www.castanet.net/content/2025/10/screenshot_2025-10-31_at_10.30.29am_p4242724.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "helena.konanz@parl.gc.ca",
+          "phone": "250-244-0505",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "101-196 Wade Ave W,\nPenticton, British Columbia\nV2A 1T6",
+          "website": "http://helenakonanzmp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/helenakonanzmp/",
+            "twitter": "https://x.com/HelenaKonanz",
+            "instagram": "https://www.instagram.com/helenakonanz",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Skeena—Bulkley Valley": {
+      "name": "Skeena—Bulkley Valley",
+      "mp": {
+        "name": "Ellis Ross",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/RossEllis_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/ellis-ross(123622)",
+        "heroPhoto": "https://cpcparl.com/ellisross/wp-content/uploads/sites/81/2025/06/Swearing-In-scaled.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "ellis.ross@parl.gc.ca",
+          "phone": "250-434-0456",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "112-4716 Lazelle avenue\nTerrace, British Columbia\nV8G 1T2",
+          "website": "http://ellisrossmp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/ChangeThatCanWin",
+            "twitter": "https://x.com/ellisbross",
+            "instagram": "https://www.instagram.com/rossellisb/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "South Surrey—White Rock": {
+      "name": "South Surrey—White Rock",
+      "mp": {
+        "name": "Ernie Klassen",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/KlassenErnie_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/ernie-klassen(123625)",
+        "heroPhoto": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/597939923_122157225350830337_2071865532332622885_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=hOP_yrSBn9MQ7kNvwFtI0pv&_nc_oc=AdqB0IesbShVuxsJPmIh5y2RVc9JqgOr3EO34oQuKW40sSe8SoPWxvE0CT0i2S27e74&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=LWV4pMnsX2Y9mj2ghs2gzg&_nc_ss=7a3a8&oh=00_Af2KZACpSHsW0afLZyatI8pLhAH3H2Sps721gaBQIhj5Lw&oe=69E56BA6",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "ernie.klassen@parl.gc.ca",
+          "phone": "604-678-0220",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "135-1959 152 street\nSurrey, British Columbia\nV4A 9E3",
+          "website": "https://www.ernieklassen.ca/",
+          "social": {
+            "facebook": "https://www.facebook.com/ernieklassensswr",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/ernieklassenmp",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/@Ernie.Klassen",
+            "tiktok": "",
+            "BlueSky": "https://bsky.app/profile/ernieklassen-mp.bsky.social"
+          }
+        }
+      }
+    },
+    "Surrey Centre": {
+      "name": "Surrey Centre",
+      "mp": {
+        "name": "The Honourable Randeep Sarai",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/SaraiRandeep_Lib.jpg",
+        "profileUrl": "",
+        "heroPhoto": "https://www.mcic.ca/uploads/bulletin/article-106-thumb-large.png?1771402025",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "randeep.sarai@parl.gc.ca",
+          "phone": "604-589-2441",
+          "tollFree": "",
+          "fax": "604-589-2445",
+          "officeHours": "",
+          "constituencyOffice": "170-10362 King George Boulevard\nSurrey, British Columbia\nV3T 2W5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "https://x.com/randeepssarai",
+            "instagram": "",
+            "linkedin": "https://ca.linkedin.com/in/randeep-sarai-68ba1215",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Surrey Newton": {
+      "name": "Surrey Newton",
+      "mp": {
+        "name": "Sukh Dhaliwal",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DhaliwalSukh_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/sukh-dhaliwal(31098)",
+        "heroPhoto": "https://images.squarespace-cdn.com/content/v1/66d0bbdd19cea60a39b423b4/8031cd5d-7da9-4d77-bc88-7ab5f508ac88/sukh+daughter.jpeg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "sukh.dhaliwal@parl.gc.ca",
+          "phone": "604-598-2200",
+          "tollFree": "",
+          "fax": "604-598-2212",
+          "officeHours": "",
+          "constituencyOffice": "202-12992 76th avenue\nSurrey, British Columbia\nV3W 2V6",
+          "website": "http://www.sukhdhaliwalmp.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/sukhdhaliwalmp/",
+            "twitter": "https://x.com/sukhdhaliwal?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+            "instagram": "https://www.instagram.com/sukhdhaliwalmp/?hl=en",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver Centre": {
+      "name": "Vancouver Centre",
+      "mp": {
+        "name": "The Honourable Hedy Fry",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/FryHedy_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/hedy-fry(1589)",
+        "heroPhoto": "https://www.rcsi.com/dublin/-/media/feature/news/dublin/2019/dr-hedy-fry.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "hedy.fry@parl.gc.ca",
+          "phone": "604-666-0135",
+          "tollFree": "",
+          "fax": "604-666-0114",
+          "officeHours": "",
+          "constituencyOffice": "112-1030 Denman street\nVancouver, British Columbia\nV6G 2M6",
+          "website": "http://hedyfry.com",
+          "social": {
+            "facebook": "https://www.facebook.com/drhedyfry/",
+            "twitter": "https://twitter.com/HedyFry",
+            "instagram": "https://www.instagram.com/hedyfry/",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/channel/UCtfC64PDTXWCPLpQ66IZ94g",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver East": {
+      "name": "Vancouver East",
+      "mp": {
+        "name": "Jenny Kwan",
+        "party": "NDP",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/KwanJenny_NDP.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/jenny-kwan(89346)",
+        "heroPhoto": "https://vancouver.citynews.ca/wp-content/blogs.dir/sites/9/2023/06/20230602160640-647a53df21aaffa043963d74jpeg.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "jenny.kwan@parl.gc.ca",
+          "phone": "604-775-5800",
+          "tollFree": "",
+          "fax": "604-775-5811",
+          "officeHours": "",
+          "constituencyOffice": "103-1750 10th Ave E\nVancouver, British Columbia\nV5N 5K4",
+          "website": "http://www.jennykwanndp.ca",
+          "social": {
+            "facebook": "https://bg-bg.facebook.com/JennyKwanVanEast",
+            "twitter": "https://x.com/JennyKwanBC",
+            "instagram": "https://www.instagram.com/jennykwanmp/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver Fraserview—South Burnaby": {
+      "name": "Vancouver Fraserview—South Burnaby",
+      "mp": {
+        "name": "The Honourable Gregor Robertson",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/RobertsonGregor_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/gregor-robertson(123644)",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/via/howe/gregordantphoto.jpg;w=960",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "gregor.robertson@parl.gc.ca",
+          "phone": "236-203-2211",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "360 - 3150 54th Ave E,\nVancouver, British Columbia\nV5S 1Z1",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/gregorrobertson/",
+            "twitter": "https://x.com/gregorrobertson",
+            "instagram": "https://www.instagram.com/gregor.robertson/",
+            "linkedin": "https://ca.linkedin.com/in/gregor-robertson",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver Granville": {
+      "name": "Vancouver Granville",
+      "mp": {
+        "name": "Taleeb Noormohamed",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/NoormohamedTaleeb_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/taleeb-noormohamed(72023)",
+        "heroPhoto": "https://images.squarespace-cdn.com/content/v1/5266d49be4b0bc5cd29ee8e0/1696020665776-6SRY8GDRZ40RPRKOTLDD/taleebnoormohamed-dantoulgoet.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "taleeb.noormohamed@parl.gc.ca",
+          "phone": "604-717-1140",
+          "tollFree": "",
+          "fax": "604-717-1144",
+          "officeHours": "",
+          "constituencyOffice": "100-3077 Granville street\nVancouver, British Columbia\nV6H 3J9",
+          "website": "http://www.taleeb.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/taleebnoormohamed/",
+            "twitter": "https://x.com/taleeb",
+            "instagram": "https://www.instagram.com/taleebnoormohamed",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver Kingsway": {
+      "name": "Vancouver Kingsway",
+      "mp": {
+        "name": "Don Davies",
+        "party": "NDP",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DaviesDon_NDP.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/don-davies(59325)",
+        "heroPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQytrohC6OnHYl9Tbk5o5INzMFUUpKzV3iBgA_tIRB8MDOnchVME70F6tAyXa-7-DObY49WE5d04Q6Z37vIcHbN1LtjpS5iIypRCUlN4VYskqI8Tw&s=10&ec=121633959",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "don.davies@parl.gc.ca",
+          "phone": "604-775-6263",
+          "tollFree": "",
+          "fax": "604-775-6284",
+          "officeHours": "",
+          "constituencyOffice": "2951 Kingsway Avenue\nVancouver, British Columbia\nV5R 5J4",
+          "website": "http://www.dondavies.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/dondavies/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/mpdondavies/",
+            "linkedin": "",
+            "youtube": "https://www.youtube.com/dondaviesndp",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver Quadra": {
+      "name": "Vancouver Quadra",
+      "mp": {
+        "name": "Wade Grant",
+        "party": "NDP",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GrantWade_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/wade-grant(123653)",
+        "heroPhoto": "https://images-dh-production-baselayer.dailyhive.com/uploads/2025/04/wade-grant-liberal-canada-f.jpg?format=auto&width=988",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "wade.grant@parl.gc.ca",
+          "phone": "778-331-1245",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "4440 West 10th Avenue\nVancouver, British Columbia\nV6R 2H9",
+          "website": "http://wadegrant.libparl.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/wadegrantvancouver",
+            "twitter": "https://x.com/WadeGrant",
+            "instagram": "https://www.instagram.com/wadegrantvancouver/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vernon—Lake Country—Monashee": {
+      "name": "Vernon—Lake Country—Monashee",
+      "mp": {
+        "name": "Scott Anderson",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/AndersonScott_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/scott-anderson(89259)",
+        "heroPhoto": "https://vernonmorningstar.com/wp-content/uploads/sites/4/2025/12/41171655_web1_250501-vms-scott1.jpg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "scott.anderson@parl.gc.ca",
+          "phone": "250-220-0320",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "1-3101 29th St\nVernon, British Columbia\nV1T 5A8",
+          "website": "",
+          "social": {
+            "facebook": "https://www.facebook.com/AndersonScott.ca/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/scottssa/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Victoria": {
+      "name": "Victoria",
+      "mp": {
+        "name": "Will Greaves",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GreavesWilfrid_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/will-greaves(123665)",
+        "heroPhoto": "https://willgreaves.ca/wp-content/uploads/2025/02/D4E5D457-8994-40A7-BB89-F6C41F9D6D48-scaled.jpeg",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "will.greaves@parl.gc.ca",
+          "phone": "250-363-3600",
+          "tollFree": "1-866-757-4762",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "210-852 Fort St\nVictoria, British Columbia\nV8W 1H8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "https://x.com/WillWJGreaves",
+            "instagram": "https://www.instagram.com/willgreavesforvictoria/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "West Vancouver—Sunshine Coast—Sea to Sky Country": {
+      "name": "West Vancouver—Sunshine Coast—Sea to Sky Country",
+      "mp": {
+        "name": "Patrick Weiler",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/WeilerPatrick_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/patrick-weiler(105918)",
+        "heroPhoto": "https://www.vmcdn.ca/f/files/piquenewsmagazine/images/politics-national/west-vancouver-sunshine-coast-sea-to-sky-country-mp-patrick-weiler.JPG;w=1200;h=800;mode=crop",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Patrick.Weiler@parl.gc.ca",
+          "phone": "604-913-2660",
+          "tollFree": "",
+          "fax": "604-913-2664",
+          "officeHours": "",
+          "constituencyOffice": "6367 Bruce street West\nWest Vancouver, British Columbia\nV7W 2G5",
+          "website": "http://patrickweiler.libparl.ca",
+          "social": {
+            "facebook": "https://www.facebook.com/PatrickBWeiler/",
+            "twitter": "https://twitter.com/PatrickBWeiler",
+            "instagram": "https://www.instagram.com/patrickbweiler/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    }
+  }
+}

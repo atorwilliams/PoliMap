@@ -4,13 +4,23 @@ import { findFederalRidingAt } from './federalRidings.js';
 import { pointInFeature, loadMunicipalData, loadRidingData, loadFederalRidingData } from './data.js';
 
 export const MUNICIPAL_COLORS = {
-  CITY:     { label: 'City',                   color: '#C0392B' },
-  TOWN:     { label: 'Town',                   color: '#8E44AD' },
-  VILLAGE:  { label: 'Village',                color: '#2980B9' },
-  SVILLAGE: { label: 'Summer Village',         color: '#16A085' },
-  RURAL:    { label: 'Municipal District',     color: '#5B8C5A' },
-  INDIAN:   { label: 'First Nations Reserve',  color: '#E67E22' },
-  URBSERV:  { label: 'Urban Service Area',     color: '#27AE60' },
+  CITY:                { label: 'City',                   color: '#C0392B' },
+  TOWN:                { label: 'Town',                   color: '#8E44AD' },
+  VILLAGE:             { label: 'Village',                color: '#2980B9' },
+  HAMLET:              { label: 'Hamlet',                 color: '#F0A500' },
+  SVILLAGE:            { label: 'Summer Village',         color: '#16A085' },
+  RURAL:               { label: 'Rural Municipality',     color: '#5B8C5A' },
+  INDIAN:              { label: 'First Nations Reserve',  color: '#E67E22' },
+  URBSERV:             { label: 'Urban Service Area',     color: '#27AE60' },
+  DISTRICT:            { label: 'District',               color: '#5B8C5A' },
+  RESORT:              { label: 'Resort Village',         color: '#16A085' },
+  REGIONAL:            { label: 'Regional District',      color: '#8B7355' },
+  NORTHERN_TOWN:       { label: 'Northern Town',          color: '#1ABC9C' },
+  NORTHERN_VILLAGE:    { label: 'Northern Village',       color: '#48C9B0' },
+  NORTHERN_SETTLEMENT: { label: 'Northern Settlement',    color: '#76D7C4' },
+  NORTHERN_COMMUNITY:  { label: 'Northern Community',     color: '#A3E4D7' },
+  LGD:                 { label: 'Local Government District', color: '#8B7355' },
+  MUNICIPALITY:        { label: 'Municipality',           color: '#9B59B6' },
 };
 
 export const HAMLET_COLOR = '#F0A500';
@@ -29,7 +39,7 @@ export function getMunicipalByType(type) {
     .sort((a, b) => a.properties.geonameTitled.localeCompare(b.properties.geonameTitled));
 }
 
-const POLYGON_FILES = [
+const POLYGON_FILES_DEFAULT = [
   { file: 'CITY',     type: 'CITY'     },
   { file: 'TOWN',     type: 'TOWN'     },
   { file: 'VILLAGE',  type: 'VILLAGE'  },
@@ -87,19 +97,27 @@ function addReserveHatchPattern(map) {
 
 export async function initMunicipal(map, config) {
   _config = config;
+
+  // Single-file mode (e.g. BC) — one GeoJSON with all municipalities
+  if (config.municipalFile) {
+    return initMunicipalSingleFile(map, config);
+  }
+
   addReserveHatchPattern(map);
 
   const dataPath = config.municipalDataPath;
+  const polygonFiles = config.municipalPolygonFiles || POLYGON_FILES_DEFAULT;
+  const geonameProp = config.municipalGeonameProperty || 'GEONAME';
   const merged = { type: 'FeatureCollection', features: [] };
 
-  await Promise.all(POLYGON_FILES.map(async ({ file, type }) => {
+  await Promise.all(polygonFiles.map(async ({ file, type }) => {
     try {
       const res = await fetch(`${dataPath}${file}.json`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       data.features.forEach(f => {
         f.properties.municipalType = type;
-        f.properties.geonameTitled = toTitleCase(f.properties.GEONAME || '');
+        f.properties.geonameTitled = f.properties.geonameTitled || toTitleCase(f.properties[geonameProp] || '');
         merged.features.push(f);
       });
     } catch (err) {
@@ -127,7 +145,7 @@ export async function initMunicipal(map, config) {
     id: 'municipal-highlight',
     type: 'fill',
     source: 'municipal-source',
-    filter: ['==', ['get', 'GEONAME'], ''],
+    filter: ['==', ['get', geonameProp], ''],
     layout: { visibility: 'none' },
     paint: { 'fill-color': '#ffffff', 'fill-opacity': 0.5 }
   });
@@ -234,7 +252,7 @@ export async function initMunicipal(map, config) {
   }
 
   // ── Click interactions ────────────────────────────────────────────────────
-  const TYPE_PRIORITY = { CITY: 7, TOWN: 6, VILLAGE: 5, SVILLAGE: 4, URBSERV: 3, INDIAN: 2, RURAL: 1 };
+  const TYPE_PRIORITY = { CITY: 7, TOWN: 6, VILLAGE: 5, SVILLAGE: 4, URBSERV: 3, INDIAN: 2, RURAL: 1, DISTRICT: 3, RESORT: 4 };
 
   map.on('click', 'municipal-fill', (e) => {
     const all = map.queryRenderedFeatures(e.point, { layers: ['municipal-fill'] });
@@ -245,15 +263,16 @@ export async function initMunicipal(map, config) {
     );
 
     const props = best.properties;
-    const name = toTitleCase(props.GEONAME || 'Unknown');
+    const geoname = props[geonameProp] || '';
+    const name = props.geonameTitled || toTitleCase(geoname) || 'Unknown';
     const typeLabel = MUNICIPAL_COLORS[props.municipalType]?.label || '';
     const typeColor = MUNICIPAL_COLORS[props.municipalType]?.color || '#999';
     const { lng, lat } = e.lngLat;
 
-    map.setFilter('municipal-highlight', ['==', ['get', 'GEONAME'], props.GEONAME]);
+    map.setFilter('municipal-highlight', ['==', ['get', geonameProp], geoname]);
     map.setLayoutProperty('municipal-highlight', 'visibility', 'visible');
 
-    const fullFeature = municipalPolygonFeatures.find(f => f.properties.GEONAME === props.GEONAME);
+    const fullFeature = municipalPolygonFeatures.find(f => f.properties[geonameProp] === geoname);
     if (fullFeature) {
       const bounds = getBounds(fullFeature);
       map.fitBounds(bounds, { padding: 80, maxZoom: Math.min(13, map.getZoom()), duration: 800, essential: true });
@@ -264,11 +283,11 @@ export async function initMunicipal(map, config) {
     const isReserve = props.municipalType === 'INDIAN';
 
     showMunicipalSidebar({
-      geoname: props.GEONAME, name, typeLabel, typeColor,
+      geoname, name, typeLabel, typeColor,
       provincialRiding, federalRiding, isReserve,
       config,
       onClose: () => {
-        map.setFilter('municipal-highlight', ['==', ['get', 'GEONAME'], '']);
+        map.setFilter('municipal-highlight', ['==', ['get', geonameProp], '']);
         map.setLayoutProperty('municipal-highlight', 'visibility', 'none');
       }
     });
@@ -276,6 +295,211 @@ export async function initMunicipal(map, config) {
 
   map.on('mouseenter', 'municipal-fill', () => { map.getCanvas().style.cursor = 'pointer'; });
   map.on('mouseleave', 'municipal-fill', () => { map.getCanvas().style.cursor = ''; });
+}
+
+async function initMunicipalSingleFile(map, config) {
+  const nameProp = config.municipalNameProperty || 'ADMIN_AREA_ABBREVIATION';
+  const idProp   = config.municipalIdProperty   || 'LGL_ADMIN_AREA_ID';
+  const typeProp = config.municipalTypeProperty || null;
+  const baseColor = config.municipalColor || '#2980B9';
+
+  // Build MapLibre color expression — type-based if typeProp is set
+  function colorExpr(opacity) {
+    if (!typeProp) return baseColor;
+    return ['match', ['get', typeProp],
+      ...Object.entries(MUNICIPAL_COLORS).flatMap(([k, { color }]) => [k, color]),
+      baseColor
+    ];
+  }
+
+  try {
+    const res = await fetch(config.municipalFile);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const geojson = await res.json();
+
+    municipalPolygonFeatures = geojson.features;
+    map.addSource('municipal-source', { type: 'geojson', data: geojson, generateId: true });
+
+    map.addLayer({
+      id: 'municipal-fill',
+      type: 'fill',
+      source: 'municipal-source',
+      layout: { visibility: 'none' },
+      paint: { 'fill-color': colorExpr(), 'fill-opacity': 0.25 }
+    });
+
+    // Placeholder hatch layer (required by layer registry in main.js)
+    map.addLayer({
+      id: 'municipal-fill-hatch',
+      type: 'fill',
+      source: 'municipal-source',
+      filter: ['==', ['get', idProp], ''],
+      layout: { visibility: 'none' },
+      paint: { 'fill-opacity': 0 }
+    });
+
+    map.addLayer({
+      id: 'municipal-highlight',
+      type: 'fill',
+      source: 'municipal-source',
+      filter: ['==', ['get', idProp], ''],
+      layout: { visibility: 'none' },
+      paint: { 'fill-color': '#ffffff', 'fill-opacity': 0.5 }
+    });
+
+    map.addLayer({
+      id: 'municipal-outline',
+      type: 'line',
+      source: 'municipal-source',
+      layout: { visibility: 'none' },
+      paint: { 'line-color': colorExpr(), 'line-width': 1.2, 'line-opacity': 0.85 }
+    });
+
+    const labelLayout = {
+      'text-field': ['get', nameProp],
+      'text-size': ['interpolate', ['linear'], ['zoom'], 7, 10, 12, 13],
+      'text-font': ['Noto Sans Regular'],
+      'text-max-width': 8,
+      'text-anchor': 'center',
+      'symbol-placement': 'point',
+    };
+    const labelPaint = {
+      'text-color': '#111111',
+      'text-halo-color': 'rgba(255,255,255,0.9)',
+      'text-halo-width': 2,
+    };
+
+    map.addLayer({
+      id: 'municipal-label-rural',
+      type: 'symbol',
+      source: 'municipal-source',
+      minzoom: 7,
+      layout: { visibility: 'none', ...labelLayout },
+      paint: labelPaint,
+    });
+
+    // Placeholder urban label (required by layer registry)
+    map.addLayer({
+      id: 'municipal-label-urban',
+      type: 'symbol',
+      source: 'municipal-source',
+      filter: ['==', ['get', idProp], ''],
+      minzoom: 9,
+      layout: { visibility: 'none', ...labelLayout },
+      paint: labelPaint,
+    });
+
+    const SF_TYPE_PRIORITY = { CITY: 7, TOWN: 6, VILLAGE: 5, NORTHERN_TOWN: 5, NORTHERN_VILLAGE: 4, NORTHERN_SETTLEMENT: 3, RESORT: 4, SVILLAGE: 4, URBSERV: 3, INDIAN: 2, RURAL: 1 };
+
+    // Click interaction
+    map.on('click', 'municipal-fill', (e) => {
+      const all = map.queryRenderedFeatures(e.point, { layers: ['municipal-fill'] });
+      if (!all.length) return;
+      const best = all.reduce((a, b) =>
+        (SF_TYPE_PRIORITY[a.properties[typeProp]] || 0) >= (SF_TYPE_PRIORITY[b.properties[typeProp]] || 0) ? a : b
+      );
+      const props = best.properties;
+      const name     = props[nameProp] || 'Unknown';
+      const id       = props[idProp];
+      const district = props.ADMIN_AREA_GROUP_NAME || '';
+      const { lng, lat } = e.lngLat;
+
+      const mtype      = typeProp ? props[typeProp] : null;
+      const typeLabel  = MUNICIPAL_COLORS[mtype]?.label || '';
+      const typeColor  = MUNICIPAL_COLORS[mtype]?.color || baseColor;
+
+      map.setFilter('municipal-highlight', ['==', ['get', idProp], id]);
+      map.setLayoutProperty('municipal-highlight', 'visibility', 'visible');
+
+      const fullFeature = municipalPolygonFeatures.find(f => f.properties[idProp] === id);
+      if (fullFeature) {
+        const bounds = getBounds(fullFeature);
+        map.fitBounds(bounds, { padding: 80, maxZoom: Math.min(13, map.getZoom()), duration: 800, essential: true });
+      }
+
+      const provincialRiding = findProvincialRidingAt(lng, lat);
+      const federalRiding    = findFederalRidingAt(lng, lat);
+
+      showMunicipalSidebarSimple({
+        name, district, typeLabel, typeColor, provincialRiding, federalRiding, config,
+        onClose: () => {
+          map.setFilter('municipal-highlight', ['==', ['get', idProp], '']);
+          map.setLayoutProperty('municipal-highlight', 'visibility', 'none');
+        }
+      });
+    });
+
+    map.on('mouseenter', 'municipal-fill', () => { map.getCanvas().style.cursor = 'pointer'; });
+    map.on('mouseleave', 'municipal-fill', () => { map.getCanvas().style.cursor = ''; });
+
+  } catch (err) {
+    console.warn('[Municipal] Failed to load single-file municipal:', err);
+  }
+}
+
+function showMunicipalSidebarSimple({ name, district, typeLabel, typeColor, provincialRiding, federalRiding, config, onClose }) {
+  const color = typeColor || '#2980B9';
+  if (window.currentSidebar) {
+    window.currentSidebar.remove();
+    window.currentSidebar = null;
+  }
+
+  const sidebar = document.createElement('div');
+  sidebar.className = 'member-detail-sidebar';
+
+  const ridingRow = (label, riding, elId) => `
+    <div class="contact-item">
+      <strong>${label} Riding</strong>
+      <p>${riding || '<span style="color:#555;">Not found</span>'}</p>
+      ${riding ? `<p id="${elId}" style="color:#888; font-size:0.85em; margin:2px 0 0;"></p>` : ''}
+    </div>`;
+
+  sidebar.innerHTML = `
+    <button id="sidebar-close-btn">×</button>
+    <div style="height:8px; background:${color};"></div>
+    <div class="member-info" style="padding-top:56px;">
+      <h3>${name}</h3>
+      ${typeLabel ? `<p class="riding">${typeLabel}</p>` : ''}
+      ${district && district !== name ? `<p class="riding" style="opacity:0.6;">${district}</p>` : ''}
+      <div class="contact-details">
+        ${ridingRow('Provincial', provincialRiding, 'muni-provincial-member')}
+        ${ridingRow('Federal', federalRiding, 'muni-federal-member')}
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(sidebar);
+
+  document.getElementById('sidebar-close-btn').addEventListener('click', () => {
+    sidebar.remove();
+    window.currentSidebar = null;
+    document.body.classList.remove('sidebar-open');
+    if (onClose) onClose();
+  });
+
+  setTimeout(() => sidebar.classList.add('open'), 10);
+  document.body.classList.add('sidebar-open');
+  window.currentSidebar = sidebar;
+
+  // Load member names for the ridings
+  Promise.all([
+    provincialRiding ? loadRidingData().catch(() => null) : Promise.resolve(null),
+    federalRiding    ? loadFederalRidingData().catch(() => null) : Promise.resolve(null),
+  ]).then(([provData, fedData]) => {
+    const memberKey        = config?.memberKey        || 'mla';
+    const federalMemberKey = config?.federalMemberKey || 'mp';
+
+    if (provData && provincialRiding) {
+      const member = provData.ridings?.[provincialRiding]?.[memberKey];
+      const el = document.getElementById('muni-provincial-member');
+      if (el && member?.name) el.textContent = `${member.name}${member.party ? ` · ${member.party}` : ''}`;
+    }
+    if (fedData && federalRiding) {
+      const mp = fedData.ridings?.[federalRiding]?.[federalMemberKey];
+      const el = document.getElementById('muni-federal-member');
+      if (el && mp?.name) el.textContent = `${mp.name}${mp.party ? ` · ${mp.party}` : ''}`;
+    }
+  });
 }
 
 export function showMunicipalTypeSidebar(type, label, color, map) {

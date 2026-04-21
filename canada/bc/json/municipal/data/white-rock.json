@@ -1,0 +1,24 @@
+{
+  "name": "White Rock",
+  "geoname": "White Rock",
+  "type": "CITY",
+  "mayor": {
+    "name": "",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [],
+    "phone": "",
+    "email": ""
+  },
+  "council": [],
+  "appointed": [],
+  "electionDate": "",
+  "nextElection": "",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  }
+}

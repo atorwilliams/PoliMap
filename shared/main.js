@@ -21,9 +21,10 @@ export async function initMap(config) {
 
   // Build layer registry based on config
   const layers = buildLayers(config);
-  let activeLayer = 'provincial';
 
   document.addEventListener('DOMContentLoaded', async () => {
+    const activeBtn = document.querySelector('.layer-btn.active');
+    let activeLayer = activeBtn?.dataset.layer || 'provincial';
     const map = new maplibregl.Map({
       container: 'map',
       style: 'https://tiles.openfreemap.org/styles/liberty',
@@ -59,7 +60,7 @@ export async function initMap(config) {
     initFederalInteractions(map, config);
     initSearch(map, config);
 
-    if (config.hasMunicipal) populateMunicipalLegend(map);
+    if (config.hasMunicipal) populateMunicipalLegend(map, config);
     if (config.hasRCMP) populateRCMPLegend();
 
     setTimeout(() => {
@@ -70,6 +71,12 @@ export async function initMap(config) {
       const debouncedRefresh = debounce(refreshLegend, 300);
       map.on('zoom', debouncedRefresh);
       map.on('moveend', debouncedRefresh);
+
+      map.on('zoomend', () => {
+        if (layers[activeLayer]?.updateVisibility) {
+          layers[activeLayer].updateVisibility(map, config);
+        }
+      });
 
       // Layer switching
       document.querySelectorAll('.layer-btn').forEach(btn => {
@@ -244,21 +251,27 @@ function populateRCMPLegend() {
   ).join('');
 }
 
-function populateMunicipalLegend(map) {
+function populateMunicipalLegend(map, config) {
   const container = document.getElementById('municipal-legend-items');
   if (!container) return;
 
+  // Type-based legend, filtered to the province's active types
+  const allowedTypes = config.municipalTypes || null;
+  const colorEntries = Object.entries(MUNICIPAL_COLORS)
+    .filter(([type]) => !allowedTypes || allowedTypes.includes(type));
+
+  const hamletInEntries = colorEntries.some(([type]) => type === 'HAMLET');
   container.innerHTML =
-    Object.entries(MUNICIPAL_COLORS).map(([type, { label, color }]) => `
+    colorEntries.map(([type, { label, color }]) => `
       <div class="legend-item legend-item-clickable" data-type="${type}" data-label="${label}" data-color="${color}">
         <span class="legend-swatch" style="background:${color};"></span>
         <span>${label}</span>
       </div>`
     ).join('') +
-    `<div class="legend-item legend-item-clickable" data-type="HAMLET" data-label="Hamlet" data-color="${HAMLET_COLOR}">
+    (hamletInEntries ? '' : `<div class="legend-item legend-item-clickable" data-type="HAMLET" data-label="Hamlet" data-color="${HAMLET_COLOR}">
       <span class="legend-dot" style="background:${HAMLET_COLOR};"></span>
       <span>Hamlet</span>
-    </div>`;
+    </div>`);
 
   container.querySelectorAll('.legend-item-clickable').forEach(item => {
     item.addEventListener('click', () => {

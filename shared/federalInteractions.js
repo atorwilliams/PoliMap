@@ -34,6 +34,7 @@ export function initFederalInteractions(map, config) {
     currentlyHighlightedFederalRiding = ridingName;
 
     showRidingPreview(map, ridingName, e.lngLat, 'federal', config, () => {
+      if (currentlyHighlightedFederalRiding !== ridingName) return;
       map.setLayoutProperty('federal-highlight', 'visibility', 'none');
       map.setFilter('federal-highlight', ['==', ['get', 'name'], '']);
       currentlyHighlightedFederalRiding = null;

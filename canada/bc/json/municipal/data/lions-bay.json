@@ -1,0 +1,24 @@
+{
+  "name": "Lions Bay",
+  "geoname": "Lions Bay",
+  "type": "VILLAGE",
+  "mayor": {
+    "name": "",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [],
+    "phone": "",
+    "email": ""
+  },
+  "council": [],
+  "appointed": [],
+  "electionDate": "",
+  "nextElection": "",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  }
+}

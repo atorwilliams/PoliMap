@@ -1,0 +1,24 @@
+{
+  "name": "Harrison Hot Springs",
+  "geoname": "Harrison Hot Springs",
+  "type": "VILLAGE",
+  "mayor": {
+    "name": "",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [],
+    "phone": "",
+    "email": ""
+  },
+  "council": [],
+  "appointed": [],
+  "electionDate": "",
+  "nextElection": "",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Regional District of North Okanagan",
+  "geoname": "RDNO",
+  "type": "Regional District",
+  "mayor": {
+    "name": "",
+    "portrait": "",
+    "since": "",
+    "title": "Chair",
+    "committees": [],
+    "phone": "",
+    "email": ""
+  },
+  "council": [],
+  "appointed": [],
+  "electionDate": "",
+  "nextElection": "",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  }
+}

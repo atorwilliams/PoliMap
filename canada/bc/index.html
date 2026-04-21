@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>British Columbia – PoliMap</title>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/landing.css">
+</head>
+<body>
+  <header class="top-banner">
+    <div class="banner-container">
+      <a href="/" class="logo" style="text-decoration:none;">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </a>
+
+      <nav class="main-nav">
+        <!-- Province switcher -->
+        <div class="nav-province-wrap" id="province-wrap">
+          <button class="nav-province-btn" id="province-btn">
+            🇨🇦 British Columbia <span class="chevron">▾</span>
+          </button>
+          <div class="nav-province-dropdown">
+            <a class="province-drop-item" href="/canada/alberta/">Alberta</a>
+            <span class="province-drop-item current">British Columbia</span>
+            <div class="province-drop-divider"></div>
+            <a class="province-drop-item" href="/canada/sask/">Saskatchewan</a>
+            <a class="province-drop-item" href="/canada/manitoba/">Manitoba</a>
+            <span class="province-drop-item disabled">Ontario <small style="opacity:0.5;">soon</small></span>
+            <span class="province-drop-item disabled">Québec <small style="opacity:0.5;">soon</small></span>
+            <div class="province-drop-divider"></div>
+            <a class="province-drop-item" href="/canada/">All provinces →</a>
+          </div>
+        </div>
+
+        <a class="nav-btn" href="/contribute.html">Contribute</a>
+        <a class="nav-btn" href="/donate.html">Donate</a>
+        <a class="nav-btn" href="https://polichan.org" target="_blank">Discussion</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="map"></div>
+
+  <!-- Bottom-left control stack -->
+  <div id="map-controls-stack">
+
+    <!-- Legend -->
+    <div id="legend" class="map-control legend-control">
+      <div class="control-header">Legend</div>
+      <div id="legend-parties"></div>
+    </div>
+    <div id="municipal-legend" class="map-control legend-control" style="display:none;">
+      <div class="control-header">Municipal</div>
+      <div id="municipal-legend-items"></div>
+    </div>
+    <div id="rcmp-legend" class="map-control legend-control" style="display:none;">
+      <div class="control-header">RCMP E Division</div>
+      <div id="rcmp-legend-items"></div>
+    </div>
+
+    <!-- Layers -->
+    <div id="layer-toggle" class="map-control layers-control">
+      <div class="control-header">Layers</div>
+      <button class="layer-btn active" data-layer="provincial">Provincial (MLAs)</button>
+      <button class="layer-btn" data-layer="federal">Federal (MPs)</button>
+      <button class="layer-btn" data-layer="municipal">Municipal</button>
+    </div>
+
+  </div>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+
+  <script type="module">
+    import config from './config.js';
+    import { initMap } from '/shared/main.js';
+    initMap(config);
+  </script>
+
+  <script>
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+
+    const wrap = document.getElementById('province-wrap');
+    const btn  = document.getElementById('province-btn');
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      wrap.classList.toggle('open');
+    });
+    document.addEventListener('click', () => wrap.classList.remove('open'));
+  </script>
+</body>
+</html>

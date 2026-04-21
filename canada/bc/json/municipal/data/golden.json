@@ -1,0 +1,24 @@
+{
+  "name": "Golden",
+  "geoname": "Golden",
+  "type": "TOWN",
+  "mayor": {
+    "name": "",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [],
+    "phone": "",
+    "email": ""
+  },
+  "council": [],
+  "appointed": [],
+  "electionDate": "",
+  "nextElection": "",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  }
+}

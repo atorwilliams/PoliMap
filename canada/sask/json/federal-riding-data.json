@@ -1,0 +1,441 @@
+{
+  "parties": {
+    "Conservative": {
+      "color": "#003DA5"
+    },
+    "Liberal": {
+      "color": "#D71920"
+    },
+    "NDP": {
+      "color": "#F37021"
+    },
+    "Green": {
+      "color": "#3D9B35"
+    },
+    "Independent": {
+      "color": "#808080"
+    }
+  },
+  "ridings": {
+    "Battlefords—Lloydminster—Meadow Lake": {
+      "name": "Battlefords—Lloydminster—Meadow Lake",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Carlton Trail—Eagle Creek": {
+      "name": "Carlton Trail—Eagle Creek",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Desnethé—Missinippi—Churchill River": {
+      "name": "Desnethé—Missinippi—Churchill River",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Moose Jaw—Lake Centre—Lanigan": {
+      "name": "Moose Jaw—Lake Centre—Lanigan",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Prince Albert": {
+      "name": "Prince Albert",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina—Lewvan": {
+      "name": "Regina—Lewvan",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina—Qu'Appelle": {
+      "name": "Regina—Qu'Appelle",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina—Wascana": {
+      "name": "Regina—Wascana",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon South": {
+      "name": "Saskatoon South",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon—University": {
+      "name": "Saskatoon—University",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon West": {
+      "name": "Saskatoon West",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Souris—Moose Mountain": {
+      "name": "Souris—Moose Mountain",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Swift Current—Grasslands—Kindersley": {
+      "name": "Swift Current—Grasslands—Kindersley",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Yorkton—Melville": {
+      "name": "Yorkton—Melville",
+      "mp": {
+        "name": "",
+        "party": "Conservative",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    }
+  }
+}

@@ -25,8 +25,8 @@
       "partyColor": "#F37021",
       "federalSeats": 43,
       "provincialSeats": 93,
-      "mapUrl": null,
-      "available": false
+      "mapUrl": "/canada/bc/",
+      "available": true
     },
     "47": {
       "name": "Saskatchewan",
@@ -36,8 +36,8 @@
       "partyColor": "#007DC3",
       "federalSeats": 14,
       "provincialSeats": 61,
-      "mapUrl": null,
-      "available": false
+      "mapUrl": "/canada/sask/",
+      "available": true
     },
     "46": {
       "name": "Manitoba",
@@ -47,8 +47,8 @@
       "partyColor": "#F37021",
       "federalSeats": 14,
       "provincialSeats": 57,
-      "mapUrl": null,
-      "available": false
+      "mapUrl": "/canada/manitoba/",
+      "available": true
     },
     "35": {
       "name": "Ontario",

@@ -1,0 +1,24 @@
+{
+  "name": "Port Edward",
+  "geoname": "Port Edward",
+  "type": "DISTRICT",
+  "mayor": {
+    "name": "",
+    "portrait": "",
+    "since": "",
+    "title": "Mayor",
+    "committees": [],
+    "phone": "",
+    "email": ""
+  },
+  "council": [],
+  "appointed": [],
+  "electionDate": "",
+  "nextElection": "",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  }
+}

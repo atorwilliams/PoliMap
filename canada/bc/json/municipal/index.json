@@ -1,0 +1,754 @@
+{
+  "Dawson Creek": {
+    "slug": "dawson-creek",
+    "type": "CITY"
+  },
+  "Fort St John": {
+    "slug": "fort-st-john",
+    "type": "CITY"
+  },
+  "Hudson's Hope": {
+    "slug": "hudsons-hope",
+    "type": "DISTRICT"
+  },
+  "Pouce Coupe": {
+    "slug": "pouce-coupe",
+    "type": "VILLAGE"
+  },
+  "Taylor": {
+    "slug": "taylor",
+    "type": "DISTRICT"
+  },
+  "Daajing Giids": {
+    "slug": "daajing-giids",
+    "type": "VILLAGE"
+  },
+  "Masset": {
+    "slug": "masset",
+    "type": "VILLAGE"
+  },
+  "Port Clements": {
+    "slug": "port-clements",
+    "type": "VILLAGE"
+  },
+  "Port Edward": {
+    "slug": "port-edward",
+    "type": "DISTRICT"
+  },
+  "Prince Rupert": {
+    "slug": "prince-rupert",
+    "type": "CITY"
+  },
+  "Kelowna": {
+    "slug": "kelowna",
+    "type": "CITY"
+  },
+  "Burns Lake": {
+    "slug": "burns-lake",
+    "type": "VILLAGE"
+  },
+  "Fort St James": {
+    "slug": "fort-st-james",
+    "type": "DISTRICT"
+  },
+  "Fraser Lake": {
+    "slug": "fraser-lake",
+    "type": "VILLAGE"
+  },
+  "Granisle": {
+    "slug": "granisle",
+    "type": "VILLAGE"
+  },
+  "Houston": {
+    "slug": "houston",
+    "type": "DISTRICT"
+  },
+  "Smithers": {
+    "slug": "smithers",
+    "type": "TOWN"
+  },
+  "Telkwa": {
+    "slug": "telkwa",
+    "type": "VILLAGE"
+  },
+  "Vanderhoof": {
+    "slug": "vanderhoof",
+    "type": "DISTRICT"
+  },
+  "100 Mile House": {
+    "slug": "100-mile-house",
+    "type": "DISTRICT"
+  },
+  "Quesnel": {
+    "slug": "quesnel",
+    "type": "CITY"
+  },
+  "Wells": {
+    "slug": "wells",
+    "type": "DISTRICT"
+  },
+  "Williams Lake": {
+    "slug": "williams-lake",
+    "type": "CITY"
+  },
+  "Mackenzie": {
+    "slug": "mackenzie",
+    "type": "DISTRICT"
+  },
+  "McBride": {
+    "slug": "mcbride",
+    "type": "VILLAGE"
+  },
+  "Prince George": {
+    "slug": "prince-george",
+    "type": "CITY"
+  },
+  "Valemount": {
+    "slug": "valemount",
+    "type": "VILLAGE"
+  },
+  "Kitimat": {
+    "slug": "kitimat",
+    "type": "DISTRICT"
+  },
+  "Hazelton": {
+    "slug": "hazelton",
+    "type": "VILLAGE"
+  },
+  "New Hazelton": {
+    "slug": "new-hazelton",
+    "type": "DISTRICT"
+  },
+  "Stewart": {
+    "slug": "stewart",
+    "type": "DISTRICT"
+  },
+  "Terrace": {
+    "slug": "terrace",
+    "type": "CITY"
+  },
+  "NRRM": {
+    "slug": "nrrm",
+    "type": "DISTRICT"
+  },
+  "Tumbler Ridge": {
+    "slug": "tumbler-ridge",
+    "type": "DISTRICT"
+  },
+  "Chetwynd": {
+    "slug": "chetwynd",
+    "type": "DISTRICT"
+  },
+  "Port Coquitlam": {
+    "slug": "port-coquitlam",
+    "type": "CITY"
+  },
+  "Port Moody": {
+    "slug": "port-moody",
+    "type": "CITY"
+  },
+  "Richmond": {
+    "slug": "richmond",
+    "type": "CITY"
+  },
+  "Surrey": {
+    "slug": "surrey",
+    "type": "CITY"
+  },
+  "Vancouver": {
+    "slug": "vancouver",
+    "type": "CITY"
+  },
+  "West Vancouver": {
+    "slug": "west-vancouver",
+    "type": "DISTRICT"
+  },
+  "White Rock": {
+    "slug": "white-rock",
+    "type": "CITY"
+  },
+  "Lions Bay": {
+    "slug": "lions-bay",
+    "type": "VILLAGE"
+  },
+  "Langley - District": {
+    "slug": "langley-district",
+    "type": "TOWN"
+  },
+  "North Vancouver - District": {
+    "slug": "north-vancouver-district",
+    "type": "DISTRICT"
+  },
+  "Keremeos": {
+    "slug": "keremeos",
+    "type": "VILLAGE"
+  },
+  "Osoyoos": {
+    "slug": "osoyoos",
+    "type": "TOWN"
+  },
+  "Penticton": {
+    "slug": "penticton",
+    "type": "CITY"
+  },
+  "Princeton": {
+    "slug": "princeton",
+    "type": "TOWN"
+  },
+  "Oliver": {
+    "slug": "oliver",
+    "type": "TOWN"
+  },
+  "Summerland": {
+    "slug": "summerland",
+    "type": "DISTRICT"
+  },
+  "Lillooet": {
+    "slug": "lillooet",
+    "type": "DISTRICT"
+  },
+  "Squamish": {
+    "slug": "squamish",
+    "type": "DISTRICT"
+  },
+  "Whistler": {
+    "slug": "whistler",
+    "type": "RESORT"
+  },
+  "Pemberton": {
+    "slug": "pemberton",
+    "type": "VILLAGE"
+  },
+  "Ashcroft": {
+    "slug": "ashcroft",
+    "type": "VILLAGE"
+  },
+  "Chase": {
+    "slug": "chase",
+    "type": "VILLAGE"
+  },
+  "Clinton": {
+    "slug": "clinton",
+    "type": "VILLAGE"
+  },
+  "Kamloops": {
+    "slug": "kamloops",
+    "type": "CITY"
+  },
+  "Logan Lake": {
+    "slug": "logan-lake",
+    "type": "DISTRICT"
+  },
+  "Barriere": {
+    "slug": "barriere",
+    "type": "DISTRICT"
+  },
+  "Cache Creek": {
+    "slug": "cache-creek",
+    "type": "VILLAGE"
+  },
+  "Clearwater": {
+    "slug": "clearwater",
+    "type": "DISTRICT"
+  },
+  "Lytton": {
+    "slug": "lytton",
+    "type": "VILLAGE"
+  },
+  "Merritt": {
+    "slug": "merritt",
+    "type": "CITY"
+  },
+  "Lake Country": {
+    "slug": "lake-country",
+    "type": "DISTRICT"
+  },
+  "Peachland": {
+    "slug": "peachland",
+    "type": "DISTRICT"
+  },
+  "West Kelowna": {
+    "slug": "west-kelowna",
+    "type": "CITY"
+  },
+  "Abbotsford": {
+    "slug": "abbotsford",
+    "type": "CITY"
+  },
+  "Chilliwack": {
+    "slug": "chilliwack",
+    "type": "CITY"
+  },
+  "Harrison Hot Springs": {
+    "slug": "harrison-hot-springs",
+    "type": "VILLAGE"
+  },
+  "Hope": {
+    "slug": "hope",
+    "type": "DISTRICT"
+  },
+  "Kent": {
+    "slug": "kent",
+    "type": "DISTRICT"
+  },
+  "Mission": {
+    "slug": "mission",
+    "type": "CITY"
+  },
+  "Anmore": {
+    "slug": "anmore",
+    "type": "VILLAGE"
+  },
+  "Belcarra": {
+    "slug": "belcarra",
+    "type": "VILLAGE"
+  },
+  "Bowen Island": {
+    "slug": "bowen-island",
+    "type": "DISTRICT"
+  },
+  "Burnaby": {
+    "slug": "burnaby",
+    "type": "CITY"
+  },
+  "Coquitlam": {
+    "slug": "coquitlam",
+    "type": "CITY"
+  },
+  "Delta": {
+    "slug": "delta",
+    "type": "CITY"
+  },
+  "Langley - City": {
+    "slug": "langley-city",
+    "type": "CITY"
+  },
+  "Maple Ridge": {
+    "slug": "maple-ridge",
+    "type": "CITY"
+  },
+  "New Westminster": {
+    "slug": "new-westminster",
+    "type": "CITY"
+  },
+  "North Vancouver - City": {
+    "slug": "north-vancouver-city",
+    "type": "CITY"
+  },
+  "Pitt Meadows": {
+    "slug": "pitt-meadows",
+    "type": "CITY"
+  },
+  "Sun Peaks": {
+    "slug": "sun-peaks",
+    "type": "RESORT"
+  },
+  "Nelson": {
+    "slug": "nelson",
+    "type": "CITY"
+  },
+  "Slocan": {
+    "slug": "slocan",
+    "type": "VILLAGE"
+  },
+  "Salmo": {
+    "slug": "salmo",
+    "type": "VILLAGE"
+  },
+  "Kaslo": {
+    "slug": "kaslo",
+    "type": "VILLAGE"
+  },
+  "New Denver": {
+    "slug": "new-denver",
+    "type": "VILLAGE"
+  },
+  "Nakusp": {
+    "slug": "nakusp",
+    "type": "VILLAGE"
+  },
+  "Castlegar": {
+    "slug": "castlegar",
+    "type": "CITY"
+  },
+  "Golden": {
+    "slug": "golden",
+    "type": "TOWN"
+  },
+  "Revelstoke": {
+    "slug": "revelstoke",
+    "type": "CITY"
+  },
+  "Salmon Arm": {
+    "slug": "salmon-arm",
+    "type": "CITY"
+  },
+  "Sicamous": {
+    "slug": "sicamous",
+    "type": "DISTRICT"
+  },
+  "Canal Flats": {
+    "slug": "canal-flats",
+    "type": "VILLAGE"
+  },
+  "Cranbrook": {
+    "slug": "cranbrook",
+    "type": "CITY"
+  },
+  "Fruitvale": {
+    "slug": "fruitvale",
+    "type": "VILLAGE"
+  },
+  "Armstrong": {
+    "slug": "armstrong",
+    "type": "CITY"
+  },
+  "Coldstream": {
+    "slug": "coldstream",
+    "type": "DISTRICT"
+  },
+  "Enderby": {
+    "slug": "enderby",
+    "type": "CITY"
+  },
+  "Lumby": {
+    "slug": "lumby",
+    "type": "VILLAGE"
+  },
+  "Spallumcheen": {
+    "slug": "spallumcheen",
+    "type": "TOWN"
+  },
+  "Vernon": {
+    "slug": "vernon",
+    "type": "CITY"
+  },
+  "Port Alberni": {
+    "slug": "port-alberni",
+    "type": "CITY"
+  },
+  "Tofino": {
+    "slug": "tofino",
+    "type": "VILLAGE"
+  },
+  "Ucluelet": {
+    "slug": "ucluelet",
+    "type": "DISTRICT"
+  },
+  "Central Saanich": {
+    "slug": "central-saanich",
+    "type": "DISTRICT"
+  },
+  "Colwood": {
+    "slug": "colwood",
+    "type": "CITY"
+  },
+  "Esquimalt": {
+    "slug": "esquimalt",
+    "type": "TOWN"
+  },
+  "Highlands": {
+    "slug": "highlands",
+    "type": "DISTRICT"
+  },
+  "Langford": {
+    "slug": "langford",
+    "type": "CITY"
+  },
+  "Metchosin": {
+    "slug": "metchosin",
+    "type": "DISTRICT"
+  },
+  "North Saanich": {
+    "slug": "north-saanich",
+    "type": "DISTRICT"
+  },
+  "Oak Bay": {
+    "slug": "oak-bay",
+    "type": "DISTRICT"
+  },
+  "Saanich": {
+    "slug": "saanich",
+    "type": "DISTRICT"
+  },
+  "Sidney": {
+    "slug": "sidney",
+    "type": "TOWN"
+  },
+  "Elkford": {
+    "slug": "elkford",
+    "type": "DISTRICT"
+  },
+  "Fernie": {
+    "slug": "fernie",
+    "type": "CITY"
+  },
+  "Invermere": {
+    "slug": "invermere",
+    "type": "DISTRICT"
+  },
+  "Kimberley": {
+    "slug": "kimberley",
+    "type": "CITY"
+  },
+  "Radium Hot Springs": {
+    "slug": "radium-hot-springs",
+    "type": "VILLAGE"
+  },
+  "Sparwood": {
+    "slug": "sparwood",
+    "type": "DISTRICT"
+  },
+  "Grand Forks": {
+    "slug": "grand-forks",
+    "type": "CITY"
+  },
+  "Greenwood": {
+    "slug": "greenwood",
+    "type": "CITY"
+  },
+  "Midway": {
+    "slug": "midway",
+    "type": "VILLAGE"
+  },
+  "Montrose": {
+    "slug": "montrose",
+    "type": "VILLAGE"
+  },
+  "Rossland": {
+    "slug": "rossland",
+    "type": "CITY"
+  },
+  "Trail": {
+    "slug": "trail",
+    "type": "CITY"
+  },
+  "Warfield": {
+    "slug": "warfield",
+    "type": "VILLAGE"
+  },
+  "Silverton": {
+    "slug": "silverton",
+    "type": "VILLAGE"
+  },
+  "Creston": {
+    "slug": "creston",
+    "type": "TOWN"
+  },
+  "Sooke": {
+    "slug": "sooke",
+    "type": "DISTRICT"
+  },
+  "Victoria": {
+    "slug": "victoria",
+    "type": "CITY"
+  },
+  "View Royal": {
+    "slug": "view-royal",
+    "type": "TOWN"
+  },
+  "Cumberland": {
+    "slug": "cumberland",
+    "type": "VILLAGE"
+  },
+  "Comox": {
+    "slug": "comox",
+    "type": "TOWN"
+  },
+  "Courtenay": {
+    "slug": "courtenay",
+    "type": "CITY"
+  },
+  "Duncan": {
+    "slug": "duncan",
+    "type": "CITY"
+  },
+  "Ladysmith": {
+    "slug": "ladysmith",
+    "type": "TOWN"
+  },
+  "Lake Cowichan": {
+    "slug": "lake-cowichan",
+    "type": "TOWN"
+  },
+  "North Cowichan": {
+    "slug": "north-cowichan",
+    "type": "DISTRICT"
+  },
+  "Alert Bay": {
+    "slug": "alert-bay",
+    "type": "VILLAGE"
+  },
+  "Port Alice": {
+    "slug": "port-alice",
+    "type": "VILLAGE"
+  },
+  "Port Hardy": {
+    "slug": "port-hardy",
+    "type": "DISTRICT"
+  },
+  "Port McNeill": {
+    "slug": "port-mcneill",
+    "type": "TOWN"
+  },
+  "Parksville": {
+    "slug": "parksville",
+    "type": "CITY"
+  },
+  "Lantzville": {
+    "slug": "lantzville",
+    "type": "DISTRICT"
+  },
+  "Nanaimo": {
+    "slug": "nanaimo",
+    "type": "CITY"
+  },
+  "Qualicum Beach": {
+    "slug": "qualicum-beach",
+    "type": "TOWN"
+  },
+  "Powell River": {
+    "slug": "powell-river",
+    "type": "CITY"
+  },
+  "Gibsons": {
+    "slug": "gibsons",
+    "type": "TOWN"
+  },
+  "Sechelt": {
+    "slug": "sechelt",
+    "type": "DISTRICT"
+  },
+  "Campbell River": {
+    "slug": "campbell-river",
+    "type": "CITY"
+  },
+  "Gold River": {
+    "slug": "gold-river",
+    "type": "VILLAGE"
+  },
+  "Sayward": {
+    "slug": "sayward",
+    "type": "VILLAGE"
+  },
+  "Tahsis": {
+    "slug": "tahsis",
+    "type": "VILLAGE"
+  },
+  "Zeballos": {
+    "slug": "zeballos",
+    "type": "VILLAGE"
+  },
+  "RDBN": {
+    "slug": "rdbn",
+    "type": "Regional District"
+  },
+  "CRD": {
+    "slug": "crd",
+    "type": "Regional District"
+  },
+  "RDFFG": {
+    "slug": "rdffg",
+    "type": "Regional District"
+  },
+  "RDKS": {
+    "slug": "rdks",
+    "type": "Regional District"
+  },
+  "PRRD": {
+    "slug": "prrd",
+    "type": "Regional District"
+  },
+  "NCRD": {
+    "slug": "ncrd",
+    "type": "Regional District"
+  },
+  "RDCO": {
+    "slug": "rdco",
+    "type": "Regional District"
+  },
+  "FVRD": {
+    "slug": "fvrd",
+    "type": "Regional District"
+  },
+  "MVRD": {
+    "slug": "mvrd",
+    "type": "Regional District"
+  },
+  "RDOS": {
+    "slug": "rdos",
+    "type": "Regional District"
+  },
+  "SLRD": {
+    "slug": "slrd",
+    "type": "Regional District"
+  },
+  "TNRD": {
+    "slug": "tnrd",
+    "type": "Regional District"
+  },
+  "RDCK": {
+    "slug": "rdck",
+    "type": "Regional District"
+  },
+  "CSRD": {
+    "slug": "csrd",
+    "type": "Regional District"
+  },
+  "RDEK": {
+    "slug": "rdek",
+    "type": "Regional District"
+  },
+  "RDKB": {
+    "slug": "rdkb",
+    "type": "Regional District"
+  },
+  "RDNO": {
+    "slug": "rdno",
+    "type": "Regional District"
+  },
+  "RDAC": {
+    "slug": "rdac",
+    "type": "Regional District"
+  },
+  "CAPRD": {
+    "slug": "caprd",
+    "type": "Regional District"
+  },
+  "CCRD": {
+    "slug": "ccrd",
+    "type": "Regional District"
+  },
+  "CMXRD": {
+    "slug": "cmxrd",
+    "type": "Regional District"
+  },
+  "CVRD": {
+    "slug": "cvrd",
+    "type": "Regional District"
+  },
+  "RDMW": {
+    "slug": "rdmw",
+    "type": "Regional District"
+  },
+  "RDN": {
+    "slug": "rdn",
+    "type": "Regional District"
+  },
+  "qRD": {
+    "slug": "qrd",
+    "type": "Regional District"
+  },
+  "SCRD": {
+    "slug": "scrd",
+    "type": "Regional District"
+  },
+  "STRD": {
+    "slug": "strd",
+    "type": "Regional District"
+  },
+  "Stikine Region": {
+    "slug": "stikine-region",
+    "type": "Regional District"
+  }
+}

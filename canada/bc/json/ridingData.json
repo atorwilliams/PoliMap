@@ -1,0 +1,2979 @@
+{
+  "parties": {
+    "BC Conservative": {
+      "color": "#003DA5"
+    },
+    "BC Green": {
+      "color": "#3D9B35"
+    },
+    "BC NDP": {
+      "color": "#F37021"
+    },
+    "Independent": {
+      "color": "#808080"
+    }
+  },
+  "ridings": {
+    "Surrey-White Rock": {
+      "name": "Surrey-White Rock",
+      "mla": {
+        "name": "Trevor Halford",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Halford-Trevor.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Halford-Trevor",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "West Vancouver-Sea to Sky": {
+      "name": "West Vancouver-Sea to Sky",
+      "mla": {
+        "name": "Jeremy Valeriote",
+        "party": "BC Green",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Valeriote-Jeremy.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Valeriote-Jeremy",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Abbotsford-Mission": {
+      "name": "Abbotsford-Mission",
+      "mla": {
+        "name": "Reann Gasper",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Rann Gasper.PNG",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Gasper-Reann",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kootenay Central": {
+      "name": "Kootenay Central",
+      "mla": {
+        "name": "Hon. Brittny Anderson",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of State for Local Government and Rural Communities",
+          "Minister of State for Local Governments and Rural Communities"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Anderson-Brittny.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Anderson-Brittny",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Abbotsford South": {
+      "name": "Abbotsford South",
+      "mla": {
+        "name": "Bruce Banman",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Banman-Bruce.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Banman-Bruce",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 744-0700",
+          "tollFree": "",
+          "fax": "(604) 744-0701",
+          "officeHours": "",
+          "constituencyOffice": "#304 - 2031, McCallum Rd\nAbbotsford, BC  V2S 3N5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Abbotsford West": {
+      "name": "Abbotsford West",
+      "mla": {
+        "name": "Korky Neufeld",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/BCC_Korky_Neufeld_008.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Neufeld-Korky",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Boundary-Similkameen": {
+      "name": "Boundary-Similkameen",
+      "mla": {
+        "name": "Donegal Wilson",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Wilson-Donegal.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Wilson-Donegal",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "712 5th Street\nKeremeos, BC  V0X 1N0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Bulkley Valley-Stikine": {
+      "name": "Bulkley Valley-Stikine",
+      "mla": {
+        "name": "Sharon Hartwell",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Hartwell-Sharon.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Hartwell-Sharon",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(778) 640-1116",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "1164 Main Street\nSmithers, BC  V0J 2N0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Burnaby Centre": {
+      "name": "Burnaby Centre",
+      "mla": {
+        "name": "Hon. Anne Kang",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Post-Secondary Education and Future Skills",
+          "Minister of Tourism, Arts, Culture and Sport"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Kang-Anne.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Kang-Anne",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Burnaby East": {
+      "name": "Burnaby East",
+      "mla": {
+        "name": "Rohini Arora",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Arora-Rohini.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Arora-Rohini",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Burnaby-New Westminster": {
+      "name": "Burnaby-New Westminster",
+      "mla": {
+        "name": "Hon. Raj Chouhan",
+        "party": "BC NDP",
+        "roles": [
+          "Speaker of the House",
+          "Speaker of the Legislative Assembly"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Chouhan-Raj.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Chouhan-Raj",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Burnaby North": {
+      "name": "Burnaby North",
+      "mla": {
+        "name": "Janet Routledge",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Routledge-Janet.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Routledge-Janet",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Burnaby South-Metrotown": {
+      "name": "Burnaby South-Metrotown",
+      "mla": {
+        "name": "Paul Choi",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Choi-Paul.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Choi-Paul",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Cariboo-Chilcotin": {
+      "name": "Cariboo-Chilcotin",
+      "mla": {
+        "name": "Lorne Doerkson",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Doerkson-Lorne.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Doerkson-Lorne",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Chilliwack North": {
+      "name": "Chilliwack North",
+      "mla": {
+        "name": "Heather Maahs",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Heather Maahs Updated Photo.jpeg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Maahs-Heather",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Chilliwack-Cultus Lake": {
+      "name": "Chilliwack-Cultus Lake",
+      "mla": {
+        "name": "Á'a:líya Warbus",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/A'aliya Warbus.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Warbus-Á'a:líya",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 858-5299",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit J4, 6640 Vedder Road\nChilliwack, BC  V2R 0J2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Columbia River-Revelstoke": {
+      "name": "Columbia River-Revelstoke",
+      "mla": {
+        "name": "Scott McInnis",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/McInnis-Scott.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/McInnis-Scott",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Coquitlam-Maillardville": {
+      "name": "Coquitlam-Maillardville",
+      "mla": {
+        "name": "Jennifer Blatherwick",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Blatherwick-Jennifer.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Blatherwick-Jennifer",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Courtenay-Comox": {
+      "name": "Courtenay-Comox",
+      "mla": {
+        "name": "Brennan Day",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Day-Brennan.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Day-Brennan",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(250) 703-2410",
+          "tollFree": "",
+          "fax": "(250) 703-2425",
+          "officeHours": "",
+          "constituencyOffice": "437 5th St\nCourtenay, BC  V9N 1J7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Cowichan Valley": {
+      "name": "Cowichan Valley",
+      "mla": {
+        "name": "Qwulti'stunaat - Debra Toporowski",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Toporowski-Debra.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Toporowski-Qwulti'stunaat - Debra",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Delta North": {
+      "name": "Delta North",
+      "mla": {
+        "name": "Hon. Ravi Kahlon",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Housing and Municipal Affairs",
+          "Minister of Jobs and Economic Growth"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Kahlon-Ravi.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Kahlon-Ravi",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Esquimalt-Colwood": {
+      "name": "Esquimalt-Colwood",
+      "mla": {
+        "name": "Darlene Rotchford",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Rotchford-Darlene.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Rotchford-Darlene",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Fraser-Nicola": {
+      "name": "Fraser-Nicola",
+      "mla": {
+        "name": "Tony Luck",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Luck-Tony.jpeg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Luck-Tony",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Juan de Fuca-Malahat": {
+      "name": "Juan de Fuca-Malahat",
+      "mla": {
+        "name": "Dana Lajeunesse",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Lajeunesse-Dana.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Lajeunesse-Dana",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(778) 746-3228",
+          "tollFree": "1-888-321-0676",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "5715 Sooke Road\nSooke, BC  V9Z 0C4",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kamloops Centre": {
+      "name": "Kamloops Centre",
+      "mla": {
+        "name": "Peter Milobar",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Milobar-Peter.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Milobar-Peter",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kamloops-North Thompson": {
+      "name": "Kamloops-North Thompson",
+      "mla": {
+        "name": "Ward Stamer",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Ward Stamer.PNG",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Stamer-Ward",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(250) 554-5416",
+          "tollFree": "",
+          "fax": "(250) 377-3448",
+          "officeHours": "",
+          "constituencyOffice": "618B Tranquille Rd\nKamloops, BC  V2B 3H6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kelowna-Lake Country-Coldstream": {
+      "name": "Kelowna-Lake Country-Coldstream",
+      "mla": {
+        "name": "Tara Armstrong",
+        "party": "Independent",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Tara Arrmstrong Headshot Fall 2023.jpeg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Armstrong-Tara",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(250) 712-3623",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "721-11850 Oceola Road\nLake Country, BC  V4V 2T5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kelowna-Mission": {
+      "name": "Kelowna-Mission",
+      "mla": {
+        "name": "Gavin Dew",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Dew-Gavin.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Dew-Gavin",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kootenay-Monashee": {
+      "name": "Kootenay-Monashee",
+      "mla": {
+        "name": "Steve Morissette",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Morissette-Steve.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Morissette-Steve",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kootenay-Rockies": {
+      "name": "Kootenay-Rockies",
+      "mla": {
+        "name": "Pete Davis",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Davis-Pete.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Davis-Pete",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Ladysmith-Oceanside": {
+      "name": "Ladysmith-Oceanside",
+      "mla": {
+        "name": "Stephanie Higginson",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Higginson-Stephanie.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Higginson-Stephanie",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "174 Island Highway East\nParksville, BC  V9P 2G9",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Langford-Highlands": {
+      "name": "Langford-Highlands",
+      "mla": {
+        "name": "Hon. Ravi Parmar",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Forests"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Parmar-Ravi.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Parmar-Ravi",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Langley-Abbotsford": {
+      "name": "Langley-Abbotsford",
+      "mla": {
+        "name": "Harman Bhangu",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Bhangu-Harman.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Bhangu-Harman",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Langley-Walnut Grove": {
+      "name": "Langley-Walnut Grove",
+      "mla": {
+        "name": "Misty Van Popta",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Van Popta-Misty.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Van Popta-Misty",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Langley-Willowbrook": {
+      "name": "Langley-Willowbrook",
+      "mla": {
+        "name": "Jody Toor",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Toor-Jody.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Toor-Jody",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Maple Ridge East": {
+      "name": "Maple Ridge East",
+      "mla": {
+        "name": "Lawrence Mok",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Mok-Lawrence.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Mok-Lawrence",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Maple Ridge-Pitt Meadows": {
+      "name": "Maple Ridge-Pitt Meadows",
+      "mla": {
+        "name": "Hon. Lisa Beare",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Education and Child Care"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Beare-Lisa.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Beare-Lisa",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mid Island-Pacific Rim": {
+      "name": "Mid Island-Pacific Rim",
+      "mla": {
+        "name": "Hon. Josie Osborne",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Health"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Osborne-Josie.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Osborne-Josie",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Nanaimo-Gabriola Island": {
+      "name": "Nanaimo-Gabriola Island",
+      "mla": {
+        "name": "Hon. Sheila Malcolmson",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Social Development and Poverty Reduction"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Malcolmson-Sheila.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Malcolmson-Sheila",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Nanaimo-Lantzville": {
+      "name": "Nanaimo-Lantzville",
+      "mla": {
+        "name": "George Anderson",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/George_Anderson_MLA Cropped.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Anderson-George",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Nechako Lakes": {
+      "name": "Nechako Lakes",
+      "mla": {
+        "name": "John Rustad",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Rustad-John.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Rustad-John",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "New Westminster-Coquitlam": {
+      "name": "New Westminster-Coquitlam",
+      "mla": {
+        "name": "Hon. Jennifer Whiteside",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Labour"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Whiteside-Jennifer.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Whiteside-Jennifer",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "North Coast-Haida Gwaii": {
+      "name": "North Coast-Haida Gwaii",
+      "mla": {
+        "name": "Hon. Laanas - Tamara Davidson",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Environment and Parks"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Davidson-Tamara.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Davidson-Laanas - Tamara",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "North Island": {
+      "name": "North Island",
+      "mla": {
+        "name": "Anna Kindy",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Anna Kindy Conservative Party _KRL_20241210__AVE7843 copy.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Kindy-Anna",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "North Vancouver-Lonsdale": {
+      "name": "North Vancouver-Lonsdale",
+      "mla": {
+        "name": "Hon. Bowinn Ma",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Infrastructure"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Ma-Bowinn.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Ma-Bowinn",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "North Vancouver-Seymour": {
+      "name": "North Vancouver-Seymour",
+      "mla": {
+        "name": "Susie Chant",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Chant-Susie.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Chant-Susie",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Oak Bay-Gordon Head": {
+      "name": "Oak Bay-Gordon Head",
+      "mla": {
+        "name": "Hon. Diana Gibson",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Jobs, Economic Development and Innovation",
+          "Minister of Citizens' Services"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Gibson-Diana.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Gibson-Diana",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Peace River North": {
+      "name": "Peace River North",
+      "mla": {
+        "name": "Jordan Kealy",
+        "party": "Independent",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Kealy-Jordan.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Kealy-Jordan",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Peace River South": {
+      "name": "Peace River South",
+      "mla": {
+        "name": "Larry Neufeld",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Neufeld-Larry.jpeg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Neufeld-Larry",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Penticton-Summerland": {
+      "name": "Penticton-Summerland",
+      "mla": {
+        "name": "Amelia Boultbee",
+        "party": "Independent",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Boultbee-Amelia.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Boultbee-Amelia",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Port Coquitlam": {
+      "name": "Port Coquitlam",
+      "mla": {
+        "name": "Hon. Mike Farnworth",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Transportation and Transit"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Farnworth-Mike.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Farnworth-Mike",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Port Moody-Burquitlam": {
+      "name": "Port Moody-Burquitlam",
+      "mla": {
+        "name": "Hon. Rick Glumac",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of State for Trade",
+          "Minister of State for Artificial Intelligence and New Technologies"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Glumac-Rick.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Glumac-Rick",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Powell River-Sunshine Coast": {
+      "name": "Powell River-Sunshine Coast",
+      "mla": {
+        "name": "Hon. Randene Neill",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Water, Land and Resource Stewardship"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Neill-Randene.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Neill-Randene",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Prince George-Mackenzie": {
+      "name": "Prince George-Mackenzie",
+      "mla": {
+        "name": "Kiel Giddens",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Giddens-Kiel.jpeg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Giddens-Kiel",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Prince George-North Cariboo": {
+      "name": "Prince George-North Cariboo",
+      "mla": {
+        "name": "Sheldon Clare",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Clare-Sheldon.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Clare-Sheldon",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Prince George-Valemount": {
+      "name": "Prince George-Valemount",
+      "mla": {
+        "name": "Rosalyn Bird",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Rosalyn Bird Conservative Party _KRL_20241210__AVE7919 copy 2.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Bird-Rosalyn",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(250) 612-4181",
+          "tollFree": "(866) 612-7333",
+          "fax": "(250) 612-4188",
+          "officeHours": "",
+          "constituencyOffice": "1350 5th Ave.\nPrince George, BC  V2L 3L4",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Richmond Centre": {
+      "name": "Richmond Centre",
+      "mla": {
+        "name": "Hon Chan",
+        "party": "Independent",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Chan-Hon.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Chan-Hon",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Richmond-Bridgeport": {
+      "name": "Richmond-Bridgeport",
+      "mla": {
+        "name": "Teresa Wat",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/8ed05fcabfcdfd3ebdcf36e7b2aca0d1.jpeg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Wat-Teresa",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Richmond-Steveston": {
+      "name": "Richmond-Steveston",
+      "mla": {
+        "name": "Hon. Kelly Greene",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Emergency Management and Climate Readiness"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Greene-Kelly.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Greene-Kelly",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Richmond-Queensborough": {
+      "name": "Richmond-Queensborough",
+      "mla": {
+        "name": "Steve Kooner",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/MLA Kooner.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Kooner-Steve",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saanich North and the Islands": {
+      "name": "Saanich North and the Islands",
+      "mla": {
+        "name": "Rob Botterell",
+        "party": "BC Green",
+        "roles": [
+          "Leader of the Third Party"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Botterell-Rob.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Botterell-Rob",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saanich South": {
+      "name": "Saanich South",
+      "mla": {
+        "name": "Hon. Lana Popham",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Agriculture and Food"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Popham-Lana.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Popham-Lana",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Salmon Arm-Shuswap": {
+      "name": "Salmon Arm-Shuswap",
+      "mla": {
+        "name": "David Williams",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Williams-David.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Williams-David",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(778) 724-2407",
+          "tollFree": "(877) 745-2240",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "2-1120 10th Avenue SW\nSalmon Arm, BC  V1E 1T3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Skeena": {
+      "name": "Skeena",
+      "mla": {
+        "name": "Claire Rattée",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Claire Ratee Cropped.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Rattée-Claire",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Surrey City Centre": {
+      "name": "Surrey City Centre",
+      "mla": {
+        "name": "Amna Shah",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Shah-Amna.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Shah-Amna",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Surrey North": {
+      "name": "Surrey North",
+      "mla": {
+        "name": "Mandeep Dhaliwal",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Dhaliwal-Mandeep.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Dhaliwal-Mandeep",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Surrey South": {
+      "name": "Surrey South",
+      "mla": {
+        "name": "Brent Chapman",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Chapman-Brent.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Chapman-Brent",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 541-4556",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "205 & 206 - 15850 24th Avenue\nSurrey, BC  V3Z 0G1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Surrey-Cloverdale": {
+      "name": "Surrey-Cloverdale",
+      "mla": {
+        "name": "Elenore Sturko",
+        "party": "Independent",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Sturko-Elenore.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Sturko-Elenore",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Surrey-Fleetwood": {
+      "name": "Surrey-Fleetwood",
+      "mla": {
+        "name": "Hon. Jagrup Brar",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Mining and Critical Minerals"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Brar-Jagrup.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Brar-Jagrup",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Surrey-Newton": {
+      "name": "Surrey-Newton",
+      "mla": {
+        "name": "Hon. Jessie Sunner",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Post-Secondary Education and Future Skills"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Sunner-Jessie.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Sunner-Jessie",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Surrey-Panorama": {
+      "name": "Surrey-Panorama",
+      "mla": {
+        "name": "Bryan Tepper",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Bryan Portrait 1 (2).jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Tepper-Bryan",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "#203 & 204 14360 - 64 Avenue\nSurrey, BC  V3W 1Z1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Surrey-Serpentine River": {
+      "name": "Surrey-Serpentine River",
+      "mla": {
+        "name": "Linda Hepner",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Hepner-Linda.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Hepner-Linda",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver-Fraserview": {
+      "name": "Vancouver-Fraserview",
+      "mla": {
+        "name": "George Chow",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Citizens' Services"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Chow-George.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Chow-George",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver-Hastings": {
+      "name": "Vancouver-Hastings",
+      "mla": {
+        "name": "Hon. Niki Sharma",
+        "party": "BC NDP",
+        "roles": [
+          "Attorney General",
+          "Deputy Premier"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Sharma-Niki.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Sharma-Niki",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver-Kensington": {
+      "name": "Vancouver-Kensington",
+      "mla": {
+        "name": "Mable Elmore",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Elmore-Mable.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Elmore-Mable",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver-Point Grey": {
+      "name": "Vancouver-Point Grey",
+      "mla": {
+        "name": "Hon. David Eby",
+        "party": "BC NDP",
+        "roles": [
+          "Premier and President of Executive Council",
+          "Premier and President of the Executive Council"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Eby-David.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Eby-David",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver-Langara": {
+      "name": "Vancouver-Langara",
+      "mla": {
+        "name": "Sunita Dhir",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Dhir, Sunita.JPG",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Dhir-Sunita",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver-Little Mountain": {
+      "name": "Vancouver-Little Mountain",
+      "mla": {
+        "name": "Hon. Christine Boyle",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Indigenous Relations and Reconciliation",
+          "Minister of Housing and Municipal Affairs"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Boyle-Christine.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Boyle-Christine",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver-Quilchena": {
+      "name": "Vancouver-Quilchena",
+      "mla": {
+        "name": "Dallas Brodie",
+        "party": "Independent",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Dallas bio.png",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Brodie-Dallas",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver-Yaletown": {
+      "name": "Vancouver-Yaletown",
+      "mla": {
+        "name": "Hon. Terry Yung",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of State for Community Safety and Integrated Services"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Yung-Terry.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Yung-Terry",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Victoria-Swan Lake": {
+      "name": "Victoria-Swan Lake",
+      "mla": {
+        "name": "Hon. Nina Krieger",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Public Safety",
+          "Solicitor General"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Krieger-Nina.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Krieger-Nina",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(250) 356-5013",
+          "tollFree": "(250) 360-2027",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "3185 Tillicum Road\nVictoria, BC  V9A 0C7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "West Kelowna-Peachland": {
+      "name": "West Kelowna-Peachland",
+      "mla": {
+        "name": "Macklin McCall",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/McCall.PNG",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/McCall-Macklin",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "West Vancouver-Capilano": {
+      "name": "West Vancouver-Capilano",
+      "mla": {
+        "name": "Lynne Block",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/LBlock-Headshot-Preferred (1).jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Block-Lynne",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver-Renfrew": {
+      "name": "Vancouver-Renfrew",
+      "mla": {
+        "name": "Hon. Adrian Dix",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Energy and Climate Solutions"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Dix-Adrian.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Dix-Adrian",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver-South Granville": {
+      "name": "Vancouver-South Granville",
+      "mla": {
+        "name": "Hon. Brenda Bailey",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Finance"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Bailey-Brenda.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Bailey-Brenda",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver-West End": {
+      "name": "Vancouver-West End",
+      "mla": {
+        "name": "Hon. Spencer Chandra Herbert",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Tourism, Arts, Culture and Sport",
+          "Minister of Indigenous Relations and Reconciliation"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Chandra-Herbert-Spencer.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Chandra Herbert-Spencer",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Victoria-Beacon Hill": {
+      "name": "Victoria-Beacon Hill",
+      "mla": {
+        "name": "Hon. Grace Lore",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Children and Family Development",
+          "Minister without portfolio"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Lore-Grace.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Lore-Grace",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vancouver-Strathcona": {
+      "name": "Vancouver-Strathcona",
+      "mla": {
+        "name": "Amshen - Joan Phillip",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Phillip-Joan.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Phillip-Amshen - Joan",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vernon-Lumby": {
+      "name": "Vernon-Lumby",
+      "mla": {
+        "name": "Harwinder Sandhu",
+        "party": "BC NDP",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Sandhu-Harwinder.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Sandhu-Harwinder",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Surrey-Guildford": {
+      "name": "Surrey-Guildford",
+      "mla": {
+        "name": "Garry Begg",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of Public Safety",
+          "Solicitor General"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Begg-Garry.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Begg-Garry",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kelowna Centre": {
+      "name": "Kelowna Centre",
+      "mla": {
+        "name": "Kristina Loewen",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Cropped Resized_Kris_Andrew_Lowen_Large__(3)_1705686567421.JPG",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Loewen-Kristina",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Delta South": {
+      "name": "Delta South",
+      "mla": {
+        "name": "Ian Paton",
+        "party": "BC Conservative",
+        "roles": [],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Paton-Ian.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Paton-Ian",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Coquitlam-Burke Mountain": {
+      "name": "Coquitlam-Burke Mountain",
+      "mla": {
+        "name": "Hon. Jodie Wickens",
+        "party": "BC NDP",
+        "roles": [
+          "Minister of State for Child Care and Children and Youth with Support Needs",
+          "Minister of Children and Family Development"
+        ],
+        "photo": "https://lims.leg.bc.ca/public/images/mla-headshots/43/medium/Wickens-Jodie.jpg",
+        "profileUrl": "https://www.leg.bc.ca/members/43rd-Parliament/Wickens-Jodie",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "(604) 820-6203",
+          "tollFree": "1-866-370-6203",
+          "fax": "(604) 820-6211",
+          "officeHours": "",
+          "constituencyOffice": "33058 First Avenue\nMission, BC  V2V 1G3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    }
+  }
+}

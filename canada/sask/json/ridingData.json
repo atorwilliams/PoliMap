@@ -1,0 +1,1842 @@
+{
+  "parties": {
+    "Saskatchewan Party": {
+      "color": "#007DC3"
+    },
+    "NDP": {
+      "color": "#F37021"
+    }
+  },
+  "ridings": {
+    "Rosthern-Shellbrook": {
+      "name": "Rosthern-Shellbrook",
+      "mla": {
+        "name": "Hon. Scott Moe",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/3xoipzgg/moe_scott.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Scott&last=Moe",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "scottmoe.mla@sasktel.net",
+          "phone": "(306) 747-3422",
+          "tollFree": "1-855-793-3422",
+          "fax": "(306) 747-3472",
+          "officeHours": "",
+          "constituencyOffice": "34 Main St. / PO Box 115\nShellbrook, SK S0J 2E0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Melfort": {
+      "name": "Melfort",
+      "mla": {
+        "name": "Hon. Todd Goudy",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/5aqhnibg/goudy_todd.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Todd&last=Goudy",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "goudymla@gmail.com",
+          "phone": "(306) 752-9500",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "#1 - 100 Burrows Ave. East\nMelfort, SK S0E 1A0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kelvington-Wadena": {
+      "name": "Kelvington-Wadena",
+      "mla": {
+        "name": "Hon. Chris Beaudry",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/xh5a4evu/beaudry_chris.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Chris&last=Beaudry",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "cbeaudrymla@gmail.com",
+          "phone": "(306) 554-1600",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "#4 - 222 Bosworth Street\nWynyard, SK  S0A 0G1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina Lakeview": {
+      "name": "Regina Lakeview",
+      "mla": {
+        "name": "Carla Beck",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/fjrfxfhx/beck_carla.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Carla&last=Beck",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "reginalakeview@ndpcaucus.sk.ca",
+          "phone": "(306) 522-1333",
+          "tollFree": "",
+          "fax": "(306) 522-1479",
+          "officeHours": "",
+          "constituencyOffice": "2213 Broad Street\nRegina, SK S4P 1Y7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina Wascana Plains": {
+      "name": "Regina Wascana Plains",
+      "mla": {
+        "name": "Brent Blakley",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/53jhaio2/blakley_brent.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Brent&last=Blakley",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "reginawascanaplains@ndpcaucus.sk.ca",
+          "phone": "(306) 584-4404",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "B - 2318 Assiniboine Ave East\nRegina, SK S4V 2P5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina Pasqua": {
+      "name": "Regina Pasqua",
+      "mla": {
+        "name": "Bhajan Brar",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/ucycb2v4/brar_bhajan.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Bhajan&last=Brar",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "reginapasqua@ndpcaucus.sk.ca",
+          "phone": "(306) 543-2727",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "6300 Dewdney Ave.\nRegina, SK  S4T 1E3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon Riversdale": {
+      "name": "Saskatoon Riversdale",
+      "mla": {
+        "name": "Kim Breckner",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/vwwfirlv/breckner_kim.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Kim&last=Breckner",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "saskatoonriversdale@ndpcaucus.sk.ca",
+          "phone": "(306) 230-7358",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "304 - 1114 22nd St West\nSaskatoon, SK S7M 0S5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Carrot River Valley": {
+      "name": "Carrot River Valley",
+      "mla": {
+        "name": "Terri Bromm",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/rnklpiin/bromm_terri.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Terri&last=Bromm",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "TBromm.mla@outlook.com",
+          "phone": "(306) 873-3747",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "5 - 904 101 Ave. West / PO Box 806\nTisdale, SK S0E 1T0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina Coronation Park": {
+      "name": "Regina Coronation Park",
+      "mla": {
+        "name": "Noor Burki",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/gvphcib2/burki_noor.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Noor&last=Burki",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "reginacoronationpark@ndpcaucus.sk.ca",
+          "phone": "(306) 352-6667",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "3120 Avonhurst Drive\nRegina, SK S4R 3J7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Estevan-Big Muddy": {
+      "name": "Estevan-Big Muddy",
+      "mla": {
+        "name": "Hon. Lori Carr",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/ioipeqj5/carr_lori.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Lori&last=Carr",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "loricarrmla@sasktel.net",
+          "phone": "(306) 634-7311",
+          "tollFree": "1-866-284-7496",
+          "fax": "(306) 634-7332",
+          "officeHours": "",
+          "constituencyOffice": "3 - 461 King Street\nEstevan, SK S4A 1K6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Yorkton": {
+      "name": "Yorkton",
+      "mla": {
+        "name": "David Chan",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/xpfhkdso/chan_david.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=David&last=Chan",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "david.chan@yorktonmla.ca",
+          "phone": "(306) 783-7275",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "#9 Fifth Avenue N.\nYorkton, SK S3N 0Y9",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon Willowgrove": {
+      "name": "Saskatoon Willowgrove",
+      "mla": {
+        "name": "Hon. Ken Cheveldayoff",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/51mp3bwg/cheveldayoff_ken.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Ken&last=Cheveldayoff",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "ken.cheveldayoff.mla@sasktel.net",
+          "phone": "(306) 651-7100",
+          "tollFree": "",
+          "fax": "(306) 651-6008",
+          "officeHours": "",
+          "constituencyOffice": "1106A Central Ave. N.\nSaskatoon, SK S7N 2H1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon Westview": {
+      "name": "Saskatoon Westview",
+      "mla": {
+        "name": "April ChiefCalf",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/yfmlsgsc/chiefcalf_april.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=April&last=ChiefCalf",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "saskatoonwestview@ndpcaucus.sk.ca",
+          "phone": "(306) 291-4164",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "304 - 1114 22nd St West\nSaskatoon, SK S7M 0S5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina Walsh Acres": {
+      "name": "Regina Walsh Acres",
+      "mla": {
+        "name": "Jared Clarke",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/ivvla2q3/clarke_jared.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Jared&last=Clarke",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "reginawalshacres@ndpcaucus.sk.ca",
+          "phone": "(306) 352-8754",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "3120 Avonhurst Drive\nRegina, SK S4R 3J7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "The Battlefords": {
+      "name": "The Battlefords",
+      "mla": {
+        "name": "Hon. Jeremy Cockrill",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/hhadi2vn/cockrill_jeremy.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Jeremy&last=Cockrill",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "office@jeremycockrill.ca",
+          "phone": "(306) 445-5195",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "1991 - 100th Street\nNorth Battleford, SK  S9A 0X2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina Elphinstone-Centre": {
+      "name": "Regina Elphinstone-Centre",
+      "mla": {
+        "name": "Meara Conway",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/twfbwcpx/conway_meara.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Meara&last=Conway",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "reginaelphinstonecentre@ndpcaucus.sk.ca",
+          "phone": "(306) 352-2002",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "3510 &#x2013; 5th Avenue\nRegina, SK  S4T 0M2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kindersley-Biggar": {
+      "name": "Kindersley-Biggar",
+      "mla": {
+        "name": "Hon. Kim Gartner",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/4pmmvdud/gartner_kim.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Kim&last=Gartner",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "kgartnermla@outlook.com",
+          "phone": "(306) 463-4446",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "5 - 1001 Main St. / PO Box 2620\nKindersley, SK S0L 1S0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon Silverspring": {
+      "name": "Saskatoon Silverspring",
+      "mla": {
+        "name": "Hugh Gordon",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/35qc4afk/gordon_hugh.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Hugh&last=Gordon",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "saskatoonsilverspring@ndpcaucus.sk.ca",
+          "phone": "(306) 221-2750",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit A4 - 116 103rd Street East\nSaskatoon, SK S7N 1Y7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon University-Sutherland": {
+      "name": "Saskatoon University-Sutherland",
+      "mla": {
+        "name": "Tajinder Grewal",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/u5wfykay/grewal_tajinder.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Tajinder&last=Grewal",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "saskatoonuniversitysutherland@ndpcaucus.sk.ca",
+          "phone": "(306) 230-9840",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "#50 &#x2013; 2105 8th Street East\nSaskatoon, SK S7H 0T8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Cannington": {
+      "name": "Cannington",
+      "mla": {
+        "name": "Daryl Harrison",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/umnj2ve3/harrison_daryl.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Daryl&last=Harrison",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "canningtonconstituency@sasktel.net",
+          "phone": "(306) 443-4400",
+          "tollFree": "1-833-670-4400",
+          "fax": "(306) 443-4402",
+          "officeHours": "",
+          "constituencyOffice": "220 Centre St. / P.O. Box 130\nAlida, SK S0C 0B0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Meadow Lake": {
+      "name": "Meadow Lake",
+      "mla": {
+        "name": "Hon. Jeremy Harrison",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/zcdkzesh/harrison_jeremy.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Jeremy&last=Harrison",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "jharrisonmla@sasktel.net",
+          "phone": "(306) 236-6669",
+          "tollFree": "1-877-234-6669",
+          "fax": "(306) 236-6744",
+          "officeHours": "",
+          "constituencyOffice": "201 - 2nd St. West / PO Box 848\nMeadow Lake, SK S9X 1Y6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Humboldt-Watrous": {
+      "name": "Humboldt-Watrous",
+      "mla": {
+        "name": "Racquel Hilbert",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/j5in1qgs/hilbert_racquel.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Racquel&last=Hilbert",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "mla.humboldt-watrous@outlook.com",
+          "phone": "(306) 682-5141",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "740 - 2nd Street /  PO Box 2950\nHumboldt, SK S0K 2A0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Swift Current": {
+      "name": "Swift Current",
+      "mla": {
+        "name": "Hon. Everett Hindley",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/2lwbjtrs/hindley_everett.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Everett&last=Hindley",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "swiftcurrentmla@gmail.com",
+          "phone": "(306) 778-2429",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "42C Central Ave. N.\nSwift Current, SK S9H 0K7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina University": {
+      "name": "Regina University",
+      "mla": {
+        "name": "Sally Housser",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/hoaba20c/housser_sally.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Sally&last=Housser",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "reginauniversity@ndpcaucus.sk.ca",
+          "phone": "(306) 584-4403",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "B - 2318 Assiniboine Ave East\nRegina, SK S4V 2P5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Warman": {
+      "name": "Warman",
+      "mla": {
+        "name": "Hon. Terry Jenson",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/fdildxut/jenson_terry.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Terry&last=Jenson",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "office@terryjenson.ca",
+          "phone": "(306) 242-2111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "3D - 520 Central St. West / PO Box 2270\nWarman, SK S0K 4S0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon Churchill-Wildwood": {
+      "name": "Saskatoon Churchill-Wildwood",
+      "mla": {
+        "name": "Keith Jorgenson",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/aynfevdx/jorgenson_keith.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Keith&last=Jorgenson",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "saskatoonchurchillwildwood@ndpcaucus.sk.ca",
+          "phone": "(306) 250-1210",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "#50 &#x2013; 2105 8th Street East\nSaskatoon, SK S7H 0T8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Melville-Saltcoats": {
+      "name": "Melville-Saltcoats",
+      "mla": {
+        "name": "Hon. Warren Kaeding",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/fahbkzfq/kaeding_warren.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Warren&last=Kaeding",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "warrenkaedingmla@sasktel.net",
+          "phone": "(306) 728-3881",
+          "tollFree": "",
+          "fax": "(306) 728-3883",
+          "officeHours": "",
+          "constituencyOffice": "317E Main St. / PO Box 3215\nMelville, SK S0A 2P0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Prince Albert Carlton": {
+      "name": "Prince Albert Carlton",
+      "mla": {
+        "name": "Kevin Kasun",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/ltwhrpmg/kasun_kevin.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Kevin&last=Kasun",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "pacarltonmla@sasktel.net",
+          "phone": "(306) 922-2828",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Bay 4 - 406 South Industrial Dr.\nPrince Albert, SK S6V 7L8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Last Mountain-Touchwood": {
+      "name": "Last Mountain-Touchwood",
+      "mla": {
+        "name": "Travis Keisig",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/vx2b5pyp/keisig_travis.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Travis&last=Keisig",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "mla@traviskeisig.ca",
+          "phone": "(306) 334-3444",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "110 Elgin St. / P.O. Box 928\nBalcarres, SK S0G 0C0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Dakota-Arm River": {
+      "name": "Dakota-Arm River",
+      "mla": {
+        "name": "Barret Kropf",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/p5pdcmvi/kropf_barret.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Barret&last=Kropf",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "dakotaarmriver.mla@gmail.com",
+          "phone": "(306) 567-2843",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "121 Washington Ave. / P.O. Box 1077\nDavidson, SK S0G 1A0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Athabasca": {
+      "name": "Athabasca",
+      "mla": {
+        "name": "Leroy Laliberte",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/carlzzw3/leroy-laliberte.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Leroy&last=Laliberte",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "athabasca@ndpcaucus.sk.ca",
+          "phone": "(306) 288-9049",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "1004 Beaver Avenue / PO Box 250\nBeauval, SK S0M 0G0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon Eastview": {
+      "name": "Saskatoon Eastview",
+      "mla": {
+        "name": "Matt Love",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/pjeekufc/love_matt.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Matt&last=Love",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "saskatooneastview@ndpcaucus.sk.ca",
+          "phone": "(306) 664-6626",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "#209 - 3502 Taylor St. East\nSaskatoon, S7H 5H9",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Wood River": {
+      "name": "Wood River",
+      "mla": {
+        "name": "Hon. David Marit",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/kjif1obl/marit_david.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=David&last=Marit",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "mlawoodriver@sasktel.net",
+          "phone": "(306) 642-4200",
+          "tollFree": "1-844-776-4200",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "108 - 1st Ave. West / PO Box 2097\nAssiniboia, SK S0H 0B0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Martensville-Blairmore": {
+      "name": "Martensville-Blairmore",
+      "mla": {
+        "name": "Hon. Jamie Martens",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/3yypbjl2/martens_jamie.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Jamie&last=Martens",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "jamie.martensmla@outlook.com",
+          "phone": "(306) 651-2024",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Box 807 - 725B Centennial Drive South\nMartensville, SK  S0K 2T0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon Chief Mistawasis": {
+      "name": "Saskatoon Chief Mistawasis",
+      "mla": {
+        "name": "Don McBean",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/1m5n2olu/mcbean_don.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Don&last=McBean",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "saskatoonchiefmistawasis@ndpcaucus.sk.ca",
+          "phone": "(306) 291-9114",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit 260 - 536 2nd Ave. North\nSaskatoon, SK  S7K 2C5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Lumsden-Morse": {
+      "name": "Lumsden-Morse",
+      "mla": {
+        "name": "Blaine McLeod",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/axmp3mck/mcleod_blaine.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Blaine&last=McLeod",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "LumsdenmorseMLA@outlook.com",
+          "phone": "(306) 693-1001",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "200 - 99 Diefenbaker Drive\nMoose Jaw, SK S6J 0C2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Moose Jaw North": {
+      "name": "Moose Jaw North",
+      "mla": {
+        "name": "Hon. Tim McLeod",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/fvhpug45/mcleod_tim.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Tim&last=McLeod",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "mjnorthmla@sasktel.net",
+          "phone": "(306) 692-8884",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "200 &#x2013; 99 Diefenbaker Dr.\nMoose Jaw, SK S6J 0C2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Cumberland": {
+      "name": "Cumberland",
+      "mla": {
+        "name": "Jordan McPhail",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/kbalx0gg/mcphail_jordan.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Jordan&last=McPhail",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "cumberland@ndpcaucus.sk.ca",
+          "phone": "(306) 425-2525",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "215 La Ronge Ave. / PO Box 192\nLa Ronge, SK S0J 1L0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon Fairview": {
+      "name": "Saskatoon Fairview",
+      "mla": {
+        "name": "Vicki Mowat",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/qrqmpkl5/mowat_vicki.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Vicki&last=Mowat",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "saskatoonfairview@ndpcaucus.sk.ca",
+          "phone": "(306) 664-1090",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "304 - 1114 22nd Street West\nSaskatoon, SK S7M 0S5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon Centre": {
+      "name": "Saskatoon Centre",
+      "mla": {
+        "name": "Betty Nippi",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/gg1j501u/nippi_albright_betty.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Betty&last=Nippi-Albright",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "saskatooncentre@ndpcaucus.sk.ca",
+          "phone": "(306) 244-3555",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit 260 - 536 2nd Avenue N.\nSaskatoon, SK S7K 2C5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Moose Jaw Wakamow": {
+      "name": "Moose Jaw Wakamow",
+      "mla": {
+        "name": "Megan Patterson",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/52ol3nb4/patterson_megan.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Megan&last=Patterson",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "mjwakamowmla@outlook.com",
+          "phone": "(306) 694-1001",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "106 Athabasca Street West\nMoose Jaw, SK S6H 2B7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina Rochdale": {
+      "name": "Regina Rochdale",
+      "mla": {
+        "name": "Joan Pratchler",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/lwjbitgp/pratchler_joan.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Joan&last=Pratchler",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "reginarochdale@ndpcaucus.sk.ca",
+          "phone": "(306) 531-3125",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "3120 Avonhurst Drive\nRegina, SK  S4R 3J7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Rosetown-Delisle": {
+      "name": "Rosetown-Delisle",
+      "mla": {
+        "name": "Hon. Jim Reiter",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/320b0g4b/reiter_jim.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Jim&last=Reiter",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "jimreitermla@sasktel.net",
+          "phone": "(306) 882-4105",
+          "tollFree": "1-855-762-2233",
+          "fax": "(306) 882-4108",
+          "officeHours": "",
+          "constituencyOffice": "215 Main St. / PO Box 278\nRosetown, SK S0L 2V0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon Nutana": {
+      "name": "Saskatoon Nutana",
+      "mla": {
+        "name": "Erika Ritchie",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/c0pdwadw/ritchie_erika.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Erika&last=Ritchie",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "saskatoonnutana@ndpcaucus.sk.ca",
+          "phone": "(306) 664-6101",
+          "tollFree": "",
+          "fax": "(306) 665-5633",
+          "officeHours": "",
+          "constituencyOffice": "104B - 733 Broadway Ave.\nSaskatoon, SK S7N 1B3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Prince Albert Northcote": {
+      "name": "Prince Albert Northcote",
+      "mla": {
+        "name": "Hon. Alana Ross",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/oe1g4m4i/ross_alana.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Alana&last=Ross",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "panorthcote.mla@sasktel.net",
+          "phone": "(306) 763-7677",
+          "tollFree": "",
+          "fax": "(306) 763-7678",
+          "officeHours": "",
+          "constituencyOffice": "#7 - 598 15th St. East\nPrince Albert, SK  S6V 1G2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Batoche": {
+      "name": "Batoche",
+      "mla": {
+        "name": "Hon. Darlene Rowden",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/ll1lytpa/rowden_darlene.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Darlene&last=Rowden",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "batochemla@outlook.com",
+          "phone": "(306) 256-3215",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "115 Main St. / PO Box 507\nCudworth, SK S0K 1B0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina Northeast": {
+      "name": "Regina Northeast",
+      "mla": {
+        "name": "Jacqueline Roy",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/ssudqk24/roy_jacqueline.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Jacqueline&last=Roy",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "reginanortheast@ndpcaucus.sk.ca",
+          "phone": "(306) 584-4400",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "B - 2318 Assiniboine Ave East\nRegina, SK S4V 2P5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina Douglas Park": {
+      "name": "Regina Douglas Park",
+      "mla": {
+        "name": "Nicole Sarauer",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/yk1fo2ps/sarauer_nicole.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Nicole&last=Sarauer",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "reginadouglaspark@ndpcaucus.sk.ca",
+          "phone": "(306) 522-2829",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "2213 Broad Street\nRegina, SK S4P 1Y7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatchewan Rivers": {
+      "name": "Saskatchewan Rivers",
+      "mla": {
+        "name": "Hon. Eric Schmalz",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/ypyhmyin/schmalz_eric.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Eric&last=Schmalz",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "SaskRivers.MLA@outlook.com",
+          "phone": "(306) 763-5020",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit B - 62 17th Street West\nPrince Albert, SK  S6V 3X3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon Southeast": {
+      "name": "Saskatoon Southeast",
+      "mla": {
+        "name": "Brittney Senger",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/sfqpuvsu/senger_brittney.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Brittney&last=Senger",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "saskatoonsoutheast@ndpcaucus.sk.ca",
+          "phone": "(306) 664-6626",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Suite 209 - 3502 Taylor St. East\nSaskatoon, SK  S7H 5H9",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Cypress Hills": {
+      "name": "Cypress Hills",
+      "mla": {
+        "name": "Doug Steele",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/g3loqabd/steele_doug.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Doug&last=Steele",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "dougsteelemla@gmail.com",
+          "phone": "(306) 672-1755",
+          "tollFree": "1-844-672-1755",
+          "fax": "(306) 672-1756",
+          "officeHours": "",
+          "constituencyOffice": "4671 Price Ave. / PO Box 238\nGull Lake, SK S0N 1A0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon Meewasin": {
+      "name": "Saskatoon Meewasin",
+      "mla": {
+        "name": "Nathaniel Teed",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/xbclflja/teed_nathaniel.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Nathaniel%20&last=Teed",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "saskatoonmeewasin@ndpcaucus.sk.ca",
+          "phone": "(306) 374-8333",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit 260 - 536 2nd Ave. North\nSaskatoon, SK   S7K 2C5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Cut Knife-Turtleford": {
+      "name": "Cut Knife-Turtleford",
+      "mla": {
+        "name": "James Thorsteinson",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/50lhv1lu/thorsteinson_james.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=James&last=Thorsteinson",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "office@cktmla.ca",
+          "phone": "(306) 893-2619",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "#6 - 116 1st Ave. West / P.O. Box 850\nMaidstone, SK  S0M 1M0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saskatoon Stonebridge": {
+      "name": "Saskatoon Stonebridge",
+      "mla": {
+        "name": "Darcy Warrington",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/kusno3ex/warrington_darcy.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Darcy&last=Warrington",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "saskatoonstonebridge@ndpcaucus.sk.ca",
+          "phone": "(306) 664-6626",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Suite 209 - 3502 Taylor St. East\nSaskatoon, SK  S7H 5H9",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Moosomin-Montmartre": {
+      "name": "Moosomin-Montmartre",
+      "mla": {
+        "name": "Kevin Weedmark",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/a5vpxjyq/weedmark_kevin.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Kevin&last=Weedmark",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "office@kevinweedmark.ca",
+          "phone": "(306) 435-4005",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "622 Main St. / Box 1038\nMoosomin, SK S0G 3N0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Weyburn-Bengough": {
+      "name": "Weyburn-Bengough",
+      "mla": {
+        "name": "Hon. Michael Weger",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/2fljlht3/weger_michael.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Michael&last=Weger",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "office@weyburnbengough.ca",
+          "phone": "(306) 842-5005",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "28 - 4th St. NE\nWeyburn, SK  S4H 0X7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Canora-Pelly": {
+      "name": "Canora-Pelly",
+      "mla": {
+        "name": "Hon. Sean Wilson",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/mqzlin3f/wilson_sean.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Sean&last=Wilson",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "office@canorapellymla.ca",
+          "phone": "(306) 563-9900",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "237 Railway Ave. / PO Box 928, Canora, SK  S0A 0L0\n27 Main Street,  Preeceville, SK S0A 3B0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina Mount Royal": {
+      "name": "Regina Mount Royal",
+      "mla": {
+        "name": "Trent Wotherspoon",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/s4apmu4h/wotherspoon_trent.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Trent&last=Wotherspoon",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "reginamountroyal@ndpcaucus.sk.ca",
+          "phone": "(306) 565-2444",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "6300 Dewdney Ave.\nRegina, SK, S4T 1E3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Regina South Albert": {
+      "name": "Regina South Albert",
+      "mla": {
+        "name": "Aleana Young",
+        "party": "NDP",
+        "photo": "https://www.legassembly.sk.ca/media/pe1bgkeu/young_aleana.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Aleana&last=Young",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "reginasouthalbert@ndpcaucus.sk.ca",
+          "phone": "(306) 545-0300",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "2213 Broad Street\nRegina, SK S4P 1Y7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Lloydminster": {
+      "name": "Lloydminster",
+      "mla": {
+        "name": "Colleen Young",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/qsbeeuzz/young_colleen.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Colleen&last=Young",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "colleen.young@sasktel.net",
+          "phone": "(306) 825-5550",
+          "tollFree": "",
+          "fax": "(306) 825-5552",
+          "officeHours": "",
+          "constituencyOffice": "101A - 1625 50th Avenue\nLloydminster, SK, S9V 2H3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "White City-Qu'appelle": {
+      "name": "White City-Qu'appelle",
+      "mla": {
+        "name": "Brad Crassweller",
+        "party": "Saskatchewan Party",
+        "photo": "https://www.legassembly.sk.ca/media/uzck5inf/crassweller_brad.jpg",
+        "profileUrl": "https://www.legassembly.sk.ca/mlas/member-details?first=Brad&last=Crassweller",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "mla@wc-q.ca",
+          "phone": "(306) 520-5018",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "129A Railway St. East / PO Box 720\nBalgonie, SK S0G 0E0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    }
+  }
+}

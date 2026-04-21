@@ -1,0 +1,1728 @@
+{
+  "parties": {
+    "Progressive Conservative": {
+      "color": "#003F7F"
+    },
+    "NDP": {
+      "color": "#F37021"
+    },
+    "Independent": {
+      "color": "#808080"
+    },
+    "Liberal": {
+      "color": "#D71920"
+    }
+  },
+  "ridings": {
+    "Agassiz": {
+      "name": "Agassiz",
+      "mla": {
+        "name": "Jodie Byram",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/byram.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/byram.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "officeofagassizmla@gmail.com",
+          "phone": "(204) 390-5428",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "361 Mountain Ave. Box 550 Neepawa, MB R0J 1H0 Phone: (204) 390-5428 Email: officeofagassizmla@gmail.com",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Assiniboia": {
+      "name": "Assiniboia",
+      "mla": {
+        "name": "Nellie Kennedy",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/kennedy.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/kennedy.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Nellie.Kennedy@yourmanitoba.ca",
+          "phone": "(204) 888-3188",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit 105-3025 Portage Ave Winnipeg, MB R3K 2E2 Phone: (204) 888-3188 Email: Nellie.Kennedy@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Borderland": {
+      "name": "Borderland",
+      "mla": {
+        "name": "Josh Guenter",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/guenter.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/guenter.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "info@joshguenter.ca",
+          "phone": "(204) 324-8957",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "67-2 nd Street NE Box 643 Altona, MB R0G 0B0 Phone: (204) 324-8957 Fax: (204) 324-9036 Email: info@joshguenter.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Brandon East": {
+      "name": "Brandon East",
+      "mla": {
+        "name": "Glen Simard",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/simard.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/simard.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Glen.Simard@yourmanitoba.ca",
+          "phone": "(204) 717-1799",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit A 217 - 10th Street Brandon, MB R7A 4E9 Phone: (204) 717-1799 Email: Glen.Simard@yourmanitoba.ca Brandoneast1@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Brandon West": {
+      "name": "Brandon West",
+      "mla": {
+        "name": "Wayne Balcaen",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/balcaen.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/balcaen.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "contact@waynebalcaen.ca",
+          "phone": "1-204-717-6777",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "824 C, 18 th Street Brandon, MB Phone: 1 (204) 717-6777 Email: contact@waynebalcaen.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Burrows": {
+      "name": "Burrows",
+      "mla": {
+        "name": "Diljeet Brar",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/brar.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/brar.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "diljeet.brar@yourmanitoba.ca",
+          "phone": "(204) 415-7621",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "80 Mandalay Dr Winnipeg, MB R2P 1V8 Phone: (204) 415-7621 Email: diljeet.brar@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Concordia": {
+      "name": "Concordia",
+      "mla": {
+        "name": "Matt Wiebe",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/wiebe.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/wiebe.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "matt.wiebe@yourmanitoba.ca",
+          "phone": "(204) 654-1857",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "106 – 1111 Munroe Avenue Winnipeg, MB R2K 3Z5 Phone: (204) 654-1857 Fax: (204) 663-1943 Email: matt.wiebe@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Dauphin": {
+      "name": "Dauphin",
+      "mla": {
+        "name": "Ron Kostyshyn",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/kostyshyn.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/kostyshyn.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "minagr@manitoba.ca",
+          "phone": "(204) 638-1672",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit B1 - 101 First Ave NW Dauphin, MB R7N 1G8 Phone: (204) 638-1672 Email: ron.kostyshyn@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Dawson Trail": {
+      "name": "Dawson Trail",
+      "mla": {
+        "name": "Bob Lagassé",
+        "party": "Independent",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/lagasse.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/lagasse.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "ca.lagasse@outlook.com",
+          "phone": "(204) 807-4663",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit 8B – 555 Traverse Road Ste. Anne, MB R5H 1B2 Phone: (204) 807-4663 Email: ca.lagasse@outlook.com",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Elmwood": {
+      "name": "Elmwood",
+      "mla": {
+        "name": "Jim Maloway",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/maloway.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/maloway.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "jim.maloway@yourmanitoba.ca",
+          "phone": "(204) 415-1122",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "46 Stadacona Street Winnipeg, MB R2L 2C8 Phone: (204) 415-1122 Email: jim.maloway@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Flin Flon": {
+      "name": "Flin Flon",
+      "mla": {
+        "name": "Tom Lindsey",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/lindsey.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/lindsey.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "tom.lindsey@yourmanitoba.ca",
+          "phone": "(204) 687-3246",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "93 Main Street Flin Flon, MB R8A 1J9 Phone: (204) 687-3246 Fax: (204) 687-5649 Email: tom.lindsey@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Fort Garry": {
+      "name": "Fort Garry",
+      "mla": {
+        "name": "Mark Wasyliw",
+        "party": "Independent",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/wasyliw.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/wasyliw.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Mark@markwasyliwmla.ca",
+          "phone": "(204) 421-4241",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "202-1383 Pembina Highway Winnipeg, MB R3T 2B9 Phone: (204) 421-4241 Email: Mark@markwasyliwmla.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Fort Richmond": {
+      "name": "Fort Richmond",
+      "mla": {
+        "name": "Jennifer Chen",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/chen.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/chen.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Jennifer.Chen@yourmanitoba.ca",
+          "phone": "(431) 294",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "E-2810 Pembina Hwy Winnipeg, MB R3T 2H8 Phone: (431) 294–9854",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Fort Rouge": {
+      "name": "Fort Rouge",
+      "mla": {
+        "name": "Wab Kinew",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/kinew.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/kinew.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "wab.kinew@yourmanitoba.ca",
+          "phone": "(204) 615-1922",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "565 1/2 Osborne Street Winnipeg, MB R3L 2B3 Phone: (204) 615-1922 Email: wab.kinew@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Fort Whyte": {
+      "name": "Fort Whyte",
+      "mla": {
+        "name": "Obby Khan",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/khan.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/khan.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "office@obbyKhan.ca",
+          "phone": "(204) 691-0720",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "143-99 Scurfield Blvd Winnipeg, MB R3Y 1Y1 Phone: (204) 691-0720 Email: office@obbyKhan.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Interlake-Gimli": {
+      "name": "Interlake-Gimli",
+      "mla": {
+        "name": "Derek Johnson",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/johnson.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/johnson.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "derek.johnson@leg.gov.mb.ca",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Keewatinook": {
+      "name": "Keewatinook",
+      "mla": {
+        "name": "Ian Bushie",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/bushie.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/bushie.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "ian.bushie@yourmanitoba.ca",
+          "phone": "(204) 792-8740",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "PO Box 2565 32 Main Street Wanipigow, MB R0E 2E0 Phone: (204) 792-8740 Fax: (204) 363-7481 Email: ian.bushie@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kildonan-River East": {
+      "name": "Kildonan-River East",
+      "mla": {
+        "name": "Rachelle Schott",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/schott.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/schott.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Rachelle.Schott@yourmanitoba.ca",
+          "phone": "(431) 478-1667",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "1106A Henderson Hwy Winnipeg, MB R2G 1L1 Phone: (431) 478-1667",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kirkfield Park": {
+      "name": "Kirkfield Park",
+      "mla": {
+        "name": "Logan Oxenham",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/oxenham.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/oxenham.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Logan.Oxenham@yourmanitoba.ca",
+          "phone": "(204) 831-6689",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit 125, 3025 Portage Ave. Winnipeg, MB R3K 2E2 Phone: 204-831-6689",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "La Vérendrye": {
+      "name": "La Vérendrye",
+      "mla": {
+        "name": "Konrad Narth",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/narth.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/narth.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "info@konradnarth.ca",
+          "phone": "(204) 434-6736",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "146 Main St., Box 1263 Grunthal MB R0A 0R0 Phone: (204) 434-6736 Email: info@konradnarth.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Lac du Bonnet": {
+      "name": "Lac du Bonnet",
+      "mla": {
+        "name": "Wayne Ewasko",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/ewasko.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/ewasko.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "wayne@wayneewasko.com",
+          "phone": "(204) 268-3282",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Box 1299, 636 Park Avenue Beausejour, MB R0E 0C0 Phone: (204) 268-3282 Fax: (204) 268-3976 Email: wayne@wayneewasko.com",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Lagimodière": {
+      "name": "Lagimodière",
+      "mla": {
+        "name": "Tyler Blashko",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/blashko.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/blashko.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Tyler.Blashko@yourmanitoba.ca",
+          "phone": "(204) 583-7423",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit 6 - 567 St. Anne's Winnipeg, MB R2M 5B2 Phone: (204) 583-7423 Email: tyler.blashko@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Lakeside": {
+      "name": "Lakeside",
+      "mla": {
+        "name": "Trevor King",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/king.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/king.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "mlaforlakeside@gmail.com",
+          "phone": "(204) 467-1998",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "319 Main Street Stonewall, MB R0C 2Z0 Phone: (204) 467-1998 Email: mlaforlakeside@gmail.com",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "McPhillips": {
+      "name": "McPhillips",
+      "mla": {
+        "name": "Jasdeep Devgan",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/devgan.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/devgan.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "JD.Devgan@yourmanitoba.ca",
+          "phone": "(431) 323-6014",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "210-1375 McPhillips Ave, Winnipeg, MB R2V 3V1 Phone: (431) 323-6014",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Midland": {
+      "name": "Midland",
+      "mla": {
+        "name": "Lauren Stone",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/stone.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/stone.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "laurenstonemidland@gmail.com",
+          "phone": "(431) 323-2968",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "195 Main Street Carman, MB R0G 0J0 Phone: (431) 323-2968 Email: laurenstonemidland@gmail.com",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Morden-Winkler": {
+      "name": "Morden-Winkler",
+      "mla": {
+        "name": "Carrie Hiebert",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/hiebert.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/hiebert.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "mordenwinklermla@gmail.com",
+          "phone": "(204) 325-7834",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "367-4th Street Winkler, MB R6W 0M5 Phone: (204) 325-7834 Email: mordenwinklermla@gmail.com",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Notre Dame": {
+      "name": "Notre Dame",
+      "mla": {
+        "name": "Malaya Marcelino",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/marcelino.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/marcelino.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "malaya.marcelino@yourmanitoba.ca",
+          "phone": "(204) 788-0800",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "849 Notre Dame Avenue Winnipeg, MB R3E 0M4 Phone: (204) 788-0800 Fax: (204) 415-2520 Email: malaya.marcelino@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Point Douglas": {
+      "name": "Point Douglas",
+      "mla": {
+        "name": "Bernadette Smith",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/smith.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/smith.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "bernadette.smith@yourmanitoba.ca",
+          "phone": "(204) 414-1477",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "804 Selkirk Avenue Winnipeg, MB R2W 2N6 Phone: (204) 414-1477 Fax: (204) 615-5549 Email: bernadette.smith@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Portage la Prairie": {
+      "name": "Portage la Prairie",
+      "mla": {
+        "name": "Jeff Bereza",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/bereza.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/bereza.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "jeff.bereza@strongermanitoba.ca",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Radisson": {
+      "name": "Radisson",
+      "mla": {
+        "name": "Jelynn Dela Cruz",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/delacruz.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/delacruz.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Jelynn.DelaCruz@yourmanitoba.ca",
+          "phone": "(204) 599-2080",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Winnipeg, MB Phone: (204) 599-2080",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Red River North": {
+      "name": "Red River North",
+      "mla": {
+        "name": "Jeff Wharton",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/wharton.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/wharton.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "gimlica@mymts.net",
+          "phone": "(204) 641-2107",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Selkirk, MB R1A 4M2 Phone: (204) 641-2107 Email: gimlica@mymts.net or rrnorthca@mymts.net",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Riding Mountain": {
+      "name": "Riding Mountain",
+      "mla": {
+        "name": "Greg Nesbitt",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/nesbitt.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/nesbitt.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Gregnesbittmla@mymts.net",
+          "phone": "(204) 759-3313",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "7-515 4 th Avenue, Box 100 Shoal Lake, MB R0J 1Z0 Phone: (204) 759-3313 Fax: (204) 759-3254 Toll Free: (844) 877-7767 Email: gregnesbittmla@mymts.net",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Riel": {
+      "name": "Riel",
+      "mla": {
+        "name": "Mike Moyes",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/moyes.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/moyes.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Mike.Moyes@yourmanitoba.ca",
+          "phone": "(204) 421-4666",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "C - 628 St Anne's Rd Winnipeg, MB R2M 4W3 Phone: (204) 421-4666 Email: Mike.Moyes@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "River Heights": {
+      "name": "River Heights",
+      "mla": {
+        "name": "Mike Moroz",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/moroz.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/moroz.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Mike.Moroz@yourmanitoba.ca",
+          "phone": "(204) 774-3669",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "620-D Academy Rd Winnipeg, R3N 0E6 Phone: (204) 774-3669 Email: Mike.Moroz@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Roblin": {
+      "name": "Roblin",
+      "mla": {
+        "name": "Kathleen Cook",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/cook.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/cook.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "info@kathleen-cook.ca",
+          "phone": "(204) 504-0594",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "D-5606 Roblin Blvd. Winnipeg, MB R3R 0H2 Phone: (204) 504-0594 Email: info@kathleen-cook.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Rossmere": {
+      "name": "Rossmere",
+      "mla": {
+        "name": "Tracy Schmidt",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/schmidt.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/schmidt.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "mineecl@manitoba.ca",
+          "phone": "(204) 661-1377",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "3-935 Mcleod Ave Winnipeg, MB R2G 0Y4 Phone: (204) 661-1377 Email: Tracy.Schmidt@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Seine River": {
+      "name": "Seine River",
+      "mla": {
+        "name": "Billie Cross",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/cross.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/cross.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Billie.Cross@yourmanitoba.ca",
+          "phone": "(204) 221-7576",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "16-1500 Dakota St Winnipeg MB, R2N 3Y7 Phone: (204) 221-7576",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Selkirk": {
+      "name": "Selkirk",
+      "mla": {
+        "name": "Richard Perchotte",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/perchotte.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/perchotte.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "richperchotte@gmail.com",
+          "phone": "(204) 481-4677",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "100-5759 Hwy 9 Lockport, MB R1A 2R6 Phone: (204) 481-4677 Email: richperchotte@gmail.com",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Southdale": {
+      "name": "Southdale",
+      "mla": {
+        "name": "Renée Cable",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/cable.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/cable.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "renee.cable@yourmanitoba.ca",
+          "phone": "(204) 222-9038",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "310-119 Vermillion Rd Winnipeg, MB R2J 4A9 Phone: (204) 222-9038 Email: renee.cable@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Springfield-Ritchot": {
+      "name": "Springfield-Ritchot",
+      "mla": {
+        "name": "Ron Schuler",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/schuler.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/schuler.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "ron@ronschuler.com",
+          "phone": "(204) 330-3353",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Box 150, Unit 3 - 777 Cedar Place Oakbank, MB R0E 1J0 Phone: (204) 330-3353 Email: ron@ronschuler.com",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Spruce Woods": {
+      "name": "Spruce Woods",
+      "mla": {
+        "name": "Colleen Robbins",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/robbins.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/robbins.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Contact@colleen-robbins.ca",
+          "phone": "(204) 717-7000",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "3 - 811 18th Street N Brandon, Manitoba R7A 7S1 Phone: 204-717-7000 Email: Contact@colleen-robbins.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "St. Boniface": {
+      "name": "St. Boniface",
+      "mla": {
+        "name": "Robert Loiselle",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/loiselle.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/loiselle.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Rob.Loiselle@yourmanitoba.ca",
+          "phone": "(204) 505-2800",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "118 Marion Street Winnipeg, MB R2T 0T1 Phone: (204) 505-2800 Email: Rob.Loiselle@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "St. James": {
+      "name": "St. James",
+      "mla": {
+        "name": "Adrien Sala",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/sala.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/sala.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "adrien.sala@yourmanitoba.ca",
+          "phone": "792-8779",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "1885 Portage Avenue, Unit E Winnipeg, MB R3J 0H3 Phone: (204) 792-8779 Email: adrien.sala@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "St. Johns": {
+      "name": "St. Johns",
+      "mla": {
+        "name": "Nahanni Fontaine",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/fontaine.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/fontaine.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "nahanni.fontaine@yourmanitoba.ca",
+          "phone": "(204) 582-1550",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "1763 Main Street Winnipeg, MB R2V 1Z8 Phone: (204) 582-1550 Fax: (204) 586-3736 Email: nahanni.fontaine@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "St. Vital": {
+      "name": "St. Vital",
+      "mla": {
+        "name": "Jamie Moses",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/moses.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/moses.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "jamie.moses@yourmanitoba.ca",
+          "phone": "(204) 219-5407",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "838 St. Mary’s Road Winnipeg, MB R2M 3P4 Phone: (204) 219-5407 Email: jamie.moses@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Steinbach": {
+      "name": "Steinbach",
+      "mla": {
+        "name": "Kelvin Goertzen",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/goertzen.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/goertzen.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "kelvin@kelvingoertzen.com",
+          "phone": "(204) 326-5763",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit C2-275 Main Street Steinbach, MB R5G 1Y9 Phone: (204) 326-5763 Fax: (204) 346-9913 Email: kelvin@kelvingoertzen.com",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Swan River": {
+      "name": "Swan River",
+      "mla": {
+        "name": "Rick Wowchuk",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/wowchuk.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/wowchuk.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "office1@rickwowchuk.ca",
+          "phone": "(204) 614-7425",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Box 1688, 3-900 Main Street Swan River, MB R0L 1Z0 Phone: (204) 614-7425 Fax: (204) 614-0152 Email: office1@rickwowchuk.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "The Maples": {
+      "name": "The Maples",
+      "mla": {
+        "name": "Mintu Sandhu",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/sandhu.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/sandhu.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "mintu.sandhu@yourmanitoba.ca",
+          "phone": "417-3486",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "102A-1730 Leila Avenue Winnipeg, Manitoba R2P 1Z1 Phone: (204) 417-3486 Fax: (204) 417-3476 Email: mintu.sandhu@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Thompson": {
+      "name": "Thompson",
+      "mla": {
+        "name": "Eric Redhead",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/redhead.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/redhead.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Eric.Redhead@yourmanitoba.ca",
+          "phone": "677-4789",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "402 – 79 Selkirk Avenue Thompson, MB R8N 0M5 Phone: (204) 677-4789 Fax: (204) 677-4805 Email: Eric.Redhead@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Transcona": {
+      "name": "Transcona",
+      "mla": {
+        "name": "Shannon Corbett",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/corbett.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/corbett.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Shannon.Corbett@yourmanitoba.ca",
+          "phone": "(204) 219-1189",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "127 Regent Avenue West Winnipeg, MB R2C 1R1 Phone: (204) 219-1189 Email: Shannon.Corbett@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Turtle Mountain": {
+      "name": "Turtle Mountain",
+      "mla": {
+        "name": "Doyle Piwniuk",
+        "party": "Progressive Conservative",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/piwniuk.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/piwniuk.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "info@doylepiwniuk.ca",
+          "phone": "(204) 552-0130",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "610 – 620 336 South Railway, Boissevain, MB R0M 2C0 Phone: (204) 552-0130 Email: info@doylepiwniuk.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Tuxedo": {
+      "name": "Tuxedo",
+      "mla": {
+        "name": "Carla Compton",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/compton.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/compton.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "Carla.Compton@yourmanitoba.ca",
+          "phone": "(204) 416-1140",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "1840 Grant Avenue Winnipeg, MB R3N 0N4 Phone: (204) 416-1140 Email: Carla.Compton@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Tyndall Park": {
+      "name": "Tyndall Park",
+      "mla": {
+        "name": "Cindy Lamoureux",
+        "party": "Liberal",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/lamoureux.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/lamoureux.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "cindy@gocindy.ca",
+          "phone": "(204) 615-9961",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "55 Waterford Green Common Winnipeg, MB R2R 2Z9 Phone: (204) 615-9961",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Union Station": {
+      "name": "Union Station",
+      "mla": {
+        "name": "Uzoma Asagwara",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/asagwara.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/asagwara.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "uzoma.asagwara@yourmanitoba.ca",
+          "phone": "(204) 306-8581",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "Unit 210B - 254 Edmonton Street Winnipeg, MB R3B 2G9 Phone: (204) 306-8581 Email: uzoma.asagwara@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Waverley": {
+      "name": "Waverley",
+      "mla": {
+        "name": "David Pankratz",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/pankratz.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/pankratz.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "David.Pankratz@yourmanitoba.ca",
+          "phone": "(204) 804-2875",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "204-2265 Pembina Hwy Winnipeg, MB R3T 5J3 Phone: (204) 804-2875 Email: David.Pankratz@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Wolseley": {
+      "name": "Wolseley",
+      "mla": {
+        "name": "Lisa Naylor",
+        "party": "NDP",
+        "photo": "https://www.gov.mb.ca/legislature/img/mla/naylor.jpg",
+        "profileUrl": "https://www.gov.mb.ca/legislature/members/info/naylor.html",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "lisa.naylor@yourmanitoba.ca",
+          "phone": "(204) 792-2773",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "101-686 Portage Avenue Winnipeg, MB R3G 0M6| Phone: (204) 792-2773 Email: lisa.naylor@yourmanitoba.ca",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "The Pas-Kameesak": {
+      "name": "The Pas-Kameesak",
+      "mla": {
+        "name": "Vacant",
+        "party": "NDP",
+        "photo": "",
+        "profileUrl": "",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    }
+  }
+}

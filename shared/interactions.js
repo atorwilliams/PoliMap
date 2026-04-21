@@ -37,6 +37,7 @@ export function initInteractions(map, config) {
     currentlyHighlightedRiding = ridingName;
 
     showRidingPreview(map, ridingName, e.lngLat, 'provincial', config, () => {
+      if (currentlyHighlightedRiding !== ridingName) return;
       map.setLayoutProperty(`${prefix}-highlight`, 'visibility', 'none');
       map.setFilter(`${prefix}-highlight`, ['==', ['get', nameProp], '']);
       currentlyHighlightedRiding = null;

@@ -1,0 +1,24 @@
+{
+  "name": "Metro Vancouver Regional District",
+  "geoname": "MVRD",
+  "type": "Regional District",
+  "mayor": {
+    "name": "",
+    "portrait": "",
+    "since": "",
+    "title": "Chair",
+    "committees": [],
+    "phone": "",
+    "email": ""
+  },
+  "council": [],
+  "appointed": [],
+  "electionDate": "",
+  "nextElection": "",
+  "website": "",
+  "notes": "",
+  "schoolTrustees": {
+    "public": [],
+    "catholic": []
+  }
+}
