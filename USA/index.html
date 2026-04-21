@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>United States – PoliMap</title>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/landing.css">
+</head>
+<body class="landing-body">
+
+  <div class="landing-split">
+
+    <!-- Left panel -->
+    <div class="landing-panel">
+
+      <a href="/" class="landing-wordmark" style="text-decoration:none;">
+        <div class="landing-wordmark-main">PoliMap</div>
+        <div class="landing-wordmark-sub">Ridings in Colour</div>
+      </a>
+
+      <div class="landing-mid">
+
+        <!-- Default view: state list -->
+        <div id="panel-list">
+          <div id="president-strip"></div>
+
+          <p class="landing-explore-label" style="margin-top:24px; margin-bottom:8px;">States</p>
+          <nav class="landing-country-list" id="state-list"></nav>
+        </div>
+
+        <!-- Selected state view -->
+        <div id="panel-detail" style="display:none;">
+          <button class="landing-footer-link" id="back-btn" style="margin-bottom:28px; font-size:0.82rem;">← All States</button>
+          <div id="detail-content"></div>
+        </div>
+
+      </div>
+
+      <footer class="landing-footer">
+        <a class="landing-footer-link" href="/donate.html">Donate</a>
+        <span class="landing-footer-sep">·</span>
+        <a class="landing-footer-link" href="https://polichan.org" target="_blank">Discussion</a>
+      </footer>
+
+    </div>
+
+    <!-- Right panel: US map -->
+    <div class="landing-map-wrap">
+      <div id="usa-map"></div>
+      <div class="landing-map-fade"></div>
+    </div>
+
+  </div>
+
+  <style>
+    #usa-map { width: 100%; height: 100%; }
+
+    .pm-strip {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      margin-bottom: 4px;
+    }
+    .pm-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .pm-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.3);
+      margin-bottom: 2px;
+    }
+    .pm-name {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .pm-party {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.45);
+    }
+
+    .detail-abbr {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .detail-name {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.9);
+      margin-bottom: 20px;
+    }
+    .detail-explore-btn {
+      display: block;
+      padding: 10px 18px;
+      background: #B22234;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-align: center;
+      transition: background 0.15s;
+    }
+    .detail-explore-btn:hover { background: #8b1a28; }
+    .detail-coming-soon {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.25);
+      font-style: italic;
+      text-align: center;
+      padding: 10px 0;
+    }
+    .detail-party-bar {
+      height: 4px;
+      border-radius: 2px;
+      margin-bottom: 16px;
+      opacity: 0.8;
+    }
+    .detail-gov-block {
+      margin-bottom: 20px;
+      padding: 10px 12px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px;
+    }
+    .detail-gov-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.3);
+      margin-bottom: 3px;
+    }
+    .detail-gov-name {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 2px;
+    }
+    .detail-gov-party {
+      font-size: 0.75rem;
+    }
+  </style>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script type="module">
+    const STATE_ORDER = [
+      'AL','AK','AZ','AR','CA','CO','CT','DC','DE','FL','GA','HI',
+      'ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN',
+      'MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH',
+      'OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA',
+      'WV','WI','WY'
+    ];
+
+    let statesData = null;
+    let selectedId  = null;
+    let map         = null;
+
+    function formatDate(str) {
+      if (!str) return '';
+      const d = new Date(str);
+      return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+    }
+
+    async function init() {
+      const res = await fetch('./states.json');
+      statesData = await res.json();
+
+      renderPresidentStrip();
+      renderStateList();
+      initMap();
+    }
+
+    function renderPresidentStrip() {
+      const p = statesData.president;
+      document.getElementById('president-strip').innerHTML = `
+        <div class="pm-strip">
+          <div class="pm-dot" style="background:${p.partyColor};"></div>
+          <div>
+            <div class="pm-label">President</div>
+            <div class="pm-name">${p.name}</div>
+            <div class="pm-party">${p.party} · Since ${formatDate(p.since)}</div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderStateList() {
+      const list = document.getElementById('state-list');
+      list.innerHTML = STATE_ORDER.map(id => {
+        const s = statesData.states[id];
+        if (!s) return '';
+        const dot = s.partyColor
+          ? `<span style="width:8px;height:8px;border-radius:50%;background:${s.partyColor};display:inline-block;flex-shrink:0;"></span>`
+          : `<span style="width:8px;display:inline-block;"></span>`;
+        if (s.available) {
+          return `
+            <div class="landing-country-item active" data-id="${id}" style="cursor:pointer;gap:8px;">
+              ${dot}<span class="landing-country-arrow">→</span>
+              <span>${s.name}</span>
+            </div>`;
+        } else {
+          return `
+            <div class="landing-country-item" data-id="${id}" style="cursor:pointer;gap:8px;">
+              ${dot}<span style="width:16px;display:inline-block;"></span>
+              <span>${s.name}</span>
+              <span class="landing-country-soon">soon</span>
+            </div>`;
+        }
+      }).join('');
+
+      list.querySelectorAll('.landing-country-item').forEach(el => {
+        el.addEventListener('click', () => selectState(el.dataset.id));
+      });
+    }
+
+    function selectState(id) {
+      selectedId = id;
+      const s = statesData.states[id];
+      if (!s) return;
+
+      document.getElementById('panel-list').style.display = 'none';
+      document.getElementById('panel-detail').style.display = 'block';
+
+      const gov = s.governor;
+      const govTitle = gov?.title || 'Governor';
+      document.getElementById('detail-content').innerHTML = `
+        <div class="detail-party-bar" style="background:${s.partyColor || '#888'};"></div>
+        <div class="detail-abbr">${s.abbr}</div>
+        <div class="detail-name">${s.name}</div>
+        ${gov ? `
+          <div class="detail-gov-block">
+            <div class="detail-gov-label">${govTitle}</div>
+            <div class="detail-gov-name">${gov.name}</div>
+            <div class="detail-gov-party" style="color:${s.partyColor};">${gov.party} · Since ${formatDate(gov.since)}</div>
+          </div>
+        ` : ''}
+        ${s.available
+          ? `<a href="${s.mapUrl}" class="detail-explore-btn" style="margin-top:20px;">Explore ${s.name} →</a>`
+          : `<div class="detail-coming-soon">Detailed map coming soon</div>`
+        }
+      `;
+
+      if (map && map.getSource('highlight-source')) {
+        const feature = getFeatureByAbbr(id);
+        map.getSource('highlight-source').setData(feature
+          ? { type: 'FeatureCollection', features: [feature] }
+          : { type: 'FeatureCollection', features: [] }
+        );
+      }
+    }
+
+    function getFeatureByAbbr(abbr) {
+      if (!map) return null;
+      const source = map.getSource('states-source');
+      if (!source?._data?.features) return null;
+      return source._data.features.find(f => f.properties.STATE_ABBR === abbr) || null;
+    }
+
+    document.getElementById('back-btn').addEventListener('click', () => {
+      selectedId = null;
+      document.getElementById('panel-detail').style.display = 'none';
+      document.getElementById('panel-list').style.display = 'block';
+      if (map && map.getSource('highlight-source')) {
+        map.getSource('highlight-source').setData({ type: 'FeatureCollection', features: [] });
+      }
+    });
+
+    function buildColorMatch() {
+      const expr = ['match', ['get', 'STATE_ABBR']];
+      for (const [abbr, s] of Object.entries(statesData.states)) {
+        expr.push(abbr, s.partyColor || '#888888');
+      }
+      expr.push('#888888');
+      return expr;
+    }
+
+    function initMap() {
+      map = new maplibregl.Map({
+        container: 'usa-map',
+        style: 'https://tiles.openfreemap.org/styles/liberty',
+        center: [-98, 38.5],
+        zoom: 3.5,
+        attributionControl: false
+      });
+
+      map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+      map.on('load', async () => {
+        const res = await fetch('./json/us_states.geojson');
+        const geojson = await res.json();
+
+        map.addSource('states-source', { type: 'geojson', data: geojson });
+
+        map.addLayer({
+          id: 'states-fill',
+          type: 'fill',
+          source: 'states-source',
+          paint: {
+            'fill-color': buildColorMatch(),
+            'fill-opacity': 0.45,
+          }
+        });
+
+        map.addLayer({
+          id: 'states-outline',
+          type: 'line',
+          source: 'states-source',
+          paint: {
+            'line-color': '#888888',
+            'line-width': 0.8,
+            'line-opacity': 0.7,
+          }
+        });
+
+        map.addSource('highlight-source', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        });
+
+        map.addLayer({
+          id: 'states-highlight',
+          type: 'fill',
+          source: 'highlight-source',
+          paint: { 'fill-color': '#ffffff', 'fill-opacity': 0.15 }
+        });
+
+        map.addLayer({
+          id: 'states-highlight-outline',
+          type: 'line',
+          source: 'highlight-source',
+          paint: { 'line-color': '#ffffff', 'line-width': 1.5, 'line-opacity': 0.8 }
+        });
+
+        map.on('click', 'states-fill', (e) => {
+          const abbr = e.features[0].properties.STATE_ABBR;
+          if (statesData.states[abbr]) selectState(abbr);
+        });
+
+        map.on('mouseenter', 'states-fill', () => {
+          map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'states-fill', () => {
+          map.getCanvas().style.cursor = '';
+        });
+      });
+    }
+
+    init();
+  </script>
+
+</body>
+</html>

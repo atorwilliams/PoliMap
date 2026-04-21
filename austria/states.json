@@ -1,0 +1,83 @@
+{
+  "chancellor": {
+    "name": "Herbert Kickl",
+    "party": "FPÖ",
+    "since": "2025-01-06",
+    "partyColor": "#004F9E"
+  },
+  "states": {
+    "AT1": {
+      "name": "Burgenland",
+      "nameEn": "Burgenland",
+      "abbr": "B",
+      "partyColor": "#E2001A",
+      "governor": { "name": "Hans Peter Doskozil", "party": "SPÖ", "since": "2019-02-28" },
+      "available": false
+    },
+    "AT2": {
+      "name": "Kärnten",
+      "nameEn": "Carinthia",
+      "abbr": "K",
+      "partyColor": "#E2001A",
+      "governor": { "name": "Peter Kaiser", "party": "SPÖ", "since": "2013-03-28" },
+      "available": false
+    },
+    "AT3": {
+      "name": "Niederösterreich",
+      "nameEn": "Lower Austria",
+      "abbr": "NÖ",
+      "partyColor": "#62C3D0",
+      "governor": { "name": "Johanna Mikl-Leitner", "party": "ÖVP", "since": "2017-04-19" },
+      "available": false
+    },
+    "AT4": {
+      "name": "Oberösterreich",
+      "nameEn": "Upper Austria",
+      "abbr": "OÖ",
+      "partyColor": "#62C3D0",
+      "governor": { "name": "Thomas Stelzer", "party": "ÖVP", "since": "2017-04-06" },
+      "available": false
+    },
+    "AT5": {
+      "name": "Salzburg",
+      "nameEn": "Salzburg",
+      "abbr": "S",
+      "partyColor": "#62C3D0",
+      "governor": { "name": "Karoline Edtstadler", "party": "ÖVP", "since": "2025-07-02" },
+      "available": false
+    },
+    "AT6": {
+      "name": "Steiermark",
+      "nameEn": "Styria",
+      "abbr": "ST",
+      "partyColor": "#004F9E",
+      "governor": { "name": "Mario Kunasek", "party": "FPÖ", "since": "2024-12-18" },
+      "available": false
+    },
+    "AT7": {
+      "name": "Tirol",
+      "nameEn": "Tyrol",
+      "abbr": "T",
+      "partyColor": "#62C3D0",
+      "governor": { "name": "Anton Mattle", "party": "ÖVP", "since": "2022-10-25" },
+      "available": false
+    },
+    "AT8": {
+      "name": "Vorarlberg",
+      "nameEn": "Vorarlberg",
+      "abbr": "V",
+      "partyColor": "#62C3D0",
+      "governor": { "name": "Markus Wallner", "party": "ÖVP", "since": "2011-12-07" },
+      "available": false
+    },
+    "AT9": {
+      "name": "Wien",
+      "nameEn": "Vienna",
+      "abbr": "W",
+      "partyColor": "#E2001A",
+      "governor": { "name": "Michael Ludwig", "party": "SPÖ", "since": "2018-05-24" },
+      "mapUrl": "/austria/wien/",
+      "available": true
+    }
+  }
+}

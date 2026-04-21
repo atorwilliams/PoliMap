@@ -1,0 +1,705 @@
+{
+  "parties": {
+    "SPÖ": {
+      "color": "#E2001A"
+    },
+    "ÖVP": {
+      "color": "#62C3D0"
+    },
+    "Grüne": {
+      "color": "#80BA24"
+    }
+  },
+  "ridings": {
+    "Innere Stadt": {
+      "name": "Innere Stadt",
+      "bezirk": {
+        "name": "MMag. Markus Figl",
+        "party": "ÖVP",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv01/4288555/markus-figl.c8d2849df7.1776486905.jpg",
+        "profileUrl": "https://www.wien.gv.at/innerestadt/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv01.wien.gv.at",
+          "phone": "+431400001111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "1., Wipplingerstraße 6-8",
+          "website": "https://www.wien.gv.at/innerestadt/",
+          "social": {
+            "facebook": "https://www.facebook.com/markusfigl.wien",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/markusfigl.wien/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Leopoldstadt": {
+      "name": "Leopoldstadt",
+      "bezirk": {
+        "name": "Alexander Nikolai",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv02/147731/alexander-nikolai-2024.c8d2849df7.1776486891.jpg",
+        "profileUrl": "https://www.wien.gv.at/leopoldstadt/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv02.wien.gv.at",
+          "phone": "+431400002111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "2., Karmelitergasse 9",
+          "website": "https://www.wien.gv.at/leopoldstadt/",
+          "social": {
+            "facebook": "https://www.facebook.com/AlexanderNikolai2",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/alexander.nikolai/?hl=de",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Landstraße": {
+      "name": "Landstraße",
+      "bezirk": {
+        "name": "Erich Hohenberger",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv03/147744/erich-hohenberger-portrait.c8d2849df7.1776486882.jpg",
+        "profileUrl": "https://www.wien.gv.at/landstrasse/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv03.wien.gv.at",
+          "phone": "+431400003111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "3., Karl-Borromäus-Platz 3",
+          "website": "https://www.wien.gv.at/landstrasse/",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/erich__hohenberger/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Wieden": {
+      "name": "Wieden",
+      "bezirk": {
+        "name": "Lea Halbwidl",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv04/147750/lea-halbwidl-portrait.c8d2849df7.1776486906.jpg",
+        "profileUrl": "https://www.wien.gv.at/wieden/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv04.wien.gv.at",
+          "phone": "+431400004111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "4., Favoritenstraße 18",
+          "website": "https://www.wien.gv.at/wieden/",
+          "social": {
+            "facebook": "https://www.facebook.com/fuxvier/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/halbwidllea/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Margareten": {
+      "name": "Margareten",
+      "bezirk": {
+        "name": "Michael Luxenberger",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv05/3962261/michael-luxenberger-portrait.c8d2849df7.1776486902.jpg",
+        "profileUrl": "https://www.wien.gv.at/margareten/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv05.wien.gv.at",
+          "phone": "+431400005111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "5., Schönbrunner Straße 54",
+          "website": "https://www.wien.gv.at/margareten/",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/michi.luxenberger/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mariahilf": {
+      "name": "Mariahilf",
+      "bezirk": {
+        "name": "Julia Lessacher",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv06/5680246/julia-lessacher-portrait.c8d2849df7.1776486903.jpg",
+        "profileUrl": "https://www.wien.gv.at/mariahilf/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "julia.lessacher@wien.gv.at",
+          "phone": "+431400006111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "6., Amerlingstraße 11",
+          "website": "https://www.wien.gv.at/mariahilf/",
+          "social": {
+            "facebook": "https://www.facebook.com/diebezirksvorsteherinlessacher",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/die_bezirksvorsteherin/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Neubau": {
+      "name": "Neubau",
+      "bezirk": {
+        "name": "Markus Reiter",
+        "party": "Grüne",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv07/147752/markus-reiter-portrait.c8d2849df7.1776486869.jpg",
+        "profileUrl": "https://www.wien.gv.at/neubau/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv07.wien.gv.at",
+          "phone": "+431400007111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "7., Hermanngasse 24-26",
+          "website": "https://www.wien.gv.at/neubau/",
+          "social": {
+            "facebook": "https://www.facebook.com/markusreiter.at",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/markus.reiter.neubau/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Josefstadt": {
+      "name": "Josefstadt",
+      "bezirk": {
+        "name": "Martin Fabisch",
+        "party": "Grüne",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv08/147753/martin-fabisch-portrait.c8d2849df7.1776486913.jpg",
+        "profileUrl": "https://www.wien.gv.at/josefstadt/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv08.wien.gv.at",
+          "phone": "+431400008110",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "8., Schlesingerplatz 4",
+          "website": "https://www.wien.gv.at/josefstadt/",
+          "social": {
+            "facebook": "https://www.facebook.com/martinfabischjosefstadt",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/martinfabischjosefstadt/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Alsergrund": {
+      "name": "Alsergrund",
+      "bezirk": {
+        "name": "Saya Ahmad",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv09/3271055/saya-ahmad-portrait-2025-1.c8d2849df7.1776486929.jpg",
+        "profileUrl": "https://www.wien.gv.at/alsergrund/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv09.wien.gv.at",
+          "phone": "+431400009111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "9., Währinger Straße 43",
+          "website": "https://www.wien.gv.at/alsergrund/",
+          "social": {
+            "facebook": "https://www.facebook.com/saya.ahmad.alsergrund",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/accounts/login/?next=%2Fsaya.ahmad.alsergrund%2F",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Favoriten": {
+      "name": "Favoriten",
+      "bezirk": {
+        "name": "Marcus Franz",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv10/147764/marcus-franz-portrait.c8d2849df7.1776486757.jpg",
+        "profileUrl": "https://www.wien.gv.at/favoriten/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "",
+          "phone": "+431400010111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "10., Keplerplatz 5",
+          "website": "https://www.wien.gv.at/favoriten/",
+          "social": {
+            "facebook": "https://www.facebook.com/MarcusFranzBezirksvorsteher/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/marcus.franz_favoriten/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Simmering": {
+      "name": "Simmering",
+      "bezirk": {
+        "name": "Thomas Steinhart",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv11/147776/thomas-steinhart-portrait.c8d2849df7.1776486901.jpg",
+        "profileUrl": "https://www.wien.gv.at/simmering/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv11.wien.gv.at",
+          "phone": "+431400011111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "11., Enkplatz 2",
+          "website": "https://www.wien.gv.at/simmering/",
+          "social": {
+            "facebook": "https://www.facebook.com/ThomasSteinhart1110/?locale=de_DE",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/thomassteinhart/?hl=de",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Meidling": {
+      "name": "Meidling",
+      "bezirk": {
+        "name": "Wilfried Zankl",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv12/1574422/wilfried-zankl-07-2024.c8d2849df7.1776486756.jpg",
+        "profileUrl": "https://www.wien.gv.at/meidling/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "wilfried.zankl@wien.gv.at",
+          "phone": "+431400012111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "12., Schönbrunner Straße 259",
+          "website": "https://www.wien.gv.at/meidling/",
+          "social": {
+            "facebook": "https://www.facebook.com/wzankl",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/wzankl/?hl=de",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Hietzing": {
+      "name": "Hietzing",
+      "bezirk": {
+        "name": "Mag. a Johanna Zinkl",
+        "party": "ÖVP",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv13/3962583/bvin-johanna-sperker-portrait.c8d2849df7.1776486868.jpg",
+        "profileUrl": "https://www.wien.gv.at/hietzing/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv13.wien.gv.at",
+          "phone": "+431400013111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "",
+          "website": "https://www.wien.gv.at/hietzing/",
+          "social": {
+            "facebook": "https://www.facebook.com/people/Nikolaus-Ebert/61553371267440/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/nikolaus.ebert/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Penzing": {
+      "name": "Penzing",
+      "bezirk": {
+        "name": "Michaela Schüchner",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv14/155858/michaela-schuechner-portrait.c8d2849df7.1776486758.jpg",
+        "profileUrl": "https://www.wien.gv.at/penzing/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv14.wien.gv.at",
+          "phone": "+431400014111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "14., Hütteldorfer Straße 188",
+          "website": "https://www.wien.gv.at/penzing/",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Rudolfsheim-Fünfhaus": {
+      "name": "Rudolfsheim-Fünfhaus",
+      "bezirk": {
+        "name": "Dietmar Baurecht",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv15/147906/dietmar-baurecht-portrait.c8d2849df7.1776486910.jpg",
+        "profileUrl": "https://www.wien.gv.at/rudolfsheim-fuenfhaus/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv15.wien.gv.at",
+          "phone": "+431400015111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "15., Gasgasse 8-10",
+          "website": "https://www.wien.gv.at/rudolfsheim-fuenfhaus/",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Ottakring": {
+      "name": "Ottakring",
+      "bezirk": {
+        "name": "Stefanie Lamp",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv16/623682/stefanie-lamp-portrait.c8d2849df7.1776486900.jpg",
+        "profileUrl": "https://www.wien.gv.at/ottakring/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv16.wien.gv.at",
+          "phone": "+431400016111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "16., Richard-Wagner-Platz 19",
+          "website": "https://www.wien.gv.at/ottakring/",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Hernals": {
+      "name": "Hernals",
+      "bezirk": {
+        "name": "Peter Jagsch",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv17/147908/peter-jagsch-portrait.c8d2849df7.1776486912.jpg",
+        "profileUrl": "https://www.wien.gv.at/hernals/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv17.wien.gv.at",
+          "phone": "+431400017111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "17., Elterleinplatz 14",
+          "website": "https://www.wien.gv.at/hernals/",
+          "social": {
+            "facebook": "https://www.facebook.com/BezirksvorstehungHernals/",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Währing": {
+      "name": "Währing",
+      "bezirk": {
+        "name": "Silvia Nossek",
+        "party": "Grüne",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv18/3297962/silvia-nossek-portrait-2025.c8d2849df7.1776486867.jpg",
+        "profileUrl": "https://www.wien.gv.at/waehring/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv18.wien.gv.at",
+          "phone": "+431400018110",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "18., Martinstraße 100",
+          "website": "https://www.wien.gv.at/waehring/",
+          "social": {
+            "facebook": "https://www.facebook.com/Jugendtreffmollys/?locale=de_DE",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Döbling": {
+      "name": "Döbling",
+      "bezirk": {
+        "name": "Daniel Resch",
+        "party": "ÖVP",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv19/147974/daniel-resch-portrait.c8d2849df7.1776486905.jpg",
+        "profileUrl": "https://www.wien.gv.at/doebling/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv19.wien.gv.at",
+          "phone": "+431400019111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "19., Grinzinger Allee 6",
+          "website": "https://www.wien.gv.at/doebling/",
+          "social": {
+            "facebook": "https://www.facebook.com/daniel.resch.doebling/?locale=de_DE",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/danielresch_doebling/?hl=de",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Brigittenau": {
+      "name": "Brigittenau",
+      "bezirk": {
+        "name": "Christine Dubravac-Widholm",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv20/635900/dubravac-widholm-portrait.c8d2849df7.1776486901.jpg",
+        "profileUrl": "https://www.wien.gv.at/brigittenau/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "christine.dubravac-widholm@wien.gv.at",
+          "phone": "+431400020111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "20., Brigittaplatz 10",
+          "website": "https://www.wien.gv.at/brigittenau/",
+          "social": {
+            "facebook": "https://www.facebook.com/christine.dubravac/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/christine_dubravac/",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Floridsdorf": {
+      "name": "Floridsdorf",
+      "bezirk": {
+        "name": "Georg Papai",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv21/147982/georg-papai-portrait.c8d2849df7.1776486905.jpg",
+        "profileUrl": "https://www.wien.gv.at/floridsdorf/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "georg.papai@wien.gv.at",
+          "phone": "+431400021111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "21., Am Spitz 1",
+          "website": "https://www.wien.gv.at/floridsdorf/",
+          "social": {
+            "facebook": "https://www.facebook.com/Papaigeorg/",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Donaustadt": {
+      "name": "Donaustadt",
+      "bezirk": {
+        "name": "Ernst Nevrivy",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv22/148027/nevrivy-portrait.c8d2849df7.1776486905.jpg",
+        "profileUrl": "https://www.wien.gv.at/donaustadt/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "post@bv22.wien.gv.at",
+          "phone": "+431400022111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "22., Dr.-Adolf-Schärf-Platz 8",
+          "website": "https://www.wien.gv.at/donaustadt/",
+          "social": {
+            "facebook": "https://www.facebook.com/ErnstNevrivy/",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/ernstnevrivy/?hl=de",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Liesing": {
+      "name": "Liesing",
+      "bezirk": {
+        "name": "Gerald Bischof",
+        "party": "SPÖ",
+        "photo": "https://www.wien.gv.at/bilder/_imager/bilder/bv23/148028/gerald-bischof-portrait.c8d2849df7.1776486757.jpg",
+        "profileUrl": "https://www.wien.gv.at/liesing/",
+        "heroPhoto": "",
+        "heroPhotoOffsetX": 50,
+        "heroPhotoOffsetY": 30,
+        "contact": {
+          "email": "gerald.bischof@wien.gv.at",
+          "phone": "+431400023111",
+          "tollFree": "",
+          "fax": "",
+          "officeHours": "",
+          "constituencyOffice": "23., Perchtoldsdorfer Straße 2",
+          "website": "https://www.wien.gv.at/liesing/",
+          "social": {
+            "facebook": "https://www.facebook.com/gerald.bischof.7/",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    }
+  }
+}

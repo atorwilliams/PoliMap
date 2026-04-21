@@ -31,16 +31,19 @@
         <p class="landing-explore-label">Explore</p>
 
         <nav class="landing-country-list">
-          <a href="/canada/" class="landing-country-item active">
+          <a href="/canada/" class="landing-country-item active" data-fly="canada">
             <span class="landing-country-arrow">→</span>Canada
           </a>
-          <div class="landing-country-item disabled">
-            United States<span class="landing-country-soon">soon</span>
-          </div>
-          <div class="landing-country-item disabled">
+          <a href="/austria/" class="landing-country-item active" data-fly="austria">
+            <span class="landing-country-arrow">→</span>Austria
+          </a>
+          <a href="/USA/" class="landing-country-item active" data-fly="usa">
+            <span class="landing-country-arrow">→</span>United States
+          </a>
+          <div class="landing-country-item disabled" data-fly="uk">
             United Kingdom<span class="landing-country-soon">soon</span>
           </div>
-          <div class="landing-country-item disabled">
+          <div class="landing-country-item disabled" data-fly="australia">
             Australia<span class="landing-country-soon">soon</span>
           </div>
         </nav>
@@ -125,18 +128,228 @@
     <button id="wip-close" aria-label="Dismiss">×</button>
   </div>
 
+  <style>
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    .tw-cursor { animation: blink 0.7s step-end infinite; color: rgba(255,255,255,0.5); }
+  </style>
+
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
   <script>
+    // ── Country fly targets ────────────────────────────────────────────────────
+    const FLY_TARGETS = {
+      canada:    { center: [-96,  57],   zoom: 3.2,  duration: 1800 },
+      austria:   { center: [13.5, 47.5], zoom: 5.8,  duration: 2000 },
+      usa:       { center: [-98,  38.5], zoom: 3.2,  duration: 1800 },
+      uk:        { center: [-2,   54],   zoom: 5.2,  duration: 2000 },
+      australia: { center: [134, -25],   zoom: 3.2,  duration: 2200 },
+    };
+
     // ── Decorative background map ──────────────────────────────────────────────
+    const IDLE_CENTER = [-93, 50];
+    const IDLE_ZOOM   = 2.8;
+    const PERSISTENT  = ['canada', 'usa'];
+
     const map = new maplibregl.Map({
       container: 'landing-map',
       style: 'https://tiles.openfreemap.org/styles/liberty',
-      center: [-113.5, 53.8],
-      zoom: 5.2,
+      center: IDLE_CENTER,
+      zoom: IDLE_ZOOM,
       interactive: false,
       attributionControl: false
     });
 
+    // ── Cinematic drift ────────────────────────────────────────────────────────
+    let drifting = false;
+    let resumeTimer = null;
+
+    function drift() {
+      const c = map.getCenter();
+      map.easeTo({ center: [c.lng + 28, c.lat], duration: 55000, easing: t => t });
+    }
+
+    map.on('moveend', () => {
+      if (drifting) drift();
+    });
+
+    async function enterIdleState() {
+      for (const key of PERSISTENT) {
+        await ensureLayer(key);
+        showLayer(key);
+      }
+    }
+
+    map.once('load', () => {
+      setTimeout(async () => {
+        await enterIdleState();
+        drifting = true;
+        drift();
+      }, 600);
+    });
+
+    // ── Country overlay config ─────────────────────────────────────────────────
+    const OVERLAY_CONFIG = {
+      canada: {
+        geojsonUrl: '/canada/canada_provinces_simple.geojson',
+        statesUrl:  '/canada/provinces.json',
+        dataKey:    'provinces',
+        idProperty: 'PRUID',
+        fillOpacity: 0.4,
+      },
+      usa: {
+        geojsonUrl: '/USA/json/us_states.geojson',
+        statesUrl:  '/USA/states.json',
+        dataKey:    'states',
+        idProperty: 'STATE_ABBR',
+        fillOpacity: 0.45,
+      },
+      austria: {
+        geojsonUrl: '/austria/json/at.json',
+        statesUrl:  '/austria/states.json',
+        dataKey:    'states',
+        idProperty: 'id',
+        fillOpacity: 0.35,
+      },
+    };
+
+    const mapReady = new Promise(resolve => map.once('load', resolve));
+    const layerCache = {};
+
+    async function ensureLayer(key) {
+      if (layerCache[key]) return layerCache[key];
+      const config = OVERLAY_CONFIG[key];
+      if (!config) return null;
+
+      layerCache[key] = (async () => {
+        await mapReady;
+        if (map.getSource(key + '-source')) return true;
+
+        const [geojson, statesJson] = await Promise.all([
+          fetch(config.geojsonUrl).then(r => r.json()),
+          fetch(config.statesUrl).then(r => r.json()),
+        ]);
+
+        const colorExpr = ['match', ['get', config.idProperty]];
+        for (const [id, state] of Object.entries(statesJson[config.dataKey])) {
+          colorExpr.push(id, state.partyColor || '#888888');
+        }
+        colorExpr.push('#888888');
+
+        map.addSource(key + '-source', { type: 'geojson', data: geojson });
+        map.addLayer({
+          id: key + '-fill',
+          type: 'fill',
+          source: key + '-source',
+          paint: {
+            'fill-color': colorExpr,
+            'fill-opacity': 0,
+            'fill-opacity-transition': { duration: 800, delay: 0 },
+          }
+        });
+        map.addLayer({
+          id: key + '-outline',
+          type: 'line',
+          source: key + '-source',
+          paint: {
+            'line-color': 'rgba(255,255,255,0.35)',
+            'line-width': 0.8,
+            'line-opacity': 0,
+            'line-opacity-transition': { duration: 800, delay: 0 },
+          }
+        });
+        return true;
+      })();
+
+      return layerCache[key];
+    }
+
+    function showLayer(key) {
+      const config = OVERLAY_CONFIG[key];
+      if (!config || !map.getLayer(key + '-fill')) return;
+      map.setPaintProperty(key + '-fill', 'fill-opacity', config.fillOpacity);
+      map.setPaintProperty(key + '-outline', 'line-opacity', 0.7);
+    }
+
+    function hideLayer(key) {
+      if (!map.getLayer(key + '-fill')) return;
+      map.setPaintProperty(key + '-fill', 'fill-opacity', 0);
+      map.setPaintProperty(key + '-outline', 'line-opacity', 0);
+    }
+
+    // ── Hover-to-fly ───────────────────────────────────────────────────────────
+    let enterTimer  = null;
+    let hoverTimer  = null;
+    let activeLayer = null;
+
+    document.querySelectorAll('[data-fly]').forEach(el => {
+      const key = el.dataset.fly;
+      const target = FLY_TARGETS[key];
+      if (!target) return;
+
+      el.addEventListener('mouseenter', () => {
+        clearTimeout(enterTimer);
+        enterTimer = setTimeout(() => {
+          clearTimeout(resumeTimer);
+          clearTimeout(hoverTimer);
+          drifting = false;
+          map.flyTo({ center: target.center, zoom: target.zoom, duration: target.duration, curve: 1.4 });
+
+          if (OVERLAY_CONFIG[key]) {
+            ensureLayer(key);
+            hoverTimer = setTimeout(async () => {
+              await ensureLayer(key);
+              if (activeLayer && activeLayer !== key) hideLayer(activeLayer);
+              activeLayer = key;
+              showLayer(key);
+            }, 1000);
+          } else {
+            if (activeLayer) { hideLayer(activeLayer); activeLayer = null; }
+          }
+        }, 250);
+      });
+
+      el.addEventListener('mouseleave', () => {
+        clearTimeout(enterTimer);
+        clearTimeout(hoverTimer);
+        if (activeLayer && !PERSISTENT.includes(activeLayer)) {
+          hideLayer(activeLayer);
+        }
+        activeLayer = null;
+        resumeTimer = setTimeout(() => {
+          drifting = false;
+          map.flyTo({ center: IDLE_CENTER, zoom: IDLE_ZOOM, duration: 2000, curve: 1.2 });
+          map.once('moveend', () => {
+            enterIdleState();
+            drifting = true;
+            drift();
+          });
+        }, 2000);
+      });
+    });
+
+    // ── Typewriter quote ───────────────────────────────────────────────────────
+    function typewriter() {
+      const el = document.querySelector('.landing-quote');
+      if (!el) return;
+      const text = el.textContent.trim();
+      el.textContent = '';
+
+      const cursor = document.createElement('span');
+      cursor.className = 'tw-cursor';
+      cursor.textContent = '|';
+      el.appendChild(cursor);
+
+      let i = 0;
+      const tick = setInterval(() => {
+        if (i >= text.length) {
+          clearInterval(tick);
+          setTimeout(() => cursor.remove(), 1200);
+          return;
+        }
+        cursor.insertAdjacentText('beforebegin', text[i++]);
+      }, 22);
+    }
+
+    setTimeout(typewriter, 400);
 
     // ── WIP notice ─────────────────────────────────────────────────────────────
     document.getElementById('wip-close').addEventListener('click', () => {

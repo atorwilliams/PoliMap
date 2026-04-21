@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Austria – PoliMap</title>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/landing.css">
+</head>
+<body class="landing-body">
+
+  <div class="landing-split">
+
+    <!-- Left panel -->
+    <div class="landing-panel">
+
+      <a href="/" class="landing-wordmark" style="text-decoration:none;">
+        <div class="landing-wordmark-main">PoliMap</div>
+        <div class="landing-wordmark-sub">Ridings in Colour</div>
+      </a>
+
+      <div class="landing-mid">
+
+        <!-- Default view: state list -->
+        <div id="panel-list">
+          <div id="chancellor-strip"></div>
+
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-top:24px;">
+            <p class="landing-explore-label" style="margin:0;" id="states-label">Bundesländer</p>
+            <div class="lang-toggle">
+              <button class="lang-btn active" id="lang-de">DE</button>
+              <button class="lang-btn" id="lang-en">EN</button>
+            </div>
+          </div>
+
+          <nav class="landing-country-list" id="state-list" style="margin-top:8px;"></nav>
+        </div>
+
+        <!-- Selected state view -->
+        <div id="panel-detail" style="display:none;">
+          <button class="landing-footer-link" id="back-btn" style="margin-bottom:28px; font-size:0.82rem;">← All Bundesländer</button>
+          <div id="detail-content"></div>
+        </div>
+
+      </div>
+
+      <footer class="landing-footer">
+        <a class="landing-footer-link" href="/donate.html">Donate</a>
+        <span class="landing-footer-sep">·</span>
+        <a class="landing-footer-link" href="https://polichan.org" target="_blank">Discussion</a>
+      </footer>
+
+    </div>
+
+    <!-- Right panel: Austria map -->
+    <div class="landing-map-wrap">
+      <div id="austria-map"></div>
+      <div class="landing-map-fade"></div>
+    </div>
+
+  </div>
+
+  <style>
+    #austria-map { width: 100%; height: 100%; }
+
+    .pm-strip {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      margin-bottom: 4px;
+    }
+    .pm-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .pm-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.3);
+      margin-bottom: 2px;
+    }
+    .pm-name {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .pm-party {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.45);
+    }
+
+    .detail-abbr {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .detail-name {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.9);
+      margin-bottom: 20px;
+    }
+    .detail-explore-btn {
+      display: block;
+      padding: 10px 18px;
+      background: #ED2939;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-align: center;
+      transition: background 0.15s;
+    }
+    .detail-explore-btn:hover { background: #c0202e; }
+    .lang-toggle {
+      display: flex;
+      gap: 2px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 6px;
+      padding: 2px;
+    }
+    .lang-btn {
+      background: none;
+      border: none;
+      color: rgba(255,255,255,0.4);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      padding: 3px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .lang-btn.active {
+      background: rgba(255,255,255,0.12);
+      color: #fff;
+    }
+    .lang-btn:hover:not(.active) { color: rgba(255,255,255,0.7); }
+
+    .detail-coming-soon {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.25);
+      font-style: italic;
+      text-align: center;
+      padding: 10px 0;
+    }
+    .detail-party-bar {
+      height: 4px;
+      border-radius: 2px;
+      margin-bottom: 16px;
+      opacity: 0.8;
+    }
+    .detail-gov-block {
+      margin-bottom: 20px;
+      padding: 10px 12px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px;
+    }
+    .detail-gov-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.3);
+      margin-bottom: 3px;
+    }
+    .detail-gov-name {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 2px;
+    }
+    .detail-gov-party {
+      font-size: 0.75rem;
+    }
+  </style>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script type="module">
+    const STATE_ORDER = ['AT9','AT3','AT4','AT6','AT7','AT5','AT2','AT8','AT1'];
+
+    let statesData = null;
+    let selectedId  = null;
+    let lang        = 'de';
+    let map         = null;
+
+    function stateName(s) {
+      return lang === 'en' ? (s.nameEn || s.name) : s.name;
+    }
+
+    function formatDate(str) {
+      if (!str) return '';
+      const d = new Date(str);
+      return d.toLocaleDateString('en-AT', { year: 'numeric', month: 'long' });
+    }
+
+    async function init() {
+      const res = await fetch('./states.json');
+      statesData = await res.json();
+
+      renderChancellorStrip();
+      renderStateList();
+      initMap();
+
+      document.getElementById('lang-de').addEventListener('click', () => setLang('de'));
+      document.getElementById('lang-en').addEventListener('click', () => setLang('en'));
+    }
+
+    function setLang(l) {
+      lang = l;
+      document.getElementById('lang-de').classList.toggle('active', l === 'de');
+      document.getElementById('lang-en').classList.toggle('active', l === 'en');
+      document.getElementById('states-label').textContent = l === 'en' ? 'States' : 'Bundesländer';
+      renderStateList();
+      if (selectedId) selectState(selectedId);
+    }
+
+    function renderChancellorStrip() {
+      const ch = statesData.chancellor;
+      document.getElementById('chancellor-strip').innerHTML = `
+        <div class="pm-strip">
+          <div class="pm-dot" style="background:${ch.partyColor};"></div>
+          <div>
+            <div class="pm-label">Bundeskanzler</div>
+            <div class="pm-name">${ch.name}</div>
+            <div class="pm-party">${ch.party} · Since ${formatDate(ch.since)}</div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderStateList() {
+      const list = document.getElementById('state-list');
+      list.innerHTML = STATE_ORDER.map(id => {
+        const s = statesData.states[id];
+        if (!s) return '';
+        const label = stateName(s);
+        const dot = s.partyColor
+          ? `<span style="width:8px;height:8px;border-radius:50%;background:${s.partyColor};display:inline-block;flex-shrink:0;"></span>`
+          : `<span style="width:8px;display:inline-block;"></span>`;
+        if (s.available) {
+          return `
+            <div class="landing-country-item active" data-id="${id}" style="cursor:pointer;gap:8px;">
+              ${dot}<span class="landing-country-arrow">→</span>
+              <span>${label}</span>
+            </div>`;
+        } else {
+          return `
+            <div class="landing-country-item" data-id="${id}" style="cursor:pointer;gap:8px;">
+              ${dot}<span style="width:16px;display:inline-block;"></span>
+              <span>${label}</span>
+              <span class="landing-country-soon">soon</span>
+            </div>`;
+        }
+      }).join('');
+
+      list.querySelectorAll('.landing-country-item').forEach(el => {
+        el.addEventListener('click', () => selectState(el.dataset.id));
+      });
+    }
+
+    function selectState(id) {
+      selectedId = id;
+      const s = statesData.states[id];
+      if (!s) return;
+
+      document.getElementById('panel-list').style.display = 'none';
+      document.getElementById('panel-detail').style.display = 'block';
+
+      const label = stateName(s);
+      const gov = s.governor;
+      const isFemale = gov && (gov.name.includes('Mikl-Leitner') || gov.name.includes('Edtstadler'));
+      const govTitle = gov ? (isFemale ? 'Landeshauptfrau' : 'Landeshauptmann') : '';
+      document.getElementById('detail-content').innerHTML = `
+        <div class="detail-party-bar" style="background:${s.partyColor || '#888'};"></div>
+        <div class="detail-abbr">${s.abbr}</div>
+        <div class="detail-name">${label}</div>
+        ${gov ? `
+          <div class="detail-gov-block">
+            <div class="detail-gov-label">${govTitle}</div>
+            <div class="detail-gov-name">${gov.name}</div>
+            <div class="detail-gov-party" style="color:${s.partyColor};">${gov.party} · Since ${formatDate(gov.since)}</div>
+          </div>
+        ` : ''}
+        ${s.available
+          ? `<a href="${s.mapUrl}" class="detail-explore-btn" style="margin-top:20px;">Explore ${label} →</a>`
+          : `<div class="detail-coming-soon">Detailed map coming soon</div>`
+        }
+      `;
+
+      if (map && map.getSource('highlight-source')) {
+        const feature = getFeatureById(id);
+        map.getSource('highlight-source').setData(feature
+          ? { type: 'FeatureCollection', features: [feature] }
+          : { type: 'FeatureCollection', features: [] }
+        );
+      }
+    }
+
+    function getFeatureById(id) {
+      if (!map) return null;
+      const source = map.getSource('states-source');
+      if (!source?._data?.features) return null;
+      return source._data.features.find(f => String(f.properties.id) === String(id)) || null;
+    }
+
+    document.getElementById('back-btn').addEventListener('click', () => {
+      selectedId = null;
+      document.getElementById('panel-detail').style.display = 'none';
+      document.getElementById('panel-list').style.display = 'block';
+      if (map && map.getSource('highlight-source')) {
+        map.getSource('highlight-source').setData({ type: 'FeatureCollection', features: [] });
+      }
+    });
+
+    function initMap() {
+      map = new maplibregl.Map({
+        container: 'austria-map',
+        style: 'https://tiles.openfreemap.org/styles/liberty',
+        center: [13.5, 47.5],
+        zoom: 6,
+        attributionControl: false
+      });
+
+      map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+      map.on('load', async () => {
+        const res = await fetch('./json/at.json');
+        const geojson = await res.json();
+
+        map.addSource('states-source', { type: 'geojson', data: geojson });
+
+        const colorMatch = ['match', ['get', 'id'],
+          'AT1', '#E2001A', 'AT2', '#E2001A', 'AT9', '#E2001A',
+          'AT6', '#004F9E',
+          '#62C3D0'
+        ];
+        map.addLayer({
+          id: 'states-fill',
+          type: 'fill',
+          source: 'states-source',
+          paint: {
+            'fill-color': colorMatch,
+            'fill-opacity': 0.35,
+          }
+        });
+
+        map.addLayer({
+          id: 'states-outline',
+          type: 'line',
+          source: 'states-source',
+          paint: {
+            'line-color': '#888888',
+            'line-width': 0.8,
+            'line-opacity': 0.7,
+          }
+        });
+
+        map.addSource('highlight-source', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        });
+
+        map.addLayer({
+          id: 'states-highlight',
+          type: 'fill',
+          source: 'highlight-source',
+          paint: { 'fill-color': '#ffffff', 'fill-opacity': 0.15 }
+        });
+
+        map.addLayer({
+          id: 'states-highlight-outline',
+          type: 'line',
+          source: 'highlight-source',
+          paint: { 'line-color': '#ffffff', 'line-width': 1.5, 'line-opacity': 0.8 }
+        });
+
+        map.on('click', 'states-fill', (e) => {
+          const id = String(e.features[0].properties.id);
+          selectState(id);
+        });
+
+        map.on('mouseenter', 'states-fill', () => {
+          map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'states-fill', () => {
+          map.getCanvas().style.cursor = '';
+        });
+      });
+    }
+
+    init();
+  </script>
+
+</body>
+</html>
