@@ -36,7 +36,8 @@
       "abbr": "OÖ",
       "partyColor": "#62C3D0",
       "governor": { "name": "Thomas Stelzer", "party": "ÖVP", "since": "2017-04-06" },
-      "available": false
+      "mapUrl": "/austria/ooe/",
+      "available": true
     },
     "AT5": {
       "name": "Salzburg",
