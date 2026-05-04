@@ -1,0 +1,1968 @@
+{
+  "ridings": {
+    "Terrebonne": {
+      "name": "Terrebonne",
+      "mp": {
+        "name": "Tatiana Auguste",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/AugusteTatiana_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/tatiana-auguste(122753)",
+        "contact": {
+          "email": "tatiana.auguste@parl.gc.ca",
+          "phone": "",
+          "constituencyPhone": "450-964-4919",
+          "constituencyOffice": "Main office - Terrebonne 730-732 Saint-Louis street Terrebonne, Quebec J6W 1J6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Pierre-Boucher—Les Patriotes—Verchères": {
+      "name": "Pierre-Boucher—Les Patriotes—Verchères",
+      "mp": {
+        "name": "Xavier Barsalou-Duval",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/Barsalou-DuvalXavier_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/xavier-barsalou-duval(88422)",
+        "contact": {
+          "email": "xavier.barsalou-duval@parl.gc.ca",
+          "phone": "613-996-2998",
+          "constituencyPhone": "450-652-4442",
+          "constituencyOffice": "Main office - Varennes 202-1625 Lionel-Boulet boulevard Varennes, Quebec J3X 1P7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "La Pointe-de-l'Île": {
+      "name": "La Pointe-de-l'Île",
+      "mp": {
+        "name": "Mario Beaulieu",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BeaulieuMario_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/mario-beaulieu(376)",
+        "contact": {
+          "email": "mario.beaulieu@parl.gc.ca",
+          "phone": "613-995-6327",
+          "constituencyPhone": "514-645-0101",
+          "constituencyOffice": "Main office - Montr&#xE9;al 100-12500 Industriel boulevard Montr&#xE9;al, Quebec H1B 5P5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Outremont": {
+      "name": "Outremont",
+      "mp": {
+        "name": "Rachel Bendayan",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BendayanRachel_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/rachel-bendayan(88567)",
+        "contact": {
+          "email": "Rachel.Bendayan@parl.gc.ca",
+          "phone": "613-995-7691",
+          "constituencyPhone": "514-736-2727",
+          "constituencyOffice": "Main office - Montr&#xE9;al 302-154 avenue Laurier Ouest Montr&#xE9;al, Quebec H2T 2N7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mégantic—L'Érable—Lotbinière": {
+      "name": "Mégantic—L'Érable—Lotbinière",
+      "mp": {
+        "name": "Luc Berthold",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BertholdLuc_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/luc-berthold(88541)",
+        "contact": {
+          "email": "luc.berthold@parl.gc.ca",
+          "phone": "613-995-1377",
+          "constituencyPhone": "418-338-2903",
+          "constituencyOffice": "Main office - Thetford Mines 105A Notre-Dame street East Thetford Mines, Quebec G6G 2J9\nLac-M&#xE9;gantic 212-5527 Frontenac street Lac-M&#xE9;gantic, Quebec G6B 1H6\nPlessisville 1754 Saint-Calixte street Plessisville, Quebec G6L 1R3\nLaurier Station 500-153, boul. Laurier Laurier Station, Quebec G0S 2N0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Beloeil—Chambly": {
+      "name": "Beloeil—Chambly",
+      "mp": {
+        "name": "Yves-François Blanchet",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BlanchetYves-Fran&#xE7;ois_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/yves-francois-blanchet(104669)",
+        "contact": {
+          "email": "Yves-Francois.Blanchet@parl.gc.ca",
+          "phone": "613-992-6035",
+          "constituencyPhone": "450-658-0088",
+          "constituencyOffice": "Main office - Chambly 101, 201, 203-1969 de P&#xE9;rigny boulevard Chambly, Quebec J3L 4C3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Rimouski—La Matapédia": {
+      "name": "Rimouski—La Matapédia",
+      "mp": {
+        "name": "Maxime Blanchette-Joncas",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/Blanchette-JoncasMaxime_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/maxime-blanchette-joncas(104705)",
+        "contact": {
+          "email": "Maxime.Blanchette-Joncas@parl.gc.ca",
+          "phone": "613-992-5302",
+          "constituencyPhone": "418-725-2562",
+          "constituencyOffice": "Main office - Rimouski 701-320 Saint-Germain East road Rimouski, Quebec G5L 1C2\nAmqui 35 Saint-Beno&#xEE;t Boulevard East Amqui, Quebec G5J 2B8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Repentigny": {
+      "name": "Repentigny",
+      "mp": {
+        "name": "Patrick Bonin",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BoninPatrick_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/patrick-bonin(122709)",
+        "contact": {
+          "email": "patrick.bonin@parl.gc.ca",
+          "phone": "613-992-5257",
+          "constituencyPhone": "450-581-6490",
+          "constituencyOffice": "Main office - Repentigny 201-184 Notre-Dame street Repentigny, Quebec J6A 2P9",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Rosemont—La Petite-Patrie": {
+      "name": "Rosemont—La Petite-Patrie",
+      "mp": {
+        "name": "Alexandre Boulerice",
+        "party": "Independent",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BoulericeAlexandre_NDP.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/alexandre-boulerice(58775)",
+        "contact": {
+          "email": "Alexandre.Boulerice@parl.gc.ca",
+          "phone": "613-992-0423",
+          "constituencyPhone": "514-729-5342",
+          "constituencyOffice": "Main office - Montr&#xE9;al 208-1453 Beaubien street East Montr&#xE9;al, Quebec H2G 3C6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Sherbrooke": {
+      "name": "Sherbrooke",
+      "mp": {
+        "name": "Élisabeth Brière",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/Bri&#xE8;re&#xC9;lisabeth_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/elisabeth-briere(104977)",
+        "contact": {
+          "email": "Elisabeth.Briere@parl.gc.ca",
+          "phone": "613-943-7896",
+          "constituencyPhone": "819-564-4200",
+          "constituencyOffice": "Main office - Sherbrooke M10-1640 rue King Ouest Sherbrooke, Quebec J1J 2C3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Lac-Saint-Jean": {
+      "name": "Lac-Saint-Jean",
+      "mp": {
+        "name": "Alexis Brunelle-Duceppe",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/Brunelle-DuceppeAlexis_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/alexis-brunelle-duceppe(104786)",
+        "contact": {
+          "email": "Alexis.Brunelle-Duceppe@parl.gc.ca",
+          "phone": "613-996-6236",
+          "constituencyPhone": "418-669-0013",
+          "constituencyOffice": "Main office - Alma 37 Saint-Joseph street Alma, Quebec G8B 3E2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saint-Maurice—Champlain": {
+      "name": "Saint-Maurice—Champlain",
+      "mp": {
+        "name": "François-Philippe Champagne",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ChampagneFrancois-Philippe_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/francois-philippe-champagne(88633)",
+        "contact": {
+          "email": "francois-philippe.champagne@parl.gc.ca",
+          "phone": "613-995-4895",
+          "constituencyPhone": "819-538-5291",
+          "constituencyOffice": "Main office - Shawinigan 1-570 de Grand-M&#xE8;re avenue Shawinigan, Quebec G9T 2H2\nLa Tuque 290 St-Joseph street La Tuque, Quebec G9X 3Z8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Drummond": {
+      "name": "Drummond",
+      "mp": {
+        "name": "Martin Champoux",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ChampouxMartin_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/martin-champoux(104741)",
+        "contact": {
+          "email": "Martin.Champoux@parl.gc.ca",
+          "phone": "613-947-4550",
+          "constituencyPhone": "819-477-3611",
+          "constituencyOffice": "Main office - Drummondville 475-230 Brock St.&#xD;&#xA; Drummondville, Quebec J2C 1M3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Pontiac—Kitigan Zibi": {
+      "name": "Pontiac—Kitigan Zibi",
+      "mp": {
+        "name": "Sophie Chatel",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ChatelSophie_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/sophie-chatel(110225)",
+        "contact": {
+          "email": "sophie.chatel@parl.gc.ca",
+          "phone": "613-995-3950",
+          "constituencyPhone": "819-775-7970",
+          "constituencyOffice": "Main office - Gatineau 215-10 All&#xE9;e de Hambourg Gatineau, Quebec J9J 4K1\nFort-coulonge 175 Street Principale Fort-coulonge, Quebec J0X 1V0\nManiwaki 14E Comeau street Maniwaki, Quebec J9E 2R8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Thérèse-De Blainville": {
+      "name": "Thérèse-De Blainville",
+      "mp": {
+        "name": "Madeleine Chenette",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ChenetteMadeleine_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/madeleine-chenette(122756)",
+        "contact": {
+          "email": "madeleine.chenette@parl.gc.ca",
+          "phone": "613-992-2617",
+          "constituencyPhone": "450-965-2100",
+          "constituencyOffice": "Main office - Bois-des-Filion 203, 206&#x2013;369 Adolphe-Chapleau Boulevard Bois-des-Filion, Quebec J6Z 1H1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Compton—Stanstead": {
+      "name": "Compton—Stanstead",
+      "mp": {
+        "name": "Marianne Dandurand",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DandurandMarianne_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/marianne-dandurand(122559)",
+        "contact": {
+          "email": "marianne.dandurand@parl.gc.ca",
+          "phone": "613-995-2024",
+          "constituencyPhone": "819-347-2622",
+          "constituencyOffice": "Main office - Sherbrooke 3003 College Street Sherbrooke, Quebec J1M 1T8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Beauharnois—Salaberry—Soulanges—Huntingdon": {
+      "name": "Beauharnois—Salaberry—Soulanges—Huntingdon",
+      "mp": {
+        "name": "Claude DeBellefeuille",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/Debellefeuille_Claude_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/claude-debellefeuille(35315)",
+        "contact": {
+          "email": "Claude.DeBellefeuille@parl.gc.ca",
+          "phone": "613-995-2532",
+          "constituencyPhone": "450-371-0644",
+          "constituencyOffice": "Main office - Salaberry-de-Valleyfield 106 St-Jean-Baptiste street Salaberry-de-Valleyfield, Quebec J6T 1Z8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Louis-Saint-Laurent—Akiawenhrahk": {
+      "name": "Louis-Saint-Laurent—Akiawenhrahk",
+      "mp": {
+        "name": "Gérard Deltell",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DeltellGerard_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/gerard-deltell(88535)",
+        "contact": {
+          "email": "gerard.deltell@parl.gc.ca",
+          "phone": "613-996-4151",
+          "constituencyPhone": "418-842-5552",
+          "constituencyOffice": "Main office - Qu&#xE9;bec 200-9030 de l&#x27;Ormi&#xE8;re Boulevard Qu&#xE9;bec, Quebec G2B 3K3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Gaspésie—Les Îles-de-la-Madeleine—Listuguj": {
+      "name": "Gaspésie—Les Îles-de-la-Madeleine—Listuguj",
+      "mp": {
+        "name": "Alexis Deschênes",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/Desch&#xEA;nesAlexis_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/alexis-deschenes(122579)",
+        "contact": {
+          "email": "alexis.deschenes@parl.gc.ca",
+          "phone": "613-992-6188",
+          "constituencyPhone": "581-494-0013",
+          "constituencyOffice": "Main office - Carleton 598 C, Perron Boulevard Carleton, Quebec G0C 1J0\nCap-aux-Meules 103-735 route Principal Cap-aux-Meules, Quebec G4T 1G8\nMatane 303-159 Saint-Pierre street Matane, Quebec G4W 2B8\nSte-Anne-Des-Monts 27-464 Sainte-Anne Boulevard West Ste-Anne-Des-Monts, Quebec G4V 1T5\nChandler 18A - 129 Boulevard Rene-Levesque West Chandler, Quebec G0C 1K0\nGasp&#xE9; 10-47 Baker street Gasp&#xE9;, Quebec G4X 1P1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Trois-Rivières": {
+      "name": "Trois-Rivières",
+      "mp": {
+        "name": "Caroline Desrochers",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DesrochersCaroline_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/caroline-desrochers(110124)",
+        "contact": {
+          "email": "caroline.desrochers@parl.gc.ca",
+          "phone": "613-992-2349",
+          "constituencyPhone": "819-379-7700",
+          "constituencyOffice": "Main office - Trois-Rivi&#xE8;res 300, 320&#x2013;1240 Royale Street Trois-Rivi&#xE8;res, Quebec G9A 4J2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Dorval—Lachine—LaSalle": {
+      "name": "Dorval—Lachine—LaSalle",
+      "mp": {
+        "name": "Anju Dhillon",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DhillonAnju_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/anju-dhillon(88453)",
+        "contact": {
+          "email": "anju.dhillon@parl.gc.ca",
+          "phone": "613-995-2251",
+          "constituencyPhone": "514-639-4497",
+          "constituencyOffice": "Main office - Lachine 735 Notre-Dame street Lachine, Quebec H8S 2B5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Québec Centre": {
+      "name": "Québec Centre",
+      "mp": {
+        "name": "Jean-Yves Duclos",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DuclosJean-Yves_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/jean-yves-duclos(89408)",
+        "contact": {
+          "email": "jean-yves.duclos@parl.gc.ca",
+          "phone": "613-992-8865",
+          "constituencyPhone": "418-523-6666",
+          "constituencyOffice": "Main office - Qu&#xE9;bec 302-511 Saint-Joseph Street Qu&#xE9;bec, Quebec G1K 9L6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Laval—Les Îles": {
+      "name": "Laval—Les Îles",
+      "mp": {
+        "name": "Fayçal El-Khoury",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ElKhouryFay&#xE7;al_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/faycal-el-khoury(88515)",
+        "contact": {
+          "email": "faycal.el-khoury@parl.gc.ca",
+          "phone": "613-992-2659",
+          "constituencyPhone": "450-689-4594",
+          "constituencyOffice": "Main office - Laval 200A-674 de la Place-Publique road Laval, Quebec H7X 1G1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Hull—Aylmer": {
+      "name": "Hull—Aylmer",
+      "mp": {
+        "name": "Greg Fergus",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/FergusGreg_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/greg-fergus(88478)",
+        "contact": {
+          "email": "Greg.Fergus@parl.gc.ca",
+          "phone": "613-992-7550",
+          "constituencyPhone": "819-994-8844",
+          "constituencyOffice": "Main office - Gatineau 301-179 promenade du Portage Gatineau, Quebec J8X 2K5\nGatineau B3B-181 Principale street Gatineau, Quebec J9H 6A6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Rivière-du-Nord": {
+      "name": "Rivière-du-Nord",
+      "mp": {
+        "name": "Rhéal Éloi Fortin",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/FortinRh&#xE9;al_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/rheal-eloi-fortin(88605)",
+        "contact": {
+          "email": "rheal.fortin@parl.gc.ca",
+          "phone": "613-992-3257",
+          "constituencyPhone": "450-565-0061",
+          "constituencyOffice": "Main office - Saint-J&#xE9;r&#xF4;me 203, 72 de la Gare street Saint-J&#xE9;r&#xF4;me, Quebec J7Z 2B8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Notre-Dame-de-Grâce—Westmount": {
+      "name": "Notre-Dame-de-Grâce—Westmount",
+      "mp": {
+        "name": "Anna Gainey",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GaineyAnna_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/anna-gainey(115736)",
+        "contact": {
+          "email": "anna.gainey@parl.gc.ca",
+          "phone": "613-996-7267",
+          "constituencyPhone": "514-481-1897",
+          "constituencyOffice": "Main office - Montr&#xE9;al 408-5165 Sherbrooke street West Montr&#xE9;al, Quebec H4A 1T6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mirabel": {
+      "name": "Mirabel",
+      "mp": {
+        "name": "Jean-Denis Garon",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GaronJean-Denis_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/jean-denis-garon(110189)",
+        "contact": {
+          "email": "jean-denis.garon@parl.gc.ca",
+          "phone": "613-992-1227",
+          "constituencyPhone": "450-430-5535",
+          "constituencyOffice": "Main office - Mirabel 202-13479 Cur&#xE9;-Labelle Boulevard Mirabel, Quebec J7J 1H1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Laurentides—Labelle": {
+      "name": "Laurentides—Labelle",
+      "mp": {
+        "name": "Marie-Hélène Gaudreau",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GaudreauMarie-H&#xE9;l&#xE8;ne_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/marie-helene-gaudreau(104806)",
+        "contact": {
+          "email": "MH.Gaudreau@parl.gc.ca",
+          "phone": "613-992-2289",
+          "constituencyPhone": "819-440-3091",
+          "constituencyOffice": "Main office - Mont-Laurier 789 de la Madone road Mont-Laurier, Quebec J9L 1T3\nSainte-Agathe-des-Monts 26 Sainte-Agathe road Sainte-Agathe-des-Monts, Quebec J8C 2J4",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Côte-du-Sud—Rivière-du-Loup—Kataskomiq—Témiscouata": {
+      "name": "Côte-du-Sud—Rivière-du-Loup—Kataskomiq—Témiscouata",
+      "mp": {
+        "name": "Bernard Généreux",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GenereuxBernard_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/bernard-genereux(63908)",
+        "contact": {
+          "email": "bernard.genereux@parl.gc.ca",
+          "phone": "613-995-0265",
+          "constituencyPhone": "418-248-1211",
+          "constituencyOffice": "Main office - Montmagny 101-6 St-Jean-Baptiste road East Montmagny, Quebec G5V 1J7\nRiviere-du-loup 277 Lafontaine road Riviere-du-loup, Quebec G5R 3A9",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Côte-Nord—Kawawachikamach—Nitassinan": {
+      "name": "Côte-Nord—Kawawachikamach—Nitassinan",
+      "mp": {
+        "name": "Marilène Gill",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GillMaril&#xE8;ne_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/marilene-gill(88538)",
+        "contact": {
+          "email": "marilene.gill@parl.gc.ca",
+          "phone": "613-992-2363",
+          "constituencyPhone": "1-844-241-0022",
+          "constituencyOffice": "Main office - Baie-Comeau 1001 Lafl&#xE8;che Boulevard Baie-Comeau, Quebec G5C 1C8\nSept-&#xCE;les 399 Avenue Franquelin Sept-&#xCE;les, Quebec G4R 2L7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Portneuf—Jacques-Cartier": {
+      "name": "Portneuf—Jacques-Cartier",
+      "mp": {
+        "name": "Joël Godin",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GodinJo&#xEB;l_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/joel-godin(89407)",
+        "contact": {
+          "email": "joel.godin@parl.gc.ca",
+          "phone": "613-992-2798",
+          "constituencyPhone": "418-870-1571",
+          "constituencyOffice": "Main office - Saint-Augustin-de-Desmaures 230-334 route 138 Saint-Augustin-de-Desmaures, Quebec G3A 1G8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Lévis—Lotbinière": {
+      "name": "Lévis—Lotbinière",
+      "mp": {
+        "name": "Jacques Gourde",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GourdeJacques_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/jacques-gourde(35397)",
+        "contact": {
+          "email": "jacques.gourde@parl.gc.ca",
+          "phone": "613-992-2639",
+          "constituencyPhone": "418-836-0970",
+          "constituencyOffice": "Main office - L&#xE9;vis 2677 route Lagueux L&#xE9;vis, Quebec G6J 1B7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Beauce": {
+      "name": "Beauce",
+      "mp": {
+        "name": "Jason Groleau",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GroleauJason_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/jason-groleau(122507)",
+        "contact": {
+          "email": "jason.groleau@parl.gc.ca",
+          "phone": "613-992-8053",
+          "constituencyPhone": "418-381-1300",
+          "constituencyOffice": "Main office - St-Georges 17136, Boulevard Lacroix St-Georges, Quebec G5Y 8G9\nSainte-Marie 101- 280, Boulevard Vachon North Sainte-Marie, Quebec G6E 0H2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "LaSalle—Émard—Verdun": {
+      "name": "LaSalle—Émard—Verdun",
+      "mp": {
+        "name": "Claude Guay",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GuayClaude_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/claude-guay(122615)",
+        "contact": {
+          "email": "claude.guay@parl.gc.ca",
+          "phone": "613-943-6636",
+          "constituencyPhone": "514-363-6800",
+          "constituencyOffice": "Main office - Verdun 200 - 4080 Wellington Street Verdun, Quebec H4G 1V4",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Laurier—Sainte-Marie": {
+      "name": "Laurier—Sainte-Marie",
+      "mp": {
+        "name": "Steven Guilbeault",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GuilbeaultSteven_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/steven-guilbeault(14171)",
+        "contact": {
+          "email": "Steven.Guilbeault@parl.gc.ca",
+          "phone": "613-992-6779",
+          "constituencyPhone": "514-522-1339",
+          "constituencyOffice": "Main office - Montr&#xE9;al 1010-800 de Maisonneuve Boulevard East Montr&#xE9;al, Quebec H2L 4L8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Abitibi—Baie-James—Nunavik—Eeyou": {
+      "name": "Abitibi—Baie-James—Nunavik—Eeyou",
+      "mp": {
+        "name": "Mandy Gull-Masty",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/Gull-MastyMandy_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/mandy-gull-masty(122492)",
+        "contact": {
+          "email": "mandy.gull-masty@parl.gc.ca",
+          "phone": "613-992-3030",
+          "constituencyPhone": "873-452-2058",
+          "constituencyOffice": "Main office - Val-d&#x27;Or 104-888 3rd avenue Val-d&#x27;Or, Quebec J9P 5E6\nChibougamau 359-3rd Street Chibougamau, Quebec G8P 1N4",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Montmorency—Charlevoix": {
+      "name": "Montmorency—Charlevoix",
+      "mp": {
+        "name": "Gabriel Hardy",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/HardyGabriel_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/gabriel-hardy(122678)",
+        "contact": {
+          "email": "gabriel.hardy@parl.gc.ca",
+          "phone": "613-995-9732",
+          "constituencyPhone": "418-827-8909",
+          "constituencyOffice": "Main office - Ste-Anne-de-Beaupr&#xE9; 160-9749 Sainte-Anne Boulevard Ste-Anne-de-Beaupr&#xE9;, Quebec G0A 3C0\nLa Malbaie 102-735 de Comport&#xE9; Boulevard La Malbaie, Quebec G5A 1T1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mount Royal": {
+      "name": "Mount Royal",
+      "mp": {
+        "name": "Anthony Housefather",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/HousefatherAnthony_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/anthony-housefather(88558)",
+        "contact": {
+          "email": "anthony.housefather@parl.gc.ca",
+          "phone": "613-995-0121",
+          "constituencyPhone": "514-283-0171",
+          "constituencyOffice": "Main office - Montr&#xE9;al 316-4770 Kent avenue Montr&#xE9;al, Quebec H3W 1H2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Alfred-Pellan": {
+      "name": "Alfred-Pellan",
+      "mp": {
+        "name": "Angelo Iacono",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/IaconoAngelo_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/angelo-iacono(71337)",
+        "contact": {
+          "email": "angelo.iacono@parl.gc.ca",
+          "phone": "613-992-0611",
+          "constituencyPhone": "450-661-4117",
+          "constituencyOffice": "Main office - Laval 300-3131 de la Concorde Boulevard East Laval, Quebec H7E 4W4",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Ahuntsic-Cartierville": {
+      "name": "Ahuntsic-Cartierville",
+      "mp": {
+        "name": "Mélanie Joly",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/JolyM&#xE9;lanie_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/melanie-joly(88384)",
+        "contact": {
+          "email": "melanie.joly@parl.gc.ca",
+          "phone": "613-992-0983",
+          "constituencyPhone": "514-383-3709",
+          "constituencyOffice": "Main office - Montr&#xE9;al 1109-225 Chabanel street West Montr&#xE9;al, Quebec H2N 2C9",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Longueuil—Saint-Hubert": {
+      "name": "Longueuil—Saint-Hubert",
+      "mp": {
+        "name": "Natilien Joseph",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/JosephNatilien_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/natilien-joseph(122646)",
+        "contact": {
+          "email": "natilien.joseph@parl.gc.ca",
+          "phone": "613-992-8514",
+          "constituencyPhone": "450-928-4778",
+          "constituencyOffice": "Main office - Longueuil 200-192 rue Saint-Jean Longueuil, Quebec J4H 2X5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vimy": {
+      "name": "Vimy",
+      "mp": {
+        "name": "Annie Koutrakis",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/KoutrakisAnnie_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/annie-koutrakis(105009)",
+        "contact": {
+          "email": "Annie.Koutrakis@parl.gc.ca",
+          "phone": "613-995-7398",
+          "constituencyPhone": "450-973-5660",
+          "constituencyOffice": "Main office - Laval 405-2500 Daniel-Johnson Boulevard Laval, Quebec H7T 2P6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saint-Laurent": {
+      "name": "Saint-Laurent",
+      "mp": {
+        "name": "Emmanuella Lambropoulos",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LambropoulosEmmanuella_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/emmanuella-lambropoulos(96350)",
+        "contact": {
+          "email": "emmanuella.lambropoulos@parl.gc.ca",
+          "phone": "613-996-5789",
+          "constituencyPhone": "514-335-6655",
+          "constituencyOffice": "Main office - Saint-Laurent 102-750 Marcel Laurin Boulevard Saint-Laurent, Quebec H4M 2M4",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Rivière-des-Mille-Îles": {
+      "name": "Rivière-des-Mille-Îles",
+      "mp": {
+        "name": "Linda Lapointe",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LapointeLinda_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/linda-lapointe(88601)",
+        "contact": {
+          "email": "linda.lapointe@parl.gc.ca",
+          "phone": "613-992-7330",
+          "constituencyPhone": "450-623-7714",
+          "constituencyOffice": "Main office - Saint-Eustache 220 - 477 25th Avenue Saint-Eustache, Quebec J7P 4Y1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Shefford": {
+      "name": "Shefford",
+      "mp": {
+        "name": "Andréanne Larouche",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LaroucheAndreanne_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/andreanne-larouche(104973)",
+        "contact": {
+          "email": "Andreanne.Larouche@parl.gc.ca",
+          "phone": "613-992-5279",
+          "constituencyPhone": "450-378-3221",
+          "constituencyOffice": "Main office - Granby 101-400 Principale street Granby, Quebec J2G 2W6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saint-Léonard—Saint-Michel": {
+      "name": "Saint-Léonard—Saint-Michel",
+      "mp": {
+        "name": "Patricia Lattanzio",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LattanzioPatricia_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/patricia-lattanzio(104957)",
+        "contact": {
+          "email": "Patricia.Lattanzio@parl.gc.ca",
+          "phone": "613-995-9414",
+          "constituencyPhone": "514-256-4548",
+          "constituencyOffice": "Main office - Saint-L&#xE9;onard 2-8370 Lacordaire Boulevard Saint-L&#xE9;onard, Quebec H1R 3Y6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Argenteuil—La Petite-Nation": {
+      "name": "Argenteuil—La Petite-Nation",
+      "mp": {
+        "name": "Stéphane Lauzon",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LauzonSt&#xE9;phane_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/stephane-lauzon(88394)",
+        "contact": {
+          "email": "stephane.lauzon@parl.gc.ca",
+          "phone": "613-992-0902",
+          "constituencyPhone": "450-562-0737",
+          "constituencyOffice": "Main office - Lachute 204-505 B&#xE9;thany street Lachute, Quebec J8H 4A6\nGatineau 201-104 Maclaren street East Gatineau, Quebec J8L 1K1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Beauport—Limoilou": {
+      "name": "Beauport—Limoilou",
+      "mp": {
+        "name": "Steeve Lavoie",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LavoieSteeve_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/steeve-lavoie(122518)",
+        "contact": {
+          "email": "steeve.lavoie@parl.gc.ca",
+          "phone": "613-992-4406",
+          "constituencyPhone": "418-663-0270",
+          "constituencyOffice": "Main office - Qu&#xE9;bec 101-2000 rue Sanfa&#xE7;on Qu&#xE9;bec, Quebec G1E 3R7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Richmond—Arthabaska": {
+      "name": "Richmond—Arthabaska",
+      "mp": {
+        "name": "Eric Lefebvre",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LefebvreEric_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/eric-lefebvre(58757)",
+        "contact": {
+          "email": "eric.lefebvre@parl.gc.ca",
+          "phone": "613-995-1554",
+          "constituencyPhone": "819-751-4477",
+          "constituencyOffice": "Main office - Victoriaville 3 de la Gare street Victoriaville, Quebec G6P 3Z1\nVal-des-Sources 316, Boulevard Morin&#xD;&#xA; Val-des-Sources, Quebec J1T 3B9\nWindsor 340-11 Saint-Georges Street Windsor, Quebec J1S 1J2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Marc-Aurèle-Fortin": {
+      "name": "Marc-Aurèle-Fortin",
+      "mp": {
+        "name": "Carlos Leitão",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LeitaoCarlos_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/carlos-leitao(122656)",
+        "contact": {
+          "email": "carlos.leitao@parl.gc.ca",
+          "phone": "613-992-1120",
+          "constituencyPhone": "450-622-8858",
+          "constituencyOffice": "Main office - Laval 285-4455 autoroute 440 Laval, Quebec H7P 4W6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Abitibi—Témiscamingue": {
+      "name": "Abitibi—Témiscamingue",
+      "mp": {
+        "name": "Sébastien Lemire",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LemireSebastien_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/sebastien-lemire(104630)",
+        "contact": {
+          "email": "Sebastien.Lemire@parl.gc.ca",
+          "phone": "613-996-3250",
+          "constituencyPhone": "819-762-3733",
+          "constituencyOffice": "Main office - Rouyn-Noranda RC15-33 Gamble street West Rouyn-Noranda, Quebec J9X 2R3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Louis-Hébert": {
+      "name": "Louis-Hébert",
+      "mp": {
+        "name": "Joël Lightbound",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LightboundJoel_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/joel-lightbound(88532)",
+        "contact": {
+          "email": "joel.lightbound@parl.gc.ca",
+          "phone": "613-995-4995",
+          "constituencyPhone": "418-648-3244",
+          "constituencyOffice": "Main office - Qu&#xE9;bec 110-3700 du Campanile street Qu&#xE9;bec, Quebec G1X 4G6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Gatineau": {
+      "name": "Gatineau",
+      "mp": {
+        "name": "Steven MacKinnon",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MacKinnonSteven_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/steven-mackinnon(88468)",
+        "contact": {
+          "email": "Steven.MacKinnon@parl.gc.ca",
+          "phone": "613-992-4351",
+          "constituencyPhone": "819-561-5555",
+          "constituencyOffice": "Main office - Gatineau 401-160 de l&#x27;H&#xF4;pital Boulevard Gatineau, Quebec J8T 8J1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Chicoutimi—Le Fjord": {
+      "name": "Chicoutimi—Le Fjord",
+      "mp": {
+        "name": "Richard Martel",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MartelRichard_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/richard-martel(100521)",
+        "contact": {
+          "email": "Richard.Martel@parl.gc.ca",
+          "phone": "613-992-7207",
+          "constituencyPhone": "418-698-5648",
+          "constituencyOffice": "Main office - Chicoutimi 101-320 Ste-Anne street Chicoutimi, Quebec G7J 2M4",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Hochelaga—Rosemont-Est": {
+      "name": "Hochelaga—Rosemont-Est",
+      "mp": {
+        "name": "Marie-Gabrielle Ménard",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/M&#xE9;nardMarie-Gabrielle_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/marie-gabrielle-menard(122587)",
+        "contact": {
+          "email": "marie-gabrielle.menard@parl.gc.ca",
+          "phone": "613-947-4576",
+          "constituencyPhone": "514-201-8608",
+          "constituencyOffice": "Main office - Montr&#xE9;al 225-2030 Pie-IX Boulevard Montr&#xE9;al, Quebec H1V 2C8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Brossard—Saint-Lambert": {
+      "name": "Brossard—Saint-Lambert",
+      "mp": {
+        "name": "Alexandra Mendès",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MendesAlexandra_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/alexandra-mendes(58621)",
+        "contact": {
+          "email": "alexandra.mendes@parl.gc.ca",
+          "phone": "613-995-9301",
+          "constituencyPhone": "450-466-6872",
+          "constituencyOffice": "Main office - Brossard 225-6955 Taschereau Boulevard Brossard, Quebec J4Z 1A7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Papineau": {
+      "name": "Papineau",
+      "mp": {
+        "name": "Marjorie Michel",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MichelMarjorie_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/marjorie-michel(122684)",
+        "contact": {
+          "email": "marjorie.michel@parl.gc.ca",
+          "phone": "613-947-9299",
+          "constituencyPhone": "514-277-1645",
+          "constituencyOffice": "Main office - Montr&#xE9;al 220-1100 Cr&#xE9;mazie East Boulevard Montr&#xE9;al, Quebec H2P 2X2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Ville-Marie—Le Sud-Ouest—Île-des-Soeurs": {
+      "name": "Ville-Marie—Le Sud-Ouest—Île-des-Soeurs",
+      "mp": {
+        "name": "Marc Miller",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MillerMarc_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/marc-miller(88660)",
+        "contact": {
+          "email": "Marc.Miller@parl.gc.ca",
+          "phone": "613-995-6403",
+          "constituencyPhone": "",
+          "constituencyOffice": "Main office - Montr&#xE9;al Montr&#xE9;al, Quebec H3H 1C9",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saint-Jean": {
+      "name": "Saint-Jean",
+      "mp": {
+        "name": "Christine Normandin",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/NormandinChristine_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/christine-normandin(104947)",
+        "contact": {
+          "email": "Christine.Normandin@parl.gc.ca",
+          "phone": "613-992-5296",
+          "constituencyPhone": "450-357-9100",
+          "constituencyOffice": "Main office - Saint-Jean-sur-Richelieu 210-100 Richelieu street Saint-Jean-sur-Richelieu, Quebec J3B 6X3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mont-Saint-Bruno—L'Acadie": {
+      "name": "Mont-Saint-Bruno—L'Acadie",
+      "mp": {
+        "name": "Bienvenu-Olivier Ntumba",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/NtumbaBienvenu-Olivier_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/bienvenu-olivier-ntumba(122668)",
+        "contact": {
+          "email": "bienvenu-olivier.ntumba@parl.gc.ca",
+          "phone": "613-996-2416",
+          "constituencyPhone": "450-922-7900",
+          "constituencyOffice": "Main office - Sainte-julie 201-1990 L&#xE9;onard-de-Vinci street Sainte-julie, Quebec J3E 1Y8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Charlesbourg—Haute-Saint-Charles": {
+      "name": "Charlesbourg—Haute-Saint-Charles",
+      "mp": {
+        "name": "Pierre Paul-Hus",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/Paul_HusPierre_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/pierre-paul-hus(71454)",
+        "contact": {
+          "email": "Pierre.Paul-Hus@parl.gc.ca",
+          "phone": "613-995-8857",
+          "constituencyPhone": "418-624-0022",
+          "constituencyOffice": "Main office - Qu&#xE9;bec A204-8400 Henri-Bourassa Boulevard Qu&#xE9;bec, Quebec G1G 4E2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Berthier—Maskinongé": {
+      "name": "Berthier—Maskinongé",
+      "mp": {
+        "name": "Yves Perron",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/PerronYves_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/yves-perron(88418)",
+        "contact": {
+          "email": "Yves.Perron@parl.gc.ca",
+          "phone": "613-992-5681",
+          "constituencyPhone": "819-228-1210",
+          "constituencyOffice": "Main office - Louiseville 343 Saint-Laurent avenue Louiseville, Quebec J5V 1K2\nBerthierville 774 Notre-Dame Berthierville, Quebec J0K 1A0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Bécancour—Nicolet—Saurel—Alnôbak": {
+      "name": "Bécancour—Nicolet—Saurel—Alnôbak",
+      "mp": {
+        "name": "Louis Plamondon",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/PlamondonLouis_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/louis-plamondon(413)",
+        "contact": {
+          "email": "louis.plamondon@parl.gc.ca",
+          "phone": "613-995-9241",
+          "constituencyPhone": "450-742-0479",
+          "constituencyOffice": "Main office - Sorel-Tracy 307 route Marie-Victorin Sorel-Tracy, Quebec J3R 1K6\nNicolet 702 de Monseigneur-Panet street Nicolet, Quebec J3T 1C6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Châteauguay—Les Jardins-de-Napierville": {
+      "name": "Châteauguay—Les Jardins-de-Napierville",
+      "mp": {
+        "name": "Nathalie Provost",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ProvostNathalie_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/nathalie-provost(122552)",
+        "contact": {
+          "email": "nathalie.provost@parl.gc.ca",
+          "phone": "613-996-7265",
+          "constituencyPhone": "450-691-8299",
+          "constituencyOffice": "Main office - Ch&#xE2;teauguay 104-245 Boulevard Saint Jean Baptiste, Ch&#xE2;teauguay, Quebec J6K 3C3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "La Prairie—Atateken": {
+      "name": "La Prairie—Atateken",
+      "mp": {
+        "name": "Jacques Ramsay",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/RamsayJacques_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/jacques-ramsay(122606)",
+        "contact": {
+          "email": "jacques.ramsay@parl.gc.ca",
+          "phone": "613-992-1084",
+          "constituencyPhone": "450-632-8520",
+          "constituencyOffice": "Main office - Delson 200-66 route 132 Delson, Quebec J5B 0A1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Longueuil—Charles-LeMoyne": {
+      "name": "Longueuil—Charles-LeMoyne",
+      "mp": {
+        "name": "Sherry Romanado",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/RomanadoSherry_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/sherry-romanado(88521)",
+        "contact": {
+          "email": "sherry.romanado@parl.gc.ca",
+          "phone": "613-998-5961",
+          "constituencyPhone": "450-671-1222",
+          "constituencyOffice": "Main office - Greenfield Park 150-2120 Victoria avenue Greenfield Park, Quebec J4V 1M9",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Bourassa": {
+      "name": "Bourassa",
+      "mp": {
+        "name": "Abdelhaq Sari",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/SariAbdelhaq_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/abdelhaq-sari(122533)",
+        "contact": {
+          "email": "abdelhaq.sari@parl.gc.ca",
+          "phone": "613-995-6108",
+          "constituencyPhone": "514-323-0980",
+          "constituencyOffice": "Main office - Montreal-Nord 203-5835 L&#xE9;ger Boulevard Montreal-Nord, Quebec H1G 6E1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saint-Hyacinthe—Bagot—Acton": {
+      "name": "Saint-Hyacinthe—Bagot—Acton",
+      "mp": {
+        "name": "Simon-Pierre Savard-Tremblay",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/Savard-TremblaySimon-Pierre_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/simon-pierre-savard-tremblay(104944)",
+        "contact": {
+          "email": "Simon-Pierre.Savard-Tremblay@parl.gc.ca",
+          "phone": "613-996-4585",
+          "constituencyPhone": "450-771-0505",
+          "constituencyOffice": "Main office - Saint-Hyacinthe 1920 Des Cascades street Saint-Hyacinthe, Quebec J2S 3J5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Lac-Saint-Louis": {
+      "name": "Lac-Saint-Louis",
+      "mp": {
+        "name": "Francis Scarpaleggia",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ScarpaleggiaFrancis_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/francis-scarpaleggia(25453)",
+        "contact": {
+          "email": "francis.scarpaleggia@parl.gc.ca",
+          "phone": "613-995-8281",
+          "constituencyPhone": "514-695-6661",
+          "constituencyOffice": "Main office - Pointe-Claire 635-1 Holiday avenue Pointe-Claire, Quebec H9R 5N3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vaudreuil": {
+      "name": "Vaudreuil",
+      "mp": {
+        "name": "Peter Schiefke",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/SchiefkePeter_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/peter-schiefke(88649)",
+        "contact": {
+          "email": "peter.schiefke@parl.gc.ca",
+          "phone": "613-957-3744",
+          "constituencyPhone": "450-510-2305",
+          "constituencyOffice": "Main office - Vaudreuil-Dorion 223 Saint-Charles avenue Vaudreuil-Dorion, Quebec J7V 2L6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Jonquière": {
+      "name": "Jonquière",
+      "mp": {
+        "name": "Mario Simard",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/SimardMario_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/mario-simard(104773)",
+        "contact": {
+          "email": "Mario.Simard@parl.gc.ca",
+          "phone": "613-995-8425",
+          "constituencyPhone": "418-695-4477",
+          "constituencyOffice": "Main office - Jonquiere 1930 Davis street Jonquiere, Quebec G7S 3B6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Honoré-Mercier": {
+      "name": "Honoré-Mercier",
+      "mp": {
+        "name": "Eric St-Pierre",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/St-PierreEric_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/eric-st-pierre(122589)",
+        "contact": {
+          "email": "eric.st-pierre@parl.gc.ca",
+          "phone": "613-995-0580",
+          "constituencyPhone": "514-353-5882",
+          "constituencyOffice": "Main office - Montr&#xE9;al 208-8595 Maurice-Duplessis Boulevard Montr&#xE9;al, Quebec H1E 4H7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Joliette—Manawan": {
+      "name": "Joliette—Manawan",
+      "mp": {
+        "name": "Gabriel Ste-Marie",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/Ste-MarieGabriel_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/gabriel-ste-marie(88485)",
+        "contact": {
+          "email": "gabriel.ste-marie@parl.gc.ca",
+          "phone": "613-996-6910",
+          "constituencyPhone": "450-752-1940",
+          "constituencyOffice": "Main office - Joliette 120 Place Bourget North Joliette, Quebec J6E 5E5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Montcalm": {
+      "name": "Montcalm",
+      "mp": {
+        "name": "Luc Thériault",
+        "party": "Bloc Québécois",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/Th&#xE9;riaultLuc_BQ.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/luc-theriault(88552)",
+        "contact": {
+          "email": "luc.theriault@parl.gc.ca",
+          "phone": "613-992-0164",
+          "constituencyPhone": "450-474-1044",
+          "constituencyOffice": "Main office - Mascouche 1095 Mont&#xE9;e Masson Mascouche, Quebec J7K 2M1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Bellechasse—Les Etchemins—Lévis": {
+      "name": "Bellechasse—Les Etchemins—Lévis",
+      "mp": {
+        "name": "Dominique Vien",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/VienDominique_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/dominique-vien(110009)",
+        "contact": {
+          "email": "dominique.vien@parl.gc.ca",
+          "phone": "613-992-7434",
+          "constituencyPhone": "418-830-0500",
+          "constituencyOffice": "Main office - L&#xE9;vis B102-115 route du Pr&#xE9;sident-Kennedy L&#xE9;vis, Quebec G6V 6C8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Brome—Missisquoi": {
+      "name": "Brome—Missisquoi",
+      "mp": {
+        "name": "Louis Villeneuve",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/VilleneuveLouis_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/louis-villeneuve(122539)",
+        "contact": {
+          "email": "louis.villeneuve@parl.gc.ca",
+          "phone": "613-947-8185",
+          "constituencyPhone": "450-263-5560",
+          "constituencyOffice": "Main office - Cowansville 301-145 de Sherbrooke street Cowansville, Quebec J2K 5E7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Les Pays-d'en-Haut": {
+      "name": "Les Pays-d'en-Haut",
+      "mp": {
+        "name": "Tim Watchorn",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/WatchornTim_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/tim-watchorn(122637)",
+        "contact": {
+          "email": "tim.watchorn@parl.gc.ca",
+          "phone": "613-995-3454",
+          "constituencyPhone": "450-227-6303",
+          "constituencyOffice": "Main office - Saint-Sauveur 29 Avenue Saint Denis Saint-Sauveur, Quebec J0R 1R4",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Pierrefonds—Dollard": {
+      "name": "Pierrefonds—Dollard",
+      "mp": {
+        "name": "Sameer Zuberi",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ZuberiSameer_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/sameer-zuberi(54157)",
+        "contact": {
+          "email": "Sameer.Zuberi@parl.gc.ca",
+          "phone": "613-992-2689",
+          "constituencyPhone": "514-624-5725",
+          "constituencyOffice": "Main office - Dollard-des-Ormeaux 501-3883 Saint-Jean Boulevard Dollard-des-Ormeaux, Quebec H9G 3B9",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    }
+  },
+  "parties": {
+    "Liberal": {
+      "color": "#D71920"
+    },
+    "Bloc Québécois": {
+      "color": "#00AEEF"
+    },
+    "Conservative": {
+      "color": "#003DA5"
+    },
+    "Independent": {
+      "color": "#808080"
+    }
+  }
+}

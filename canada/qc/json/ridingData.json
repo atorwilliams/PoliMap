@@ -1,0 +1,3399 @@
+{
+  "ridings": {
+    "Beauharnois": {
+      "name": "Beauharnois",
+      "mna": {
+        "name": "Claude Reid",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_30995",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/reid-claude-17833/index.html",
+        "contact": {
+          "email": "Claude.Reid.BEAU@assnat.qc.ca",
+          "phone": "418-644-7844",
+          "constituencyPhone": "450-377-3131",
+          "fax": "450-373-5272",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.75\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "157, rue Victoria\nBureau 100\nSalaberry-de-Valleyfield (Quebec) J6T 1A5\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Richmond": {
+      "name": "Richmond",
+      "mna": {
+        "name": "André Bachand",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31079",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/bachand-andre-17859/index.html",
+        "contact": {
+          "email": "Andre.Bachand.RICM@assnat.qc.ca",
+          "phone": "418-263-0546",
+          "constituencyPhone": "819-879-1104",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.53\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "192, rue du Roi\nVal-des-Sources (Quebec) J1T 1S3\nToll-free: 1-800-567-3596\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Viau": {
+      "name": "Viau",
+      "mna": {
+        "name": "Frantz Benjamin",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31085",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/benjamin-frantz-17909/index.html",
+        "contact": {
+          "email": "Frantz.Benjamin.VIAU@assnat.qc.ca",
+          "phone": "418-644-1007",
+          "constituencyPhone": "514-728-2474",
+          "fax": "514-728-2759",
+          "parliamentOffice": "Cabinet du vice-président Frantz Benjamin\nHôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.03\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "3333, rue Jarry Est\nBureau 202\nMontréal (Quebec) H1Z 2E5\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saint-Hyacinthe": {
+      "name": "Saint-Hyacinthe",
+      "mna": {
+        "name": "Chantal Soucy",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_7635",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/soucy-chantal-15417/index.html",
+        "contact": {
+          "email": "Chantal.Soucy.SAHY@assnat.qc.ca",
+          "phone": "418-643-2810",
+          "constituencyPhone": "450-773-0550",
+          "fax": "450-773-6092",
+          "parliamentOffice": "Cabinet de la vice-présidente Chantal Soucy\nHôtel du Parlement\n1045, rue des Parlementaires\n1 er étage, Bureau 1.45\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "2685, boulevard Casavant Ouest\nBureau 215\nSaint-Hyacinthe (Quebec) J2S 8B8\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mirabel": {
+      "name": "Mirabel",
+      "mna": {
+        "name": "Sylvie D'Amours",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_7853",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/d-amours-sylvie-15399/index.html",
+        "contact": {
+          "email": "Sylvie.DAmours.MIRA@assnat.qc.ca",
+          "phone": "418-643-2750",
+          "constituencyPhone": "450-623-8376",
+          "fax": "450-623-2336",
+          "parliamentOffice": "Cabinet de la vice-présidente Sylvie D'Amours\nHôtel du Parlement\n1045, rue des Parlementaires\n1er étage, Bureau 1.36\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "95, chemin Principal\nLocal 101\nSaint-Joseph-du-Lac (Quebec) J0N 1M0\nToll-free: 1-866-875-0487\nThis office has physical barriers for people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Sherbrooke": {
+      "name": "Sherbrooke",
+      "mna": {
+        "name": "Christine Labrie",
+        "party": "Québec solidaire",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31105",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/labrie-christine-17889/index.html",
+        "contact": {
+          "email": "Christine.Labrie.SHER@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "819-569-5646",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.139\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "230, rue King Ouest\nBureau 301\nSherbrooke (Quebec) J1H 1P9\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saint-Jean": {
+      "name": "Saint-Jean",
+      "mna": {
+        "name": "Louis Lemieux",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31011",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/lemieux-louis-17879/index.html",
+        "contact": {
+          "email": "Louis.Lemieux.SAJE@assnat.qc.ca",
+          "phone": "450-346-3040",
+          "constituencyPhone": "450-346-3040",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC 89\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "200, rue MacDonald\nSuite 201\nSaint-Jean-sur-Richelieu (Quebec) J3B 8J6\nThis office has physical barriers for people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Les Plaines": {
+      "name": "Les Plaines",
+      "mna": {
+        "name": "Lucie Lecours",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31013",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/lecours-lucie-17949/index.html",
+        "contact": {
+          "email": "Lucie.Lecours.LPLA@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-838-7493",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.103\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "193, boulevard Sainte-Anne\nSainte-Anne-des-Plaines (Quebec) J5N 3L7\nThis office has physical barriers for people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Maskinongé": {
+      "name": "Maskinongé",
+      "mna": {
+        "name": "Simon Allaire",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31083",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/allaire-simon-17941/index.html",
+        "contact": {
+          "email": "Simon.Allaire.MASK@assnat.qc.ca",
+          "phone": "418-644-0617",
+          "constituencyPhone": "819-228-9722",
+          "fax": "819-228-0040",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC 72\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "429, boulevard Saint-Laurent Est\nLouiseville (Quebec) J5V 1H5\nToll-free: 1-877-528-9722\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vanier-Les Rivières": {
+      "name": "Vanier-Les Rivières",
+      "mna": {
+        "name": "Mario Asselin",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31081",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/asselin-mario-17905/index.html",
+        "contact": {
+          "email": "Mario.Asselin.VANI@assnat.qc.ca",
+          "phone": "418-644-3107",
+          "constituencyPhone": "418-644-3107",
+          "fax": "418-643-9258",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n1er étage, Bureau 1.124\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "1170, boulevard Lebourgneuf\nBureau 311\nQuébec (Quebec) G2K 2E3\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vaudreuil": {
+      "name": "Vaudreuil",
+      "mna": {
+        "name": "Marie-Claude Nichols",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_7767",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/nichols-marie-claude-15439/index.html",
+        "contact": {
+          "email": "Marie-Claude.Nichols.VAUD@assnat.qc.ca",
+          "phone": "418-646-7623",
+          "constituencyPhone": "450-424-6666",
+          "fax": "450-424-9274",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.42\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "416, boulevard Harwood\nVaudreuil-Dorion (Quebec) J7V 7H4\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Drummond–Bois-Francs": {
+      "name": "Drummond–Bois-Francs",
+      "mna": {
+        "name": "Sébastien Schneeberger",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_4897",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/schneeberger-sebastien-5909/index.html",
+        "contact": {
+          "email": "Sebastien.Schneeberger.DRUM@assnat.qc.ca",
+          "phone": "418-644-1052",
+          "constituencyPhone": "819-475-4343",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n1er étage, Bureau 1.53\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "235, rue Heriot\nBureau 470\nDrummondville (Quebec) J2C 6X5\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Matane-Matapédia": {
+      "name": "Matane-Matapédia",
+      "mna": {
+        "name": "Pascal Bérubé",
+        "party": "Parti québécois",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_447",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/berube-pascal-991/index.html",
+        "contact": {
+          "email": "Pascal.Berube.MATN@assnat.qc.ca",
+          "phone": "418-644-0912",
+          "constituencyPhone": "418-562-0371",
+          "fax": "418-562-7806",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3 ieme étage, 3.53\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "121, avenue Fraser\nMatane (Quebec) G4W 3G8\nToll-free: 1-877-462-0371\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Abitibi-Ouest": {
+      "name": "Abitibi-Ouest",
+      "mna": {
+        "name": "Suzanne Blais",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31075",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/blais-suzanne-17825/index.html",
+        "contact": {
+          "email": "Suzanne.Blais.ABOU@assnat.qc.ca",
+          "phone": "581-628-1857",
+          "constituencyPhone": "819-444-5007",
+          "fax": "819-444-5011",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n1e étage, Bureau 1.111\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "259, 1re Avenue Ouest\nAmos (Quebec) J9T 1V1\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saint-Jérôme": {
+      "name": "Saint-Jérôme",
+      "mna": {
+        "name": "Youri Chassin",
+        "party": "Independent",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31059",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/chassin-youri-17881/index.html",
+        "contact": {
+          "email": "Youri.Chassin.STJE@assnat.qc.ca",
+          "phone": "450-569-7436",
+          "constituencyPhone": "450-569-7436",
+          "fax": "450-569-7440",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.94\nQuébec (Quebec) G1A 1A3",
+          "constituencyOffice": "227, rue Saint-Georges\nBureau 205\nSaint-Jérôme (Quebec) J7Z 5A1\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Portneuf": {
+      "name": "Portneuf",
+      "mna": {
+        "name": "Vincent Caron",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31065",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/caron-vincent-17849/index.html",
+        "contact": {
+          "email": "Vincent.Caron.PORT@assnat.qc.ca",
+          "phone": "418-644-1473",
+          "constituencyPhone": "418-337-4378",
+          "fax": "418-337-1582",
+          "parliamentOffice": "Hôtel du parlement\n1045, rue des Parlementaires\nRC, Bureau RC.49\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "118, rue Saint-Pierre\nSaint-Raymond (Quebec) G3L 1P6\nToll-free: 1-855-383-0712\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Argenteuil": {
+      "name": "Argenteuil",
+      "mna": {
+        "name": "Agnès Grondin",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31039",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/grondin-agnes-17827/index.html",
+        "contact": {
+          "email": "Agnes.Grondin.ARGE@assnat.qc.ca",
+          "phone": "418-528-6379",
+          "constituencyPhone": "450-562-0785",
+          "fax": "450-562-0650",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.121\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "512, rue Principale\nLachute (Quebec) J8H 1Y3\nToll-free: 1-800-870-7964\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Gatineau": {
+      "name": "Gatineau",
+      "mna": {
+        "name": "Robert Bussière",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31071",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/bussiere-robert-17921/index.html",
+        "contact": {
+          "email": "Robert.Bussiere.GATI@assnat.qc.ca",
+          "phone": "581-628-1802",
+          "constituencyPhone": "819-827-3868",
+          "fax": "819-827-0226",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.26\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "490, route 105, suite 240\nChelsea (Quebec) J9B 1L2\nToll-free: 1-866-315-0237\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Richelieu": {
+      "name": "Richelieu",
+      "mna": {
+        "name": "Jean-Bernard Émond",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31053",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/emond-jean-bernard-17857/index.html",
+        "contact": {
+          "email": "Jean-Bernard.Emond.RICL@assnat.qc.ca",
+          "phone": "418-263-0660",
+          "constituencyPhone": "450-742-3781",
+          "fax": "450-742-7744",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC 66\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "50, rue du Roi\nBureau 100\nSorel-Tracy (Quebec) J3P 4M7\nToll-free: 1-866-649-8832\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Abitibi-Est": {
+      "name": "Abitibi-Est",
+      "mna": {
+        "name": "Pierre Dufour",
+        "party": "Independent",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31055",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/dufour-pierre-17823/index.html",
+        "contact": {
+          "email": "Pierre.Dufour.ABES@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "819-824-3333",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.88\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "888, 3e Avenue\nBureau 202\nVal-d'Or (Quebec) J9P 5E6\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Blainville": {
+      "name": "Blainville",
+      "mna": {
+        "name": "Mario Laframboise",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_7769",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/laframboise-mario-15357/index.html",
+        "contact": {
+          "email": "Mario.Laframboise.BLAI@assnat.qc.ca",
+          "phone": "418-263-0613",
+          "constituencyPhone": "450-430-8086",
+          "fax": "450-430-9795",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n1e étage, Bureau 1.123\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "369, boulevard Adolphe-Chapleau\nBureau 211\nBois-des-Filion (Quebec) J6Z 1H1\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Chauveau": {
+      "name": "Chauveau",
+      "mna": {
+        "name": "Sylvain Lévesque",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_4753",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/levesque-sylvain-12213/index.html",
+        "contact": {
+          "email": "Sylvain.Levesque.CHAU@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "418-842-3330",
+          "fax": "418-842-6444",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n1er étage, Bureau 1.115\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "1680, avenue Lapierre\n2e étage\nBureau 201\nQuébec (Quebec) G3E 0G1\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Beauce-Nord": {
+      "name": "Beauce-Nord",
+      "mna": {
+        "name": "Luc Provençal",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_30997",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/provencal-luc-17829/index.html",
+        "contact": {
+          "email": "Luc.Provencal.BENO@assnat.qc.ca",
+          "phone": "418-643-5016",
+          "constituencyPhone": "418-387-2044",
+          "fax": "418-387-4250",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, RC.41\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "452, boulevard Vachon Nord\nSainte-Marie (Quebec) G6E 1M1\nToll-free: 1-800-463-2544\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Rosemont": {
+      "name": "Rosemont",
+      "mna": {
+        "name": "Vincent Marissal",
+        "party": "Independent",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31111",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/marissal-vincent-17867/index.html",
+        "contact": {
+          "email": "Vincent.Marissal.ROSE@assnat.qc.ca",
+          "phone": "514-593-7495",
+          "constituencyPhone": "514-593-7495",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.38\nQuébec (Quebec) G1A 1A3",
+          "constituencyOffice": "5357, 5e Avenue\nMontréal (Quebec) H1Y 2S6\nThis office has physical barriers for people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mercier": {
+      "name": "Mercier",
+      "mna": {
+        "name": "Ruba Ghazal",
+        "party": "Québec solidaire",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31103",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/ghazal-ruba-17933/index.html",
+        "contact": {
+          "email": "Ruba.Ghazal.MERC@assnat.qc.ca",
+          "phone": "418-644-1632",
+          "constituencyPhone": "514-525-8877",
+          "fax": "866-282-0736",
+          "parliamentOffice": "Cabinet de la cheffe du deuxième groupe d'opposition\nHôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.157\nQuébec (Quebec) G1A 1A3",
+          "constituencyOffice": "1012, avenue du Mont-Royal Est\nBureau 102\nMontréal (Quebec) H2J 1X6\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Hochelaga-Maisonneuve": {
+      "name": "Hochelaga-Maisonneuve",
+      "mna": {
+        "name": "Alexandre Leduc",
+        "party": "Québec solidaire",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31107",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/leduc-alexandre-17935/index.html",
+        "contact": {
+          "email": "Alexandre.Leduc.HOCH@assnat.qc.ca",
+          "phone": "581-814-1286",
+          "constituencyPhone": "514-873-9309",
+          "fax": "514-873-5415",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.101\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "2030, boulevard Pie-IX\nBureau 300\nMontréal (Quebec) H1V 2C8\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Gouin": {
+      "name": "Gouin",
+      "mna": {
+        "name": "Gabriel Nadeau-Dubois",
+        "party": "Québec solidaire",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_26027",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/nadeau-dubois-gabriel-16827/index.html",
+        "contact": {
+          "email": "Gabriel.Nadeau-Dubois.GOUI@assnat.qc.ca",
+          "phone": "418-644-1632",
+          "constituencyPhone": "514-864-6133",
+          "fax": "514-873-8998",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.159\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "1453, rue Beaubien Est\nBureau 201\nMontréal (Quebec) H2G 3C6\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Sainte-Marie–Saint-Jacques": {
+      "name": "Sainte-Marie–Saint-Jacques",
+      "mna": {
+        "name": "Manon Massé",
+        "party": "Québec solidaire",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_7751",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/masse-manon-15421/index.html",
+        "contact": {
+          "email": "Manon.Masse.SMSJ@assnat.qc.ca",
+          "phone": "418-644-1632",
+          "constituencyPhone": "514-525-2501",
+          "fax": "514-525-5637",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.126\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "533, rue Ontario Est\nBureau 206\nMontréal (Quebec) H2L 1N8\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Dubuc": {
+      "name": "Dubuc",
+      "mna": {
+        "name": "François Tremblay",
+        "party": "Independent",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_30981",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/tremblay-francois-17917/index.html",
+        "contact": {
+          "email": "Francois.Tremblay.DUBU@assnat.qc.ca",
+          "phone": "418-263-0615",
+          "constituencyPhone": "418-544-8106",
+          "fax": "418-544-8167",
+          "parliamentOffice": "Hôtel du parlement\n1045, rue des Parlementaires\n1e étage, Bureau 1.66\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "439, rue Albert\nLa Baie (Quebec) G7B 3L5\nToll-free: 1-877-380-8106\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saint-Laurent": {
+      "name": "Saint-Laurent",
+      "mna": {
+        "name": "Marwah Rizqy",
+        "party": "Independent",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31115",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/rizqy-marwah-17883/index.html",
+        "contact": {
+          "email": "Marwah.Rizqy.STLO@assnat.qc.ca",
+          "phone": "581-628-1844",
+          "constituencyPhone": "514-747-4050",
+          "fax": "514-221-4507",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.37\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "1500, rue du Collège, bureau 405\nSaint-Laurent (Quebec) H4L 5G6\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "La Prairie": {
+      "name": "La Prairie",
+      "mna": {
+        "name": "Christian Dubé",
+        "party": "Independent",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_4567",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/dube-christian-12223/index.html",
+        "contact": {
+          "email": "Christian.Dube.LAPR@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-619-7313",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.25\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "26, boulevard Taschereau\nBureau 306\nLa Prairie (Quebec) J5R 0R9\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Johnson": {
+      "name": "Johnson",
+      "mna": {
+        "name": "André Lamontagne",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_7617",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/lamontagne-andre-15401/index.html",
+        "contact": {
+          "email": "Andre.Lamontagne.JOHN@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "819-474-7770",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.30\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "1835, boulevard Lemire\nBureau 102\nDrummondville (Quebec) J2C 5A6\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Jacques-Cartier": {
+      "name": "Jacques-Cartier",
+      "mna": {
+        "name": "Gregory Kelley",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31093",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/kelley-gregory-17951/index.html",
+        "contact": {
+          "email": "Gregory.Kelley.JACA@assnat.qc.ca",
+          "phone": "581-628-1809",
+          "constituencyPhone": "514-697-7663",
+          "fax": "514-697-6499",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.38\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "Place Scotia\n620, boulevard Saint-Jean\nBureau 206\nPointe-Claire (Quebec) H9R 3K2\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Laurier-Dorion": {
+      "name": "Laurier-Dorion",
+      "mna": {
+        "name": "Andrés Fontecilla",
+        "party": "Québec solidaire",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31101",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/fontecilla-andres-17953/index.html",
+        "contact": {
+          "email": "Andres.Fontecilla.LADO@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "514-273-1412",
+          "fax": "514-273-3150",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.113\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "529, rue Jarry Est\nBureau 401\nMontréal (Quebec) H2P 1V4\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Pontiac": {
+      "name": "Pontiac",
+      "mna": {
+        "name": "André Fortin",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_7615",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/fortin-andre-15383/index.html",
+        "contact": {
+          "email": "Andre.Fortin.PONT@assnat.qc.ca",
+          "phone": "418-643-2743",
+          "constituencyPhone": "514-873-0970",
+          "fax": "",
+          "parliamentOffice": "Cabinet du chef de l'opposition officielle\nHôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.83\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "Cabinet du chef de l'opposition officielle\nÉdifice Place Ville-Marie\n1, Place Ville-Marie\n10e étage, Bureau 1030\nMontréal (Quebec) H3B 4S6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mégantic": {
+      "name": "Mégantic",
+      "mna": {
+        "name": "François Jacques",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31033",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/jacques-francois-17937/index.html",
+        "contact": {
+          "email": "Francois.Jacques.MEGA@assnat.qc.ca",
+          "phone": "418-643-6018",
+          "constituencyPhone": "819-583-4500",
+          "fax": "819-583-0926",
+          "parliamentOffice": "Cabinet du whip en chef du gouvernement\nHôtel du Parlement\n1045, rue des Parlementaires\n1er étage, Bureau 1.83\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "5600, rue Frontenac\nBureau 201\nLac-Mégantic (Quebec) G6B 1H5\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Montarville": {
+      "name": "Montarville",
+      "mna": {
+        "name": "Nathalie Roy",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_4815",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/roy-nathalie-12187/index.html",
+        "contact": {
+          "email": "presidence@assnat.qc.ca",
+          "phone": "418-643-2820",
+          "constituencyPhone": "450-641-2748",
+          "fax": "450-641-0689",
+          "parliamentOffice": "Cabinet de la présidente de l'Assemblée nationale\nHôtel du Parlement\n1045, rue des Parlementaires\n1er étage, Bureau 1.27\nQuébec (Quebec) G1A 1A3",
+          "constituencyOffice": "1570, rue Ampère\nBureau 500\nBoucherville (Quebec) J4B 7L4\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Marquette": {
+      "name": "Marquette",
+      "mna": {
+        "name": "Enrico Ciccone",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31089",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/ciccone-enrico-17943/index.html",
+        "contact": {
+          "email": "Enrico.Ciccone.MARQ@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "514-634-9720",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.121\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "620, chemin du Bord-du-Lac-Lakeshore, bureau 300\nDorval (Quebec) H9S 2B6\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Verchères": {
+      "name": "Verchères",
+      "mna": {
+        "name": "Suzanne Roy",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51119",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/roy-suzanne-19265/index.html",
+        "contact": {
+          "email": "Suzanne.Roy.VERC@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-652-4419",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n1 e étage, Bureau 1.126\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "1625, boulevard Lionel-Boulet\nBureau 204\nVarennes (Quebec) J3X 1P7\nToll-free: 1-800-652-4419\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Jonquière": {
+      "name": "Jonquière",
+      "mna": {
+        "name": "Yannick Gagnon",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50979",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/gagnon-yannick-19317/index.html",
+        "contact": {
+          "email": "Yannick.Gagnon.JONQ@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "418-547-0666",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.29\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "2390, rue Saint-Hubert\nJonquière (Quebec) G7X 5N4\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Châteauguay": {
+      "name": "Châteauguay",
+      "mna": {
+        "name": "Marie-Belle Gendron",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50921",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/gendron-marie-belle-19293/index.html",
+        "contact": {
+          "email": "Marie-Belle.Gendron.CHAT@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-699-4136",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.119\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "233, boulevard Saint-Jean-Baptiste\nBureau 98\nChâteauguay (Quebec) J6K 3C3\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Laporte": {
+      "name": "Laporte",
+      "mna": {
+        "name": "Isabelle Poulet",
+        "party": "Independent",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50995",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/poulet-isabelle-19311/index.html",
+        "contact": {
+          "email": "Isabelle.Poulet.LAPO@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-672-1885",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.89\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "2499, rue Saint-Georges, local 200\nLeMoyne (Quebec) J4R 2T4\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Côte-du-Sud": {
+      "name": "Côte-du-Sud",
+      "mna": {
+        "name": "Mathieu Rivest",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50933",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/rivest-mathieu-19299/index.html",
+        "contact": {
+          "email": "Mathieu.Rivest.CDS@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "418-234-1893",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.25\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "Édifice Amable-Bélanger\n6, rue Saint-Jean-Baptiste Est\nBureau 206\nMontmagny (Quebec) G5V 1J7\nToll-free: 1-866-774-1893\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vimont": {
+      "name": "Vimont",
+      "mna": {
+        "name": "Valérie Schmaltz",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51125",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/schmaltz-valerie-19259/index.html",
+        "contact": {
+          "email": "Valerie.Schmaltz.VIMO@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-628-9269",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n1 er étage, Bureau 1.78\nG1A 1A3\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "4650, boulevard des Laurentides\nBureau 415\nLaval (Quebec) H7K 2J4\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Bourassa-Sauvé": {
+      "name": "Bourassa-Sauvé",
+      "mna": {
+        "name": "Madwa-Nika Cadet",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50901",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/cadet-madwa-nika-19261/index.html",
+        "contact": {
+          "email": "Madwa-Nika.Cadet.BOSA@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "514-328-6006",
+          "fax": "514-221-4423",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.53\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "5879, boulevard Henri-Bourassa Est\nBureau 305\nMontréal-Nord (Quebec) H1G 2V1\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "La Pinière": {
+      "name": "La Pinière",
+      "mna": {
+        "name": "Linda Caron",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50985",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/caron-linda-19313/index.html",
+        "contact": {
+          "email": "Linda.Caron.LAPI@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-678-0611",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.111\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "6300, avenue Auteuil\nbureau 425\nBrossard (Quebec) J4Z 3P2\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mille-Îles": {
+      "name": "Mille-Îles",
+      "mna": {
+        "name": "Virginie Dufour",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51031",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/dufour-virginie-19287/index.html",
+        "contact": {
+          "email": "Virginie.Dufour.MIIL@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-661-3595",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.41\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "2840, boulevard Saint-Martin Est\nBureau 101\nLaval (Quebec) H7E 5A1\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Robert-Baldwin": {
+      "name": "Robert-Baldwin",
+      "mna": {
+        "name": "Brigitte B. Garceau",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51071",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/garceau-brigitte-b-19271/index.html",
+        "contact": {
+          "email": "Brigitte.Garceau.ROBA@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "514-684-9000",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.93\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "3883, boulevard Saint-Jean\n5e étage, Bureau 502\nDollard-des-Ormeaux (Quebec) H9G 3B9\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Chomedey": {
+      "name": "Chomedey",
+      "mna": {
+        "name": "Sona Lakhoyan Olivier",
+        "party": "Independent",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50929",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/lakhoyan-olivier-sona-19295/index.html",
+        "contact": {
+          "email": "Sona.LakhoyanOlivier.CHOM@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-686-0166",
+          "fax": "450-686-7153",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.95\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "4599, boulevard Samson\nBureau 201\nLaval (Quebec) H7W 2H2\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Acadie": {
+      "name": "Acadie",
+      "mna": {
+        "name": "André Albert Morin",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50875",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/morin-andre-albert-19253/index.html",
+        "contact": {
+          "email": "Andre-A.Morin.ACAD@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "514-337-4278",
+          "fax": "866-769-8062",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.101\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "1600, boulevard Henri-Bourassa Ouest\nBureau 540\nMontréal (Quebec) H3M 3E2\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "D’Arcy-McGee": {
+      "name": "D’Arcy-McGee",
+      "mna": {
+        "name": "Elisabeth Prass",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50935",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/prass-elisabeth-19301/index.html",
+        "contact": {
+          "email": "Elisabeth.Prass.DMG@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "514-488-7028",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.53\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "5800, boulevard Cavendish\nBureau 403\nCôte-Saint-Luc (Quebec) H4W 2T5\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Verdun": {
+      "name": "Verdun",
+      "mna": {
+        "name": "Alejandra Zaga Mendez",
+        "party": "Québec solidaire",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51129",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/zaga-mendez-alejandra-19263/index.html",
+        "contact": {
+          "email": "Alejandra.ZagaMendez.VERD@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "514-766-7503",
+          "fax": "",
+          "parliamentOffice": "Cabinet de la whip du deuxième groupe d'opposition\nHôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.127\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "4110, rue Wellington\nBureau 301\nVerdun (Quebec) H4G 1V7\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saint-Henri–Sainte-Anne": {
+      "name": "Saint-Henri–Sainte-Anne",
+      "mna": {
+        "name": "Guillaume Cliche-Rivard",
+        "party": "Québec solidaire",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_53369",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/cliche-rivard-guillaume-19593/index.html",
+        "contact": {
+          "email": "Guillaume.Cliche-Rivard.SHSA@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "514-933-8796",
+          "fax": "514-933-4986",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.147\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "3269, rue Saint-Jacques\nMontréal (Quebec) H4C 1G8\nThis office has physical barriers for people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Camille-Laurin": {
+      "name": "Camille-Laurin",
+      "mna": {
+        "name": "Paul St-Pierre Plamondon",
+        "party": "Parti québécois",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50905",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/st-pierre-plamondon-paul-19289/index.html",
+        "contact": {
+          "email": "chef.pspp@assnat.qc.ca",
+          "phone": "418-644-9318",
+          "constituencyPhone": "514-251-8126",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.78\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "8695, rue Hochelaga\nBureau 202-E\nMontréal (Quebec) H1L 6J5\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Jean-Talon": {
+      "name": "Jean-Talon",
+      "mna": {
+        "name": "Pascal Paradis",
+        "party": "Parti québécois",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_56651",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/paradis-pascal-19999/index.html",
+        "contact": {
+          "email": "Pascal.Paradis.JETA@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "418-682-8167",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.73\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "3175, chemin des Quatre-Bourgeois\nBureau 150\nQuébec (Quebec) G1W 2K7\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Maurice-Richard": {
+      "name": "Maurice-Richard",
+      "mna": {
+        "name": "Haroun Bouazzi",
+        "party": "Québec solidaire",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51023",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/bouazzi-haroun-19305/index.html",
+        "contact": {
+          "email": "Haroun.Bouazzi.MAUR@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "514-387-6314",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.117\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "1421, rue Fleury Est\nMontréal (Quebec) H2C 1R9\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Îles-de-la-Madeleine": {
+      "name": "Îles-de-la-Madeleine",
+      "mna": {
+        "name": "Joël Arseneau",
+        "party": "Parti québécois",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31125",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/arseneau-joel-17947/index.html",
+        "contact": {
+          "email": "Joel.Arseneau.IDLM@assnat.qc.ca",
+          "phone": "581-628-1808",
+          "constituencyPhone": "418-986-4140",
+          "fax": "418-986-2577",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.53\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "625, chemin Principal\nCap-aux-Meules (Quebec) G4T 1G3\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Terrebonne": {
+      "name": "Terrebonne",
+      "mna": {
+        "name": "Catherine Gentilcore",
+        "party": "Parti québécois",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_66447",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/gentilcore-catherine-20131/index.html",
+        "contact": {
+          "email": "Catherine.Gentilcore.TERR@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-964-3553",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.69\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "3455, boulevard de la Pinière\nlocal 101\nTerrebonne (Quebec) J6X 0A1\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Rimouski": {
+      "name": "Rimouski",
+      "mna": {
+        "name": "Maïté Blanchette Vézina",
+        "party": "Parti conservateur du Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51067",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/blanchette-vezina-maite-19275/index.html",
+        "contact": {
+          "email": "Maite.BlanchetteVezina.RIMO@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "418-722-9787",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.86\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "395, boulevard Jessop\nBureau 103\nRimouski (Quebec) G5L 1M9\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Gaspé": {
+      "name": "Gaspé",
+      "mna": {
+        "name": "Stéphane Sainte-Croix",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50947",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/sainte-croix-stephane-19319/index.html",
+        "contact": {
+          "email": "Stephane.Sainte-Croix.GASP@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "418-368-5827",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.15\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "11, rue de la Cathédrale\nBureau 102\nGaspé (Quebec) G4X 2V9\nToll-free: 1-855-368-5827\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Taschereau": {
+      "name": "Taschereau",
+      "mna": {
+        "name": "Etienne Grandmont",
+        "party": "Québec solidaire",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51105",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/grandmont-etienne-19267/index.html",
+        "contact": {
+          "email": "Etienne.Grandmont.TASC@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "418-646-6090",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.135\nQuébec (Quebec) G1A 1A3",
+          "constituencyOffice": "830, rue Saint-Joseph Est\nBureau 403\nQuébec (Quebec) G1K 3C9\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Jean-Lesage": {
+      "name": "Jean-Lesage",
+      "mna": {
+        "name": "Sol Zanetti",
+        "party": "Québec solidaire",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31113",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/zanetti-sol-17955/index.html",
+        "contact": {
+          "email": "Sol.Zanetti.JELE@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "418-648-6221",
+          "fax": "418-425-8270",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.121\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "1750, avenue De Vitré\nBureau 303\nQuébec (Quebec) G1J 1Z6\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "L’Assomption": {
+      "name": "L’Assomption",
+      "mna": {
+        "name": "François Legault",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_187",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/legault-francois-4131/index.html",
+        "contact": {
+          "email": "Francois.Legault.ASSO@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-589-0226",
+          "fax": "450-589-3457",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.39\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "831, boulevard de l'Ange-Gardien Nord\nBureau 208\nL'Assomption (Quebec) J5W 1P5\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mont-Royal–Outremont": {
+      "name": "Mont-Royal–Outremont",
+      "mna": {
+        "name": "Michelle Setlakwe",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51039",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/setlakwe-michelle-19285/index.html",
+        "contact": {
+          "email": "Michelle.Setlakwe.MROU@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "514-341-1151",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.103\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "5151, rue de la Savane\nBureau 201\nMontréal (Quebec) H4P 1V1\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Charlesbourg": {
+      "name": "Charlesbourg",
+      "mna": {
+        "name": "Jonatan Julien",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31029",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/julien-jonatan-17855/index.html",
+        "contact": {
+          "email": "Jonatan.Julien.CHLB@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "418-644-9240",
+          "fax": "418-644-9266",
+          "parliamentOffice": "Hôtel du Parlement\nCoordonnées à venir-Charlesbourg\n1045, rue des Parlementaires\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "Carrefour Charlesbourg\n8500, boulevard Henri-Bourassa\nBureau 213\nQuébec (Quebec) G1G 5X1\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Louis-Hébert": {
+      "name": "Louis-Hébert",
+      "mna": {
+        "name": "Geneviève Guilbault",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_27143",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/guilbault-genevieve-16885/index.html",
+        "contact": {
+          "email": "Genevieve.Guilbault.LOHE@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "418-528-0483",
+          "fax": "418-644-1253",
+          "parliamentOffice": "Hôtel du Parlement\nCoordonnées à venir - Louis-Hébert\n1045, rue des Parlementaires\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "810, route Jean-Gauvin\nBureau 202\nQuébec (Quebec) G1X 0B6\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "René-Lévesque": {
+      "name": "René-Lévesque",
+      "mna": {
+        "name": "Yves Montigny",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51059",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/montigny-yves-19279/index.html",
+        "contact": {
+          "email": "Yves.Montigny.RELE@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "418-295-4001",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n1er étage, Bureau 1.103\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "852, rue Bossé\nBaie-Comeau (Quebec) G5C 1L6\nToll-free: 1-866-268-4077\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Montmorency": {
+      "name": "Montmorency",
+      "mna": {
+        "name": "Jean-François Simard",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_901",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/simard-jean-francois-5369/index.html",
+        "contact": {
+          "email": "ministre.emploi@mess.gouv.qc.ca",
+          "phone": "418-643-4810",
+          "constituencyPhone": "",
+          "fax": "",
+          "parliamentOffice": "Ministère de l'Emploi et de la Solidarité sociale\nÉdifice J.-A. Tardif\n425, rue Jacques-Parizeau\n4e étage\nQuébec (Quebec) G1R 4Z1",
+          "constituencyOffice": "Ministère de l'Emploi et de la Solidarité sociale\n655, rue Parthenais\n4e étage\nMontréal (Quebec) H2K 3R7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "LaFontaine": {
+      "name": "LaFontaine",
+      "mna": {
+        "name": "Marc Tanguay",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_4833",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/tanguay-marc-11789/index.html",
+        "contact": {
+          "email": "Marc.Tanguay-LAFO@assnat.qc.ca",
+          "phone": "418-643-1275",
+          "constituencyPhone": "514-648-1007",
+          "fax": "514-648-4559",
+          "parliamentOffice": "Cabinet du leader parlementaire de l'opposition officielle\nHôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.157\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "9094, boulevard Maurice-Duplessis\nMontréal (Quebec) H1E 7C2\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Nelligan": {
+      "name": "Nelligan",
+      "mna": {
+        "name": "Monsef Derraji",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31091",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/derraji-monsef-17923/index.html",
+        "contact": {
+          "email": "Monsef.Derraji.NELL@assnat.qc.ca",
+          "phone": "418-643-1275",
+          "constituencyPhone": "514-695-2440",
+          "fax": "514-695-8648",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.89\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "3535, boulevard Saint-Charles\nBureau 400\nKirkland (Quebec) H9H 5B9\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Westmount–Saint-Louis": {
+      "name": "Westmount–Saint-Louis",
+      "mna": {
+        "name": "Jennifer Maccarone",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31095",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/maccarone-jennifer-17911/index.html",
+        "contact": {
+          "email": "Jennifer.Maccarone.WSL@assnat.qc.ca",
+          "phone": "418-643-2301",
+          "constituencyPhone": "514-395-2929",
+          "fax": "514-395-2955",
+          "parliamentOffice": "Cabinet de la whip de l'opposition officielle\nHôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.131\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "1134, rue Sainte-Catherine Ouest\n8e étage, Bureau 801\nMontréal (Quebec) H3B 1H4\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Jeanne-Mance–Viger": {
+      "name": "Jeanne-Mance–Viger",
+      "mna": {
+        "name": "Filomena Rotiroti",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_811",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/rotiroti-filomena-1171/index.html",
+        "contact": {
+          "email": "Filomena.Rotiroti.JMV@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "514-326-0491",
+          "fax": "514-326-9837",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.113\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "5450, rue Jarry Est\nBureau 100\nSaint-Léonard (Quebec) H1P 1T9\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Arthabaska": {
+      "name": "Arthabaska",
+      "mna": {
+        "name": "Alex Boissonneault",
+        "party": "Parti québécois",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_67833",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/boissonneault-alex-20141/index.html",
+        "contact": {
+          "email": "Alex.Boissonneault.ARTH@assnat.qc.ca",
+          "phone": "819-758-7440",
+          "constituencyPhone": "819-758-7440",
+          "fax": "819-758-1583",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.75\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "21, rue de la Gare\nSuite 201\nVictoriaville (Quebec) G6P 3Z3\nToll-free: 1-800-463-1928\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Orford": {
+      "name": "Orford",
+      "mna": {
+        "name": "Gilles Bélanger",
+        "party": "Independent",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31077",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/belanger-gilles-17925/index.html",
+        "contact": {
+          "email": "Gilles.Belanger.ORFO@assnat.qc.ca",
+          "phone": "418-644-3944",
+          "constituencyPhone": "819-847-3911",
+          "fax": "819-847-4099",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.15\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "2389, rue Principale Ouest\nSuite 100\nMagog (Quebec) J1X 0J4\nToll-free: 1-855-547-3911\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Chicoutimi": {
+      "name": "Chicoutimi",
+      "mna": {
+        "name": "Marie-Karlynn Laflamme",
+        "party": "Parti québécois",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_71493",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/laflamme-marie-karlynn-20193/index.html",
+        "contact": {
+          "email": "Marie-Karlynn.Laflamme.CHIC@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "418-543-7797",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n3e étage, Bureau 3.42\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "110, boulevard Barrette\nChicoutimi (Quebec) G7H 7W8\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Sanguinet": {
+      "name": "Sanguinet",
+      "mna": {
+        "name": "Christine Fréchette",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51097",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/frechette-christine-19269/index.html",
+        "contact": {
+          "email": "Christine.Frechette.SAGU@assnat.qc.ca",
+          "phone": "418-643-5321",
+          "constituencyPhone": "514-873-3411",
+          "fax": "514-873-1763",
+          "parliamentOffice": "Conseil exécutif\nÉdifice Honoré-Mercier\n835, boulevard René-Lévesque Est\n3e étage\nQuébec (Quebec) G1A 1B4",
+          "constituencyOffice": "Conseil exécutif\n770, rue Sherbrooke Ouest\n4e étage\nMontréal (Quebec) H3A 1G1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vachon": {
+      "name": "Vachon",
+      "mna": {
+        "name": "Ian Lafrenière",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31021",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/lafreniere-ian-17903/index.html",
+        "contact": {
+          "email": "ministre@msp.gouv.qc.ca",
+          "phone": "418-643-2112",
+          "constituencyPhone": "514-873-2112",
+          "fax": "514-873-6597",
+          "parliamentOffice": "Ministère de la Sécurité intérieure\nTour des Laurentides\n2525, boulevard Laurier\n5e étage\nQuébec (Quebec) G1V 2L2",
+          "constituencyOffice": "Ministère de la Sécurité intérieure\n10, rue Saint-Antoine Est\nBureau 9.8\nMontréal (Quebec) H2Y 1A2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Groulx": {
+      "name": "Groulx",
+      "mna": {
+        "name": "Eric Girard",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31047",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/girard-eric-17929/index.html",
+        "contact": {
+          "email": "ministre@finances.gouv.qc.ca",
+          "phone": "418-643-5270",
+          "constituencyPhone": "514-873-5363",
+          "fax": "514-873-4728",
+          "parliamentOffice": "Ministère des Finances\n390, boulevard Charest Est\nQuébec (Quebec) G1K 3H4",
+          "constituencyOffice": "Ministère des Finances\n380, rue Saint-Antoine Ouest\n5e étage\nMontréal (Quebec) H2Y 3X7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Champlain": {
+      "name": "Champlain",
+      "mna": {
+        "name": "Sonia LeBel",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31017",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/lebel-sonia-17847/index.html",
+        "contact": {
+          "email": "ministre@education.gouv.qc.ca",
+          "phone": "418-644-0664",
+          "constituencyPhone": "514-873-4792",
+          "fax": "514-873-1082",
+          "parliamentOffice": "Ministère de l'Éducation\nÉdifice Marie-Guyart\n1035, rue De La Chevrotière\n16e étage\nQuébec (Quebec) G1R 5A5",
+          "constituencyOffice": "Ministère de l'Éducation\n600, rue Fullum\n9e étage\nMontréal (Quebec) H2K 4L1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Lévis": {
+      "name": "Lévis",
+      "mna": {
+        "name": "Bernard Drainville",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_753",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/drainville-bernard-209/index.html",
+        "contact": {
+          "email": "ministre@economie.gouv.qc.ca",
+          "phone": "418-691-5650",
+          "constituencyPhone": "514-499-2552",
+          "fax": "514-873-1788",
+          "parliamentOffice": "Ministère de l’Économie, de l’Innovation et de l’Énergie\n710, place D'Youville\n6e étage\nQuébec (Quebec) G1R 4Y4",
+          "constituencyOffice": "Ministère de l’Économie, de l’Innovation et de l’Énergie\n380, rue Saint-Antoine Ouest\n5e étage\nMontréal (Quebec) H2Y 3X4",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Prévost": {
+      "name": "Prévost",
+      "mna": {
+        "name": "Sonia Bélanger",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51057",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/belanger-sonia-19281/index.html",
+        "contact": {
+          "email": "ministre@msss.gouv.qc.ca",
+          "phone": "418-266-7171",
+          "constituencyPhone": "514-873-3700",
+          "fax": "",
+          "parliamentOffice": "Ministère de la Santé et des Services sociaux\n930, chemin Sainte-Foy\n6e étage\nQuébec (Quebec) G1S 2L4",
+          "constituencyOffice": "Ministère de la Santé et des Services sociaux\nCentre de commerce mondial de Montréal\n393, rue Saint-Jacques\n4e étage, suite 400\nMontréal (Quebec) H2Y 1N9",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Borduas": {
+      "name": "Borduas",
+      "mna": {
+        "name": "Simon Jolin-Barrette",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_7835",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/jolin-barrette-simon-15359/index.html",
+        "contact": {
+          "email": "ministre@justice.gouv.qc.ca",
+          "phone": "418-643-4210",
+          "constituencyPhone": "450-464-5505",
+          "fax": "450-464-4335",
+          "parliamentOffice": "Ministère de la Justice\nÉdifice Louis-Philippe-Pigeon\n1200, route de l'Église\n9e étage\nQuébec (Quebec) G1V 4M1",
+          "constituencyOffice": "888, rue Laurier\nBeloeil (Quebec) J3G 4K7\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Papineau": {
+      "name": "Papineau",
+      "mna": {
+        "name": "Mathieu Lacombe",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_45081",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/lacombe-mathieu-17927/index.html",
+        "contact": {
+          "email": "ministre@mcc.gouv.qc.ca",
+          "phone": "418-380-2310",
+          "constituencyPhone": "514-873-2137",
+          "fax": "514-873-0980",
+          "parliamentOffice": "Ministère de la Culture et des Communications\nÉdifice Guy-Frégault\n225, Grande Allée Est, bloc A\n1er étage\nQuébec (Quebec) G1R 5G5",
+          "constituencyOffice": "Ministère de la Culture et des Communications\n1435, rue de Bleury\nBureau 800\nMontréal (Quebec) H3A 2H7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Trois-Rivières": {
+      "name": "Trois-Rivières",
+      "mna": {
+        "name": "Jean Boulet",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31073",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/boulet-jean-17899/index.html",
+        "contact": {
+          "email": "ministre@travail.gouv.qc.ca",
+          "phone": "367-777-3092",
+          "constituencyPhone": "367-777-3092",
+          "fax": "514-873-0635",
+          "parliamentOffice": "Ministère du Travail\n200, chemin Sainte-Foy\n6e étage\nQuébec (Quebec) G1R 5S1",
+          "constituencyOffice": "Ministère du Travail\n500, boulevard René-Lévesque Ouest\n7e étage\nMontréal (Quebec) H2Z 1W7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Repentigny": {
+      "name": "Repentigny",
+      "mna": {
+        "name": "Pascale Déry",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51061",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/dery-pascale-19277/index.html",
+        "contact": {
+          "email": "ministre@environnement.gouv.qc.ca",
+          "phone": "418-521-3911",
+          "constituencyPhone": "514-864-8500",
+          "fax": "514-864-8503",
+          "parliamentOffice": "Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs\nÉdifice Marie-Guyart\n675, boulevard René-Lévesque Est\n30e étage\nQuébec (Quebec) G1R 5V7",
+          "constituencyOffice": "Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs\n141, avenue du Président-Kennedy\n8e étage\nMontréal (Quebec) H2X 1Y4",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Chutes-de-la-Chaudière": {
+      "name": "Chutes-de-la-Chaudière",
+      "mna": {
+        "name": "Martine Biron",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50931",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/biron-martine-19297/index.html",
+        "contact": {
+          "email": "ministre_mes@mes.gouv.qc.ca",
+          "phone": "418-781-6500",
+          "constituencyPhone": "514-687-4093",
+          "fax": "",
+          "parliamentOffice": "Ministère de l'Enseignement supérieur\nCabinet de la ministre de l'Enseignement supérieur\n1035, rue de la Chevrotière\n16e étage\nQuébec (Quebec) G1R 5A5",
+          "constituencyOffice": "Ministère de l'Enseignement supérieur\n600, rue Fullum\n7e étage\nMontréal (Quebec) H2K 4L1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Beauce-Sud": {
+      "name": "Beauce-Sud",
+      "mna": {
+        "name": "Samuel Poulin",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31003",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/poulin-samuel-17831/index.html",
+        "contact": {
+          "email": "ministre@mam.gouv.qc.ca",
+          "phone": "418-691-2050",
+          "constituencyPhone": "",
+          "fax": "",
+          "parliamentOffice": "Ministère des Affaires municipales et de l'Habitation\nÉdifice Jean-Baptiste de la Salle\n10, rue Pierre-Olivier-Chauveau\nAile Chauveau\n4e étage\nQuébec (Quebec) G1R 4J3",
+          "constituencyOffice": "Ministère des Affaires municipales et de l'Habitation\nÉdifice Loto-Québec\n500, rue Sherbrooke Ouest\n9e étage, bureau 944\nMontréal (Quebec) H3A 3C6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Bonaventure": {
+      "name": "Bonaventure",
+      "mna": {
+        "name": "Catherine Blouin",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50897",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/blouin-catherine-19251/index.html",
+        "contact": {
+          "email": "ministre.famille@mfa.gouv.qc.ca",
+          "phone": "418-643-2181",
+          "constituencyPhone": "514-864-9230",
+          "fax": "",
+          "parliamentOffice": "Ministère de la Famille\n425, rue Jacques-Parizeau\n4e étage\nQuébec (Quebec) G1R 4Z1",
+          "constituencyOffice": "Ministère de la Famille\n600, rue Fullum\n7e étage\nMontréal (Quebec) H2K 4S7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Nicolet-Bécancour": {
+      "name": "Nicolet-Bécancour",
+      "mna": {
+        "name": "Donald Martel",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_4769",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/martel-donald-12165/index.html",
+        "contact": {
+          "email": "ministre@mapaq.gouv.qc.ca",
+          "phone": "418-380-2525",
+          "constituencyPhone": "819-233-3521",
+          "fax": "866-885-1926",
+          "parliamentOffice": "Ministère de l'Agriculture, des Pêcheries et de l'Alimentation\n200, chemin Sainte-Foy\n12e étage\nQuébec (Quebec) G1R 4X6",
+          "constituencyOffice": "625, avenue Godefroy\nBureau 202\nBécancour (Quebec) G9H 1S3\nToll-free: 1-855-333-3521\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Deux-Montagnes": {
+      "name": "Deux-Montagnes",
+      "mna": {
+        "name": "Benoit Charette",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_553",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/charette-benoit-195/index.html",
+        "contact": {
+          "email": "ministre@transports.gouv.qc.ca",
+          "phone": "418-643-6980",
+          "constituencyPhone": "514-873-3444",
+          "fax": "514-873-7886",
+          "parliamentOffice": "Ministère des Transports et de la Mobilité durable\nÉdifice de la Haute-Ville\n700, boulevard René-Lévesque Est\n29e étage\nQuébec (Quebec) G1R 5H1",
+          "constituencyOffice": "Ministère des Transports et de la Mobilité durable\n500, boulevard René-Lévesque Ouest\n16e étage\nCase postale 28\nMontréal (Quebec) H2Z 1W7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Rivière-du-Loup–Témiscouata": {
+      "name": "Rivière-du-Loup–Témiscouata",
+      "mna": {
+        "name": "Amélie Dionne",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51069",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/dionne-amelie-19273/index.html",
+        "contact": {
+          "email": "ministre@tourisme.gouv.qc.ca",
+          "phone": "418-528-8063",
+          "constituencyPhone": "514-864-3419",
+          "fax": "514-864-6988",
+          "parliamentOffice": "Ministère du Tourisme\n900, boulevard René-Lévesque Est\nBureau 400\nQuébec (Quebec) G1R 2B5",
+          "constituencyOffice": "Ministère du Tourisme\n159, rue Saint-Antoine Ouest\n9e étage\nMontréal (Quebec) H2Z 1H2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Pointe-aux-Trembles": {
+      "name": "Pointe-aux-Trembles",
+      "mna": {
+        "name": "Chantal Rouleau",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_30993",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/rouleau-chantal-17931/index.html",
+        "contact": {
+          "email": "ministre.ssac@mess.gouv.qc.ca",
+          "phone": "418-643-4810",
+          "constituencyPhone": "",
+          "fax": "",
+          "parliamentOffice": "Ministère de l'Emploi et de la Solidarité sociale\nÉdifice J.-A. Tardif\n425, rue Jacques-Parizeau\n4e étage\nQuébec (Quebec) G1R 4Z1",
+          "constituencyOffice": "Ministère de l'Emploi et de la Solidarité sociale\nTour de la Place-Victoria\n800, rue du Square-Victoria\n28e étage\nMontréal (Quebec) H4Z 1B7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Anjou–Louis-Riel": {
+      "name": "Anjou–Louis-Riel",
+      "mna": {
+        "name": "Karine Boivin Roy",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50877",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/boivin-roy-karine-19255/index.html",
+        "contact": {
+          "email": "ministre@habitation.gouv.qc.ca",
+          "phone": "418-646-8459",
+          "constituencyPhone": "",
+          "fax": "",
+          "parliamentOffice": "Ministère des Affaires municipales et de l'Habitation\nÉdifice Marie-Guyart\n1054, rue Louis-Alexandre-Taschereau\nAile Jacques-Parizeau\n3e étage\nQuébec (Quebec) G1R 5E7",
+          "constituencyOffice": "Ministère des Affaires municipales et de l'Habitation\nÉdifice Loto-Québec\n500, rue Sherbrooke Ouest\n9e étage\nMontréal (Quebec) H3A 3C6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Charlevoix–Côte-de-Beaupré": {
+      "name": "Charlevoix–Côte-de-Beaupré",
+      "mna": {
+        "name": "Kariane Bourassa",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50919",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/bourassa-kariane-19291/index.html",
+        "contact": {
+          "email": "ministre.responsable@education.gouv.qc.ca",
+          "phone": "418-266-3255",
+          "constituencyPhone": "514-787-3581",
+          "fax": "514-873-1082",
+          "parliamentOffice": "Ministère de l'Éducation\n1035, rue De la Chevrotière\n16e étage\nQuébec (Quebec) G1R 5A5",
+          "constituencyOffice": "Ministère de l'Éducation\n600, rue Fullum\n9e étage\nMontréal (Quebec) H2K 4L1",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Chapleau": {
+      "name": "Chapleau",
+      "mna": {
+        "name": "Mathieu Lévesque",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31009",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/levesque-mathieu-17851/index.html",
+        "contact": {
+          "email": "Mathieu.Levesque.CHAP@assnat.qc.ca",
+          "phone": "418-691-2015",
+          "constituencyPhone": "",
+          "fax": "",
+          "parliamentOffice": "Ministère des Affaires municipales et de l’Habitation\nÉdifice Jean-Baptiste-De La Salle\n10, rue Pierre-Olivier-Chauveau\nAile Chauveau\n4e étage\nQuébec (Quebec) G1R 4J3",
+          "constituencyOffice": "Ministère des Affaires municipales et de l’Habitation\nÉdifice Loto-Québec\n500, rue Sherbooke Ouest\n17e étage, bureau 944\nMontréal (Quebec) H3A 3C6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Lac-Saint-Jean": {
+      "name": "Lac-Saint-Jean",
+      "mna": {
+        "name": "Eric Girard",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31043",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/girard-eric-17957/index.html",
+        "contact": {
+          "email": "ministre.der@economie.gouv.qc.ca",
+          "phone": "418-691-5650",
+          "constituencyPhone": "514-499-2552",
+          "fax": "514-873-1788",
+          "parliamentOffice": "Ministère de l’Économie, de l’Innovation et de l’Énergie\n710, place D'Youville\n6e étage\nQuébec (Quebec) G1R 4Y4",
+          "constituencyOffice": "Ministère de l’Économie, de l’Innovation et de l’Énergie\n380, rue Saint-Antoine Ouest\n5e étage\nMontréal (Quebec) H2Y 3X4",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Rouyn-Noranda–Témiscamingue": {
+      "name": "Rouyn-Noranda–Témiscamingue",
+      "mna": {
+        "name": "Daniel Bernard",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51079",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/bernard-daniel-13/index.html",
+        "contact": {
+          "email": "ministre.de@economie.gouv.qc.ca",
+          "phone": "418-691-5650",
+          "constituencyPhone": "514-499-2552",
+          "fax": "514-873-1788",
+          "parliamentOffice": "Ministère de l’Économie, de l’Innovation et de l’Énergie\n710, place D'Youville\n6e étage\nQuébec (Quebec) G1R 4Y4",
+          "constituencyOffice": "Ministère de l’Économie, de l’Innovation et de l’Énergie\n380, rue Saint-Antoine Ouest\n5e étage\nMontréal (Quebec) H2Y 3X4",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Notre-Dame-de-Grâce": {
+      "name": "Notre-Dame-de-Grâce",
+      "mna": {
+        "name": "Désirée McGraw",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51045",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/mcgraw-desiree-19283/index.html",
+        "contact": {
+          "email": "Desiree.McGraw.NDG@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "514-489-7581",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.49\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "5890, avenue de Monkland\nBureau 406\nMontréal (Quebec) H4A 1G2\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Marguerite-Bourgeoys": {
+      "name": "Marguerite-Bourgeoys",
+      "mna": {
+        "name": "Frédéric Beauchemin",
+        "party": "Quebec Liberal Party",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_51011",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/beauchemin-frederic-19307/index.html",
+        "contact": {
+          "email": "Frederic.Beauchemin.MABO@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "514-368-1818",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2 e étage, Bureau 2.143\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "7655, boulevard Newman\nBureau 311\nLaSalle (Quebec) H8N 1X7\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Taillon": {
+      "name": "Taillon",
+      "mna": {
+        "name": "Lionel Carmant",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31067",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/carmant-lionel-17893/index.html",
+        "contact": {
+          "email": "ministre.responsable@msss.gouv.qc.ca",
+          "phone": "418-266-7171",
+          "constituencyPhone": "514-873-3700",
+          "fax": "",
+          "parliamentOffice": "Ministère de la Santé et des Services sociaux\n930, chemin Sainte-Foy\n6e étage\nQuébec (Quebec) G1S 2L4",
+          "constituencyOffice": "Ministère de la Santé et des Services sociaux\nCentre de commerce mondial de Montréal\n393, rue Saint-Jacques\n4e étage, suite 400\nMontréal (Quebec) H2Y 1N9",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Bertrand": {
+      "name": "Bertrand",
+      "mna": {
+        "name": "France-Élaine Duranceau",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50893",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/duranceau-france-elaine-19257/index.html",
+        "contact": {
+          "email": "cabinet@sct.gouv.qc.ca",
+          "phone": "418-643-5926",
+          "constituencyPhone": "",
+          "fax": "",
+          "parliamentOffice": "Secrétariat du Conseil du trésor\n875, Grande-Allée Est\n4e étage, secteur 100\nQuébec (Quebec) G1R 5R8",
+          "constituencyOffice": "Secrétariat du Conseil du trésor\n380, rue Saint-Antoine Ouest\nSuite 6110\nMontréal (Quebec) H2Y 3X7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Granby": {
+      "name": "Granby",
+      "mna": {
+        "name": "François Bonnardel",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_289",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/bonnardel-francois-11/index.html",
+        "contact": {
+          "email": "ministre@mifi.gouv.qc.ca",
+          "phone": "418-643-3804",
+          "constituencyPhone": "418-644-2128",
+          "fax": "",
+          "parliamentOffice": "Cabinet du leader parlementaire du gouvernement\nÉdifice Pamphile-Le May\n1035, rue des Parlementaires\n1er étage, Bureau 1.39\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "Ministère de l'Immigration, de la Francisation et de l'Intégration\n875, Grande-Allée Est\nSecteur 400, suite 4.404\nQuébec (Quebec) G1R 5R8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Duplessis": {
+      "name": "Duplessis",
+      "mna": {
+        "name": "Kateri Champagne Jourdain",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50943",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/champagne-jourdain-kateri-19303/index.html",
+        "contact": {
+          "email": "ministre@mrnf.gouv.qc.ca",
+          "phone": "418-643-7295",
+          "constituencyPhone": "418-968-5044",
+          "fax": "",
+          "parliamentOffice": "Ministère des Ressources naturelles et des Forêts\n5700, 4e Avenue Ouest\nQuébec (Quebec) G1H 6R1",
+          "constituencyOffice": "421, avenue Arnaud\nBureau 202\nSept-Îles (Quebec) G4R 3B3\nToll-free: 1-800-463-1644\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Chambly": {
+      "name": "Chambly",
+      "mna": {
+        "name": "Jean-François Roberge",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_7715",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/roberge-jean-francois-15361/index.html",
+        "contact": {
+          "email": "ministre@mlf.gouv.qc.ca",
+          "phone": "418-644-7600",
+          "constituencyPhone": "450-658-5452",
+          "fax": "450-658-4417",
+          "parliamentOffice": "Ministère de la Langue française\n875, Grande-Allée Est\n3e étage, secteur 500\nQuébec (Quebec) G1R 4Y8",
+          "constituencyOffice": "2028, avenue Bourgogne\nChambly (Quebec) J3L 1Z6\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Sainte-Rose": {
+      "name": "Sainte-Rose",
+      "mna": {
+        "name": "Christopher Skeete",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_30989",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/skeete-christopher-17873/index.html",
+        "contact": {
+          "email": "ministre@mri.gouv.qc.ca",
+          "phone": "418-649-2400",
+          "constituencyPhone": "514-864-4168",
+          "fax": "514-864-4746",
+          "parliamentOffice": "Ministère des Relations internationales et de la Francophonie\nÉdifice Hector-Fabre\n525, boulevard René-Lévesque Est\n4e étage\nQuébec (Quebec) G1R 5R9",
+          "constituencyOffice": "Ministère des Relations internationales et de la Francophonie\n380, rue Saint-Antoine Ouest\n4e étage\nMontréal (Quebec) H2Y 3X7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Roberval": {
+      "name": "Roberval",
+      "mna": {
+        "name": "Nancy Guillemette",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_32807",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/guillemette-nancy-18247/index.html",
+        "contact": {
+          "email": "Nancy.Guillemette.ROBE@assnat.qc.ca",
+          "phone": "418-266-1101 ext. 72107",
+          "constituencyPhone": "418-275-5050",
+          "fax": "418-275-5519",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.94\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "729, boulevard Saint-Joseph\nBureau 203\nRoberval (Quebec) G8H 2L4\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Bellechasse": {
+      "name": "Bellechasse",
+      "mna": {
+        "name": "Stéphanie Lachance",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31027",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/lachance-stephanie-17835/index.html",
+        "contact": {
+          "email": "Stephanie.Lachance.BELL@assnat.qc.ca",
+          "phone": "581-628-1781",
+          "constituencyPhone": "418-883-1343",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n1e étage, Bureau 1.127\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "572, route Bégin\nSaint-Anselme (Quebec) G0R 2N0\nToll-free: 1-866-504-3294\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Laviolette–Saint-Maurice": {
+      "name": "Laviolette–Saint-Maurice",
+      "mna": {
+        "name": "Marie-Louise Tardif",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_30985",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/tardif-marie-louise-18071/index.html",
+        "contact": {
+          "email": "Marie-Louise.Tardif.LASM@assnat.qc.ca",
+          "phone": "581-628-1818",
+          "constituencyPhone": "819-539-7292",
+          "fax": "819-539-8441",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.73\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "695, avenue de la Station\n3e étage, bureau 301\nShawinigan (Quebec) G9N 1V9\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Masson": {
+      "name": "Masson",
+      "mna": {
+        "name": "Mathieu Lemay",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_7781",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/lemay-mathieu-15403/index.html",
+        "contact": {
+          "email": "Mathieu.Lemay.MASS@assnat.qc.ca",
+          "phone": "418-643-5771",
+          "constituencyPhone": "450-966-0111",
+          "fax": "450-966-0115",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n1er étage, Bureau 1.53\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "3101, chemin Sainte-Marie\nBureau 108\nMascouche (Quebec) J7K 1P2\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Saint-François": {
+      "name": "Saint-François",
+      "mna": {
+        "name": "Geneviève Hébert",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31037",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/hebert-genevieve-17877/index.html",
+        "contact": {
+          "email": "Genevieve.Hebert.SAFR@assnat.qc.ca",
+          "phone": "819-565-3667",
+          "constituencyPhone": "819-565-3667",
+          "fax": "819-565-8779",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n1 er étage, Bureau 1.69\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "373, rue King Est\n2e étage, suite 203-B\nSherbrooke (Quebec) J1G 1B4\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Fabre": {
+      "name": "Fabre",
+      "mna": {
+        "name": "Alice Abou-Khalil",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50945",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/abou-khalil-alice-19315/index.html",
+        "contact": {
+          "email": "Alice.Abou-Khalil.FABR@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-689-5516",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.88\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "538, rue Principale\nLaval (Quebec) H7X 1C8\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Joliette": {
+      "name": "Joliette",
+      "mna": {
+        "name": "François St-Louis",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50977",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/st-louis-francois-19321/index.html",
+        "contact": {
+          "email": "Francois.St-Louis.JOLI@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-752-6929",
+          "fax": "450-752-6935",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.16\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "970, rue Saint-Louis\nJoliette (Quebec) J6E 3A4\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Hull": {
+      "name": "Hull",
+      "mna": {
+        "name": "Suzanne Tremblay",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50959",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/tremblay-suzanne-19323/index.html",
+        "contact": {
+          "email": "Suzanne.Tremblay.HULL@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "819-772-3000",
+          "fax": "819-772-3265",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n2e étage, Bureau 2.33\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "259, boulevard Saint-Joseph\nBureau 207\nGatineau (Quebec) J8Y 6T1\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Brome-Missisquoi": {
+      "name": "Brome-Missisquoi",
+      "mna": {
+        "name": "Isabelle Charest",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31063",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/charest-isabelle-17845/index.html",
+        "contact": {
+          "email": "Isabelle.Charest.BRMI@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-266-7410",
+          "fax": "866-782-9341",
+          "parliamentOffice": "Hôtel du Parlement\nCoordonnées à venir - Brome-Missisquoi\n1045, rue des Parlementaires\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "170, rue de Sherbrooke\nBureau 205\nCowansville (Quebec) J2K 3Y9\nToll-free: 1-833-257-7410\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Labelle": {
+      "name": "Labelle",
+      "mna": {
+        "name": "Chantale Jeannotte",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31031",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/jeannotte-chantale-17959/index.html",
+        "contact": {
+          "email": "Chantale.Jeannotte.LABE@assnat.qc.ca",
+          "phone": "418-528-1349",
+          "constituencyPhone": "819-429-5038",
+          "fax": "819-429-5331",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC 69\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "499, rue Charbonneau\nBureau 202\nMont-Tremblant (Quebec) J8E 3H4\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Berthier": {
+      "name": "Berthier",
+      "mna": {
+        "name": "Caroline Proulx",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31001",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/proulx-caroline-17837/index.html",
+        "contact": {
+          "email": "Caroline.Proulx.BERH@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-586-3171",
+          "fax": "450-586-2505",
+          "parliamentOffice": "Hôtel du Parlement\nCoordonnées à venir-Berthier\n1045, rue des Parlementaires\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "61, chemin de Lavaltrie\nLavaltrie (Quebec) J5T 2H4\nToll-free: 1-866-256-3898\nThis office has physical barriers for people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Ungava": {
+      "name": "Ungava",
+      "mna": {
+        "name": "Denis Lamothe",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31019",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/lamothe-denis-17901/index.html",
+        "contact": {
+          "email": "Denis.Lamothe.UNGA@assnat.qc.ca",
+          "phone": "418-644-1363",
+          "constituencyPhone": "418-748-6046",
+          "fax": "418-748-3255",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.38\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "462, 3e Rue\nBureau 12\nChibougamau (Quebec) G8P 1N7\nToll-free: 1-800-463-7122\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Lotbinière-Frontenac": {
+      "name": "Lotbinière-Frontenac",
+      "mna": {
+        "name": "Isabelle Lecours",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31015",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/lecours-isabelle-17945/index.html",
+        "contact": {
+          "email": "Isabelle.Lecours.LOFR@assnat.qc.ca",
+          "phone": "855-718-3444",
+          "constituencyPhone": "418-332-3444",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n1er étage, Bureau 1.59\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "81, rue Notre-Dame Ouest\nThetford Mines (Quebec) G6G 1J4\nToll-free: 1-855-718-3444\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Iberville": {
+      "name": "Iberville",
+      "mna": {
+        "name": "Audrey Bogemans",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50963",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/bogemans-audrey-19325/index.html",
+        "contact": {
+          "email": "Audrey.Bogemans.IBER@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-346-1123",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRez-de-chaussée, Bureau Rc.53\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "715, boulevard d'Iberville\nSuite 102\nSaint-Jean-sur-Richelieu (Quebec) J2X 4S7\nToll-free: 1-866-877-8522\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Rousseau": {
+      "name": "Rousseau",
+      "mna": {
+        "name": "Louis-Charles Thouin",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_30983",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/thouin-louis-charles-18073/index.html",
+        "contact": {
+          "email": "Louis-Charles.Thouin.ROUS@assnat.qc.ca",
+          "phone": "418-263-0688",
+          "constituencyPhone": "450-302-4610",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.95\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "461, rue du Parc\nSaint-Lin-Laurentides (Quebec) J5M 3A2\nToll-free: 1-800-889-4401\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "La Peltrie": {
+      "name": "La Peltrie",
+      "mna": {
+        "name": "Éric Caire",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_455",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/caire-eric-485/index.html",
+        "contact": {
+          "email": "Eric.Caire.LAPE@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "418-877-5260",
+          "fax": "418-877-6533",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\n1er étage, Bureau 1.103\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "5121, boulevard Chauveau Ouest\nBureau 201\nQuébec (Quebec) G2E 5A6\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Marie-Victorin": {
+      "name": "Marie-Victorin",
+      "mna": {
+        "name": "Shirley Dorismond",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_49645",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/dorismond-shirley-19063/index.html",
+        "contact": {
+          "email": "Shirley.Dorismond.MAVI@assnat.qc.ca",
+          "phone": "581-628-1028",
+          "constituencyPhone": "450-651-9365",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.65\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "550, chemin de Chambly\nBureau 010\nLongueuil (Quebec) J4H 3L8\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Soulanges": {
+      "name": "Soulanges",
+      "mna": {
+        "name": "Marilyne Picard",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_31005",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/picard-marilyne-17891/index.html",
+        "contact": {
+          "email": "Marilyne.Picard.SOUL@assnat.qc.ca",
+          "phone": "581-628-1859",
+          "constituencyPhone": "450-456-3816",
+          "fax": "450-456-3930",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.21\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "607, route 201\nSaint-Clet (Quebec) J0P 1S0\nToll-free: 1-866-268-3607\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Huntingdon": {
+      "name": "Huntingdon",
+      "mna": {
+        "name": "Carole Mallette",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50961",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/mallette-carole-19351/index.html",
+        "contact": {
+          "email": "Carole.Mallette.HUNT@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-427-2150",
+          "fax": "450-427-2154",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRC, Bureau RC.113\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "177, rue Saint-Joseph\nBureau 302\nSainte-Martine (Quebec) J0S 1V0\nToll-free: 1-866-540-9097\nPartially accessible to people with motor disabilities. Contact the staff for information on accommodation measures.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Laval-des-Rapides": {
+      "name": "Laval-des-Rapides",
+      "mna": {
+        "name": "Céline Haytayan",
+        "party": "Coalition avenir Québec",
+        "photo": "https://www.assnat.qc.ca/Media/Process.aspx?process=Original&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz&asset=ANQ.Vigie.Bll.Image_50999",
+        "profileUrl": "https://www.assnat.qc.ca/en/deputes/haytayan-celine-19309/index.html",
+        "contact": {
+          "email": "Celine.Haytayan.LDR@assnat.qc.ca",
+          "phone": "",
+          "constituencyPhone": "450-668-6077",
+          "fax": "",
+          "parliamentOffice": "Hôtel du Parlement\n1045, rue des Parlementaires\nRez-de-chaussée, Bureau RC.96\nQuébec (Quebec) G1A 1A4",
+          "constituencyOffice": "400, boulevard Saint-Martin Ouest\nBureau 309\nLaval (Quebec) H7M 3Y8\nAccessible to people with motor disabilities. Contact the staff for information on accommodations.",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    }
+  },
+  "parties": {
+    "Coalition avenir Québec": {
+      "color": "#1B95C5"
+    },
+    "Quebec Liberal Party": {
+      "color": "#D71920"
+    },
+    "Québec solidaire": {
+      "color": "#F0742A"
+    },
+    "Parti québécois": {
+      "color": "#005487"
+    },
+    "Independent": {
+      "color": "#808080"
+    },
+    "Parti conservateur du Québec": {
+      "color": "#003DA5"
+    }
+  }
+}

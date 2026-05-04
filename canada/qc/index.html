@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Québec – PoliMap</title>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/landing.css">
+</head>
+<body>
+  <header class="top-banner">
+    <div class="banner-container">
+      <a href="/" class="logo" style="text-decoration:none;">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </a>
+
+      <nav class="main-nav">
+        <!-- Province switcher -->
+        <div class="nav-province-wrap" id="province-wrap">
+          <button class="nav-province-btn" id="province-btn">
+            🇨🇦 Québec <span class="chevron">▾</span>
+          </button>
+          <div class="nav-province-dropdown">
+            <a class="province-drop-item" href="/canada/alberta/">Alberta</a>
+            <a class="province-drop-item" href="/canada/bc/">British Columbia</a>
+            <a class="province-drop-item" href="/canada/sask/">Saskatchewan</a>
+            <a class="province-drop-item" href="/canada/manitoba/">Manitoba</a>
+            <div class="province-drop-divider"></div>
+            <a class="province-drop-item" href="/canada/ontario/">Ontario</a>
+            <span class="province-drop-item current">Québec</span>
+            <div class="province-drop-divider"></div>
+            <a class="province-drop-item" href="/canada/">All provinces →</a>
+          </div>
+        </div>
+
+        <a class="nav-btn" href="/contribute.html">Contribute</a>
+        <a class="nav-btn" href="/donate.html">Donate</a>
+        <a class="nav-btn" href="https://polichan.org" target="_blank">Discussion</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="map"></div>
+
+  <!-- Bottom-left control stack -->
+  <div id="map-controls-stack">
+
+    <!-- Legend -->
+    <div id="legend" class="map-control legend-control">
+      <div class="control-header">Legend</div>
+      <div id="legend-parties"></div>
+    </div>
+
+    <!-- Layers -->
+    <div id="layer-toggle" class="map-control layers-control">
+      <div class="control-header">Layers</div>
+      <button class="layer-btn" data-layer="provincial">Provincial (MNAs)</button>
+      <button class="layer-btn active" data-layer="federal">Federal (MPs)</button>
+    </div>
+
+  </div>
+
+  <!-- Quebec disclaimer modal -->
+  <div class="about-overlay open" id="qc-disclaimer">
+    <div class="about-content" style="max-width:520px;">
+      <button id="qc-disclaimer-close" class="about-close" aria-label="Close">×</button>
+      <h2>Heads up</h2>
+      <p>Quebec is holding a provincial election in <strong>October 2026</strong>. The riding boundaries shown on the provincial layer are the <strong>new 2026 map</strong>, published in advance by Elections Quebec.</p>
+      <p>Because the ridings are being redrawn, some current MNAs won't appear in the correct riding until after the election. About 10 of 125 ridings are affected.</p>
+      <p>The federal layer is complete and up to date.</p>
+      <button id="qc-disclaimer-ok" style="margin-top:8px;padding:10px 28px;background:#1B95C5;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;font-weight:600;">Got it</button>
+    </div>
+  </div>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+
+  <script type="module">
+    import config from './config.js';
+    import { initMap } from '/shared/main.js';
+    initMap(config);
+  </script>
+
+  <script>
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+
+    const disclaimer = document.getElementById('qc-disclaimer');
+    function closeDisclaimer() { disclaimer.classList.remove('open'); }
+    document.getElementById('qc-disclaimer-close').addEventListener('click', closeDisclaimer);
+    document.getElementById('qc-disclaimer-ok').addEventListener('click', closeDisclaimer);
+
+    const wrap = document.getElementById('province-wrap');
+    const btn  = document.getElementById('province-btn');
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      wrap.classList.toggle('open');
+    });
+    document.addEventListener('click', () => wrap.classList.remove('open'));
+  </script>
+</body>
+</html>

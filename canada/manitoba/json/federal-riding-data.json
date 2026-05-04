@@ -1,4 +1,365 @@
 {
-  "parties": {},
-  "ridings": {}
+  "ridings": {
+    "Selkirk—Interlake—Eastman": {
+      "name": "Selkirk—Interlake—Eastman",
+      "mp": {
+        "name": "James Bezan",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BezanJames_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/james-bezan(25475)",
+        "contact": {
+          "email": "james.bezan@parl.gc.ca",
+          "phone": "613-992-2032",
+          "constituencyPhone": "204-785-6151",
+          "constituencyOffice": "Main office - Selkirk 1-228 Manitoba avenue Selkirk, Manitoba R1A 0Y5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Winnipeg South Centre": {
+      "name": "Winnipeg South Centre",
+      "mp": {
+        "name": "Ben Carr",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/CarrBen_lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/ben-carr(115744)",
+        "contact": {
+          "email": "ben.carr@parl.gc.ca",
+          "phone": "613-992-9475",
+          "constituencyPhone": "204-983-1355",
+          "constituencyOffice": "Main office - Winnipeg 102-611 Corydon avenue Winnipeg, Manitoba R3L 0P3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Churchill—Keewatinook Aski": {
+      "name": "Churchill—Keewatinook Aski",
+      "mp": {
+        "name": "Rebecca Chartrand",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ChartrandRebecca_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/rebecca-chartrand(89464)",
+        "contact": {
+          "email": "rebecca.chartrand@parl.gc.ca",
+          "phone": "613-992-3018",
+          "constituencyPhone": "204-282-0515",
+          "constituencyOffice": "Main office - Thompson 305-83 Churchill drive Thompson, Manitoba R8N 0L6",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kildonan—St. Paul": {
+      "name": "Kildonan—St. Paul",
+      "mp": {
+        "name": "Raquel Dancho",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DanchoRaquel_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/raquel-dancho(105521)",
+        "contact": {
+          "email": "Raquel.Dancho@parl.gc.ca",
+          "phone": "613-992-7148",
+          "constituencyPhone": "204-984-6322",
+          "constituencyOffice": "Main office - Winnipeg B-27 Red River Boulevard West Winnipeg, Manitoba R2V 4E2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Winnipeg South": {
+      "name": "Winnipeg South",
+      "mp": {
+        "name": "Terry Duguid",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DuguidTerry_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/terry-duguid(31119)",
+        "contact": {
+          "email": "terry.duguid@parl.gc.ca",
+          "phone": "613-995-7517",
+          "constituencyPhone": "204-984-6787",
+          "constituencyOffice": "Main office - Winnipeg 80-2855 Pembina Highway Winnipeg, Manitoba R3T 2H5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Winnipeg West": {
+      "name": "Winnipeg West",
+      "mp": {
+        "name": "Doug Eyolfson",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/EyolfsonDoug_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/doug-eyolfson(89027)",
+        "contact": {
+          "email": "doug.eyolfson@parl.gc.ca",
+          "phone": "613-995-5609",
+          "constituencyPhone": "204-480-5711",
+          "constituencyOffice": "Main office - Winnipeg D-3092 Portage avenue Winnipeg, Manitoba R3K 0Y2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Provencher": {
+      "name": "Provencher",
+      "mp": {
+        "name": "Ted Falk",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/FalkTed_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/ted-falk(84672)",
+        "contact": {
+          "email": "ted.falk@parl.gc.ca",
+          "phone": "613-992-3128",
+          "constituencyPhone": "204-326-9889",
+          "constituencyOffice": "Main office - Steinbach 9A-90 Brandt street Steinbach, Manitoba R5G 0T3",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Winnipeg Centre": {
+      "name": "Winnipeg Centre",
+      "mp": {
+        "name": "Leah Gazan",
+        "party": "NDP",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/GazanLeah_NDP.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/leah-gazan(87121)",
+        "contact": {
+          "email": "Leah.Gazan@parl.gc.ca",
+          "phone": "613-992-5308",
+          "constituencyPhone": "204-984-1675",
+          "constituencyOffice": "Main office - Winnipeg 892 Sargent avenue Winnipeg, Manitoba R3E 0C7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Brandon—Souris": {
+      "name": "Brandon—Souris",
+      "mp": {
+        "name": "Grant Jackson",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/JacksonGrant_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/grant-jackson(123287)",
+        "contact": {
+          "email": "grant.jackson@parl.gc.ca",
+          "phone": "613-995-9372",
+          "constituencyPhone": "204-726-7612",
+          "constituencyOffice": "Main office - Brandon 658B 10th street Brandon, Manitoba R7A 4G5\nSouris 86, 1st St. S Souris, Manitoba R0K 2C0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Winnipeg North": {
+      "name": "Winnipeg North",
+      "mp": {
+        "name": "Kevin Lamoureux",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LamoureuxKevin_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/kevin-lamoureux(30552)",
+        "contact": {
+          "email": "kevin.lamoureux@parl.gc.ca",
+          "phone": "613-996-6417",
+          "constituencyPhone": "204-984-1767",
+          "constituencyOffice": "Main office - Winnipeg 98 Mandalay drive Winnipeg, Manitoba R2P 1V8",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "St. Boniface—St. Vital": {
+      "name": "St. Boniface—St. Vital",
+      "mp": {
+        "name": "Ginette Lavack",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LavackGinette_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/ginette-lavack(123305)",
+        "contact": {
+          "email": "ginette.lavack@parl.gc.ca",
+          "phone": "613-995-0579",
+          "constituencyPhone": "204-220-7959",
+          "constituencyOffice": "Main office - Winnipeg 4-213 Saint Mary&#x27;s road Winnipeg, Manitoba R2H 1J2",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Portage—Lisgar": {
+      "name": "Portage—Lisgar",
+      "mp": {
+        "name": "Branden Leslie",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LeslieBranden_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/branden-leslie(108395)",
+        "contact": {
+          "email": "branden.leslie@parl.gc.ca",
+          "phone": "613-995-9511",
+          "constituencyPhone": "204-325-1540",
+          "constituencyOffice": "Main office - Winkler 2B-915 Navigator road Winkler, Manitoba R6W 0L7",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Riding Mountain": {
+      "name": "Riding Mountain",
+      "mp": {
+        "name": "Dan Mazier",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MazierDan_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/dan-mazier(3306)",
+        "contact": {
+          "email": "Dan.Mazier@parl.gc.ca",
+          "phone": "613-992-3176",
+          "constituencyPhone": "204-622-4659",
+          "constituencyOffice": "Main office - Dauphin 22C-1450 Main street South Dauphin, Manitoba R7N 3H4\nNeepawa 41 Main street East Neepawa, Manitoba R0J 1H0",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Elmwood—Transcona": {
+      "name": "Elmwood—Transcona",
+      "mp": {
+        "name": "Colin Reynolds",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ReynoldsColin_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/members/en/colin-reynolds(119991)",
+        "contact": {
+          "email": "colin.reynolds@parl.gc.ca",
+          "phone": "613-995-6339",
+          "constituencyPhone": "204-318-1515",
+          "constituencyOffice": "Main office - Winnipeg 207-1111 Munroe avenue Winnipeg, Manitoba R2K 3Z5",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    }
+  },
+  "parties": {
+    "Conservative": {
+      "color": "#003DA5"
+    },
+    "Liberal": {
+      "color": "#D71920"
+    },
+    "NDP": {
+      "color": "#F37021"
+    }
+  }
 }

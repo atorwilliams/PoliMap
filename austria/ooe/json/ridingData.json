@@ -1,0 +1,465 @@
+{
+  "ridings": {
+    "Braunau": {
+      "name": "Braunau",
+      "bezirk": {
+        "name": "Mag. Gerald Kronberger",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_BR/Foto BzHptm_rdax_178x217s.jpg",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_braunau.htm",
+        "contact": {
+          "email": "bh-br.post@ooe.gv.at",
+          "phone": "+43 77 22 803 0",
+          "address": "Hammersteinplatz 1",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_braunau.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Eferding": {
+      "name": "Eferding",
+      "bezirk": {
+        "name": "Mag. Christoph Schweitzer, MBA",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_GR/schweitzer_bhgref_land_liedl_rdax_145x217s.jpg",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_eferding.htm",
+        "contact": {
+          "email": "bh-gr-ef.post@ooe.gv.at",
+          "phone": "+43 7248 603 0",
+          "address": "",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_eferding.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Freistadt": {
+      "name": "Freistadt",
+      "bezirk": {
+        "name": "Mag. Dr. Andrea Wildberger, MA",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_FR/BH_Wildberger_Andrea_rdax_180x217s.jpg",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_freistadt.htm",
+        "contact": {
+          "email": "bh-fr.post@ooe.gv.at",
+          "phone": "+43 7942 702 0",
+          "address": "",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_freistadt.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Gmunden": {
+      "name": "Gmunden",
+      "bezirk": {
+        "name": "Ing. Mag. Alois Lanz, MBA",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_GM/BH_Mag_Alois_Lanz_rdax_185x217s.jpg",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_gmunden.htm",
+        "contact": {
+          "email": "bh-gm.post@ooe.gv.at",
+          "phone": "+43 7612 792 0",
+          "address": "",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_gmunden.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Grieskirchen": {
+      "name": "Grieskirchen",
+      "bezirk": {
+        "name": "Mag. Christoph Schweitzer, MBA",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_GR/schweitzer_bhgref_land_liedl_rdax_145x217s.jpg",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_grieskirchen.htm",
+        "contact": {
+          "email": "bh-gr-ef.post@ooe.gv.at",
+          "phone": "+43 7248 603 0",
+          "address": "",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_grieskirchen.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kirchdorf": {
+      "name": "Kirchdorf",
+      "bezirk": {
+        "name": "Mag. Elisabeth Leitner",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_KI/0L4A3243_rdax_145x217s.jpg",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_kirchdorf.htm",
+        "contact": {
+          "email": "bh-ki.post@ooe.gv.at",
+          "phone": "+43 7582 685 0",
+          "address": "Garnisonstraße 3",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_kirchdorf.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Linz-Land": {
+      "name": "Linz-Land",
+      "bezirk": {
+        "name": "Mag. Manfred Hageneder, PMM",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_LL/ZI6B7311_rdax_145x217s.JPG",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_linz_land.htm",
+        "contact": {
+          "email": "bh-ll.post@ooe.gv.at",
+          "phone": "+43 732 694 140",
+          "address": "Kärntnerstraße 16",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_linz_land.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Perg": {
+      "name": "Perg",
+      "bezirk": {
+        "name": "Ing. Mag. Werner Kreisl",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_PE/Foto BH_rdax_165x217s.jpg",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_perg.htm",
+        "contact": {
+          "email": "bh-pe.post@ooe.gv.at",
+          "phone": "+43 7262 551 0",
+          "address": "Dirnbergerstraße 11",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_perg.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Ried": {
+      "name": "Ried",
+      "bezirk": {
+        "name": "Mag. Yvonne Weidenholzer",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_RI/Foto BHF_rdax_326x217s.jpg",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_ried.htm",
+        "contact": {
+          "email": "bh-ri.post@ooe.gv.at",
+          "phone": "+43 7752 912 0",
+          "address": "Parkgasse 1",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_ried.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Rohrbach": {
+      "name": "Rohrbach",
+      "bezirk": {
+        "name": "Mag. Valentin Pühringer",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_RO/bhro_bezirkshauptmann_puehringer_rdax_175x217.png",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_rohrbach.htm",
+        "contact": {
+          "email": "bh-ro.post@ooe.gv.at",
+          "phone": "+43 7289 88 510",
+          "address": "",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_rohrbach.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Schärding": {
+      "name": "Schärding",
+      "bezirk": {
+        "name": "Mag. Dr. Florian Kolmhofer LL.B.",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_SD/PorträtBHDr.Kolmhofer neu_rdax_162x217s.jpg",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_schaerding.htm",
+        "contact": {
+          "email": "bh-sd.post@ooe.gv.at",
+          "phone": "+43 7712 31 050",
+          "address": "Ludwig-Pfliegl-Gasse 11-13",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_schaerding.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Steyr-Land": {
+      "name": "Steyr-Land",
+      "bezirk": {
+        "name": "Dr. Barbara Spöck",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_SE/Barbara Spöck2025_rdax_145x217s.jpg",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_steyr_land.htm",
+        "contact": {
+          "email": "bh-se.post@ooe.gv.at",
+          "phone": "+43 7252 523 610",
+          "address": "Spitalskystraße 10a",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_steyr_land.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Urfahr-Umgebung": {
+      "name": "Urfahr-Umgebung",
+      "bezirk": {
+        "name": "Dr. Ferdinand Watschinger",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_UU/bh_watschinger_rdax_165x217p.jpg",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_urfahr_umgebung.htm",
+        "contact": {
+          "email": "bh-uu.post@ooe.gv.at",
+          "phone": "+43 732 73 13 010",
+          "address": "Peuerbachstraße 26",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_urfahr_umgebung.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vöcklabruck": {
+      "name": "Vöcklabruck",
+      "bezirk": {
+        "name": "Dr. Johannes Beer",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_VB/_G6I4203_rdax_145x217s.jpg",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_voecklabruck.htm",
+        "contact": {
+          "email": "bh-vb.post@ooe.gv.at",
+          "phone": "+43 7672 702 0",
+          "address": "Sportplatzstraße 1-3",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_voecklabruck.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Wels-Land": {
+      "name": "Wels-Land",
+      "bezirk": {
+        "name": "MMag. Elisabeth Schwetz",
+        "party": "Bezirkshauptmannschaft",
+        "role": "Bezirkshauptmann/frau",
+        "photo": "https://www.land-oberoesterreich.gv.at/Bilder/BH_WL/Pressebild_Elisabeth_Schwetz_Foto Fayer_rdax_157x217s.jpg",
+        "profileUrl": "https://www.land-oberoesterreich.gv.at/bh_wels_land.htm",
+        "contact": {
+          "email": "bh-wl.post@ooe.gv.at",
+          "phone": "+43 7672 702 0",
+          "address": "Sportplatzstraße 1-3",
+          "website": "https://www.land-oberoesterreich.gv.at/bh_wels_land.htm",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Stadt Linz": {
+      "name": "Stadt Linz",
+      "bezirk": {
+        "name": "Dietmar Prammer",
+        "party": "SPÖ",
+        "role": "Bürgermeister",
+        "photo": "https://www.linz.at/images/OGG_politik_gemeinderat.jpg",
+        "profileUrl": "https://www.linz.at/politik/6224.php",
+        "contact": {
+          "email": "info@mag.linz.at",
+          "phone": "00437327070",
+          "address": "",
+          "website": "https://www.linz.at",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Stadt Steyr": {
+      "name": "Stadt Steyr",
+      "bezirk": {
+        "name": "Ing. Markus Vogl",
+        "party": "SPÖ",
+        "role": "Bürgermeister",
+        "photo": "https://www.steyr.at/system/web/GetImage.ashx?fileid=3615863&amp;mode=T&amp;width=1200&amp;height=630&amp;cropping=CENTER&amp;cts=1715949846",
+        "profileUrl": "https://www.steyr.at/Stadtinfo/Politik/Buergermeister",
+        "contact": {
+          "email": "bgm-buero@steyr.gv.at",
+          "phone": "00000414979333",
+          "address": "",
+          "website": "https://www.steyr.at",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Stadt Wels": {
+      "name": "Stadt Wels",
+      "bezirk": {
+        "name": "Mag. Dr. Andreas Rabl",
+        "party": "FPÖ",
+        "role": "Bürgermeister",
+        "photo": "",
+        "profileUrl": "https://www.wels.gv.at/politik/stadtsenat/mitglieder-des-stadtsenates/buergermeister-dr-andreas-rabl/",
+        "contact": {
+          "email": "bdb@wels.gv.at",
+          "phone": "+4372422353000",
+          "address": "",
+          "website": "https://www.wels.gv.at",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    }
+  },
+  "parties": {
+    "Bezirkshauptmannschaft": {
+      "color": "#7A8FA6"
+    },
+    "SPÖ": {
+      "color": "#E2001A"
+    },
+    "FPÖ": {
+      "color": "#003DA5"
+    }
+  }
+}

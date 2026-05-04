@@ -1,0 +1,2973 @@
+{
+  "ridings": {
+    "Bay of Quinte": {
+      "name": "Bay of Quinte",
+      "mpp": {
+        "name": "Tyler Allsopp",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/tyler-allsopp",
+        "contact": {
+          "email": "tyler.allsopp@pc.ola.org",
+          "phone": "613-962-1144",
+          "phone2": "613-969-6381",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mississauga—Malton": {
+      "name": "Mississauga—Malton",
+      "mpp": {
+        "name": "Deepak Anand",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Deepak-Anand.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/deepak-anand",
+        "contact": {
+          "email": "deepak.anandco@pc.ola.org",
+          "phone": "905-696-0367",
+          "phone2": "905-696-7545",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "London—Fanshawe": {
+      "name": "London—Fanshawe",
+      "mpp": {
+        "name": "Teresa J. Armstrong",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/teresa_armstrong.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/teresa-j-armstrong",
+        "contact": {
+          "email": "tarmstrong-co@ndp.on.ca",
+          "phone": "519-668-1104",
+          "phone2": "519-668-1941",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Scarborough—Agincourt": {
+      "name": "Scarborough—Agincourt",
+      "mpp": {
+        "name": "Aris Babikian",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/aris_babikian_.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/aris-babikian",
+        "contact": {
+          "email": "aris.babikian@pc.ola.org",
+          "phone": "416-297-6568",
+          "phone2": "416-297-4962",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Sarnia—Lambton": {
+      "name": "Sarnia—Lambton",
+      "mpp": {
+        "name": "Robert Bailey",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/bob_bailey.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/robert-bailey",
+        "contact": {
+          "email": "bob.bailey@pc.ola.org",
+          "phone": "519-337-0051",
+          "phone2": "519-337-3246",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "University—Rosedale": {
+      "name": "University—Rosedale",
+      "mpp": {
+        "name": "Jessica Bell",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/jessica_bell.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/jessica-bell",
+        "contact": {
+          "email": "jbell-qp@ndp.on.ca",
+          "phone": "416-535-7206",
+          "phone2": "416-325-1620",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Pickering—Uxbridge": {
+      "name": "Pickering—Uxbridge",
+      "mpp": {
+        "name": "Peter Bethlenfalvy",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/peter_bethlenfalvy.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/peter-bethlenfalvy",
+        "contact": {
+          "email": "peter.bethlenfalvy@pc.ola.org",
+          "phone": "905-509-0336",
+          "phone2": "905-509-0334",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Orléans": {
+      "name": "Orléans",
+      "mpp": {
+        "name": "Stephen Blais",
+        "party": "Liberal",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Stephen_Blais.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/stephen-blais",
+        "contact": {
+          "email": "sblais.mpp.co@liberal.ola.org",
+          "phone": "613-834-8679",
+          "phone2": "613-834-7647",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Brantford—Brant": {
+      "name": "Brantford—Brant",
+      "mpp": {
+        "name": "Will Bouma",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/will_bouma.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/will-bouma",
+        "contact": {
+          "email": "will.bouma@pc.ola.org",
+          "phone": "519-759-0361",
+          "phone2": "416-325-0169",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mushkegowuk—James Bay": {
+      "name": "Mushkegowuk—James Bay",
+      "mpp": {
+        "name": "Guy Bourgouin",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Guy_Bourgouin.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/guy-bourgouin",
+        "contact": {
+          "email": "",
+          "phone": "705-372-6400",
+          "phone2": "705-372-6440",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Don Valley West": {
+      "name": "Don Valley West",
+      "mpp": {
+        "name": "Stephanie Bowman",
+        "party": "Liberal",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Stephanie_Bowman_0.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/stephanie-bowman",
+        "contact": {
+          "email": "sbowman.mpp.co@liberal.ola.org",
+          "phone": "416-425-6777",
+          "phone2": "416-425-0350",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Haldimand—Norfolk": {
+      "name": "Haldimand—Norfolk",
+      "mpp": {
+        "name": "Bobbi Ann Brady",
+        "party": "Independent",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Bobbi_Ann_Brady.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/bobbi-ann-brady",
+        "contact": {
+          "email": "babrady-co@ola.org",
+          "phone": "519-428-0446",
+          "phone2": "519-428-0835",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Hastings—Lennox and Addington": {
+      "name": "Hastings—Lennox and Addington",
+      "mpp": {
+        "name": "Ric Bresee",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/ric-bresee",
+        "contact": {
+          "email": "ric.bresee@pc.ola.org",
+          "phone": "613-473-1112",
+          "phone2": "613-473-1397",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Niagara Centre": {
+      "name": "Niagara Centre",
+      "mpp": {
+        "name": "Jeff Burch",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jeff_Burch.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/jeff-burch",
+        "contact": {
+          "email": "jburch-qp@ndp.on.ca",
+          "phone": "905-732-6884",
+          "phone2": "905-732-9782",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Markham—Stouffville": {
+      "name": "Markham—Stouffville",
+      "mpp": {
+        "name": "Paul Calandra",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/paul_calandra_v2.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/paul-calandra",
+        "contact": {
+          "email": "paul.calandra@pc.ola.org",
+          "phone": "905-642-2588",
+          "phone2": "905-642-1618",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Ajax": {
+      "name": "Ajax",
+      "mpp": {
+        "name": "Rob Cerjanec",
+        "party": "Liberal",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Rob-Cerjanec.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/rob-cerjanec",
+        "contact": {
+          "email": "rcerjanec.mpp.co@liberal.ola.org",
+          "phone": "905-427-2060",
+          "phone2": "905-427-6976",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Scarborough North": {
+      "name": "Scarborough North",
+      "mpp": {
+        "name": "Raymond Sung Joon Cho",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/raymond_cho.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/raymond-sung-joon-cho",
+        "contact": {
+          "email": "raymond.cho@pc.ola.org",
+          "phone": "416-297-5040",
+          "phone2": "416-314-0797",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Willowdale": {
+      "name": "Willowdale",
+      "mpp": {
+        "name": "Stan Cho",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/stan_cho.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/stan-cho",
+        "contact": {
+          "email": "stan.cho@pc.ola.org",
+          "phone": "416-733-7878",
+          "phone2": "416-326-9326",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Hamilton Mountain": {
+      "name": "Hamilton Mountain",
+      "mpp": {
+        "name": "Monica Ciriello",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Monica-Ciriellol.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/monica-ciriello",
+        "contact": {
+          "email": "monica.ciriello@pc.ola.org",
+          "phone": "905-388-1515",
+          "phone2": "905-388-7862",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kitchener Centre": {
+      "name": "Kitchener Centre",
+      "mpp": {
+        "name": "Aislinn Clancy",
+        "party": "Green",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Aislinn_Clancy.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/aislinn-clancy",
+        "contact": {
+          "email": "aclancy-qp@ola.org",
+          "phone": "519-579-5460",
+          "phone2": "519-579-2121",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Leeds—Grenville—Thousand Islands and Rideau Lakes": {
+      "name": "Leeds—Grenville—Thousand Islands and Rideau Lakes",
+      "mpp": {
+        "name": "Steve Clark",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/steve_clark.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/steve-clark",
+        "contact": {
+          "email": "steve.clark@pc.ola.org",
+          "phone": "613-342-9522",
+          "phone2": "613-342-2501",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Whitby": {
+      "name": "Whitby",
+      "mpp": {
+        "name": "Lorne Coe",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/lorne_coe.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/lorne-coe",
+        "contact": {
+          "email": "lorne.coe@pc.ola.org",
+          "phone": "905-430-1141",
+          "phone2": "905-430-1840",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Ottawa—Vanier": {
+      "name": "Ottawa—Vanier",
+      "mpp": {
+        "name": "Lucille Collard",
+        "party": "Liberal",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/lucille-collard",
+        "contact": {
+          "email": "lcollard.mpp.co@liberal.ola.org",
+          "phone": "613-744-4484",
+          "phone2": "416-325-0007",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Eglinton—Lawrence": {
+      "name": "Eglinton—Lawrence",
+      "mpp": {
+        "name": "Michelle Cooper",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Michelle-Cooperl.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/michelle-cooper",
+        "contact": {
+          "email": "michelle.cooper@pc.ola.org",
+          "phone": "416-781-2395",
+          "phone2": "416-781-4116",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Oakville": {
+      "name": "Oakville",
+      "mpp": {
+        "name": "Stephen Crawford",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/stephen_crawford.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/stephen-crawford",
+        "contact": {
+          "email": "stephen.crawford@pc.ola.org",
+          "phone": "905-827-5141",
+          "phone2": "905-827-3786",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mississauga—Lakeshore": {
+      "name": "Mississauga—Lakeshore",
+      "mpp": {
+        "name": "Rudy Cuzzetto",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Rudy_Cuzzetto.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/rudy-cuzzetto",
+        "contact": {
+          "email": "rudy.cuzzetto@pc.ola.org",
+          "phone": "905-274-8228",
+          "phone2": "905-274-8552",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Carleton": {
+      "name": "Carleton",
+      "mpp": {
+        "name": "George Darouze",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Darouze_George.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/george-darouze",
+        "contact": {
+          "email": "george.darouze@pc.ola.org",
+          "phone": "613-838-4425",
+          "phone2": "833-779-6821",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Renfrew—Nipissing—Pembroke": {
+      "name": "Renfrew—Nipissing—Pembroke",
+      "mpp": {
+        "name": "Billy Denault",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Billy-Denault.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/billy-denault",
+        "contact": {
+          "email": "billy.denault@pc.ola.org",
+          "phone": "613-735-6627",
+          "phone2": "613-735-6692",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kitchener South—Hespeler": {
+      "name": "Kitchener South—Hespeler",
+      "mpp": {
+        "name": "Jess Dixon",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/jess-dixon",
+        "contact": {
+          "email": "jess.dixon@pc.ola.org",
+          "phone": "519-650-9413",
+          "phone2": "519-571-8660",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Windsor—Tecumseh": {
+      "name": "Windsor—Tecumseh",
+      "mpp": {
+        "name": "Andrew Dowie",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/andrew-dowie",
+        "contact": {
+          "email": "andrew.dowie@pc.ola.org",
+          "phone": "519-251-5199",
+          "phone2": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Barrie—Springwater—Oro-Medonte": {
+      "name": "Barrie—Springwater—Oro-Medonte",
+      "mpp": {
+        "name": "Doug Downey",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Doug_Downey.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/doug-downey",
+        "contact": {
+          "email": "doug.downey@pc.ola.org",
+          "phone": "705-726-5538",
+          "phone2": "705-726-2880",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Simcoe North": {
+      "name": "Simcoe North",
+      "mpp": {
+        "name": "Jill Dunlop",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/jill-dunlop",
+        "contact": {
+          "email": "jill.dunlop@pc.ola.org",
+          "phone": "705-326-3246",
+          "phone2": "705-326-9579",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Etobicoke—Lakeshore": {
+      "name": "Etobicoke—Lakeshore",
+      "mpp": {
+        "name": "Lee Fairclough",
+        "party": "Liberal",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Lee-Fairclough.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/lee-fairclough",
+        "contact": {
+          "email": "lfairclough.mpp.co@liberal.ola.org",
+          "phone": "416-259-2249",
+          "phone2": "416-325-3047",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Nipissing": {
+      "name": "Nipissing",
+      "mpp": {
+        "name": "Victor Fedeli",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/victor_fedeli.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/victor-fedeli",
+        "contact": {
+          "email": "vic.fedeli@pc.ola.org",
+          "phone": "705-474-8340",
+          "phone2": "705-474-9747",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Waterloo": {
+      "name": "Waterloo",
+      "mpp": {
+        "name": "Catherine Fife",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Catherine_Fife.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/catherine-fife",
+        "contact": {
+          "email": "cfife-qp@ndp.on.ca",
+          "phone": "519-725-3477",
+          "phone2": "519-725-3667",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "York South—Weston": {
+      "name": "York South—Weston",
+      "mpp": {
+        "name": "Mohamed Firin",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Mohamed-Firin_1.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/mohamed-firin",
+        "contact": {
+          "email": "mohamed.firin@pc.ola.org",
+          "phone": "416-243-7984",
+          "phone2": "416-243-0327",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Elgin—Middlesex—London": {
+      "name": "Elgin—Middlesex—London",
+      "mpp": {
+        "name": "Rob Flack",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/rob-flack",
+        "contact": {
+          "email": "rob.flack@pc.ola.org",
+          "phone": "519-631-5995",
+          "phone2": "519-631-9478",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Etobicoke North": {
+      "name": "Etobicoke North",
+      "mpp": {
+        "name": "Doug Ford",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/doug_ford.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/doug-ford",
+        "contact": {
+          "email": "doug.fordco@pc.ola.org",
+          "phone": "416-745-2859",
+          "phone2": "416-745-4601",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Ottawa South": {
+      "name": "Ottawa South",
+      "mpp": {
+        "name": "John Fraser",
+        "party": "Liberal",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/john_fraser.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/john-fraser",
+        "contact": {
+          "email": "jfraser.mpp.co@liberal.ola.org",
+          "phone": "613-736-9573",
+          "phone2": "613-736-7374",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Oshawa": {
+      "name": "Oshawa",
+      "mpp": {
+        "name": "Jennifer K. French",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jennifer_French.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/jennifer-k-french",
+        "contact": {
+          "email": "jfrench-qp@ndp.on.ca",
+          "phone": "905-723-2411",
+          "phone2": "905-723-1054",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Newmarket—Aurora": {
+      "name": "Newmarket—Aurora",
+      "mpp": {
+        "name": "Dawn Gallagher Murphy",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/dawn-gallagher-murphy",
+        "contact": {
+          "email": "dawn.gallaghermurphy@pc.ola.org",
+          "phone": "905-853-9889",
+          "phone2": "905-853-6115",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Niagara Falls": {
+      "name": "Niagara Falls",
+      "mpp": {
+        "name": "Wayne Gates",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/wayne_gates_0.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/wayne-gates",
+        "contact": {
+          "email": "wgates-qp@ndp.on.ca",
+          "phone": "905-871-8868",
+          "phone2": "905-871-4717",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Nickel Belt": {
+      "name": "Nickel Belt",
+      "mpp": {
+        "name": "France Gélinas",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/France_Gelinas.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/france-gelinas",
+        "contact": {
+          "email": "gelinas-qp@ndp.on.ca",
+          "phone": "705-969-3621",
+          "phone2": "705-969-3538",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Parkdale—High Park": {
+      "name": "Parkdale—High Park",
+      "mpp": {
+        "name": "Alexa Gilmour",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Alexa-Gilmour.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/alexa-gilmour",
+        "contact": {
+          "email": "agilmour-qp@ndp.on.ca",
+          "phone": "416-763-5630",
+          "phone2": "416-763-5640",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Spadina—Fort York": {
+      "name": "Spadina—Fort York",
+      "mpp": {
+        "name": "Chris Glover",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Chris_Glover.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/chris-glover",
+        "contact": {
+          "email": "cglover-qp@ndp.on.ca",
+          "phone": "416-603-9664",
+          "phone2": "416-326-7196",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Windsor West": {
+      "name": "Windsor West",
+      "mpp": {
+        "name": "Lisa Gretzky",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/lisa_gretzky.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/lisa-gretzky",
+        "contact": {
+          "email": "lgretzky-qp@ndp.on.ca",
+          "phone": "519-977-7191",
+          "phone2": "519-977-7029",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Brampton East": {
+      "name": "Brampton East",
+      "mpp": {
+        "name": "Hardeep Singh Grewal",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/hardeep-singh-grewal",
+        "contact": {
+          "email": "hardeep.grewal@pc.ola.org",
+          "phone": "905-799-3939",
+          "phone2": "905-799-9505",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mississauga East—Cooksville": {
+      "name": "Mississauga East—Cooksville",
+      "mpp": {
+        "name": "Silvia Gualtieri",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Silvia-Gualtieri.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/silvia-gualtieri",
+        "contact": {
+          "email": "silvia.gualtieri@pc.ola.org",
+          "phone": "905-238-1751",
+          "phone2": "416-325-1237",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Milton": {
+      "name": "Milton",
+      "mpp": {
+        "name": "Zee Hamid",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Hamid-Zee.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/zee-hamid",
+        "contact": {
+          "email": "zee.hamid@pc.ola.org",
+          "phone": "905-878-1729",
+          "phone2": "416-326-5000",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Oxford": {
+      "name": "Oxford",
+      "mpp": {
+        "name": "Ernie Hardeman",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/ernie_hardeman.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/ernie-hardeman",
+        "contact": {
+          "email": "ernie.hardeman@pc.ola.org",
+          "phone": "519-537-5222",
+          "phone2": "519-537-3577",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kitchener—Conestoga": {
+      "name": "Kitchener—Conestoga",
+      "mpp": {
+        "name": "Mike Harris",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/mike-harris.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/mike-harris",
+        "contact": {
+          "email": "mike.harris@pc.ola.org",
+          "phone": "519-669-2090",
+          "phone2": "519-669-0476",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Scarborough—Guildwood": {
+      "name": "Scarborough—Guildwood",
+      "mpp": {
+        "name": "Andrea Hazell",
+        "party": "Liberal",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Andrea_Hazell_2.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/andrea-hazell",
+        "contact": {
+          "email": "ahazell.mpp.co@liberal.ola.org",
+          "phone": "416-281-2787",
+          "phone2": "416-281-2360",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Thunder Bay—Atikokan": {
+      "name": "Thunder Bay—Atikokan",
+      "mpp": {
+        "name": "Kevin Holland",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Kevin_Holland.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/kevin-holland",
+        "contact": {
+          "email": "kevin.holland@pc.ola.org",
+          "phone": "807-623-6702",
+          "phone2": "807-623-8921",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kingston and the Islands": {
+      "name": "Kingston and the Islands",
+      "mpp": {
+        "name": "Ted Hsu",
+        "party": "Liberal",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Ted_Hsu.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/ted-hsu",
+        "contact": {
+          "email": "thsu.mpp.co@liberal.ola.org",
+          "phone": "613-547-2385",
+          "phone2": "416-325-0051",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Dufferin—Caledon": {
+      "name": "Dufferin—Caledon",
+      "mpp": {
+        "name": "Sylvia Jones",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/sylvia-jones",
+        "contact": {
+          "email": "sylvia.jones@pc.ola.org",
+          "phone": "519-941-7751",
+          "phone2": "519-941-3246",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Chatham-Kent—Leamington": {
+      "name": "Chatham-Kent—Leamington",
+      "mpp": {
+        "name": "Trevor Jones",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/trevor-jones",
+        "contact": {
+          "email": "trevor.jones@pc.ola.org",
+          "phone": "519-351-0510",
+          "phone2": "519-351-7714",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Lanark—Frontenac—Kingston": {
+      "name": "Lanark—Frontenac—Kingston",
+      "mpp": {
+        "name": "John Jordan",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/john-jordan",
+        "contact": {
+          "email": "john.jordan@pc.ola.org",
+          "phone": "613-284-1630",
+          "phone2": "416-325-1232",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Markham—Thornhill": {
+      "name": "Markham—Thornhill",
+      "mpp": {
+        "name": "Logan Kanapathi",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Logan_Kanapathi.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/logan-kanapathi",
+        "contact": {
+          "email": "logan.kanapathico@pc.ola.org",
+          "phone": "905-305-1935",
+          "phone2": "905-305-1938",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "London North Centre": {
+      "name": "London North Centre",
+      "mpp": {
+        "name": "Terence Kernaghan",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/terence_kernaghan.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/terence-kernaghan",
+        "contact": {
+          "email": "tkernaghan-qp@ndp.on.ca",
+          "phone": "519-432-7339",
+          "phone2": "416-326-7568",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "York Centre": {
+      "name": "York Centre",
+      "mpp": {
+        "name": "Michael S. Kerzner",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/michael-s-kerzner",
+        "contact": {
+          "email": "michael.kerzner@pc.ola.org",
+          "phone": "416-630-0080",
+          "phone2": "416-326-5000",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Barrie—Innisfil": {
+      "name": "Barrie—Innisfil",
+      "mpp": {
+        "name": "Andrea Khanjin",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/andrea-khanjin.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/andrea-khanjin",
+        "contact": {
+          "email": "andrea.khanjin@pc.ola.org",
+          "phone": "705-722-0575",
+          "phone2": "705-722-8835",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mississauga Centre": {
+      "name": "Mississauga Centre",
+      "mpp": {
+        "name": "Natalia Kusendova-Bashta",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Natalia_Kusendova-Bashta_0.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/natalia-kusendova-bashta",
+        "contact": {
+          "email": "natalia.kusendova@pc.ola.org",
+          "phone": "905-890-1901",
+          "phone2": "416-325-6200",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Essex": {
+      "name": "Essex",
+      "mpp": {
+        "name": "Anthony Leardi",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/anthony-leardi",
+        "contact": {
+          "email": "anthony.leardi@pc.ola.org",
+          "phone": "519-736-1550",
+          "phone2": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "King—Vaughan": {
+      "name": "King—Vaughan",
+      "mpp": {
+        "name": "Stephen Lecce",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Stephen_Lecce.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/stephen-lecce",
+        "contact": {
+          "email": "stephen.lecce@pc.ola.org",
+          "phone": "647-560-9700",
+          "phone2": "647-560-9701",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Hamilton Centre": {
+      "name": "Hamilton Centre",
+      "mpp": {
+        "name": "Robin Lennox",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Lennox_Robin.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/robin-lennox",
+        "contact": {
+          "email": "rlennox-qp@ndp.on.ca",
+          "phone": "905-544-9644",
+          "phone2": "905-544-5152",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Hamilton East—Stoney Creek": {
+      "name": "Hamilton East—Stoney Creek",
+      "mpp": {
+        "name": "Neil Lumsden",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Neil_Lumsden.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/neil-lumsden",
+        "contact": {
+          "email": "neil.lumsden@pc.ola.org",
+          "phone": "905-662-8755",
+          "phone2": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kiiwetinoong": {
+      "name": "Kiiwetinoong",
+      "mpp": {
+        "name": "Sol Mamakwa",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Sol_Mamakwa_v1.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/sol-mamakwa",
+        "contact": {
+          "email": "smamakwa-qp@ndp.on.ca",
+          "phone": "807-727-1133",
+          "phone2": "807-737-2210",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Durham": {
+      "name": "Durham",
+      "mpp": {
+        "name": "Todd J. McCarthy",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/todd-j-mccarthy",
+        "contact": {
+          "email": "todd.mccarthy@pc.ola.org",
+          "phone": "905-697-1501",
+          "phone2": "905-697-1506",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kanata—Carleton": {
+      "name": "Kanata—Carleton",
+      "mpp": {
+        "name": "Karen McCrimmon",
+        "party": "Liberal",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/karen-mccrimmon",
+        "contact": {
+          "email": "kmccrimmon-co@liberal.ola.org",
+          "phone": "613-599-3000",
+          "phone2": "416-325-1212",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Brampton North": {
+      "name": "Brampton North",
+      "mpp": {
+        "name": "Graham McGregor",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/graham-mcgregor",
+        "contact": {
+          "email": "graham.mcgregor@pc.ola.org",
+          "phone": "289-298-1049",
+          "phone2": "905-495-1041",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Ottawa Centre": {
+      "name": "Ottawa Centre",
+      "mpp": {
+        "name": "Catherine McKenney",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Catherine-McKenney.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/catherine-mckenney",
+        "contact": {
+          "email": "cmckenney-co@ndp.on.ca",
+          "phone": "613-722-6414",
+          "phone2": "613-722-6703",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Beaches—East York": {
+      "name": "Beaches—East York",
+      "mpp": {
+        "name": "Mary-Margaret McMahon",
+        "party": "Liberal",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Mary_Margaret_McMahon.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/mary-margaret-mcmahon",
+        "contact": {
+          "email": "mmcmahon.mpp.co@liberal.ola.org",
+          "phone": "416-690-1032",
+          "phone2": "416-325-0090",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "York—Simcoe": {
+      "name": "York—Simcoe",
+      "mpp": {
+        "name": "Caroline Mulroney",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/caroline_mulroney.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/caroline-mulroney",
+        "contact": {
+          "email": "caroline.mulroney@pc.ola.org",
+          "phone": "905-895-1555",
+          "phone2": "905-895-0337",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Niagara West": {
+      "name": "Niagara West",
+      "mpp": {
+        "name": "Sam Oosterhoff",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/sam-oosterhoff",
+        "contact": {
+          "email": "sam.oosterhoff@pc.ola.org",
+          "phone": "905-563-1755",
+          "phone2": "905-563-1317",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Markham—Unionville": {
+      "name": "Markham—Unionville",
+      "mpp": {
+        "name": "Billy Pang",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Billy_Pang.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/billy-pang",
+        "contact": {
+          "email": "billy.pangco@pc.ola.org",
+          "phone": "905-474-3288",
+          "phone2": "905-474-2878",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Aurora—Oak Ridges—Richmond Hill": {
+      "name": "Aurora—Oak Ridges—Richmond Hill",
+      "mpp": {
+        "name": "Michael Parsa",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/michael-parsa.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/michael-parsa",
+        "contact": {
+          "email": "michael.parsaco@pc.ola.org",
+          "phone": "905-773-6250",
+          "phone2": "905-773-8158",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Ottawa West—Nepean": {
+      "name": "Ottawa West—Nepean",
+      "mpp": {
+        "name": "Chandra Pasma",
+        "party": "NDP",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/chandra-pasma",
+        "contact": {
+          "email": "cpasma-qp@ndp.on.ca",
+          "phone": "613-721-8075",
+          "phone2": "416-325-3001",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Northumberland—Peterborough South": {
+      "name": "Northumberland—Peterborough South",
+      "mpp": {
+        "name": "David Piccini",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/david_piccini.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/david-piccini",
+        "contact": {
+          "email": "david.piccini@pc.ola.org",
+          "phone": "905-372-4000",
+          "phone2": "905-885-0050",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Burlington": {
+      "name": "Burlington",
+      "mpp": {
+        "name": "Natalie Pierre",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Natalie_Pierre.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/natalie-pierre",
+        "contact": {
+          "email": "natalie.pierre@pc.ola.org",
+          "phone": "905-639-7924",
+          "phone2": "905-639-3284",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Lambton—Kent—Middlesex": {
+      "name": "Lambton—Kent—Middlesex",
+      "mpp": {
+        "name": "Steve Pinsonneault",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Steve-Pinsonneault.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/steve-pinsonneault",
+        "contact": {
+          "email": "steve.pinsonneault@pc.ola.org",
+          "phone": "519-245-8696",
+          "phone2": "519-245-8697",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Timmins": {
+      "name": "Timmins",
+      "mpp": {
+        "name": "George Pirie",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/george-pirie",
+        "contact": {
+          "email": "george.pirie@pc.ola.org",
+          "phone": "705-268-6400",
+          "phone2": "416-326-4740",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Stormont—Dundas—South Glengarry": {
+      "name": "Stormont—Dundas—South Glengarry",
+      "mpp": {
+        "name": "Nolan Quinn",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Nolan_Quinn_original.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/nolan-quinn",
+        "contact": {
+          "email": "nolan.quinn@pc.ola.org",
+          "phone": "613-933-6513",
+          "phone2": "613-933-6449",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Wellington—Halton Hills": {
+      "name": "Wellington—Halton Hills",
+      "mpp": {
+        "name": "Joseph Racinsky",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Joseph_Racinsky_0.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/joseph-racinsky",
+        "contact": {
+          "email": "joseph.racinsky@pc.ola.org",
+          "phone": "519-787-5247",
+          "phone2": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Perth—Wellington": {
+      "name": "Perth—Wellington",
+      "mpp": {
+        "name": "Matthew Rae",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/matthew-rae",
+        "contact": {
+          "email": "matthew.rae@pc.ola.org",
+          "phone": "519-272-0660",
+          "phone2": "519-272-1064",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Humber River—Black Creek": {
+      "name": "Humber River—Black Creek",
+      "mpp": {
+        "name": "Tom Rakocevic",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Tom_Rakocevic.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/tom-rakocevic",
+        "contact": {
+          "email": "trakocevic-qp@ndp.on.ca",
+          "phone": "416-743-7272",
+          "phone2": "416-326-7585",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Kenora—Rainy River": {
+      "name": "Kenora—Rainy River",
+      "mpp": {
+        "name": "Greg Rickford",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/greg-rickford",
+        "contact": {
+          "email": "greg.rickford@pc.ola.org",
+          "phone": "807-223-6456",
+          "phone2": "800-465-8501",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Cambridge": {
+      "name": "Cambridge",
+      "mpp": {
+        "name": "Brian Riddell",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/brian-riddell",
+        "contact": {
+          "email": "brian.riddell@pc.ola.org",
+          "phone": "519-650-2770",
+          "phone2": "416-325-1938",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Algoma—Manitoulin": {
+      "name": "Algoma—Manitoulin",
+      "mpp": {
+        "name": "Bill Rosenberg",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Bill-Rosenbergl.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/bill-rosenberg",
+        "contact": {
+          "email": "bill.rosenberg@pc.ola.org",
+          "phone": "705-842-6556",
+          "phone2": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mississauga—Erin Mills": {
+      "name": "Mississauga—Erin Mills",
+      "mpp": {
+        "name": "Sheref Sabawy",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/sheref_sabawy.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/sheref-sabawy",
+        "contact": {
+          "email": "sheref.sabawy@pc.ola.org",
+          "phone": "905-820-8851",
+          "phone2": "905-820-4307",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Brampton West": {
+      "name": "Brampton West",
+      "mpp": {
+        "name": "Amarjot Sandhu",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/amarjot_sandhu.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/amarjot-sandhu",
+        "contact": {
+          "email": "amarjot.sandhu@pc.ola.org",
+          "phone": "905-595-1532",
+          "phone2": "905-451-8496",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Brampton South": {
+      "name": "Brampton South",
+      "mpp": {
+        "name": "Prabmeet Singh Sarkaria",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/prabmeet_sarkaria.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/prabmeet-singh-sarkaria",
+        "contact": {
+          "email": "prabmeet.sarkaria@pc.ola.org",
+          "phone": "905-796-8669",
+          "phone2": "905-796-8069",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Glengarry—Prescott—Russell": {
+      "name": "Glengarry—Prescott—Russell",
+      "mpp": {
+        "name": "Stéphane Sarrazin",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Stephane_Sarrazin.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/stephane-sarrazin",
+        "contact": {
+          "email": "stephane.sarrazin@pc.ola.org",
+          "phone": "613-632-2706",
+          "phone2": "613-632-1554",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "London West": {
+      "name": "London West",
+      "mpp": {
+        "name": "Peggy Sattler",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/peggy_sattler.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/peggy-sattler",
+        "contact": {
+          "email": "psattler-qp@ndp.on.ca",
+          "phone": "519-657-3120",
+          "phone2": "519-657-0368",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Simcoe—Grey": {
+      "name": "Simcoe—Grey",
+      "mpp": {
+        "name": "Brian Saunderson",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/brian-saunderson",
+        "contact": {
+          "email": "brian.saunderson@pc.ola.org",
+          "phone": "705-435-4087",
+          "phone2": "705-435-1051",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Guelph": {
+      "name": "Guelph",
+      "mpp": {
+        "name": "Mike Schreiner",
+        "party": "Green",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/mike_schreiner_v1.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/mike-schreiner",
+        "contact": {
+          "email": "mschreiner@ola.org",
+          "phone": "519-836-4190",
+          "phone2": "416-325-4664",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Sault Ste. Marie": {
+      "name": "Sault Ste. Marie",
+      "mpp": {
+        "name": "Chris Scott",
+        "party": "Independent",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Chris-Scott.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/chris-scott",
+        "contact": {
+          "email": "cscott-co@ola.org",
+          "phone": "705-949-6959",
+          "phone2": "705-946-6269",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Haliburton—Kawartha Lakes—Brock": {
+      "name": "Haliburton—Kawartha Lakes—Brock",
+      "mpp": {
+        "name": "Laurie Scott",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/laurie_scott.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/laurie-scott",
+        "contact": {
+          "email": "laurie.scott@pc.ola.org",
+          "phone": "705-324-6654",
+          "phone2": "705-324-6938",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Don Valley East": {
+      "name": "Don Valley East",
+      "mpp": {
+        "name": "Adil Shamji",
+        "party": "Liberal",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Adil_Shamji.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/adil-shamji",
+        "contact": {
+          "email": "ashamji.mpp.co@liberal.ola.org",
+          "phone": "416-494-6856",
+          "phone2": "416-494-9937",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Hamilton West—Ancaster—Dundas": {
+      "name": "Hamilton West—Ancaster—Dundas",
+      "mpp": {
+        "name": "Sandy Shaw",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Sandy_Shaw.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/sandy-shaw",
+        "contact": {
+          "email": "sshaw-qp@ndp.on.ca",
+          "phone": "905-628-2755",
+          "phone2": "905-628-1280",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Flamborough—Glanbrook": {
+      "name": "Flamborough—Glanbrook",
+      "mpp": {
+        "name": "Donna Skelly",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/donna_skelly.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/donna-skelly",
+        "contact": {
+          "email": "donna.skelly@pc.ola.org",
+          "phone": "905-679-3770",
+          "phone2": "416-325-7435",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Peterborough—Kawartha": {
+      "name": "Peterborough—Kawartha",
+      "mpp": {
+        "name": "Dave Smith",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/dave_smith.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/dave-smith",
+        "contact": {
+          "email": "dave.smith@pc.ola.org",
+          "phone": "705-742-3777",
+          "phone2": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Scarborough Centre": {
+      "name": "Scarborough Centre",
+      "mpp": {
+        "name": "David Smith",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/David-Smith-V1.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/david-smith",
+        "contact": {
+          "email": "david.smith1@pc.ola.org",
+          "phone": "416-615-2183",
+          "phone2": "416-615-2011",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Parry Sound—Muskoka": {
+      "name": "Parry Sound—Muskoka",
+      "mpp": {
+        "name": "Graydon Smith",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/graydon-smith",
+        "contact": {
+          "email": "graydon.smith@pc.ola.org",
+          "phone": "705-645-8538",
+          "phone2": "888-267-4826",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Thornhill": {
+      "name": "Thornhill",
+      "mpp": {
+        "name": "Laura Smith",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/laura-smith",
+        "contact": {
+          "email": "laura.smith@pc.ola.org",
+          "phone": "905-731-1178",
+          "phone2": "416-325-1243",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "St. Catharines": {
+      "name": "St. Catharines",
+      "mpp": {
+        "name": "Jennifer (Jennie) Stevens",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jennie_Stevens.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/jennifer-jennie-stevens",
+        "contact": {
+          "email": "jstevens-qp@ndp.on.ca",
+          "phone": "905-935-0018",
+          "phone2": "905-935-0191",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Davenport": {
+      "name": "Davenport",
+      "mpp": {
+        "name": "Marit Stiles",
+        "party": "NDP",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/marit-stiles",
+        "contact": {
+          "email": "mstiles-qp@ndp.on.ca",
+          "phone": "416-535-3158",
+          "phone2": "416-535-6587",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Etobicoke Centre": {
+      "name": "Etobicoke Centre",
+      "mpp": {
+        "name": "Kinga Surma",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/kinga_surma.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/kinga-surma",
+        "contact": {
+          "email": "kinga.surma@pc.ola.org",
+          "phone": "416-234-2800",
+          "phone2": "416-234-2276",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Toronto—Danforth": {
+      "name": "Toronto—Danforth",
+      "mpp": {
+        "name": "Peter Tabuns",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Peter_Tabuns_v2.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/peter-tabuns",
+        "contact": {
+          "email": "tabunsp-qp@ndp.on.ca",
+          "phone": "416-461-0223",
+          "phone2": "416-461-9542",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Mississauga—Streetsville": {
+      "name": "Mississauga—Streetsville",
+      "mpp": {
+        "name": "Nina Tangri",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/nina_tangri.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/nina-tangri",
+        "contact": {
+          "email": "nina.tangri@pc.ola.org",
+          "phone": "905-569-1643",
+          "phone2": "",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Scarborough—Rouge Park": {
+      "name": "Scarborough—Rouge Park",
+      "mpp": {
+        "name": "Vijay Thanigasalam",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/vijay_thanigasalam_v1.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/vijay-thanigasalam",
+        "contact": {
+          "email": "vijay.thanigasalam@pc.ola.org",
+          "phone": "416-283-8448",
+          "phone2": "416-283-1597",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Huron—Bruce": {
+      "name": "Huron—Bruce",
+      "mpp": {
+        "name": "Lisa M. Thompson",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/lisa_thompson.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/lisa-m-thompson",
+        "contact": {
+          "email": "lisa.thompson@pc.ola.org",
+          "phone": "519-523-4251",
+          "phone2": "226-523-9296",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Vaughan—Woodbridge": {
+      "name": "Vaughan—Woodbridge",
+      "mpp": {
+        "name": "Michael A. Tibollo",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/michael_tibollo.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/michael-a-tibollo",
+        "contact": {
+          "email": "michael.tibolloco@pc.ola.org",
+          "phone": "905-893-4428",
+          "phone2": "905-893-4537",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Oakville North—Burlington": {
+      "name": "Oakville North—Burlington",
+      "mpp": {
+        "name": "Effie J. Triantafilopoulos",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/effie_triantafilopoulos.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/effie-j-triantafilopoulos",
+        "contact": {
+          "email": "effie.triantafilopoulos@pc.ola.org",
+          "phone": "905-825-2455",
+          "phone2": "905-825-0663",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Don Valley North": {
+      "name": "Don Valley North",
+      "mpp": {
+        "name": "Jonathan Tsao",
+        "party": "Liberal",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jonathan-Tsao.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/jonathan-tsao",
+        "contact": {
+          "email": "jtsao.mpp.co@liberal.ola.org",
+          "phone": "416-494-8778",
+          "phone2": "416-325-3033",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Timiskaming—Cochrane": {
+      "name": "Timiskaming—Cochrane",
+      "mpp": {
+        "name": "John Vanthof",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/john_vanthof.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/john-vanthof",
+        "contact": {
+          "email": "jvanthof-qp@ndp.on.ca",
+          "phone": "705-567-4650",
+          "phone2": "705-647-5995",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Thunder Bay—Superior North": {
+      "name": "Thunder Bay—Superior North",
+      "mpp": {
+        "name": "Lise Vaugeois",
+        "party": "NDP",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Lise_Vaugeois.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/lise-vaugeois",
+        "contact": {
+          "email": "lvaugeois-qp@ndp.on.ca",
+          "phone": "807-345-3647",
+          "phone2": "807-345-2922",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Bruce—Grey—Owen Sound": {
+      "name": "Bruce—Grey—Owen Sound",
+      "mpp": {
+        "name": "Paul Vickers",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Paul-Vickers.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/paul-vickers",
+        "contact": {
+          "email": "paul.vickers@pc.ola.org",
+          "phone": "519-371-2421",
+          "phone2": "519-371-0953",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Richmond Hill": {
+      "name": "Richmond Hill",
+      "mpp": {
+        "name": "Daisy Wai",
+        "party": "PC",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/daisy-wai.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/daisy-wai",
+        "contact": {
+          "email": "daisy.wai@pc.ola.org",
+          "phone": "905-884-8080",
+          "phone2": "905-884-1040",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Nepean": {
+      "name": "Nepean",
+      "mpp": {
+        "name": "Tyler Watt",
+        "party": "Liberal",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Tyler-Watt_1.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/tyler-watt",
+        "contact": {
+          "email": "tylerwatt.mpp.co@ola.org",
+          "phone": "613-518-9288",
+          "phone2": "613-823-8284",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Sudbury": {
+      "name": "Sudbury",
+      "mpp": {
+        "name": "Jamie West",
+        "party": "NDP",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/jamie-west",
+        "contact": {
+          "email": "jwest-qp@ndp.on.ca",
+          "phone": "705-675-1914",
+          "phone2": "705-675-1456",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Brampton Centre": {
+      "name": "Brampton Centre",
+      "mpp": {
+        "name": "Charmaine A. Williams",
+        "party": "PC",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/charmaine-a-williams",
+        "contact": {
+          "email": "charmaine.williams@pc.ola.org",
+          "phone": "905-454-1233",
+          "phone2": "905-454-8292",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Toronto Centre": {
+      "name": "Toronto Centre",
+      "mpp": {
+        "name": "Kristyn Wong-Tam",
+        "party": "NDP",
+        "photo": "",
+        "profileUrl": "https://www.ola.org/en/members/all/kristyn-wong-tam",
+        "contact": {
+          "email": "kwong-tam-qp@ndp.on.ca",
+          "phone": "416-972-7683",
+          "phone2": "416-972-7686",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    },
+    "Toronto—St. Paul's": {
+      "name": "Toronto—St. Paul's",
+      "mpp": {
+        "name": "Stephanie Smyth",
+        "party": "Liberal",
+        "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Stephanie-Smyth.jpg",
+        "profileUrl": "https://www.ola.org/en/members/all/stephanie-smyth",
+        "contact": {
+          "email": "ssmyth.mpp.co@liberal.ola.org",
+          "phone": "416-656-0943",
+          "phone2": "416-656-0875",
+          "website": "",
+          "social": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "youtube": "",
+            "tiktok": "",
+            "BlueSky": ""
+          }
+        }
+      }
+    }
+  },
+  "parties": {
+    "PC": {
+      "color": "#003DA5"
+    },
+    "NDP": {
+      "color": "#F37021"
+    },
+    "Liberal": {
+      "color": "#D71920"
+    },
+    "Green": {
+      "color": "#3D9B35"
+    },
+    "Independent": {
+      "color": "#808080"
+    }
+  }
+}

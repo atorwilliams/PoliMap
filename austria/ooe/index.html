@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oberösterreich – PoliMap</title>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/landing.css">
+</head>
+<body>
+  <header class="top-banner">
+    <div class="banner-container">
+      <a href="/" class="logo" style="text-decoration:none;">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </a>
+
+      <nav class="main-nav">
+        <!-- State switcher -->
+        <div class="nav-province-wrap" id="province-wrap">
+          <button class="nav-province-btn" id="province-btn">
+            🇦🇹 Oberösterreich <span class="chevron">▾</span>
+          </button>
+          <div class="nav-province-dropdown">
+            <a class="province-drop-item" href="/austria/wien/">Wien</a>
+            <div class="province-drop-divider"></div>
+            <span class="province-drop-item disabled">Niederösterreich <small style="opacity:0.5;">soon</small></span>
+            <span class="province-drop-item current">Oberösterreich</span>
+            <span class="province-drop-item disabled">Steiermark <small style="opacity:0.5;">soon</small></span>
+            <span class="province-drop-item disabled">Tirol <small style="opacity:0.5;">soon</small></span>
+            <span class="province-drop-item disabled">Salzburg <small style="opacity:0.5;">soon</small></span>
+            <span class="province-drop-item disabled">Kärnten <small style="opacity:0.5;">soon</small></span>
+            <span class="province-drop-item disabled">Vorarlberg <small style="opacity:0.5;">soon</small></span>
+            <span class="province-drop-item disabled">Burgenland <small style="opacity:0.5;">soon</small></span>
+            <div class="province-drop-divider"></div>
+            <a class="province-drop-item" href="/austria/">All Bundesländer →</a>
+          </div>
+        </div>
+
+        <button class="nav-btn" id="bh-info-btn">What is a BH?</button>
+        <a class="nav-btn" href="/contribute.html">Contribute</a>
+        <a class="nav-btn" href="/donate.html">Donate</a>
+        <a class="nav-btn" href="https://polichan.org" target="_blank">Discussion</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="map"></div>
+
+  <!-- Bottom-left control stack -->
+  <div id="map-controls-stack">
+    <div id="legend" class="map-control legend-control">
+      <div class="control-header">Legend</div>
+      <div id="legend-parties"></div>
+    </div>
+  </div>
+
+  <div class="about-overlay" id="bh-modal">
+    <div class="about-content" style="max-width:600px;">
+      <button id="bh-modal-close" style="position:absolute;top:18px;right:18px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.1);border-radius:50%;width:34px;height:34px;display:flex;align-items:center;justify-content:center;font-size:1em;color:#999;cursor:pointer;padding:0;line-height:1;" aria-label="Close">×</button>
+
+      <div class="about-header">
+        <h1>Bezirkshauptmann</h1>
+        <p class="about-tagline">District Administration in Upper Austria</p>
+      </div>
+
+      <p>Upper Austria is divided into 15 rural districts (<strong>Bezirke</strong>), each administered by a <strong>Bezirkshauptmannschaft</strong>. The person in charge is the <strong>Bezirkshauptmann</strong> or <strong>Bezirkshauptfrau</strong>, a senior career civil servant appointed by the state government.</p>
+
+      <p>The role exists because Austria devolves a wide range of state responsibilities to the district level. The Bezirkshauptmannschaft is the principal authority citizens deal with for most official matters: building permits, business licences, driving licences, vehicle registration, health and social services, environmental approvals, and more.</p>
+
+      <p>Because they are appointed rather than elected, district heads carry no party affiliation. They serve the state government regardless of which parties hold power in Linz or Vienna.</p>
+
+      <p>The three larger cities in Upper Austria (<strong>Linz</strong>, <strong>Steyr</strong>, and <strong>Wels</strong>) are <strong>Statutarstädte</strong>: they function as their own district, so no Bezirkshauptmann exists there. Instead, the elected <strong>Bürgermeister</strong> takes on the responsibilities that a BH would handle elsewhere.</p>
+    </div>
+  </div>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+
+  <script type="module">
+    import config from './config.js';
+    import { initMap } from '/shared/main.js';
+    initMap(config);
+  </script>
+
+  <script>
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+
+    const wrap = document.getElementById('province-wrap');
+    const btn  = document.getElementById('province-btn');
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      wrap.classList.toggle('open');
+    });
+    document.addEventListener('click', () => wrap.classList.remove('open'));
+
+    const bhModal = document.getElementById('bh-modal');
+    document.getElementById('bh-info-btn').addEventListener('click', () => bhModal.classList.add('open'));
+    document.getElementById('bh-modal-close').addEventListener('click', () => bhModal.classList.remove('open'));
+    bhModal.addEventListener('click', e => { if (e.target === bhModal) bhModal.classList.remove('open'); });
+  </script>
+</body>
+</html>

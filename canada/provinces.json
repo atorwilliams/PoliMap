@@ -58,8 +58,8 @@
       "partyColor": "#003DA5",
       "federalSeats": 122,
       "provincialSeats": 124,
-      "mapUrl": null,
-      "available": false
+      "mapUrl": "/canada/ontario/",
+      "available": true
     },
     "24": {
       "name": "Quebec",
@@ -69,8 +69,8 @@
       "partyColor": "#1E88D5",
       "federalSeats": 78,
       "provincialSeats": 125,
-      "mapUrl": null,
-      "available": false
+      "mapUrl": "/canada/qc/",
+      "available": true
     },
     "13": {
       "name": "New Brunswick",

@@ -62,6 +62,11 @@ export async function initRidings(map, config) {
       geojson = reprojectGeoJSON(geojson, config.projectionDef.name);
     }
 
+    geojson.features.forEach(f => {
+      const v = f.properties[nameProp];
+      if (v) f.properties[nameProp] = v.replace(/'/g, "'");
+    });
+
     provincialGeoJSON = geojson;
     map.getSource(`${prefix}-source`).setData(geojson);
 

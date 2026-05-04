@@ -20,6 +20,12 @@ export async function initFederalRidings(map, config) {
     if (!geoResponse.ok) throw new Error(`Federal GeoJSON fetch failed: ${geoResponse.status}`);
     const geojson = await geoResponse.json();
 
+    const nameKey = config.federalNameProperty || 'name';
+    geojson.features.forEach(f => {
+      const raw = (f.properties[nameKey] || '').trim();
+      f.properties.name = raw.replace(/--/g, '—').replace(/’/g, "'");
+    });
+
     federalGeoJSON = geojson;
     map.getSource('federal-source').setData(geojson);
 
