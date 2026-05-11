@@ -3,13 +3,14 @@
   "geoname": "Kelowna",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Tom Dyas",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayorandcouncil@kelowna.ca",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],

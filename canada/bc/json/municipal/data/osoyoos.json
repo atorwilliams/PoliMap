@@ -3,19 +3,20 @@
   "geoname": "Osoyoos",
   "type": "TOWN",
   "mayor": {
-    "name": "",
+    "name": "Sue H. McKortoff",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.osoyoos.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

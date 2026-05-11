@@ -3,19 +3,20 @@
   "geoname": "Metchosin",
   "type": "DISTRICT",
   "mayor": {
-    "name": "",
+    "name": "Marie-Térèse Little",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayorandcouncil@metchosin.ca",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.metchosin.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

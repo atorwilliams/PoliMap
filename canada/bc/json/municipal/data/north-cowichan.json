@@ -3,19 +3,20 @@
   "geoname": "North Cowichan",
   "type": "DISTRICT",
   "mayor": {
-    "name": "",
+    "name": "Rob Douglas",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "party": "Independent",
+    "email": "rob.douglas@northcowichan.ca"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.northcowichan.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

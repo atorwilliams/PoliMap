@@ -3,19 +3,20 @@
   "geoname": "Maple Ridge",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Dan Ruimy",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "party": "A Better Maple Ridge",
+    "email": "mayorcouncilandcao@mapleridge.ca"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.mapleridge.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

@@ -3,13 +3,14 @@
   "geoname": "New Westminster",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Patrick Johnstone",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "pjohnstone@newwestcity.ca",
+    "party": "Community First"
   },
   "council": [],
   "appointed": [],

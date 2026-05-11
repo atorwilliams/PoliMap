@@ -3,19 +3,20 @@
   "geoname": "Qualicum Beach",
   "type": "TOWN",
   "mayor": {
-    "name": "",
+    "name": "Teunis Westbroek",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.qualicumbeach.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

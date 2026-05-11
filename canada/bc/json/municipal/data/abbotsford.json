@@ -3,13 +3,15 @@
   "geoname": "Abbotsford",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Ross Siemens",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayorsiemens@abbotsford.ca",
+    "party": "Independent",
+    "url": "https://www.abbotsford.ca/city-hall/contact-us"
   },
   "council": [],
   "appointed": [],

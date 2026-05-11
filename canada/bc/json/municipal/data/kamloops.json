@@ -3,19 +3,20 @@
   "geoname": "Kamloops",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Reid Hamer-Jackson",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "party": "Independent",
+    "email": "legislate@kamloops.ca"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.kamloops.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

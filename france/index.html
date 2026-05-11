@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>France – PoliMap</title>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/landing.css">
+  <style>
+    #map { width: 100%; height: 100%; }
+
+    .landing-split { transition: none; }
+    .landing-panel { transition: width 0.35s ease, padding 0.35s ease, opacity 0.25s ease; }
+    .landing-split.map-mode .landing-panel {
+      width: 0;
+      padding-left: 0;
+      padding-right: 0;
+      overflow: hidden;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    #map-back-btn {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      z-index: 10;
+      background: rgba(13,13,13,0.88);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 8px;
+      padding: 7px 14px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: none;
+      backdrop-filter: blur(4px);
+      transition: background 0.15s;
+    }
+    #map-back-btn:hover { background: rgba(40,40,40,0.95); }
+
+    .president-strip {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      margin-bottom: 4px;
+    }
+    .president-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      background: #002395;
+    }
+    .president-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.3);
+      margin-bottom: 2px;
+    }
+    .president-name {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .president-sub {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.45);
+    }
+
+    .detail-bar {
+      height: 3px;
+      border-radius: 2px;
+      margin-bottom: 24px;
+      background: #4A90D9;
+    }
+    .detail-region-name {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+    .detail-label {
+      font-size: 0.62rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.3);
+      margin-bottom: 4px;
+      display: block;
+    }
+    .detail-person-name {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 2px;
+    }
+    .detail-person-since {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.35);
+      margin-bottom: 20px;
+    }
+    .detail-stats {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+    .detail-stat-block {
+      flex: 1;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px;
+      padding: 8px 10px;
+    }
+    .detail-stat-num {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+      margin-bottom: 3px;
+    }
+    .detail-stat-label {
+      font-size: 0.65rem;
+      color: rgba(255,255,255,0.35);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+    }
+    .detail-explore-btn {
+      display: block;
+      width: 100%;
+      padding: 10px 18px;
+      background: #4A90D9;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-align: center;
+      cursor: pointer;
+      transition: background 0.15s;
+      margin-bottom: 10px;
+    }
+    .detail-explore-btn:hover { background: #357abd; }
+    .detail-layer-btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .detail-layer-btn {
+      padding: 5px 10px;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 6px;
+      color: rgba(255,255,255,0.6);
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .detail-layer-btn:hover, .detail-layer-btn.active {
+      background: rgba(255,255,255,0.15);
+      color: #fff;
+      border-color: rgba(255,255,255,0.3);
+    }
+    #layer-switcher { min-width: 160px; }
+  </style>
+</head>
+<body class="landing-body">
+
+  <div class="landing-split">
+
+    <!-- Left panel -->
+    <div class="landing-panel">
+
+      <a href="/" class="landing-wordmark" style="text-decoration:none;">
+        <div class="landing-wordmark-main">PoliMap</div>
+        <div class="landing-wordmark-sub">Ridings in Colour</div>
+      </a>
+
+      <div class="landing-mid">
+
+        <div class="detail-bar" style="background:linear-gradient(90deg,#002395 40%,#ED2939);"></div>
+        <div style="font-size:1.7rem;font-weight:800;color:#fff;line-height:1.1;margin-bottom:20px;">France</div>
+
+        <div class="president-strip">
+          <div class="president-dot"></div>
+          <div>
+            <div class="president-label">Président de la République</div>
+            <div class="president-name">Emmanuel Macron</div>
+            <div class="president-sub">Renaissance · Depuis mai 2017</div>
+          </div>
+        </div>
+
+        <div class="detail-stats" style="margin-top:20px;">
+          <div class="detail-stat-block">
+            <div class="detail-stat-num">18</div>
+            <div class="detail-stat-label">Régions</div>
+          </div>
+          <div class="detail-stat-block">
+            <div class="detail-stat-num">101</div>
+            <div class="detail-stat-label">Dép.</div>
+          </div>
+          <div class="detail-stat-block">
+            <div class="detail-stat-num">577</div>
+            <div class="detail-stat-label">Circos</div>
+          </div>
+        </div>
+
+        <button id="explore-france-btn" class="detail-explore-btn" style="margin-top:24px;">Explorer la France →</button>
+
+      </div>
+
+      <footer class="landing-footer">
+        <a class="landing-footer-link" href="/donate.html">Donate</a>
+        <span class="landing-footer-sep">·</span>
+        <a class="landing-footer-link" href="https://polichan.org" target="_blank">Forum</a>
+      </footer>
+
+    </div>
+
+    <!-- Right panel: map -->
+    <div class="landing-map-wrap">
+      <div id="map"></div>
+      <button id="map-back-btn">← France</button>
+      <div class="landing-map-fade"></div>
+
+      <div id="map-controls-stack">
+        <div id="layer-switcher" class="map-control" style="display:none;">
+          <div class="control-header">Couche</div>
+          <div id="layer-switcher-btns"></div>
+        </div>
+        <div id="legend" class="map-control legend-control" style="display:none;">
+          <div class="control-header">Légende</div>
+          <div id="legend-parties"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="heavy-layer-modal" class="modal-overlay" style="display:none;">
+    <div class="modal-box">
+      <button class="modal-close" id="heavy-modal-cancel">×</button>
+      <h2>Couche lourde</h2>
+      <p>La couche communes couvre les 35 000 communes françaises. Le fichier fait 13 Mo et peut prendre plusieurs secondes à charger.</p>
+      <p>Continuer quand même ?</p>
+      <div style="display:flex;gap:10px;margin-top:16px;">
+        <button id="heavy-modal-confirm" style="padding:8px 20px;background:#003DA5;color:white;border:none;border-radius:6px;font-weight:bold;cursor:pointer;">Charger quand même</button>
+        <button id="heavy-modal-cancel2" style="padding:8px 20px;background:transparent;color:#ccc;border:1px solid #555;border-radius:6px;cursor:pointer;">Annuler</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script type="module">
+
+    // ── Layer config ─────────────────────────────────────────────────────────
+    const LAYERS = {
+      regions:          { file: './json/regions.geojson',          nameProp: 'nom',                color: '#4A90D9', partisan: false },
+      departements:     { file: './json/departements.geojson',     nameProp: 'nom',                color: '#6C4FC4', partisan: false },
+      arrondissements:  { file: './json/arrondissements.geojson',  nameProp: 'nom',                color: '#E8843A', partisan: false },
+      cantons:          { file: './json/cantons.geojson',          nameProp: 'nom',                color: '#2AA876', partisan: false },
+      communes:         { file: './json/communes-simple.geojson',  nameProp: 'nom',                color: '#C0392B', partisan: false, heavy: true },
+      circonscriptions: { file: './json/circonscriptions.geojson', nameProp: 'nomCirconscription', color: '#1B6CA8', partisan: true  },
+    };
+
+    const LAYER_LABELS = {
+      regions: 'Régions', departements: 'Départements', arrondissements: 'Arrondissements',
+      cantons: 'Cantons', communes: 'Communes', circonscriptions: 'Circonscriptions',
+    };
+
+    // ── State ────────────────────────────────────────────────────────────────
+    const geoCache  = {};
+    let ridingData  = null;
+    let regionsData = null;
+    let activeLayer = 'regions';
+    let popup       = null;
+    let hoveredId   = null;
+    let layerHandlers = null;
+
+    // ── Map init ─────────────────────────────────────────────────────────────
+    const map = new maplibregl.Map({
+      container: 'map',
+      style: 'https://tiles.openfreemap.org/styles/positron',
+      center: [2.5, 46.5],
+      zoom: 5.2,
+      attributionControl: false,
+    });
+
+    map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+    // ── Data loaders ─────────────────────────────────────────────────────────
+    async function loadGeo(key) {
+      if (geoCache[key]) return geoCache[key];
+      const res = await fetch(LAYERS[key].file);
+      geoCache[key] = await res.json();
+      return geoCache[key];
+    }
+
+    async function loadRidingData() {
+      if (ridingData) return ridingData;
+      const res = await fetch('./json/ridingData.json');
+      ridingData = await res.json();
+      return ridingData;
+    }
+
+    async function loadRegionsData() {
+      if (regionsData) return regionsData;
+      const res = await fetch('./json/regions_data.json');
+      regionsData = await res.json();
+      return regionsData;
+    }
+
+    const communeCache = {};
+    async function loadCommuneData(code) {
+      if (communeCache[code]) return communeCache[code];
+      const res = await fetch(`https://geo.api.gouv.fr/communes/${code}?fields=population,codesPostaux`);
+      communeCache[code] = res.ok ? await res.json() : {};
+      return communeCache[code];
+    }
+
+    let mairesData = null;
+    async function loadMaires() {
+      if (mairesData) return mairesData;
+      const res = await fetch('./json/maires.json');
+      mairesData = await res.json();
+      return mairesData;
+    }
+
+    const mairieContactCache = {};
+    async function loadMairieContact(code) {
+      if (mairieContactCache[code] !== undefined) return mairieContactCache[code];
+      try {
+        const url = `https://api-lannuaire.service-public.gouv.fr/api/explore/v2.1/catalog/datasets/api-lannuaire-administration/records?where=code_insee_commune%3D%22${code}%22%20AND%20pivot%20LIKE%20%27mairie%27&limit=1`;
+        const res = await fetch(url);
+        const json = res.ok ? await res.json() : null;
+        mairieContactCache[code] = json?.results?.[0] || null;
+      } catch { mairieContactCache[code] = null; }
+      return mairieContactCache[code];
+    }
+
+    let deptsData = null;
+    async function loadDeptsData() {
+      if (deptsData) return deptsData;
+      const res = await fetch('./json/departements_data.json');
+      deptsData = await res.json();
+      return deptsData;
+    }
+
+    let deptLookup = null;
+    async function loadDeptLookup() {
+      if (deptLookup) return deptLookup;
+      const geo = geoCache['departements'] || await (async () => {
+        const res = await fetch(LAYERS.departements.file);
+        return geoCache['departements'] = await res.json();
+      })();
+      deptLookup = {};
+      geo.features.forEach(f => { deptLookup[f.properties.code] = f.properties.nom; });
+      return deptLookup;
+    }
+
+    function parseDilaField(raw) {
+      if (!raw) return [];
+      try { return JSON.parse(raw); } catch { return []; }
+    }
+
+    // ── Panel button ─────────────────────────────────────────────────────────
+    function enterMapMode() {
+      document.querySelector('.landing-split').classList.add('map-mode');
+      document.getElementById('map-back-btn').style.display = 'block';
+      document.getElementById('layer-switcher').style.display = 'block';
+      setTimeout(() => map.resize(), 350);
+    }
+
+    function exitMapMode() {
+      document.querySelector('.landing-split').classList.remove('map-mode');
+      document.getElementById('map-back-btn').style.display = 'none';
+      document.getElementById('layer-switcher').style.display = 'none';
+      setTimeout(() => map.resize(), 350);
+    }
+
+    document.getElementById('explore-france-btn').addEventListener('click', () => {
+      enterMapMode();
+    });
+
+    document.getElementById('map-back-btn').addEventListener('click', () => {
+      exitMapMode();
+    });
+
+    // ── Layer switcher ───────────────────────────────────────────────────────
+    function renderLayerSwitcher() {
+      const container = document.getElementById('layer-switcher-btns');
+      container.innerHTML = Object.entries(LAYER_LABELS).map(([key, label]) => `
+        <div data-layer="${key}" style="
+          padding:6px 10px;cursor:pointer;border-radius:6px;font-size:0.82rem;
+          margin:2px 0;transition:background 0.15s;
+          ${activeLayer === key ? 'background:rgba(255,255,255,0.15);font-weight:700;color:#fff;' : 'color:rgba(255,255,255,0.55);'}
+        ">${label}</div>
+      `).join('');
+      container.querySelectorAll('[data-layer]').forEach(el => {
+        el.addEventListener('click', () => requestLayer(el.dataset.layer));
+      });
+    }
+
+    // ── Map layers ───────────────────────────────────────────────────────────
+    function buildColorExpression(geojson, data) {
+      const expr = ['match', ['get', 'codeCirconscription']];
+      geojson.features.forEach(f => {
+        const code  = f.properties.codeCirconscription;
+        const rd    = data.ridings[code];
+        const party = rd?.depute?.party || '';
+        const color = data.parties[party]?.color || '#cccccc';
+        expr.push(code, color);
+      });
+      expr.push('#cccccc');
+      return expr;
+    }
+
+    function buildPartyMembers(data) {
+      const pm = {};
+      Object.entries(data.parties).forEach(([p, info]) => { pm[p] = { color: info.color, members: [] }; });
+      Object.entries(data.ridings).forEach(([code, riding]) => {
+        const d = riding.depute;
+        if (d?.party && pm[d.party]) pm[d.party].members.push({ ...d, code });
+      });
+      return pm;
+    }
+
+    function renderLegend(data) {
+      const container = document.getElementById('legend-parties');
+      container.innerHTML = '';
+      const pm = buildPartyMembers(data);
+      Object.entries(pm)
+        .filter(([, info]) => info.members.length > 0)
+        .sort((a, b) => b[1].members.length - a[1].members.length)
+        .forEach(([party, info]) => {
+          const item = document.createElement('div');
+          item.style.cssText = 'display:flex;align-items:center;margin:6px 0;cursor:pointer;padding:6px;border-radius:6px;transition:background 0.2s;';
+          item.innerHTML = `
+            <div style="width:20px;height:20px;background:${info.color};border-radius:4px;margin-right:10px;flex-shrink:0;"></div>
+            <span style="font-weight:bold;">${party} (${info.members.length})</span>
+          `;
+          item.addEventListener('click', () => showPartySidebar(party, info.members, info.color));
+          item.addEventListener('mouseenter', () => item.style.background = 'rgba(255,255,255,0.12)');
+          item.addEventListener('mouseleave', () => item.style.background = 'transparent');
+          container.appendChild(item);
+        });
+    }
+
+    function clearLayers() {
+      if (hoveredId !== null && map.getSource('fr-source')) {
+        map.setFeatureState({ source: 'fr-source', id: hoveredId }, { hover: false });
+      }
+      hoveredId = null;
+      if (layerHandlers) {
+        if (layerHandlers.mousemove) map.off('mousemove', 'fr-hover', layerHandlers.mousemove);
+        if (layerHandlers.mouseleave) map.off('mouseleave', 'fr-hover', layerHandlers.mouseleave);
+        if (layerHandlers.click) map.off('click', 'fr-fill', layerHandlers.click);
+        layerHandlers = null;
+      }
+      ['fr-fill', 'fr-outline', 'fr-hover'].forEach(id => {
+        if (map.getLayer(id)) map.removeLayer(id);
+      });
+      if (map.getSource('fr-source')) map.removeSource('fr-source');
+    }
+
+    async function showLayer(key) {
+      let geojson, data;
+      try {
+        const cfg = LAYERS[key];
+        geojson = await loadGeo(key);
+        data    = cfg.partisan ? await loadRidingData() : null;
+      } catch (err) {
+        console.error('showLayer: failed to load data for', key, err);
+        return;
+      }
+
+      const cfg = LAYERS[key];
+      clearLayers();
+
+      const fillColor = cfg.partisan ? buildColorExpression(geojson, data) : cfg.color;
+
+      try {
+        map.addSource('fr-source', { type: 'geojson', data: geojson, generateId: true });
+        map.addLayer({
+          id: 'fr-fill', type: 'fill', source: 'fr-source',
+          paint: { 'fill-color': fillColor, 'fill-opacity': cfg.partisan ? 0.35 : 0.15 },
+        });
+        map.addLayer({
+          id: 'fr-outline', type: 'line', source: 'fr-source',
+          paint: { 'line-color': cfg.color, 'line-width': 0.8, 'line-opacity': 0.6 },
+        });
+        map.addLayer({
+          id: 'fr-hover', type: 'fill', source: 'fr-source',
+          paint: {
+            'fill-color': '#ffffff',
+            'fill-opacity': ['case', ['boolean', ['feature-state', 'hover'], false], 0.15, 0],
+          },
+        });
+      } catch (err) {
+        console.error('showLayer: MapLibre error adding layers for', key, err);
+        return;
+      }
+
+      const onMousemove = e => {
+        map.getCanvas().style.cursor = 'pointer';
+        const id = e.features[0].id;
+        if (id !== hoveredId) {
+          if (hoveredId !== null) map.setFeatureState({ source: 'fr-source', id: hoveredId }, { hover: false });
+          hoveredId = id;
+          map.setFeatureState({ source: 'fr-source', id: hoveredId }, { hover: true });
+        }
+      };
+      const onMouseleave = () => {
+        map.getCanvas().style.cursor = '';
+        if (hoveredId !== null) map.setFeatureState({ source: 'fr-source', id: hoveredId }, { hover: false });
+        hoveredId = null;
+      };
+
+      map.on('mousemove', 'fr-hover', onMousemove);
+      map.on('mouseleave', 'fr-hover', onMouseleave);
+
+      const onClick = e => {
+        if (popup) { popup.remove(); popup = null; }
+        const props = e.features[0].properties;
+
+        if (!cfg.partisan) {
+          if (key === 'regions') {
+            const rd = regionsData?.[props.code];
+            const pres = rd?.president;
+            const since = pres?.functionSince ? pres.functionSince.slice(-4) : '';
+            popup = new maplibregl.Popup({ closeButton: true, closeOnClick: false, offset: 10, className: 'preview-popup' })
+              .setLngLat(e.lngLat)
+              .setHTML(`
+                <div style="min-width:200px;font-family:inherit;">
+                  <div style="height:4px;background:#4A90D9;border-radius:4px 4px 0 0;"></div>
+                  <div style="padding:14px 16px 12px;">
+                    <div style="font-size:1.15em;font-weight:800;color:#111;margin-bottom:10px;">${props.nom}</div>
+                    ${pres ? `<div style="margin-bottom:12px;">
+                      <div style="font-size:0.68em;text-transform:uppercase;letter-spacing:0.1em;color:#999;margin-bottom:3px;">Président du conseil régional</div>
+                      <div style="font-weight:600;color:#222;font-size:0.92em;">${pres.name}</div>
+                      ${since ? `<div style="font-size:0.78em;color:#aaa;">depuis ${since}</div>` : ''}
+                    </div>` : ''}
+                    <div style="font-size:0.78em;color:#888;">${(rd?.departements||[]).length} département${(rd?.departements||[]).length !== 1 ? 's' : ''}</div>
+                  </div>
+                </div>`)
+              .addTo(map);
+            return;
+          }
+
+          if (key === 'communes') {
+            const code = props.code;
+            popup = new maplibregl.Popup({ closeButton: true, closeOnClick: false, offset: 10, className: 'preview-popup' })
+              .setLngLat(e.lngLat)
+              .setHTML(`<div style="padding:10px 14px;min-width:150px;"><div style="font-weight:700;color:#111;">${props.nom}</div><div style="color:#aaa;font-size:0.82em;margin-top:4px;">Chargement...</div></div>`)
+              .addTo(map);
+            Promise.all([loadDeptLookup(), loadCommuneData(code), loadMaires()]).then(([lookup, info, maires]) => {
+              if (!popup) return;
+              const deptCode = code.slice(0, 2);
+              const deptName = lookup[deptCode] || '';
+              const pop      = info.population ? info.population.toLocaleString('fr-FR') + ' hab.' : '';
+              const postal   = info.codesPostaux?.join(', ') || '';
+              const maire    = maires[code];
+              const since    = maire?.functionSince ? maire.functionSince.slice(-4) : '';
+              popup.setHTML(`
+                <div style="min-width:200px;font-family:inherit;">
+                  <div style="height:4px;background:#C0392B;border-radius:4px 4px 0 0;"></div>
+                  <div style="padding:14px 16px 12px;">
+                    <div style="font-size:1.15em;font-weight:800;color:#111;margin-bottom:2px;">${props.nom}</div>
+                    ${deptName ? `<div style="font-size:0.82em;color:#777;margin-bottom:10px;">${deptName}</div>` : ''}
+                    ${pop || postal ? `<div style="margin-bottom:10px;">
+                      <div style="font-size:0.68em;text-transform:uppercase;letter-spacing:0.1em;color:#999;margin-bottom:3px;">Population</div>
+                      <div style="font-weight:600;color:#222;font-size:0.92em;">${[pop, postal].filter(Boolean).join(' · ')}</div>
+                    </div>` : ''}
+                    ${maire ? `<div style="margin-bottom:12px;">
+                      <div style="font-size:0.68em;text-transform:uppercase;letter-spacing:0.1em;color:#999;margin-bottom:3px;">Maire</div>
+                      <div style="font-weight:600;color:#222;font-size:0.92em;">${maire.name}</div>
+                      ${since ? `<div style="font-size:0.78em;color:#aaa;">depuis ${since}</div>` : ''}
+                    </div>` : ''}
+                    <button id="commune-detail-btn" style="width:100%;margin-top:4px;padding:8px 0;background:#C0392B;color:white;border:none;border-radius:6px;font-weight:700;cursor:pointer;font-size:0.85em;">Détails &amp; Contact →</button>
+                  </div>
+                </div>`);
+              const tryAttach = (n = 0) => {
+                const btn = document.getElementById('commune-detail-btn');
+                if (btn) btn.addEventListener('click', () => { popup.remove(); popup = null; showCommuneSidebar(props, info, maire, deptName); });
+                else if (n < 4) setTimeout(() => tryAttach(n + 1), 150);
+              };
+              tryAttach();
+            });
+            return;
+          }
+
+          if (key === 'departements') {
+            popup = new maplibregl.Popup({ closeButton: true, closeOnClick: false, offset: 10, className: 'preview-popup' })
+              .setLngLat(e.lngLat)
+              .setHTML(`<div style="padding:10px 14px;min-width:150px;"><div style="font-weight:700;color:#111;">${props.nom}</div><div style="color:#aaa;font-size:0.82em;margin-top:4px;">Chargement...</div></div>`)
+              .addTo(map);
+            loadDeptsData().then(data => {
+              if (!popup) return;
+              const info = data[props.code];
+              const pres = info?.president;
+              const pref = info?.prefecture;
+              const presSince = pres?.functionSince ? pres.functionSince.slice(-4) : '';
+              popup.setHTML(`
+                <div style="min-width:200px;font-family:inherit;">
+                  <div style="height:4px;background:#6C4FC4;border-radius:4px 4px 0 0;"></div>
+                  <div style="padding:14px 16px 12px;">
+                    <div style="font-size:1.15em;font-weight:800;color:#111;margin-bottom:12px;">${props.nom}</div>
+                    ${pres ? `<div style="margin-bottom:10px;">
+                      <div style="font-size:0.68em;text-transform:uppercase;letter-spacing:0.1em;color:#999;margin-bottom:3px;">Président du conseil</div>
+                      <div style="font-weight:600;color:#222;font-size:0.92em;">${pres.name}</div>
+                      ${presSince ? `<div style="font-size:0.78em;color:#aaa;">depuis ${presSince}</div>` : ''}
+                    </div>` : ''}
+                    ${pref?.prefet ? `<div style="margin-bottom:12px;">
+                      <div style="font-size:0.68em;text-transform:uppercase;letter-spacing:0.1em;color:#999;margin-bottom:3px;">Préfet</div>
+                      <div style="font-weight:600;color:#222;font-size:0.92em;">${pref.prefet.name}</div>
+                    </div>` : ''}
+                    <button id="dept-detail-btn" style="width:100%;margin-top:4px;padding:8px 0;background:#6C4FC4;color:white;border:none;border-radius:6px;font-weight:700;cursor:pointer;font-size:0.85em;">Détails &amp; Contact →</button>
+                  </div>
+                </div>`);
+              const tryAttach = (n = 0) => {
+                const btn = document.getElementById('dept-detail-btn');
+                if (btn) btn.addEventListener('click', () => { popup.remove(); popup = null; showDeptSidebar(props, info); });
+                else if (n < 4) setTimeout(() => tryAttach(n + 1), 150);
+              };
+              tryAttach();
+            });
+            return;
+          }
+
+          popup = new maplibregl.Popup({ closeButton: true, offset: 10 })
+            .setLngLat(e.lngLat)
+            .setHTML(`<div style="padding:8px 12px;"><strong style="color:#111;">${props.nom}</strong></div>`)
+            .addTo(map);
+          return;
+        }
+
+        // Partisan: circonscriptions
+        const code = props.codeCirconscription;
+        const rd   = data.ridings[code];
+        const dep  = rd?.depute;
+        if (!dep) {
+          popup = new maplibregl.Popup({ closeButton: true, offset: 10 })
+            .setLngLat(e.lngLat)
+            .setHTML(`<div style="padding:8px 12px;font-weight:600;color:#111;">${props.nomCirconscription}</div>`)
+            .addTo(map);
+          return;
+        }
+        const partyColor = data.parties[dep.party]?.color || '#666';
+        const label = `${props.nomCirconscription} – ${props.nomDepartement}`;
+        popup = new maplibregl.Popup({ closeButton: true, closeOnClick: false, offset: 10, className: 'preview-popup' })
+          .setLngLat(e.lngLat)
+          .setHTML(`
+            <div style="min-width:200px;font-family:inherit;">
+              <div style="height:4px;background:${partyColor};border-radius:4px 4px 0 0;"></div>
+              <div style="padding:14px 16px 12px;text-align:center;">
+                ${dep.photo ? `<img src="${dep.photo}" style="width:72px;height:72px;border-radius:50%;object-fit:cover;margin-bottom:10px;border:3px solid ${partyColor};" onerror="this.style.display='none'">` : ''}
+                <div style="font-size:1.05em;font-weight:800;color:#111;">${dep.name}</div>
+                <div style="font-size:0.82em;font-weight:600;color:${partyColor};margin:2px 0 4px;">${dep.party}</div>
+                <div style="font-size:0.78em;color:#888;">${label}</div>
+                <button id="dep-detail-btn" style="width:100%;margin-top:12px;padding:8px 0;background:#003DA5;color:white;border:none;border-radius:6px;font-weight:700;cursor:pointer;font-size:0.85em;">Contact &amp; Détails →</button>
+              </div>
+            </div>`)
+          .addTo(map);
+        const tryAttach = (n = 0) => {
+          const btn = document.getElementById('dep-detail-btn');
+          if (btn) btn.addEventListener('click', () => { popup.remove(); popup = null; showDetailSidebar(dep, label, partyColor); });
+          else if (n < 4) setTimeout(() => tryAttach(n + 1), 150);
+        };
+        tryAttach();
+      };
+
+      map.on('click', 'fr-fill', onClick);
+      layerHandlers = { mousemove: onMousemove, mouseleave: onMouseleave, click: onClick };
+
+      document.getElementById('legend').style.display = cfg.partisan ? 'block' : 'none';
+      if (cfg.partisan) renderLegend(data);
+
+      activeLayer = key;
+      renderLayerSwitcher();
+    }
+
+    function requestLayer(key) {
+      if (LAYERS[key]?.heavy && !geoCache[key]) {
+        const modal = document.getElementById('heavy-layer-modal');
+        modal.style.display = 'flex';
+        const confirm = document.getElementById('heavy-modal-confirm');
+        const cancel  = document.getElementById('heavy-modal-cancel');
+        const cancel2 = document.getElementById('heavy-modal-cancel2');
+        const close = () => { modal.style.display = 'none'; };
+        const onConfirm = () => { close(); confirm.removeEventListener('click', onConfirm); showLayer(key); };
+        confirm.addEventListener('click', onConfirm);
+        cancel.onclick = close; cancel2.onclick = close;
+        modal.onclick = e => { if (e.target === modal) close(); };
+      } else {
+        showLayer(key);
+      }
+    }
+
+    // ── Sidebars ─────────────────────────────────────────────────────────────
+    function showPartySidebar(party, members, partyColor) {
+      if (window.currentSidebar) { window.currentSidebar.remove(); window.currentSidebar = null; }
+      const sidebar = document.createElement('div');
+      sidebar.className = 'party-sidebar';
+      sidebar.innerHTML = `
+        <button id="sidebar-close-btn">×</button>
+        <div class="sidebar-content members-list">
+          ${members.sort((a, b) => a.name.localeCompare(b.name)).map(m => `
+            <div class="member-card" data-member='${JSON.stringify(m).replace(/'/g, "&#39;")}'>
+              <div class="card-image" style="background-image:url('${m.photo || ''}');">
+                <div class="party-stripe" style="background:${partyColor};"></div>
+                <div class="card-overlay"></div>
+              </div>
+              <div class="card-text"><h4>${m.name}</h4><p>${m.code}</p></div>
+            </div>`).join('')}
+        </div>`;
+      document.body.appendChild(sidebar);
+      document.getElementById('sidebar-close-btn').addEventListener('click', () => {
+        sidebar.remove(); window.currentSidebar = null; document.body.classList.remove('sidebar-open');
+      });
+      sidebar.querySelectorAll('.member-card').forEach(card => {
+        card.addEventListener('click', () => {
+          const m = JSON.parse(card.dataset.member);
+          const geo = geoCache['circonscriptions'];
+          const feat = geo?.features.find(f => f.properties.codeCirconscription === m.code);
+          const label = feat ? `${feat.properties.nomCirconscription} – ${feat.properties.nomDepartement}` : m.code;
+          showDetailSidebar(m, label, partyColor);
+        });
+      });
+      setTimeout(() => sidebar.classList.add('open'), 10);
+      document.body.classList.add('sidebar-open');
+      window.currentSidebar = sidebar;
+    }
+
+    function showDetailSidebar(dep, constituency, partyColor) {
+      if (window.currentSidebar) { window.currentSidebar.remove(); window.currentSidebar = null; }
+      const contact = dep.contact || {};
+      const sidebar = document.createElement('div');
+      sidebar.className = 'member-detail-sidebar';
+      sidebar.innerHTML = `
+        <button id="sidebar-close-btn">×</button>
+        <div class="hero-image" style="background-image:url('${dep.photo || ''}');">
+          <div class="party-stripe" style="background:${partyColor};"></div>
+          <div class="image-overlay"></div>
+        </div>
+        <div class="member-info">
+          <h3>${dep.name}</h3>
+          <p class="riding">${constituency}</p>
+          <div class="contact-details">
+            ${contact.address ? `<div class="contact-item"><strong>Bureau</strong><p>${contact.address}</p></div>` : ''}
+            ${contact.phone   ? `<div class="contact-item"><strong>Téléphone</strong><p>${contact.phone}</p></div>` : ''}
+            ${contact.email   ? `<div class="contact-item"><strong>Email</strong><a href="mailto:${contact.email}">${contact.email}</a></div>` : ''}
+            ${contact.website ? `<div class="contact-item"><strong>Site web</strong><a href="${contact.website}" target="_blank">${contact.website}</a></div>` : ''}
+            ${dep.profileUrl  ? `<div class="contact-item"><a href="${dep.profileUrl}" target="_blank" class="external-profile">Voir le profil à l'Assemblée nationale →</a></div>` : ''}
+          </div>
+          ${buildSocialLinks(contact.social)}
+        </div>`;
+      document.body.appendChild(sidebar);
+      document.getElementById('sidebar-close-btn').addEventListener('click', () => {
+        sidebar.remove(); window.currentSidebar = null; document.body.classList.remove('sidebar-open');
+      });
+      setTimeout(() => sidebar.classList.add('open'), 10);
+      document.body.classList.add('sidebar-open');
+      window.currentSidebar = sidebar;
+    }
+
+    function showDeptSidebar(props, info) {
+      if (window.currentSidebar) { window.currentSidebar.remove(); window.currentSidebar = null; }
+      const pres = info?.president;
+      const pref = info?.prefecture;
+      const since = pres?.functionSince ? pres.functionSince.slice(-4) : '';
+      const socialIconMap = { 'Facebook': 'facebook', 'Instagram': 'instagram', 'X ex Twitter': 'x', 'YouTube': 'youtube', 'LinkedIn': 'linkedin' };
+      const socialHtml = pref?.socials?.length ? `<div class="social-links">${pref.socials.map(s => {
+        const icon = socialIconMap[s.label];
+        return icon ? `<a href="${s.url}" target="_blank" rel="noopener noreferrer" class="social-icon-link"><img src="https://cdn.simpleicons.org/${icon}/ffffff" alt="${icon}" width="20" height="20"></a>` : '';
+      }).join('')}</div>` : '';
+      const hoursHtml = pref?.hours?.length ? `<div class="contact-item"><strong>Horaires préfecture</strong>${pref.hours.map(h => `<p>${h.from}${h.to !== h.from ? '–'+h.to : ''} ${h.open.slice(0,5)}–${h.close.slice(0,5)}${h.note ? ` <span style="color:#aaa">${h.note}</span>` : ''}</p>`).join('')}</div>` : '';
+      const sidebar = document.createElement('div');
+      sidebar.className = 'member-detail-sidebar';
+      sidebar.innerHTML = `
+        <button id="sidebar-close-btn">×</button>
+        <div class="hero-image" style="background:#6C4FC4;"><div class="image-overlay"></div></div>
+        <div class="member-info">
+          <h3>${props.nom}</h3><p class="riding">Département</p>
+          ${pres ? `<div class="contact-details"><div class="contact-item">
+            <strong>Président du conseil départemental</strong>
+            <p>${pres.name}${since ? ` <span style="color:#aaa;font-size:0.88em;">depuis ${since}</span>` : ''}</p>
+            ${pres.profession ? `<p style="color:#aaa;font-size:0.85em;">${pres.profession}</p>` : ''}
+          </div></div>` : ''}
+          ${pref ? `<div class="contact-details" style="margin-top:12px;">
+            ${pref.prefet ? `<div class="contact-item"><strong>Préfet</strong><p>${pref.prefet.name}</p>
+              ${pref.prefet.grade ? `<p style="color:#aaa;font-size:0.85em;">${pref.prefet.grade}</p>` : ''}
+              ${pref.prefet.decretUrl ? `<p style="font-size:0.82em;"><a href="${pref.prefet.decretUrl}" target="_blank" style="color:#aaa;">Décret de nomination →</a></p>` : ''}
+            </div>` : ''}
+            ${pref.address ? `<div class="contact-item"><strong>Adresse</strong><p>${pref.address}</p></div>` : ''}
+            ${pref.phone   ? `<div class="contact-item"><strong>Téléphone</strong><p>${pref.phone}</p></div>` : ''}
+            ${pref.email   ? `<div class="contact-item"><strong>Email</strong><a href="mailto:${pref.email}">${pref.email}</a></div>` : ''}
+            ${pref.website ? `<div class="contact-item"><strong>Site web</strong><a href="${pref.website}" target="_blank">${pref.website}</a></div>` : ''}
+            ${hoursHtml}
+          </div>${socialHtml}` : ''}
+        </div>`;
+      document.body.appendChild(sidebar);
+      document.getElementById('sidebar-close-btn').addEventListener('click', () => {
+        sidebar.remove(); window.currentSidebar = null; document.body.classList.remove('sidebar-open');
+      });
+      setTimeout(() => sidebar.classList.add('open'), 10);
+      document.body.classList.add('sidebar-open');
+      window.currentSidebar = sidebar;
+    }
+
+    function showCommuneSidebar(props, geoInfo, maire, deptName) {
+      if (window.currentSidebar) { window.currentSidebar.remove(); window.currentSidebar = null; }
+      const pop   = geoInfo.population ? geoInfo.population.toLocaleString('fr-FR') + ' hab.' : '';
+      const postal = geoInfo.codesPostaux?.join(', ') || '';
+      const since = maire?.functionSince ? maire.functionSince.slice(-4) : '';
+      const sidebar = document.createElement('div');
+      sidebar.className = 'member-detail-sidebar';
+      sidebar.innerHTML = `
+        <button id="sidebar-close-btn">×</button>
+        <div class="hero-image" style="background:#C0392B;"><div class="image-overlay"></div></div>
+        <div class="member-info">
+          <h3>${props.nom}</h3><p class="riding">${deptName}</p>
+          <div class="contact-details">
+            ${pop    ? `<div class="contact-item"><strong>Population</strong><p>${pop}</p></div>` : ''}
+            ${postal ? `<div class="contact-item"><strong>Code postal</strong><p>${postal}</p></div>` : ''}
+          </div>
+          ${maire ? `<div class="contact-details" style="margin-top:12px;"><div class="contact-item">
+            <strong>Maire</strong>
+            <p>${maire.name}${since ? ` <span style="color:#aaa;font-size:0.88em;">depuis ${since}</span>` : ''}</p>
+            ${maire.profession ? `<p style="color:#aaa;font-size:0.85em;">${maire.profession}</p>` : ''}
+          </div></div>` : ''}
+          <div id="commune-contact-loading" style="margin-top:16px;color:#aaa;font-size:0.85em;">Chargement des contacts...</div>
+        </div>`;
+      document.body.appendChild(sidebar);
+      document.getElementById('sidebar-close-btn').addEventListener('click', () => {
+        sidebar.remove(); window.currentSidebar = null; document.body.classList.remove('sidebar-open');
+      });
+      setTimeout(() => sidebar.classList.add('open'), 10);
+      document.body.classList.add('sidebar-open');
+      window.currentSidebar = sidebar;
+
+      loadMairieContact(props.code).then(contact => {
+        const loadingEl = document.getElementById('commune-contact-loading');
+        if (!loadingEl || !contact) { if (loadingEl) loadingEl.remove(); return; }
+        loadingEl.remove();
+        const phone   = parseDilaField(contact.telephone)[0]?.valeur || '';
+        const website = parseDilaField(contact.site_internet)[0]?.valeur || '';
+        const adresse = parseDilaField(contact.adresse)[0];
+        const address = adresse ? [adresse.numero_voie, adresse.code_postal, adresse.nom_commune].filter(Boolean).join(', ') : '';
+        const email   = contact.adresse_courriel || '';
+        const formUrl = contact.formulaire_contact || '';
+        const socials = parseDilaField(contact.reseau_social);
+        const hours   = parseDilaField(contact.plage_ouverture);
+        const hoursHtml = hours.length ? `<div class="contact-item"><strong>Horaires</strong>${hours.map(h => `<p>${h.nom_jour_debut}${h.nom_jour_fin !== h.nom_jour_debut ? '–'+h.nom_jour_fin : ''} ${h.valeur_heure_debut_1}–${h.valeur_heure_fin_1}${h.commentaire ? ' <span style="color:#aaa">'+h.commentaire+'</span>' : ''}</p>`).join('')}</div>` : '';
+        const socialIconMap = { 'Facebook': 'facebook', 'Instagram': 'instagram', 'X ex Twitter': 'x', 'YouTube': 'youtube', 'LinkedIn': 'linkedin' };
+        const socialHtml = socials.length ? `<div class="social-links">${socials.map(s => { const icon = socialIconMap[s.custom_dico2]; return icon ? `<a href="${s.valeur}" target="_blank" rel="noopener noreferrer" class="social-icon-link"><img src="https://cdn.simpleicons.org/${icon}/ffffff" alt="${icon}" width="20" height="20"></a>` : ''; }).join('')}</div>` : '';
+        sidebar.querySelector('.member-info').insertAdjacentHTML('beforeend', `
+          <div class="contact-details" style="margin-top:12px;">
+            ${address ? `<div class="contact-item"><strong>Adresse</strong><p>${address}</p></div>` : ''}
+            ${phone   ? `<div class="contact-item"><strong>Téléphone</strong><p>${phone}</p></div>` : ''}
+            ${email   ? `<div class="contact-item"><strong>Email</strong><a href="mailto:${email}">${email}</a></div>` : ''}
+            ${website ? `<div class="contact-item"><strong>Site web</strong><a href="${website}" target="_blank">${website}</a></div>` : ''}
+            ${formUrl ? `<div class="contact-item"><a href="${formUrl}" target="_blank" class="external-profile">Formulaire de contact →</a></div>` : ''}
+            ${hoursHtml}
+          </div>${socialHtml}`);
+      });
+    }
+
+    function buildSocialLinks(social) {
+      if (!social) return '';
+      const platforms = [
+        { key: 'twitter', icon: 'x' }, { key: 'facebook', icon: 'facebook' },
+        { key: 'instagram', icon: 'instagram' }, { key: 'youtube', icon: 'youtube' },
+        { key: 'tiktok', icon: 'tiktok' }, { key: 'BlueSky', icon: 'bluesky' },
+      ];
+      const links = platforms.filter(({ key }) => social[key])
+        .map(({ key, icon }) => `<a href="${social[key]}" target="_blank" rel="noopener noreferrer" aria-label="${icon}" class="social-icon-link"><img src="https://cdn.simpleicons.org/${icon}/ffffff" alt="${icon}" width="20" height="20"></a>`)
+        .join('');
+      return links ? `<div class="social-links">${links}</div>` : '';
+    }
+
+    // ── Boot ─────────────────────────────────────────────────────────────────
+    map.on('load', () => {
+      showLayer('regions');
+    });
+
+    // Pre-load regions data for region popup info on map click
+    loadRegionsData();
+
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+
+  </script>
+</body>
+</html>

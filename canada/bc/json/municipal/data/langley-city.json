@@ -3,13 +3,14 @@
   "geoname": "Langley - City",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Nathan Pachal",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "npachal@langleycity.ca",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],

@@ -3,19 +3,20 @@
   "geoname": "North Vancouver - City",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Linda Buchanan",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayor@cnv.org",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.cnv.org",
   "notes": "",
   "schoolTrustees": {
     "public": [],

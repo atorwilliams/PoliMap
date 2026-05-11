@@ -3,19 +3,20 @@
   "geoname": "Powell River",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Ron Woznow",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.powell-river.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

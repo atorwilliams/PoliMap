@@ -648,10 +648,12 @@ function renderMunicipalCouncil(data) {
     <div class="contact-item" style="margin-bottom:4px;">
       <strong>${mayorTitle}</strong>
       <p style="font-size:1.05em; font-weight:700; color:#fff; margin:2px 0 0;">${mayor.name || '—'}</p>
+      ${mayor.party && mayor.party !== 'Independent' && mayor.party !== 'Acclaimed' ? `<p style="font-size:0.8em; color:#aaa; margin:1px 0 0;">${mayor.party}</p>` : ''}
     </div>
     ${mayor.since ? `<div class="contact-item"><strong>Since</strong><p>${mayor.since}</p></div>` : ''}
     ${contactLine('Email', mayor.email, mayor.email ? `mailto:${mayor.email.trim()}` : null)}
     ${contactLine('Phone', mayor.phone, mayor.phone ? `tel:${mayor.phone.trim()}` : null)}
+    ${mayor.url ? contactLine('Profile', 'View profile', mayor.url) : ''}
   ` : '';
 
   const councilHtml = council.length ? `

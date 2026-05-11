@@ -3,19 +3,19 @@
   "geoname": "Quesnel",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Ron Paull",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.quesnel.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

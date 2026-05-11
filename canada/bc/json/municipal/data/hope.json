@@ -3,19 +3,20 @@
   "geoname": "Hope",
   "type": "DISTRICT",
   "mayor": {
-    "name": "",
+    "name": "Victor A. Smith",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "party": "Independent",
+    "email": "vsmith@hope.ca"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.hope.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

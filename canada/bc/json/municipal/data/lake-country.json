@@ -3,19 +3,20 @@
   "geoname": "Lake Country",
   "type": "DISTRICT",
   "mayor": {
-    "name": "",
+    "name": "Blair Ireland",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "",
+    "party": "Acclaimed"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.lake-country.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

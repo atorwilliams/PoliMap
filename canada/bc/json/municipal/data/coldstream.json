@@ -3,19 +3,20 @@
   "geoname": "Coldstream",
   "type": "DISTRICT",
   "mayor": {
-    "name": "",
+    "name": "Ruth Hoyte",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "rhoyte@coldstream.ca",
+    "party": "Acclaimed"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.coldstream.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

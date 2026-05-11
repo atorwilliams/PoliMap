@@ -3,19 +3,20 @@
   "geoname": "Kent",
   "type": "DISTRICT",
   "mayor": {
-    "name": "",
+    "name": "Sylvia Pranger",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "",
+    "party": "Acclaimed"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.district.kent.bc.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

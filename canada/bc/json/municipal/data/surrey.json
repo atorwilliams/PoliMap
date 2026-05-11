@@ -3,13 +3,14 @@
   "geoname": "Surrey",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Brenda Locke",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayor@surrey.ca",
+    "party": "Surrey Connect"
   },
   "council": [],
   "appointed": [],

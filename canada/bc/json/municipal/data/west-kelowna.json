@@ -3,19 +3,20 @@
   "geoname": "West Kelowna",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Gord Milsom",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.westkelowna.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

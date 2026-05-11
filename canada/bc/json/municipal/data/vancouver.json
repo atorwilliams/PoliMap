@@ -3,13 +3,13 @@
   "geoname": "Vancouver",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Ken Sim",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "Ken.Sim@vancouver.ca"
   },
   "council": [],
   "appointed": [],

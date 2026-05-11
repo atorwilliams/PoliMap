@@ -3,19 +3,20 @@
   "geoname": "Parksville",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Doug O'Brien",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "aweeks@parksville.ca",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.parksville.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

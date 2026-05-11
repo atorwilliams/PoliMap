@@ -3,19 +3,20 @@
   "geoname": "Peachland",
   "type": "DISTRICT",
   "mayor": {
-    "name": "",
+    "name": "Patrick Van Minsel",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayorvanminsel@peachland.ca",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.peachland.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

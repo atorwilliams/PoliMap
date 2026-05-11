@@ -3,19 +3,20 @@
   "geoname": "Chilliwack",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Ken Popove",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.chilliwack.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

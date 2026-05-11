@@ -3,13 +3,15 @@
   "geoname": "Burnaby",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Mike Hurley",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayor@burnaby.ca",
+    "party": "Independent",
+    "url": "https://www.burnaby.ca/our-city/mayor-and-council/mayor-mike-hurley"
   },
   "council": [],
   "appointed": [],

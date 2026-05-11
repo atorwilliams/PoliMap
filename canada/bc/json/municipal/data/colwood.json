@@ -3,19 +3,20 @@
   "geoname": "Colwood",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Doug Kobayashi",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "dkobayashi@colwood.ca",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.colwood.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

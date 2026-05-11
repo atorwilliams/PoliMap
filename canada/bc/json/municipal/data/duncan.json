@@ -3,19 +3,20 @@
   "geoname": "Duncan",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Michelle P. Staples",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayor@duncan.ca",
+    "party": "Acclaimed"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.duncan.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

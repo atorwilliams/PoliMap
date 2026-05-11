@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Massachusetts – PoliMap</title>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/landing.css">
+  <style>
+    .officials-sidebar {
+      position: fixed; top: 0; right: -420px; width: 380px; height: 100vh;
+      background: #0d0d0d; border-left: 1px solid rgba(255,255,255,0.08);
+      overflow-y: auto; z-index: 1000; transition: right 0.3s ease;
+      padding: 0 0 40px; font-family: inherit;
+    }
+    .officials-sidebar.open { right: 0; }
+    .officials-sidebar-header {
+      position: sticky; top: 0; background: #0d0d0d;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      padding: 18px 20px 14px; z-index: 1;
+    }
+    .officials-sidebar-header h2 {
+      margin: 0 0 2px; font-size: 1rem; color: #fff; font-weight: 700;
+    }
+    .officials-sidebar-header .sub {
+      font-size: 0.78rem; color: rgba(255,255,255,0.4);
+    }
+    #officials-close-btn {
+      position: absolute; top: 14px; right: 16px;
+      background: none; border: none; color: rgba(255,255,255,0.5);
+      font-size: 1.4rem; cursor: pointer; line-height: 1; padding: 4px;
+    }
+    #officials-close-btn:hover { color: #fff; }
+    .officials-level-header {
+      padding: 14px 20px 6px;
+      font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.3); font-weight: 700;
+    }
+    .officials-office {
+      padding: 10px 20px; border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+    .officials-office-title {
+      font-size: 0.72rem; color: rgba(255,255,255,0.4); margin-bottom: 6px;
+      text-transform: uppercase; letter-spacing: 0.06em;
+    }
+    .officials-person {
+      display: flex; align-items: center; gap: 10px; padding: 6px 0;
+    }
+    .officials-photo {
+      width: 40px; height: 40px; border-radius: 50%; object-fit: cover;
+      flex-shrink: 0; border: 2px solid rgba(255,255,255,0.1);
+    }
+    .officials-photo-placeholder {
+      width: 40px; height: 40px; border-radius: 50%; flex-shrink: 0;
+      background: rgba(255,255,255,0.06); border: 2px solid rgba(255,255,255,0.08);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem; color: rgba(255,255,255,0.2);
+    }
+    .officials-person-name { font-size: 0.9rem; font-weight: 700; color: #fff; }
+    .officials-person-party { font-size: 0.75rem; margin: 1px 0; }
+    .officials-person-links { display: flex; gap: 10px; margin-top: 3px; }
+    .officials-person-links a {
+      font-size: 0.72rem; color: rgba(255,255,255,0.4); text-decoration: none;
+    }
+    .officials-person-links a:hover { color: rgba(255,255,255,0.8); }
+    .officials-loading {
+      padding: 40px 20px; text-align: center;
+      color: rgba(255,255,255,0.3); font-size: 0.85rem;
+    }
+    .officials-error {
+      padding: 20px; color: rgba(255,100,100,0.7); font-size: 0.82rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="top-banner">
+    <div class="banner-container">
+      <a href="/" class="logo" style="text-decoration:none;">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </a>
+
+      <nav class="main-nav">
+        <div class="nav-province-wrap" id="state-wrap">
+          <button class="nav-province-btn" id="state-btn">
+            🇺🇸 Massachusetts <span class="chevron">▾</span>
+          </button>
+          <div class="nav-province-dropdown">
+            <a class="province-drop-item" href="/USA/alabama/">Alabama</a>
+            <a class="province-drop-item" href="/USA/alaska/">Alaska</a>
+            <a class="province-drop-item" href="/USA/arizona/">Arizona</a>
+            <a class="province-drop-item" href="/USA/arkansas/">Arkansas</a>
+            <a class="province-drop-item" href="/USA/california/">California</a>
+            <a class="province-drop-item" href="/USA/colorado/">Colorado</a>
+            <a class="province-drop-item" href="/USA/connecticut/">Connecticut</a>
+            <a class="province-drop-item" href="/USA/delaware/">Delaware</a>
+            <a class="province-drop-item" href="/USA/florida/">Florida</a>
+            <a class="province-drop-item" href="/USA/georgia/">Georgia</a>
+            <a class="province-drop-item" href="/USA/hawaii/">Hawaii</a>
+            <a class="province-drop-item" href="/USA/idaho/">Idaho</a>
+            <a class="province-drop-item" href="/USA/illinois/">Illinois</a>
+            <a class="province-drop-item" href="/USA/indiana/">Indiana</a>
+            <a class="province-drop-item" href="/USA/iowa/">Iowa</a>
+            <a class="province-drop-item" href="/USA/kansas/">Kansas</a>
+            <a class="province-drop-item" href="/USA/kentucky/">Kentucky</a>
+            <a class="province-drop-item" href="/USA/louisiana/">Louisiana</a>
+            <a class="province-drop-item" href="/USA/maine/">Maine</a>
+            <a class="province-drop-item" href="/USA/maryland/">Maryland</a>
+            <a class="province-drop-item" href="/USA/michigan/">Michigan</a>
+            <a class="province-drop-item" href="/USA/minnesota/">Minnesota</a>
+            <a class="province-drop-item" href="/USA/mississippi/">Mississippi</a>
+            <a class="province-drop-item" href="/USA/missouri/">Missouri</a>
+            <a class="province-drop-item" href="/USA/montana/">Montana</a>
+            <a class="province-drop-item" href="/USA/nebraska/">Nebraska</a>
+            <a class="province-drop-item" href="/USA/nevada/">Nevada</a>
+            <a class="province-drop-item" href="/USA/new-hampshire/">New Hampshire</a>
+            <a class="province-drop-item" href="/USA/new-jersey/">New Jersey</a>
+            <a class="province-drop-item" href="/USA/new-mexico/">New Mexico</a>
+            <a class="province-drop-item" href="/USA/new-york/">New York</a>
+            <a class="province-drop-item" href="/USA/north-carolina/">North Carolina</a>
+            <a class="province-drop-item" href="/USA/north-dakota/">North Dakota</a>
+            <a class="province-drop-item" href="/USA/ohio/">Ohio</a>
+            <a class="province-drop-item" href="/USA/oklahoma/">Oklahoma</a>
+            <a class="province-drop-item" href="/USA/oregon/">Oregon</a>
+            <a class="province-drop-item" href="/USA/pennsylvania/">Pennsylvania</a>
+            <a class="province-drop-item" href="/USA/rhode-island/">Rhode Island</a>
+            <a class="province-drop-item" href="/USA/south-carolina/">South Carolina</a>
+            <a class="province-drop-item" href="/USA/south-dakota/">South Dakota</a>
+            <a class="province-drop-item" href="/USA/tennessee/">Tennessee</a>
+            <a class="province-drop-item" href="/USA/texas/">Texas</a>
+            <a class="province-drop-item" href="/USA/utah/">Utah</a>
+            <a class="province-drop-item" href="/USA/vermont/">Vermont</a>
+            <a class="province-drop-item" href="/USA/virginia/">Virginia</a>
+            <a class="province-drop-item" href="/USA/washington/">Washington</a>
+            <a class="province-drop-item" href="/USA/west-virginia/">West Virginia</a>
+            <a class="province-drop-item" href="/USA/wisconsin/">Wisconsin</a>
+            <a class="province-drop-item" href="/USA/wyoming/">Wyoming</a>
+            <div class="province-drop-divider"></div>
+            <a class="province-drop-item" href="/USA/">All states →</a>
+          </div>
+        </div>
+        <a class="nav-btn" href="/donate.html">Donate</a>
+        <a class="nav-btn" href="https://polichan.org" target="_blank">Discussion</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="map"></div>
+
+  <div id="map-controls-stack">
+    <div id="layer-switcher" class="map-control">
+      <div class="control-header">Layer</div>
+      <div id="layer-switcher-btns"></div>
+    </div>
+    <div id="legend" class="map-control legend-control">
+      <div class="control-header">Legend</div>
+      <div id="legend-parties"></div>
+    </div>
+  </div>
+
+  <div class="officials-sidebar" id="officials-sidebar">
+    <div class="officials-sidebar-header">
+      <button id="officials-close-btn">×</button>
+      <h2 id="officials-area-name">Loading…</h2>
+      <div class="sub" id="officials-area-sub"></div>
+    </div>
+    <div id="officials-body"><div class="officials-loading">Fetching officials…</div></div>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script type="module">
+    const STATE_ABBR = 'MA';
+    const STATE_NAME = 'Massachusetts';
+    const MAP_CENTER = [-71.7183, 42.0623];
+    const MAP_ZOOM   = 6.5;
+
+    const PARTY_COLORS = {
+      'Republican':  '#E81B23',
+      'Democratic':  '#0015BC',
+      'Independent': '#26A269',
+    };
+
+    const LEVEL_LABELS = {
+      country:             'Federal',
+      administrativeArea1: 'State',
+      administrativeArea2: 'County',
+      locality:            'City / Town',
+      subLocality1:        'District',
+      subLocality2:        'Sub-district',
+      special:             'Special District',
+      regional:            'Regional',
+    };
+
+    const LAYERS = {
+      districts:          { file: './json/districts.geojson',        label: 'Congressional'   },
+      'state-senate':     { file: './json/state-senate.geojson',     label: 'State Senate'    },
+      'state-house':      { file: './json/state-house.geojson',      label: 'State House'     },
+      counties:           { file: './json/counties.geojson',         label: 'Counties'        },
+      places:             { file: './json/places.geojson',           label: 'Municipalities'  },
+      'school-districts': { file: './json/school-districts.geojson', label: 'School Districts'},
+    };
+
+    const geoCache  = {};
+    let membersData = null;
+    let activeLayer = 'districts';
+    let popup       = null;
+    let hoveredId   = null;
+    let layerHandlers = null;
+
+    const map = new maplibregl.Map({
+      container: 'map',
+      style: 'https://tiles.openfreemap.org/styles/positron',
+      center: MAP_CENTER,
+      zoom: MAP_ZOOM,
+      attributionControl: false,
+    });
+    map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+    // ── Dropdown ──────────────────────────────────────────────────────────────
+    const stateWrap = document.getElementById('state-wrap');
+    document.getElementById('state-btn').addEventListener('click', e => {
+      e.stopPropagation();
+      stateWrap.classList.toggle('open');
+    });
+    document.addEventListener('click', () => stateWrap.classList.remove('open'));
+
+    // ── Data loaders ──────────────────────────────────────────────────────────
+    async function loadGeo(key) {
+      if (geoCache[key]) return geoCache[key];
+      const res = await fetch(LAYERS[key].file);
+      if (!res.ok) throw new Error(`HTTP ${res.status} for ${LAYERS[key].file}`);
+      geoCache[key] = await res.json();
+      return geoCache[key];
+    }
+
+    async function loadMembers() {
+      if (membersData) return membersData;
+      const res = await fetch('../json/membersData.json');
+      membersData = await res.json();
+      return membersData;
+    }
+
+    async function loadOfficials(lat, lng) {
+      const res = await fetch(`/api/officials?lat=${lat}&lng=${lng}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
+    }
+
+    // ── Officials sidebar ─────────────────────────────────────────────────────
+    const officialsSidebar = document.getElementById('officials-sidebar');
+    document.getElementById('officials-close-btn').addEventListener('click', () => {
+      officialsSidebar.classList.remove('open');
+      document.body.classList.remove('sidebar-open');
+    });
+
+    function partyColor(party) {
+      return PARTY_COLORS[party?.replace(' Party', '')] || '#888';
+    }
+
+    function renderOfficialsSidebar(areaName, areaSub, lat, lng) {
+      document.getElementById('officials-area-name').textContent = areaName;
+      document.getElementById('officials-area-sub').textContent  = areaSub;
+      document.getElementById('officials-body').innerHTML = '<div class="officials-loading">Fetching officials…</div>';
+
+      if (window.currentSidebar) { window.currentSidebar.remove(); window.currentSidebar = null; }
+      officialsSidebar.classList.add('open');
+      document.body.classList.add('sidebar-open');
+
+      loadOfficials(lat, lng).then(data => {
+        const entries = data.merged || [];
+        if (!entries.length) {
+          document.getElementById('officials-body').innerHTML =
+            '<div class="officials-loading">No officials found for this location.</div>';
+          return;
+        }
+
+        let currentLevel = null;
+        let html = '';
+        for (const entry of entries) {
+          if (entry.level !== currentLevel) {
+            currentLevel = entry.level;
+            html += `<div class="officials-level-header">${LEVEL_LABELS[currentLevel] || currentLevel}</div>`;
+          }
+          html += `<div class="officials-office">
+            <div class="officials-office-title">${entry.office}</div>`;
+          for (const person of entry.officials) {
+            const color = partyColor(person.party);
+            const links = [];
+            if (person.phone) links.push(`<a href="tel:${person.phone}">${person.phone}</a>`);
+            if (person.url)   links.push(`<a href="${person.url}" target="_blank">Website →</a>`);
+            if (person.email) links.push(`<a href="mailto:${person.email}">Email</a>`);
+            html += `<div class="officials-person">
+              ${person.photo
+                ? `<img class="officials-photo" src="${person.photo}" alt="" onerror="this.style.display='none'">`
+                : `<div class="officials-photo-placeholder">?</div>`}
+              <div>
+                <div class="officials-person-name">${person.name}</div>
+                ${person.party ? `<div class="officials-person-party" style="color:${color};">${person.party}</div>` : ''}
+                ${links.length ? `<div class="officials-person-links">${links.join('')}</div>` : ''}
+              </div>
+            </div>`;
+          }
+          html += '</div>';
+        }
+
+        if (data.errors?.length) {
+          html += `<div class="officials-error">⚠ ${data.errors.join('<br>')}</div>`;
+        }
+
+        document.getElementById('officials-body').innerHTML = html;
+      }).catch(err => {
+        document.getElementById('officials-body').innerHTML =
+          `<div class="officials-error">Failed to load officials: ${err.message}</div>`;
+      });
+    }
+
+    // ── Congressional rep sidebar (local data, rich) ───────────────────────────
+    function showRepSidebar(member, districtName) {
+      if (officialsSidebar.classList.contains('open')) {
+        officialsSidebar.classList.remove('open');
+      }
+      if (window.currentSidebar) { window.currentSidebar.remove(); window.currentSidebar = null; }
+      const partyColor = PARTY_COLORS[member.party] || '#888';
+      const contact    = member.contact || {};
+      const sidebar    = document.createElement('div');
+      sidebar.className = 'member-detail-sidebar';
+      sidebar.innerHTML = `
+        <button id="sidebar-close-btn">×</button>
+        <div class="hero-image" style="background-image:url('${member.photo || ''}');">
+          <div class="party-stripe" style="background:${partyColor};"></div>
+          <div class="image-overlay"></div>
+        </div>
+        <div class="member-info">
+          <h3>${member.name}</h3>
+          <p class="riding">${districtName} · ${STATE_NAME}</p>
+          <div class="contact-details">
+            ${contact.address ? `<div class="contact-item"><strong>Office</strong><p>${contact.address}</p></div>` : ''}
+            ${contact.phone   ? `<div class="contact-item"><strong>Phone</strong><p>${contact.phone}</p></div>`   : ''}
+            ${contact.website ? `<div class="contact-item"><strong>Website</strong><a href="${contact.website}" target="_blank">${contact.website}</a></div>` : ''}
+            ${member.profileUrl ? `<div class="contact-item"><a href="${member.profileUrl}" target="_blank" class="external-profile">View on Congress.gov →</a></div>` : ''}
+          </div>
+        </div>`;
+      document.body.appendChild(sidebar);
+      document.getElementById('sidebar-close-btn').addEventListener('click', () => {
+        sidebar.remove(); window.currentSidebar = null; document.body.classList.remove('sidebar-open');
+      });
+      setTimeout(() => sidebar.classList.add('open'), 10);
+      document.body.classList.add('sidebar-open');
+      window.currentSidebar = sidebar;
+    }
+
+    // ── Legend ────────────────────────────────────────────────────────────────
+    function renderLegend(data) {
+      const counts = {};
+      Object.entries(data.house)
+        .filter(([k]) => k.startsWith(STATE_ABBR + '-'))
+        .forEach(([, m]) => { counts[m.party] = (counts[m.party] || 0) + 1; });
+      document.getElementById('legend-parties').innerHTML = Object.entries(counts)
+        .sort((a, b) => b[1] - a[1])
+        .map(([party, count]) => {
+          const color = PARTY_COLORS[party] || '#888';
+          return `<div style="display:flex;align-items:center;margin:5px 0;">
+            <div style="width:14px;height:14px;background:${color};border-radius:3px;margin-right:8px;flex-shrink:0;"></div>
+            <span style="font-weight:700;">${party} (${count})</span>
+          </div>`;
+        }).join('');
+    }
+
+    // ── Layer switcher ────────────────────────────────────────────────────────
+    function renderLayerSwitcher() {
+      document.getElementById('layer-switcher-btns').innerHTML = Object.entries(LAYERS)
+        .map(([key, cfg]) => `<div data-layer="${key}" style="
+          padding:6px 10px;cursor:pointer;border-radius:6px;font-size:0.82rem;margin:2px 0;
+          transition:background 0.15s;
+          ${activeLayer === key
+            ? 'background:rgba(255,255,255,0.15);font-weight:700;color:#fff;'
+            : 'color:rgba(255,255,255,0.55);'}
+        ">${cfg.label}</div>`).join('');
+      document.getElementById('layer-switcher-btns').querySelectorAll('[data-layer]').forEach(el => {
+        el.addEventListener('click', () => showLayer(el.dataset.layer));
+      });
+    }
+
+    // ── Map layer management ───────────────────────────────────────────────────
+    function clearLayers() {
+      if (popup) { popup.remove(); popup = null; }
+      if (hoveredId !== null && map.getSource('us-source')) {
+        map.setFeatureState({ source: 'us-source', id: hoveredId }, { hover: false });
+      }
+      hoveredId = null;
+      if (layerHandlers) {
+        map.off('mousemove',  'us-hover', layerHandlers.mousemove);
+        map.off('mouseleave', 'us-hover', layerHandlers.mouseleave);
+        map.off('click',      'us-fill',  layerHandlers.click);
+        layerHandlers = null;
+      }
+      ['us-fill', 'us-outline', 'us-hover'].forEach(id => {
+        if (map.getLayer(id)) map.removeLayer(id);
+      });
+      if (map.getSource('us-source')) map.removeSource('us-source');
+    }
+
+    async function showLayer(key) {
+      let geojson, data;
+      try {
+        geojson = await loadGeo(key);
+        if (key === 'districts') data = await loadMembers();
+      } catch (err) {
+        console.error('showLayer: load failed for', key, err);
+        return;
+      }
+
+      clearLayers();
+      activeLayer = key;
+      renderLayerSwitcher();
+
+      // Build fill colour expression
+      let fillColor, fillOpacity;
+      if (key === 'districts') {
+        const expr = ['match', ['get', 'districtId']];
+        geojson.features.forEach(f => {
+          const m = data.house[f.properties.districtId];
+          expr.push(f.properties.districtId, PARTY_COLORS[m?.party] || '#cccccc');
+        });
+        expr.push('#cccccc');
+        fillColor   = expr;
+        fillOpacity = 0.55;
+      } else {
+        fillColor   = '#6b9fbf';
+        fillOpacity = 0.35;
+      }
+
+      try {
+        map.addSource('us-source', { type: 'geojson', data: geojson, generateId: true });
+        map.addLayer({ id: 'us-fill',    type: 'fill',   source: 'us-source',
+          paint: { 'fill-color': fillColor, 'fill-opacity': fillOpacity } });
+        map.addLayer({ id: 'us-outline', type: 'line',   source: 'us-source',
+          paint: { 'line-color': '#ffffff', 'line-width': 0.8, 'line-opacity': 0.5 } });
+        map.addLayer({ id: 'us-hover',   type: 'fill',   source: 'us-source',
+          paint: { 'fill-color': '#ffffff',
+            'fill-opacity': ['case', ['boolean', ['feature-state', 'hover'], false], 0.25, 0] } });
+      } catch (err) {
+        console.error('showLayer: MapLibre error for', key, err);
+        return;
+      }
+
+      const onMousemove = e => {
+        map.getCanvas().style.cursor = 'pointer';
+        const id = e.features[0].id;
+        if (id !== hoveredId) {
+          if (hoveredId !== null) map.setFeatureState({ source: 'us-source', id: hoveredId }, { hover: false });
+          hoveredId = id;
+          map.setFeatureState({ source: 'us-source', id: hoveredId }, { hover: true });
+        }
+      };
+      const onMouseleave = () => {
+        map.getCanvas().style.cursor = '';
+        if (hoveredId !== null) map.setFeatureState({ source: 'us-source', id: hoveredId }, { hover: false });
+        hoveredId = null;
+      };
+
+      const onClick = e => {
+        if (popup) { popup.remove(); popup = null; }
+        const props  = e.features[0].properties;
+        const lngLat = e.lngLat;
+
+        if (key === 'districts') {
+          const member = data.house[props.districtId];
+          const color  = PARTY_COLORS[member?.party] || '#666';
+          popup = new maplibregl.Popup({ closeButton: true, closeOnClick: false, offset: 10, className: 'preview-popup' })
+            .setLngLat(lngLat)
+            .setHTML(member ? `
+              <div style="min-width:210px;font-family:inherit;">
+                <div style="height:4px;background:${color};border-radius:4px 4px 0 0;"></div>
+                <div style="padding:14px 16px 12px;text-align:center;">
+                  ${member.photo ? `<img src="${member.photo}" style="width:68px;height:68px;border-radius:50%;object-fit:cover;margin-bottom:10px;border:3px solid ${color};" onerror="this.style.display='none'">` : ''}
+                  <div style="font-size:1.05em;font-weight:800;color:#111;">${member.name}</div>
+                  <div style="font-size:0.82em;font-weight:600;color:${color};margin:2px 0 4px;">${member.party}</div>
+                  <div style="font-size:0.78em;color:#888;">${props.name}</div>
+                  <button id="rep-detail-btn" style="width:100%;margin-top:12px;padding:8px 0;background:${color};color:white;border:none;border-radius:6px;font-weight:700;cursor:pointer;font-size:0.85em;">Contact &amp; Details →</button>
+                  <button id="rep-officials-btn" style="width:100%;margin-top:6px;padding:8px 0;background:rgba(0,0,0,0.06);color:#333;border:1px solid #ddd;border-radius:6px;font-weight:600;cursor:pointer;font-size:0.82em;">All officials here →</button>
+                </div>
+              </div>` : `
+              <div style="padding:12px 16px;">
+                <div style="font-weight:700;color:#111;">${props.name}</div>
+                <div style="color:#888;font-size:0.85em;margin-top:4px;">Seat vacant or non-voting delegate</div>
+                <button id="rep-officials-btn" style="width:100%;margin-top:10px;padding:8px 0;background:#f5f5f5;color:#333;border:1px solid #ddd;border-radius:6px;font-weight:600;cursor:pointer;font-size:0.82em;">All officials here →</button>
+              </div>`)
+            .addTo(map);
+
+          const tryAttach = (n = 0) => {
+            const detailBtn    = document.getElementById('rep-detail-btn');
+            const officialsBtn = document.getElementById('rep-officials-btn');
+            if (detailBtn || officialsBtn) {
+              if (detailBtn) detailBtn.addEventListener('click', () => {
+                popup.remove(); popup = null;
+                showRepSidebar(member, props.name);
+              });
+              if (officialsBtn) officialsBtn.addEventListener('click', () => {
+                popup.remove(); popup = null;
+                renderOfficialsSidebar(props.name, STATE_NAME, lngLat.lat, lngLat.lng);
+              });
+            } else if (n < 4) {
+              setTimeout(() => tryAttach(n + 1), 150);
+            }
+          };
+          tryAttach();
+
+        } else {
+          // All other layers: show area name popup + open officials sidebar immediately
+          const areaName = props.nameLong || props.name || 'Unknown area';
+          const areaSub  = LAYERS[key].label + ' · ' + STATE_NAME;
+          popup = new maplibregl.Popup({ closeButton: true, closeOnClick: false, offset: 10, className: 'preview-popup' })
+            .setLngLat(lngLat)
+            .setHTML(`
+              <div style="padding:12px 16px 10px;min-width:180px;">
+                <div style="font-weight:700;color:#111;margin-bottom:2px;">${areaName}</div>
+                <div style="color:#888;font-size:0.8em;margin-bottom:10px;">${LAYERS[key].label}</div>
+                <button id="area-officials-btn" style="width:100%;padding:8px 0;background:#1a1a2e;color:white;border:none;border-radius:6px;font-weight:700;cursor:pointer;font-size:0.82em;">Who represents me here →</button>
+              </div>`)
+            .addTo(map);
+
+          const tryAttach = (n = 0) => {
+            const btn = document.getElementById('area-officials-btn');
+            if (btn) {
+              btn.addEventListener('click', () => {
+                popup.remove(); popup = null;
+                renderOfficialsSidebar(areaName, areaSub, lngLat.lat, lngLat.lng);
+              });
+            } else if (n < 4) {
+              setTimeout(() => tryAttach(n + 1), 150);
+            }
+          };
+          tryAttach();
+        }
+      };
+
+      map.on('mousemove',  'us-hover', onMousemove);
+      map.on('mouseleave', 'us-hover', onMouseleave);
+      map.on('click',      'us-fill',  onClick);
+      layerHandlers = { mousemove: onMousemove, mouseleave: onMouseleave, click: onClick };
+
+      document.getElementById('legend').style.display = key === 'districts' ? 'block' : 'none';
+      if (key === 'districts' && data) renderLegend(data);
+    }
+
+    // ── Boot ──────────────────────────────────────────────────────────────────
+    map.on('load', () => {
+      renderLayerSwitcher();
+      showLayer('districts');
+    });
+  </script>
+</body>
+</html>

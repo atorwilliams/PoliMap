@@ -3,19 +3,20 @@
   "geoname": "Sidney",
   "type": "TOWN",
   "mayor": {
-    "name": "",
+    "name": "Cliff McNeil-Smith",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayor@sidney.ca",
+    "party": "Acclaimed"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.sidney.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

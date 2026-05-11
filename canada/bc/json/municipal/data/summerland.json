@@ -3,19 +3,20 @@
   "geoname": "Summerland",
   "type": "DISTRICT",
   "mayor": {
-    "name": "",
+    "name": "Doug Holmes",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "dholmes@summerland.ca",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.summerland.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

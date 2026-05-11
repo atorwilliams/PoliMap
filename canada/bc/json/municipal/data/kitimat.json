@@ -3,19 +3,20 @@
   "geoname": "Kitimat",
   "type": "DISTRICT",
   "mayor": {
-    "name": "",
+    "name": "Phil Germuth",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "",
+    "party": "Acclaimed"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.kitimat.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

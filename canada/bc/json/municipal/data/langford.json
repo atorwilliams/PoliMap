@@ -3,13 +3,14 @@
   "geoname": "Langford",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Scott Peter Goodmanson",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],

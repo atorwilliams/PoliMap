@@ -3,19 +3,20 @@
   "geoname": "Cranbrook",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Wayne Price",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.cranbrook.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

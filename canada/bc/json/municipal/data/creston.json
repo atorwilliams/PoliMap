@@ -3,19 +3,20 @@
   "geoname": "Creston",
   "type": "TOWN",
   "mayor": {
-    "name": "",
+    "name": "Arnold F. DeBoon",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "party": "Independent",
+    "email": "arnold.deboon@creston.ca"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.creston.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

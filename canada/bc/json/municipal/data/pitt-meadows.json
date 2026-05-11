@@ -3,19 +3,20 @@
   "geoname": "Pitt Meadows",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Nicole MacDonald",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "party": "Acclaimed",
+    "email": "kbarchard@pittmeadows.ca"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.pittmeadows.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

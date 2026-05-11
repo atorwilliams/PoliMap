@@ -1,0 +1,772 @@
+{
+  "abbotsford": {
+    "name": "Abbotsford",
+    "key": "abbotsford",
+    "mayor": {
+      "name": "Ross Siemens",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "armstrong": {
+    "name": "Armstrong",
+    "key": "armstrong",
+    "mayor": {
+      "name": "Joe Cramer",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "burnaby": {
+    "name": "Burnaby",
+    "key": "burnaby",
+    "mayor": {
+      "name": "Mike Hurley",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "campbell-river": {
+    "name": "Campbell River",
+    "key": "campbell-river",
+    "mayor": {
+      "name": "Kermit Dahl",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "castlegar": {
+    "name": "Castlegar",
+    "key": "castlegar",
+    "mayor": {
+      "name": "Maria McFaddin",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "central-saanich": {
+    "name": "Central Saanich",
+    "key": "central-saanich",
+    "mayor": {
+      "name": "Ryan Windsor",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "chilliwack": {
+    "name": "Chilliwack",
+    "key": "chilliwack",
+    "mayor": {
+      "name": "Ken Popove",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "coldstream": {
+    "name": "Coldstream",
+    "key": "coldstream",
+    "mayor": {
+      "name": "Ruth Hoyte",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "colwood": {
+    "name": "Colwood",
+    "key": "colwood",
+    "mayor": {
+      "name": "Doug Kobayashi",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "comox": {
+    "name": "Comox",
+    "key": "comox",
+    "mayor": {
+      "name": "Nicole Minions",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "coquitlam": {
+    "name": "Coquitlam",
+    "key": "coquitlam",
+    "mayor": {
+      "name": "Richard Stewart",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "courtenay": {
+    "name": "Courtenay",
+    "key": "courtenay",
+    "mayor": {
+      "name": "Bob Wells",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "cranbrook": {
+    "name": "Cranbrook",
+    "key": "cranbrook",
+    "mayor": {
+      "name": "Wayne Price",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "creston": {
+    "name": "Creston",
+    "key": "creston",
+    "mayor": {
+      "name": "Arnold F. DeBoon",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "dawson-creek": {
+    "name": "Dawson Creek",
+    "key": "dawson-creek",
+    "mayor": {
+      "name": "Darcy A. Dober",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "delta": {
+    "name": "Delta",
+    "key": "delta",
+    "mayor": {
+      "name": "George Harvie",
+      "party": "Achieving for Delta",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "duncan": {
+    "name": "Duncan",
+    "key": "duncan",
+    "mayor": {
+      "name": "Michelle P. Staples",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "esquimalt": {
+    "name": "Esquimalt",
+    "key": "esquimalt",
+    "mayor": {
+      "name": "Barb Desjardins",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "fernie": {
+    "name": "Fernie",
+    "key": "fernie",
+    "mayor": {
+      "name": "Nic Milligan",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "fort-st-john": {
+    "name": "Fort St. John",
+    "key": "fort-st-john",
+    "mayor": {
+      "name": "Lilia Hansen",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "gibsons": {
+    "name": "Gibsons",
+    "key": "gibsons",
+    "mayor": {
+      "name": "Silas White",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "hope": {
+    "name": "Hope",
+    "key": "hope",
+    "mayor": {
+      "name": "Victor A. Smith",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "kamloops": {
+    "name": "Kamloops",
+    "key": "kamloops",
+    "mayor": {
+      "name": "Reid Hamer-Jackson",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "kelowna": {
+    "name": "Kelowna",
+    "key": "kelowna",
+    "mayor": {
+      "name": "Tom Dyas",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "kent": {
+    "name": "Kent",
+    "key": "kent",
+    "mayor": {
+      "name": "Sylvia Pranger",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "kimberley": {
+    "name": "Kimberley",
+    "key": "kimberley",
+    "mayor": {
+      "name": "Don McCormick",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "kitimat": {
+    "name": "Kitimat",
+    "key": "kitimat",
+    "mayor": {
+      "name": "Phil Germuth",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "ladysmith": {
+    "name": "Ladysmith",
+    "key": "ladysmith",
+    "mayor": {
+      "name": "Aaron Stone",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "lake-country": {
+    "name": "Lake Country",
+    "key": "lake-country",
+    "mayor": {
+      "name": "Blair Ireland",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "langford": {
+    "name": "Langford",
+    "key": "langford",
+    "mayor": {
+      "name": "Scott Peter Goodmanson",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "langley-city": {
+    "name": "Langley City",
+    "key": "langley-city",
+    "mayor": {
+      "name": "Nathan J. Pachal",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "langley-township": {
+    "name": "Langley Township",
+    "key": "langley-township",
+    "mayor": {
+      "name": "Eric Woodward",
+      "party": "Contract With Langley",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "maple-ridge": {
+    "name": "Maple Ridge",
+    "key": "maple-ridge",
+    "mayor": {
+      "name": "Dan Ruimy",
+      "party": "A Better Maple Ridge",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "merritt": {
+    "name": "Merritt",
+    "key": "merritt",
+    "mayor": {
+      "name": "Michael G. Goetz",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "metchosin": {
+    "name": "Metchosin",
+    "key": "metchosin",
+    "mayor": {
+      "name": "Marie-Térèse Little",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "mission": {
+    "name": "Mission",
+    "key": "mission",
+    "mayor": {
+      "name": "Paul Horn",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "nanaimo": {
+    "name": "Nanaimo",
+    "key": "nanaimo",
+    "mayor": {
+      "name": "Leonard Krog",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "nelson": {
+    "name": "Nelson",
+    "key": "nelson",
+    "mayor": {
+      "name": "Janice Morrison",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "new-westminster": {
+    "name": "New Westminster",
+    "key": "new-westminster",
+    "mayor": {
+      "name": "Patrick Johnstone",
+      "party": "Community First",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "north-cowichan": {
+    "name": "North Cowichan",
+    "key": "north-cowichan",
+    "mayor": {
+      "name": "Rob Douglas",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "north-saanich": {
+    "name": "North Saanich",
+    "key": "north-saanich",
+    "mayor": {
+      "name": "Peter Jones",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "north-vancouver-city": {
+    "name": "North Vancouver City",
+    "key": "north-vancouver-city",
+    "mayor": {
+      "name": "Linda Buchanan",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "north-vancouver-district": {
+    "name": "North Vancouver District",
+    "key": "north-vancouver-district",
+    "mayor": {
+      "name": "Mike Little",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "oak-bay": {
+    "name": "Oak Bay",
+    "key": "oak-bay",
+    "mayor": {
+      "name": "Kevin Murdoch",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "oliver": {
+    "name": "Oliver",
+    "key": "oliver",
+    "mayor": {
+      "name": "Martin Johansen",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "osoyoos": {
+    "name": "Osoyoos",
+    "key": "osoyoos",
+    "mayor": {
+      "name": "Sue H. McKortoff",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "parksville": {
+    "name": "Parksville",
+    "key": "parksville",
+    "mayor": {
+      "name": "Doug O'Brien",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "peachland": {
+    "name": "Peachland",
+    "key": "peachland",
+    "mayor": {
+      "name": "Patrick Van Minsel",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "penticton": {
+    "name": "Penticton",
+    "key": "penticton",
+    "mayor": {
+      "name": "Julius Bloomfield",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "pitt-meadows": {
+    "name": "Pitt Meadows",
+    "key": "pitt-meadows",
+    "mayor": {
+      "name": "Nicole MacDonald",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "port-alberni": {
+    "name": "Port Alberni",
+    "key": "port-alberni",
+    "mayor": {
+      "name": "Sharie Minions",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "port-coquitlam": {
+    "name": "Port Coquitlam",
+    "key": "port-coquitlam",
+    "mayor": {
+      "name": "Brad West",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "port-moody": {
+    "name": "Port Moody",
+    "key": "port-moody",
+    "mayor": {
+      "name": "Meghan Lahti",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "powell-river": {
+    "name": "Powell River",
+    "key": "powell-river",
+    "mayor": {
+      "name": "Ron Woznow",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "prince-rupert": {
+    "name": "Prince Rupert",
+    "key": "prince-rupert",
+    "mayor": {
+      "name": "Herb Pond",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "qualicum-beach": {
+    "name": "Qualicum Beach",
+    "key": "qualicum-beach",
+    "mayor": {
+      "name": "Teunis Westbroek",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "quesnel": {
+    "name": "Quesnel",
+    "key": "quesnel",
+    "mayor": {
+      "name": "Ron Paull",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "revelstoke": {
+    "name": "Revelstoke",
+    "key": "revelstoke",
+    "mayor": {
+      "name": "Gary Sulz",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "richmond": {
+    "name": "Richmond",
+    "key": "richmond",
+    "mayor": {
+      "name": "Malcolm Brodie",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "salmon-arm": {
+    "name": "Salmon Arm",
+    "key": "salmon-arm",
+    "mayor": {
+      "name": "Alan R. Harrison",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "sechelt": {
+    "name": "Sechelt",
+    "key": "sechelt",
+    "mayor": {
+      "name": "John Henderson",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "sidney": {
+    "name": "Sidney",
+    "key": "sidney",
+    "mayor": {
+      "name": "Cliff McNeil-Smith",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "smithers": {
+    "name": "Smithers",
+    "key": "smithers",
+    "mayor": {
+      "name": "Gladys Atrill",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "sooke": {
+    "name": "Sooke",
+    "key": "sooke",
+    "mayor": {
+      "name": "Maja Tait",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "spallumcheen": {
+    "name": "Spallumcheen",
+    "key": "spallumcheen",
+    "mayor": {
+      "name": "Christine Fraser",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "squamish": {
+    "name": "Squamish",
+    "key": "squamish",
+    "mayor": {
+      "name": "Armand V. Hurford",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "summerland": {
+    "name": "Summerland",
+    "key": "summerland",
+    "mayor": {
+      "name": "Doug Holmes",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "surrey": {
+    "name": "Surrey",
+    "key": "surrey",
+    "mayor": {
+      "name": "Brenda Locke",
+      "party": "Surrey Connect",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "terrace": {
+    "name": "Terrace",
+    "key": "terrace",
+    "mayor": {
+      "name": "Sean Bujtas",
+      "party": "Acclaimed",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "trail": {
+    "name": "Trail",
+    "key": "trail",
+    "mayor": {
+      "name": "Colleen Jones",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "vernon": {
+    "name": "Vernon",
+    "key": "vernon",
+    "mayor": {
+      "name": "Victor Cumming",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "victoria": {
+    "name": "Victoria",
+    "key": "victoria",
+    "mayor": {
+      "name": "Marianne Alto",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "view-royal": {
+    "name": "View Royal",
+    "key": "view-royal",
+    "mayor": {
+      "name": "Sid Tobias",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "west-kelowna": {
+    "name": "West Kelowna",
+    "key": "west-kelowna",
+    "mayor": {
+      "name": "Gord Milsom",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "whistler": {
+    "name": "Whistler",
+    "key": "whistler",
+    "mayor": {
+      "name": "Jack D. Crompton",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "white-rock": {
+    "name": "White Rock",
+    "key": "white-rock",
+    "mayor": {
+      "name": "Megan Knight",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  },
+  "williams-lake": {
+    "name": "Williams Lake",
+    "key": "williams-lake",
+    "mayor": {
+      "name": "Surinderpal Rathor",
+      "party": "Independent",
+      "since": "2022-10-15",
+      "photo": null
+    }
+  }
+}

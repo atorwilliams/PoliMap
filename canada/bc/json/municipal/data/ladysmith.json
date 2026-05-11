@@ -3,19 +3,20 @@
   "geoname": "Ladysmith",
   "type": "TOWN",
   "mayor": {
-    "name": "",
+    "name": "Aaron Stone",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayor@ladysmith.ca",
+    "party": "Acclaimed"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.ladysmith.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

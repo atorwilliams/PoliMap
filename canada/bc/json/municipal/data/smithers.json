@@ -3,19 +3,19 @@
   "geoname": "Smithers",
   "type": "TOWN",
   "mayor": {
-    "name": "",
+    "name": "Gladys Atrill",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.smithers.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

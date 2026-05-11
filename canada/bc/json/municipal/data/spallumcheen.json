@@ -3,19 +3,20 @@
   "geoname": "Spallumcheen",
   "type": "TOWN",
   "mayor": {
-    "name": "",
+    "name": "Christine Fraser",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "",
+    "party": "Acclaimed"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.spallumcheen.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

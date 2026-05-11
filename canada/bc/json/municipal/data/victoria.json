@@ -3,13 +3,14 @@
   "geoname": "Victoria",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Marianne Alto",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "malto@victoria.ca",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],

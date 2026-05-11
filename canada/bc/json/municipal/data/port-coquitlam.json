@@ -3,19 +3,20 @@
   "geoname": "Port Coquitlam",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Brad West",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayorea@portcoquitlam.ca",
+    "party": "Acclaimed"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.portcoquitlam.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

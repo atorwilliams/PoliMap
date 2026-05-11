@@ -3,19 +3,19 @@
   "geoname": "Armstrong",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Joe Cramer",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "party": "Acclaimed"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.armstrong.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

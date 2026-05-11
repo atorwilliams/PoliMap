@@ -3,13 +3,15 @@
   "geoname": "Richmond",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Malcolm Brodie",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayorea@richmond.ca",
+    "party": "Independent",
+    "url": "https://www.richmond.ca/city-hall/city-council/members/brodie.htm"
   },
   "council": [],
   "appointed": [],

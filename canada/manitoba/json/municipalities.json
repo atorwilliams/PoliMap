@@ -1,0 +1,1714 @@
+{
+  "alexander": {
+    "name": "Alexander",
+    "type": "RM",
+    "slug": "alexander",
+    "address": "Box 100 Councillors Mac Kinghorn, St. Georges, MB Council Meets 2nd & 4th Tuesday Gordon Kaye, R0E 1V0 of every month Ken Danwich",
+    "phone": "204-367-6170",
+    "website": "https://www.rmalexander.com",
+    "mayor": {
+      "name": "Jack Brisco",
+      "title": "Mayor",
+      "email": "info@rmalexander.com",
+      "phone": "204-367-6170",
+      "since": "",
+      "photo": null
+    }
+  },
+  "alonsa": {
+    "name": "Alonsa",
+    "type": "RM",
+    "slug": "alonsa",
+    "address": "Box 127 Councillors Kerry Hopfner, Alonsa, MB Council meets 2nd & 4th Tim Stott, R0H 0A0 Wednesday of every month Travis Turko",
+    "phone": "204-767-2054",
+    "website": "https://www.rmofalonsa.com",
+    "mayor": {
+      "name": "Tom Anderson",
+      "title": "Reeve",
+      "email": "rmalonsa@inetlink.ca",
+      "phone": "204-767-2054",
+      "since": "",
+      "photo": null
+    }
+  },
+  "altona": {
+    "name": "Altona",
+    "type": "TOWN",
+    "slug": "altona",
+    "address": "Box 1630 Councillors Donna Rosling-Wolters, Altona, MB Council meets 2nd & 4th Tuesday Jordan Siemens, R0G 0B0 of every month Perry Batchelor",
+    "phone": "204-324-6468",
+    "website": "https://www.altona.ca",
+    "mayor": {
+      "name": "Harv Schroeder",
+      "title": "Mayor",
+      "email": "info@altona.ca",
+      "phone": "204-324-6468",
+      "since": "",
+      "photo": null
+    }
+  },
+  "arborg": {
+    "name": "Arborg",
+    "type": "TOWN",
+    "slug": "arborg",
+    "address": "Box 159 Councillors Donna Gislason, Arborg, MB Council meets 2nd & 4th Ron Johnston, R0C 0A0 Wednesday of every month Ron Rogowsky",
+    "phone": "204-376-2647",
+    "website": "https://www.townofarborg.com",
+    "mayor": {
+      "name": "Peter Dueck",
+      "title": "Mayor",
+      "email": "townofarborg@mymts.net",
+      "phone": "204-376-2647",
+      "since": "",
+      "photo": null
+    }
+  },
+  "argyle": {
+    "name": "Argyle",
+    "type": "RM",
+    "slug": "argyle",
+    "address": "Baldur, MB Councillors Lana Grenier, R0K 0B0 Council meets 2nd Tuesday of Jesse Janz",
+    "phone": "204-535-2176",
+    "website": "https://www.rmofargyle.ca",
+    "mayor": {
+      "name": "Mike Everett",
+      "title": "Reeve",
+      "email": "cao@rmofargyle.ca",
+      "phone": "204-535-2176",
+      "since": "",
+      "photo": null
+    }
+  },
+  "armstrong": {
+    "name": "Armstrong",
+    "type": "RM",
+    "slug": "armstrong",
+    "address": "Box 69 Councillors Allen Evanchyshin, Inwood, MB Council meets 2nd Tuesday of Pat Stein, R0C 1P0 every month Paul Humeny",
+    "phone": "204-278-3377",
+    "website": "https://www.rmofarmstrong.com",
+    "mayor": {
+      "name": "Kate Basford",
+      "title": "Reeve",
+      "email": "cao@rmofarmstrong.com",
+      "phone": "204-278-3377",
+      "since": "",
+      "photo": null
+    }
+  },
+  "beausejour": {
+    "name": "Beausejour",
+    "type": "TOWN",
+    "slug": "beausejour",
+    "address": "Box 1028 Councillors Don Mazur, Beausejour, MB Council meets 2nd & Last Glen Kaatz, R0E 0C0 Tuesday of every month Jan Leclerc",
+    "phone": "204-268-7550",
+    "website": "https://www.townofbeausejour.com",
+    "mayor": {
+      "name": "Ray Schirle",
+      "title": "Mayor",
+      "email": "townoffice@townofbeausejour.com",
+      "phone": "204-268-7550",
+      "since": "",
+      "photo": null
+    }
+  },
+  "bifrost-riverton": {
+    "name": "Bifrost-Riverton",
+    "type": "MUNICIPALITY",
+    "slug": "bifrost-riverton",
+    "address": "Box 70 Councillors Shawn Magnusson, Arborg, MB Council meets 2nd Thursday of Chad Johnson, R0C 0A0 every month David King",
+    "phone": "204-376-2391",
+    "website": "https://www.BifrostRiverton.ca",
+    "mayor": {
+      "name": "Brian N. Johnson",
+      "title": "Reeve",
+      "email": "bifrostriverton@mymts.net",
+      "phone": "204-376-2391",
+      "since": "",
+      "photo": null
+    }
+  },
+  "brandon": {
+    "name": "Brandon",
+    "type": "CITY",
+    "slug": "brandon",
+    "address": "410 - 9th Street City Manager Dave Wardrop, Brandon MB Councillors Heather Karrouze, R7A 6A2 Council meets 1st & 3rd Monday Kris Desjarlais",
+    "phone": "204-729-2296",
+    "website": "https://www.brandon.ca",
+    "mayor": {
+      "name": "Jeff Fawcett",
+      "title": "Mayor",
+      "email": "cityclerk@brandon.ca",
+      "phone": "204-729-2296",
+      "since": "",
+      "photo": null
+    }
+  },
+  "brenda-waskada": {
+    "name": "Brenda-Waskada",
+    "type": "MUNICIPALITY",
+    "slug": "brenda-waskada",
+    "address": "Box 40 Councillors Donna Stewart, Waskada, MB Council meets 2nd Monday of Alana Van Steelandt, R0M 2E0 every month Blake Nestibo",
+    "phone": "204-673-2401",
+    "website": "https://www.waskada.org",
+    "mayor": {
+      "name": "Maurice Saltel",
+      "title": "Reeve",
+      "email": "office@brendawaskada.ca",
+      "phone": "204-673-2401",
+      "since": "",
+      "photo": null
+    }
+  },
+  "brokenhead": {
+    "name": "Brokenhead",
+    "type": "RM",
+    "slug": "brokenhead",
+    "address": "Box 490 Councillors Sean Michaels, Beausejour, MB Council meets 2nd & 4th Tuesday Brett Steffes, R0E 0C0 of every month Luke Ingeberg",
+    "phone": "204-268-6700",
+    "website": "https://www.ourhomeyourhome.ca",
+    "mayor": {
+      "name": "Brad Saluk",
+      "title": "Reeve",
+      "email": "admin@rmofbrokenhead.ca",
+      "phone": "204-268-6700",
+      "since": "",
+      "photo": null
+    }
+  },
+  "carberry": {
+    "name": "Carberry",
+    "type": "TOWN",
+    "slug": "carberry",
+    "address": "Box 130 Officer, Carberry, MB Councillors William Kalinowich, R0K 0H0 Council meets 2nd Tuesday of Debbie Rae",
+    "phone": "204-834-6628",
+    "website": "https://www.townofcarberry.ca",
+    "mayor": {
+      "name": "Raymond Muirhead",
+      "title": "Mayor",
+      "email": "town@townofcarberry.ca",
+      "phone": "204-834-6628",
+      "since": "",
+      "photo": null
+    }
+  },
+  "carman": {
+    "name": "Carman",
+    "type": "TOWN",
+    "slug": "carman",
+    "address": "Box 160 Councillors Carly Bokaschuk, Carman, MB Council meets 1st Tuesday and Lindsay Boeve, R0G 0J0 3rd Thursday of every month Robert Bryson",
+    "phone": "204-745-2443",
+    "website": "https://www.carmandufferin.ca",
+    "mayor": {
+      "name": "Brent Owen",
+      "title": "Mayor",
+      "email": "info@townofcarman.com",
+      "phone": "204-745-2443",
+      "since": "",
+      "photo": null
+    }
+  },
+  "cartier": {
+    "name": "Cartier",
+    "type": "RM",
+    "slug": "cartier",
+    "address": "Elie, MB Councillors James Krahn, R0H 0H0 Council meets 2nd & 4th Monday Kevin Nixon",
+    "phone": "204-353-2214",
+    "website": "https://www.rmofcartier.ca",
+    "mayor": {
+      "name": "Christa Van Mitchell",
+      "title": "Reeve",
+      "email": "info@rmofcartier.ca",
+      "phone": "204-353-2214",
+      "since": "",
+      "photo": null
+    }
+  },
+  "churchill": {
+    "name": "Churchill",
+    "type": "TOWN",
+    "slug": "churchill",
+    "address": "Box 459 Councillors Verna Flett, Churchill, MB Council meets once a month Bill Dingwall, R0B 0E0 Office Hours: 8:30-4:30 Marjorie Spence",
+    "phone": "204-675-8871",
+    "website": "https://www.churchill.ca",
+    "mayor": {
+      "name": "Michael Spence",
+      "title": "Mayor",
+      "email": "jessica.power@churchill.ca",
+      "phone": "204-675-8871",
+      "since": "",
+      "photo": null
+    }
+  },
+  "coldwell": {
+    "name": "Coldwell",
+    "type": "RM",
+    "slug": "coldwell",
+    "address": "Box 90 Councillors Bill Eyolfson, Lundar, MB Council meets 2nd Tuesday of Kent Kostyshyn, R0C 1Y0 every month Gary Sherbeth",
+    "phone": "204-762-5421",
+    "website": "",
+    "mayor": {
+      "name": "Virgil Johnson",
+      "title": "Reeve",
+      "email": "",
+      "phone": "204-762-5421",
+      "since": "",
+      "photo": null
+    }
+  },
+  "cornwallis": {
+    "name": "Cornwallis",
+    "type": "RM",
+    "slug": "cornwallis",
+    "address": "Brandon, MB Councillors Terry Ross, R7A 5Y5 Council meets 3rd Tuesday of Shane Drohan",
+    "phone": "204-725-8686",
+    "website": "https://www.gov.cornwallis.mb.ca",
+    "mayor": {
+      "name": "Mike Waddell",
+      "title": "Reeve",
+      "email": "cao@gov.cornwallis.mb.ca",
+      "phone": "204-725-8686",
+      "since": "",
+      "photo": null
+    }
+  },
+  "dauphin": {
+    "name": "Dauphin",
+    "type": "RM",
+    "slug": "dauphin",
+    "address": "Box 574 Councillors Tammy Koshowski, Dauphin MB Council meets 2nd & 4th Tuesday Todd Boguski, N 2V4 of every month Midge Sametz",
+    "phone": "204-638-4531",
+    "website": "https://www.rmofdauphin.ca",
+    "mayor": {
+      "name": "Ernie Sirski",
+      "title": "Reeve",
+      "email": "info@rmofdauphin.ca",
+      "phone": "204-638-4531",
+      "since": "",
+      "photo": null
+    }
+  },
+  "de-salaberry": {
+    "name": "De Salaberry",
+    "type": "RM",
+    "slug": "de-salaberry",
+    "address": "Box 40 Councillors Louis Courcelles, St-Pierre-Jolys, MB Council meets 2nd & last Bruno Hébert, R0A 1V0 Tuesday Diana Cline",
+    "phone": "204-433-7406",
+    "website": "https://www.rmdesalaberry.mb.ca",
+    "mayor": {
+      "name": "Kelly McMeachan",
+      "title": "Reeve",
+      "email": "info@rmdesalaberry.mb.ca",
+      "phone": "204-433-7406",
+      "since": "",
+      "photo": null
+    }
+  },
+  "dufferin": {
+    "name": "Dufferin",
+    "type": "RM",
+    "slug": "dufferin",
+    "address": "Box 100 Councillors John Peckover, Carman, MB Council meets 2nd & 4th Tuesday Clayton Morgan, R0G 0J0 of every month Tyler Russell",
+    "phone": "204-745-2301",
+    "website": "https://www.carmanmanitoba.ca",
+    "mayor": {
+      "name": "Cor Lodder",
+      "title": "Reeve",
+      "email": "info@rmofdufferin.com",
+      "phone": "204-745-2301",
+      "since": "",
+      "photo": null
+    }
+  },
+  "dunnottar": {
+    "name": "Dunnottar",
+    "type": "VILLAGE",
+    "slug": "dunnottar",
+    "address": "Box 321 Councillors Bob Campbell, Matlock, MB Council meets 3rd Wednesday Rosalyn Howard, R0C 2B0 of every month Jim Kotowich",
+    "phone": "204-389-4962",
+    "website": "https://www.dunnottar.ca",
+    "mayor": {
+      "name": "Rick Gamble",
+      "title": "Mayor",
+      "email": "info@dunnottar.ca",
+      "phone": "204-389-4962",
+      "since": "",
+      "photo": null
+    }
+  },
+  "east-st-paul": {
+    "name": "East St. Paul",
+    "type": "RM",
+    "slug": "east-st-paul",
+    "address": "East St. Paul, MB Councillors Brian Imhoff, R2E 1A7 Council meets every 3rd Orest Horechko",
+    "phone": "204-668-8112",
+    "website": "https://www.eaststpaul.com",
+    "mayor": {
+      "name": "Carla Devlin",
+      "title": "Mayor",
+      "email": "administration@eaststpaul.com",
+      "phone": "204-668-8112",
+      "since": "",
+      "photo": null
+    }
+  },
+  "ellice-archie": {
+    "name": "Ellice-Archie",
+    "type": "RM",
+    "slug": "ellice-archie",
+    "address": "Box 67 Councillors Marla Dyke, McAulay, MB Council meets every 2nd Tuesday Cheryl Kleemola, R0M 1H0 of every month Christopher Judd",
+    "phone": "204-722-2053",
+    "website": "https://www.rmofellicearchie.ca",
+    "mayor": {
+      "name": "Barry Lowes",
+      "title": "Reeve",
+      "email": "mcauley@rmofellicearchie.ca",
+      "phone": "204-722-2053",
+      "since": "",
+      "photo": null
+    }
+  },
+  "elton": {
+    "name": "Elton",
+    "type": "RM",
+    "slug": "elton",
+    "address": "Forest, MB Councillors Neil Waldner, R0K 0W0 Council meets 2nd Tuesday of Gregg Campbell",
+    "phone": "204-728-7834",
+    "website": "https://www.elton.ca",
+    "mayor": {
+      "name": "Ches Bollman",
+      "title": "Reeve",
+      "email": "info@elton.ca",
+      "phone": "204-728-7834",
+      "since": "",
+      "photo": null
+    }
+  },
+  "ethelbert": {
+    "name": "Ethelbert",
+    "type": "MUNICIPALITY",
+    "slug": "ethelbert",
+    "address": "Box 115 Officer Kyle Lylyk, Ethelbert, MB Councillors Mike Moroz, R0L 0T0 Council meets 2nd Thursday Mike Semeniuk",
+    "phone": "204-742-3212",
+    "website": "",
+    "mayor": {
+      "name": "Michael Goy",
+      "title": "Reeve",
+      "email": "caoethelbert@mymts.net",
+      "phone": "204-742-3212",
+      "since": "",
+      "photo": null
+    }
+  },
+  "fisher": {
+    "name": "Fisher",
+    "type": "RM",
+    "slug": "fisher",
+    "address": "Box 280 Councillors Boyd Abas, Fisher Branch, MB Council meets 1st Wednesday Ron Gagluk, R0C 0Z0 of every month & 3rd Thursday Tom Nevakshonoff",
+    "phone": "204-372-6393",
+    "website": "https://www.rmoffisher.com",
+    "mayor": {
+      "name": "Shannon Pyziak",
+      "title": "Reeve",
+      "email": "rmoffisher@mts.net",
+      "phone": "204-372-6393",
+      "since": "",
+      "photo": null
+    }
+  },
+  "flin-flon": {
+    "name": "Flin Flon",
+    "type": "CITY",
+    "slug": "flin-flon",
+    "address": "Flin Flon, MB Councillors Alison Dallas-Funk, R8A 0T7 Council meets 1st & 3rd Tuesday Judy Eagle",
+    "phone": "1-833-210-6435",
+    "website": "https://www.cityofflinflon.ca",
+    "mayor": {
+      "name": "George Fontaine",
+      "title": "Mayor",
+      "email": "bfehr@flinflon.ca",
+      "phone": "1-833-210-6435",
+      "since": "",
+      "photo": null
+    }
+  },
+  "gillam": {
+    "name": "Gillam",
+    "type": "TOWN",
+    "slug": "gillam",
+    "address": "Box 100 Councillors Sherry Herrera, Gillam, MB Council meets 1st & 3rd Debbie Spence, R0B 0L0 Wednesday Curtis Belfour",
+    "phone": "204-652-3150",
+    "website": "https://www.townofgillam.com",
+    "mayor": {
+      "name": "Dwayne Forman",
+      "title": "Mayor",
+      "email": "population:",
+      "phone": "204-652-3150",
+      "since": "",
+      "photo": null
+    }
+  },
+  "gimli": {
+    "name": "Gimli",
+    "type": "RM",
+    "slug": "gimli",
+    "address": "Box 1246 Councillors Kurt Reichert, Gimli, MB Council meets 2nd & 3rd Thursday Andy Damm, R0C 1B0 of every month Richard Petrowski",
+    "phone": "204-642-6650",
+    "website": "https://www.gimli.ca",
+    "mayor": {
+      "name": "Kevin Chudd",
+      "title": "Mayor",
+      "email": "gimli@rmgimli.com",
+      "phone": "204-642-6650",
+      "since": "",
+      "photo": null
+    }
+  },
+  "grahamdale": {
+    "name": "Grahamdale",
+    "type": "RM",
+    "slug": "grahamdale",
+    "address": "Box 160 Councillors Charlotte Lindell, Moosehorn, MB Council meets 2nd & 4th Thursday Kevin Nickel, R0C 2E0 of every month Glen Metner",
+    "phone": "204-768-2858",
+    "website": "https://www.grahamdale.ca",
+    "mayor": {
+      "name": "Craig Howse",
+      "title": "Reeve",
+      "email": "info@grahamdale.ca",
+      "phone": "204-768-2858",
+      "since": "",
+      "photo": null
+    }
+  },
+  "grand-rapids": {
+    "name": "Grand Rapids",
+    "type": "TOWN",
+    "slug": "grand-rapids",
+    "address": "Grand Rapids, MB Officer, R0C 1E0 Councillors Raymond Cook",
+    "phone": "204-639-2260",
+    "website": "https://grandviewmanitoba.com",
+    "mayor": {
+      "name": "Marlene Andreacchio",
+      "title": "Mayor",
+      "email": "of",
+      "phone": "204-639-2260",
+      "since": "",
+      "photo": null
+    }
+  },
+  "grassland": {
+    "name": "Grassland",
+    "type": "MUNICIPALITY",
+    "slug": "grassland",
+    "address": "Box 399 Councillors Curtis Clarke, Hartney, MB Council meets 2nd & 4th Thursday Claude Martin, R0M 0X0 of every month Coral Millar",
+    "phone": "204-858-2590",
+    "website": "https://www.grasslandmunicipality.ca",
+    "mayor": {
+      "name": "Bruce Evans",
+      "title": "Reeve",
+      "email": "info@mglgov.ca",
+      "phone": "204-858-2590",
+      "since": "",
+      "photo": null
+    }
+  },
+  "grey": {
+    "name": "Grey",
+    "type": "RM",
+    "slug": "grey",
+    "address": "Box 99 Councillors Don Guyot, Elm Creek, MB Council meets 1st & 3rd Doug Middleton, R0G 0N0 Wednesday Nathan Rey",
+    "phone": "204-436-2014",
+    "website": "https://www.rmofgrey.ca",
+    "mayor": {
+      "name": "Gail Johnson",
+      "title": "Reeve",
+      "email": "info@rmofgrey.ca",
+      "phone": "204-436-2014",
+      "since": "",
+      "photo": null
+    }
+  },
+  "hamiota": {
+    "name": "Hamiota",
+    "type": "MUNICIPALITY",
+    "slug": "hamiota",
+    "address": "Box 100 Councillors Ross Gray, Hamiota, MB Council meets 1st & 3rd Kelvin Tiller, R0M 0T0 Wednesday Ken Lawn",
+    "phone": "204-764-3050",
+    "website": "https://www.hamiota.com",
+    "mayor": {
+      "name": "Randy Lints",
+      "title": "Reeve",
+      "email": "info@hamiota.com",
+      "phone": "204-764-3050",
+      "since": "",
+      "photo": null
+    }
+  },
+  "hanover": {
+    "name": "Hanover",
+    "type": "RM",
+    "slug": "hanover",
+    "address": "Mitchell, MB Councillors Travis Doerksen, R5G 2N9 Council meets 2nd and 4th Brain Esau",
+    "phone": "204-326-4488",
+    "website": "https://www.hanovermb.ca",
+    "mayor": {
+      "name": "Jim Funk",
+      "title": "Reeve",
+      "email": "general@hanovermb.ca",
+      "phone": "204-326-4488",
+      "since": "",
+      "photo": null
+    }
+  },
+  "harrison-park": {
+    "name": "Harrison Park",
+    "type": "MUNICIPALITY",
+    "slug": "harrison-park",
+    "address": "Box 190 Councillors Jeremy Andreychuk, Onanole, MB Council meets 3rd Wednesday Gloria Campbell, R0J 1N0 of every month Taresa Kowalick",
+    "phone": "204-848-7614",
+    "website": "https://www.harrisonpark.ca",
+    "mayor": {
+      "name": "Ian Drul",
+      "title": "Reeve",
+      "email": "admin@harrisonpark.ca",
+      "phone": "204-848-7614",
+      "since": "",
+      "photo": null
+    }
+  },
+  "headingley": {
+    "name": "Headingley",
+    "type": "RM",
+    "slug": "headingley",
+    "address": "Headingley, MB Councillors Tom Roche, R4H 1G9 Council meets 2nd & 4th Tuesday Yolande Franzmann",
+    "phone": "204-837-5766",
+    "website": "https://www.rmofheadingley.ca",
+    "mayor": {
+      "name": "Jim Robson",
+      "title": "Mayor",
+      "email": "population:",
+      "phone": "204-837-5766",
+      "since": "",
+      "photo": null
+    }
+  },
+  "kelsey": {
+    "name": "Kelsey",
+    "type": "RM",
+    "slug": "kelsey",
+    "address": "Box 578 Councillors Joe Cote, The Pas, MB Council meets 2nd Thursday Joel Lesann, R9A 1K6 of every month Daivde Novo",
+    "phone": "204-623-7474",
+    "website": "https://www.rmofkelsey.ca",
+    "mayor": {
+      "name": "Neil Scott",
+      "title": "Reeve",
+      "email": "rmkelsey@mts.net",
+      "phone": "204-623-7474",
+      "since": "",
+      "photo": null
+    }
+  },
+  "la-broquerie": {
+    "name": "La Broquerie",
+    "type": "RM",
+    "slug": "la-broquerie",
+    "address": "Box 130 Councillors Laurent Tétrault, La Broquerie, MB Council meets 2nd & 4th Paul Gauthier, R0A 0W0 Wednesday Fernand Piché",
+    "phone": "204-424-5251",
+    "website": "https://www.labroquerie.com",
+    "mayor": {
+      "name": "Ivan Normandeau",
+      "title": "Reeve",
+      "email": "reception@rmlabroquerie.ca",
+      "phone": "204-424-5251",
+      "since": "",
+      "photo": null
+    }
+  },
+  "lac-du-bonnet": {
+    "name": "Lac Du Bonnet",
+    "type": "TOWN",
+    "slug": "lac-du-bonnet",
+    "address": "Box 339 Councillors Keegan Svenson, Lac du Bonnet, MB Council meets 2nd & 4th Thursday Greg Short, R0E 1A0 of every month Scott Veilleux",
+    "phone": "204-345-8693",
+    "website": "https://www.townoflacdubonnet.com",
+    "mayor": {
+      "name": "Ken Lodge",
+      "title": "Mayor",
+      "email": "info@townofldb.ca",
+      "phone": "204-345-8693",
+      "since": "",
+      "photo": null
+    }
+  },
+  "lakeshore": {
+    "name": "Lakeshore",
+    "type": "RM",
+    "slug": "lakeshore",
+    "address": "Box 40 Councillors Diana McIntyre, Okre River, MB, Council meets 2nd & 4th Tuesday Les Sametz, R0L 1R0 of every month Rick Paradis",
+    "phone": "204-732-2333",
+    "website": "https://www.rmoflakeshore.ca",
+    "mayor": {
+      "name": "Isaac Olson",
+      "title": "Reeve",
+      "email": "info@rmoflakeshore.ca",
+      "phone": "204-732-2333",
+      "since": "",
+      "photo": null
+    }
+  },
+  "leaf-rapids": {
+    "name": "Leaf Rapids",
+    "type": "TOWN",
+    "slug": "leaf-rapids",
+    "address": "Leaf Rapids, MB Councillors, R0B 1W0 Council meets 1st Wednesday",
+    "phone": "204-473-2436",
+    "website": "",
+    "mayor": {
+      "name": "Twyla Ludwig",
+      "title": "Administrator",
+      "email": "reception@townofleafrapids.ca",
+      "phone": "204-473-2436",
+      "since": "",
+      "photo": null
+    }
+  },
+  "lorne": {
+    "name": "Lorne",
+    "type": "MUNICIPALITY",
+    "slug": "lorne",
+    "address": "Box 10 Councillors Roger Lesage, Somerset, MB Council meets 2nd Tuesday Daniel Hacault, R0G 2L0 of every month Lindsay Ketsman",
+    "phone": "204-744-2133",
+    "website": "https://www.rmoflorne.ca",
+    "mayor": {
+      "name": "Aurel Pantel",
+      "title": "Reeve",
+      "email": "info@lornemb.ca",
+      "phone": "204-744-2133",
+      "since": "",
+      "photo": null
+    }
+  },
+  "louise": {
+    "name": "Louise",
+    "type": "MUNICIPALITY",
+    "slug": "louise",
+    "address": "Box 310 Councillors Liana VanWynsberghe, Crystal City, MB Council meets 2nd & 4th Michael McLaren, R0K 0N0 Wednesday Kyle McCannell",
+    "phone": "204-873-2591",
+    "website": "https://www.louisemb.com",
+    "mayor": {
+      "name": "Murray McIntyre",
+      "title": "Reeve",
+      "email": "fina@louisemb.com",
+      "phone": "204-873-2591",
+      "since": "",
+      "photo": null
+    }
+  },
+  "lynn-lake": {
+    "name": "Lynn Lake",
+    "type": "TOWN",
+    "slug": "lynn-lake",
+    "address": "Box 100 Councillors Eugene Shin, Lynn Lake, MB Council meets 2nd & 4th Tuesday Anne Kenny, R0B 0W0 of every month Thompson",
+    "phone": "204-356-2418",
+    "website": "https://www.lynnlake.ca",
+    "mayor": {
+      "name": "Brandon Dulewich",
+      "title": "Mayor",
+      "email": "info@lynnlake.ca",
+      "phone": "204-356-2418",
+      "since": "",
+      "photo": null
+    }
+  },
+  "macdonald": {
+    "name": "Macdonald",
+    "type": "RM",
+    "slug": "macdonald",
+    "address": "Box 100 Councillors Matt Bestland, Sanford, MB Council meets 2nd & 4th Tuesday Glen Irvine, R0G 2J0 of every month Barry Feller",
+    "phone": "204-736-2255",
+    "website": "https://www.rmofmacdonald.com",
+    "mayor": {
+      "name": "Brad Erb",
+      "title": "Reeve",
+      "email": "info@rmofmacdonald.com",
+      "phone": "204-736-2255",
+      "since": "",
+      "photo": null
+    }
+  },
+  "mccreary": {
+    "name": "Mccreary",
+    "type": "MUNICIPALITY",
+    "slug": "mccreary",
+    "address": "Box 338 Councillors Larry McLauchlan, McCreary, MB Council meets 2nd and 4th Donna Duggan, R0J 1B0 Wednesday Curt Janzen",
+    "phone": "204-835-2309",
+    "website": "https://www.exploremccreary.com",
+    "mayor": {
+      "name": "Rick Sonnenberg",
+      "title": "Reeve",
+      "email": "municipality@mccreary.ca",
+      "phone": "204-835-2309",
+      "since": "",
+      "photo": null
+    }
+  },
+  "melita": {
+    "name": "Melita",
+    "type": "TOWN",
+    "slug": "melita",
+    "address": "Box 364 Councillors Rhonda Verplanche, Melita, MB Council meets Tuesday Grant Hume, R0M 1L0 of every month Cara Redpath",
+    "phone": "204-522-3413",
+    "website": "https://www.melitamb.ca",
+    "mayor": {
+      "name": "Bill Holden",
+      "title": "Mayor",
+      "email": "admin@melitamb.ca",
+      "phone": "204-522-3413",
+      "since": "",
+      "photo": null
+    }
+  },
+  "minnedosa": {
+    "name": "Minnedosa",
+    "type": "TOWN",
+    "slug": "minnedosa",
+    "address": "Box 426 Councillors Mark Blais, Minnedosa, MB Council meets 2nd Tuesday Grant Butler, R0J 1E0 of every month Marc Landry",
+    "phone": "204-867-2727",
+    "website": "https://www.discoverminnedosa.com",
+    "mayor": {
+      "name": "Ken Cameron",
+      "title": "Mayor",
+      "email": "acao@minnedosa.com",
+      "phone": "204-867-2727",
+      "since": "",
+      "photo": null
+    }
+  },
+  "minto-odanah": {
+    "name": "Minto-Odanah",
+    "type": "RM",
+    "slug": "minto-odanah",
+    "address": "Box 1197 Councillors Bill Hopkins Jr., Minnedosa, MB Council meets twice a month on Barry A. Cook, R0J 1E0 2nd and 4th Thursday Kevin Boyd",
+    "phone": "204-867-3282",
+    "website": "https://www.discoverminnedosa.com",
+    "mayor": {
+      "name": "Doug Dowsett",
+      "title": "Reeve",
+      "email": "admin@mintoodanah.ca",
+      "phone": "204-867-3282",
+      "since": "",
+      "photo": null
+    }
+  },
+  "montcalm": {
+    "name": "Montcalm",
+    "type": "RM",
+    "slug": "montcalm",
+    "address": "Box 300 Councillors Paul Sabourin, Letellier, MB Council meets 3rd Wednesday Harold Janzen, R0G 1C0 of every month Louis Duval",
+    "phone": "204-737-2271",
+    "website": "https://www.rmofmontcalm.com",
+    "mayor": {
+      "name": "Paul Gilmore",
+      "title": "Reeve",
+      "email": "info@rmofmontcalm.com",
+      "phone": "204-737-2271",
+      "since": "",
+      "photo": null
+    }
+  },
+  "morden": {
+    "name": "Morden",
+    "type": "CITY",
+    "slug": "morden",
+    "address": "100 – 195 Stephen Street City Manager Nicole Reidle, Morden, MB Councillors Gord Maddock, R6M 1V3 Council meets 3rd or 4th Monday Garry Hiebert",
+    "phone": "204-822-4434",
+    "website": "https://www.mymorden.ca",
+    "mayor": {
+      "name": "Brandon Burley",
+      "title": "Mayor",
+      "email": "info@mymorden.ca",
+      "phone": "204-822-4434",
+      "since": "",
+      "photo": null
+    }
+  },
+  "morris": {
+    "name": "Morris",
+    "type": "RM",
+    "slug": "morris",
+    "address": "Box 518 Councillor Mervin Dueck, Morris, MB Council meets 2nd Wednesday Rick Giesbrecht, R0G 1K0 of every month Shane Kroeker",
+    "phone": "204-746-7300",
+    "website": "https://www.rmofmorris.com",
+    "mayor": {
+      "name": "Scott Siemens",
+      "title": "Reeve",
+      "email": "info@rmofmorris.ca",
+      "phone": "204-746-7300",
+      "since": "",
+      "photo": null
+    }
+  },
+  "mountain": {
+    "name": "Mountain",
+    "type": "RM",
+    "slug": "mountain",
+    "address": "Box 155 Councillors Wilmer Malcolm, Birch River, MB Council meets 2nd & 4th Stephen Nadolney, R0L 0E0 Wednesday Nestor Rizok",
+    "phone": "204-236-4222",
+    "website": "https://www.rmofmountain.com",
+    "mayor": {
+      "name": "Keith Behrmann",
+      "title": "Reeve",
+      "email": "",
+      "phone": "204-236-4222",
+      "since": "",
+      "photo": null
+    }
+  },
+  "mystery-lake": {
+    "name": "Mystery Lake",
+    "type": "LGD",
+    "slug": "mystery-lake",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "mayor": {
+      "name": "Wendy Wolfe",
+      "title": "Administrator",
+      "email": "lgdmlake@gmail.com",
+      "phone": "",
+      "since": "",
+      "photo": null
+    }
+  },
+  "neepawa": {
+    "name": "Neepawa",
+    "type": "TOWN",
+    "slug": "neepawa",
+    "address": "Box 339 Councillors Murray Parrott, Neepawa, MB Council meets 1st & 3rd Tuesday Darryl Garrard, R0J 1H0 of every month Jason Nadeau",
+    "phone": "204-476-7600",
+    "website": "https://www.neepawa.ca",
+    "mayor": {
+      "name": "Brain Hedley",
+      "title": "Mayor",
+      "email": "info@neepawa.ca",
+      "phone": "204-476-7600",
+      "since": "",
+      "photo": null
+    }
+  },
+  "niverville": {
+    "name": "Niverville",
+    "type": "TOWN",
+    "slug": "niverville",
+    "address": "Niverville, MB Councillors Chris Wiebe, R0A 1E0 Council meets 1st & 3rd Tuesday Nathan Dueck",
+    "phone": "204-388-4600",
+    "website": "https://www.whereyoubelong.ca",
+    "mayor": {
+      "name": "Myron Dyck",
+      "title": "Mayor",
+      "email": "feedback@whereyoubelong.ca",
+      "phone": "204-388-4600",
+      "since": "",
+      "photo": null
+    }
+  },
+  "north-norfolk": {
+    "name": "North Norfolk",
+    "type": "MUNICIPALITY",
+    "slug": "north-norfolk",
+    "address": "Box 190 Councillors Scott Early, MacGregor, MB Council meets 2nd Wednesday Ian Blyth, R0H 0R0 of every month Karl Voesenek",
+    "phone": "204-685-2211",
+    "website": "https://www.northnorfolk.ca",
+    "mayor": {
+      "name": "Ed Heppner",
+      "title": "Mayor",
+      "email": "office@northnorfolk.ca",
+      "phone": "204-685-2211",
+      "since": "",
+      "photo": null
+    }
+  },
+  "oakview": {
+    "name": "Oakview",
+    "type": "RM",
+    "slug": "oakview",
+    "address": "Box 179 Councillors Bill Aaroe, Oak River, MB Council meets 2nd & 4th Tuesday Mark Gill, R0K 1T0 of every month Frank Hyndman",
+    "phone": "204-566-2146",
+    "website": "https://www.rmofoakview.ca",
+    "mayor": {
+      "name": "Robert Christie",
+      "title": "Reeve",
+      "email": "info@rmofoakview.ca",
+      "phone": "204-566-2146",
+      "since": "",
+      "photo": null
+    }
+  },
+  "pembina": {
+    "name": "Pembina",
+    "type": "MUNICIPALITY",
+    "slug": "pembina",
+    "address": "Manitou, MB Councillors Devin Boulton, R0G 1G0 Council meets 2nd Thursday Erik Ching",
+    "phone": "204-242-2838",
+    "website": "https://www.pembina.ca",
+    "mayor": {
+      "name": "Glenn Shiskoski",
+      "title": "Reeve",
+      "email": "admin@pembina.ca",
+      "phone": "204-242-2838",
+      "since": "",
+      "photo": null
+    }
+  },
+  "piney": {
+    "name": "Piney",
+    "type": "RM",
+    "slug": "piney",
+    "address": "Box 48 Councillors Ken Prociw, Vassar, MB Council meets 2nd & 4th Tuesday Dale Edbom, R0A 2J0 of every month David Beaudry",
+    "phone": "204-437-2284",
+    "website": "https://www.rmofpiney.mb.ca",
+    "mayor": {
+      "name": "Wayne Anderson",
+      "title": "Reeve",
+      "email": "office@rmofpiney.mb.ca",
+      "phone": "204-437-2284",
+      "since": "",
+      "photo": null
+    }
+  },
+  "pipestone": {
+    "name": "Pipestone",
+    "type": "RM",
+    "slug": "pipestone",
+    "address": "Box 99 Councillors Ross Tycoles, Reston, MB Council meets 2nd & 4th Garnet Williamson, R0M 1X0 Thursday Gary Nicholson",
+    "phone": "204-877-3327",
+    "website": "https://www.rmofpipestone.com",
+    "mayor": {
+      "name": "Archie McPherson",
+      "title": "Reeve",
+      "email": "population:",
+      "phone": "204-877-3327",
+      "since": "",
+      "photo": null
+    }
+  },
+  "portage-la-prairie": {
+    "name": "Portage La Prairie",
+    "type": "CITY",
+    "slug": "portage-la-prairie",
+    "address": "97 Saskatchewan Avenue East City Manager Nathan Peto, Portage la Prairie, MB Councillors Colin Doyle, R1N 0L8 Council meets 2nd & 4th Monday Ryan Espey",
+    "phone": "204-239-8337",
+    "website": "https://www.city-plap.com",
+    "mayor": {
+      "name": "Sharilyn Knox",
+      "title": "Mayor",
+      "email": "info@city-plap.com",
+      "phone": "204-239-8337",
+      "since": "",
+      "photo": null
+    }
+  },
+  "prairie-lakes": {
+    "name": "Prairie Lakes",
+    "type": "RM",
+    "slug": "prairie-lakes",
+    "address": "Box 100 Councillors Armand Valloton, Belmont, MB Council meets 2nd Tuesday Glen Johnston, R0K 0C0 of every month Trent Cuviller",
+    "phone": "204-537-2241",
+    "website": "https://www.rmofprairielakes.ca",
+    "mayor": {
+      "name": "Darren Seymour",
+      "title": "Reeve",
+      "email": "admin@rmofprairielakes.ca",
+      "phone": "204-537-2241",
+      "since": "",
+      "photo": null
+    }
+  },
+  "reynolds": {
+    "name": "Reynolds",
+    "type": "RM",
+    "slug": "reynolds",
+    "address": "Box 46 Councillors Jessica Thurston, Hadashville, MB Council meets 2nd & 4th Tuesday Blaine Webster, R0E 0X0 of every month Harriet Yarmill",
+    "phone": "204-426-5305",
+    "website": "https://www.rmofreynolds.com",
+    "mayor": {
+      "name": "Russ Gawluk",
+      "title": "Reeve",
+      "email": "admin@rmofreynolds.com",
+      "phone": "204-426-5305",
+      "since": "",
+      "photo": null
+    }
+  },
+  "rhineland": {
+    "name": "Rhineland",
+    "type": "MUNICIPALITY",
+    "slug": "rhineland",
+    "address": "Box 270 Councillors Brad Braun, Altona, MB Council meets 2nd & 4th Larry Fehr, R0G 0B0 Wednesday June Letkeman",
+    "phone": "204-324-5357",
+    "website": "https://www.rmofrhineland.com",
+    "mayor": {
+      "name": "Don Wiebe",
+      "title": "Reeve",
+      "email": "info@rhinelandmb.ca",
+      "phone": "204-324-5357",
+      "since": "",
+      "photo": null
+    }
+  },
+  "riding-mountain-west": {
+    "name": "Riding Mountain West",
+    "type": "RM",
+    "slug": "riding-mountain-west",
+    "address": "Box 110 Councillors John Pickup, Inglis, MB Council meets every 3rd Judy Usunier, R0J 0X0 Wednesday Brett Bauereiss",
+    "phone": "204-564-2589",
+    "website": "https://www.rmwest.ca",
+    "mayor": {
+      "name": "Grant Boryshavich",
+      "title": "Reeve",
+      "email": "info@rmwest.ca",
+      "phone": "204-564-2589",
+      "since": "",
+      "photo": null
+    }
+  },
+  "ritchot": {
+    "name": "Ritchot",
+    "type": "RM",
+    "slug": "ritchot",
+    "address": "St. Adolphe, MB Councillors Shane Pelletier, R5A 1B9 Council meets 1st Tuesday & Jason Bodnarchuk",
+    "phone": "204-883-2293 3",
+    "website": "https://www.ritchot.com",
+    "mayor": {
+      "name": "Chris Ewen",
+      "title": "Mayor",
+      "email": "info@ritchot.com",
+      "phone": "204-883-2293 3",
+      "since": "",
+      "photo": null
+    }
+  },
+  "roblin": {
+    "name": "Roblin",
+    "type": "MUNICIPALITY",
+    "slug": "roblin",
+    "address": "Box 998 Councillors Gail Chescu, Roblin, MB Council meets 2nd & 4th Tuesday Walter Hammond, R0L 1P0 of every month Trevor Kehrer",
+    "phone": "204-937-8333",
+    "website": "https://www.roblinmanitoba.com",
+    "mayor": {
+      "name": "Robert Misko",
+      "title": "Head of Council",
+      "email": "info@roblin.ca",
+      "phone": "204-937-8333",
+      "since": "",
+      "photo": null
+    }
+  },
+  "rockwood": {
+    "name": "Rockwood",
+    "type": "RM",
+    "slug": "rockwood",
+    "address": "Box 902 Councillors Debbie Pansky, Stonewall, MB Council meets 2nd & 4th Curtis McClintock, R0C 2Z0 Wednesday Neal Wirgau",
+    "phone": "204-467-2272",
+    "website": "https://www.rockwood.ca",
+    "mayor": {
+      "name": "J. Wesley Taplin",
+      "title": "Reeve",
+      "email": "info@rockwood.ca",
+      "phone": "204-467-2272",
+      "since": "",
+      "photo": null
+    }
+  },
+  "roland": {
+    "name": "Roland",
+    "type": "RM",
+    "slug": "roland",
+    "address": "Box 119 Councillors John Fox, Roland, MB Council meets 2nd Tuesday Jason McIntosh, R0G 1T0 of every month Carrie Hennan",
+    "phone": "204-343-2061",
+    "website": "https://www.rmofroland.com",
+    "mayor": {
+      "name": "Jodi Gaultier",
+      "title": "Reeve",
+      "email": "caormofroland@gmail.com",
+      "phone": "204-343-2061",
+      "since": "",
+      "photo": null
+    }
+  },
+  "rosedale": {
+    "name": "Rosedale",
+    "type": "RM",
+    "slug": "rosedale",
+    "address": "Box 100 Councillors Ernie Schure, Neepawa, MB Council meets 2nd Friday of Robert Scott, R0J 1H0 every month Jeff Henderson",
+    "phone": "204-476-5414",
+    "website": "https://www.rmrosedale.com",
+    "mayor": {
+      "name": "Karl Snezyk",
+      "title": "Reeve",
+      "email": "admin@rmrosedale.com",
+      "phone": "204-476-5414",
+      "since": "",
+      "photo": null
+    }
+  },
+  "rosser": {
+    "name": "Rosser",
+    "type": "RM",
+    "slug": "rosser",
+    "address": "Rosser, MB Councillors Larry Wandowich, R4B 0C6 Council meets 1st Wednesday & Michael Palmer",
+    "phone": "204-467-5711 3",
+    "website": "https://www.rmofrosser.com",
+    "mayor": {
+      "name": "Judy Snitynsky",
+      "title": "Reeve",
+      "email": "info@rmofrosser.com",
+      "phone": "204-467-5711 3",
+      "since": "",
+      "photo": null
+    }
+  },
+  "selkirk": {
+    "name": "Selkirk",
+    "type": "CITY",
+    "slug": "selkirk",
+    "address": "Selkirk, MB Councillors John Buffie, R1A 0W6 Council meets 2nd & 4th Monday Kelly Cook",
+    "phone": "204-785-4900",
+    "website": "https://www.myselkirk.ca",
+    "mayor": {
+      "name": "Larry Johannson",
+      "title": "Mayor",
+      "email": "citizensupport@cityofselkirk.com",
+      "phone": "204-785-4900",
+      "since": "",
+      "photo": null
+    }
+  },
+  "sifton": {
+    "name": "Sifton",
+    "type": "RM",
+    "slug": "sifton",
+    "address": "Box 100 Councillors Tim Crocker, Oak Lake, MB Council meets 2nd Tuesday Wilson Davis, R0M 1P0 of every month Dennis Griffith",
+    "phone": "204-855-2423",
+    "website": "https://www.rmofsifton.com",
+    "mayor": {
+      "name": "Cyril Druwe",
+      "title": "Reeve",
+      "email": "admin@rmofsifton.com",
+      "phone": "204-855-2423",
+      "since": "",
+      "photo": null
+    }
+  },
+  "snow-lake": {
+    "name": "Snow Lake",
+    "type": "TOWN",
+    "slug": "snow-lake",
+    "address": "Box 40 Councillors Randy Cockle, Snow Lake, MB Council meets 2nd & 3rd Tuesday Greg Erickson, R0B 1M0 Office Hours: 8:00 – 5:00 Dave Mayer",
+    "phone": "204-358-2551",
+    "website": "https://www.snowlake.com",
+    "mayor": {
+      "name": "Ron Scott",
+      "title": "Mayor",
+      "email": "snowlake@mymts.net",
+      "phone": "204-358-2551",
+      "since": "",
+      "photo": null
+    }
+  },
+  "souris-glenwood": {
+    "name": "Souris-Glenwood",
+    "type": "MUNICIPALITY",
+    "slug": "souris-glenwood",
+    "address": "Box 518 Councillors Bruce Apperley, Souris, MB Council meets 2nd & 4th Tuesday Donald Brown, R0K 2C0 of every month Blake Denbow",
+    "phone": "204-483-5200",
+    "website": "https://www.sourismanitoba.com",
+    "mayor": {
+      "name": "Duane Davison",
+      "title": "Mayor",
+      "email": "sg.cao@sourismanitoba.com",
+      "phone": "204-483-5200",
+      "since": "",
+      "photo": null
+    }
+  },
+  "springfield": {
+    "name": "Springfield",
+    "type": "RM",
+    "slug": "springfield",
+    "address": "Box 219 Councillors Glen Fuhl, Oakbank, MB Council meets each Tuesday (1st & 3rd for Andy Kuczynski, Council Meeting",
+    "phone": "204-444-3321",
+    "website": "https://www.rmofspringfield.ca",
+    "mayor": {
+      "name": "Patrick Therrien",
+      "title": "Mayor",
+      "email": "info@rmofspringfield.ca",
+      "phone": "204-444-3321",
+      "since": "",
+      "photo": null
+    }
+  },
+  "st-andrews": {
+    "name": "St. Andrews",
+    "type": "RM",
+    "slug": "st-andrews",
+    "address": "Box 130 Councillors Chris Mondor, Clandeboye, MB Council meets 2nd & 4th Tuesday Ken Doornbos, R0C 0P0 of every month Tracy Slyker",
+    "phone": "204-738-2264",
+    "website": "https://www.rmofstandrews.com",
+    "mayor": {
+      "name": "Joy Sul",
+      "title": "Mayor",
+      "email": "info@rmofstandrews.com",
+      "phone": "204-738-2264",
+      "since": "",
+      "photo": null
+    }
+  },
+  "st-clements": {
+    "name": "St. Clements",
+    "type": "RM",
+    "slug": "st-clements",
+    "address": "Box 2, Group 35, RR#1 Councillors Scott Spicer, East Selkirk, MB Council meets 2nd & 4th Tuesday Sandra Strang, R0E 0M0 of every month Glen Basarowich",
+    "phone": "204-482-3300",
+    "website": "https://www.rmofstclements.com",
+    "mayor": {
+      "name": "Debbie Fiebelkorn",
+      "title": "Mayor",
+      "email": "info@rmofstclements.com",
+      "phone": "204-482-3300",
+      "since": "",
+      "photo": null
+    }
+  },
+  "st-francois-xavier": {
+    "name": "St. Francois Xavier",
+    "type": "RM",
+    "slug": "st-francois-xavier",
+    "address": "St. Francois Xavier, MB Councillors Kim Proulx, R4L 1A5 Council meets 1st & 3rd Tuesday Bryan Syrenne",
+    "phone": "204-864-2092",
+    "website": "https://www.rm-stfrancois.mb.ca",
+    "mayor": {
+      "name": "Delmer Nott",
+      "title": "Reeve",
+      "email": "info@rm-stfrancois.mb.ca",
+      "phone": "204-864-2092",
+      "since": "",
+      "photo": null
+    }
+  },
+  "st-laurent": {
+    "name": "St. Laurent",
+    "type": "RM",
+    "slug": "st-laurent",
+    "address": "Box 220 Councillors Maurice Leclair, St. Laurent, MB Council meets 3rd Wednesday Tom Johnson, R0C 2S0 of every month Perry Gaudry",
+    "phone": "204-646-2259",
+    "website": "https://www.rmstlaurent.com",
+    "mayor": {
+      "name": "Richard Chartrand",
+      "title": "Reeve",
+      "email": "rmstlaur@mymts.net",
+      "phone": "204-646-2259",
+      "since": "",
+      "photo": null
+    }
+  },
+  "st-pierre-jolys": {
+    "name": "St. Pierre-Jolys",
+    "type": "VILLAGE",
+    "slug": "st-pierre-jolys",
+    "address": "Box 218 Councillors Michel Forest, St-Pierre-Jolys, MB Council meets 1st & 3rd Maureen Sicotte, R0A 1V0 Wednesday Suzanne Jolicoeur",
+    "phone": "204-433-7832",
+    "website": "https://www.villagestpierrejolys.ca",
+    "mayor": {
+      "name": "Raymond Maynard",
+      "title": "Mayor",
+      "email": "finance@villagestpierrejolys.ca",
+      "phone": "204-433-7832",
+      "since": "",
+      "photo": null
+    }
+  },
+  "ste-anne": {
+    "name": "Ste. Anne",
+    "type": "TOWN",
+    "slug": "ste-anne",
+    "address": "Ste. Anne, MB Councillors Lyle Davis, R5H 1B8 Council meets 2nd & 4th Cornie Klassen",
+    "phone": "204-422-5293",
+    "website": "https://www.steannemb.ca",
+    "mayor": {
+      "name": "Yvan St. Vincent",
+      "title": "Mayor",
+      "email": "town@steanne.ca",
+      "phone": "204-422-5293",
+      "since": "",
+      "photo": null
+    }
+  },
+  "ste-rose": {
+    "name": "Ste. Rose",
+    "type": "MUNICIPALITY",
+    "slug": "ste-rose",
+    "address": "Ste. Rose du Lac, MB Councillors Shari Maillard, R0L 1S0 Council meets 2nd & 4th Ivan Worrall",
+    "phone": "204-447-2229",
+    "website": "https://www.sterose.ca",
+    "mayor": {
+      "name": "Robert Brunel",
+      "title": "Mayor",
+      "email": "sterose@sterose.ca",
+      "phone": "204-447-2229",
+      "since": "",
+      "photo": null
+    }
+  },
+  "stanley": {
+    "name": "Stanley",
+    "type": "RM",
+    "slug": "stanley",
+    "address": "Stanley, MB Councillors Peter Froese, R6P 0B1 Council meets 1st & 3rd Thursday Bob Giesbrecht",
+    "phone": "204-325-4101",
+    "website": "https://www.rmofstanley.ca",
+    "mayor": {
+      "name": "Ike Friesen",
+      "title": "Reeve",
+      "email": "info@rmofstanley.ca",
+      "phone": "204-325-4101",
+      "since": "",
+      "photo": null
+    }
+  },
+  "steinbach": {
+    "name": "Steinbach",
+    "type": "CITY",
+    "slug": "steinbach",
+    "address": "Steinbach, MB Councillors Bill Hiebert, R5G 2J1 Council meets 1st & 3rd Tuesday Jake Hiebert",
+    "phone": "204-326-9877",
+    "website": "https://www.steinbach.ca",
+    "mayor": {
+      "name": "Earl Funk",
+      "title": "Mayor",
+      "email": "info@steinbach.ca",
+      "phone": "204-326-9877",
+      "since": "",
+      "photo": null
+    }
+  },
+  "stonewall": {
+    "name": "Stonewall",
+    "type": "TOWN",
+    "slug": "stonewall",
+    "address": "Box 250 Councillors Walter Badger, Stonewall, MB Council meets 1st & 3rd Peter Bullivant, R0C 2Z0 Wednesday Ron Maryniuk",
+    "phone": "204-467-7979",
+    "website": "https://www.stonewall.ca",
+    "mayor": {
+      "name": "Sandra Smith",
+      "title": "Mayor",
+      "email": "info@stonewall.ca",
+      "phone": "204-467-7979",
+      "since": "",
+      "photo": null
+    }
+  },
+  "stuartburn": {
+    "name": "Stuartburn",
+    "type": "RM",
+    "slug": "stuartburn",
+    "address": "Box 59 Councillors Dan Bodz, Vita, MB Council meets 1st & 3rd Tuesday Dylan Gurman, R0A 2K0 of every month Michael Pacioka",
+    "phone": "204-425-3218",
+    "website": "https://www.rmofstuartburn.com",
+    "mayor": {
+      "name": "Michelle Gawronsky",
+      "title": "Reeve",
+      "email": "inquiries@rmofstuartburn.com",
+      "phone": "204-425-3218",
+      "since": "",
+      "photo": null
+    }
+  },
+  "swan-river": {
+    "name": "Swan River",
+    "type": "TOWN",
+    "slug": "swan-river",
+    "address": "Swan River, MB Councillors Don Bobick, R0L 1Z0 Council meets 1st & 3rd Tuesday Ainslie White",
+    "phone": "204-734-4586",
+    "website": "https://www.swanrivermanitoba.ca",
+    "mayor": {
+      "name": "Lance Jacobson",
+      "title": "Mayor",
+      "email": "main@townsr.ca",
+      "phone": "204-734-4586",
+      "since": "",
+      "photo": null
+    }
+  },
+  "teulon": {
+    "name": "Teulon",
+    "type": "TOWN",
+    "slug": "teulon",
+    "address": "Box 69 Councillors Robin Nishibata, Teulon, MB Council meets 2nd Tuesday Kirt Ansell, R0C 3B0 of every month Glenn Kletke",
+    "phone": "204-886-2314",
+    "website": "https://www.teulon.ca",
+    "mayor": {
+      "name": "Todd Campbell",
+      "title": "Mayor",
+      "email": "info@teulon.ca",
+      "phone": "204-886-2314",
+      "since": "",
+      "photo": null
+    }
+  },
+  "the-pas": {
+    "name": "The Pas",
+    "type": "TOWN",
+    "slug": "the-pas",
+    "address": "Box 870 Councillors Trevor Lane, The Pas, MB Council meets 3rd Wednesday Bill Ward, R9A 1K8 of every month Carrie Alkinson",
+    "phone": "204-627-1100",
+    "website": "https://www.townofthepas.ca",
+    "mayor": {
+      "name": "Andre Murphy",
+      "title": "Mayor",
+      "email": "info@townofthepas.ca",
+      "phone": "204-627-1100",
+      "since": "",
+      "photo": null
+    }
+  },
+  "thompson": {
+    "name": "Thompson",
+    "type": "RM",
+    "slug": "thompson",
+    "address": "Box 190 Councillors Travis Reichert, Miami, MB Council meets 2nd & 4th Wayne Gall, R0G 1H0 Thursday Donna Cox",
+    "phone": "204-435-2114",
+    "website": "https://www.rmofthompson.com",
+    "mayor": {
+      "name": "Brian Callum",
+      "title": "Reeve",
+      "email": "info@rmofthompson.com",
+      "phone": "204-435-2114",
+      "since": "",
+      "photo": null
+    }
+  },
+  "two-borders": {
+    "name": "Two Borders",
+    "type": "MUNICIPALITY",
+    "slug": "two-borders",
+    "address": "Box 429 Councillors Tom Dickson, Melita, MB Council meets 3rd Tuesday of Karen Jones, R0M 1L0 every month Alan Jackson",
+    "phone": "204-522-3263",
+    "website": "https://www.twoborders.ca",
+    "mayor": {
+      "name": "Sandra Clark",
+      "title": "Reeve",
+      "email": "info@twoborders.ca",
+      "phone": "204-522-3263",
+      "since": "",
+      "photo": null
+    }
+  },
+  "victoria": {
+    "name": "Victoria",
+    "type": "RM",
+    "slug": "victoria",
+    "address": "Box 40 Councillors Reginald Marginet, Holland, MB Council meets 2nd Wednesday Wil Rex, R0G 0X0 of every month James Cassels",
+    "phone": "204-526-2423",
+    "website": "https://www.rmofvictoria.com",
+    "mayor": {
+      "name": "Raymond Huggart",
+      "title": "Reeve",
+      "email": "rm.office@rmofvictoria.com",
+      "phone": "204-526-2423",
+      "since": "",
+      "photo": null
+    }
+  },
+  "victoria-beach": {
+    "name": "Victoria Beach",
+    "type": "RM",
+    "slug": "victoria-beach",
+    "address": "Winnipeg, MB Councillors Graham Randle, R3J 3T7 Council meets 1st & 3rd Tuesday Irwin Kumka",
+    "phone": "204-774-4263",
+    "website": "https://www.rmofvictoriabeach.ca",
+    "mayor": {
+      "name": "Penny McMorris",
+      "title": "Reeve",
+      "email": "info@victoriabeach.ca",
+      "phone": "204-774-4263",
+      "since": "",
+      "photo": null
+    }
+  },
+  "virden": {
+    "name": "Virden",
+    "type": "TOWN",
+    "slug": "virden",
+    "address": "Box 310 Councillors Marc Savy, Virden, MB Council meets 1st & 3rd Tuesday Tara Cowan, R0M 2C0 of every month Travis Penner",
+    "phone": "204-748-2440",
+    "website": "https://www.virden.ca",
+    "mayor": {
+      "name": "Tina Williams",
+      "title": "Mayor",
+      "email": "info@virden.ca",
+      "phone": "204-748-2440",
+      "since": "",
+      "photo": null
+    }
+  },
+  "wallace-woodworth": {
+    "name": "Wallace-Woodworth",
+    "type": "RM",
+    "slug": "wallace-woodworth",
+    "address": "Box 2200 Councillors Valerie Caldwell, Virden, MB Council meets 2nd & 4th Tuesday Diana MacDonald, R0M 2C0 of every month Barb Stambuski",
+    "phone": "204-748-1239",
+    "website": "https://www.wallace-woodworth.com",
+    "mayor": {
+      "name": "Clayton Canart",
+      "title": "Reeve",
+      "email": "info@wallace-woodworth.com",
+      "phone": "204-748-1239",
+      "since": "",
+      "photo": null
+    }
+  },
+  "west-interlake": {
+    "name": "West Interlake",
+    "type": "RM",
+    "slug": "west-interlake",
+    "address": "Box 370 Councillors John Bezemer, Ashern, MB Council meets 2nd Tuesday Lyle Finney, R0C 0E0 of every month Randy Helgason",
+    "phone": "204-739-2666",
+    "website": "https://www.rmofwestinterlake.com",
+    "mayor": {
+      "name": "Arnthor Jonasson",
+      "title": "Reeve",
+      "email": "info@rmofwestinterlake.com",
+      "phone": "204-739-2666",
+      "since": "",
+      "photo": null
+    }
+  },
+  "west-st-paul": {
+    "name": "West St. Paul",
+    "type": "RM",
+    "slug": "west-st-paul",
+    "address": "West St. Paul, MB Councillors Peter Campbell, R4A 5A3 Council meets 4th Tuesday & 2nd Giorgio Busceti",
+    "phone": "204-338-0306",
+    "website": "https://www.weststpaul.com",
+    "mayor": {
+      "name": "Peter Truijen",
+      "title": "Mayor",
+      "email": "info@weststpaul.com",
+      "phone": "204-338-0306",
+      "since": "",
+      "photo": null
+    }
+  },
+  "whitehead": {
+    "name": "Whitehead",
+    "type": "RM",
+    "slug": "whitehead",
+    "address": "Box 107 Councillors Kevin Klassen, Alexander, MB Council meets 2nd Monday of Christopher, R0K 0A0 every month Semeschuk",
+    "phone": "204-752-2261",
+    "website": "https://www.rmofwhitehead.ca",
+    "mayor": {
+      "name": "Trevor Tuttosi",
+      "title": "Reeve",
+      "email": "office@rmofwhitehead.ca",
+      "phone": "204-752-2261",
+      "since": "",
+      "photo": null
+    }
+  },
+  "whitemouth": {
+    "name": "Whitemouth",
+    "type": "RM",
+    "slug": "whitemouth",
+    "address": "Whitemouth, MB Councillors, R0E 2G0 Council meets 2nd & 4th Duncan McDoug",
+    "phone": "",
+    "website": "https://www.rmwhitemouth.com",
+    "mayor": {
+      "name": "Walter Amerongen",
+      "title": "Reeve",
+      "email": "info@rmwhitemouth.com",
+      "phone": "",
+      "since": "",
+      "photo": null
+    }
+  },
+  "winkler": {
+    "name": "Winkler",
+    "type": "CITY",
+    "slug": "winkler",
+    "address": "Winkler, MB Councillors Don Friesen, R6W 1B4 Council meets 2nd & 4th Tuesday Andrew Froese",
+    "phone": "204-325-9524",
+    "website": "https://www.winkler.ca",
+    "mayor": {
+      "name": "Henry Siemens",
+      "title": "Mayor",
+      "email": "admin@cityofwinkler.ca",
+      "phone": "204-325-9524",
+      "since": "",
+      "photo": null
+    }
+  },
+  "winnipeg": {
+    "name": "Winnipeg",
+    "type": "CITY",
+    "slug": "winnipeg",
+    "address": "Winnipeg, MB City Clerk, R3B 1B9 Councillors (Refer to page 57 for",
+    "phone": "311",
+    "website": "https://www.winnipeg.ca",
+    "mayor": {
+      "name": "",
+      "title": "Mayor",
+      "email": "311@winnipeg.ca",
+      "phone": "311",
+      "since": "",
+      "photo": null
+    }
+  },
+  "winnipeg-beach": {
+    "name": "Winnipeg Beach",
+    "type": "TOWN",
+    "slug": "winnipeg-beach",
+    "address": "Box 160 Councillors, Winnipeg Beach, MB Council meets 4th Wednesday Barry Hoel, R0C 3G0 of every month Doug Jarvis",
+    "phone": "204-389-2698",
+    "website": "https://www.winnipegbeach.ca",
+    "mayor": {
+      "name": "Stan Potten",
+      "title": "Mayor",
+      "email": "info@winnipegbeach.ca",
+      "phone": "204-389-2698",
+      "since": "",
+      "photo": null
+    }
+  },
+  "woodlands": {
+    "name": "Woodlands",
+    "type": "RM",
+    "slug": "woodlands",
+    "address": "Box 10 Councillors Lorna Broadfoot, Woodlands, MB Council meets 2nd & 4th Tuesday Carl Fleury, R0C 3H0 of every month Valerie Stelck",
+    "phone": "204-383-5679",
+    "website": "https://www.rmwoodlands.ca",
+    "mayor": {
+      "name": "Douglas Oliver",
+      "title": "Reeve",
+      "email": "admin@rmwoodlands.ca",
+      "phone": "204-383-5679",
+      "since": "",
+      "photo": null
+    }
+  },
+  "yellowhead": {
+    "name": "Yellowhead",
+    "type": "RM",
+    "slug": "yellowhead",
+    "address": "Box 278 Councillors Ron Gerelus, Shoal Lake, MB Council meets 2nd & 4th Tuesday Delbert Pederson, R0J 1Z0 of every month John Derhak",
+    "phone": "204-759-2565",
+    "website": "https://www.yellowheadmunicipality.ca",
+    "mayor": {
+      "name": "Mervin Starzyk",
+      "title": "Mayor",
+      "email": "info@yhgov.net",
+      "phone": "204-759-2565",
+      "since": "",
+      "photo": null
+    }
+  }
+}

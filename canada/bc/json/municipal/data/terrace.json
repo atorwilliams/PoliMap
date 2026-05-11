@@ -3,19 +3,19 @@
   "geoname": "Terrace",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Sean Bujtas",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "party": "Acclaimed"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.terrace.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

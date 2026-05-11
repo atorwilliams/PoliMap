@@ -3,19 +3,20 @@
   "geoname": "Oliver",
   "type": "TOWN",
   "mayor": {
-    "name": "",
+    "name": "Martin Johansen",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mjohansen@oliver.ca",
+    "party": "Acclaimed"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.oliver.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

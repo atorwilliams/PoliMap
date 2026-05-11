@@ -3,19 +3,20 @@
   "geoname": "Williams Lake",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Surinderpal Rathor",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "bveenkamp@williamslake.ca",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.williamslake.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

@@ -3,19 +3,20 @@
   "geoname": "Comox",
   "type": "TOWN",
   "mayor": {
-    "name": "",
+    "name": "Nicole Minions",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "party": "Acclaimed",
+    "email": "nminions@comox.ca"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.comox.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

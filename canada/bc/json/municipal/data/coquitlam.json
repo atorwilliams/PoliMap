@@ -3,13 +3,15 @@
   "geoname": "Coquitlam",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Richard Stewart",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "rstewart@coquitlam.ca",
+    "party": "Independent",
+    "url": "https://www.coquitlam.ca/directory.aspx?EID=37"
   },
   "council": [],
   "appointed": [],

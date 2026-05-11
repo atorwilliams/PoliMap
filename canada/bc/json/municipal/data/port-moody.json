@@ -3,19 +3,20 @@
   "geoname": "Port Moody",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Meghan Lahti",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mlahti@portmoody.ca",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.portmoody.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

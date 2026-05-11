@@ -3,19 +3,20 @@
   "geoname": "View Royal",
   "type": "TOWN",
   "mayor": {
-    "name": "",
+    "name": "Sid Tobias",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayorandcouncil@viewroyal.ca",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.viewroyal.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

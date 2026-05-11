@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>United Kingdom – PoliMap</title>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/landing.css">
+</head>
+<body>
+  <header class="top-banner">
+    <div class="banner-container">
+      <a href="/" class="logo" style="text-decoration:none;">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </a>
+
+      <nav class="main-nav">
+        <a class="nav-btn" href="/contribute.html">Contribute</a>
+        <a class="nav-btn" href="/donate.html">Donate</a>
+        <a class="nav-btn" href="https://polichan.org" target="_blank">Discussion</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="map"></div>
+
+  <div id="map-controls-stack">
+    <div id="legend" class="map-control legend-control">
+      <div class="control-header">Legend</div>
+      <div id="legend-parties"></div>
+    </div>
+    <div id="layer-toggle" class="map-control layers-control">
+      <button class="layer-btn active" data-layer="pcon">Westminster Constituencies</button>
+      <button class="layer-btn" data-layer="lad">Local Authorities</button>
+      <button class="layer-btn" data-layer="cauth">Combined Authorities</button>
+    </div>
+  </div>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script type="module">
+    const LAYERS = {
+      pcon:  { file: './json/PCON_MAY_2024_UK_BGC.geojson',  nameProp: 'PCON24NM',  label: 'Westminster Constituencies', partisan: true  },
+      lad:   { file: './json/LAD_DEC_2025_UK_BGC.geojson',   nameProp: 'LAD25NM',   label: 'Local Authorities',          partisan: false, color: '#4A90D9' },
+      cauth: { file: './json/CAUTH_DEC_2025_EN_BGC.geojson', nameProp: 'CAUTH25NM', label: 'Combined Authorities',       partisan: false, color: '#E8843A' },
+    };
+
+    // GeoJSON name → ridingData key normalizations
+    const NAME_FIXES = {
+      'Montgomeryshire and Glyndwr': 'Montgomeryshire and Glyndŵr',
+    };
+
+    const geoCache  = {};
+    let ridingData  = null;
+    let activeLayer = 'pcon';
+    let popup       = null;
+
+    const map = new maplibregl.Map({
+      container: 'map',
+      style: 'https://tiles.openfreemap.org/styles/positron',
+      center: [-2, 54],
+      zoom: 5.2,
+      attributionControl: false,
+    });
+
+    map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+    async function loadGeo(key) {
+      if (geoCache[key]) return geoCache[key];
+      const res = await fetch(LAYERS[key].file);
+      geoCache[key] = await res.json();
+      return geoCache[key];
+    }
+
+    async function loadRidingData() {
+      if (ridingData) return ridingData;
+      const res = await fetch('./json/ridingData.json');
+      ridingData = await res.json();
+      return ridingData;
+    }
+
+    function buildColorExpression(geojson, nameProp, data) {
+      const expr = ['match', ['get', nameProp]];
+      geojson.features.forEach(f => {
+        const raw  = f.properties[nameProp];
+        const name = NAME_FIXES[raw] || raw;
+        const rd   = data.ridings[name];
+        const party = rd?.mp?.party || rd?.bezirk?.party || '';
+        const color = data.parties[party]?.color || '#cccccc';
+        expr.push(raw, color);
+      });
+      expr.push('#cccccc');
+      return expr;
+    }
+
+    function buildPartyMembers(data) {
+      const partyMembers = {};
+      Object.entries(data.parties).forEach(([party, info]) => {
+        partyMembers[party] = { color: info.color, members: [] };
+      });
+      Object.entries(data.ridings).forEach(([ridingName, riding]) => {
+        const mp = riding.mp;
+        if (mp?.party && partyMembers[mp.party]) {
+          partyMembers[mp.party].members.push({ ...mp, riding: ridingName });
+        }
+      });
+      return partyMembers;
+    }
+
+    function renderLegend(data) {
+      const container = document.getElementById('legend-parties');
+      container.innerHTML = '';
+      const partyMembers = buildPartyMembers(data);
+
+      Object.entries(partyMembers)
+        .filter(([, info]) => info.members.length > 0)
+        .sort((a, b) => b[1].members.length - a[1].members.length)
+        .forEach(([party, info]) => {
+          const item = document.createElement('div');
+          item.style.cssText = 'display:flex;align-items:center;margin:6px 0;cursor:pointer;padding:6px;border-radius:6px;transition:background 0.2s;';
+          item.innerHTML = `
+            <div style="width:20px;height:20px;background:${info.color};border-radius:4px;margin-right:10px;flex-shrink:0;"></div>
+            <span style="font-weight:bold;">${party} (${info.members.length})</span>
+          `;
+          item.addEventListener('click', () => showPartySidebar(party, info.members, info.color));
+          item.addEventListener('mouseenter', () => item.style.background = 'rgba(255,255,255,0.12)');
+          item.addEventListener('mouseleave', () => item.style.background = 'transparent');
+          container.appendChild(item);
+        });
+    }
+
+    function showPartySidebar(party, members, partyColor) {
+      if (window.currentSidebar) { window.currentSidebar.remove(); window.currentSidebar = null; }
+
+      const sidebar = document.createElement('div');
+      sidebar.id = 'party-sidebar';
+      sidebar.className = 'party-sidebar';
+
+      sidebar.innerHTML = `
+        <button id="sidebar-close-btn">×</button>
+        <div class="sidebar-content members-list">
+          ${members.sort((a, b) => a.name.localeCompare(b.name)).map(member => `
+            <div class="member-card" data-member='${JSON.stringify(member).replace(/'/g, "&#39;")}'>
+              <div class="card-image" style="background-image:url('${member.photo || ''}');">
+                <div class="party-stripe" style="background:${partyColor};"></div>
+                <div class="card-overlay"></div>
+              </div>
+              <div class="card-text">
+                <h4>${member.name}</h4>
+                <p>${member.riding}</p>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+
+      document.body.appendChild(sidebar);
+
+      document.getElementById('sidebar-close-btn').addEventListener('click', () => {
+        sidebar.remove(); window.currentSidebar = null;
+        document.body.classList.remove('sidebar-open');
+      });
+
+      sidebar.querySelectorAll('.member-card').forEach(card => {
+        card.addEventListener('click', () => {
+          const member = JSON.parse(card.dataset.member);
+          showDetailSidebar(member, member.riding, partyColor);
+        });
+      });
+
+      setTimeout(() => sidebar.classList.add('open'), 10);
+      document.body.classList.add('sidebar-open');
+      window.currentSidebar = sidebar;
+    }
+
+    function clearLayers() {
+      ['uk-fill', 'uk-outline', 'uk-hover'].forEach(id => {
+        if (map.getLayer(id)) map.removeLayer(id);
+      });
+      if (map.getSource('uk-source')) map.removeSource('uk-source');
+      map.off('mousemove', 'uk-hover');
+      map.off('mouseleave', 'uk-hover');
+      map.off('click', 'uk-fill');
+    }
+
+    async function showLayer(key) {
+      const cfg    = LAYERS[key];
+      const [geojson, data] = await Promise.all([loadGeo(key), loadRidingData()]);
+
+      clearLayers();
+
+      const fillColor = cfg.partisan
+        ? buildColorExpression(geojson, cfg.nameProp, data)
+        : cfg.color;
+
+      map.addSource('uk-source', { type: 'geojson', data: geojson });
+
+      map.addLayer({
+        id: 'uk-fill',
+        type: 'fill',
+        source: 'uk-source',
+        paint: {
+          'fill-color': fillColor,
+          'fill-opacity': cfg.partisan ? 0.35 : 0.2,
+        },
+      });
+
+      map.addLayer({
+        id: 'uk-outline',
+        type: 'line',
+        source: 'uk-source',
+        paint: {
+          'line-color': cfg.partisan ? ['to-color', fillColor] : cfg.color,
+          'line-width': 0.6,
+          'line-opacity': 0.5,
+        },
+      });
+
+      map.addLayer({
+        id: 'uk-hover',
+        type: 'fill',
+        source: 'uk-source',
+        paint: { 'fill-color': '#ffffff', 'fill-opacity': 0 },
+      });
+
+      map.on('mousemove', 'uk-hover', e => {
+        map.getCanvas().style.cursor = 'pointer';
+        map.setPaintProperty('uk-hover', 'fill-opacity', [
+          'case', ['==', ['get', cfg.nameProp], e.features[0].properties[cfg.nameProp]], 0.15, 0
+        ]);
+      });
+
+      map.on('mouseleave', 'uk-hover', () => {
+        map.getCanvas().style.cursor = '';
+        map.setPaintProperty('uk-hover', 'fill-opacity', 0);
+      });
+
+      map.on('click', 'uk-fill', e => {
+        if (popup) { popup.remove(); popup = null; }
+
+        const raw  = e.features[0].properties[cfg.nameProp];
+        const name = NAME_FIXES[raw] || raw;
+        const rd   = data.ridings[name];
+        const mp   = rd?.mp;
+
+        if (!mp) {
+          popup = new maplibregl.Popup({ closeButton: true, offset: 10 })
+            .setLngLat(e.lngLat)
+            .setHTML(`<div style="padding:8px 12px;font-weight:600;">${name}</div>`)
+            .addTo(map);
+          return;
+        }
+
+        const partyColor = data.parties[mp.party]?.color || '#666';
+        const bg = partyColor + '22';
+
+        popup = new maplibregl.Popup({ closeButton: true, closeOnClick: false, offset: 10, className: 'preview-popup' })
+          .setLngLat(e.lngLat)
+          .setHTML(`
+            <div style="text-align:center;padding:12px 16px;background:${bg};border-radius:8px;">
+              ${mp.photo ? `<img src="${mp.photo}" style="width:90px;height:90px;border-radius:50%;object-fit:cover;margin-bottom:8px;">` : ''}
+              <h3 style="margin:6px 0 4px;color:#111;">${mp.name}</h3>
+              <p style="margin:0;color:#555;font-size:0.9em;">${mp.party}</p>
+              <p style="margin:4px 0 0;color:#777;font-size:0.82em;">${name}</p>
+              <button id="mp-detail-btn" style="margin-top:12px;padding:7px 16px;background:#003DA5;color:white;border:none;border-radius:6px;font-weight:bold;cursor:pointer;font-size:0.85em;">
+                Contact & Details →
+              </button>
+            </div>
+          `)
+          .addTo(map);
+
+        const tryAttach = (attempts = 0) => {
+          const btn = document.getElementById('mp-detail-btn');
+          if (btn) {
+            btn.addEventListener('click', () => {
+              popup.remove(); popup = null;
+              showDetailSidebar(mp, name, partyColor);
+            });
+          } else if (attempts < 4) {
+            setTimeout(() => tryAttach(attempts + 1), 150);
+          }
+        };
+        tryAttach();
+      });
+
+      // Legend: only show for partisan layers
+      document.getElementById('legend').style.display = cfg.partisan ? 'block' : 'none';
+      if (cfg.partisan) renderLegend(data);
+
+      // Update active button state
+      document.querySelectorAll('.layer-btn').forEach(el => {
+        el.classList.toggle('active', el.dataset.layer === key);
+      });
+
+      activeLayer = key;
+    }
+
+    function showDetailSidebar(mp, constituency, partyColor) {
+      if (window.currentSidebar) { window.currentSidebar.remove(); window.currentSidebar = null; }
+
+      const contact = mp.contact || {};
+      const sidebar = document.createElement('div');
+      sidebar.id = 'member-detail-sidebar';
+      sidebar.className = 'member-detail-sidebar';
+
+      sidebar.innerHTML = `
+        <button id="sidebar-close-btn">×</button>
+        <div class="hero-image" style="background-image:url('${mp.photo || ''}');">
+          <div class="party-stripe" style="background:${partyColor};"></div>
+          <div class="image-overlay"></div>
+        </div>
+        <div class="member-info">
+          <h3>${mp.name}</h3>
+          <p class="riding">${constituency}</p>
+          <div class="contact-details">
+            ${contact.address ? `<div class="contact-item"><strong>Office</strong><p>${contact.address}</p></div>` : ''}
+            ${contact.phone   ? `<div class="contact-item"><strong>Phone</strong><p>${contact.phone}</p></div>` : ''}
+            ${contact.email   ? `<div class="contact-item"><strong>Email</strong><a href="mailto:${contact.email}">${contact.email}</a></div>` : ''}
+            ${contact.website ? `<div class="contact-item"><strong>Website</strong><a href="${contact.website}" target="_blank">${contact.website}</a></div>` : ''}
+            ${mp.profileUrl   ? `<div class="contact-item"><a href="${mp.profileUrl}" target="_blank" class="external-profile">View full parliamentary profile →</a></div>` : ''}
+          </div>
+          ${buildSocialLinks(contact.social)}
+        </div>
+      `;
+
+      document.body.appendChild(sidebar);
+      document.getElementById('sidebar-close-btn').addEventListener('click', () => {
+        sidebar.remove(); window.currentSidebar = null;
+        document.body.classList.remove('sidebar-open');
+      });
+      setTimeout(() => sidebar.classList.add('open'), 10);
+      document.body.classList.add('sidebar-open');
+      window.currentSidebar = sidebar;
+    }
+
+    function buildSocialLinks(social) {
+      if (!social) return '';
+      const platforms = [
+        { key: 'twitter',   icon: 'x'         },
+        { key: 'facebook',  icon: 'facebook'   },
+        { key: 'instagram', icon: 'instagram'  },
+        { key: 'youtube',   icon: 'youtube'    },
+        { key: 'tiktok',    icon: 'tiktok'     },
+        { key: 'BlueSky',   icon: 'bluesky'    },
+      ];
+      const links = platforms
+        .filter(({ key }) => social[key])
+        .map(({ key, icon }) =>
+          `<a href="${social[key]}" target="_blank" rel="noopener noreferrer" aria-label="${icon}" class="social-icon-link">
+            <img src="https://cdn.simpleicons.org/${icon}/ffffff" alt="${icon}" width="20" height="20">
+          </a>`)
+        .join('');
+      return links ? `<div class="social-links">${links}</div>` : '';
+    }
+
+    map.on('load', () => showLayer('pcon'));
+
+    document.querySelectorAll('.layer-btn').forEach(el => {
+      el.addEventListener('click', () => showLayer(el.dataset.layer));
+    });
+
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+  </script>
+</body>
+</html>

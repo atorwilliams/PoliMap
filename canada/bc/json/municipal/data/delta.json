@@ -3,19 +3,20 @@
   "geoname": "Delta",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "George Harvie",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "mayorharvie@delta.ca",
+    "party": "Achieving for Delta"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.delta.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],

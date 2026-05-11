@@ -3,19 +3,20 @@
   "geoname": "Nelson",
   "type": "CITY",
   "mayor": {
-    "name": "",
+    "name": "Janice Morrison",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
-    "email": ""
+    "email": "",
+    "party": "Independent"
   },
   "council": [],
   "appointed": [],
   "electionDate": "",
   "nextElection": "",
-  "website": "",
+  "website": "https://www.nelson.ca",
   "notes": "",
   "schoolTrustees": {
     "public": [],
