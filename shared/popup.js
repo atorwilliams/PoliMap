@@ -125,12 +125,13 @@ export function showPartySidebar(map, partyKey, members, level) {
         const offsetY = member.heroPhotoOffsetY ?? 50;
         const styleString = `background-image: url('${hero}'); background-position: ${offsetX}% ${offsetY}%;`;
         return `
-          <div class="member-card" data-member='${JSON.stringify(member)}'>
+          <div class="member-card${member.isPremier ? ' member-card--premier' : ''}" data-member='${JSON.stringify(member)}'>
             <div class="card-image" style="${styleString}">
               <div class="party-stripe" style="background: ${getPartyColorFromMembers(partyKey, members)};"></div>
               <div class="card-overlay"></div>
             </div>
             <div class="card-text">
+              ${member.isPremier ? '<span class="premier-badge">Premier</span>' : ''}
               <h4>${member.name}</h4>
               <p>${member.riding}</p>
             </div>
@@ -183,6 +184,13 @@ export function showMemberDetailSidebar(member, ridingName, level, electionDate,
 
   const partyColor = getPartyColorFromMembers(member.party, []);
   const contact = member.contact || {};
+  const phone = contact.phone || member.phone || '';
+  const tollFree = contact.tollFree || member.tollFree || '';
+  const email = contact.email || member.email || '';
+  const website = contact.website || member.website || '';
+  const constituencyOffice = contact.constituencyOffice || member.constituencyOffice || '';
+  const officeHours = contact.officeHours || member.officeHours || '';
+  const social = contact.social || member.social || null;
   const heroImage = member.heroPhoto || member.photo || 'https://via.placeholder.com/800x600?text=Photo';
 
   const html = `
@@ -199,12 +207,12 @@ export function showMemberDetailSidebar(member, ridingName, level, electionDate,
       ${(member.electedDate || electionDate) ? `<p class="member-term">Elected ${formatDate(member.electedDate || electionDate)}${termEnd ? ` &nbsp;·&nbsp; Term ends ${formatDate(termEnd)}` : ''}</p>` : ''}
 
       <div class="contact-details">
-        ${contact.constituencyOffice ? `<div class="contact-item"><strong>Office</strong><p>${contact.constituencyOffice}</p></div>` : ''}
-        ${contact.phone ? `<div class="contact-item"><strong>Phone</strong><p>${contact.phone}</p></div>` : ''}
-        ${contact.tollFree ? `<div class="contact-item"><strong>Toll-free</strong><p>${contact.tollFree}</p></div>` : ''}
-        ${contact.email ? `<div class="contact-item"><strong>Email</strong><a href="mailto:${contact.email}">${contact.email}</a></div>` : ''}
-        ${contact.website ? `<div class="contact-item"><strong>Website</strong><a href="${contact.website}" target="_blank">${contact.website}</a></div>` : ''}
-        ${contact.officeHours ? `<div class="contact-item"><strong>Hours</strong><p>${contact.officeHours}</p></div>` : ''}
+        ${constituencyOffice ? `<div class="contact-item"><strong>Office</strong><p>${constituencyOffice}</p></div>` : ''}
+        ${phone ? `<div class="contact-item"><strong>Phone</strong><p>${phone}</p></div>` : ''}
+        ${tollFree ? `<div class="contact-item"><strong>Toll-free</strong><p>${tollFree}</p></div>` : ''}
+        ${email ? `<div class="contact-item"><strong>Email</strong><a href="mailto:${email}">${email}</a></div>` : ''}
+        ${website ? `<div class="contact-item"><strong>Website</strong><a href="${website}" target="_blank">${website}</a></div>` : ''}
+        ${officeHours ? `<div class="contact-item"><strong>Hours</strong><p>${officeHours}</p></div>` : ''}
 
         ${member.profileUrl && member.profileUrl !== '#' ? `
         <div class="contact-item">
@@ -212,7 +220,7 @@ export function showMemberDetailSidebar(member, ridingName, level, electionDate,
         </div>` : ''}
       </div>
 
-      ${buildSocialLinks(contact.social)}
+      ${buildSocialLinks(social)}
     </div>
   `;
 

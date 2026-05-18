@@ -1,0 +1,10 @@
+{
+  "electionDate": "2025-04-28",
+  "termEnd": "2029-04-28",
+  "parties": {
+    "NDP": { "color": "#F37021", "abbr": "NDP" }
+  },
+  "ridings": {
+    "Nunavut": { "mp": { "name": "Lori Idlout", "party": "NDP", "photo": null, "email": "", "phone": "", "website": "" } }
+  }
+}

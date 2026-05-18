@@ -27,7 +27,9 @@
         <div id="panel-list">
           <div id="pm-strip"></div>
 
-          <p class="landing-explore-label" style="margin-top:24px;">Provinces & Territories</p>
+          <button class="wrm-btn" id="wrm-btn">Who rules me?</button>
+
+          <p class="landing-explore-label">Provinces & Territories</p>
 
           <nav class="landing-country-list" id="province-list"></nav>
         </div>
@@ -37,6 +39,25 @@
           <button class="landing-footer-link" id="back-btn" style="margin-bottom:28px; font-size:0.82rem;">← All provinces</button>
 
           <div id="detail-content"></div>
+        </div>
+
+        <!-- Postal code input -->
+        <div id="panel-postal" style="display:none;">
+          <button class="landing-footer-link" id="postal-back-btn" style="margin-bottom:32px; font-size:0.82rem;">← Back</button>
+
+          <p class="wrm-intro">Enter your postal code to see every level of government that has power over your life.</p>
+
+          <div class="wrm-input-row">
+            <input id="postal-input" type="text" placeholder="A1A 1A1" maxlength="7" autocomplete="off" spellcheck="false" />
+            <button id="postal-submit">Go</button>
+          </div>
+          <div id="postal-error" class="wrm-error"></div>
+        </div>
+
+        <!-- Results -->
+        <div id="panel-results" style="display:none;">
+          <button class="landing-footer-link" id="results-back-btn" style="margin-bottom:24px; font-size:0.82rem;">← Back</button>
+          <div id="wrm-results"></div>
         </div>
 
       </div>
@@ -59,6 +80,145 @@
 
   <style>
     #canada-map { width: 100%; height: 100%; }
+
+    /* ── Who rules me ─────────────────────────────────────────────────────────── */
+
+    .wrm-btn {
+      display: block;
+      width: 100%;
+      padding: 10px 18px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: rgba(255,255,255,0.65);
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      margin-bottom: 24px;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+      text-align: center;
+    }
+    .wrm-btn:hover {
+      background: rgba(255,255,255,0.09);
+      border-color: rgba(255,255,255,0.22);
+      color: #fff;
+    }
+
+    .wrm-intro {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.45);
+      margin-bottom: 22px;
+      line-height: 1.65;
+    }
+
+    .wrm-input-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    #postal-input {
+      flex: 1;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 8px;
+      padding: 10px 14px;
+      color: #fff;
+      font-size: 1.05rem;
+      font-family: inherit;
+      letter-spacing: 0.08em;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    #postal-input:focus { border-color: rgba(255,255,255,0.3); }
+    #postal-input::placeholder { color: rgba(255,255,255,0.2); letter-spacing: 0.04em; }
+
+    #postal-submit {
+      padding: 10px 20px;
+      background: #003DA5;
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.9rem;
+      font-family: inherit;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    #postal-submit:hover { background: #0050cc; }
+    #postal-submit:disabled { opacity: 0.45; cursor: default; }
+
+    .wrm-error {
+      font-size: 0.8rem;
+      color: #ff6b6b;
+      min-height: 18px;
+    }
+
+    .wrm-location {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.3);
+      margin-bottom: 18px;
+      letter-spacing: 0.04em;
+    }
+
+    .wrm-section {
+      margin-bottom: 22px;
+    }
+    .wrm-section-label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.38);
+      margin-bottom: 10px;
+    }
+    .wrm-section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: rgba(255,255,255,0.07);
+    }
+    .wrm-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-left: 3px solid rgba(255,255,255,0.15);
+      border-radius: 8px;
+      padding: 11px 14px;
+      margin-bottom: 7px;
+    }
+    .wrm-card-role {
+      font-size: 0.65rem;
+      color: rgba(255,255,255,0.32);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 3px;
+    }
+    .wrm-card-name {
+      font-size: 0.97rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 2px;
+    }
+    .wrm-card-detail {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.42);
+    }
+    .wrm-explore-link {
+      display: block;
+      margin-top: 22px;
+      padding: 10px 18px;
+      background: rgba(0,61,165,0.35);
+      border: 1px solid rgba(0,100,255,0.25);
+      color: rgba(255,255,255,0.85);
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.88rem;
+      text-align: center;
+      transition: background 0.15s;
+    }
+    .wrm-explore-link:hover { background: rgba(0,61,165,0.6); }
 
     .pm-strip {
       display: flex;
@@ -251,8 +411,8 @@
       const p = provincesData.provinces[pruid];
       if (!p) return;
 
-      // Update left panel
-      document.getElementById('panel-list').style.display = 'none';
+      // Update left panel — hide all panels, show detail
+      ['panel-list','panel-postal','panel-results'].forEach(p => document.getElementById(p).style.display = 'none');
       document.getElementById('panel-detail').style.display = 'block';
 
       const since = formatDate(p.premier.since);
@@ -304,6 +464,7 @@
       selectedPruid = null;
       document.getElementById('panel-detail').style.display = 'none';
       document.getElementById('panel-list').style.display = 'block';
+      ['panel-postal','panel-results'].forEach(p => document.getElementById(p).style.display = 'none');
       if (map && map.getSource('highlight-source')) {
         map.getSource('highlight-source').setData({ type: 'FeatureCollection', features: [] });
       }
@@ -397,6 +558,113 @@
     }
 
     init();
+
+    // ── Who rules me ─────────────────────────────────────────────────────────────
+
+    const PROV_TO_PRUID = {
+      AB:'48', BC:'59', SK:'47', MB:'46', ON:'35', QC:'24',
+      NB:'13', NS:'12', PE:'11', NL:'10', YT:'60', NT:'61', NU:'62'
+    };
+
+    function showPanel(id) {
+      ['panel-list','panel-detail','panel-postal','panel-results'].forEach(p => {
+        document.getElementById(p).style.display = (p === id) ? 'block' : 'none';
+      });
+    }
+
+    document.getElementById('wrm-btn').addEventListener('click', () => {
+      showPanel('panel-postal');
+      setTimeout(() => document.getElementById('postal-input').focus(), 50);
+    });
+    document.getElementById('postal-back-btn').addEventListener('click', () => showPanel('panel-list'));
+    document.getElementById('results-back-btn').addEventListener('click', () => showPanel('panel-list'));
+
+    const postalRe = /^([A-Za-z]\d[A-Za-z])\s?(\d[A-Za-z]\d)$/;
+
+    async function lookupPostal() {
+      const raw = document.getElementById('postal-input').value.trim();
+      const m   = raw.match(postalRe);
+      const errEl = document.getElementById('postal-error');
+      if (!m) { errEl.textContent = 'Enter a valid postal code (e.g. T2N 1N4).'; return; }
+
+      const btn = document.getElementById('postal-submit');
+      btn.disabled = true;
+      btn.textContent = '...';
+      errEl.textContent = '';
+
+      try {
+        const code = (m[1] + m[2]).toUpperCase();
+        const res  = await fetch(`https://represent.opennorth.ca/postcodes/${code}/`);
+        if (!res.ok) throw new Error();
+        const data = await res.json();
+        renderResults(data, `${m[1].toUpperCase()} ${m[2].toUpperCase()}`);
+        showPanel('panel-results');
+      } catch {
+        errEl.textContent = 'Postal code not found. Try again.';
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Go';
+      }
+    }
+
+    document.getElementById('postal-submit').addEventListener('click', lookupPostal);
+    document.getElementById('postal-input').addEventListener('keydown', e => { if (e.key === 'Enter') lookupPostal(); });
+
+    function wrmCard({ role, name, detail, color }) {
+      return `
+        <div class="wrm-card" style="border-left-color:${color || 'rgba(255,255,255,0.15)'};">
+          <div class="wrm-card-role">${role}</div>
+          <div class="wrm-card-name">${name || 'Unknown'}</div>
+          ${detail ? `<div class="wrm-card-detail">${detail}</div>` : ''}
+        </div>`;
+    }
+
+    function renderResults(data, postalCode) {
+      const provCode = data.province;
+      const pruid    = PROV_TO_PRUID[provCode];
+      const prov     = pruid && provincesData?.provinces?.[pruid];
+      const pm       = provincesData?.primeMinister;
+      const reps     = data.representatives_centroid || [];
+
+      const PROVINCIAL_TITLES = ['MLA','MPP','MNA','MHA','Député','Membre de l\'Assemblée nationale'];
+      const mp    = reps.find(r => r.elected_office === 'MP');
+      const mla   = reps.find(r => PROVINCIAL_TITLES.includes(r.elected_office));
+      const mayor = reps.find(r => ['Mayor','Reeve','Maire'].includes(r.elected_office));
+
+      const html = [];
+
+      const city = data.city
+        ? data.city.charAt(0) + data.city.slice(1).toLowerCase()
+        : '';
+      html.push(`<p class="wrm-location">${postalCode}${city ? ' · ' + city : ''}${provCode ? ', ' + provCode : ''}</p>`);
+
+      // Federal
+      html.push('<div class="wrm-section"><div class="wrm-section-label">Federal</div>');
+      if (pm)  html.push(wrmCard({ role: 'Prime Minister', name: pm.name, detail: pm.party, color: pm.partyColor }));
+      if (mp)  html.push(wrmCard({ role: 'Member of Parliament', name: mp.name, detail: mp.district_name }));
+      html.push('</div>');
+
+      // Provincial
+      if (prov || mla) {
+        html.push('<div class="wrm-section"><div class="wrm-section-label">Provincial</div>');
+        if (prov) html.push(wrmCard({ role: 'Premier', name: prov.premier.name, detail: prov.premier.party, color: prov.partyColor }));
+        if (mla)  html.push(wrmCard({ role: mla.elected_office, name: mla.name, detail: mla.district_name }));
+        html.push('</div>');
+      }
+
+      // Municipal
+      if (mayor) {
+        html.push('<div class="wrm-section"><div class="wrm-section-label">Municipal</div>');
+        html.push(wrmCard({ role: mayor.elected_office, name: mayor.name, detail: mayor.district_name }));
+        html.push('</div>');
+      }
+
+      if (prov?.mapUrl && prov?.available) {
+        html.push(`<a class="wrm-explore-link" href="${prov.mapUrl}">Explore ${prov.name} in detail →</a>`);
+      }
+
+      document.getElementById('wrm-results').innerHTML = html.join('');
+    }
   </script>
 
 </body>

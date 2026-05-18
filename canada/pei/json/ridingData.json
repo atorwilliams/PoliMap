@@ -1,0 +1,321 @@
+{
+  "electionDate": "2023-04-03",
+  "termEnd": "2027-04-03",
+  "parties": {
+    "Progressive Conservative": {
+      "color": "#003DA5",
+      "abbr": "PC"
+    },
+    "Liberal": {
+      "color": "#D71920",
+      "abbr": "LIB"
+    },
+    "Green": {
+      "color": "#3D9B35",
+      "abbr": "GPC"
+    },
+    "NDP": {
+      "color": "#F37021",
+      "abbr": "NDP"
+    }
+  },
+  "ridings": {
+    "Alberton - Bloomfield": {
+      "mla": {
+        "name": "Ernie Hudson",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2019-06/ErnieHudsonGPEIBLS_9157_PREM_4x5.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/ernie-hudson",
+        "email": "ehhudsonMLA@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Belfast - Murray River": {
+      "mla": {
+        "name": "Darlene Compton",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/MLA%20Photos/Darlene%20Compton-with%20background.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/darlene-compton",
+        "email": "dcomptonmla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Borden - Kinkora": {
+      "mla": {
+        "name": "Matthew MacFarlane",
+        "party": "Green",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/MacFarlane%2C%20Matt-for%20web_1.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/matthew-macfarlane",
+        "email": "mbmacfarlanemla@assembly.pe.ca",
+        "phone": "902-620-3977",
+        "website": ""
+      }
+    },
+    "Brackley - Hunter River": {
+      "mla": {
+        "name": "Kent Dollar",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/MLA%20Photos/Dollar%20Kent-scaled.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/kent-dollar",
+        "email": "kadollarmla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Charlottetown - Belvedere": {
+      "mla": {
+        "name": "Susie Dillon",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Dillon%2C%20Susie-for%20web_0.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/susie-dillon",
+        "email": "sjdillonmla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Charlottetown - Brighton": {
+      "mla": {
+        "name": "Rob Lantz",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Lantz%2C%20Rob-forweb.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/rob-lantz",
+        "email": "rblantzmla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Charlottetown - Hillsborough Park": {
+      "mla": {
+        "name": "Carolyn Simpson",
+        "party": "Liberal",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/MLA%20Photos/Simpson%20Carolyn-scaled.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/carolyn-simpson",
+        "email": "cesimpsonmla@assembly.pe.ca",
+        "phone": "902-368-4330",
+        "website": ""
+      }
+    },
+    "Charlottetown - Victoria Park": {
+      "mla": {
+        "name": "Karla Bernard",
+        "party": "Green",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Bernard%2C%20Karla-for%20web_4.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/karla-bernard",
+        "email": "kmbernardMLA@assembly.pe.ca",
+        "phone": "902-620-3977",
+        "website": ""
+      }
+    },
+    "Charlottetown - West Royalty": {
+      "mla": {
+        "name": "Gordon McNeilly",
+        "party": "Liberal",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/McNeilly%2C%20Gord.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/gordon-mcneilly",
+        "email": "gamcneillyMLA@assembly.pe.ca",
+        "phone": "902-368-4330",
+        "website": ""
+      }
+    },
+    "Charlottetown - Winsloe": {
+      "mla": {
+        "name": "Zack Bell",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Bell%2C%20Zack%20-%20for%20web.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/zack-bell",
+        "email": "zhbellmla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Cornwall - Meadowbank": {
+      "mla": {
+        "name": "",
+        "party": "",
+        "photo": null,
+        "profileUrl": "#",
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Evangeline - Miscouche": {
+      "mla": {
+        "name": "Gilles Arsenault",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Arsenault%2C%20Gilles-for%20web.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/gilles-arsenault",
+        "email": "gmarsenaultmla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Georgetown - Pownal": {
+      "mla": {
+        "name": "Brendan Curran",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/MLA%20Photos/Curran%20Brendan-scaled.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/brendan-curran",
+        "email": "brendancurranmla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Kensington - Malpeque": {
+      "mla": {
+        "name": "Matthew MacKay",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/MLA%20Photos/Matthew%20MacKay-with%20background.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/matthew-mackay",
+        "email": "mmackaymla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Mermaid - Stratford": {
+      "mla": {
+        "name": "Jenn Redmond",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Redmond%2C%20Jenn-for%20web.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/jenn-redmond",
+        "email": "jlredmondmla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Montague - Kilmuir": {
+      "mla": {
+        "name": "Cory Deagle",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2022-12/Cory%20Deagle%202022-resized.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/cory-deagle",
+        "email": "cfdeaglemla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Morell - Donagh": {
+      "mla": {
+        "name": "Sidney MacEwen",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/MLA%20Photos/Sidney_MacEwen-%20scaled.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/sidney-macewen",
+        "email": "smacewenmla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "New Haven - Rocky Point": {
+      "mla": {
+        "name": "Peter Bevan-Baker",
+        "party": "Green",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Bevan-Baker%2C%20Peter-for%20web.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/peter-bevan-baker",
+        "email": "psbevanbakermla@assembly.pe.ca",
+        "phone": "902-620-3977",
+        "website": ""
+      }
+    },
+    "O'Leary - Inverness": {
+      "mla": {
+        "name": "Robert Henderson",
+        "party": "Liberal",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Henderson%2C%20Robert.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/robert-henderson",
+        "email": "rlhendersonMLA@assembly.pe.ca",
+        "phone": "902-368-4330",
+        "website": ""
+      }
+    },
+    "Rustico - Emerald": {
+      "mla": {
+        "name": "Brad Trivers",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Trivers%2C%20Brad-for%20web_0.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/brad-trivers",
+        "email": "bgtriversmla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Souris - Elmira": {
+      "mla": {
+        "name": "Robin Croucher",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Croucher%2C%20Robin-for%20web.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/robin-croucher",
+        "email": "rdcrouchermla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Stanhope - Marshfield": {
+      "mla": {
+        "name": "Bloyce Thompson",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Thompson%2C%20Bloyce-for%20web_2.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/bloyce-thompson",
+        "email": "bgthompsonmla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Stratford - Keppoch": {
+      "mla": {
+        "name": "Jill Burridge",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Burridge%2C%20Jill-for%20web.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/jill-burridge",
+        "email": "jsburridgemla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Summerside - South Drive": {
+      "mla": {
+        "name": "Barb Ramsay",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Ramsay%2C%20Barb-for%20web_2.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/barb-ramsay",
+        "email": "beramsaymla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Summerside - Wilmot": {
+      "mla": {
+        "name": "Tyler DesRoches",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/DesRoches%2C%20Tyler-for%20web.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/tyler-desroches",
+        "email": "tjdesrochesmla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    },
+    "Tignish - Palmer Road": {
+      "mla": {
+        "name": "Hal Perry",
+        "party": "Liberal",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/Perry%2C%20Hal.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/hal-perry",
+        "email": "jhperrymla@assembly.pe.ca",
+        "phone": "902-368-4330",
+        "website": ""
+      }
+    },
+    "Tyne Valley - Sherbrooke": {
+      "mla": {
+        "name": "Hilton MacLennan",
+        "party": "Progressive Conservative",
+        "photo": "https://www.assembly.pe.ca/sites/www.assembly.pe.ca/files/2024-11/MacLennan%2C%20Hilton-for%20web.jpg",
+        "profileUrl": "https://www.assembly.pe.ca/members/hilton-maclennan",
+        "email": "hamaclennanmla@assembly.pe.ca",
+        "phone": "902-368-4360",
+        "website": ""
+      }
+    }
+  }
+}

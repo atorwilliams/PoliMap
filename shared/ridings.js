@@ -70,6 +70,30 @@ export async function initRidings(map, config) {
     provincialGeoJSON = geojson;
     map.getSource(`${prefix}-source`).setData(geojson);
 
+    // Outside-province mask — world polygon with riding shapes punched out as holes
+    const maskRings = [
+      [[-180,-90],[-180,90],[180,90],[180,-90],[-180,-90]] // world exterior (CCW)
+    ];
+    for (const f of geojson.features) {
+      const g = f.geometry;
+      if (!g) continue;
+      const polys = g.type === 'MultiPolygon' ? g.coordinates : [g.coordinates];
+      for (const poly of polys) {
+        maskRings.push([...poly[0]].reverse()); // exterior ring reversed → CW hole
+      }
+    }
+    map.addSource('province-mask-source', {
+      type: 'geojson',
+      data: { type: 'Feature', geometry: { type: 'Polygon', coordinates: maskRings }, properties: {} }
+    });
+    map.addLayer({
+      id: 'province-mask',
+      type: 'fill',
+      source: 'province-mask-source',
+      layout: { visibility: 'none' },
+      paint: { 'fill-color': '#1a1a2e', 'fill-opacity': 0.55 }
+    }, `${prefix}-fill`); // insert behind riding fill
+
     map.addLayer({
       id: `${prefix}-fill`,
       type: 'fill',
@@ -200,8 +224,8 @@ function reprojectGeoJSON(geojson, fromProj) {
 export function updateRidingVisibility(map, config) {
   const prefix = config.layerPrefix;
   const zoom = map.getZoom();
-  const visible = zoom >= 5.3;
-  const layers = [`${prefix}-fill`, `${prefix}-outline`, `${prefix}-label-rural`];
+  const visible = zoom >= (config.minRidingZoom ?? 5.3);
+  const layers = [`${prefix}-fill`, `${prefix}-outline`, `${prefix}-label-rural`, 'province-mask'];
   if (config.partisan) layers.push(`${prefix}-fill-independent`);
   if (config.urbanKeywords?.length) layers.push(`${prefix}-label-urban`);
 

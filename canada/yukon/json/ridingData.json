@@ -1,0 +1,244 @@
+{
+  "electionDate": "2025-11-03",
+  "termEnd": "2029-11-03",
+  "parties": {
+    "Yukon Party": {
+      "color": "#003DA5",
+      "abbr": "YP"
+    },
+    "NDP": {
+      "color": "#F37021",
+      "abbr": "NDP"
+    },
+    "Liberal": {
+      "color": "#D71920",
+      "abbr": "LIB"
+    }
+  },
+  "ridings": {
+    "Copperbelt North": {
+      "mla": {
+        "name": "Currie Dixon",
+        "party": "Yukon Party",
+        "photo": "https://yukonassembly.ca/sites/default/files/2021-05/Currie_Dixon-2021.jpeg",
+        "email": "Currie.Dixon@yla.gov.yk.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/currie-dixon"
+      }
+    },
+    "Copperbelt South": {
+      "mla": {
+        "name": "Scott Kent",
+        "party": "Yukon Party",
+        "photo": "https://yukonassembly.ca/sites/default/files/2021-05/Scott_Kent-2021.jpeg",
+        "email": "Scott.Kent@yla.gov.yk.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/scott-kent"
+      }
+    },
+    "Klondike": {
+      "mla": {
+        "name": "Brent McDonald",
+        "party": "NDP",
+        "photo": "https://yukonassembly.ca/sites/default/files/2021-05/Sandy_Silver-2021.jpg",
+        "email": "sandy.silver@yukon.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/sandy-silver"
+      }
+    },
+    "Kluane": {
+      "mla": {
+        "name": "Wade Istchenko",
+        "party": "Yukon Party",
+        "photo": "https://yukonassembly.ca/sites/default/files/2021-05/Wade_Istchenko-2021.jpeg",
+        "email": "Wade.Istchenko@yla.gov.yk.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/wade-istchenko"
+      }
+    },
+    "Lake Laberge": {
+      "mla": {
+        "name": "Brad Cathers",
+        "party": "Yukon Party",
+        "photo": "https://yukonassembly.ca/sites/default/files/2021-05/Brad_Cathers-2021.jpeg",
+        "email": "Brad.Cathers@yla.gov.yk.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/brad-cathers"
+      }
+    },
+    "Marsh Lake - Mount Lorne - Golden Horn": {
+      "mla": {
+        "name": "Jen Gehmair",
+        "party": "Yukon Party",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Mayo - Tatchun": {
+      "mla": {
+        "name": "Cory Bellmore",
+        "party": "Yukon Party",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Mountainview": {
+      "mla": {
+        "name": "Linda Moen",
+        "party": "NDP",
+        "photo": "https://yukonassembly.ca/sites/default/files/2021-05/Jeanie_McLean-2021.jpg",
+        "email": "Jeanie.McLean@yukon.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/jeanie-mclean"
+      }
+    },
+    "Porter Creek Centre": {
+      "mla": {
+        "name": "Ted Laking",
+        "party": "Yukon Party",
+        "photo": "https://yukonassembly.ca/sites/default/files/2021-05/Yvonne_Clarke-2021.jpeg",
+        "email": "Yvonne.Clarke@yla.gov.yk.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/yvonne-clarke"
+      }
+    },
+    "Porter Creek North": {
+      "mla": {
+        "name": "Doris Anderson",
+        "party": "Yukon Party",
+        "photo": "https://yukonassembly.ca/sites/default/files/2021-05/Geraldine_VanBibber-2021.jpeg",
+        "email": "Geraldine.VanBibber@yla.gov.yk.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/geraldine-van-bibber"
+      }
+    },
+    "Porter Creek South": {
+      "mla": {
+        "name": "Adam Gerle",
+        "party": "Yukon Party",
+        "photo": "https://yukonassembly.ca/sites/default/files/2023-03/Ranj_Pillai-2023-1.jpg",
+        "email": "Ranj.Pillai@yukon.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/ranj-pillai"
+      }
+    },
+    "Riverdale North": {
+      "mla": {
+        "name": "Carmen Gustafson",
+        "party": "NDP",
+        "photo": "https://yukonassembly.ca/sites/default/files/2021-05/Nils_Clarke-2021.jpg",
+        "email": "nils.clarke@yukon.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/nils-clarke"
+      }
+    },
+    "Riverdale South": {
+      "mla": {
+        "name": "Justin Ziegler",
+        "party": "NDP",
+        "photo": "https://yukonassembly.ca/sites/default/files/2021-05/Tracey_McPhee-2021.jpg",
+        "email": "Tracy.McPhee@yukon.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/tracy-anne-mcphee"
+      }
+    },
+    "Southern Lakes": {
+      "mla": {
+        "name": "Tyler Porter",
+        "party": "Yukon Party",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Takhini": {
+      "mla": {
+        "name": "Kate White",
+        "party": "NDP",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Vuntut Gwitchin": {
+      "mla": {
+        "name": "Debra-Leigh Reti",
+        "party": "Liberal",
+        "photo": "https://yukonassembly.ca/sites/default/files/2021-05/Annie_Blake-2021.jpeg",
+        "email": "Annie.Blake@yla.gov.yk.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/annie-blake"
+      }
+    },
+    "Watson Lake - Ross River - Faro": {
+      "mla": {
+        "name": "Patti McLeod",
+        "party": "Yukon Party",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Whistle Bend North": {
+      "mla": {
+        "name": "Yvonne Clarke",
+        "party": "Yukon Party",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Whistle Bend South": {
+      "mla": {
+        "name": "Linda Benoit",
+        "party": "Yukon Party",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Whitehorse Centre": {
+      "mla": {
+        "name": "Lane Tredger",
+        "party": "NDP",
+        "photo": "https://yukonassembly.ca/sites/default/files/2021-05/Emily_Tredger-2021.jpeg",
+        "email": "Lane.Tredger@yla.gov.yk.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/lane-tredger"
+      }
+    },
+    "Whitehorse West": {
+      "mla": {
+        "name": "Laura Lang",
+        "party": "Yukon Party",
+        "photo": "https://yukonassembly.ca/sites/default/files/2021-05/Richard_Mostyn-2021.jpg",
+        "email": "Richard.Mostyn@yukon.ca",
+        "phone": "",
+        "website": "",
+        "profileUrl": "https://yukonassembly.ca/member/richard-mostyn"
+      }
+    }
+  }
+}

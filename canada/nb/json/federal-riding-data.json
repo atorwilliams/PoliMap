@@ -1,0 +1,138 @@
+{
+  "electionDate": "2025-04-28",
+  "termEnd": "2029-04-28",
+  "parties": {
+    "Liberal": {
+      "color": "#D71920",
+      "abbr": "LIB"
+    },
+    "Conservative": {
+      "color": "#003DA5",
+      "abbr": "CPC"
+    },
+    "NDP": {
+      "color": "#F37021",
+      "abbr": "NDP"
+    },
+    "Green": {
+      "color": "#3D9B35",
+      "abbr": "GPC"
+    },
+    "Bloc Québécois": {
+      "color": "#33B2CC",
+      "abbr": "BQ"
+    }
+  },
+  "ridings": {
+    "Acadie—Bathurst": {
+      "mp": {
+        "name": "Serge Cormier",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/CormierSerge_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/serge-cormier(88350)",
+        "email": "serge.cormier@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Beauséjour": {
+      "mp": {
+        "name": "Dominic LeBlanc",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LeBlancDominic_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/dominic-leblanc(1813)",
+        "email": "dominic.leblanc@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Fredericton—Oromocto": {
+      "mp": {
+        "name": "David Myles",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MylesDavid_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/david-myles(122462)",
+        "email": "david.myles@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Fundy Royal": {
+      "mp": {
+        "name": "Rob Moore",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MooreRob_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/rob-moore(17210)",
+        "email": "Rob.Moore@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Madawaska—Restigouche": {
+      "mp": {
+        "name": "Guillaume Deschênes-Thériault",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/Deschenes-TheriaultGuillaume_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/guillaume-deschenes-theriault(122473)",
+        "email": "guillaume.deschenes-theriault@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Miramichi—Grand Lake": {
+      "mp": {
+        "name": "Mike Dawson",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DawsonMike_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/mike-dawson(122476)",
+        "email": "mike.dawson@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Moncton—Dieppe": {
+      "mp": {
+        "name": "Ginette Petitpas Taylor",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/PetitpasTaylorGinette_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/ginette-petitpas-taylor(88364)",
+        "email": "ginette.petitpastaylor@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Saint John—Kennebecasis": {
+      "mp": {
+        "name": "Wayne Long",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/LongWayne_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/wayne-long(88368)",
+        "email": "wayne.long@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Saint John—St. Croix": {
+      "mp": {
+        "name": "John Williamson",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/WilliamsonJohn_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/john-williamson(71323)",
+        "email": "John.Williamson@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Tobique—Mactaquac": {
+      "mp": {
+        "name": "Richard Bragdon",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BragdonRichard_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/richard-bragdon(88369)",
+        "email": "Richard.Bragdon@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,443 @@
+[
+  {
+    "name": "Richard Ames",
+    "party": "Progressive Conservative",
+    "riding": "Carleton-York",
+    "email": "Richard.Ames@legnb.ca",
+    "phone": "(506) 575-6088",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Richard_Ames_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/165/ames-richard"
+  },
+  {
+    "name": "Guy Arseneault",
+    "party": "Liberal",
+    "riding": "Restigouche East",
+    "email": "Guy.Arseneault@legnb.ca",
+    "phone": "(506) 453-2506",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Guy_Arseneault_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/4/arseneault-guy"
+  },
+  {
+    "name": "Kris Austin",
+    "party": "Progressive Conservative",
+    "riding": "Fredericton-Grand Lake",
+    "email": "Kris.Austin@legnb.ca",
+    "phone": "(506) 440-9542",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Kris_Austin_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/16/austin-kris"
+  },
+  {
+    "name": "Kathy Bockus",
+    "party": "Progressive Conservative",
+    "riding": "Saint Croix",
+    "email": "Kathy.Bockus@legnb.ca",
+    "phone": "(506) 466-1449",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Kathy_Bockus_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/162/bockus-kathy"
+  },
+  {
+    "name": "Lyne Chantal Boudreau",
+    "party": "Liberal",
+    "riding": "Champdoré-Irishtown",
+    "email": "LyneChantal.Boudreau@gnb.ca",
+    "phone": "(506) 889-2572",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Lyne_Chantal_Boudreau_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/208/boudreau-lyne-chantal"
+  },
+  {
+    "name": "Benoît Bourque",
+    "party": "Liberal",
+    "riding": "Beausoleil-Grand-Bouctouche-Kent",
+    "email": "Benoit.Bourque@legnb.ca",
+    "phone": "(506) 743-0335",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Benoit_Bourque_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/23/bourque-benoit"
+  },
+  {
+    "name": "Chuck Chiasson",
+    "party": "Liberal",
+    "riding": "Grand Falls-Vallée-des-Rivières-Saint-Quentin",
+    "email": "Chuck.Chiasson@gnb.ca",
+    "phone": "(506) 475-1124",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Chuck_Chiasson_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/11/chiasson-chuck"
+  },
+  {
+    "name": "Keith Chiasson",
+    "party": "Liberal",
+    "riding": "Tracadie",
+    "email": "Keith.Chiasson@gnb.ca",
+    "phone": "(506) 394-4038",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Keith_Chiasson_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/49/chiasson-keith"
+  },
+  {
+    "name": "Michelle Conroy",
+    "party": "Progressive Conservative",
+    "riding": "Miramichi East",
+    "email": "Michelle.Conroy@legnb.ca",
+    "phone": "(506) 627-1684",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Michelle_Conroy_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/29/conroy-michelle"
+  },
+  {
+    "name": "David Coon",
+    "party": "Green",
+    "riding": "Fredericton Lincoln",
+    "email": "David.Coon@legnb.ca",
+    "phone": "(506) 455-0936",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/David_Coon_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/14/coon-david"
+  },
+  {
+    "name": "Ryan Cullins",
+    "party": "Progressive Conservative",
+    "riding": "Fredericton-York",
+    "email": "Ryan.Cullins@legnb.ca",
+    "phone": "(506) 444-3952",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Ryan_Cullins_sm.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/164/cullins-ryan"
+  },
+  {
+    "name": "Jean-Claude D'Amours",
+    "party": "Liberal",
+    "riding": "Edmundston-Vallée-des-Rivières",
+    "email": "Amours@gnb.ca",
+    "phone": "(506) 838-1031",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/JC_DAmours_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/9/damours-jean-claude"
+  },
+  {
+    "name": "John Dornan",
+    "party": "Liberal",
+    "riding": "Saint John Portland-Simonds",
+    "email": "John.Dornan@gnb.ca",
+    "phone": "(506) 646-1805",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/John_Dornan_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/202/dornan-john"
+  },
+  {
+    "name": "Alexandre Cédric Doucet",
+    "party": "Liberal",
+    "riding": "Moncton East",
+    "email": "AlexandreCedric.Doucet@gnb.ca",
+    "phone": "(506) 227-3696",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Alexandre_Cedric_Doucet_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/196/doucet-alexandre-cedric"
+  },
+  {
+    "name": "Pat Finnigan",
+    "party": "Liberal",
+    "riding": "Kent North",
+    "email": "Pat.Finnigan@gnb.ca",
+    "phone": "(506) 427-1706",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Pat_Finnigan_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/192/finnigan-pat"
+  },
+  {
+    "name": "Robert Gauvin",
+    "party": "Liberal",
+    "riding": "Shediac Bay-Dieppe",
+    "email": "Robert.Gauvin@gnb.ca",
+    "phone": "(506) 869-7000",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Robert_Gauvin_sm.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/46/gauvin-robert"
+  },
+  {
+    "name": "John Herron",
+    "party": "Liberal",
+    "riding": "Hampton-Fundy-St. Martins",
+    "email": "John.Herron@gnb.ca",
+    "phone": "(506) 453-2506",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/john_herron_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/199/herron-john"
+  },
+  {
+    "name": "David Hickey",
+    "party": "Liberal",
+    "riding": "Saint John Harbour",
+    "email": "David.Hickey@gnb.ca",
+    "phone": "(506) 261-0754",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/DAVID_HICKEY_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/203/hickey-david"
+  },
+  {
+    "name": "Bill Hogan",
+    "party": "Progressive Conservative",
+    "riding": "Woodstock-Hartland",
+    "email": "Bill.Hogan@legnb.ca",
+    "phone": "(506) 277-6020",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Bill_Hogan_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/166/hogan-bill"
+  },
+  {
+    "name": "Susan Holt",
+    "party": "Liberal",
+    "riding": "Fredericton South-Silverwood",
+    "email": "Susan.Holt@gnb.ca",
+    "phone": "(506) 259-5700",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Susan_Holt__sm.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/182/holt-susan"
+  },
+  {
+    "name": "Claire Johnson",
+    "party": "Liberal",
+    "riding": "Moncton South",
+    "email": "Claire.Johnson@gnb.ca",
+    "phone": "(506) 854-5882",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Claire_Johnson_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/194/johnson-claire"
+  },
+  {
+    "name": "Margaret Johnson",
+    "party": "Progressive Conservative",
+    "riding": "Carleton-Victoria",
+    "email": "Margaret.Johnson@legnb.ca",
+    "phone": "(506) 276-4045",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Margaret_Johnson_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/167/johnson-margaret"
+  },
+  {
+    "name": "Sam Johnston",
+    "party": "Liberal",
+    "riding": "Miramichi Bay-Neguac",
+    "email": "Sam.Johnston@legnb.ca",
+    "phone": "(506) 622-2592",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Sam_Johnston_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/191/johnston-sam"
+  },
+  {
+    "name": "Aaron Kennedy",
+    "party": "Liberal",
+    "riding": "Quispamsis",
+    "email": "Aaron.Kennedy@gnb.ca",
+    "phone": "(506) 343-6817",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Aaron_Kennedy_sm.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/200/kennedy-aaron"
+  },
+  {
+    "name": "Francine Landry",
+    "party": "Liberal",
+    "riding": "Madawaska Les Lacs-Edmundston",
+    "email": "Francine.Landry@legnb.ca",
+    "phone": "(506) 735-7222",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Francine_Landry_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/26/landry-francine"
+  },
+  {
+    "name": "Jacques LeBlanc",
+    "party": "Liberal",
+    "riding": "Shediac-Cap-Acadie",
+    "email": "Jacques.LeBlanc@legnb.ca",
+    "phone": "(506) 533-3450",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Jacques_LeBlanc_sm.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/45/leblanc-jacques"
+  },
+  {
+    "name": "Marco LeBlanc",
+    "party": "Liberal",
+    "riding": "Belle-Baie-Belledune",
+    "email": "Marco.LeBlanc@legnb.ca",
+    "phone": "(506) 252-5258",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Marco_LeBlanc_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/180/leblanc-marco"
+  },
+  {
+    "name": "Ian Lee",
+    "party": "Progressive Conservative",
+    "riding": "Fundy-The Isles-Saint John Lorneville",
+    "email": "Ian.Lee@legnb.ca",
+    "phone": "(506) 755-4149",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Ian_Lee_sm.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/205/lee-ian"
+  },
+  {
+    "name": "René Legacy",
+    "party": "Liberal",
+    "riding": "Bathurst",
+    "email": "",
+    "phone": "(506) 549-5329",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/RENE_LEGACY_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/157/legacy-rene"
+  },
+  {
+    "name": "Gilles LePage",
+    "party": "Liberal",
+    "riding": "Restigouche West",
+    "email": "Gilles.LePage@gnb.ca",
+    "phone": "(506) 753-2222",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Gilles_LePage_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/37/lepage-gilles"
+  },
+  {
+    "name": "Eric Mallet",
+    "party": "Liberal",
+    "riding": "Shippagan-Les-Îles",
+    "email": "Eric.Mallet@legnb.ca",
+    "phone": "(506) 340-2901",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Eric_Mallet_sm.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/158/mallet-eric"
+  },
+  {
+    "name": "Robert McKee",
+    "party": "Liberal",
+    "riding": "Moncton Centre",
+    "email": "Robert.McKee@gnb.ca",
+    "phone": "(506) 856-3827",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Rob_McKee_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/30/mckee-robert"
+  },
+  {
+    "name": "Cindy Miles",
+    "party": "Liberal",
+    "riding": "Hanwell-New Maryland",
+    "email": "Cindy.Miles@gnb.ca",
+    "phone": "(506) 462-5524",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Cindy_Miles_sm.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/207/miles-cindy"
+  },
+  {
+    "name": "Megan Mitton",
+    "party": "Green",
+    "riding": "Tantramar",
+    "email": "Megan.Mitton@legnb.ca",
+    "phone": "(506) 378-1565",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Megan_Mitton_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/27/mitton-megan"
+  },
+  {
+    "name": "Don Monahan",
+    "party": "Progressive Conservative",
+    "riding": "Arcadia-Butternut Valley-Maple Hills",
+    "email": "Don.Monahan@legnb.ca",
+    "phone": "(506) 300-5333",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Don_Monahan_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/198/monahan-don"
+  },
+  {
+    "name": "Bill Oliver",
+    "party": "Progressive Conservative",
+    "riding": "Kings Centre",
+    "email": "Bill.Oliver@legnb.ca",
+    "phone": "(506) 738-6586",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Bill_Oliver_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/24/oliver-bill"
+  },
+  {
+    "name": "Luke Randall",
+    "party": "Liberal",
+    "riding": "Fredericton North",
+    "email": "Luke.Randall@gnb.ca",
+    "phone": "(506) 260-6326",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Luke_Randall_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/206/randall-luke"
+  },
+  {
+    "name": "Luc Robichaud",
+    "party": "Liberal",
+    "riding": "Hautes-Terres-Nepisiguit\r\n",
+    "email": "Luc.Robichaud@legnb.ca",
+    "phone": "(506) 764-5282",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Luc_Robichaud_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/190/robichaud-luc"
+  },
+  {
+    "name": "Kevin Russell",
+    "party": "Progressive Conservative",
+    "riding": "Miramichi West",
+    "email": "Kevin.Russell@legnb.ca",
+    "phone": "(506) 453-2506",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Kevin_Russel_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/209/russell-kevin"
+  },
+  {
+    "name": "Glen Savoie",
+    "party": "Progressive Conservative",
+    "riding": "Saint John East",
+    "email": "Glen.Savoie@legnb.ca",
+    "phone": "(506) 658-6333",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Glen_Savoie_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/21/savoie-glen"
+  },
+  {
+    "name": "Tammy Scott-Wallace",
+    "party": "Progressive Conservative",
+    "riding": "Sussex-Three Rivers",
+    "email": "Tammy.Scott-Wallace@legnb.ca",
+    "phone": "(506) 567-4689",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Tammy_Scott-Wallace_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/161/scott-wallace-tammy"
+  },
+  {
+    "name": "Tania Sodhi",
+    "party": "Liberal",
+    "riding": "Moncton Northwest",
+    "email": "Tania.Sodhi@legnb.ca",
+    "phone": "(506) 233-5991",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Tanya_Sodhi_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/195/sodhi-tania"
+  },
+  {
+    "name": "Isabelle Thériault",
+    "party": "Liberal",
+    "riding": "Caraquet",
+    "email": "Isabelle.Theriault@gnb.ca",
+    "phone": "(506) 724-1041",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Isabelle_Theriault_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/5/theriault-isabelle"
+  },
+  {
+    "name": "Alyson Townsend",
+    "party": "Liberal",
+    "riding": "Rothesay",
+    "email": "Alyson.Townsend@gnb.ca",
+    "phone": "(506) 849-5767",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Alyson_Townsend_sm.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/201/townsend-alyson"
+  },
+  {
+    "name": "Natacha Vautour",
+    "party": "Liberal",
+    "riding": "Dieppe-Memramcook",
+    "email": "Natacha.Vautour@legnb.ca",
+    "phone": "(506) 869-7000",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Natacha_Vautour_sm.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/193/vautour-natacha"
+  },
+  {
+    "name": "Rob Weir",
+    "party": "Progressive Conservative",
+    "riding": "Riverview",
+    "email": "Rob.Weir@legnb.ca",
+    "phone": "(506) 856-2295",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Rob_Weir_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/197/weir-rob"
+  },
+  {
+    "name": "Kate Wilcott",
+    "party": "Liberal",
+    "riding": "Saint John West-Lancaster",
+    "email": "Kate.Wilcott@legnb.ca",
+    "phone": "(506) 643-6978",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Kate_Wilcott_sm.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/204/wilcott-kate"
+  },
+  {
+    "name": "Mary Wilson",
+    "party": "Progressive Conservative",
+    "riding": "Oromocto-Sunbury",
+    "email": "Mary.Wilson@legnb.ca",
+    "phone": "(506) 357-1177",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Mary_Wilson_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/35/wilson-mary"
+  },
+  {
+    "name": "Sherry Wilson",
+    "party": "Progressive Conservative",
+    "riding": "Albert-Riverview",
+    "email": "Sherry.Wilson@legnb.ca",
+    "phone": "(506) 382-6567",
+    "photo": "https://www.legnb.ca/content/members/portraits/61-1/Sherry_Wilson_lg.jpg",
+    "profileUrl": "https://www.legnb.ca/en/members/current/33/wilson-sherry"
+  }
+]

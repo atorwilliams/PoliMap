@@ -1,0 +1,141 @@
+{
+  "electionDate": "2025-04-28",
+  "termEnd": "2029-04-28",
+  "parties": {
+    "Liberal": {
+      "color": "#D71920",
+      "abbr": "LIB"
+    },
+    "Conservative": {
+      "color": "#003DA5",
+      "abbr": "CPC"
+    },
+    "NDP": {
+      "color": "#F37021",
+      "abbr": "NDP"
+    }
+  },
+  "ridings": {
+    "Acadie—Annapolis": {
+      "mp": {
+        "name": "Chris d'Entremont",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DEntremontChris_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/chris-dentremont(49344)",
+        "email": "Chris.dEntremont@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Cape Breton—Canso—Antigonish": {
+      "mp": {
+        "name": "Jaime Battiste",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BattisteJaime_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/jaime-battiste(104571)",
+        "email": "Jaime.Battiste@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Central Nova": {
+      "mp": {
+        "name": "Sean Fraser",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/FraserSean_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/sean-fraser(88316)",
+        "email": "sean.fraser@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Cumberland—Colchester": {
+      "mp": {
+        "name": "Alana Hirtle",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/HirtleAlana_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/alana-hirtle(122419)",
+        "email": "alana.hirtle@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Dartmouth—Cole Harbour": {
+      "mp": {
+        "name": "Darren Fisher",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/FisherDarren_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/darren-fisher(88323)",
+        "email": "darren.fisher@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Halifax": {
+      "mp": {
+        "name": "Shannon Miedema",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/MiedemaShannon_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/shannon-miedema(122428)",
+        "email": "shannon.miedema@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Halifax West": {
+      "mp": {
+        "name": "Lena Metlege Diab",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/DiabLenaMetlege_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/lena-metlege-diab(109915)",
+        "email": "lenametlege.diab@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Kings—Hants": {
+      "mp": {
+        "name": "Kody Blois",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/BloisKody_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/kody-blois(104555)",
+        "email": "Kody.Blois@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Sackville—Bedford—Preston": {
+      "mp": {
+        "name": "Braedon Clark",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ClarkBraedon_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/braedon-clark(122437)",
+        "email": "braedon.clark@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "South Shore—St. Margarets": {
+      "mp": {
+        "name": "Jessica Fancy",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/Fancy-LandryJessica_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/jessica-fancy(122443)",
+        "email": "jessica.fancy@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Sydney—Glace Bay": {
+      "mp": {
+        "name": "Mike Kelloway",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/KellowayMike_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/mike-kelloway(104531)",
+        "email": "Mike.Kelloway@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    }
+  }
+}

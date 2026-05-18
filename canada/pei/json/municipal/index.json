@@ -1,0 +1,234 @@
+{
+  "CITY OF CHARLOTTETOWN": {
+    "slug": "charlottetown",
+    "type": "City"
+  },
+  "CITY OF SUMMERSIDE": {
+    "slug": "summerside",
+    "type": "City"
+  },
+  "TOWN OF CORNWALL": {
+    "slug": "cornwall",
+    "type": "Town"
+  },
+  "TOWN OF NORTH RUSTICO": {
+    "slug": "north-rustico",
+    "type": "Town"
+  },
+  "TOWN OF SOURIS": {
+    "slug": "souris",
+    "type": "Town"
+  },
+  "TOWN OF THREE RIVERS": {
+    "slug": "three-rivers",
+    "type": "Town"
+  },
+  "TOWN OF O'LEARY": {
+    "slug": "oleary",
+    "type": "Town"
+  },
+  "TOWN OF ALBERTON": {
+    "slug": "alberton",
+    "type": "Town"
+  },
+  "TOWN OF TIGNISH": {
+    "slug": "tignish",
+    "type": "Town"
+  },
+  "TOWN OF BORDEN-CARLETON": {
+    "slug": "borden-carleton",
+    "type": "Town"
+  },
+  "TOWN OF KENSINGTON": {
+    "slug": "kensington",
+    "type": "Town"
+  },
+  "TOWN OF STRATFORD": {
+    "slug": "stratford",
+    "type": "Town"
+  },
+  "RURAL MUNICIPALITY OF HUNTER RIVER": {
+    "slug": "hunter-river",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF STANLEY BRIDGE, HOPE RIVER, BAYVIEW, CAVENDISH AND NORTH RUSTICO": {
+    "slug": "stanley-bridge-hope-river-bayview-cavendish-and-north-rustico",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF BELFAST": {
+    "slug": "belfast",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF NORTH WILTSHIRE": {
+    "slug": "north-wiltshire",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF HAMPSHIRE": {
+    "slug": "hampshire",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF VICTORIA": {
+    "slug": "victoria",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF CRAPAUD": {
+    "slug": "crapaud",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF CLYDE RIVER": {
+    "slug": "clyde-river",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF MILTONVALE PARK": {
+    "slug": "miltonvale-park",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF MURRAY HARBOUR": {
+    "slug": "murray-harbour",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF MURRAY RIVER": {
+    "slug": "murray-river",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF UNION ROAD": {
+    "slug": "union-road",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF BREADALBANE": {
+    "slug": "breadalbane",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF BRACKLEY": {
+    "slug": "brackley",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF MOUNT STEWART": {
+    "slug": "mount-stewart",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF YORK": {
+    "slug": "york",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF CENTRAL KINGS": {
+    "slug": "central-kings",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF SOURIS WEST": {
+    "slug": "souris-west",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF EASTERN KINGS": {
+    "slug": "eastern-kings",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF ST. PETERS BAY": {
+    "slug": "st-peters-bay",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF HAZELBROOK": {
+    "slug": "hazelbrook",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF ALEXANDRA": {
+    "slug": "alexandra",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF ST. NICHOLAS": {
+    "slug": "st-nicholas",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF LINKLETTER": {
+    "slug": "linkletter",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF MISCOUCHE": {
+    "slug": "miscouche",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF NORTH SHORE": {
+    "slug": "north-shore",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF WEST RIVER": {
+    "slug": "west-river",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF WARREN GROVE": {
+    "slug": "warren-grove",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF CENTRAL PRINCE": {
+    "slug": "central-prince",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF NORTHPORT": {
+    "slug": "northport",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF ST. FELIX": {
+    "slug": "st-felix",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF GREENMOUNT-MONTROSE": {
+    "slug": "greenmount-montrose",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF ST. LOUIS": {
+    "slug": "st-louis",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF TIGNISH SHORE": {
+    "slug": "tignish-shore",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF ABRAM-VILLAGE": {
+    "slug": "abram-village",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF WELLINGTON": {
+    "slug": "wellington",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF TYNE VALLEY": {
+    "slug": "tyne-valley",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF MALPEQUE BAY": {
+    "slug": "malpeque-bay",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF KINKORA": {
+    "slug": "kinkora",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF BEDEQUE AND AREA": {
+    "slug": "bedeque-and-area",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF SHERBROOKE": {
+    "slug": "sherbrooke",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF MIMINEGASH": {
+    "slug": "miminegash",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF KINGSTON": {
+    "slug": "kingston",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF LOT 11 AND AREA": {
+    "slug": "lot-11-and-area",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF MORELL": {
+    "slug": "morell",
+    "type": "Rural Municipality"
+  },
+  "RURAL MUNICIPALITY OF ANNANDALE - LITTLE POND - HOWE BAY": {
+    "slug": "annandale-little-pond-howe-bay",
+    "type": "Rural Municipality"
+  }
+}

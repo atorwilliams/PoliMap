@@ -24,6 +24,15 @@ export default {
   federalBoundaryFile: './json/federal.geojson',
   federalNameProperty: 'FEDENAME',
 
+  // Premier
+  premier: {
+    name: 'Wab Kinew',
+    party: 'NDP',
+    color: '#F37021',
+    riding: 'Fort Rouge',
+    since: '2023-10-18',
+  },
+
   // Colouring
   partisan: true,
 

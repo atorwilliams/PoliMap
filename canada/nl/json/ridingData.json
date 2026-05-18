@@ -1,0 +1,464 @@
+{
+  "electionDate": "2025-10-14",
+  "termEnd": "2029-10-14",
+  "parties": {
+    "Liberal": {
+      "color": "#D71920",
+      "abbr": "LIB"
+    },
+    "Progressive Conservative": {
+      "color": "#003DA5",
+      "abbr": "PC"
+    },
+    "NDP": {
+      "color": "#F37021",
+      "abbr": "NDP"
+    },
+    "Independent": {
+      "color": "#808080",
+      "abbr": "IND"
+    }
+  },
+  "ridings": {
+    "Baie Verte-Green Bay": {
+      "mha": {
+        "name": "Lin Paddock",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "LinPaddock@gov.nl.ca",
+        "phone": "709-673-2836",
+        "website": ""
+      }
+    },
+    "Bonavista": {
+      "mha": {
+        "name": "Craig Pardy",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "CraigPardy@gov.nl.ca",
+        "phone": "709-468-2132",
+        "website": ""
+      }
+    },
+    "Burgeo-La Poile": {
+      "mha": {
+        "name": "Michael King",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "MichaelKing@gov.nl.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Burin-Grand Bank": {
+      "mha": {
+        "name": "Paul Pike",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "PaulPike@gov.nl.ca",
+        "phone": "709-832-2530",
+        "website": ""
+      }
+    },
+    "Cape St. Francis": {
+      "mha": {
+        "name": "Joedy Wall",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "JoedyWall@gov.nl.ca",
+        "phone": "709-729-6979",
+        "website": ""
+      }
+    },
+    "Carbonear-Trinity-Bay de Verde": {
+      "mha": {
+        "name": "Riley Balsom",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "RileyBalsom@gov.nl.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Cartwright-L'Anse Au Clair": {
+      "mha": {
+        "name": "Lisa Dempster",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "LisaDempster@gov.nl.ca",
+        "phone": "709-931-2118",
+        "website": ""
+      }
+    },
+    "Conception Bay East-Bell Island": {
+      "mha": {
+        "name": "Fred Hutton",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "FredHutton@gov.nl.ca",
+        "phone": "709-729-0334",
+        "website": ""
+      }
+    },
+    "Conception Bay South": {
+      "mha": {
+        "name": "Barry Petten",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "BarryPetten@gov.nl.ca",
+        "phone": "709-834-6180",
+        "website": ""
+      }
+    },
+    "Corner Brook": {
+      "mha": {
+        "name": "Jim Parsons",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "JimParsons@gov.nl.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Exploits": {
+      "mha": {
+        "name": "Pleaman Forsey",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "PleamanForsey@gov.nl.ca",
+        "phone": "709-258-2519",
+        "website": ""
+      }
+    },
+    "Ferryland": {
+      "mha": {
+        "name": "Loyola O'Driscoll",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "LoyolaODriscoll@gov.nl.ca",
+        "phone": "709-729-1390",
+        "website": ""
+      }
+    },
+    "Fogo Island-Cape Freels": {
+      "mha": {
+        "name": "Jim McKenna",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "JamesMcKenna@gov.nl.ca",
+        "phone": "709-536-2678",
+        "website": ""
+      }
+    },
+    "Fortune Bay-Cape La Hune": {
+      "mha": {
+        "name": "Elvis Loveless",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "ElvisLoveless@gov.nl.ca",
+        "phone": "709-885-3067",
+        "website": ""
+      }
+    },
+    "Gander": {
+      "mha": {
+        "name": "Bettina Ford",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "BettinaFord@gov.nl.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Grand Falls-Windsor-Buchans": {
+      "mha": {
+        "name": "Chris Tibbs",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "ChrisTibbs@gov.nl.ca",
+        "phone": "709-489-3409",
+        "website": ""
+      }
+    },
+    "Harbour Grace-Port de Grave": {
+      "mha": {
+        "name": "Pam Parsons",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "PamParsons@gov.nl.ca",
+        "phone": "709-786-1372",
+        "website": ""
+      }
+    },
+    "Harbour Main": {
+      "mha": {
+        "name": "Helen Conway-Ottenheimer",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "HelenConwayOttenheimer@gov.nl.ca",
+        "phone": "709-229-0160",
+        "website": ""
+      }
+    },
+    "Humber-Bay of Islands": {
+      "mha": {
+        "name": "Eddie Joyce",
+        "party": "Independent",
+        "photo": null,
+        "profileUrl": "",
+        "email": "EJoyce@gov.nl.ca",
+        "phone": "709-634-7883",
+        "website": ""
+      }
+    },
+    "Humber-Gros Morne": {
+      "mha": {
+        "name": "Mike Goosney",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "MikeGoosney@gov.nl.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Labrador West": {
+      "mha": {
+        "name": "Joseph Power",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "JosephPower@gov.nl.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Lake Melville": {
+      "mha": {
+        "name": "Keith Russell",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "KeithRussell@gov.nl.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Lewisporte-Twillingate": {
+      "mha": {
+        "name": "Mark Butt",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "MarkButt@gov.nl.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Mount Pearl North": {
+      "mha": {
+        "name": "Lucy Stoyles",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "LucyStoyles@gov.nl.ca",
+        "phone": "709-729-1526",
+        "website": ""
+      }
+    },
+    "Mount Pearl-Southlands": {
+      "mha": {
+        "name": "Paul Lane",
+        "party": "Independent",
+        "photo": null,
+        "profileUrl": "",
+        "email": "PaulLane@gov.nl.ca",
+        "phone": "709-729-2231",
+        "website": ""
+      }
+    },
+    "Mount Scio": {
+      "mha": {
+        "name": "Sarah Stoodley",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "SarahStoodley@gov.nl.ca",
+        "phone": "709-729-3083",
+        "website": ""
+      }
+    },
+    "Placentia West-Bellevue": {
+      "mha": {
+        "name": "Jeff Dwyer",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "JeffDwyer@gov.nl.ca",
+        "phone": "709-279-2912",
+        "website": ""
+      }
+    },
+    "Placentia-St. Mary's": {
+      "mha": {
+        "name": "Sherry Gambin-Walsh",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "SherryGambinwalsh@gov.nl.ca",
+        "phone": "709-227-1304",
+        "website": ""
+      }
+    },
+    "St. Barbe-L'anse aux Meadows": {
+      "mha": {
+        "name": "Andrea Barbour",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "AndreaBarbour@gov.nl.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "St. George's-Humber": {
+      "mha": {
+        "name": "Hal Cormier",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "HalCormier@gov.nl.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "St. John's Centre": {
+      "mha": {
+        "name": "Jim Dinn",
+        "party": "NDP",
+        "photo": null,
+        "profileUrl": "",
+        "email": "JamesDinn@gov.nl.ca",
+        "phone": "709-729-2638",
+        "website": ""
+      }
+    },
+    "St. John's East-Quidi Vidi": {
+      "mha": {
+        "name": "Sheilagh O'Leary",
+        "party": "NDP",
+        "photo": null,
+        "profileUrl": "",
+        "email": "SheilaghOLeary@gov.nl.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "St. John's West": {
+      "mha": {
+        "name": "Keith White",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "KeithWhite@gov.nl.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Stephenville-Port Au Port": {
+      "mha": {
+        "name": "Tony Wakeham",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "TonyWakeham@gov.nl.ca",
+        "phone": "709-643-0813",
+        "website": ""
+      }
+    },
+    "Terra Nova": {
+      "mha": {
+        "name": "Lloyd Parrott",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "LloydParrott@gov.nl.ca",
+        "phone": "709-466-4165",
+        "website": ""
+      }
+    },
+    "Topsail-Paradise": {
+      "mha": {
+        "name": "Paul Dinn",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "PaulDinn@gov.nl.ca",
+        "phone": "709-729-6670",
+        "website": ""
+      }
+    },
+    "Torngat Mountains": {
+      "mha": {
+        "name": "Lela Evans",
+        "party": "Progressive Conservative",
+        "photo": null,
+        "profileUrl": "",
+        "email": "LelaEvans@gov.nl.ca",
+        "phone": "877-923-2471",
+        "website": ""
+      }
+    },
+    "Virginia Waters-Pleasantville": {
+      "mha": {
+        "name": "Bernard Davis",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "BernardDavis@gov.nl.ca",
+        "phone": "709-729-5980",
+        "website": ""
+      }
+    },
+    "Waterford Valley": {
+      "mha": {
+        "name": "Jamie Korab",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "JamieKorab@gov.nl.ca",
+        "phone": "709-729-4882",
+        "website": ""
+      }
+    },
+    "Windsor Lake": {
+      "mha": {
+        "name": "John Hogan",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "",
+        "email": "JohnHogan@gov.nl.ca",
+        "phone": "709-729-3529",
+        "website": ""
+      }
+    }
+  }
+}

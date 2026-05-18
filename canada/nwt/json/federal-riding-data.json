@@ -1,0 +1,10 @@
+{
+  "electionDate": "2025-04-28",
+  "termEnd": "2029-04-28",
+  "parties": {
+    "Liberal": { "color": "#D71920", "abbr": "LIB" }
+  },
+  "ridings": {
+    "Northwest Territories": { "mp": { "name": "Rebecca Alty", "party": "Liberal", "photo": null, "email": "", "phone": "", "website": "" } }
+  }
+}

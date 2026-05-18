@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Carman Kerr",
+    "party": "Liberal",
+    "constituency": "Annapolis",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Margaret Michelle Thompson",
+    "party": "Progressive Conservative",
+    "constituency": "Antigonish",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Colton Fraser LeBlanc",
+    "party": "Progressive Conservative",
+    "constituency": "Argyle (2021)",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Kelly Maureen Regan",
+    "party": "Liberal",
+    "constituency": "Bedford Basin",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Braedon Clark",
+    "party": "Liberal",
+    "constituency": "Bedford South",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Kendra Christine Coombes",
+    "party": "New Democratic Party",
+    "constituency": "Cape Breton Centre-Whitney Pier",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Brian Keith Comer",
+    "party": "Progressive Conservative",
+    "constituency": "Cape Breton East (2021)",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Danielle S. Barkhouse",
+    "party": "Progressive Conservative",
+    "constituency": "Chester-St. Margaret's",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Ronnie Joseph LeBlanc",
+    "party": "Liberal",
+    "constituency": "Clare (2021)",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Rafah DiCostanzo",
+    "party": "Liberal",
+    "constituency": "Clayton Park West",
+    "start_date": "2017-05-30T00:00:00.000"
+  },
+  {
+    "name": "Tom Taggart",
+    "party": "Progressive Conservative",
+    "constituency": "Colchester North",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "William L. Harrison",
+    "party": "Progressive Conservative",
+    "constituency": "Colchester-Musquodoboit Valley",
+    "start_date": "2013-10-08T00:00:00.000"
+  },
+  {
+    "name": "Tony Ince",
+    "party": "Liberal",
+    "constituency": "Cole Harbour (2021)",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Lorelei Nicoll",
+    "party": "Liberal",
+    "constituency": "Cole Harbour-Dartmouth",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Elizabeth Anne Smith-McCrossin",
+    "party": "Independent",
+    "constituency": "Cumberland North",
+    "start_date": "2021-06-24T00:00:00.000"
+  },
+  {
+    "name": "Tory George Rushton",
+    "party": "Progressive Conservative",
+    "constituency": "Cumberland South",
+    "start_date": "2018-06-19T00:00:00.000"
+  },
+  {
+    "name": "Timothy Halman",
+    "party": "Progressive Conservative",
+    "constituency": "Dartmouth East",
+    "start_date": "2017-05-30T00:00:00.000"
+  },
+  {
+    "name": "Susan Leblanc",
+    "party": "New Democratic Party",
+    "constituency": "Dartmouth North",
+    "start_date": "2017-05-30T00:00:00.000"
+  },
+  {
+    "name": "Claudia Chender",
+    "party": "New Democratic Party",
+    "constituency": "Dartmouth South (2013)",
+    "start_date": "2017-05-30T00:00:00.000"
+  },
+  {
+    "name": "Jill S. Balser",
+    "party": "Progressive Conservative",
+    "constituency": "Digby-Annapolis (2021)",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Barbara Anne Adams",
+    "party": "Progressive Conservative",
+    "constituency": "Eastern Passage",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "James Brian Kent Smith",
+    "party": "Progressive Conservative",
+    "constituency": "Eastern Shore",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Patricia Anne Arab",
+    "party": "Liberal",
+    "constituency": "Fairview-Clayton Park",
+    "start_date": "2013-10-08T00:00:00.000"
+  },
+  {
+    "name": "John Hugh White",
+    "party": "Progressive Conservative",
+    "constituency": "Glace Bay-Dominion",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Greg Morrow",
+    "party": "Progressive Conservative",
+    "constituency": "Guysborough-Tracadie",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Ali Duale",
+    "party": "Liberal",
+    "constituency": "Halifax Armdale",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Brendan Oliver Maguire",
+    "party": "Liberal",
+    "constituency": "Halifax Atlantic",
+    "start_date": "2013-10-08T00:00:00.000"
+  },
+  {
+    "name": "Gary Clayton Burrill",
+    "party": "New Democratic Party",
+    "constituency": "Halifax Chebucto",
+    "start_date": "2017-05-30T00:00:00.000"
+  },
+  {
+    "name": "Lisa Anne Lachance",
+    "party": "New Democratic Party",
+    "constituency": "Halifax Citadel-Sable Island",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Sue Ellen Hansen",
+    "party": "New Democratic Party",
+    "constituency": "Halifax Needham",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Benjamin Thomas Jessome",
+    "party": "Liberal",
+    "constituency": "Hammonds Plains-Lucasville",
+    "start_date": "2013-10-08T00:00:00.000"
+  },
+  {
+    "name": "John Alexander (3) MacDonald",
+    "party": "Progressive Conservative",
+    "constituency": "Hants East",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Melissa Sheehy-Richard",
+    "party": "Progressive Conservative",
+    "constituency": "Hants West",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Allan Gerard MacMaster",
+    "party": "Progressive Conservative",
+    "constituency": "Inverness",
+    "start_date": "2009-10-20T00:00:00.000"
+  },
+  {
+    "name": "John Abraham Lohr",
+    "party": "Progressive Conservative",
+    "constituency": "Kings North",
+    "start_date": "2013-10-08T00:00:00.000"
+  },
+  {
+    "name": "Richard Keith Irving",
+    "party": "Liberal",
+    "constituency": "Kings South",
+    "start_date": "2013-10-08T00:00:00.000"
+  },
+  {
+    "name": "Chris Matthew Palmer",
+    "party": "Progressive Conservative",
+    "constituency": "Kings West",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Susan Margaret Corkum-Greek",
+    "party": "Progressive Conservative",
+    "constituency": "Lunenburg",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Rebecca Druhan",
+    "party": "Progressive Conservative",
+    "constituency": "Lunenburg West",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Fred Tilley",
+    "party": "Liberal",
+    "constituency": "Northside-Westmount",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Patrick R. Dunn",
+    "party": "Progressive Conservative",
+    "constituency": "Pictou Centre",
+    "start_date": "2013-10-08T00:00:00.000"
+  },
+  {
+    "name": "Timothy Jerome Houston",
+    "party": "Progressive Conservative",
+    "constituency": "Pictou East",
+    "start_date": "2013-10-08T00:00:00.000"
+  },
+  {
+    "name": "Marco MacLeod",
+    "party": "Progressive Conservative",
+    "constituency": "Pictou West",
+    "start_date": "2024-06-12T00:00:00.000"
+  },
+  {
+    "name": "Twila Rose Grosse",
+    "party": "",
+    "constituency": "Preston (2021)",
+    "start_date": "2023-08-08T00:00:00.000"
+  },
+  {
+    "name": "Kimberly Dawn Masland",
+    "party": "Progressive Conservative",
+    "constituency": "Queens (2021)",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Trevor Boudreau",
+    "party": "Progressive Conservative",
+    "constituency": "Richmond (2021)",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Stephen Allen Craig",
+    "party": "Progressive Conservative",
+    "constituency": "Sackville-Cobequid",
+    "start_date": "2019-06-18T00:00:00.000"
+  },
+  {
+    "name": "Bradley Harris Johns",
+    "party": "Progressive Conservative",
+    "constituency": "Sackville-Uniacke",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Nolan Bromley Young",
+    "party": "Progressive Conservative",
+    "constituency": "Shelburne (2021)",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Derek Curtis Mombourquette",
+    "party": "Liberal",
+    "constituency": "Sydney-Membertou",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Iain Thomas Rankin",
+    "party": "Liberal",
+    "constituency": "Timberlea-Prospect",
+    "start_date": "2013-10-08T00:00:00.000"
+  },
+  {
+    "name": "David Mark Ritcey",
+    "party": "Progressive Conservative",
+    "constituency": "Truro-Bible Hill-Millbrook-Salmon River",
+    "start_date": "2020-03-10T00:00:00.000"
+  },
+  {
+    "name": "Keith Leslie Bain",
+    "party": "Progressive Conservative",
+    "constituency": "Victoria-The Lakes",
+    "start_date": "2017-05-30T00:00:00.000"
+  },
+  {
+    "name": "Brian Joseph Wong",
+    "party": "Progressive Conservative",
+    "constituency": "Waverley-Fall River-Beaver Bank",
+    "start_date": "2021-08-17T00:00:00.000"
+  },
+  {
+    "name": "Zachariah John Churchill",
+    "party": "Liberal",
+    "constituency": "Yarmouth",
+    "start_date": "2010-06-22T00:00:00.000"
+  }
+]

@@ -1,0 +1,227 @@
+{
+  "electionDate": "2021-10-25",
+  "termEnd": "2025-10-25",
+  "parties": {},
+  "ridings": {
+    "Aggu": {
+      "mla": {
+        "name": "Edward Attagutaluk",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Aivilik": {
+      "mla": {
+        "name": "Hannah Angootealuk",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Amittuq": {
+      "mla": {
+        "name": "Abraham Qammaniq",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Arviat North-Whale Cove": {
+      "mla": {
+        "name": "John Main",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Arviat South": {
+      "mla": {
+        "name": "Jamie Kablutsiak",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Baker Lake": {
+      "mla": {
+        "name": "Craig Simailak",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Cambridge Bay": {
+      "mla": {
+        "name": "Fred Pedersen",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Gjoa Haven": {
+      "mla": {
+        "name": "David Porter",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Hudson Bay": {
+      "mla": {
+        "name": "Daniel Qavvik",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Iqaluit-Manirajak": {
+      "mla": {
+        "name": "Gwen Healey Akearok",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Iqaluit-Niaqunnguu": {
+      "mla": {
+        "name": "David Akeeagok",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Iqaluit-Sinaa": {
+      "mla": {
+        "name": "Janet Pitsiulaaq Brewster",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Iqaluit-Tasiluk": {
+      "mla": {
+        "name": "George Hickes",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Kugluktuk": {
+      "mla": {
+        "name": "Simon Kuliktana",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Netsilik": {
+      "mla": {
+        "name": "Cecile Nelvana Lyall",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Pangnirtung": {
+      "mla": {
+        "name": "Johnny Mike",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Quttiktuq": {
+      "mla": {
+        "name": "Steven Taqtu",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Rankin Inlet North-Chesterfield Inlet": {
+      "mla": {
+        "name": "Alexander Sammurtok",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Rankin Inlet South": {
+      "mla": {
+        "name": "Annie Tattuinee",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "South Baffin": {
+      "mla": {
+        "name": "David Joanasie",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Tununiq": {
+      "mla": {
+        "name": "Brian Koonoo",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Uqqummiut": {
+      "mla": {
+        "name": "Gordon Kautuk",
+        "party": "Non-partisan",
+        "photo": null,
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    }
+  }
+}

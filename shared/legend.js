@@ -2,6 +2,12 @@
 import { loadRidingData, loadFederalRidingData } from './data.js';
 import { showPartySidebar } from './popup.js';
 
+function formatLegendDate(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr);
+  return d.toLocaleDateString('en-CA', { year: 'numeric', month: 'short' });
+}
+
 export function initLegend(map, getActiveLayer, config) {
   const legend = document.getElementById('legend');
   if (!legend) return null;
@@ -15,8 +21,43 @@ export async function updateLegend(map, activeLayer, config) {
   legendParties.innerHTML = '';
 
   if (!config.partisan) {
-    // Non-partisan — no party legend
-    legendParties.innerHTML = '<p style="color:rgba(255,255,255,0.4); font-size:0.82em; padding:4px 0;">Non-partisan legislature</p>';
+    const data = await loadRidingData();
+    const memberKey = config.memberKey;
+    const ridings = data.ridings || {};
+    const p = config.premier;
+
+    const members = Object.entries(ridings).map(([ridingName, riding]) => {
+      const official = riding[memberKey] || {};
+      return {
+        name: official.name || '',
+        party: 'Non-partisan',
+        riding: ridingName,
+        photo: official.photo || '',
+        heroPhoto: official.heroPhoto || official.photo || '',
+        profileUrl: official.profileUrl || '#',
+        email: official.email || '',
+        phone: official.phone || '',
+        website: official.website || '',
+        contact: official.contact || {},
+        heroPhotoOffsetX: official.heroPhotoOffsetX ?? 50,
+        heroPhotoOffsetY: official.heroPhotoOffsetY ?? 50,
+        isPremier: p?.name === official.name,
+      };
+    }).filter(m => m.name);
+
+    const swatch = document.createElement('div');
+    swatch.style.cssText = 'display:flex; align-items:center; margin:6px 0; cursor:pointer; padding:6px; border-radius:6px; transition:background 0.2s;';
+    swatch.innerHTML = `
+      <div style="width:20px; height:20px; background:#6B8E6B; border-radius:4px; margin-right:10px; flex-shrink:0;"></div>
+      <div>
+        <div style="font-weight:bold;">${p ? p.name : 'Non-partisan'} &amp; ${members.length} leaders</div>
+        ${p ? `<div style="color:rgba(255,255,255,0.45); font-size:0.78em;">Premier · ${p.riding}</div>` : ''}
+      </div>
+    `;
+    swatch.addEventListener('click', () => showPartySidebar(map, 'Non-partisan', members, activeLayer));
+    swatch.addEventListener('mouseenter', () => swatch.style.background = 'rgba(255,255,255,0.12)');
+    swatch.addEventListener('mouseleave', () => swatch.style.background = 'transparent');
+    legendParties.appendChild(swatch);
     return;
   }
 
@@ -50,7 +91,8 @@ export async function updateLegend(map, activeLayer, config) {
         profileUrl: official.profileUrl || '#',
         contact: official.contact || {},
         heroPhotoOffsetX: official.heroPhotoOffsetX ?? 50,
-        heroPhotoOffsetY: official.heroPhotoOffsetY ?? 50
+        heroPhotoOffsetY: official.heroPhotoOffsetY ?? 50,
+        isPremier: config.premier?.name === official.name,
       });
     }
   });

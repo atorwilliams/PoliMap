@@ -43,23 +43,43 @@ async function runSearch(map, config, query, btn, errorEl) {
   const bounded = geo.bounded ? 1 : 0;
   const fallbackMessage = geo.fallbackMessage || 'Address not found.';
 
+  // Canadian postal code: A1A 1A1 or A1A1A1
+  const postalCodeRe = /^([A-Za-z]\d[A-Za-z])\s?(\d[A-Za-z]\d)$/;
+  const postalMatch = countryCode === 'ca' && query.match(postalCodeRe);
+
   try {
-    let url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&countrycodes=${countryCode}&limit=1&bounded=${bounded}`;
-    if (viewbox) url += `&viewbox=${viewbox}`;
+    let lng, latNum, display_name;
 
-    const res = await fetch(url, { headers: { Accept: 'application/json' } });
-    if (!res.ok) throw new Error(`Nominatim ${res.status}`);
-    const hits = await res.json();
+    if (postalMatch) {
+      const code = (postalMatch[1] + postalMatch[2]).toUpperCase();
+      const res = await fetch(`https://represent.opennorth.ca/postcodes/${code}/`, { headers: { Accept: 'application/json' } });
+      if (!res.ok) throw new Error(`Represent API ${res.status}`);
+      const data = await res.json();
+      if (!data.centroid) {
+        errorEl.textContent = 'Postal code not found.';
+        errorEl.classList.add('visible');
+        return;
+      }
+      [lng, latNum] = data.centroid.coordinates;
+      display_name = `${postalMatch[1].toUpperCase()} ${postalMatch[2].toUpperCase()}, ${data.city ? data.city.charAt(0) + data.city.slice(1).toLowerCase() : ''}, ${data.province || ''}`;
+    } else {
+      let url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&countrycodes=${countryCode}&limit=1&bounded=${bounded}`;
+      if (viewbox) url += `&viewbox=${viewbox}`;
 
-    if (!hits.length) {
-      errorEl.textContent = fallbackMessage;
-      errorEl.classList.add('visible');
-      return;
+      const res = await fetch(url, { headers: { Accept: 'application/json' } });
+      if (!res.ok) throw new Error(`Nominatim ${res.status}`);
+      const hits = await res.json();
+
+      if (!hits.length) {
+        errorEl.textContent = fallbackMessage;
+        errorEl.classList.add('visible');
+        return;
+      }
+
+      ({ display_name } = hits[0]);
+      lng    = parseFloat(hits[0].lon);
+      latNum = parseFloat(hits[0].lat);
     }
-
-    const { lat, lon, display_name } = hits[0];
-    const lng    = parseFloat(lon);
-    const latNum = parseFloat(lat);
 
     if (searchMarker) searchMarker.remove();
     searchMarker = new maplibregl.Marker({ color: '#FF3B3B' })

@@ -80,19 +80,19 @@
       "partyColor": "#D71920",
       "federalSeats": 10,
       "provincialSeats": 49,
-      "mapUrl": null,
-      "available": false
+      "mapUrl": "/canada/nb/",
+      "available": true
     },
     "12": {
       "name": "Nova Scotia",
       "abbr": "NS",
       "capital": "Halifax",
-      "premier": { "name": "Tim Houston", "party": "Progressive Conservative", "since": "2021-08-31" },
+      "premier": { "name": "Timothy Houston", "party": "Progressive Conservative", "since": "2021-08-31" },
       "partyColor": "#003DA5",
       "federalSeats": 11,
       "provincialSeats": 55,
-      "mapUrl": null,
-      "available": false
+      "mapUrl": "/canada/ns/",
+      "available": true
     },
     "11": {
       "name": "Prince Edward Island",
@@ -102,30 +102,30 @@
       "partyColor": "#003DA5",
       "federalSeats": 4,
       "provincialSeats": 27,
-      "mapUrl": null,
-      "available": false
+      "mapUrl": "/canada/pei/",
+      "available": true
     },
     "10": {
       "name": "Newfoundland and Labrador",
       "abbr": "NL",
       "capital": "St. John's",
-      "premier": { "name": "Andrew Furey", "party": "Liberal", "since": "2020-08-19" },
-      "partyColor": "#D71920",
+      "premier": { "name": "Tony Wakeham", "party": "Progressive Conservative", "since": "2025-10-29" },
+      "partyColor": "#003DA5",
       "federalSeats": 7,
       "provincialSeats": 40,
-      "mapUrl": null,
-      "available": false
+      "mapUrl": "/canada/nl/",
+      "available": true
     },
     "60": {
       "name": "Yukon",
       "abbr": "YT",
       "capital": "Whitehorse",
-      "premier": { "name": "Ranj Pillai", "party": "Liberal", "since": "2023-02-13" },
-      "partyColor": "#D71920",
+      "premier": { "name": "Currie Dixon", "party": "Yukon Party", "since": "2025-11-12" },
+      "partyColor": "#003DA5",
       "federalSeats": 1,
-      "provincialSeats": 19,
-      "mapUrl": null,
-      "available": false
+      "provincialSeats": 21,
+      "mapUrl": "/canada/yukon/",
+      "available": true
     },
     "61": {
       "name": "Northwest Territories",
@@ -135,19 +135,19 @@
       "partyColor": "#666666",
       "federalSeats": 1,
       "provincialSeats": 19,
-      "mapUrl": null,
-      "available": false
+      "mapUrl": "/canada/nwt/",
+      "available": true
     },
     "62": {
       "name": "Nunavut",
       "abbr": "NU",
       "capital": "Iqaluit",
-      "premier": { "name": "P.J. Akeeagok", "party": "Non-partisan", "since": "2021-06-22" },
+      "premier": { "name": "John Main", "party": "Non-partisan", "since": "2025-11-20" },
       "partyColor": "#666666",
       "federalSeats": 1,
       "provincialSeats": 22,
-      "mapUrl": null,
-      "available": false
+      "mapUrl": "/canada/nunavut/",
+      "available": true
     }
   }
 }

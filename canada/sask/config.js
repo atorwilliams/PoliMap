@@ -24,6 +24,15 @@ export default {
   federalBoundaryFile: './json/federal.geojson',
   federalNameProperty: 'ED_NAMEE',
 
+  // Premier
+  premier: {
+    name: 'Hon. Scott Moe',
+    party: 'Saskatchewan Party',
+    color: '#007DC3',
+    riding: 'Rosthern-Shellbrook',
+    since: '2018-02-02',
+  },
+
   // Colouring
   partisan: true,
 

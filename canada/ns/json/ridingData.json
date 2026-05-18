@@ -1,0 +1,629 @@
+{
+  "electionDate": "2024-11-26",
+  "termEnd": "2028-11-26",
+  "parties": {
+    "Progressive Conservative": {
+      "color": "#003DA5",
+      "abbr": "PC"
+    },
+    "NDP": {
+      "color": "#F37021",
+      "abbr": "NDP"
+    },
+    "Liberal": {
+      "color": "#D71920",
+      "abbr": "LIB"
+    },
+    "Independent": {
+      "color": "#808080",
+      "abbr": "IND"
+    }
+  },
+  "ridings": {
+    "Annapolis": {
+      "mla": {
+        "name": "Carman Kerr",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Antigonish": {
+      "mla": {
+        "name": "Margaret Thompson",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Argyle": {
+      "mla": {
+        "name": "Colton LeBlanc",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Bedford Basin": {
+      "mla": {
+        "name": "Kelly Regan",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Bedford South": {
+      "mla": {
+        "name": "Braedon Clark",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Cape Breton Centre-Whitney Pier": {
+      "mla": {
+        "name": "Kendra Coombes",
+        "party": "NDP",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Cape Breton East": {
+      "mla": {
+        "name": "Brian Comer",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Chester-St. Margaret's": {
+      "mla": {
+        "name": "Danielle Barkhouse",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Clare": {
+      "mla": {
+        "name": "Ronnie LeBlanc",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Clayton Park West": {
+      "mla": {
+        "name": "Rafah DiCostanzo",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Colchester North": {
+      "mla": {
+        "name": "Tom Taggart",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Colchester-Musquodoboit Valley": {
+      "mla": {
+        "name": "William Harrison",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Cole Harbour": {
+      "mla": {
+        "name": "Tony Ince",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Cole Harbour-Dartmouth": {
+      "mla": {
+        "name": "Lorelei Nicoll",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Cumberland North": {
+      "mla": {
+        "name": "Elizabeth Smith-McCrossin",
+        "party": "Independent",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Cumberland South": {
+      "mla": {
+        "name": "Tory Rushton",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Dartmouth East": {
+      "mla": {
+        "name": "Timothy Halman",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Dartmouth North": {
+      "mla": {
+        "name": "Susan Leblanc",
+        "party": "NDP",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Dartmouth South": {
+      "mla": {
+        "name": "Claudia Chender",
+        "party": "NDP",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Digby-Annapolis": {
+      "mla": {
+        "name": "Jill Balser",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Eastern Passage": {
+      "mla": {
+        "name": "Barbara Adams",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Eastern Shore": {
+      "mla": {
+        "name": "James Smith",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Fairview-Clayton Park": {
+      "mla": {
+        "name": "Patricia Arab",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Glace Bay-Dominion": {
+      "mla": {
+        "name": "John White",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Guysborough-Tracadie": {
+      "mla": {
+        "name": "Greg Morrow",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Halifax Armdale": {
+      "mla": {
+        "name": "Ali Duale",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Halifax Atlantic": {
+      "mla": {
+        "name": "Brendan Maguire",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Halifax Chebucto": {
+      "mla": {
+        "name": "Gary Burrill",
+        "party": "NDP",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Halifax Citadel-Sable Island": {
+      "mla": {
+        "name": "Lisa Lachance",
+        "party": "NDP",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Halifax Needham": {
+      "mla": {
+        "name": "Sue Hansen",
+        "party": "NDP",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Hammonds Plains-Lucasville": {
+      "mla": {
+        "name": "Benjamin Jessome",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Hants East": {
+      "mla": {
+        "name": "John MacDonald",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Hants West": {
+      "mla": {
+        "name": "Melissa Sheehy-Richard",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Inverness": {
+      "mla": {
+        "name": "Allan MacMaster",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Kings North": {
+      "mla": {
+        "name": "John Lohr",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Kings South": {
+      "mla": {
+        "name": "Richard Irving",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Kings West": {
+      "mla": {
+        "name": "Chris Palmer",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Lunenburg": {
+      "mla": {
+        "name": "Susan Corkum-Greek",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Lunenburg West": {
+      "mla": {
+        "name": "Rebecca Druhan",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Northside-Westmount": {
+      "mla": {
+        "name": "Fred Tilley",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Pictou Centre": {
+      "mla": {
+        "name": "Patrick Dunn",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Pictou East": {
+      "mla": {
+        "name": "Timothy Houston",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Pictou West": {
+      "mla": {
+        "name": "Marco MacLeod",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Preston": {
+      "mla": {
+        "name": "Twila Grosse",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Queens": {
+      "mla": {
+        "name": "Kimberly Masland",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Richmond": {
+      "mla": {
+        "name": "Trevor Boudreau",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Sackville-Cobequid": {
+      "mla": {
+        "name": "Stephen Craig",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Sackville-Uniacke": {
+      "mla": {
+        "name": "Bradley Johns",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Shelburne": {
+      "mla": {
+        "name": "Nolan Young",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Sydney-Membertou": {
+      "mla": {
+        "name": "Derek Mombourquette",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Timberlea-Prospect": {
+      "mla": {
+        "name": "Iain Rankin",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Truro-Bible Hill-Millbrook-Salmon River": {
+      "mla": {
+        "name": "David Ritcey",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Victoria-The Lakes": {
+      "mla": {
+        "name": "Keith Bain",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Waverley-Fall River-Beaver Bank": {
+      "mla": {
+        "name": "Brian Wong",
+        "party": "Progressive Conservative",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    },
+    "Yarmouth": {
+      "mla": {
+        "name": "Zachariah Churchill",
+        "party": "Liberal",
+        "email": "",
+        "phone": "",
+        "photo": null,
+        "profileUrl": "",
+        "website": ""
+      }
+    }
+  }
+}

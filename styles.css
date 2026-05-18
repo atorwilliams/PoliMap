@@ -283,6 +283,20 @@ body {
   gap: 20px;
 }
 
+.party-sidebar .member-card--premier {
+  outline: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.party-sidebar .premier-badge {
+  display: inline-block;
+  font-size: 0.68em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 3px;
+}
+
 .party-sidebar .member-card {
   background: rgba(255, 255, 255, 0.08);
   border-radius: 12px;

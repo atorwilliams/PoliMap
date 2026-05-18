@@ -1,0 +1,97 @@
+{
+  "electionDate": "2025-04-28",
+  "termEnd": "2029-04-28",
+  "parties": {
+    "Liberal": {
+      "color": "#D71920",
+      "abbr": "LIB"
+    },
+    "Conservative": {
+      "color": "#003DA5",
+      "abbr": "CPC"
+    },
+    "NDP": {
+      "color": "#F37021",
+      "abbr": "NDP"
+    }
+  },
+  "ridings": {
+    "Avalon": {
+      "mp": {
+        "name": "Paul Connors",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ConnorsPaul_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/paul-connors(122369)",
+        "email": "paul.connors@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Cape Spear": {
+      "mp": {
+        "name": "Tom Osborne",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/OsborneTom_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/tom-osborne(122375)",
+        "email": "tom.osborne@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Central Newfoundland": {
+      "mp": {
+        "name": "Clifford Small",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/SmallClifford_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/clifford-small(109867)",
+        "email": "clifford.small@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Labrador": {
+      "mp": {
+        "name": "Philip Earle",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/EarlePhilip_Lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/philip-earle(122380)",
+        "email": "philip.earle@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Long Range Mountains": {
+      "mp": {
+        "name": "Carol Anstey",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/AnsteyCarol_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/carol-anstey(109872)",
+        "email": "carol.anstey@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "St. John's East": {
+      "mp": {
+        "name": "Joanne Thompson",
+        "party": "Liberal",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/ThompsonJoanne_lib.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/joanne-thompson(109877)",
+        "email": "joanne.thompson@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Terra Nova—The Peninsulas": {
+      "mp": {
+        "name": "Jonathan Rowe",
+        "party": "Conservative",
+        "photo": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/45/RoweJonathan_CPC.jpg",
+        "profileUrl": "https://www.ourcommons.ca/Members/en/jonathan-rowe(122389)",
+        "email": "jonathan.rowe@parl.gc.ca",
+        "phone": "",
+        "website": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "electionDate": "2025-04-28",
+  "termEnd": "2029-04-28",
+  "parties": {
+    "Liberal": {
+      "color": "#D71920",
+      "abbr": "LIB"
+    },
+    "Conservative": {
+      "color": "#003DA5",
+      "abbr": "CPC"
+    },
+    "NDP": {
+      "color": "#F37021",
+      "abbr": "NDP"
+    },
+    "Green": {
+      "color": "#3D9B35",
+      "abbr": "GPC"
+    }
+  },
+  "ridings": {
+    "Cardigan": {
+      "mp": {
+        "name": "Lawrence MacAulay",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "#",
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Charlottetown": {
+      "mp": {
+        "name": "Sean Casey",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "#",
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Egmont": {
+      "mp": {
+        "name": "Bobby Morrissey",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "#",
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    },
+    "Malpeque": {
+      "mp": {
+        "name": "Heath MacDonald",
+        "party": "Liberal",
+        "photo": null,
+        "profileUrl": "#",
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    }
+  }
+}
