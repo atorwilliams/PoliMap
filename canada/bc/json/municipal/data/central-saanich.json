@@ -1,25 +1,41 @@
-{
-  "name": "Central Saanich",
-  "geoname": "Central Saanich",
-  "type": "DISTRICT",
-  "mayor": {
-    "name": "Ryan Windsor",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Acclaimed",
-    "email": "ryan.windsor@csaanich.ca"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.centralsaanich.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Central Saanich",
+    "geoname":  "Central Saanich",
+    "type":  "DISTRICT",
+    "mayor":  {
+                  "name":  "Ryan Windsor",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Acclaimed",
+                  "email":  "ryan.windsor@csaanich.ca"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.centralsaanich.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.centralsaanich.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

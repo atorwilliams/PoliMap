@@ -1,24 +1,40 @@
-{
-  "name": "Regional District of Bulkley-Nechako",
-  "geoname": "RDBN",
-  "type": "Regional District",
-  "mayor": {
-    "name": "",
-    "portrait": "",
-    "since": "",
-    "title": "Chair",
-    "committees": [],
-    "phone": "",
-    "email": ""
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Regional District of Bulkley-Nechako",
+    "geoname":  "RDBN",
+    "type":  "Regional District",
+    "mayor":  {
+                  "name":  "Mark Parker",
+                  "portrait":  "",
+                  "since":  "2022-11-01",
+                  "title":  "Chair",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  ""
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.rdbn.bc.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.rdbn.bc.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

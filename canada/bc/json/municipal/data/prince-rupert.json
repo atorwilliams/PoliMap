@@ -1,25 +1,41 @@
-{
-  "name": "Prince Rupert",
-  "geoname": "Prince Rupert",
-  "type": "CITY",
-  "mayor": {
-    "name": "Herb Pond",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.prince-rupert.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Prince Rupert",
+    "geoname":  "Prince Rupert",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Herb Pond",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.prince-rupert.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.prince-rupert.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

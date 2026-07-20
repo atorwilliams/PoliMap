@@ -1,0 +1,83 @@
+{
+  "province": "Alberta",
+  "seats": 6,
+  "senators": [
+    {
+      "name": "Scott Tannas",
+      "group": "Canadian Senators Group",
+      "appointed": "2013-03-25",
+      "email": "Scott.Tannas@sen.parl.gc.ca",
+      "phone": "613-943-2240",
+      "address": "144 East Block, Senate of Canada, Ottawa, ON K1A 0A4",
+      "website": "https://sencanada.ca/en/senators/tannas-scott/",
+      "social": {
+        "facebook": "https://www.facebook.com/ScottTannas.ca/"
+      }
+    },
+    {
+      "name": "Paula Simons",
+      "group": "Independent Senators Group",
+      "appointed": "2018-10-03",
+      "email": "Paula.Simons@sen.parl.gc.ca",
+      "phone": "613-943-8242",
+      "address": "East Block, Room 109, Senate of Canada, Ottawa, ON K1A 0A4",
+      "website": "https://senatorpaulasimons.ca/en/",
+      "social": {
+        "facebook": "https://www.facebook.com/SenatorPaulaSimons/",
+        "linkedin": "https://www.linkedin.com/in/paula-simons-b87145203/",
+        "bluesky": "https://bsky.app/profile/senatorpaulasimons.bsky.social",
+        "twitter": "https://twitter.com/paulatics"
+      }
+    },
+    {
+      "name": "Patti LaBoucane-Benson",
+      "group": "Non-affiliated",
+      "appointed": "2018-10-03",
+      "email": "Patti.LaBoucane-Benson@sen.parl.gc.ca",
+      "phone": "613-943-8282",
+      "address": "Senate of Canada, Ottawa, ON K1A 0A4",
+      "website": "https://senatorlaboucanebenson.sencanada.ca/en/",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/patti-laboucane-benson-15b1aa253/"
+      }
+    },
+    {
+      "name": "Karen Sorensen",
+      "group": "Independent Senators Group",
+      "appointed": "2021-07-29",
+      "email": "Karen.Sorensen@sen.parl.gc.ca",
+      "phone": "613-944-1115",
+      "address": "Senate of Canada, Ottawa, ON K1A 0A4",
+      "website": "https://sencanada.ca/en/senators/sorensen-karen/",
+      "social": {
+        "twitter": "https://twitter.com/Karen_Banff"
+      }
+    },
+    {
+      "name": "Daryl Fridhandler",
+      "group": "Progressive Senate Group",
+      "appointed": "2024-08-31",
+      "email": "Daryl.Fridhandler@sen.parl.gc.ca",
+      "phone": "613-943-3618",
+      "address": "Senate of Canada, Ottawa, ON K1A 0A4",
+      "website": "https://sencanada.ca/en/senators/fridhandler-daryl/",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/daryl-fridhandler-k-c-8a670424/"
+      }
+    },
+    {
+      "name": "Kristopher Wells",
+      "group": "Progressive Senate Group",
+      "appointed": "2024-08-31",
+      "email": "Kristopher.Wells@sen.parl.gc.ca",
+      "phone": "613-943-8384",
+      "address": "Senate of Canada, Ottawa, ON K1A 0A4",
+      "website": "https://sencanada.ca/en/senators/wells-kristopher/",
+      "social": {
+        "twitter": "https://twitter.com/KristopherWells",
+        "linkedin": "https://ca.linkedin.com/in/kristopherwells",
+        "instagram": "https://www.instagram.com/drkristopherwells/"
+      }
+    }
+  ]
+}

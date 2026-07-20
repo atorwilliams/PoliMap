@@ -11,6 +11,37 @@ window.currentSidebar = currentSidebar;
 
 let currentPopup = null;
 
+const isSmallScreen = () => window.matchMedia('(max-width: 768px)').matches;
+
+// Bottom-sheet variant of the riding preview for small screens. Returns a
+// wrapper mimicking the maplibre Popup contract the callers rely on:
+// remove() closes the sheet and fires onClose (like the Popup 'close' event).
+function showPreviewSheet(contentHtml, onClose) {
+  const sheet = document.createElement('div');
+  sheet.className = 'preview-sheet';
+  sheet.innerHTML = `<button class="preview-sheet-close" aria-label="Close">×</button>${contentHtml}`;
+  document.body.appendChild(sheet);
+  requestAnimationFrame(() => sheet.classList.add('open'));
+
+  let closed = false;
+  const wrapper = {
+    remove() {
+      if (closed) return;
+      closed = true;
+      sheet.classList.remove('open');
+      setTimeout(() => sheet.remove(), 300);
+      if (onClose) onClose();
+    }
+  };
+
+  sheet.querySelector('.preview-sheet-close').addEventListener('click', () => {
+    wrapper.remove();
+    if (currentPopup === wrapper) currentPopup = null;
+  });
+
+  return wrapper;
+}
+
 export function showRidingPreview(map, ridingName, lngLat, level, config, onClose = null) {
   if (currentPopup) {
     currentPopup.remove();
@@ -29,16 +60,21 @@ export function showRidingPreview(map, ridingName, lngLat, level, config, onClos
     .then(data => {
       const ridingData = data.ridings?.[ridingName];
       if (!ridingData) {
-        currentPopup = new maplibregl.Popup({
-          closeButton: true,
-          closeOnClick: false,
-          offset: 10,
-          className: 'preview-popup'
-        })
-          .setLngLat(lngLat)
-          .setHTML(`<h4>${ridingName}</h4><p>No ${level} data available</p>`)
-          .addTo(map);
-        if (onClose) currentPopup.on('close', onClose);
+        const noDataHtml = `<h4>${ridingName}</h4><p>No ${level} data available</p>`;
+        if (isSmallScreen()) {
+          currentPopup = showPreviewSheet(noDataHtml, onClose);
+        } else {
+          currentPopup = new maplibregl.Popup({
+            closeButton: true,
+            closeOnClick: false,
+            offset: 10,
+            className: 'preview-popup'
+          })
+            .setLngLat(lngLat)
+            .setHTML(noDataHtml)
+            .addTo(map);
+          if (onClose) currentPopup.on('close', onClose);
+        }
         return;
       }
 
@@ -64,17 +100,21 @@ export function showRidingPreview(map, ridingName, lngLat, level, config, onClos
         </div>
       `;
 
-      currentPopup = new maplibregl.Popup({
-        closeButton: true,
-        closeOnClick: false,
-        offset: 10,
-        className: 'preview-popup'
-      })
-        .setLngLat(lngLat)
-        .setHTML(html)
-        .addTo(map);
+      if (isSmallScreen()) {
+        currentPopup = showPreviewSheet(html, onClose);
+      } else {
+        currentPopup = new maplibregl.Popup({
+          closeButton: true,
+          closeOnClick: false,
+          offset: 10,
+          className: 'preview-popup'
+        })
+          .setLngLat(lngLat)
+          .setHTML(html)
+          .addTo(map);
 
-      if (onClose) currentPopup.on('close', onClose);
+        if (onClose) currentPopup.on('close', onClose);
+      }
 
       const attachButton = () => {
         const btn = document.getElementById('more-info-btn');

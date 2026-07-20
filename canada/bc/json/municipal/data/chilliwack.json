@@ -1,25 +1,41 @@
-{
-  "name": "Chilliwack",
-  "geoname": "Chilliwack",
-  "type": "CITY",
-  "mayor": {
-    "name": "Ken Popove",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.chilliwack.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Chilliwack",
+    "geoname":  "Chilliwack",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Ken Popove",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.chilliwack.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.chilliwack.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

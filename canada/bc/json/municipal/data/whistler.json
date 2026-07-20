@@ -1,24 +1,40 @@
-{
-  "name": "Whistler",
-  "geoname": "Whistler",
-  "type": "RESORT",
-  "mayor": {
-    "name": "Jack D. Crompton",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.whistler.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Whistler",
+    "geoname":  "Whistler",
+    "type":  "RESORT",
+    "mayor":  {
+                  "name":  "Jack D. Crompton",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.whistler.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.whistler.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

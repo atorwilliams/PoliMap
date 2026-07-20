@@ -1,24 +1,71 @@
-{
-  "name": "Sun Peaks",
-  "geoname": "Sun Peaks",
-  "type": "RESORT",
-  "mayor": {
-    "name": "",
-    "portrait": "",
-    "since": "",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": ""
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Sun Peaks",
+    "geoname":  "Sun Peaks",
+    "type":  "RESORT",
+    "mayor":  {
+                  "name":  "Alan Raine",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  ""
+              },
+    "council":  [
+                    {
+                        "name":  "Rob O\u0027Toole",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "Julie Kimmel",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "Lenard Hrycan",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "Kelly Dye",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    }
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.sunpeaksmunicipality.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.sunpeaksmunicipality.ca",
+                                   "retrieved":  "2026-06-08"
+                               },
+                     "council":  {
+                                     "url":  "https://www.sunpeaksmunicipality.ca",
+                                     "retrieved":  "2026-06-08"
+                                 }
+                 }
 }

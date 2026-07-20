@@ -1,24 +1,40 @@
-{
-  "name": "Regional District of Fraser-Fort George",
-  "geoname": "RDFFG",
-  "type": "Regional District",
-  "mayor": {
-    "name": "",
-    "portrait": "",
-    "since": "",
-    "title": "Chair",
-    "committees": [],
-    "phone": "",
-    "email": ""
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Regional District of Fraser-Fort George",
+    "geoname":  "RDFFG",
+    "type":  "Regional District",
+    "mayor":  {
+                  "name":  "Lara Beckett",
+                  "portrait":  "",
+                  "since":  "2022-11-01",
+                  "title":  "Chair",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  ""
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.rdffg.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.rdffg.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

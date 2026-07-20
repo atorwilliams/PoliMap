@@ -1,24 +1,71 @@
-{
-  "name": "Clinton",
-  "geoname": "Clinton",
-  "type": "VILLAGE",
-  "mayor": {
-    "name": "",
-    "portrait": "",
-    "since": "",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": ""
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Clinton",
+    "geoname":  "Clinton",
+    "type":  "VILLAGE",
+    "mayor":  {
+                  "name":  "Roland Stanke",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  ""
+              },
+    "council":  [
+                    {
+                        "name":  "Sandi Burrage",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "David Park",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "Darrel Schapansky",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "Nicholas Kosovic",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    }
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://village.clinton.bc.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://village.clinton.bc.ca",
+                                   "retrieved":  "2026-06-08"
+                               },
+                     "council":  {
+                                     "url":  "https://village.clinton.bc.ca",
+                                     "retrieved":  "2026-06-08"
+                                 }
+                 }
 }

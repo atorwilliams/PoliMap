@@ -1,25 +1,41 @@
-{
-  "name": "Langford",
-  "geoname": "Langford",
-  "type": "CITY",
-  "mayor": {
-    "name": "Scott Peter Goodmanson",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Langford",
+    "geoname":  "Langford",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Scott Peter Goodmanson",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://elections.bc.ca/local-elections/2022-local-elections/",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

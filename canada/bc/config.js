@@ -41,7 +41,7 @@ export default {
     { file: 'DISTRICT', type: 'DISTRICT' },
     { file: 'RESORT',   type: 'RESORT'   },
   ],
-  municipalGeonameProperty: 'GEONAME',
+  municipalGeonameProperty: 'ADMIN_AREA_ABBREVIATION',
   municipalTypes: ['CITY', 'TOWN', 'VILLAGE', 'DISTRICT', 'RESORT', 'REGIONAL'],
 
   hasRCMP: false,

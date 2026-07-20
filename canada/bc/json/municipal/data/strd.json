@@ -1,24 +1,40 @@
-{
-  "name": "Strathcona Regional District",
-  "geoname": "STRD",
-  "type": "Regional District",
-  "mayor": {
-    "name": "",
-    "portrait": "",
-    "since": "",
-    "title": "Chair",
-    "committees": [],
-    "phone": "",
-    "email": ""
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Strathcona Regional District",
+    "geoname":  "STRD",
+    "type":  "Regional District",
+    "mayor":  {
+                  "name":  "Mark Baker",
+                  "portrait":  "",
+                  "since":  "2022-11-01",
+                  "title":  "Chair",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  ""
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.strathconard.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.strathconard.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

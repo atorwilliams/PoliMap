@@ -1,24 +1,40 @@
-{
-  "name": "Esquimalt",
-  "geoname": "Esquimalt",
-  "type": "TOWN",
-  "mayor": {
-    "name": "Barb Desjardins",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.esquimalt.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Esquimalt",
+    "geoname":  "Esquimalt",
+    "type":  "TOWN",
+    "mayor":  {
+                  "name":  "Barb Desjardins",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.esquimalt.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.esquimalt.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

@@ -10,6 +10,7 @@ import { initLegend, updateLegend } from './legend.js';
 import { initSearch } from './search.js';
 import { initMunicipal, updateMunicipalVisibility, MUNICIPAL_COLORS, HAMLET_COLOR, showMunicipalTypeSidebar } from './municipalLayer.js';
 import { initRCMP, updateRCMPVisibility, RCMP_DISTRICT_COLORS } from './rcmpLayer.js';
+import { initSchool, updateSchoolVisibility, SCHOOL_TYPE_COLORS } from './schoolLayer.js';
 
 const HAMLET_LAYERS = ['municipal-hamlet', 'municipal-hamlet-label'];
 let showHamlets = false;
@@ -62,6 +63,7 @@ export async function initMap(config) {
 
     if (config.hasMunicipal) populateMunicipalLegend(map, config);
     if (config.hasRCMP) populateRCMPLegend();
+    if (config.hasSchool) populateSchoolLegend();
 
     setTimeout(() => {
       const refreshLegend = initLegend(map, () => activeLayer, config);
@@ -189,6 +191,20 @@ function buildLayers(config) {
     };
   }
 
+  if (config.hasSchool) {
+    const schoolLayerIds = ['school-fill', 'school-outline', 'school-highlight', 'school-label'];
+    if (config.schoolWardFiles?.length) {
+      schoolLayerIds.push('school-wards-fill', 'school-wards-outline', 'school-wards-highlight', 'school-wards-label');
+    }
+    layers.school = {
+      name: 'School Divisions',
+      init: initSchool,
+      updateVisibility: updateSchoolVisibility,
+      visible: false,
+      layers: schoolLayerIds,
+    };
+  }
+
   return layers;
 }
 
@@ -223,18 +239,22 @@ function toggleLayerVisibility(map, layers, layerKey, visible) {
 }
 
 function updateLegendDisplay(config, layerKey) {
-  const regularLegend  = document.getElementById('legend');
+  const regularLegend   = document.getElementById('legend');
   const municipalLegend = document.getElementById('municipal-legend');
-  const rcmpLegend     = document.getElementById('rcmp-legend');
+  const rcmpLegend      = document.getElementById('rcmp-legend');
+  const schoolLegend    = document.getElementById('school-legend');
 
-  if (regularLegend)  regularLegend.style.display  = 'none';
-  if (municipalLegend) municipalLegend.style.display = 'none';
-  if (rcmpLegend)     rcmpLegend.style.display     = 'none';
+  if (regularLegend)   regularLegend.style.display   = 'none';
+  if (municipalLegend) municipalLegend.style.display  = 'none';
+  if (rcmpLegend)      rcmpLegend.style.display       = 'none';
+  if (schoolLegend)    schoolLegend.style.display     = 'none';
 
   if (layerKey === 'municipal' && municipalLegend) {
     municipalLegend.style.display = 'block';
   } else if (layerKey === 'rcmp' && rcmpLegend) {
     rcmpLegend.style.display = 'block';
+  } else if (layerKey === 'school' && schoolLegend) {
+    schoolLegend.style.display = 'block';
   } else if (regularLegend) {
     regularLegend.style.display = 'block';
   }
@@ -244,6 +264,17 @@ function populateRCMPLegend() {
   const container = document.getElementById('rcmp-legend-items');
   if (!container) return;
   container.innerHTML = Object.entries(RCMP_DISTRICT_COLORS).map(([, { label, color }]) => `
+    <div class="legend-item">
+      <span class="legend-swatch" style="background:${color};"></span>
+      <span>${label}</span>
+    </div>`
+  ).join('');
+}
+
+function populateSchoolLegend() {
+  const container = document.getElementById('school-legend-items');
+  if (!container) return;
+  container.innerHTML = Object.entries(SCHOOL_TYPE_COLORS).map(([, { label, color }]) => `
     <div class="legend-item">
       <span class="legend-swatch" style="background:${color};"></span>
       <span>${label}</span>

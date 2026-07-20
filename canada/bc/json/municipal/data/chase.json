@@ -1,24 +1,71 @@
-{
-  "name": "Chase",
-  "geoname": "Chase",
-  "type": "VILLAGE",
-  "mayor": {
-    "name": "",
-    "portrait": "",
-    "since": "",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": ""
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.chase.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Chase",
+    "geoname":  "Chase",
+    "type":  "VILLAGE",
+    "mayor":  {
+                  "name":  "David Lepsoe",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  ""
+              },
+    "council":  [
+                    {
+                        "name":  "Jane Herman",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "Colin Connett",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "Fred Torbohm",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "Ron Harder",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    }
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.chase.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.chase.ca",
+                                   "retrieved":  "2026-06-08"
+                               },
+                     "council":  {
+                                     "url":  "https://www.chase.ca",
+                                     "retrieved":  "2026-06-08"
+                                 }
+                 }
 }

@@ -1,24 +1,71 @@
-{
-  "name": "Cache Creek",
-  "geoname": "Cache Creek",
-  "type": "VILLAGE",
-  "mayor": {
-    "name": "",
-    "portrait": "",
-    "since": "",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "mayor@cachecreek.ca"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.cachecreek.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Cache Creek",
+    "geoname":  "Cache Creek",
+    "type":  "VILLAGE",
+    "mayor":  {
+                  "name":  "John Ranta",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "mayor@cachecreek.ca"
+              },
+    "council":  [
+                    {
+                        "name":  "Kelly Debert",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "Susan Peters",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "David Dubois",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "Carmen Ranta",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    }
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.cachecreek.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.cachecreek.ca",
+                                   "retrieved":  "2026-06-08"
+                               },
+                     "council":  {
+                                     "url":  "https://www.cachecreek.ca",
+                                     "retrieved":  "2026-06-08"
+                                 }
+                 }
 }

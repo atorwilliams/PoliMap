@@ -1,24 +1,40 @@
-{
-  "name": "Regional District of Alberni-Clayoquot",
-  "geoname": "RDAC",
-  "type": "Regional District",
-  "mayor": {
-    "name": "",
-    "portrait": "",
-    "since": "",
-    "title": "Chair",
-    "committees": [],
-    "phone": "",
-    "email": ""
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Regional District of Alberni-Clayoquot",
+    "geoname":  "RDAC",
+    "type":  "Regional District",
+    "mayor":  {
+                  "name":  "John Jack",
+                  "portrait":  "",
+                  "since":  "2022-11-01",
+                  "title":  "Chair",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  ""
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.acrd.bc.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.acrd.bc.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

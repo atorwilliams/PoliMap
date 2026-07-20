@@ -1,24 +1,40 @@
-{
-  "name": "North Coast Regional District",
-  "geoname": "NCRD",
-  "type": "Regional District",
-  "mayor": {
-    "name": "",
-    "portrait": "",
-    "since": "",
-    "title": "Chair",
-    "committees": [],
-    "phone": "",
-    "email": ""
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "North Coast Regional District",
+    "geoname":  "NCRD",
+    "type":  "Regional District",
+    "mayor":  {
+                  "name":  "Barry Pages",
+                  "portrait":  "",
+                  "since":  "2022-11-01",
+                  "title":  "Chair",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  ""
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.ncrdbc.com",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.ncrdbc.com",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

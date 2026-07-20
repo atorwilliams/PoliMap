@@ -1,24 +1,71 @@
-{
-  "name": "Keremeos",
-  "geoname": "Keremeos",
-  "type": "VILLAGE",
-  "mayor": {
-    "name": "",
-    "portrait": "",
-    "since": "",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "mayorandcouncil@keremeos.ca"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.keremeos.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Keremeos",
+    "geoname":  "Keremeos",
+    "type":  "VILLAGE",
+    "mayor":  {
+                  "name":  "Jason Wiebe",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "mayorandcouncil@keremeos.ca"
+              },
+    "council":  [
+                    {
+                        "name":  "Jeremy Evans",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "Arden Holley",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "Garry Elliot",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    },
+                    {
+                        "name":  "Tracy Henderson",
+                        "role":  "Councillor",
+                        "ward":  "",
+                        "email":  "",
+                        "phone":  ""
+                    }
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.keremeos.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.keremeos.ca",
+                                   "retrieved":  "2026-06-08"
+                               },
+                     "council":  {
+                                     "url":  "https://www.keremeos.ca",
+                                     "retrieved":  "2026-06-08"
+                                 }
+                 }
 }

@@ -1,0 +1,21 @@
+﻿{
+  "name": "East Prairie Metis Settlement",
+  "code": "0407",
+  "region": "Peace Country",
+  "website": "https://www.eastprairiemetissettlement.com",
+  "phone": "780-523-2594",
+  "email": "",
+  "address": "Box 1289, High Prairie, AB T0G 1E0",
+  "population": null,
+  "electionDate": "",
+  "nextElection": "",
+  "council": {
+    "chair": { "name": "Raymond (Ray) Supernault", "email": "ray@epms.ca", "phone": "" },
+    "members": [
+      { "name": "Karen L'Hirondelle",  "role": "Vice Chair",   "email": "karen@epms.ca" },
+      { "name": "Cory Bellerose",      "role": "Councillor" },
+      { "name": "Jamie Emard",         "role": "Councillor" },
+      { "name": "Bradley Desjarlais", "role": "Councillor" }
+    ]
+  }
+}

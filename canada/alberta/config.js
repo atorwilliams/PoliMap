@@ -43,6 +43,15 @@ export default {
   rcmpBoundaryFile: './json/rcmp-boundaries.geojson',
   rcmpDetachmentsFile: './json/rcmp-detachments.json',
 
+  hasSchool: true,
+  schoolPublicFile: './json/school-public.geojson',
+  schoolSeparateFile: './json/school-separate.geojson',
+  schoolFrancophoneFile: './json/school-francophone.geojson',
+  schoolWardFiles: [
+    { file: './json/school-wards-epsb.geojson',              boardName: 'Edmonton Public Schools',  boardType: 'public'   },
+    { file: './json/school-wards-edmonton-catholic.geojson', boardName: 'Edmonton Catholic Schools', boardType: 'separate' },
+  ],
+
   // Geocoding (Nominatim)
   geocode: {
     countryCode: 'ca',

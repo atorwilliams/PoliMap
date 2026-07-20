@@ -16,9 +16,12 @@
   "electionDate": "",
   "nextElection": "",
   "website": "",
-  "notes": "",
+  "notes": "The Stikine Region is an unincorporated area of British Columbia directly administered by the provincial government. There is no regional district board and no elected local officials.",
   "schoolTrustees": {
     "public": [],
     "catholic": []
+  },
+  "_sources": {
+    "notes": { "url": "https://www2.gov.bc.ca/gov/content/governments/local-governments/facts-framework/systems-of-local-government/regional-districts", "retrieved": "2026-06-08" }
   }
 }

@@ -1,25 +1,41 @@
-{
-  "name": "Creston",
-  "geoname": "Creston",
-  "type": "TOWN",
-  "mayor": {
-    "name": "Arnold F. DeBoon",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Independent",
-    "email": "arnold.deboon@creston.ca"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.creston.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Creston",
+    "geoname":  "Creston",
+    "type":  "TOWN",
+    "mayor":  {
+                  "name":  "Arnold F. DeBoon",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Independent",
+                  "email":  "arnold.deboon@creston.ca"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.creston.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.creston.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

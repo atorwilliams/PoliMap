@@ -1,25 +1,41 @@
-{
-  "name": "Parksville",
-  "geoname": "Parksville",
-  "type": "CITY",
-  "mayor": {
-    "name": "Doug O'Brien",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "aweeks@parksville.ca",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.parksville.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Parksville",
+    "geoname":  "Parksville",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Doug O\u0027Brien",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "aweeks@parksville.ca",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.parksville.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.parksville.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

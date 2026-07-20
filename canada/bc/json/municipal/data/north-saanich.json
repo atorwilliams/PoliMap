@@ -1,25 +1,41 @@
-{
-  "name": "North Saanich",
-  "geoname": "North Saanich",
-  "type": "DISTRICT",
-  "mayor": {
-    "name": "Peter Jones",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Independent",
-    "email": "allmayorandcouncil@northsaanich.ca"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.northsaanich.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "North Saanich",
+    "geoname":  "North Saanich",
+    "type":  "DISTRICT",
+    "mayor":  {
+                  "name":  "Peter Jones",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Independent",
+                  "email":  "allmayorandcouncil@northsaanich.ca"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.northsaanich.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.northsaanich.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

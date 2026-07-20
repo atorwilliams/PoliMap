@@ -1,23 +1,39 @@
-{
-  "name": "Tumbler Ridge",
-  "geoname": "Tumbler Ridge",
-  "type": "DISTRICT",
-  "mayor": {
-    "name": "",
-    "portrait": "",
-    "since": "",
-    "title": "Mayor",
-    "committees": [],
-    "phone": ""
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.tumblerridge.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Tumbler Ridge",
+    "geoname":  "Tumbler Ridge",
+    "type":  "DISTRICT",
+    "mayor":  {
+                  "name":  "Darryl Krakowka",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  ""
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.tumblerridge.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.tumblerridge.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

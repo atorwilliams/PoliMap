@@ -1,25 +1,41 @@
-{
-  "name": "Osoyoos",
-  "geoname": "Osoyoos",
-  "type": "TOWN",
-  "mayor": {
-    "name": "Sue H. McKortoff",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.osoyoos.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Osoyoos",
+    "geoname":  "Osoyoos",
+    "type":  "TOWN",
+    "mayor":  {
+                  "name":  "Sue H. McKortoff",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.osoyoos.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.osoyoos.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

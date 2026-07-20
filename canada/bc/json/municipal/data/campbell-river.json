@@ -1,25 +1,41 @@
-{
-  "name": "Campbell River",
-  "geoname": "Campbell River",
-  "type": "CITY",
-  "mayor": {
-    "name": "Kermit Dahl",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Independent",
-    "email": "mayor.dahl@campbellriver.ca"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.campbellriver.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Campbell River",
+    "geoname":  "Campbell River",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Kermit Dahl",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Independent",
+                  "email":  "mayor.dahl@campbellriver.ca"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.campbellriver.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.campbellriver.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

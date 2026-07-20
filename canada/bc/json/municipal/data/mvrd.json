@@ -1,24 +1,40 @@
-{
-  "name": "Metro Vancouver Regional District",
-  "geoname": "MVRD",
-  "type": "Regional District",
-  "mayor": {
-    "name": "",
-    "portrait": "",
-    "since": "",
-    "title": "Chair",
-    "committees": [],
-    "phone": "",
-    "email": ""
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Metro Vancouver Regional District",
+    "geoname":  "MVRD",
+    "type":  "Regional District",
+    "mayor":  {
+                  "name":  "George Harvie",
+                  "portrait":  "",
+                  "since":  "2022-11-25",
+                  "title":  "Chair",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  ""
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://metrovancouver.org",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://metrovancouver.org",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

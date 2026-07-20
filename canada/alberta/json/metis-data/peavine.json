@@ -1,0 +1,21 @@
+﻿{
+  "name": "Peavine Metis Settlement",
+  "code": "0413",
+  "region": "Peace Country",
+  "website": "https://peavinemetissettlement.com",
+  "phone": "780-523-2557",
+  "email": "",
+  "address": "Bag #4, High Prairie, AB T0G 1E0",
+  "population": 993,
+  "electionDate": "",
+  "nextElection": "",
+  "council": {
+    "chair": { "name": "Claude Cunningham Jr.", "email": "", "phone": "" },
+    "members": [
+      { "name": "Rod Carifelle",    "role": "Vice Chair" },
+      { "name": "Cory Carifelle",   "role": "Councillor" },
+      { "name": "Dennis Cunningham","role": "Councillor" },
+      { "name": "Greg Gauchier",    "role": "Councillor" }
+    ]
+  }
+}

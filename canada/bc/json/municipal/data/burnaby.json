@@ -1,26 +1,42 @@
-{
-  "name": "Burnaby",
-  "geoname": "Burnaby",
-  "type": "CITY",
-  "mayor": {
-    "name": "Mike Hurley",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "mayor@burnaby.ca",
-    "party": "Independent",
-    "url": "https://www.burnaby.ca/our-city/mayor-and-council/mayor-mike-hurley"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Burnaby",
+    "geoname":  "Burnaby",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Mike Hurley",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "mayor@burnaby.ca",
+                  "party":  "Independent",
+                  "url":  "https://www.burnaby.ca/our-city/mayor-and-council/mayor-mike-hurley"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://elections.bc.ca/local-elections/2022-local-elections/",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

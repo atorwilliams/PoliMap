@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>British Columbia – PoliMap</title>
   <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css">
@@ -45,6 +45,7 @@
           </div>
         </div>
 
+        <button class="nav-btn" id="search-nav-btn">Find My Reps</button>
         <a class="nav-btn" href="/contribute.html">Contribute</a>
         <a class="nav-btn" href="/donate.html">Donate</a>
         <a class="nav-btn" href="https://polichan.org" target="_blank">Discussion</a>
@@ -57,7 +58,7 @@
   <!-- Bottom-left control stack -->
   <div id="map-controls-stack">
 
-    <!-- Legend -->
+    <!-- Legend (party or municipal, swapped by JS) -->
     <div id="legend" class="map-control legend-control">
       <div class="control-header">Legend</div>
       <div id="legend-parties"></div>
@@ -65,10 +66,6 @@
     <div id="municipal-legend" class="map-control legend-control" style="display:none;">
       <div class="control-header">Municipal</div>
       <div id="municipal-legend-items"></div>
-    </div>
-    <div id="rcmp-legend" class="map-control legend-control" style="display:none;">
-      <div class="control-header">RCMP E Division</div>
-      <div id="rcmp-legend-items"></div>
     </div>
 
     <!-- Layers -->
@@ -79,6 +76,20 @@
       <button class="layer-btn" data-layer="municipal">Municipal</button>
     </div>
 
+  </div>
+
+  <!-- Search modal -->
+  <div id="search-modal" class="search-modal-overlay">
+    <div class="search-modal-panel">
+      <button class="search-modal-close" id="search-modal-close">×</button>
+      <h2 class="search-modal-title">Find Your Representatives</h2>
+      <div class="search-box">
+        <input id="search-input" type="text" placeholder="Address or postal code..." autocomplete="off" spellcheck="false" />
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="search-error" class="search-error"></div>
+      <div id="search-results"></div>
+    </div>
   </div>
 
   <div id="wip-notice">
@@ -107,5 +118,6 @@
     });
     document.addEventListener('click', () => wrap.classList.remove('open'));
   </script>
+  <script src="/shared/nav.js" defer></script>
 </body>
 </html>

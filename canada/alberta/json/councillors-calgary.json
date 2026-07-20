@@ -1,0 +1,31 @@
+{
+  "city": "Calgary",
+  "electionDate": "2025-10-20",
+  "nextElection": "2029-10-00",
+  "address": "Office of the Councillors (MC 8001), PO Box 2100 Stn M, Calgary AB T2P 2M5",
+  "phone": "403-268-2430",
+  "mayor": {
+    "name": "Jeromy Farkas",
+    "party": "Independent",
+    "email": "",
+    "phone": "403-268-2430",
+    "website": "https://www.calgary.ca/council/mayor/mayordefault.html",
+    "address": "Office of the Mayor, The City of Calgary, PO Box 2100 Stn M, Calgary AB T2P 2M5"
+  },
+  "wards": {
+    "1":  { "councillor": "Kim Tyers",          "party": "Communities First", "email": "ward1@calgary.ca",  "phone": "403-268-2430", "website": "https://www.calgary.ca/council/ward-1/warddefault.html" },
+    "2":  { "councillor": "Jennifer Wyness",     "party": "Independent",       "email": "ward2@calgary.ca",  "phone": "403-268-2430", "website": "https://www.calgary.ca/council/ward-2/warddefault.html" },
+    "3":  { "councillor": "Andrew Yule",         "party": "Independent",       "email": "ward3@calgary.ca",  "phone": "403-268-2430", "website": "https://www.andrewyule.ca/" },
+    "4":  { "councillor": "DJ Kelly",            "party": "The Calgary Party", "email": "",                  "phone": "403-268-2430", "website": "https://djkelly.ca/" },
+    "5":  { "councillor": "Raj Dhaliwal",        "party": "Independent",       "email": "ward5@calgary.ca",  "phone": "403-268-2430", "website": "https://rajyyc.ca/" },
+    "6":  { "councillor": "John Pantazopoulos",  "party": "Independent",       "email": "",                  "phone": "403-268-2430", "website": "https://www.calgary.ca/council/ward-6/warddefault.html" },
+    "7":  { "councillor": "Myke Atkinson",       "party": "Independent",       "email": "",                  "phone": "403-268-2430", "website": "https://www.calgary.ca/council/ward-7/warddefault.html" },
+    "8":  { "councillor": "Nathaniel Schmidt",   "party": "Independent",       "email": "ward8@calgary.ca",  "phone": "403-268-2430", "website": "https://www.calgary.ca/council/ward-8/warddefault.html" },
+    "9":  { "councillor": "Harrison M. Clark",   "party": "Independent",       "email": "",                  "phone": "403-268-2430", "website": "https://www.calgary.ca/council/ward-9/warddefault.html" },
+    "10": { "councillor": "Andre Chabot",        "party": "Communities First", "email": "ward10@calgary.ca", "phone": "403-268-2430", "website": "https://www.calgary.ca/council/ward-10/warddefault.html" },
+    "11": { "councillor": "Rob Ward",            "party": "Communities First", "email": "",                  "phone": "403-268-2430", "website": "https://www.calgary.ca/council/ward-11/warddefault.html" },
+    "12": { "councillor": "Mike Jamieson",       "party": "A Better Calgary",  "email": "ward12@calgary.ca", "phone": "403-268-2430", "website": "https://www.calgary.ca/council/ward-12/warddefault.html" },
+    "13": { "councillor": "Dan McLean",          "party": "Communities First", "email": "ward13@calgary.ca", "phone": "403-268-2290", "website": "https://www.calgary.ca/council/ward-13/warddefault.html" },
+    "14": { "councillor": "Landon Johnston",     "party": "Independent",       "email": "",                  "phone": "403-268-2430", "website": "https://www.calgary.ca/council/ward-14/warddefault.html" }
+  }
+}

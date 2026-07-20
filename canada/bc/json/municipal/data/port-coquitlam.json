@@ -1,25 +1,41 @@
-{
-  "name": "Port Coquitlam",
-  "geoname": "Port Coquitlam",
-  "type": "CITY",
-  "mayor": {
-    "name": "Brad West",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "mayorea@portcoquitlam.ca",
-    "party": "Acclaimed"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.portcoquitlam.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Port Coquitlam",
+    "geoname":  "Port Coquitlam",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Brad West",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "mayorea@portcoquitlam.ca",
+                  "party":  "Acclaimed"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.portcoquitlam.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.portcoquitlam.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

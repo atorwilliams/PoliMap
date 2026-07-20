@@ -1,26 +1,42 @@
-{
-  "name": "Abbotsford",
-  "geoname": "Abbotsford",
-  "type": "CITY",
-  "mayor": {
-    "name": "Ross Siemens",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "mayorsiemens@abbotsford.ca",
-    "party": "Independent",
-    "url": "https://www.abbotsford.ca/city-hall/contact-us"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Abbotsford",
+    "geoname":  "Abbotsford",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Ross Siemens",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "mayorsiemens@abbotsford.ca",
+                  "party":  "Independent",
+                  "url":  "https://www.abbotsford.ca/city-hall/contact-us"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://elections.bc.ca/local-elections/2022-local-elections/",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

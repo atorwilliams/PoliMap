@@ -1,24 +1,40 @@
-{
-  "name": "Armstrong",
-  "geoname": "Armstrong",
-  "type": "CITY",
-  "mayor": {
-    "name": "Joe Cramer",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Acclaimed"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.armstrong.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Armstrong",
+    "geoname":  "Armstrong",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Joe Cramer",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Acclaimed"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.armstrong.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.armstrong.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

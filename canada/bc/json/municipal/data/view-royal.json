@@ -1,25 +1,41 @@
-{
-  "name": "View Royal",
-  "geoname": "View Royal",
-  "type": "TOWN",
-  "mayor": {
-    "name": "Sid Tobias",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "mayorandcouncil@viewroyal.ca",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.viewroyal.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "View Royal",
+    "geoname":  "View Royal",
+    "type":  "TOWN",
+    "mayor":  {
+                  "name":  "Sid Tobias",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "mayorandcouncil@viewroyal.ca",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.viewroyal.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.viewroyal.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

@@ -1,25 +1,41 @@
-{
-  "name": "Coldstream",
-  "geoname": "Coldstream",
-  "type": "DISTRICT",
-  "mayor": {
-    "name": "Ruth Hoyte",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "rhoyte@coldstream.ca",
-    "party": "Acclaimed"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.coldstream.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Coldstream",
+    "geoname":  "Coldstream",
+    "type":  "DISTRICT",
+    "mayor":  {
+                  "name":  "Ruth Hoyte",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "rhoyte@coldstream.ca",
+                  "party":  "Acclaimed"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.coldstream.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.coldstream.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

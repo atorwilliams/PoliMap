@@ -1,24 +1,40 @@
-{
-  "name": "Kimberley",
-  "geoname": "Kimberley",
-  "type": "CITY",
-  "mayor": {
-    "name": "Don McCormick",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Acclaimed"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.kimberley.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Kimberley",
+    "geoname":  "Kimberley",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Don McCormick",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Acclaimed"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.kimberley.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.kimberley.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

@@ -1,25 +1,41 @@
-{
-  "name": "Summerland",
-  "geoname": "Summerland",
-  "type": "DISTRICT",
-  "mayor": {
-    "name": "Doug Holmes",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "dholmes@summerland.ca",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.summerland.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Summerland",
+    "geoname":  "Summerland",
+    "type":  "DISTRICT",
+    "mayor":  {
+                  "name":  "Doug Holmes",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "dholmes@summerland.ca",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.summerland.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.summerland.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

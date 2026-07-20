@@ -1,0 +1,21 @@
+﻿{
+  "name": "Buffalo Lake Metis Settlement",
+  "code": "0406",
+  "region": "Central Alberta",
+  "website": "https://buffalolakems.ca",
+  "phone": "780-689-2170",
+  "email": "",
+  "address": "Box 16, Caslan, AB T0A 0R0",
+  "population": 1236,
+  "electionDate": "",
+  "nextElection": "",
+  "council": {
+    "chair": { "name": "Harold Blyan", "email": "", "phone": "" },
+    "members": [
+      { "name": "Archie Handel",     "role": "Vice Chair" },
+      { "name": "Dennis Reid",       "role": "Councillor" },
+      { "name": "Malcolm Auger",     "role": "Councillor" },
+      { "name": "Darren Patenaude", "role": "Councillor" }
+    ]
+  }
+}

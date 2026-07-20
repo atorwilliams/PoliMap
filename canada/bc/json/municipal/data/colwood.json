@@ -1,25 +1,41 @@
-{
-  "name": "Colwood",
-  "geoname": "Colwood",
-  "type": "CITY",
-  "mayor": {
-    "name": "Doug Kobayashi",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "dkobayashi@colwood.ca",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.colwood.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Colwood",
+    "geoname":  "Colwood",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Doug Kobayashi",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "dkobayashi@colwood.ca",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.colwood.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.colwood.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

@@ -1,0 +1,29 @@
+{
+  "city": "Edmonton",
+  "electionDate": "2021-10-18",
+  "nextElection": "2025-10-20",
+  "address": "2nd Floor, City Hall, 1 Sir Winston Churchill Square, Edmonton, AB T5J 2R7",
+  "phone": "780-496-8110",
+  "mayor": {
+    "name": "Andrew Knack",
+    "party": "",
+    "email": "",
+    "phone": "780-496-8100",
+    "website": "https://www.edmonton.ca/city_government/city_organization/the-mayor",
+    "address": "2nd Floor, City Hall, 1 Sir Winston Churchill Square, Edmonton, AB T5J 2R7"
+  },
+  "wards": {
+    "Anirniq":               { "councillor": "Erin Rutherford",  "email": "erin.rutherford@edmonton.ca",  "phone": "780-496-8136", "website": "https://www.edmonton.ca/city_government/city_organization/ward-anirniq" },
+    "Dene":                  { "councillor": "Aaron Paquette",   "email": "aaron.paquette@edmonton.ca",   "phone": "780-496-8138", "website": "https://www.edmonton.ca/city_government/city_organization/ward-dene" },
+    "Ipiihkoohkanipiaohtsi": { "councillor": "Jon Morgan",       "email": "jon.morgan@edmonton.ca",       "phone": "780-496-8132", "website": "https://www.edmonton.ca/city_government/city_organization/ward-ipiihkoohkanipiaohtsi" },
+    "Karhiio":               { "councillor": "Keren Tang",       "email": "keren.tang@edmonton.ca",       "phone": "780-496-8142", "website": "https://www.edmonton.ca/city_government/city_organization/ward-karhiio" },
+    "Métis":                 { "councillor": "Ashley Salvador",  "email": "ashley.salvador@edmonton.ca",  "phone": "780-496-8140", "website": "https://www.edmonton.ca/city_government/city_organization/ward-metis" },
+    "Nakota Isga":           { "councillor": "Reed Clarke",      "email": "reed.clarke@edmonton.ca",      "phone": "780-496-8122", "website": "https://www.edmonton.ca/city_government/city_organization/ward-nakota-isga" },
+    "O-day'min":             { "councillor": "Anne Stevenson",   "email": "anne.stevenson@edmonton.ca",   "phone": "780-496-8333", "website": "https://www.edmonton.ca/city_government/city_organization/ward-o-daymin" },
+    "Sspomitapi":            { "councillor": "Jo-Anne Wright",   "email": "jo-anne.wright@edmonton.ca",   "phone": "780-496-8148", "website": "https://www.edmonton.ca/city_government/city_organization/ward-sspomitapi" },
+    "papastew":              { "councillor": "Michael Janz",     "email": "michael.janz@edmonton.ca",     "phone": "780-496-8146", "website": "https://www.edmonton.ca/city_government/city_organization/ward-papastew" },
+    "pihêsiwin":             { "councillor": "Mike Elliott",     "email": "mike.elliott@edmonton.ca",     "phone": "780-496-8130", "website": "https://www.edmonton.ca/city_government/city_organization/ward-pihesiwin" },
+    "sipiwiyiniwak":         { "councillor": "Thu Parmar",       "email": "thu.parmar@edmonton.ca",       "phone": "780-496-8120", "website": "https://www.edmonton.ca/city_government/city_organization/ward-sipiwiyiniwak" },
+    "tastawiyiniwak":        { "councillor": "Karen Principe",   "email": "karen.principe@edmonton.ca",   "phone": "780-496-8128", "website": "https://www.edmonton.ca/city_government/city_organization/ward-tastawiyiniwak" }
+  }
+}

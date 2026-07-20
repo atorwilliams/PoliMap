@@ -1,25 +1,41 @@
-{
-  "name": "Delta",
-  "geoname": "Delta",
-  "type": "CITY",
-  "mayor": {
-    "name": "George Harvie",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "mayorharvie@delta.ca",
-    "party": "Achieving for Delta"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.delta.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Delta",
+    "geoname":  "Delta",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "George Harvie",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "mayorharvie@delta.ca",
+                  "party":  "Achieving for Delta"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.delta.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.delta.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

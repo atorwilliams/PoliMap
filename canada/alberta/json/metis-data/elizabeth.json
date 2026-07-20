@@ -1,0 +1,21 @@
+﻿{
+  "name": "Elizabeth Metis Settlement",
+  "code": "0408",
+  "region": "Northeast Alberta",
+  "website": "https://elizabethms.ca",
+  "phone": "780-594-5026",
+  "email": "",
+  "address": "PO Box 420, Cold Lake, AB T9M 1P1",
+  "population": 644,
+  "electionDate": "",
+  "nextElection": "",
+  "council": {
+    "chair": { "name": "Leah Quinn", "email": "", "phone": "" },
+    "members": [
+      { "name": "Fred Desjarlais",      "role": "Vice Chair" },
+      { "name": "Sharon Cardinal",      "role": "Treasurer" },
+      { "name": "James Cardinal",       "role": "Secretary" },
+      { "name": "Deloris Courtepatte", "role": "Councillor" }
+    ]
+  }
+}

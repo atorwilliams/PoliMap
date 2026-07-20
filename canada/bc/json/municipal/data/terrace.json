@@ -1,24 +1,40 @@
-{
-  "name": "Terrace",
-  "geoname": "Terrace",
-  "type": "CITY",
-  "mayor": {
-    "name": "Sean Bujtas",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Acclaimed"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.terrace.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Terrace",
+    "geoname":  "Terrace",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Sean Bujtas",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Acclaimed"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.terrace.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.terrace.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

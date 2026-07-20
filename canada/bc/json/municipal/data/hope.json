@@ -1,25 +1,41 @@
-{
-  "name": "Hope",
-  "geoname": "Hope",
-  "type": "DISTRICT",
-  "mayor": {
-    "name": "Victor A. Smith",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Independent",
-    "email": "vsmith@hope.ca"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.hope.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Hope",
+    "geoname":  "Hope",
+    "type":  "DISTRICT",
+    "mayor":  {
+                  "name":  "Victor A. Smith",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Independent",
+                  "email":  "vsmith@hope.ca"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.hope.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.hope.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

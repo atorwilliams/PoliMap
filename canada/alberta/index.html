@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Alberta – PoliMap</title>
   <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css">
@@ -48,6 +48,8 @@
         <a class="nav-btn" href="judiciary.html">Alberta Judiciary</a>
         <a class="nav-btn" href="rcmp.html">Police in Alberta</a>
         <a class="nav-btn" href="government.html">Alberta Government</a>
+        <a class="nav-btn" href="representatives.html">Representatives</a>
+        <button class="nav-btn" id="search-nav-btn">Find My Reps</button>
         <a class="nav-btn" href="/contribute.html">Contribute</a>
         <a class="nav-btn" href="/donate.html">Donate</a>
         <a class="nav-btn" href="https://polichan.org" target="_blank">Discussion</a>
@@ -73,6 +75,10 @@
       <div class="control-header">RCMP K Division</div>
       <div id="rcmp-legend-items"></div>
     </div>
+    <div id="school-legend" class="map-control legend-control" style="display:none;">
+      <div class="control-header">School Divisions</div>
+      <div id="school-legend-items"></div>
+    </div>
 
     <!-- Layers -->
     <div id="layer-toggle" class="map-control layers-control">
@@ -81,6 +87,7 @@
       <button class="layer-btn" data-layer="federal">Federal (MPs)</button>
       <button class="layer-btn" data-layer="municipal">Municipal</button>
       <button class="layer-btn" data-layer="rcmp">RCMP Districts</button>
+      <button class="layer-btn" data-layer="school">School Divisions</button>
       <div style="padding: 6px 0 2px;">
         <button id="rcmp-overlay-btn" class="layer-sub-btn">RCMP Boundaries: Off</button>
       </div>
@@ -89,6 +96,20 @@
       </div>
     </div>
 
+  </div>
+
+  <!-- Search modal -->
+  <div id="search-modal" class="search-modal-overlay">
+    <div class="search-modal-panel">
+      <button class="search-modal-close" id="search-modal-close">×</button>
+      <h2 class="search-modal-title">Find Your Representatives</h2>
+      <div class="search-box">
+        <input id="search-input" type="text" placeholder="Address or postal code..." autocomplete="off" spellcheck="false" />
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="search-error" class="search-error"></div>
+      <div id="search-results"></div>
+    </div>
   </div>
 
   <div id="wip-notice">
@@ -118,5 +139,6 @@
     });
     document.addEventListener('click', () => wrap.classList.remove('open'));
   </script>
+  <script src="/shared/nav.js" defer></script>
 </body>
 </html>

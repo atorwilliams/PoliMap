@@ -1,25 +1,41 @@
-{
-  "name": "North Vancouver - District",
-  "geoname": "North Vancouver - District",
-  "type": "DISTRICT",
-  "mayor": {
-    "name": "Mike Little",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.dnv.org",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "North Vancouver - District",
+    "geoname":  "North Vancouver - District",
+    "type":  "DISTRICT",
+    "mayor":  {
+                  "name":  "Mike Little",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.dnv.org",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.dnv.org",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

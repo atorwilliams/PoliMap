@@ -1,25 +1,41 @@
-{
-  "name": "Qualicum Beach",
-  "geoname": "Qualicum Beach",
-  "type": "TOWN",
-  "mayor": {
-    "name": "Teunis Westbroek",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.qualicumbeach.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Qualicum Beach",
+    "geoname":  "Qualicum Beach",
+    "type":  "TOWN",
+    "mayor":  {
+                  "name":  "Teunis Westbroek",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.qualicumbeach.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.qualicumbeach.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

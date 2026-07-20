@@ -1,26 +1,42 @@
-{
-  "name": "Richmond",
-  "geoname": "Richmond",
-  "type": "CITY",
-  "mayor": {
-    "name": "Malcolm Brodie",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "mayorea@richmond.ca",
-    "party": "Independent",
-    "url": "https://www.richmond.ca/city-hall/city-council/members/brodie.htm"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Richmond",
+    "geoname":  "Richmond",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Malcolm Brodie",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "mayorea@richmond.ca",
+                  "party":  "Independent",
+                  "url":  "https://www.richmond.ca/city-hall/city-council/members/brodie.htm"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://elections.bc.ca/local-elections/2022-local-elections/",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

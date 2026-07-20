@@ -1,25 +1,41 @@
-{
-  "name": "Spallumcheen",
-  "geoname": "Spallumcheen",
-  "type": "TOWN",
-  "mayor": {
-    "name": "Christine Fraser",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "",
-    "party": "Acclaimed"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.spallumcheen.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Spallumcheen",
+    "geoname":  "Spallumcheen",
+    "type":  "TOWN",
+    "mayor":  {
+                  "name":  "Christine Fraser",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "",
+                  "party":  "Acclaimed"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.spallumcheen.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.spallumcheen.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

@@ -1,24 +1,40 @@
-{
-  "name": "Oak Bay",
-  "geoname": "Oak Bay",
-  "type": "DISTRICT",
-  "mayor": {
-    "name": "Kevin Murdoch",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Acclaimed"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.oak-bay.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Oak Bay",
+    "geoname":  "Oak Bay",
+    "type":  "DISTRICT",
+    "mayor":  {
+                  "name":  "Kevin Murdoch",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Acclaimed"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.oak-bay.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.oak-bay.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

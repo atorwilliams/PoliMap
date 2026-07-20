@@ -1,25 +1,41 @@
-{
-  "name": "North Vancouver - City",
-  "geoname": "North Vancouver - City",
-  "type": "CITY",
-  "mayor": {
-    "name": "Linda Buchanan",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "mayor@cnv.org",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.cnv.org",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "North Vancouver - City",
+    "geoname":  "North Vancouver - City",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Linda Buchanan",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "mayor@cnv.org",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.cnv.org",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.cnv.org",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

@@ -1,0 +1,125 @@
+﻿{
+  "districts": {
+    "Bow River Irrigation District": {
+      "slug": "bow-river",
+      "abbreviation": "BRID",
+      "manager": "Richard Phillips",
+      "location": "Vauxhall, AB",
+      "acres": 292978,
+      "website": "https://www.brid.ca",
+      "email": "",
+      "phone": "",
+      "board": []
+    },
+    "Eastern Irrigation District": {
+      "slug": "eastern",
+      "abbreviation": "EID",
+      "manager": "Ivan Friesen",
+      "location": "Brooks, AB",
+      "acres": 319338,
+      "website": "https://www.eid.ca",
+      "email": "",
+      "phone": "",
+      "board": []
+    },
+    "Lethbridge Northern Irrigation District": {
+      "slug": "lethbridge-northern",
+      "abbreviation": "LNID",
+      "manager": "Chris Gallagher",
+      "location": "Lethbridge, AB",
+      "acres": 199460,
+      "website": "https://www.lnid.ca",
+      "email": "",
+      "phone": "",
+      "board": []
+    },
+    "Magrath Irrigation District": {
+      "slug": "magrath",
+      "abbreviation": "MID",
+      "manager": "Cam Anderson",
+      "location": "Magrath, AB",
+      "acres": 18300,
+      "website": "",
+      "email": "",
+      "phone": "",
+      "board": []
+    },
+    "Mountain View Irrigation District": {
+      "slug": "mountain-view",
+      "abbreviation": "MVID",
+      "manager": "Jocelyn Wright",
+      "location": "Mountain View, AB",
+      "acres": 3733,
+      "website": "",
+      "email": "",
+      "phone": "",
+      "board": []
+    },
+    "Raymond Irrigation District": {
+      "slug": "raymond",
+      "abbreviation": "RID",
+      "manager": "Jason Miller",
+      "location": "Raymond, AB",
+      "acres": 54210,
+      "website": "https://www.raymondirrigationdistrict.ca",
+      "email": "",
+      "phone": "",
+      "board": []
+    },
+    "Ross Creek Irrigation District": {
+      "slug": "ross-creek",
+      "abbreviation": "RCID",
+      "manager": "Tanis Bakalar",
+      "location": "Medicine Hat, AB",
+      "acres": 1188,
+      "website": "",
+      "email": "",
+      "phone": "",
+      "board": []
+    },
+    "St. Mary River Irrigation District": {
+      "slug": "st-mary-river",
+      "abbreviation": "SMRID",
+      "manager": "David Westwood",
+      "location": "Lethbridge, AB",
+      "acres": 514486,
+      "website": "https://www.smrid.com",
+      "email": "",
+      "phone": "",
+      "board": []
+    },
+    "Southwest Irrigation District": {
+      "slug": "southwest",
+      "abbreviation": "SWID",
+      "manager": "Kevin Soper",
+      "location": "Cardston, AB",
+      "acres": 10785,
+      "website": "",
+      "email": "",
+      "phone": "",
+      "board": []
+    },
+    "United Irrigation District": {
+      "slug": "united",
+      "abbreviation": "UID",
+      "manager": "Fred Rice",
+      "location": "Glenwood, AB",
+      "acres": 34902,
+      "website": "https://www.uidistrict.com",
+      "email": "",
+      "phone": "",
+      "board": []
+    },
+    "Western Irrigation District": {
+      "slug": "western",
+      "abbreviation": "WID",
+      "manager": "Troy Tangedal",
+      "location": "Strathmore, AB",
+      "acres": 103523,
+      "website": "https://www.wid.net",
+      "email": "",
+      "phone": "",
+      "board": []
+    }
+  }
+}

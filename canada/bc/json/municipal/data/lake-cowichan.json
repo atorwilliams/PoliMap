@@ -1,23 +1,39 @@
-{
-  "name": "Lake Cowichan",
-  "geoname": "Lake Cowichan",
-  "type": "TOWN",
-  "mayor": {
-    "name": "",
-    "portrait": "",
-    "since": "",
-    "title": "Mayor",
-    "committees": [],
-    "phone": ""
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.lake-cowichan.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Lake Cowichan",
+    "geoname":  "Lake Cowichan",
+    "type":  "TOWN",
+    "mayor":  {
+                  "name":  "Tim McGonigle",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  ""
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.lake-cowichan.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.lake-cowichan.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

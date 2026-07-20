@@ -1,24 +1,40 @@
-{
-  "name": "Salmon Arm",
-  "geoname": "Salmon Arm",
-  "type": "CITY",
-  "mayor": {
-    "name": "Alan R. Harrison",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.salmonarm.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Salmon Arm",
+    "geoname":  "Salmon Arm",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Alan R. Harrison",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.salmonarm.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.salmonarm.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

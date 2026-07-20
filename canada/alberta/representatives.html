@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Alberta Representatives – PoliMap</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/institutional.css">
+  <link rel="stylesheet" href="representatives.css">
+</head>
+<body>
+
+  <header class="top-banner">
+    <div class="banner-container">
+      <a href="/" class="logo" style="text-decoration:none;">
+        <h1>PoliMap</h1>
+        <span>Ridings in Colour</span>
+      </a>
+      <nav class="main-nav">
+        <a class="nav-btn" href="index.html">Map View</a>
+        <a class="nav-btn" href="judiciary.html">Alberta Judiciary</a>
+        <a class="nav-btn" href="rcmp.html">Police in Alberta</a>
+        <a class="nav-btn" href="government.html">Alberta Government</a>
+        <a class="nav-btn active" href="representatives.html">Representatives</a>
+        <a class="nav-btn" href="/contribute.html">Contribute</a>
+        <a class="nav-btn" href="/donate.html">Donate</a>
+        <a class="nav-btn" href="https://polichan.org" target="_blank">Discussion</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <section class="page-hero">
+      <h1>Alberta Representatives</h1>
+      <p>Senators, Métis Settlement councils, and other bodies that represent Albertans beyond the Legislative Assembly.</p>
+    </section>
+
+    <nav class="sub-nav">
+      <button class="sub-nav-btn active" data-tab="senators">Senate of Canada</button>
+      <button class="sub-nav-btn" data-tab="metis">Métis Settlements</button>
+    </nav>
+
+    <div id="tab-senators" class="tab-panel">
+      <div class="reps-section-intro">
+        <p>Alberta has 6 appointed senators in the Senate of Canada. Senators are appointed by the Governor General on the advice of the Prime Minister and serve until age 75.</p>
+      </div>
+      <div class="senator-grid" id="senator-grid"></div>
+    </div>
+
+    <div id="tab-metis" class="tab-panel" style="display:none">
+      <div class="reps-section-intro">
+        <p>Alberta's 8 Métis Settlements are governed by elected Settlement Councils under the Métis Settlements Act. Each settlement elects a Chair and four councillors every four years.</p>
+      </div>
+      <div class="metis-grid" id="metis-grid"></div>
+    </div>
+
+  </main>
+
+  <script type="module" src="representatives.js"></script>
+
+  <div id="wip-notice">
+    <p>PoliMap is under active development. Data and features are being added regularly.</p>
+    <button id="wip-close" aria-label="Dismiss">×</button>
+  </div>
+  <script>
+    document.getElementById('wip-close').addEventListener('click', () => {
+      document.getElementById('wip-notice').classList.add('hidden');
+    });
+
+    const subNavBtns = document.querySelectorAll('.sub-nav-btn');
+    const tabPanels  = document.querySelectorAll('.tab-panel');
+    subNavBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        subNavBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const target = btn.dataset.tab;
+        tabPanels.forEach(panel => {
+          panel.style.display = panel.id === `tab-${target}` ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+
+  <script src="/shared/nav.js" defer></script>
+</body>
+</html>

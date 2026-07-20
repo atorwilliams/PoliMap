@@ -1,24 +1,40 @@
-{
-  "name": "Dawson Creek",
-  "geoname": "Dawson Creek",
-  "type": "CITY",
-  "mayor": {
-    "name": "Darcy A. Dober",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.dawsoncreek.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Dawson Creek",
+    "geoname":  "Dawson Creek",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Darcy A. Dober",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.dawsoncreek.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.dawsoncreek.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

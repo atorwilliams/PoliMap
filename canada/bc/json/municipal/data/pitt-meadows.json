@@ -1,25 +1,41 @@
-{
-  "name": "Pitt Meadows",
-  "geoname": "Pitt Meadows",
-  "type": "CITY",
-  "mayor": {
-    "name": "Nicole MacDonald",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Acclaimed",
-    "email": "kbarchard@pittmeadows.ca"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.pittmeadows.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Pitt Meadows",
+    "geoname":  "Pitt Meadows",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Nicole MacDonald",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Acclaimed",
+                  "email":  "kbarchard@pittmeadows.ca"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.pittmeadows.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.pittmeadows.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

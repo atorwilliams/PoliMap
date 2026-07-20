@@ -1,25 +1,41 @@
-{
-  "name": "Gibsons",
-  "geoname": "Gibsons",
-  "type": "TOWN",
-  "mayor": {
-    "name": "Silas White",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "mayorandcouncil@gibsons.ca",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.gibsons.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Gibsons",
+    "geoname":  "Gibsons",
+    "type":  "TOWN",
+    "mayor":  {
+                  "name":  "Silas White",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "mayorandcouncil@gibsons.ca",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.gibsons.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.gibsons.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

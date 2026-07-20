@@ -3,22 +3,28 @@
   "geoname": "Radium Hot Springs",
   "type": "VILLAGE",
   "mayor": {
-    "name": "",
+    "name": "Mike Gray",
     "portrait": "",
-    "since": "",
+    "since": "2022-10-15",
     "title": "Mayor",
     "committees": [],
     "phone": "",
     "email": "mayor@radiumhotsprings.ca"
   },
-  "council": [],
+  "council": [
+    { "name": "Erin Palashniuk", "role": "Councillor", "ward": "", "email": "", "phone": "" },
+    { "name": "Carey Collin",    "role": "Councillor", "ward": "", "email": "", "phone": "" },
+    { "name": "Christi Ferguson-Huston", "role": "Councillor", "ward": "", "email": "", "phone": "" },
+    { "name": "Dale Shudra",     "role": "Councillor", "ward": "", "email": "", "phone": "" }
+  ],
   "appointed": [],
-  "electionDate": "",
+  "electionDate": "2022-10-15",
   "nextElection": "",
-  "website": "https://www.radiumhotsprings.ca",
+  "website": "https://radiumhotsprings.ca",
   "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
+  "schoolTrustees": { "public": [], "catholic": [] },
+  "_sources": {
+    "mayor":   { "url": "https://globalnews.ca/news/9086042/bc-municipal-election-2022-radium-hot-springs-results/", "retrieved": "2026-06-08" },
+    "council": { "url": "https://globalnews.ca/news/9086042/bc-municipal-election-2022-radium-hot-springs-results/", "retrieved": "2026-06-08" }
   }
 }

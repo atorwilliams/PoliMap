@@ -1,0 +1,21 @@
+﻿{
+  "name": "Paddle Prairie Metis Settlement",
+  "code": "0412",
+  "region": "Peace Country",
+  "website": "https://paddleprairiemetis.com",
+  "phone": "780-981-2227",
+  "email": "",
+  "address": "PO Box 58, Paddle Prairie, AB T0H 2W0",
+  "population": null,
+  "electionDate": "",
+  "nextElection": "",
+  "council": {
+    "chair": { "name": "Lori Christian", "email": "", "phone": "" },
+    "members": [
+      { "name": "Dean Ducharme",     "role": "Vice Chair" },
+      { "name": "Philip Ghostkeeper","role": "Councillor" },
+      { "name": "Harley Poitras",    "role": "Councillor" },
+      { "name": "Chester Omoth",     "role": "Councillor" }
+    ]
+  }
+}

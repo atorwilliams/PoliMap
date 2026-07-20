@@ -1,0 +1,21 @@
+﻿{
+  "name": "Gift Lake Metis Settlement",
+  "code": "0410",
+  "region": "Peace Country",
+  "website": "https://giftlakemetis.ca",
+  "phone": "780-767-3794",
+  "email": "info@giftlakemetis.ca",
+  "address": "Box 60, Gift Lake, AB T0G 1B0",
+  "population": null,
+  "electionDate": "",
+  "nextElection": "",
+  "council": {
+    "chair": { "name": "Linda McLeod", "email": "", "phone": "" },
+    "members": [
+      { "name": "Allan Lamouche",   "role": "Vice Chair" },
+      { "name": "Leonard Anderson", "role": "Councillor" },
+      { "name": "Jim Anderson",     "role": "Councillor" },
+      { "name": "Howard Shaw",      "role": "Councillor" }
+    ]
+  }
+}

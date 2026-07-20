@@ -1,25 +1,41 @@
-{
-  "name": "Oliver",
-  "geoname": "Oliver",
-  "type": "TOWN",
-  "mayor": {
-    "name": "Martin Johansen",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "mjohansen@oliver.ca",
-    "party": "Acclaimed"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.oliver.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Oliver",
+    "geoname":  "Oliver",
+    "type":  "TOWN",
+    "mayor":  {
+                  "name":  "Martin Johansen",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "mjohansen@oliver.ca",
+                  "party":  "Acclaimed"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.oliver.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.oliver.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

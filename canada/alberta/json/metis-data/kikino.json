@@ -1,0 +1,21 @@
+﻿{
+  "name": "Kikino Metis Settlement",
+  "code": "0411",
+  "region": "Central Alberta",
+  "website": "https://www.kikinoms.com",
+  "phone": "780-623-7868",
+  "email": "",
+  "address": "General Delivery, Kikino, AB T0A 2C0",
+  "population": null,
+  "electionDate": "",
+  "nextElection": "",
+  "council": {
+    "chair": { "name": "Scott Cardinal", "email": "", "phone": "" },
+    "members": [
+      { "name": "David Thompson", "role": "Vice Chair" },
+      { "name": "Lee Thom",       "role": "Councillor" },
+      { "name": "Chad Cardinal",  "role": "Councillor" },
+      { "name": "Trent Pruden",   "role": "Councillor" }
+    ]
+  }
+}

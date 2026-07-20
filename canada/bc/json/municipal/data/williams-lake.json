@@ -1,25 +1,41 @@
-{
-  "name": "Williams Lake",
-  "geoname": "Williams Lake",
-  "type": "CITY",
-  "mayor": {
-    "name": "Surinderpal Rathor",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "bveenkamp@williamslake.ca",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.williamslake.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Williams Lake",
+    "geoname":  "Williams Lake",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Surinderpal Rathor",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "bveenkamp@williamslake.ca",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.williamslake.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.williamslake.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

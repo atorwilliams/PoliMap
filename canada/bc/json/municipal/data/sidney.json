@@ -1,25 +1,41 @@
-{
-  "name": "Sidney",
-  "geoname": "Sidney",
-  "type": "TOWN",
-  "mayor": {
-    "name": "Cliff McNeil-Smith",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "mayor@sidney.ca",
-    "party": "Acclaimed"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.sidney.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Sidney",
+    "geoname":  "Sidney",
+    "type":  "TOWN",
+    "mayor":  {
+                  "name":  "Cliff McNeil-Smith",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "mayor@sidney.ca",
+                  "party":  "Acclaimed"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.sidney.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.sidney.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

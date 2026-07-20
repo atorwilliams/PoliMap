@@ -687,9 +687,10 @@ export function findMunicipalAt(lng, lat) {
   const found = municipalPolygonFeatures.find(f => pointInFeature(lng, lat, f));
   if (!found) return null;
   const props = found.properties;
+  const geonameProp = _config?.municipalGeonameProperty || 'GEONAME';
   return {
-    geoname: props.GEONAME,
-    name: props.geonameTitled || toTitleCase(props.GEONAME || ''),
+    geoname: props[geonameProp],
+    name: props.geonameTitled || toTitleCase(props[geonameProp] || ''),
     typeLabel: MUNICIPAL_COLORS[props.municipalType]?.label || props.municipalType,
     typeColor: MUNICIPAL_COLORS[props.municipalType]?.color || '#999',
   };

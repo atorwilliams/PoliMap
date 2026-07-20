@@ -1,25 +1,41 @@
-{
-  "name": "Revelstoke",
-  "geoname": "Revelstoke",
-  "type": "CITY",
-  "mayor": {
-    "name": "Gary Sulz",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "gsulz@revelstoke.ca",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.revelstoke.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Revelstoke",
+    "geoname":  "Revelstoke",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Gary Sulz",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "gsulz@revelstoke.ca",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.revelstoke.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.revelstoke.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

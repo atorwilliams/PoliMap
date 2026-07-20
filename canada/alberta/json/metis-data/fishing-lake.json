@@ -1,0 +1,21 @@
+﻿{
+  "name": "Fishing Lake Metis Settlement",
+  "code": "0409",
+  "region": "Central Alberta",
+  "website": "https://flms.ca",
+  "phone": "780-943-2202",
+  "email": "",
+  "address": "General Delivery, Sputinow, AB T0A 3G0",
+  "population": null,
+  "electionDate": "",
+  "nextElection": "",
+  "council": {
+    "chair": { "name": "Savannah Durocher", "email": "", "phone": "" },
+    "members": [
+      { "name": "Tyson Brosseau",   "role": "Vice Chair" },
+      { "name": "Tania Daniels",    "role": "Councillor" },
+      { "name": "Dwayne Laboucane","role": "Councillor" },
+      { "name": "Leslie Callioux", "role": "Councillor" }
+    ]
+  }
+}

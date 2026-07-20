@@ -1,24 +1,40 @@
-{
-  "name": "Fort St John",
-  "geoname": "Fort St John",
-  "type": "CITY",
-  "mayor": {
-    "name": "Lilia Hansen",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.fortstjohn.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Fort St John",
+    "geoname":  "Fort St John",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Lilia Hansen",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.fortstjohn.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.fortstjohn.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

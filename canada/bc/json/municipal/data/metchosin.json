@@ -1,25 +1,41 @@
-{
-  "name": "Metchosin",
-  "geoname": "Metchosin",
-  "type": "DISTRICT",
-  "mayor": {
-    "name": "Marie-Térèse Little",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "mayorandcouncil@metchosin.ca",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.metchosin.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Metchosin",
+    "geoname":  "Metchosin",
+    "type":  "DISTRICT",
+    "mayor":  {
+                  "name":  "Marie-TÃ©rÃ¨se Little",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "mayorandcouncil@metchosin.ca",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.metchosin.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.metchosin.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }

@@ -1,25 +1,41 @@
-{
-  "name": "Merritt",
-  "geoname": "Merritt",
-  "type": "CITY",
-  "mayor": {
-    "name": "Michael G. Goetz",
-    "portrait": "",
-    "since": "2022-10-15",
-    "title": "Mayor",
-    "committees": [],
-    "phone": "",
-    "email": "michael.goetz@merritt.ca",
-    "party": "Independent"
-  },
-  "council": [],
-  "appointed": [],
-  "electionDate": "",
-  "nextElection": "",
-  "website": "https://www.merritt.ca",
-  "notes": "",
-  "schoolTrustees": {
-    "public": [],
-    "catholic": []
-  }
+﻿{
+    "name":  "Merritt",
+    "geoname":  "Merritt",
+    "type":  "CITY",
+    "mayor":  {
+                  "name":  "Michael G. Goetz",
+                  "portrait":  "",
+                  "since":  "2022-10-15",
+                  "title":  "Mayor",
+                  "committees":  [
+
+                                 ],
+                  "phone":  "",
+                  "email":  "michael.goetz@merritt.ca",
+                  "party":  "Independent"
+              },
+    "council":  [
+
+                ],
+    "appointed":  [
+
+                  ],
+    "electionDate":  "",
+    "nextElection":  "",
+    "website":  "https://www.merritt.ca",
+    "notes":  "",
+    "schoolTrustees":  {
+                           "public":  [
+
+                                      ],
+                           "catholic":  [
+
+                                        ]
+                       },
+    "_sources":  {
+                     "mayor":  {
+                                   "url":  "https://www.merritt.ca",
+                                   "retrieved":  "2026-06-08"
+                               }
+                 }
 }
