@@ -334,6 +334,7 @@ body {
 }
 
 .party-sidebar .member-card {
+  position: relative; /* anchors .card-text (absolute) to this card, not the sidebar */
   background: rgba(255, 255, 255, 0.08);
   border-radius: 12px;
   overflow: hidden;
